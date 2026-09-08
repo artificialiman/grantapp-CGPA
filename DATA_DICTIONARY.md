@@ -13,6 +13,60 @@ alongside it (§7.2), in the same PR.
 
 ---
 
+## `keystone_questions` `[OPEN — core table, needs priority design pass]`
+The 10,000-question-per-degree bank (INVARIANTS §11). This is the
+product's core content table — should be designed before the peripheral
+tables below, not after. Placeholder shape only.
+
+| Column | Meaning | Sensitive? | Who may write |
+|---|---|---|---|
+| `id` | Stable unique identifier | No | System |
+| `faculty` / `course_code` | Which faculty/course this question belongs to | No | Content team / admin |
+| `source` | `standard` (keystone bank) vs `user_submitted` (school/lecturer-specific, INVARIANTS §14) | No | System, set at creation |
+| `verification_status` | Whether a user-submitted question has been reviewed — `[OPEN]`, review process undecided per INVARIANTS §15 | No | Admin/reviewer role — `[OPEN]` who that is |
+| `content` | The question itself | No | Content team or student submitter |
+
+## `lesson_notes` `[OPEN — core table, needs priority design pass]`
+The "proper/standard lesson notes" content (INVARIANTS §13), plus
+school/lecturer-specific submissions (INVARIANTS §14). Placeholder shape
+only.
+
+| Column | Meaning | Sensitive? | Who may write |
+|---|---|---|---|
+| `id` | Stable unique identifier | No | System |
+| `faculty` / `course_code` | Which faculty/course | No | Content team / admin |
+| `source` | `standard` vs `user_submitted` | No | System |
+| `content` | The note itself | No | Content team or student submitter |
+
+## `student_question_progress` `[OPEN]`
+Tracks a student's progress toward the 10,000-question target
+(INVARIANTS §11) — the mastery-engine equivalent of grantapp-shell's
+mastery tracking, but scoped to a whole degree rather than one exam.
+Whether this reuses grantapp-shell's taxonomy/mastery engine or is a
+separate implementation is still an open architecture question
+(PROJECT_BRIEF "explicitly out of scope").
+
+| Column | Meaning | Sensitive? | Who may write |
+|---|---|---|---|
+| `student_id` | FK → `students.id` | No | System |
+| `keystone_question_id` | FK → `keystone_questions.id` | No | System |
+| `answered_at` / `result` | When answered and outcome | Yes — feeds rank | System |
+
+## `opportunity_listings` `[OPEN]`
+The internships / research community / survey-questionnaire demographic
+content that makes clear what a given degree offers (INVARIANTS §16).
+Distinct from the sister app's placement/matching function — this is
+GrantApp CGPA's own "here's what exists for your degree" awareness
+layer, not the application/matching pipeline itself. `[OPEN]` whether
+this table overlaps with or feeds the sister app's listings at all.
+
+| Column | Meaning | Sensitive? | Who may write |
+|---|---|---|---|
+| `id` | Stable unique identifier | No | System |
+| `faculty` | Which degree/faculty this is relevant to | No | Content team / admin |
+| `type` | internship / research community / survey-questionnaire / other | No | Content team |
+| `description` | What it is | No | Content team |
+
 ## `students` `[OPEN — fields below are a starting proposal, not final]`
 The core person-entity table. Lifecycle: active → inactive → archived
 (→ recycled, if ever applicable).
@@ -38,18 +92,12 @@ First Class/2:1/2:2/Third/Pass classification logic depends on it.
 | `grade_raw` | The actual score/grade earned | Yes — academic performance, treat as sensitive by default | Student-entered or verified import — `[OPEN]` |
 | `semester` | Which academic term | No | Student |
 
-## `exam_prep_activity` `[OPEN]`
-Tracks the "deliberate prep for maxing exams/tests" behavior
-(INVARIANTS §2) that the habits/rank profile is built from. Placeholder
-only — needs its own design pass, likely echoing (but not necessarily
-reusing — see PROJECT_BRIEF "explicitly out of scope") the shape of
-grantapp-shell's taxonomy/mastery tracking.
-
-| Column | Meaning | Sensitive? | Who may write |
-|---|---|---|---|
-| `student_id` | FK → `students.id` | No | System |
-| `activity_type` | What kind of prep action this is | No | System |
-| `result_data` | Outcome of the prep activity | Yes — feeds rank, treat as sensitive | System |
+## `exam_prep_activity` `[OPEN — superseded by student_question_progress above for keystone tracking]`
+Generic prep-activity tracking, kept as a placeholder for any prep
+behavior that isn't a keystone-question answer (e.g. lesson-note reading
+time, practice sessions). Most of what this table originally covered is
+now the dedicated `student_question_progress` table above — this one
+narrows to "everything else."
 
 ## `transcript_exports` `[OPEN]`
 The durable artifact a student's profile converts into per INVARIANTS §4

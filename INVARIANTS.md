@@ -21,6 +21,32 @@ awaiting confirmation.
    Law, Economics, Insurance) share one university-grading model or
    have faculty-specific variations — is undecided.
 
+## Mastery engine (the core of the product)
+
+11. `[CONFIRMED]` The implicit target is up to 10,000 keystone
+    questions asked per student over the course of a degree, before
+    graduation — this is the app's core mechanic, not a side feature.
+12. `[CONFIRMED]` Content must cover every course on the path to a
+    degree, not a curated subset — the promise is completeness across
+    the whole curriculum, mirrored to a "perfect CGPA" framing.
+13. `[CONFIRMED]` Beyond the keystone question bank, the app provides
+    proper/standard lesson notes — this is a content-delivery product,
+    not questions-only.
+14. `[CONFIRMED]` Students can submit notes/questions specific to their
+    own school or lecturer. Standard/keystone content is the baseline;
+    school- and lecturer-specific variation is captured on top of it,
+    not ignored in favor of one assumed national syllabus.
+15. `[OPEN]` How user-submitted school/lecturer-specific content is
+    reviewed, verified, or admitted into the standard keystone bank
+    (if ever) is undecided — belongs in PERMISSIONS.md once resolved.
+16. `[CONFIRMED]` A distinct implicit goal, independent of exam
+    performance: make clear to students, early in their degree, the
+    full range of opportunities that degree actually offers
+    (internships, research communities, relevant surveys/questionnaires
+    to participate in). This addresses students entering university not
+    knowing what's available to them — treated as a real product goal,
+    not just a marketing angle.
+
 ## Data lifecycle
 
 4. `[CONFIRMED]` A student's habits/results/rank profile is not deleted

@@ -16,13 +16,25 @@ Medicine, Pharmacy, Biochemistry, Microbiology, Law, Economics, Insurance.
 No institutional gatekeeping — self-serve, like GrantApp UTME.
 
 ## What success looks like
-- A student can prepare for their in-course exams/tests across their
-  faculty's curriculum, the same way UTME preps for entrance exams.
-- The app curates a student's habits, results, and rank — building the
-  credibility profile that feeds a sister app responsible for actual
+- **The core is mastery, not rank.** A student answers up to 10,000
+  keystone questions across their degree before graduation, backed by
+  proper/standard lesson notes, covering every course on the way to a
+  perfect CGPA — the same rigor as GrantApp UTME's taxonomy engine, aimed
+  at a full degree instead of a single entrance exam.
+- Students can submit notes/questions specific to their own school or
+  lecturer — the keystone bank is standard, but real courses vary by
+  institution and instructor, and the app accounts for that rather than
+  assuming one national syllabus.
+- The app makes clear, early, the full range of opportunities a specific
+  degree actually offers — internships, research communities, survey/
+  questionnaire demographics to participate in — because most students
+  enter university not knowing this and find out too late.
+- As a byproduct of sustained mastery-engine use, the app curates a
+  student's habits, results, and rank — which, only with explicit
+  per-student opt-in, can feed a sister app responsible for actual
   internship/fellowship/scholarship/apprenticeship listings and matching.
-  GrantApp CGPA is not itself the placement/listings engine — it produces
-  the signal that placement decisions are made on.
+  This is a downstream benefit of the mastery core, not the product's
+  starting point.
 - Faculty/course content is genuinely distinct per faculty, not a reskin
   of one generic template across 7 labels.
 
@@ -43,7 +55,11 @@ No institutional gatekeeping — self-serve, like GrantApp UTME.
   shape) belongs in DATA_DICTIONARY.md once defined.
 
 ## Status
-Draft — confirmed faculty list and agency-scope correction from founder
-interview. Ready for INVARIANTS.md, DATA_DICTIONARY.md, PERMISSIONS.md,
-and DECISIONS.md to be built on top of it. Open: the name and integration
-contract of the sister listings/placement app.
+Draft — corrected after founder clarification: this is a course/degree
+MASTERY app (10,000-keystone-question engine + lesson notes +
+school/lecturer-specific content), not primarily a rank/credibility
+layer for the sister app. Ready for INVARIANTS.md, DATA_DICTIONARY.md,
+PERMISSIONS.md, and DECISIONS.md to be built/revised on top of it. Open:
+the name and integration contract of the sister listings/placement app;
+exactly how school/lecturer-specific submissions are vetted before
+joining the keystone bank.
