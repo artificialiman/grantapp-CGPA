@@ -9,12 +9,20 @@ changes, add a new entry that supersedes it and say so explicitly.
 ---
 
 ## 2026-09-11 — Infrastructure ownership
-**Decision:** Handled by another agent, in progress at time of writing.
-**Context:** Neither a new Supabase project nor a new Vercel project for
-CGPA existed yet when checked (grantapp-shell/"Grantapp UTME" is still
-the only Supabase project on the account; grantapp-shell is still the
-only relevant Vercel project). Do not create competing infrastructure —
-confirm current state before assuming either is still pending.
+**Decision:** Shared Supabase project with UTME, separated by Postgres
+schema (`cgpa` vs UTME's `public`) — not a new project.
+**Context:** The org is at its free-tier 2-project limit (confirmed by
+an actual rejected project-creation attempt, not assumed) — the same
+limit found earlier this session when checking grantapp-shell's org.
+Schema-level separation keeps no table names colliding and no RLS
+policy crossing schemas, matching the doctrine's "fully separate
+suites" rule as closely as one Postgres instance allows. Both schemas
+share `auth.users` (one login can hold both a UTME and a CGPA account)
+— that's the only shared surface, same as ROLE_ADMIN being the one
+deliberately shared tool across both products. See
+`supabase/migrations/20260911070251_cgpa_0001_init.sql`.
+**Vercel:** still unresolved as of this entry — check current project
+list before assuming either way.
 
 ## 2026-09-11 — Taxonomy/mastery engine
 **Decision:** Reuse GrantApp UTME's taxonomy engine as the starting
