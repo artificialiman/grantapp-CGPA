@@ -13,15 +13,55 @@ alongside it (§7.2), in the same PR.
 
 ---
 
-## `keystone_questions` `[OPEN — core table, needs priority design pass]`
-The 10,000-question-per-degree bank (INVARIANTS §11). This is the
-product's core content table — should be designed before the peripheral
-tables below, not after. Placeholder shape only.
+## `taxonomy_tags` `[CONFIRMED — the extensibility mechanism INVARIANTS #17 requires]`
+The vocabulary keystone_questions/lesson_notes tag against, kept as a
+real table rather than a fixed enum specifically so it can grow. Seeded
+at launch with UTME's exact two-axis baseline (grantapp-shell's
+`TAXONOMY.md`: cognitive_patterns — Pragmatic, Logical, Canon/
+Administrative, Statistical/Predictive, Pure Mathematical; information_types
+— Essential/definitive, Contextual/rhetoric, Abstract/Visual, Procedural/
+supply chain, Mathematical Proofs) as `scope: global` rows. New tags —
+expected, per the founder's explicit framing, not a contingency — get
+added as real degree-specific content surfaces a gap the global 5+5
+doesn't cover (e.g. Law's statutory-interpretation reasoning doesn't fit
+UTME's five cognitive patterns cleanly), scoped to the one faculty that
+needed them rather than inflating the global set for everyone.
+
+Deliberately a real table, not a hardcoded array-of-strings check
+constraint on `keystone_questions` — growing a check constraint means an
+editing a migration and a deploy every time a tag is needed; growing a
+table row is an ordinary write, reviewable and attributable per §7.9.
+Postgres has no native FK-into-array-element constraint, so
+`keystone_questions.cognitive_patterns`/`information_types` stay `text[]`
+(matching UTME's own shape exactly) with membership validated at the
+application layer against this table, not a DB constraint — same
+trade-off UTME already accepted, not a new one introduced here.
+
+| Column | Meaning | Sensitive? | Who may write |
+|---|---|---|---|
+| `id` | Stable unique identifier | No | System |
+| `axis` | `cognitive_pattern` or `information_type` | No | System |
+| `tag_name` | The actual tag value, e.g. `Pragmatic` or a CGPA-specific addition | No | Admin/content team |
+| `scope` | `global` (all faculties) or a specific faculty name | No | Admin/content team |
+| `introduced_at` / `introduced_by` | Provenance for the iterative-growth model above (§7.9) | No | System, set at creation |
+
+## `keystone_questions` `[CONFIRMED shape, [OPEN] review workflow]`
+The 10,000-question-per-degree bank (INVARIANTS §11). Same physical
+shape as grantapp-shell's `questions` table where the concepts overlap
+directly (`cognitive_patterns text[]`, `information_types text[]`,
+`prompt`, `options` jsonb, `correct_option_id`, `explanation`,
+`difficulty`) — reused per INVARIANTS §17, not reinvented. `content_path`
+is intentionally NOT carried over: UTME's GitHub-depot pattern
+(`general/{subject}/{topic}/questions.json` as the source of truth,
+Postgres as a synced index) is a separate architecture decision for
+CGPA to make explicitly if wanted, not an assumed inheritance just
+because the taxonomy shape was reused.
 
 | Column | Meaning | Sensitive? | Who may write |
 |---|---|---|---|
 | `id` | Stable unique identifier | No | System |
 | `faculty` / `course_code` | Which faculty/course this question belongs to | No | Content team / admin |
+| `cognitive_patterns` / `information_types` | Tag arrays, validated against `taxonomy_tags` | No | Content team / admin |
 | `source` | `standard` (keystone bank) vs `user_submitted` (school/lecturer-specific, INVARIANTS §14) | No | System, set at creation |
 | `verification_status` | Whether a user-submitted question has been reviewed — `[OPEN]`, review process undecided per INVARIANTS §15 | No | Admin/reviewer role — `[OPEN]` who that is |
 | `content` | The question itself | No | Content team or student submitter |
@@ -38,13 +78,14 @@ only.
 | `source` | `standard` vs `user_submitted` | No | System |
 | `content` | The note itself | No | Content team or student submitter |
 
-## `student_question_progress` `[OPEN]`
+## `student_question_progress` `[CONFIRMED shape]`
 Tracks a student's progress toward the 10,000-question target
 (INVARIANTS §11) — the mastery-engine equivalent of grantapp-shell's
-mastery tracking, but scoped to a whole degree rather than one exam.
-Whether this reuses grantapp-shell's taxonomy/mastery engine or is a
-separate implementation is still an open architecture question
-(PROJECT_BRIEF "explicitly out of scope").
+`mastery_state`/`student_subject.topic_stats`, scoped to a whole degree
+rather than one exam. Resolved per INVARIANTS §17: reuses UTME's
+taxonomy-driven tracking shape (per-combo mastery, weak/avoidance
+tagging) rather than a separate implementation — the same reasoning
+`taxonomy_tags` above extends to this table's design.
 
 | Column | Meaning | Sensitive? | Who may write |
 |---|---|---|---|
