@@ -1,0 +1,330 @@
+/* ============================================================
+   Grant CGPA — Design Tokens & Component Library
+   Ported from grantapp-shell's DESIGN_SYSTEM.md / app.css (the "style
+   guide and design library" reuse explicitly scoped for this fork —
+   everything else in this app is custom-built to cgpa-state-of-play.md,
+   not forked). Kept: surfaces, typography, spacing/radius scale, brand
+   grain overlay, button/form/badge systems, the .site-nav scoping fix
+   (see that file's own bugfix comment — NOT reintroducing a bare `nav`
+   selector here). Dropped: the science/arts/commerce stream-color
+   system, which has no CGPA equivalent — replaced below with a
+   faculty-context mechanism using the same technique (remap --accent
+   per context class) for whenever Faculty-specific theming is wanted.
+   ============================================================ */
+
+/* Self-hosted via @fontsource (npm), not CDN-linked — same offline/PWA
+   reasoning as grantapp-shell: CDN fonts are unreachable offline, so
+   the actual font files ship in the app bundle instead. */
+@import '@fontsource/syne/700.css';
+@import '@fontsource/syne/800.css';
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/600.css';
+@import '@fontsource/dm-mono/400.css';
+@import '@fontsource/dm-mono/500.css';
+
+:root {
+	/* ── Surfaces ── */
+	--bg: #0a0a0f;
+	--surface: #111118;
+	--surface-2: #18181f;
+	--border: #1e1e2e;
+	--border-2: #2a2a3a;
+
+	/* ── Text ── */
+	--text: #f0eff4;
+	--muted: #7a7a8c;
+	--dim: #32323f;
+
+	/* ── Brand accent (amber/gold — same hex as UTME, the one
+	   deliberately shared visual identity element across both
+	   GrantApp products) ── */
+	--accent: #f59e0b;
+	--accent-dim: rgba(245, 158, 11, 0.12);
+	--accent-glow: rgba(245, 158, 11, 0.2);
+
+	/* ── State colors ── */
+	--green: #10b981;
+	--green-dim: rgba(16, 185, 129, 0.12);
+	--red: #ef4444;
+	--red-dim: rgba(239, 68, 68, 0.12);
+	--live: #4ade80;
+	--live-dim: rgba(74, 222, 128, 0.08);
+
+	/* ── Typography ── */
+	--font-display: 'Syne', sans-serif;
+	--font-sans: 'DM Sans', sans-serif;
+	--font-mono: 'DM Mono', 'Space Mono', 'Courier New', monospace;
+
+	/* ── Spacing ── */
+	--spacing-xs: 0.5rem;
+	--spacing-sm: 1rem;
+	--spacing-md: 1.5rem;
+	--spacing-lg: 2rem;
+	--spacing-xl: 3rem;
+
+	/* ── Radius ── */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-card: 14px;
+	--radius-lg: 1.25rem;
+	--radius-full: 9999px;
+}
+
+/* ── Faculty context blocks ──
+   The CGPA equivalent of grantapp-shell's .stream-context--science/
+   --arts/--commerce mechanism: apply .faculty-context--{slug} to a
+   route's root element to remap --accent for everything nested inside
+   it, without touching individual component classes. No faculty
+   colors are defined yet — this is the mechanism only, ready for
+   whenever a real per-faculty palette is specified (open item, not
+   guessed at here). Until then every faculty renders in the default
+   --accent (amber), which is a safe, correct default, not a
+   placeholder that looks broken. */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	line-height: 1.6;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+/* Brand grain overlay — ported verbatim, same SVG noise filter as
+   grantapp-shell, since this is a genuine cross-product brand
+   invariant, not a UTME-specific flourish. */
+body::after {
+	content: '';
+	position: fixed;
+	inset: 0;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+	pointer-events: none;
+	z-index: 999;
+	opacity: 0.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-display);
+	font-weight: 800;
+	letter-spacing: -0.02em;
+}
+
+a {
+	color: var(--text);
+	text-decoration: none;
+}
+
+/* ============================================================
+   NAV
+   Scoped to .site-nav from the start — grantapp-shell's app.css
+   originally used a bare `nav {}` element selector here and it later
+   collided with that app's admin bottom tab bar (also a <nav>),
+   producing a real production UI bug (position:sticky vs the tab
+   bar's own position:fixed fighting each other). Not repeating that
+   mistake: every rule below targets .site-nav explicitly, and any
+   future admin-style tab bar in this app should use its own class
+   the same way grantapp-shell's .admin-tabbar does, never a bare nav.
+   ============================================================ */
+
+.site-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.25rem 2rem;
+	border-bottom: 1px solid var(--border);
+	position: sticky;
+	top: 0;
+	background: rgba(10, 10, 15, 0.9);
+	backdrop-filter: blur(12px);
+	z-index: 100;
+}
+
+.site-nav.nav-dashboard {
+	padding: 1rem 2rem;
+	background: rgba(10, 10, 15, 0.92);
+	backdrop-filter: blur(14px);
+}
+
+.nav-left { display: flex; align-items: center; gap: 1.25rem; }
+.nav-divider { width: 1px; height: 18px; background: var(--border-2); }
+
+.brand {
+	font-family: var(--font-display);
+	font-weight: 800;
+	font-size: 1.25rem;
+	color: var(--text);
+	text-decoration: none;
+	letter-spacing: -0.02em;
+}
+.site-nav.nav-dashboard .brand { font-size: 1.1rem; }
+.brand span { color: var(--accent); }
+
+/* ============================================================
+   BREADCRUMB
+   ============================================================ */
+
+.breadcrumb { font-size: 0.8rem; color: var(--muted); }
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--text); }
+.breadcrumb .sep { margin: 0 0.4rem; color: var(--border-2); }
+.breadcrumb .current { color: var(--text); }
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+
+.notes-card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-left: 3px solid var(--accent);
+	border-radius: var(--radius-card);
+	padding: 1.5rem;
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	transition: box-shadow 0.2s;
+}
+.notes-card:hover { box-shadow: 0 0 20px var(--accent-glow); }
+
+/* ============================================================
+   BADGES
+   ============================================================ */
+
+.badge {
+	font-family: var(--font-mono);
+	font-size: 0.52rem;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	border-radius: var(--radius-sm);
+	padding: 0.17rem 0.42rem;
+}
+.badge.live { color: var(--live); background: var(--live-dim); border: 1px solid rgba(74, 222, 128, 0.18); }
+.badge.soon { color: var(--muted); background: rgba(100, 100, 122, 0.1); border: 1px solid rgba(100, 100, 122, 0.15); }
+.badge.pending { color: var(--accent); background: var(--accent-dim); border: 1px solid rgba(245, 158, 11, 0.25); }
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.5rem 0.9rem;
+	border-radius: var(--radius-md);
+	font-family: var(--font-sans);
+	font-size: 0.82rem;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	transition: all 0.2s;
+}
+.btn-sm { padding: 0.35rem 0.75rem; font-size: 0.78rem; }
+
+.btn-primary { background: var(--accent); color: #000; font-weight: 700; }
+.btn-primary:hover { opacity: 0.88; }
+
+.btn-secondary { background: var(--surface-2); color: var(--text); border: 1px solid var(--border-2); }
+.btn-secondary:hover { border-color: var(--muted); }
+
+.btn-danger { background: var(--red-dim); color: var(--red); border: 1px solid rgba(239, 68, 68, 0.3); }
+.btn-danger:hover { background: rgba(239, 68, 68, 0.2); border-color: var(--red); }
+
+.btn-icon {
+	background: var(--surface-2);
+	border: 1px solid var(--border-2);
+	color: var(--muted);
+	width: 36px;
+	height: 36px;
+	border-radius: var(--radius-md);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.2s;
+	font-size: 0.85rem;
+}
+.btn-icon:hover { color: var(--text); border-color: var(--muted); }
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: 1rem;
+	padding: 0.75rem 1rem;
+	background: var(--surface-2);
+	color: var(--text);
+	border: 1px solid var(--border-2);
+	border-radius: var(--radius-md);
+	transition: border-color 0.2s ease;
+}
+input::placeholder,
+textarea::placeholder { color: var(--muted); }
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+	border-color: var(--accent);
+	box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+/* ============================================================
+   ERROR / STATUS BANNERS
+   ============================================================ */
+
+.error-banner {
+	background: var(--red-dim);
+	border: 1px solid rgba(239, 68, 68, 0.3);
+	border-radius: var(--radius-md);
+	padding: 0.75rem 1rem;
+}
+.error-content { display: flex; align-items: center; gap: 0.75rem; color: #fee2e2; font-size: 0.85rem; }
+.error-content h3 { font-size: 0.85rem; font-weight: 700; }
+.error-content p { opacity: 0.85; }
+
+.error-banner.success {
+	background: var(--green-dim);
+	border-color: rgba(16, 185, 129, 0.3);
+}
+.error-banner.success .error-content { color: var(--green); }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+	text-align: center;
+	padding: 2rem;
+	color: var(--muted);
+	font-size: 0.8rem;
+	border-top: 1px solid var(--border);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 640px) {
+	.site-nav { padding: 0.85rem 1.25rem; }
+}
