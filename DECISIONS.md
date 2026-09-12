@@ -46,3 +46,23 @@ shares grantapp-shell's design tokens via a real package; founder's
 answer describes a third option (repo fork) neither offered choice
 anticipated. BRAND.md still needs writing once the fork lands and it's
 clear what, if anything, gets reskinned versus kept as-is.
+
+## 2026-09-11 — Visual brand SUPERSEDES the entry above
+**Decision:** NOT a full grantapp-shell repo fork. Only the design
+tokens/style guide (grantapp-shell's DESIGN_SYSTEM.md + the reusable
+parts of app.css — surfaces, typography, buttons, forms, the grain
+overlay) get reused. Everything else — routes, auth flow, schema,
+onboarding, quiz-UI — is a custom SvelteKit app built directly to
+cgpa-state-of-play.md, not derived from grantapp-shell's code.
+**Context:** Two different builds were in flight simultaneously — one
+agent had started a full-repo fork (the entry directly above this one),
+another had already scaffolded a from-scratch app reusing only the
+design tokens, on the understanding that "fork" meant style guide only.
+Founder's explicit resolution: keep the custom app, stop the full-repo
+fork.
+**Status as of this entry:** the custom app (auth: signup/login, device
+fingerprinting, 2-device self-serve limit; schema: cgpa.students/
+faculties/departments/courses/devices) is built and pushed. If the
+other agent's full-repo fork produced anything not yet superseded by
+this entry, it should be discarded in favor of the custom build,
+not merged alongside it.
