@@ -46,6 +46,17 @@ awaiting confirmation.
     to participate in). This addresses students entering university not
     knowing what's available to them — treated as a real product goal,
     not just a marketing angle.
+17. `[CONFIRMED]` The taxonomy/cognitive-profiling engine is reused from
+    GrantApp UTME (grantapp-shell) as the starting shape, not built
+    separately from scratch — resolving PROJECT_BRIEF's "not decided
+    either way yet." Founder's explicit condition: CGPA's real vocabulary
+    will need to grow well past UTME's fixed set, since a whole degree
+    across 7 faculties has far more curriculum breadth than UTME's national
+    syllabus — so this is an iterative expansion of the same tagging
+    *shape* (multi-tag arrays across cognitive/information axes), not a
+    promise to keep the exact same fixed value lists. See
+    DATA_DICTIONARY.md's `taxonomy_tags` table for the extensibility
+    mechanism this implies.
 
 ## Data lifecycle
 

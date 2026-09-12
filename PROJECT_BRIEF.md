@@ -42,9 +42,6 @@ No institutional gatekeeping — self-serve, like GrantApp UTME.
 - Plain GPA/CGPA arithmetic as a standalone utility/calculator — if it
   exists at all, it's a minor feature inside the exam-prep flow, not the
   product.
-- Sharing the taxonomy/mastery cognitive-profiling engine from
-  GrantApp UTME (grantapp-shell) — not decided either way yet; treat as
-  a separate, later decision, not an assumed inheritance.
 - Institution-specific/partner deployments (e.g. a TCC-style single-school
   build) — this is the any-student-any-school version.
 - Building or operating the internship/fellowship/scholarship/
@@ -53,6 +50,13 @@ No institutional gatekeeping — self-serve, like GrantApp UTME.
   how that profile is consumed by the sister app is that app's concern,
   though the handoff contract between the two (what data crosses, in what
   shape) belongs in DATA_DICTIONARY.md once defined.
+
+## Resolved since draft
+- Taxonomy/mastery cognitive-profiling engine: reused from GrantApp UTME
+  (grantapp-shell) as the starting shape, not built separately — see
+  INVARIANTS.md #17. Not a static inheritance: CGPA's real vocabulary is
+  expected to grow well past UTME's fixed set as real degree-breadth
+  content gets tagged.
 
 ## Status
 Draft — corrected after founder clarification: this is a course/degree
