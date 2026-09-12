@@ -1,4 +1,5 @@
 import { redirect } from '@sveltejs/kit';
+import { safeGetSessionOrDevBypass } from '$lib/auth/devMode';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -9,8 +10,13 @@ import type { PageServerLoad } from './$types';
  * visitor goes straight to /signup, a logged-in student straight to
  * /dashboard. This route exists only to make that redirect, not to
  * render anything itself.
+ *
+ * safeGetSessionOrDevBypass, not locals.safeGetSession directly — see
+ * devMode.ts. While CGPA_DEV_BYPASS_AUTH is on, this always resolves
+ * to the fixed dev student, so the homepage always redirects to
+ * /dashboard during build/test rather than bouncing to signup.
  */
 export const load: PageServerLoad = async ({ locals }) => {
-	const { session } = await locals.safeGetSession();
+	const { session } = await safeGetSessionOrDevBypass(locals);
 	throw redirect(303, session ? '/dashboard' : '/signup');
 };
