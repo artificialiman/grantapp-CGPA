@@ -1,0 +1,53 @@
+From fa5e176da10f456eec491d8a38eb28fcc32b2b73 Mon Sep 17 00:00:00 2001
+From: Tinggy <tinggy@grantapp.dev>
+Date: Sat, 12 Sep 2026 20:00:01 +0000
+Subject: [PATCH] Record onboarding-flow branch merge strategy (obase vs
+ sloww/onboarding-flow)
+
+---
+ DECISIONS.md | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+
+diff --git a/DECISIONS.md b/DECISIONS.md
+index 3ad0789..0c79104 100644
+--- a/DECISIONS.md
++++ b/DECISIONS.md
+@@ -66,3 +66,35 @@ faculties/departments/courses/devices) is built and pushed. If the
+ other agent's full-repo fork produced anything not yet superseded by
+ this entry, it should be discarded in favor of the custom build,
+ not merged alongside it.
++
++## 2026-09-12 19:57 UTC — Onboarding-flow branch merge strategy
++**Decision:** `obase` and `sloww/onboarding-flow` independently built the
++same 5-step onboarding flow (Faculty -> Department -> Year -> Course ->
++Quick Test/Mastery/Upload) under two different route trees, neither
++aware of the other. Resolution: keep `obase`'s route tree
++(`/faculties/...`) and its course-detail/Quick Test implementation
++(the only one of the two with a working, executable test session —
++`sloww`'s equivalent screen was a "Coming soon" placeholder). Retire
++`sloww`'s parallel `/onboarding/...` pages. Keep everything else
++`sloww` built that `obase` never touched: the persistent Tools nav
++shell, Transcript tracker, Path-to-first-class SVG, CGPA
++calculator/converter, Upload Course Material screen — rewire these to
++point at `obase`'s surviving onboarding routes instead of the retired
++`/onboarding/...` ones.
++**Context:** Neither branch's commits or DECISIONS.md entries reference
++the other; this was two agents solving the same doctrine steps in
++parallel, not a deliberate fork. `obase` added no new migration and
++reuses main's schema as-is; `sloww` added migrations
++`0003_seed_onboarding_content` and `0004_enrollments`, whose `0003`
++filename collides with main's already-merged
++`cgpa_0003_taxonomy_and_keystone` — not a verbatim collision (different
++content, same sequence number), so left as-is per founder call, same
++class of non-blocking collision main's own `3c36f48` commit fixed for a
++different pair. Anonymous (unauthenticated) course submission via
++`obase`'s `submit-course` endpoint is accepted as correct for now —
++founder's stated reason: only the dev team currently holds links to the
++demo, so there's no real anonymous-public exposure yet; auth gating
++returns as a doctrine item once the app is public.
++**Status as of this entry:** merge not yet executed in code — this
++entry records the resolved strategy for whichever agent performs the
++merge, not confirmation that it has happened.
+-- 
+2.43.0
+
