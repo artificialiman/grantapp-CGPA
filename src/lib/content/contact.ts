@@ -1,14 +1,16 @@
 /**
- * Shared contact link. Reused verbatim from grantapp-shell's own
- * src/lib/content/contact.ts, per cgpa-state-of-play.md Section 3:
- * "All CGPA WhatsApp-routing triggers... route to the SAME SINGLE
- * WhatsApp group [as UTME] — no per-trigger group split." Not a
- * separate CGPA-specific group.
+ * Shared contact link. Per cgpa-state-of-play.md Section 3: "All CGPA
+ * WhatsApp-routing triggers... route to the SAME SINGLE WhatsApp
+ * group [as UTME] — no per-trigger group split." Not a separate
+ * CGPA-specific group.
  *
- * TODO (carried over from grantapp-shell's own note): this is still
- * the 1:1 DM link, not a group invite link — swap once the real group
- * URL is shared. Update grantapp-shell's contact.ts too when that
- * happens, since the two are meant to stay identical, not just
- * initially copied.
+ * Real group invite link, received directly (not sourced from
+ * grantapp-shell's own contact.ts, which as of this file's last
+ * update still held the placeholder 1:1 DM link) — this is the swap
+ * both repos' TODO comments were waiting on. grantapp-shell's own
+ * src/lib/content/contact.ts needs the same update; not done from
+ * this repo since the two are separate codebases/deployments, but
+ * flagged here so it isn't missed — the two are meant to point at the
+ * identical destination, not just have started out copied.
  */
-export const WHATSAPP_URL = 'https://wa.me/message/6PR7WXZDM2YTKI';
+export const WHATSAPP_URL = 'https://chat.whatsapp.com/EGSE3SrFC0w3OuVZ7zJXeU';

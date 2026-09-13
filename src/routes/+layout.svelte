@@ -31,7 +31,8 @@
 		{ href: '/path-to-first-class', label: 'Path to First Class' },
 		{ href: '/cgpa-calculator', label: 'CGPA Calculator' },
 		{ href: '/cgpa-converter', label: 'CGPA Converter' },
-		{ href: '/upload-course-material', label: 'Upload Course Material' }
+		{ href: '/upload-course-material', label: 'Upload Course Material' },
+		{ href: '/whatsapp-groups', label: 'WhatsApp Groups' }
 	];
 
 	function toggleToolsMenu() {
