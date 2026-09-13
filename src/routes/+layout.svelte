@@ -29,6 +29,7 @@
 		{ href: '/dashboard', label: 'Dashboard' },
 		{ href: '/faculties', label: 'Browse Faculties & Courses' },
 		{ href: '/transcript', label: 'Transcript Tracker' },
+		{ href: '/analytics', label: 'Analytics' },
 		{ href: '/path-to-first-class', label: 'Path to First Class' },
 		{ href: '/cgpa-calculator', label: 'CGPA Calculator' },
 		{ href: '/cgpa-converter', label: 'CGPA Converter' },
