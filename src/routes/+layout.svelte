@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import '$lib/styles/glow-shimmer-motion.css';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { client } from '$lib/supabase';
