@@ -33,7 +33,8 @@
 	 * The one genuinely new piece, not in the UTME source: answer
 	 * feedback uses EXPERIENCE_CONTEXT.md §3's glow-pulse language
 	 * (`.answer-option.correct` / `.answer-option.incorrect`, from
-	 * lib/styles/glow-shimmer-motion.css) instead of UTME's flat
+	 * glow-shimmer-motion.css (root src/, not lib/ -- integrated there
+	 * by the merge-strategy patch execution) instead of UTME's flat
 	 * static color-swap -- doctrine item 14 names this the single
 	 * highest-value animation moment on the highest-value screen in
 	 * the app, so it gets the real treatment, not a placeholder.

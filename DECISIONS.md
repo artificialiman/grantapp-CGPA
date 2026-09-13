@@ -66,3 +66,17 @@ faculties/departments/courses/devices) is built and pushed. If the
 other agent's full-repo fork produced anything not yet superseded by
 this entry, it should be discarded in favor of the custom build,
 not merged alongside it.
+
+## 2026-09-13 — Onboarding-flow merge EXECUTED
+**Status update to the 2026-09-12 19:57 UTC entry above:** the merge
+strategy recorded there has now been carried out (commit 280f747,
+performed by Sloww standing in for Arty, who is currently paused).
+`obase`'s `/faculties/*` route tree is live on `main` as the canonical
+onboarding flow; `sloww`'s parallel `/onboarding/*` routes have been
+deleted. All of `sloww`'s other screens (Tools nav, Transcript tracker,
+Path-to-first-class, CGPA calculator/converter, Upload Course Material,
+WhatsApp Groups) are merged in and rewired to point at `/faculties/*`.
+Migration filename collision resolved (sloww's two migrations renamed
+0003->0005, 0004->0006). EXPERIENCE_CONTEXT.md and glow-shimmer-
+motion.css from the beforemerge_12-09/ upload are now live at their
+real paths and wired into the app. Full build verified clean post-merge.
