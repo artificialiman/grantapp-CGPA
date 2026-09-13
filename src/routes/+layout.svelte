@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import '../glow-shimmer-motion.css';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { client } from '$lib/supabase';
@@ -26,7 +27,7 @@
 	 */
 	const toolLinks = [
 		{ href: '/dashboard', label: 'Dashboard' },
-		{ href: '/onboarding', label: 'Browse Faculties & Courses' },
+		{ href: '/faculties', label: 'Browse Faculties & Courses' },
 		{ href: '/transcript', label: 'Transcript Tracker' },
 		{ href: '/path-to-first-class', label: 'Path to First Class' },
 		{ href: '/cgpa-calculator', label: 'CGPA Calculator' },

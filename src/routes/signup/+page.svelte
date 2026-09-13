@@ -73,7 +73,7 @@
 				return;
 			}
 
-			window.location.href = '/onboarding';
+			window.location.href = '/faculties';
 		} catch (err) {
 			error = (err as Error).message || 'An error occurred';
 			loading = false;

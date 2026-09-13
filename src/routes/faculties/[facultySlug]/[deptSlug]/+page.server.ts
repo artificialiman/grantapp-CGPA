@@ -35,6 +35,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		throw error(404, 'Unknown department');
 	}
 
+	type Course = { id: number; year: number; name: string; code: string | null; kind: string };
+
 	const { data: courses, error: coursesError } = await locals.supabase
 		.from('courses')
 		.select('id, year, name, code, kind')
@@ -49,7 +51,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	// Group by year for the "split by year" tree the spec calls for —
 	// simplest to shape this server-side than re-derive it in the
 	// template on every render.
-	const byYear = new Map<number, typeof courses>();
+	const byYear = new Map<number, Course[]>();
 	for (const course of courses ?? []) {
 		if (!byYear.has(course.year)) byYear.set(course.year, []);
 		byYear.get(course.year)!.push(course);

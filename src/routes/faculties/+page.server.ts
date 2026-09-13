@@ -12,6 +12,14 @@ import type { PageServerLoad } from './$types';
  * bolted onto a route as it's first being built. Open to anyone for
  * now; personalization/restriction is a deliberate later pass, not an
  * assumption baked in while this is still taking shape.
+ *
+ * TODO (EXPERIENCE_CONTEXT.md #3-4): a returning student with >=1
+ * enrollment should redirect straight to /dashboard rather than
+ * re-entering this wizard — [CONFIRMED] as a UX rule, but the exact
+ * gate condition (>=1 enrollment vs. an explicit onboarded_at flag on
+ * cgpa.students) is [OPEN], and no such flag exists on students yet.
+ * Not implemented here rather than guessed, per that doc's own
+ * status tags.
  */
 export const load: PageServerLoad = async ({ locals }) => {
 	const { data: faculties, error } = await locals.supabase

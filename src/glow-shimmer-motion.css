@@ -1,0 +1,214 @@
+/* ============================================================
+   Grant CGPA — Glow / Shimmer / Motion module
+   Doctrine: EXPERIENCE_CONTEXT.md sections 3-5. Additive only — does
+   not modify any existing rule in app.css. Import after app.css's
+   :root block so these vars can reference --accent/--green/--red.
+
+   All effects are pure CSS. None gate on network state, fetch
+   promises, or JS data-readiness — offline posture per §2.
+   ============================================================ */
+
+:root {
+	/* Idle glow — "this exists here." Static, low opacity, no motion. */
+	--glow-idle-opacity: 0.08;
+	--glow-idle-blur: 2px;
+
+	/* Active glow — "this is happening now." Animated, higher opacity. */
+	--glow-active-opacity: 0.35;
+	--glow-pulse-duration: 2.4s;
+
+	/* Shimmer sweep — imminent-change signal only. */
+	--shimmer-duration: 1.8s;
+	--shimmer-transition-duration: 300ms;
+}
+
+/* ============================================================
+   GLOW WATERMARK
+   A large background glyph (icon, initial, or text) sitting behind a
+   card's real content. Two states: idle (default, static) and
+   active (animated pulse) — never both on the same element at once.
+
+   Markup pattern:
+     <div class="glow-card">
+       <svg class="glow-watermark" aria-hidden="true">...</svg>
+       <div class="glow-card-content">...real content...</div>
+     </div>
+   ============================================================ */
+
+.glow-card {
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
+}
+
+.glow-watermark {
+	position: absolute;
+	bottom: -10%;
+	right: -10%;
+	width: 55%;
+	height: auto;
+	max-width: 160px;
+	opacity: var(--glow-idle-opacity);
+	filter: blur(var(--glow-idle-blur));
+	color: var(--accent);
+	pointer-events: none;
+	z-index: 0;
+}
+
+.glow-card-content {
+	position: relative;
+	z-index: 1;
+}
+
+/* Active/live variant — apply alongside .glow-watermark when the
+   card represents something genuinely in progress (an active streak,
+   a mid-attempt test, unread analytics). Do not apply by default. */
+.glow-watermark.glow-active {
+	opacity: var(--glow-active-opacity);
+	filter: blur(calc(var(--glow-idle-blur) * 1.5));
+	animation: glow-pulse var(--glow-pulse-duration) ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+	0%, 100% { opacity: var(--glow-active-opacity); }
+	50% { opacity: calc(var(--glow-active-opacity) * 0.6); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.glow-watermark.glow-active { animation: none; opacity: var(--glow-active-opacity); }
+}
+
+/* ============================================================
+   TEXT / ICON AS WATERMARK
+   Same technique applied to oversized text or an icon glyph directly
+   (e.g. a faculty initial, a subject icon) rather than a full SVG
+   illustration.
+   ============================================================ */
+
+.glow-text-watermark {
+	position: absolute;
+	bottom: -0.15em;
+	right: -0.05em;
+	font-family: var(--font-display);
+	font-weight: 800;
+	font-size: 6rem;
+	line-height: 1;
+	color: var(--accent);
+	opacity: var(--glow-idle-opacity);
+	pointer-events: none;
+	z-index: 0;
+	user-select: none;
+}
+
+/* ============================================================
+   SHIMMER SWEEP
+   Reserved for route transitions into a course/test (content about
+   to change) — never for already-rendered/static content. Fixed
+   duration, does not wait on or represent real fetch state.
+
+   Usage: toggle `.shimmer-active` on for --shimmer-transition-duration,
+   then remove it and swap in real (already-local) content.
+   ============================================================ */
+
+.shimmer-flourish {
+	position: relative;
+	overflow: hidden;
+}
+
+.shimmer-flourish.shimmer-active::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		90deg,
+		transparent 0%,
+		rgba(240, 239, 244, 0.06) 45%,
+		rgba(240, 239, 244, 0.14) 50%,
+		rgba(240, 239, 244, 0.06) 55%,
+		transparent 100%
+	);
+	background-size: 200% 100%;
+	animation: shimmer-sweep var(--shimmer-duration) ease-in-out;
+	pointer-events: none;
+}
+
+@keyframes shimmer-sweep {
+	0% { background-position: 150% 0; }
+	100% { background-position: -50% 0; }
+}
+
+/* Skeleton block variant — for the "fun, silvery" idle skeleton look
+   requested for its own sake. NEVER wraps real async content; use
+   only as a fixed-duration decorative transition state. */
+.skeleton-flourish {
+	background: linear-gradient(
+		90deg,
+		var(--surface) 25%,
+		var(--surface-2) 50%,
+		var(--surface) 75%
+	);
+	background-size: 200% 100%;
+	animation: shimmer-sweep var(--shimmer-duration) linear infinite;
+	border-radius: var(--radius-card);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.shimmer-flourish.shimmer-active::after,
+	.skeleton-flourish { animation: none; }
+}
+
+/* ============================================================
+   CARD PRESS / EVENT FEEDBACK
+   Every card/button confirms its own press locally — no toast, no
+   modal. Extends the existing .option-card:hover pattern (app.css)
+   and .notes-card glow-on-hover.
+   ============================================================ */
+
+.event-card {
+	transition: border-color 0.15s ease, background-color 0.12s ease;
+}
+
+.event-card:active {
+	background-color: var(--accent-dim);
+	transition: background-color 0.06s ease;
+}
+
+/* Success flash — e.g. course submitted, test finished. Add this
+   class briefly (JS timeout ~600ms) then remove; do not leave it on. */
+.event-card.event-success {
+	border-color: var(--live) !important;
+	background-color: var(--live-dim);
+	transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.event-card.event-error {
+	border-color: var(--red) !important;
+	background-color: var(--red-dim);
+	transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+/* ============================================================
+   TEST ANSWER FEEDBACK — highest-value animation moment per doctrine
+   §5 item 14. Glow pulse transitioning accent -> green/red.
+   ============================================================ */
+
+@keyframes answer-glow-correct {
+	0% { box-shadow: 0 0 0 var(--accent-glow); border-color: var(--accent); }
+	50% { box-shadow: 0 0 24px var(--live-dim); border-color: var(--live); }
+	100% { box-shadow: 0 0 12px var(--live-dim); border-color: var(--live); }
+}
+
+@keyframes answer-glow-incorrect {
+	0% { box-shadow: 0 0 0 var(--accent-glow); border-color: var(--accent); }
+	50% { box-shadow: 0 0 24px var(--red-dim); border-color: var(--red); }
+	100% { box-shadow: 0 0 12px var(--red-dim); border-color: var(--red); }
+}
+
+.answer-option.correct { animation: answer-glow-correct 0.5s ease-out forwards; }
+.answer-option.incorrect { animation: answer-glow-incorrect 0.5s ease-out forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+	.answer-option.correct,
+	.answer-option.incorrect { animation: none; border-color: var(--live); }
+	.answer-option.incorrect { border-color: var(--red); }
+}
