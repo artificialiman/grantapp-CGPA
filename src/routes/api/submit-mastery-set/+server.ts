@@ -74,6 +74,17 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		// Same belt-and-suspenders as mastery-set's GET -- see that
+		// file's comment for the full reasoning. This endpoint's writes
+		// (student_question_progress, mastery_state) both have a foreign
+		// key on cgpa.students(id) too.
+		const { error: ensureStudentError } = await adminClient
+			.from('students')
+			.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+		if (ensureStudentError) {
+			console.error('submit-mastery-set ensure-student error:', ensureStudentError);
+		}
+
 		const { data: assignment, error: assignmentError } = await adminClient
 			.from('mastery_assignments')
 			.select('id, student_id, current_set, question_sets, gate_1_fired_at, gate_2_fired_at')

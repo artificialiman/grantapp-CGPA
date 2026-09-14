@@ -52,6 +52,22 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		}
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
+
+		// Belt-and-suspenders, matching submit-quick-test/enroll-course's
+		// established pattern: migration 0007/0009's trigger auto-creates
+		// a cgpa.students row on signup now, but this insert below has a
+		// foreign key on cgpa.students(id) same as those two endpoints'
+		// writes did, and the fix's own commit message kept this exact
+		// check in place even after the trigger existed rather than
+		// remove it -- matching that choice here too, not skipping it
+		// just because the trigger makes it technically redundant.
+		const { error: ensureStudentError } = await adminClient
+			.from('students')
+			.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+		if (ensureStudentError) {
+			console.error('mastery-set ensure-student error:', ensureStudentError);
+		}
+
 		const today = new Date().toISOString().slice(0, 10);
 
 		const { data: existing, error: existingError } = await adminClient
