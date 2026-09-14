@@ -1,5 +1,7 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 
+type CgpaClient = SupabaseClient<any, string, 'cgpa', any, any>;
+
 /**
  * Ported from grantapp-shell's lib/quiz/mastery.ts -- doctrine Clause
  * 1 ("inherits UTME's 100-day-mastery flow shape... not built
@@ -16,7 +18,7 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 const EMA_ALPHA = 0.25; // weight given to the newest answer; higher = mastery reacts faster to recent performance
 
 export async function updateMasteryForAnswer(
-	supabase: SupabaseClient,
+	supabase: CgpaClient,
 	studentId: string,
 	courseId: number,
 	cognitivePatterns: string[],

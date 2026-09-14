@@ -1,5 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
+import { scoreAnswer } from '$lib/quiz/scoring';
 import type { RequestHandler } from './$types';
 
 const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
@@ -9,19 +10,9 @@ type SubmittedAnswer = {
 	selected_option_id: string | null;
 };
 
-/**
- * Scoring model: simple +1 correct / 0 skip / 0 wrong — no negative
- * marking. PROVISIONAL, not a doctrine-confirmed decision: UTME's
- * negative-marking scheme (skip beats guessing) is specific to JAMB's
- * real exam-day psychology and isn't something CGPA's docs ask for.
- * Kept as a single named constant so it's an easy, deliberate change
- * once a real CGPA scoring model is confirmed, not buried in the
- * scoring logic.
- */
-function scoreAnswer(isSkipped: boolean, isCorrect: boolean): number {
-	if (isSkipped) return 0;
-	return isCorrect ? 1 : 0;
-}
+// scoreAnswer moved to lib/quiz/scoring.ts -- submit-mastery-set needs
+// the exact same scoring and importing beats a second declaration.
+// See that file for the full scoring-model rationale.
 
 /**
  * The one write for a whole Quick Test session — same "one batched

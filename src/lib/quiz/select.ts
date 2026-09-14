@@ -1,5 +1,7 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 
+type CgpaClient = SupabaseClient<any, string, 'cgpa', any, any>;
+
 /**
  * Adaptive selection over the dual-axis taxonomy, ported from
  * grantapp-shell's lib/quiz/select.ts -- doctrine Clause 1 ("inherits
@@ -106,7 +108,7 @@ const QUESTION_COLUMNS =
  * UNKNOWN_COMBO_WEIGHT for everything) and Gate 2's Sets 4+5.
  */
 export async function selectAdaptiveQuestions(
-	supabase: SupabaseClient,
+	supabase: CgpaClient,
 	studentId: string,
 	courseId: number,
 	count: number,
@@ -148,7 +150,7 @@ export async function selectAdaptiveQuestions(
  * "weakness-targeted".
  */
 export async function selectStrengthQuestions(
-	supabase: SupabaseClient,
+	supabase: CgpaClient,
 	studentId: string,
 	courseId: number,
 	count: number,
