@@ -34,6 +34,7 @@
 		{ href: '/cgpa-calculator', label: 'CGPA Calculator' },
 		{ href: '/cgpa-converter', label: 'CGPA Converter' },
 		{ href: '/upload-course-material', label: 'Upload Course Material' },
+		{ href: '/my-submissions', label: 'My Submissions' },
 		{ href: '/whatsapp-groups', label: 'WhatsApp Groups' }
 	];
 

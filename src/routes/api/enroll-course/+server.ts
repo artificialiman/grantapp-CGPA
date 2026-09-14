@@ -47,6 +47,18 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		// Same students-row-may-not-exist-yet guard as check-device and
+		// submit-quick-test — enrollments.student_id has a foreign key on
+		// cgpa.students(id); without this, a logged-in student whose
+		// profile row hasn't been created yet would have their course
+		// addition silently fail with an opaque error.
+		const { error: ensureStudentError } = await adminClient
+			.from('students')
+			.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+		if (ensureStudentError) {
+			console.error('enroll-course ensure-student error:', ensureStudentError);
+		}
+
 		const { error: upsertError } = await adminClient.from('enrollments').upsert(
 			{
 				student_id: user.id,

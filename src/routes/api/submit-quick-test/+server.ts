@@ -50,6 +50,25 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		// Ensure a cgpa.students row exists before any progress write is
+		// attempted below — student_question_progress.student_id has a
+		// foreign-key constraint on cgpa.students(id), and a logged-in
+		// student without one yet (auth-last doctrine means signup and
+		// profile-completion aren't guaranteed sequential; this exact gap
+		// caused a real login 500 fixed earlier in check-device/+server.ts)
+		// would otherwise fail this upsert silently: the student sees
+		// their score on screen since scoring doesn't depend on this
+		// write, but their progress toward the question never actually
+		// saves, with nothing visible telling them that happened.
+		if (session && user) {
+			const { error: ensureStudentError } = await adminClient
+				.from('students')
+				.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+			if (ensureStudentError) {
+				console.error('submit-quick-test ensure-student error:', ensureStudentError);
+			}
+		}
+
 		const questionIds = answers.map((a) => a.question_id);
 		const { data: questions, error: questionsError } = await adminClient
 			.from('keystone_questions')

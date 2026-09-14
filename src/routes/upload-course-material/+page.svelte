@@ -5,8 +5,47 @@
 	export let data: PageData;
 
 	let selectedCourseId: number | '' = '';
+	let notesText = '';
+	let recording = false;
+	let recordError: string | null = null;
+	let recorded = false;
 
 	$: selectedCourse = data.courses.find((c) => c.id === selectedCourseId);
+
+	/**
+	 * Records the submission app-side (so it shows up in My
+	 * Submissions with status tracking, and gets course-code detection
+	 * against notesText), then opens WhatsApp — the actual message
+	 * still goes out manually per doctrine, this just stops the app
+	 * from forgetting the submission ever happened the moment the
+	 * student leaves for WhatsApp.
+	 */
+	async function recordAndOpenWhatsapp() {
+		recording = true;
+		recordError = null;
+		try {
+			const res = await fetch('/api/submit-material', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					course_id: selectedCourseId || null,
+					notes_text: notesText || null
+				})
+			});
+			if (!res.ok) {
+				const body = await res.json().catch(() => ({}));
+				recordError = body.message ?? 'Failed to record submission';
+				recording = false;
+				return;
+			}
+			recorded = true;
+			window.open(WHATSAPP_URL, '_blank', 'noopener,noreferrer');
+		} catch (err) {
+			recordError = (err as Error).message || 'Failed to record submission';
+		} finally {
+			recording = false;
+		}
+	}
 </script>
 
 <div class="wrap">
@@ -25,6 +64,10 @@
 		</p>
 	</div>
 
+	{#if recordError}
+		<div class="error-banner"><div class="error-content"><p>{recordError}</p></div></div>
+	{/if}
+
 	{#if data.courses.length > 0}
 		<div class="form-group">
 			<label for="course">Which course is this for? (optional, but helps us prioritize)</label>
@@ -37,7 +80,29 @@
 		</div>
 	{/if}
 
-	<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" class="btn btn-primary whatsapp-btn">
+	<div class="form-group">
+		<label for="notes">Describe what you're sending (optional)</label>
+		<textarea
+			id="notes"
+			bind:value={notesText}
+			rows="4"
+			placeholder="e.g. Past questions for CSC201, or paste a snippet of your notes"
+		></textarea>
+		<p class="form-hint">
+			If you mention a course code here, we'll pick it up automatically — even if it's different
+			from what you selected above.
+		</p>
+	</div>
+
+	{#if recorded}
+		<div class="error-banner success">
+			<div class="error-content">
+				<p>Submission recorded — check <a href="/my-submissions">My Submissions</a> for its status.</p>
+			</div>
+		</div>
+	{/if}
+
+	<button type="button" class="btn btn-primary whatsapp-btn" disabled={recording} on:click={recordAndOpenWhatsapp}>
 		<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
 			<path
 				d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"
@@ -46,9 +111,10 @@
 				d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.87.505 3.66 1.463 5.226L2 22l4.883-1.44a10.03 10.03 0 0 0 5.121 1.396h.005c5.518 0 10.004-4.487 10.004-10.005C22.013 6.486 17.527 2 12.004 2zm0 18.278h-.004a8.29 8.29 0 0 1-4.226-1.156l-.303-.18-3.145.928.938-3.07-.198-.315a8.294 8.294 0 0 1-1.276-4.435c0-4.578 3.727-8.303 8.31-8.303 2.219 0 4.305.864 5.875 2.435a8.244 8.244 0 0 1 2.433 5.876c0 4.578-3.727 8.22-8.404 8.22z"
 			/>
 		</svg>
-		{selectedCourse ? `Message us about ${selectedCourse.name}` : 'Message us on WhatsApp'}
-	</a>
+		{recording ? 'Recording...' : selectedCourse ? `Message us about ${selectedCourse.name}` : 'Message us on WhatsApp'}
+	</button>
 
+	<a href="/my-submissions" class="back-link">View my submissions</a>
 	<a href="/dashboard" class="back-link">Back to dashboard</a>
 </div>
 
@@ -104,6 +170,17 @@
 		letter-spacing: 0.05em;
 		color: var(--muted);
 		font-size: 0.68rem;
+	}
+
+	.form-group textarea {
+		width: 100%;
+		resize: vertical;
+		font-family: var(--font-sans);
+	}
+
+	.form-hint {
+		font-size: 0.72rem;
+		color: var(--muted);
 	}
 
 	.whatsapp-btn {
