@@ -117,7 +117,10 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 		const { data: questions, error: questionsError } = await adminClient
 			.from('keystone_questions')
-			.select('id, course_id, cognitive_patterns, information_types, prompt, options, correct_option_id, explanation, difficulty')
+			.select('id, course_id, cognitive_patterns, information_types, prompt, options, difficulty')
+			// Deliberately no correct_option_id/explanation -- see
+			// check-mastery-answer/+server.ts for how practice-mode
+			// feedback is shown without sending the answer key upfront.
 			.in('id', currentSetIds);
 
 		if (questionsError) throw questionsError;

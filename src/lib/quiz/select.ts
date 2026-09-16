@@ -29,8 +29,6 @@ export type KeystoneQuestion = {
 	information_types: string[];
 	prompt: string;
 	options: { id: string; text: string }[];
-	correct_option_id: string;
-	explanation: string | null;
 	difficulty: number | null;
 };
 
@@ -100,7 +98,15 @@ function weightedSample<T>(items: T[], weights: number[], count: number): T[] {
 }
 
 const QUESTION_COLUMNS =
-	'id, course_id, cognitive_patterns, information_types, prompt, options, correct_option_id, explanation, difficulty';
+	'id, course_id, cognitive_patterns, information_types, prompt, options, difficulty';
+// Deliberately no correct_option_id/explanation here -- the weighting
+// logic in this file never uses them (only cognitive_patterns/
+// information_types feed questionWeight), and this same query result
+// is what mastery-set/+server.ts sends straight to the client. See
+// 402f267 ("Fix answer-key leak: quick-test-session was sending
+// correct_option_id + explanation to the client") -- same leak would
+// exist here otherwise, just not yet caught by that fix since it only
+// touched quick-test-session.
 
 /**
  * Weakness-favored draw: low-mastery combos sampled more heavily.

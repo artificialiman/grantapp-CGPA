@@ -1,9 +1,25 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import ExamShell, { type ExamQuestion, type ExamAnswer } from '$lib/components/ExamShell.svelte';
+	import ExamShell, {
+		type ExamQuestion,
+		type ExamAnswer,
+		type AnswerCheckResult
+	} from '$lib/components/ExamShell.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+
+	async function checkAnswer(questionId: number, selectedOptionId: string | null): Promise<AnswerCheckResult> {
+		const res = await fetch('/api/check-mastery-answer', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ question_id: questionId, selected_option_id: selectedOptionId })
+		});
+		if (!res.ok) {
+			throw new Error('Failed to check answer');
+		}
+		return res.json();
+	}
 
 	// State machine ported from grantapp-shell's daily-100/+page.svelte --
 	// doctrine Clause 1. No 'config'/picker phase: unlike UTME's daily-100
@@ -107,7 +123,13 @@
 		<p class="status-text">Working out what to focus on next…</p>
 	{:else if phase === 'running'}
 		<div class="progress-note">Set {currentSet} of 5 — {data.courseName}</div>
-		<ExamShell courseLabel={data.courseName} {questions} mode="practice" onComplete={handleSetComplete} />
+		<ExamShell
+			courseLabel={data.courseName}
+			{questions}
+			mode="practice"
+			{checkAnswer}
+			onComplete={handleSetComplete}
+		/>
 	{:else if phase === 'set-complete'}
 		<h1 class="page-title">Set {currentSet - 1} done</h1>
 		<p class="page-intro">

@@ -4,6 +4,16 @@
 		course_id: number;
 		prompt: string;
 		options: { id: string; text: string }[];
+		// Deliberately no correct_option_id/explanation here -- neither
+		// is ever sent by the server before an answer is submitted (see
+		// api/check-mastery-answer, fixing the same class of leak as
+		// 402f267's quick-test-session fix). Practice mode's reveal
+		// state gets these from checkAnswer's response instead, not
+		// from this object.
+	};
+
+	export type AnswerCheckResult = {
+		is_correct: boolean;
 		correct_option_id: string;
 		explanation: string | null;
 	};
@@ -44,6 +54,14 @@
 	export let mode: 'practice' | 'exam' = 'practice';
 	export let onAnswer: ((answer: ExamAnswer) => void | Promise<void>) | null = null;
 	export let onComplete: (answers: ExamAnswer[]) => void | Promise<void>;
+	/**
+	 * Required in practice mode -- the only way this component can show
+	 * correct/incorrect + explanation now that the answer key is never
+	 * sent upfront (see ExamQuestion's own comment, and
+	 * api/check-mastery-answer/+server.ts for the endpoint this calls
+	 * through to). Unused in exam mode, which never reveals per-question.
+	 */
+	export let checkAnswer: ((questionId: number, selectedOptionId: string | null) => Promise<AnswerCheckResult>) | null = null;
 
 	const dispatch = createEventDispatcher<{ answered: ExamAnswer }>();
 
@@ -51,6 +69,8 @@
 	let selectedOptionId: string | null = null;
 	let confidenceRating: number | null = null;
 	let revealed = false;
+	let revealCorrectOptionId: string | null = null;
+	let revealExplanation: string | null = null;
 	let questionShownAt = Date.now();
 	let submitting = false;
 	let finished = false;
@@ -101,6 +121,8 @@
 		selectedOptionId = null;
 		confidenceRating = null;
 		revealed = false;
+		revealCorrectOptionId = null;
+		revealExplanation = null;
 		questionShownAt = Date.now();
 	}
 
@@ -121,6 +143,11 @@
 
 		if (mode === 'practice') {
 			selectedOptionId = optionId;
+			if (checkAnswer) {
+				const result = await checkAnswer(currentQuestion.id, optionId);
+				revealCorrectOptionId = result.correct_option_id;
+				revealExplanation = result.explanation;
+			}
 			revealed = true;
 			submitting = false;
 			return;
@@ -179,8 +206,8 @@
 			<div class="options" role="radiogroup" aria-label="Answer options">
 				{#each currentQuestion.options as option}
 					{@const isSelected = selectedOptionId === option.id}
-					{@const isCorrectOption = revealed && option.id === currentQuestion.correct_option_id}
-					{@const isWrongPick = revealed && isSelected && option.id !== currentQuestion.correct_option_id}
+					{@const isCorrectOption = revealed && option.id === revealCorrectOptionId}
+					{@const isWrongPick = revealed && isSelected && option.id !== revealCorrectOptionId}
 					<button
 						type="button"
 						class="answer-option"
@@ -212,8 +239,8 @@
 				</div>
 			{/if}
 
-			{#if revealed && currentQuestion.explanation}
-				<p class="explanation">{currentQuestion.explanation}</p>
+			{#if revealed && revealExplanation}
+				<p class="explanation">{revealExplanation}</p>
 			{/if}
 
 			<div class="actions">
