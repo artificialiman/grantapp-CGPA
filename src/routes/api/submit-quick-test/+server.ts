@@ -1,6 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
 import { scoreAnswer } from '$lib/quiz/scoring';
+import { updateMasteryForAnswer } from '$lib/quiz/mastery';
 import type { RequestHandler } from './$types';
 
 const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
@@ -72,7 +73,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		const questionIds = answers.map((a) => a.question_id);
 		const { data: questions, error: questionsError } = await adminClient
 			.from('keystone_questions')
-			.select('id, correct_option_id')
+			.select('id, correct_option_id, cognitive_patterns, information_types')
 			.in('id', questionIds);
 
 		if (questionsError) throw questionsError;
@@ -104,6 +105,34 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 					is_skipped: isSkipped,
 					points_awarded: points
 				});
+
+				// mastery_state update — this is what /analytics reads from.
+				// Without this, submit-quick-test only ever wrote to
+				// student_question_progress, leaving every Quick Test result
+				// invisible to a student's own progress-tracking screen — a
+				// real break in "track progress with detailed analysis"
+				// found while auditing this endpoint, not reported by a
+				// user. Skipped answers don't update mastery, same
+				// convention grantapp-shell's own updateMasteryForAnswer
+				// call sites already follow — a skip carries no signal
+				// about whether the student actually knows the combo.
+				if (!isSkipped) {
+					try {
+						await updateMasteryForAnswer(
+							adminClient,
+							user.id,
+							Number(course_id),
+							question.cognitive_patterns ?? [],
+							question.information_types ?? [],
+							isCorrect
+						);
+					} catch (masteryError) {
+						console.error('quick-test mastery update error:', masteryError);
+						// Same reasoning as the progress-upsert failure below —
+						// a mastery-tracking failure shouldn't cost the student
+						// their results screen either.
+					}
+				}
 			}
 		}
 

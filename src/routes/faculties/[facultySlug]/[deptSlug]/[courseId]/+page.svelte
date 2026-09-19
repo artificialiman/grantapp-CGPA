@@ -3,6 +3,45 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+
+	let semester: 1 | 2 = 1;
+	let enrolling = false;
+	let enrollError: string | null = null;
+	let justEnrolled = false;
+
+	/**
+	 * The write side of the enroll flow — api/enroll-course already
+	 * existed and worked correctly, but nothing in the app UI ever
+	 * called it. Found while auditing track-progress: /transcript and
+	 * /path-to-first-class both read from cgpa.enrollments, which
+	 * nothing ever wrote to, so both screens were permanently empty
+	 * for every real user regardless of how much Quick Test they took
+	 * (Quick Test intentionally doesn't touch enrollments — that table
+	 * is for a student's actual grade record, a separate concept from
+	 * practice-test activity).
+	 */
+	async function addToMyCourses() {
+		enrolling = true;
+		enrollError = null;
+		try {
+			const res = await fetch('/api/enroll-course', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ course_id: data.course.id, semester })
+			});
+			if (!res.ok) {
+				const body = await res.json().catch(() => ({}));
+				enrollError = body.message ?? 'Failed to add course';
+				enrolling = false;
+				return;
+			}
+			justEnrolled = true;
+		} catch (err) {
+			enrollError = (err as Error).message || 'Failed to add course';
+		} finally {
+			enrolling = false;
+		}
+	}
 </script>
 
 <div class="wrap">
@@ -15,6 +54,32 @@
 
 	<h1 class="page-title">{data.course.name}</h1>
 	{#if data.course.code}<p class="course-code">{data.course.code}</p>{/if}
+
+	{#if data.isLoggedIn}
+		{#if data.alreadyEnrolled || justEnrolled}
+			<div class="error-banner success">
+				<div class="error-content">
+					<p>This course is in your <a href="/transcript">transcript</a>.</p>
+				</div>
+			</div>
+		{:else}
+			<div class="enroll-card">
+				{#if enrollError}
+					<div class="error-banner"><div class="error-content"><p>{enrollError}</p></div></div>
+				{/if}
+				<label for="semester" class="enroll-label">Add this to your record — semester</label>
+				<div class="enroll-row">
+					<select id="semester" bind:value={semester} disabled={enrolling}>
+						<option value={1}>Semester 1</option>
+						<option value={2}>Semester 2</option>
+					</select>
+					<button type="button" class="btn btn-primary" disabled={enrolling} on:click={addToMyCourses}>
+						{enrolling ? 'Adding...' : 'Add to My Courses'}
+					</button>
+				</div>
+			</div>
+		{/if}
+	{/if}
 
 	<div class="action-grid">
 		<a
@@ -92,6 +157,29 @@
 		font-size: 0.8rem;
 		color: var(--muted);
 		margin-bottom: 1.5rem;
+	}
+
+	.enroll-card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-card);
+		padding: 1.25rem;
+		margin: 1.5rem 0;
+	}
+
+	.enroll-label {
+		display: block;
+		font-family: var(--font-mono);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--muted);
+		font-size: 0.68rem;
+		margin-bottom: 0.6rem;
+	}
+
+	.enroll-row {
+		display: flex;
+		gap: 0.6rem;
 	}
 
 	.action-grid {

@@ -14,8 +14,12 @@
 		id: number;
 		prompt: string;
 		options: Option[];
-		correct_option_id: string;
-		explanation?: string | null;
+		// correct_option_id and explanation are deliberately NOT part of
+		// this type — quick-test-session/+server.ts strips both before
+		// sending questions to the client (see that file's own comment),
+		// so this type reflects what actually arrives, not what the DB
+		// row originally had. Grading happens entirely server-side in
+		// submit-quick-test, which re-fetches these columns itself.
 	};
 
 	type ResultData = {
