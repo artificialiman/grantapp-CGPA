@@ -97,11 +97,20 @@
 			</span>
 		</a>
 
-		<!-- COPY NEEDED: real copy for the 100-day Mastery entry point -->
-		<div class="action-card disabled">
+		<a
+			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.id}/mastery"
+			class="action-card"
+			class:disabled={data.questionCount === 0}
+		>
 			<span class="action-title">100-day Mastery</span>
-			<span class="action-detail">Coming soon — the staged, adaptive path through this course's bank.</span>
-		</div>
+			<span class="action-detail">
+				{#if data.questionCount === 0}
+					No questions available yet for this course
+				{:else}
+					5 sets of 20, staged around your strengths and weak spots as you go
+				{/if}
+			</span>
+		</a>
 
 		<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" class="action-card">
 			<span class="action-title">Upload your own content</span>
