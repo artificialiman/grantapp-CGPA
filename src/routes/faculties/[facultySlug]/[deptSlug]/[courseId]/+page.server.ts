@@ -39,11 +39,9 @@ export const load: PageServerLoad = async (event) => {
 		.eq('id', course.department_id)
 		.maybeSingle();
 
-	const { count: questionCount } = await locals.supabase
-		.from('keystone_questions')
-		.select('id', { count: 'exact', head: true })
-		.eq('course_id', course.id)
-		.eq('approval_status', 'approved');
+	const { data: questionCount } = await locals.supabase.rpc('approved_question_count', {
+		p_course_id: course.id
+	});
 
 	// Session is optional here (page has no auth gate) — only used to
 	// check existing enrollment status, never to block rendering.
