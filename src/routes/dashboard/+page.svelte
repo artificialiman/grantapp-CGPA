@@ -19,6 +19,22 @@
 		{#if data.devAuthBypass}<span class="dev-note">(dev auth bypass active)</span>{/if}
 	</h1>
 
+	<a
+		href={data.practiceCourseId ? `/practice/${data.practiceCourseId}` : '/faculties'}
+		class="take-test-cta"
+	>
+		<span class="take-test-label">Take a Test</span>
+		<span class="take-test-sub">
+			{#if weakest}
+				Practice your weakest area{#if weakest.courses}: {weakest.courses.name}{/if}
+			{:else if data.practiceCourseId}
+				Jump into your enrolled course
+			{:else}
+				Browse a faculty to get started
+			{/if}
+		</span>
+	</a>
+
 	<div class="summary-row">
 		<div class="summary-card">
 			<span class="summary-label">Courses on record</span>
@@ -78,6 +94,40 @@
 		font-size: clamp(1.75rem, 4vw, 2.25rem);
 		letter-spacing: -0.03em;
 		margin-bottom: 1.5rem;
+	}
+
+	.take-test-cta {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.2rem;
+		width: 100%;
+		padding: 1.5rem 1.75rem;
+		margin-bottom: 1.5rem;
+		background: var(--accent);
+		color: var(--accent-contrast, #fff);
+		border-radius: var(--radius-card);
+		text-decoration: none;
+		transition: transform 0.08s ease, box-shadow 0.08s ease;
+		box-shadow: 0 4px 18px rgba(0, 0, 0, 0.14);
+	}
+
+	.take-test-cta:hover,
+	.take-test-cta:focus-visible {
+		transform: translateY(-1px);
+		box-shadow: 0 6px 22px rgba(0, 0, 0, 0.18);
+	}
+
+	.take-test-label {
+		font-family: var(--font-display);
+		font-size: clamp(1.35rem, 3.5vw, 1.7rem);
+		font-weight: 800;
+		letter-spacing: -0.02em;
+	}
+
+	.take-test-sub {
+		font-size: 0.88rem;
+		opacity: 0.9;
 	}
 
 	.dev-note {

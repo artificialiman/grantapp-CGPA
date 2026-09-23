@@ -46,12 +46,21 @@ export const load: PageServerLoad = async (event) => {
 		.limit(1)
 		.maybeSingle();
 
+	// Practice CTA target: weakest mastery combo's course first (most
+	// actionable — "here's specifically what to work on"), falling back
+	// to the first enrolled course for a student with enrollments but no
+	// answered questions yet, and null (browse-first) only when neither
+	// exists. /practice/{id} resolves the rest (see that route's load).
+	const practiceCourseId: number | null =
+		weakestMastery?.course_id ?? (enrollments?.[0]?.courses as { id: number } | null)?.id ?? null;
+
 	return {
 		student,
 		devAuthBypass: isDevAuthBypassEnabled(),
 		enrolledCount: (enrollments ?? []).length,
 		cgpa,
 		classification,
-		weakestMastery
+		weakestMastery,
+		practiceCourseId
 	};
 };
