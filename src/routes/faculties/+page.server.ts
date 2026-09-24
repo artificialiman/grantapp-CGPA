@@ -32,5 +32,23 @@ export const load: PageServerLoad = async ({ locals }) => {
 		return { faculties: [] };
 	}
 
-	return { faculties: faculties ?? [] };
+	// Department count per faculty — one query, counted client-side,
+	// rather than N+1 per-faculty count queries. This screen is the
+	// hero moment of the whole app (onboarding step 1), so it needs
+	// real content per faculty, not just a bare name.
+	const { data: allDepartments } = await locals.supabase
+		.from('departments')
+		.select('faculty_id');
+
+	const deptCounts = new Map<number, number>();
+	for (const d of allDepartments ?? []) {
+		deptCounts.set(d.faculty_id, (deptCounts.get(d.faculty_id) ?? 0) + 1);
+	}
+
+	const facultiesWithCounts = (faculties ?? []).map((f) => ({
+		...f,
+		departmentCount: deptCounts.get(f.id) ?? 0
+	}));
+
+	return { faculties: facultiesWithCounts };
 };

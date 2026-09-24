@@ -4,7 +4,7 @@
 	export let data: PageData;
 </script>
 
-<div class="wrap">
+<div class="wrap faculty-context--{data.faculty.slug}">
 	<div class="breadcrumb">
 		<a href="/faculties">Faculties</a><span class="sep">/</span><span class="current">{data.faculty.name}</span>
 	</div>
@@ -14,19 +14,25 @@
 	{#if data.departments.length === 0}
 		<p class="empty-state">No departments listed yet for this faculty.</p>
 	{:else}
-		<div class="dept-grid">
+		<ul class="dept-list">
 			{#each data.departments as dept}
-				<a href="/faculties/{data.faculty.slug}/{dept.slug}" class="dept-card">
-					{dept.name}
-				</a>
+				<li>
+					<a href="/faculties/{data.faculty.slug}/{dept.slug}" class="dept-row">
+						<span class="dept-name">{dept.name}</span>
+						<span class="dept-meta">
+							{dept.courseCount}
+							{dept.courseCount === 1 ? 'course' : 'courses'}
+						</span>
+					</a>
+				</li>
 			{/each}
-		</div>
+		</ul>
 	{/if}
 </div>
 
 <style>
 	.wrap {
-		max-width: 900px;
+		max-width: 760px;
 		margin: 0 auto;
 		padding: 2rem;
 	}
@@ -50,9 +56,11 @@
 	}
 
 	.page-title {
-		font-size: clamp(1.75rem, 4vw, 2.25rem);
+		font-size: clamp(1.75rem, 4vw, 2.5rem);
 		letter-spacing: -0.03em;
-		margin-bottom: 1.5rem;
+		margin-bottom: 2rem;
+		border-left: 4px solid var(--accent);
+		padding-left: 0.85rem;
 	}
 
 	.empty-state {
@@ -61,24 +69,49 @@
 		text-align: center;
 	}
 
-	.dept-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 0.75rem;
+	.dept-list {
+		list-style: none;
 	}
 
-	.dept-card {
-		padding: 1.25rem;
-		border-radius: var(--radius-md);
-		background: var(--surface);
-		border: 1px solid var(--border-2);
+	.dept-row {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 1.15rem 1rem;
+		border-bottom: 1px solid var(--border);
+		border-left: 3px solid transparent;
 		color: var(--text);
-		font-family: var(--font-display);
-		font-weight: 600;
-		text-align: left;
+		transition: border-color 0.15s ease, background 0.15s ease;
 	}
 
-	.dept-card:hover {
-		border-color: var(--accent);
+	.dept-row:hover {
+		border-left-color: var(--accent);
+		background: var(--accent-dim);
+	}
+
+	.dept-name {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 1.1rem;
+	}
+
+	.dept-meta {
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		color: var(--muted);
+		white-space: nowrap;
+		flex-shrink: 0;
+	}
+
+	@media (max-width: 480px) {
+		.wrap {
+			padding: 1.2rem;
+		}
+		.dept-row {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.25rem;
+		}
 	}
 </style>

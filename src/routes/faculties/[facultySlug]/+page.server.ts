@@ -31,5 +31,26 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		console.error('Failed to load departments:', deptError);
 	}
 
-	return { faculty, departments: departments ?? [] };
+	// Course count per department, same one-query-then-count approach
+	// as the faculties list above.
+	const deptIds = (departments ?? []).map((d) => d.id);
+	const { data: allCourses } = deptIds.length
+		? await locals.supabase
+				.from('courses')
+				.select('department_id')
+				.in('department_id', deptIds)
+				.eq('approval_status', 'approved')
+		: { data: [] };
+
+	const courseCounts = new Map<number, number>();
+	for (const c of allCourses ?? []) {
+		courseCounts.set(c.department_id, (courseCounts.get(c.department_id) ?? 0) + 1);
+	}
+
+	const departmentsWithCounts = (departments ?? []).map((d) => ({
+		...d,
+		courseCount: courseCounts.get(d.id) ?? 0
+	}));
+
+	return { faculty, departments: departmentsWithCounts };
 };

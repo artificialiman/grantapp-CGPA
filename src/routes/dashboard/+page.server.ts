@@ -52,7 +52,9 @@ export const load: PageServerLoad = async (event) => {
 	// answered questions yet, and null (browse-first) only when neither
 	// exists. /practice/{id} resolves the rest (see that route's load).
 	const practiceCourseId: number | null =
-		weakestMastery?.course_id ?? (enrollments?.[0]?.courses as { id: number } | null)?.id ?? null;
+		weakestMastery?.course_id ??
+		(enrollments?.[0]?.courses as unknown as { id: number } | null)?.id ??
+		null;
 
 	return {
 		student,

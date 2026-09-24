@@ -7,39 +7,47 @@
 <div class="wrap">
 	<h1 class="page-title">Faculties</h1>
 	<p class="page-intro">
-		<!-- COPY NEEDED: real intro copy for the faculty browse screen -->
-		Pick a faculty to see its departments and course path to graduation.
+		Every faculty here maps to a real Nigerian degree programme — pick yours to see its
+		departments, then the exact courses on the path to graduation.
 	</p>
 
 	{#if data.faculties.length === 0}
 		<p class="empty-state">No faculties available yet.</p>
 	{:else}
-		<div class="faculty-grid">
+		<ul class="faculty-list">
 			{#each data.faculties as faculty}
-				<a href="/faculties/{faculty.slug}" class="faculty-card">
-					{faculty.name}
-				</a>
+				<li class="faculty-context--{faculty.slug}">
+					<a href="/faculties/{faculty.slug}" class="faculty-row">
+						<span class="faculty-name">{faculty.name}</span>
+						<span class="faculty-meta">
+							{faculty.departmentCount}
+							{faculty.departmentCount === 1 ? 'department' : 'departments'}
+						</span>
+					</a>
+				</li>
 			{/each}
-		</div>
+		</ul>
 	{/if}
 </div>
 
 <style>
 	.wrap {
-		max-width: 900px;
+		max-width: 760px;
 		margin: 0 auto;
-		padding: 2rem;
+		padding: 2.5rem 2rem;
 	}
 
 	.page-title {
-		font-size: clamp(1.75rem, 4vw, 2.25rem);
+		font-size: clamp(2rem, 5vw, 2.75rem);
 		letter-spacing: -0.03em;
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.6rem;
 	}
 
 	.page-intro {
 		color: var(--muted);
-		margin-bottom: 1.5rem;
+		max-width: 46ch;
+		margin-bottom: 2.5rem;
+		line-height: 1.6;
 	}
 
 	.empty-state {
@@ -48,24 +56,52 @@
 		text-align: center;
 	}
 
-	.faculty-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 0.75rem;
+	.faculty-list {
+		list-style: none;
 	}
 
-	.faculty-card {
-		padding: 1.25rem;
-		border-radius: var(--radius-md);
-		background: var(--surface);
-		border: 1px solid var(--border-2);
+	.faculty-row {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 1.5rem 0.25rem;
+		border-bottom: 1px solid var(--border);
+		border-left: 3px solid transparent;
+		padding-left: 1.25rem;
 		color: var(--text);
-		font-family: var(--font-display);
-		font-weight: 600;
-		text-align: left;
+		transition: border-color 0.15s ease, background 0.15s ease;
 	}
 
-	.faculty-card:hover {
-		border-color: var(--accent);
+	.faculty-row:hover {
+		border-left-color: var(--accent);
+		background: var(--accent-dim);
+	}
+
+	.faculty-name {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(1.35rem, 3.5vw, 1.85rem);
+		letter-spacing: -0.02em;
+	}
+
+	.faculty-meta {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--muted);
+		white-space: nowrap;
+		flex-shrink: 0;
+	}
+
+	@media (max-width: 480px) {
+		.wrap {
+			padding: 1.75rem 1.25rem;
+		}
+		.faculty-row {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.3rem;
+			padding-left: 1rem;
+		}
 	}
 </style>

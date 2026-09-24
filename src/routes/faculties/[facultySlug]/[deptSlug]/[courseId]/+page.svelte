@@ -44,7 +44,7 @@
 	}
 </script>
 
-<div class="wrap">
+<div class="wrap faculty-context--{data.facultySlug}">
 	<div class="breadcrumb">
 		<a href="/faculties">Faculties</a><span class="sep">/</span>
 		<a href="/faculties/{data.facultySlug}">Faculty</a><span class="sep">/</span>
@@ -81,14 +81,14 @@
 		{/if}
 	{/if}
 
-	<div class="action-grid">
+	<div class="practice-grid">
 		<a
 			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.id}/quick-test"
-			class="action-card"
+			class="practice-card"
 			class:disabled={data.questionCount === 0}
 		>
-			<span class="action-title">Quick Test</span>
-			<span class="action-detail">
+			<span class="practice-title">Quick Test</span>
+			<span class="practice-detail">
 				{#if data.questionCount === 0}
 					No questions available yet for this course
 				{:else}
@@ -99,11 +99,11 @@
 
 		<a
 			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.id}/mastery"
-			class="action-card"
+			class="practice-card"
 			class:disabled={data.questionCount === 0}
 		>
-			<span class="action-title">100-day Mastery</span>
-			<span class="action-detail">
+			<span class="practice-title">100-day Mastery</span>
+			<span class="practice-detail">
 				{#if data.questionCount === 0}
 					No questions available yet for this course
 				{:else}
@@ -111,14 +111,11 @@
 				{/if}
 			</span>
 		</a>
-
-		<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" class="action-card">
-			<span class="action-title">Upload your own content</span>
-			<span class="action-detail">
-				Have notes or questions specific to your school for this course? Send them our way.
-			</span>
-		</a>
 	</div>
+
+	<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" class="upload-link">
+		Have notes or questions specific to your school for this course? Send them our way.
+	</a>
 </div>
 
 <style>
@@ -182,42 +179,60 @@
 		gap: 0.6rem;
 	}
 
-	.action-grid {
+	.practice-grid {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 0.75rem;
+		gap: 1rem;
+		margin-bottom: 1.25rem;
 	}
 
-	.action-card {
+	.practice-card {
 		display: flex;
 		flex-direction: column;
-		gap: 0.3rem;
-		padding: 1.25rem;
+		gap: 0.35rem;
+		padding: 1.5rem 1.75rem;
 		border-radius: var(--radius-card);
+		background: var(--accent);
+		color: #000;
+		box-shadow: 0 4px 18px rgba(0, 0, 0, 0.14);
+		transition: transform 0.08s ease, box-shadow 0.08s ease;
+	}
+
+	.practice-card:not(.disabled):hover {
+		transform: translateY(-1px);
+		box-shadow: 0 6px 22px rgba(0, 0, 0, 0.18);
+	}
+
+	.practice-card.disabled {
 		background: var(--surface);
+		color: var(--muted);
 		border: 1px solid var(--border-2);
-		color: var(--text);
-		text-align: left;
-	}
-
-	.action-card:not(.disabled):hover {
-		border-color: var(--accent);
-	}
-
-	.action-card.disabled {
-		opacity: 0.55;
+		box-shadow: none;
 		cursor: default;
 		pointer-events: none;
 	}
 
-	.action-title {
+	.practice-title {
 		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: 1.05rem;
+		font-weight: 800;
+		font-size: 1.3rem;
+		letter-spacing: -0.01em;
 	}
 
-	.action-detail {
+	.practice-detail {
+		font-size: 0.85rem;
+		opacity: 0.85;
+	}
+
+	.upload-link {
+		display: block;
 		font-size: 0.82rem;
 		color: var(--muted);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+
+	.upload-link:hover {
+		color: var(--text);
 	}
 </style>

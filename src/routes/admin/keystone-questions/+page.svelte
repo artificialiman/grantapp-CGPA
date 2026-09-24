@@ -15,7 +15,7 @@
 		courses: { id: number; name: string; code: string } | null;
 	};
 
-	const pending = data.pending as PendingQuestion[];
+	const pending = data.pending as unknown as PendingQuestion[];
 </script>
 
 <div class="wrap">

@@ -74,13 +74,59 @@
 /* ── Faculty context blocks ──
    The CGPA equivalent of grantapp-shell's .stream-context--science/
    --arts/--commerce mechanism: apply .faculty-context--{slug} to a
-   route's root element to remap --accent for everything nested inside
-   it, without touching individual component classes. No faculty
-   colors are defined yet — this is the mechanism only, ready for
-   whenever a real per-faculty palette is specified (open item, not
-   guessed at here). Until then every faculty renders in the default
-   --accent (amber), which is a safe, correct default, not a
-   placeholder that looks broken. */
+   route's root element (or, on a browsing/listing screen showing
+   several faculties at once, to each individual row) to remap --accent
+   for everything nested inside it, without touching individual
+   component classes. Real per-faculty colors, one per the 7 faculties
+   actually seeded (science, engineering, law, medicine, pharmacy,
+   nursing, general-studies) — chosen to read as belonging to each
+   discipline without colliding with the app's own semantic colors
+   (--red is the error state, so Medicine's red is a distinct, more
+   muted clinical tone, not the same hex; --green/--live are success/
+   live-session states, so Science's identity is violet instead of the
+   green that discipline might otherwise suggest). */
+
+.faculty-context--science {
+	--accent: #9b7fe0;
+	--accent-dim: rgba(155, 127, 224, 0.12);
+	--accent-glow: rgba(155, 127, 224, 0.2);
+}
+
+.faculty-context--engineering {
+	--accent: #5b8dd9;
+	--accent-dim: rgba(91, 141, 217, 0.12);
+	--accent-glow: rgba(91, 141, 217, 0.2);
+}
+
+.faculty-context--law {
+	--accent: #4a6fa5;
+	--accent-dim: rgba(74, 111, 165, 0.12);
+	--accent-glow: rgba(74, 111, 165, 0.2);
+}
+
+.faculty-context--medicine {
+	--accent: #c2534a;
+	--accent-dim: rgba(194, 83, 74, 0.12);
+	--accent-glow: rgba(194, 83, 74, 0.2);
+}
+
+.faculty-context--pharmacy {
+	--accent: #2f9e8f;
+	--accent-dim: rgba(47, 158, 143, 0.12);
+	--accent-glow: rgba(47, 158, 143, 0.2);
+}
+
+.faculty-context--nursing {
+	--accent: #d9779f;
+	--accent-dim: rgba(217, 119, 159, 0.12);
+	--accent-glow: rgba(217, 119, 159, 0.2);
+}
+
+.faculty-context--general-studies {
+	--accent: #c68a4e;
+	--accent-dim: rgba(198, 138, 78, 0.12);
+	--accent-glow: rgba(198, 138, 78, 0.2);
+}
 
 * {
 	margin: 0;

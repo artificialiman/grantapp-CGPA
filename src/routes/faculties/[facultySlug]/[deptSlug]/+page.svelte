@@ -48,7 +48,7 @@
 	}
 </script>
 
-<div class="wrap">
+<div class="wrap faculty-context--{data.faculty.slug}">
 	<div class="breadcrumb">
 		<a href="/faculties">Faculties</a><span class="sep">/</span>
 		<a href="/faculties/{data.faculty.slug}">{data.faculty.name}</a><span class="sep">/</span>
@@ -88,7 +88,6 @@
 		{/each}
 	{/if}
 
-	<!-- COPY NEEDED: real label/help text for the free-text course-add flow -->
 	{#if !showAddForm}
 		<button class="btn btn-secondary" on:click={() => { showAddForm = true; newCourseYear = activeYear; }}>
 			Don't see your course? Add it
@@ -201,19 +200,21 @@
 		list-style: none;
 		padding: 0;
 		margin: 0 0 1.5rem;
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
 	}
 
 	.course-row {
 		display: flex;
 		align-items: center;
 		gap: 0.6rem;
-		padding: 0.75rem 1rem;
-		border-radius: var(--radius-md);
-		background: var(--surface);
-		border: 1px solid var(--border);
+		padding: 0.9rem 1rem;
+		border-bottom: 1px solid var(--border);
+		border-left: 3px solid transparent;
+		transition: border-color 0.15s ease, background 0.15s ease;
+	}
+
+	.course-row:hover {
+		border-left-color: var(--accent);
+		background: var(--accent-dim);
 	}
 
 	.course-name {
