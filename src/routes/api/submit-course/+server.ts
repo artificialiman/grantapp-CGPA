@@ -18,23 +18,33 @@ const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
  * authenticated only), no INSERT policy at all, so the RLS-scoped
  * client would be denied outright regardless of auth state. Same
  * pattern api/complete-signup already uses for its own write.
+ *
+ * Takes department_slug, not department_id: the faculties browse
+ * routes (see $lib/data/faculties.ts) no longer fetch departments from
+ * the DB at all -- their Department type has no numeric id anymore,
+ * only slug/name, since that data is now a static file. Resolving
+ * slug -> id happens here instead, at actual write time, which is the
+ * one moment a DB round-trip was always going to be unavoidable for
+ * this action (submitting a form is already a network request; the
+ * faculties/departments *browse* pages are what needed to be
+ * fetch-free, not this).
  */
 export const POST: RequestHandler = async ({ request, locals }) => {
 	try {
 		const { session, user } = await locals.safeGetSession();
 
 		const body = (await request.json()) as {
-			department_id: number;
+			department_slug: string;
 			year: number;
 			name: string;
 			code?: string;
 			kind: 'core' | 'elective' | 'extra_credit';
 		};
 
-		const { department_id, year, name, code, kind } = body;
+		const { department_slug, year, name, code, kind } = body;
 
-		if (!department_id || !year || !name?.trim() || !kind) {
-			return json({ message: 'Missing department_id, year, name, or kind' }, { status: 400 });
+		if (!department_slug || !year || !name?.trim() || !kind) {
+			return json({ message: 'Missing department_slug, year, name, or kind' }, { status: 400 });
 		}
 		if (!['core', 'elective', 'extra_credit'].includes(kind)) {
 			return json({ message: 'Invalid kind' }, { status: 400 });
@@ -53,10 +63,21 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		const { data: department, error: deptError } = await adminClient
+			.from('departments')
+			.select('id')
+			.eq('slug', department_slug)
+			.maybeSingle();
+
+		if (deptError || !department) {
+			console.error('submit-course department lookup error:', deptError);
+			return json({ message: 'Unknown department' }, { status: 400 });
+		}
+
 		const { data, error } = await adminClient
 			.from('courses')
 			.insert({
-				department_id,
+				department_id: department.id,
 				year,
 				name: name.trim(),
 				code: code?.trim() || null,

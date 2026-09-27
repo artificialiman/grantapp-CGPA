@@ -128,6 +128,25 @@
 	--accent-glow: rgba(198, 138, 78, 0.2);
 }
 
+/* Economics and Insurance: added alongside $lib/data/faculties.ts and
+   migration 0016 -- from PROJECT_BRIEF.md's original 7 faculties,
+   never previously seeded or styled. Colors picked to stay distinct
+   from every existing faculty accent above and from the app's
+   semantic colors (--red/--green/--live), same constraint the
+   original 7 were chosen under. */
+
+.faculty-context--economics {
+	--accent: #4f9d6e;
+	--accent-dim: rgba(79, 157, 110, 0.12);
+	--accent-glow: rgba(79, 157, 110, 0.2);
+}
+
+.faculty-context--insurance {
+	--accent: #8a6fb0;
+	--accent-dim: rgba(138, 111, 176, 0.12);
+	--accent-glow: rgba(138, 111, 176, 0.2);
+}
+
 * {
 	margin: 0;
 	padding: 0;

@@ -1,3 +1,4 @@
+import { FACULTIES } from '$lib/data/faculties';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -13,6 +14,16 @@ import type { PageServerLoad } from './$types';
  * now; personalization/restriction is a deliberate later pass, not an
  * assumption baked in while this is still taking shape.
  *
+ * Zero DB calls, deliberately. This previously ran two Supabase
+ * queries (faculties, then every department, counted client-side) for
+ * data that never changes at runtime -- founder's explicit ask: no
+ * fetch, no loading screen anywhere in the onboarding path, native-app
+ * feel end to end. Faculty/department identity only ever changes via
+ * a migration (see $lib/data/faculties.ts's header for the full
+ * reasoning and source-of-truth trail) -- that's the same cadence as
+ * editing this static file and redeploying, so there was never a real
+ * need for a live query here.
+ *
  * TODO (EXPERIENCE_CONTEXT.md #3-4): a returning student with >=1
  * enrollment should redirect straight to /dashboard rather than
  * re-entering this wizard — [CONFIRMED] as a UX rule, but the exact
@@ -21,34 +32,12 @@ import type { PageServerLoad } from './$types';
  * Not implemented here rather than guessed, per that doc's own
  * status tags.
  */
-export const load: PageServerLoad = async ({ locals }) => {
-	const { data: faculties, error } = await locals.supabase
-		.from('faculties')
-		.select('id, name, slug')
-		.order('name');
-
-	if (error) {
-		console.error('Failed to load faculties:', error);
-		return { faculties: [] };
-	}
-
-	// Department count per faculty — one query, counted client-side,
-	// rather than N+1 per-faculty count queries. This screen is the
-	// hero moment of the whole app (onboarding step 1), so it needs
-	// real content per faculty, not just a bare name.
-	const { data: allDepartments } = await locals.supabase
-		.from('departments')
-		.select('faculty_id');
-
-	const deptCounts = new Map<number, number>();
-	for (const d of allDepartments ?? []) {
-		deptCounts.set(d.faculty_id, (deptCounts.get(d.faculty_id) ?? 0) + 1);
-	}
-
-	const facultiesWithCounts = (faculties ?? []).map((f) => ({
-		...f,
-		departmentCount: deptCounts.get(f.id) ?? 0
+export const load: PageServerLoad = () => {
+	const faculties = FACULTIES.map((f) => ({
+		slug: f.slug,
+		name: f.name,
+		departmentCount: f.departments.length
 	}));
 
-	return { faculties: facultiesWithCounts };
+	return { faculties };
 };

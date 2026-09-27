@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+import { getFaculty } from '$lib/data/faculties';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -6,51 +7,50 @@ import type { PageServerLoad } from './$types';
  * Departments within it." No auth gate — see faculties/+page.server.ts's
  * comment; authgates/signin come last, not while a feature is still
  * being built.
+ *
+ * Faculty/department lookup is now static ($lib/data/faculties.ts) --
+ * see that file's header and faculties/+page.server.ts's comment for
+ * why. Only course counts still hit the DB: those change as content
+ * gets approved between deploys, unlike faculty/department identity.
  */
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const { data: faculty, error: facultyError } = await locals.supabase
-		.from('faculties')
-		.select('id, name, slug')
-		.eq('slug', params.facultySlug)
-		.maybeSingle();
+	const faculty = getFaculty(params.facultySlug);
 
-	if (facultyError) {
-		console.error('Failed to load faculty:', facultyError);
-	}
 	if (!faculty) {
 		throw error(404, 'Unknown faculty');
 	}
 
-	const { data: departments, error: deptError } = await locals.supabase
-		.from('departments')
-		.select('id, name, slug')
-		.eq('faculty_id', faculty.id)
-		.order('name');
+	const deptSlugs = faculty.departments.map((d) => d.slug);
 
-	if (deptError) {
-		console.error('Failed to load departments:', deptError);
-	}
-
-	// Course count per department, same one-query-then-count approach
-	// as the faculties list above.
-	const deptIds = (departments ?? []).map((d) => d.id);
-	const { data: allCourses } = deptIds.length
+	// Course count per department -- the one remaining real query on
+	// this page. Fetched by department slug directly rather than by a
+	// DB-side faculty_id/department_id join, since departments
+	// themselves no longer come from a query on this page at all.
+	const { data: allCourses, error: coursesError } = deptSlugs.length
 		? await locals.supabase
 				.from('courses')
-				.select('department_id')
-				.in('department_id', deptIds)
+				.select('department_id, departments!inner(slug)')
+				.in('departments.slug', deptSlugs)
 				.eq('approval_status', 'approved')
-		: { data: [] };
+		: { data: [], error: null };
 
-	const courseCounts = new Map<number, number>();
-	for (const c of allCourses ?? []) {
-		courseCounts.set(c.department_id, (courseCounts.get(c.department_id) ?? 0) + 1);
+	if (coursesError) {
+		console.error('Failed to load course counts:', coursesError);
 	}
 
-	const departmentsWithCounts = (departments ?? []).map((d) => ({
+	const courseCounts = new Map<string, number>();
+	for (const c of (allCourses ?? []) as unknown as { departments: { slug: string } }[]) {
+		const slug = c.departments.slug;
+		courseCounts.set(slug, (courseCounts.get(slug) ?? 0) + 1);
+	}
+
+	const departmentsWithCounts = faculty.departments.map((d) => ({
 		...d,
-		courseCount: courseCounts.get(d.id) ?? 0
+		courseCount: courseCounts.get(d.slug) ?? 0
 	}));
 
-	return { faculty, departments: departmentsWithCounts };
+	return {
+		faculty: { name: faculty.name, slug: faculty.slug },
+		departments: departmentsWithCounts
+	};
 };

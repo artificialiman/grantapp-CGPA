@@ -28,7 +28,7 @@
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
-					department_id: data.department.id,
+					department_slug: data.department.slug,
 					year: newCourseYear,
 					name: newCourseName,
 					code: newCourseCode || undefined,
