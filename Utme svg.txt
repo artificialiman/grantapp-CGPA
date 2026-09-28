@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1024 1024"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Grant App JAMB UTME</title>
+  <desc id="desc">
+    Grant App JAMB UTME logo showing 300 plus, an academic cap, a calligraphic J,
+    and an open G representing the connection to CGPA.
+  </desc>
+
+  <!-- App icon background -->
+  <rect
+    width="1024"
+    height="1024"
+    rx="224"
+    fill="#17233F"
+  />
+
+  <!-- Open CGPA-style G above the 300+ structure -->
+  <path
+    d="
+      M738 287
+      C670 220 556 194 455 218
+      C339 246 263 339 258 452
+      C253 568 324 668 431 704
+      C522 735 624 710 684 651
+      C721 614 740 566 740 510
+      L592 510
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="54"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Japanese calligraphic G trail -->
+  <path
+    d="
+      M738 287
+      C771 322 786 363 789 410
+      C791 447 784 478 771 508
+    "
+    fill="none"
+    stroke="#C6A15B"
+    stroke-width="22"
+    stroke-linecap="round"
+  />
+
+  <!-- First bar: subtle 3 -->
+  <path
+    d="
+      M300 410
+      C337 375 389 373 414 399
+      C437 423 425 458 389 476
+      C428 490 446 520 436 550
+      C422 593 357 607 305 573
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="46"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Second bar: subtle 0 -->
+  <path
+    d="
+      M498 401
+      C458 401 440 443 440 493
+      C440 546 461 583 500 583
+      C539 583 560 546 560 493
+      C560 443 538 401 498 401
+      Z
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="42"
+    stroke-linecap="round"
+  />
+
+  <!-- Third bar: subtle 0 -->
+  <path
+    d="
+      M637 401
+      C597 401 579 443 579 493
+      C579 546 600 583 639 583
+      C678 583 699 546 699 493
+      C699 443 677 401 637 401
+      Z
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="42"
+    stroke-linecap="round"
+  />
+
+  <!-- Fourth J-shaped bar -->
+  <path
+    d="
+      M785 385
+      L785 552
+      C785 624 749 666 697 666
+      C657 666 629 645 612 614
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="48"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Plus sign retained in the middle of the J bar -->
+  <path
+    d="M785 466 L785 526"
+    stroke="#17233F"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M755 496 L815 496"
+    stroke="#17233F"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <!-- Academic mortarboard on the J bar -->
+  <path
+    d="
+      M738 348
+      L785 320
+      L832 348
+      L785 376
+      Z
+    "
+    fill="#F5EEDF"
+  />
+
+  <path
+    d="
+      M753 357
+      L753 382
+      C771 397 799 397 817 382
+      L817 357
+    "
+    fill="none"
+    stroke="#F5EEDF"
+    stroke-width="16"
+    stroke-linecap="round"
+  />
+
+  <!-- Cap tassel -->
+  <path
+    d="
+      M832 349
+      C851 376 851 402 839 423
+    "
+    fill="none"
+    stroke="#C6A15B"
+    stroke-width="13"
+    stroke-linecap="round"
+  />
+
+  <circle
+    cx="839"
+    cy="428"
+    r="10"
+    fill="#C6A15B"
+  />
+
+  <!-- Final calligraphic J trail -->
+  <path
+    d="
+      M613 614
+      C591 649 559 670 520 678
+      C483 686 451 677 430 657
+    "
+    fill="none"
+    stroke="#C6A15B"
+    stroke-width="22"
+    stroke-linecap="round"
+  />
+</svg>
