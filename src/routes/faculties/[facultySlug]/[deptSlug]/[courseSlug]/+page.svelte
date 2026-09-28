@@ -73,7 +73,12 @@
 						<option value={1}>Semester 1</option>
 						<option value={2}>Semester 2</option>
 					</select>
-					<button type="button" class="btn btn-primary" disabled={enrolling} on:click={addToMyCourses}>
+					<button
+						type="button"
+						class="btn btn-primary"
+						disabled={enrolling || !data.course.id}
+						on:click={addToMyCourses}
+					>
 						{enrolling ? 'Adding...' : 'Add to My Courses'}
 					</button>
 				</div>
@@ -83,7 +88,7 @@
 
 	<div class="practice-grid">
 		<a
-			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.id}/quick-test"
+			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.slug}/quick-test"
 			class="practice-card"
 			class:disabled={data.questionCount === 0}
 		>
@@ -98,7 +103,7 @@
 		</a>
 
 		<a
-			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.id}/mastery"
+			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.slug}/mastery"
 			class="practice-card"
 			class:disabled={data.questionCount === 0}
 		>

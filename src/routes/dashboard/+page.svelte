@@ -20,14 +20,14 @@
 	</h1>
 
 	<a
-		href={data.practiceCourseId ? `/practice/${data.practiceCourseId}` : '/faculties'}
+		href={data.practiceHref ?? '/faculties'}
 		class="take-test-cta"
 	>
 		<span class="take-test-label">Take a Test</span>
 		<span class="take-test-sub">
 			{#if weakest}
 				Practice your weakest area{#if weakest.courses}: {weakest.courses.name}{/if}
-			{:else if data.practiceCourseId}
+			{:else if data.practiceHref}
 				Jump into your enrolled course
 			{:else}
 				Browse a faculty to get started

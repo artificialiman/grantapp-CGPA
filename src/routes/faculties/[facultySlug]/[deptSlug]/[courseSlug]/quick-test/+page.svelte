@@ -103,7 +103,7 @@
 
 <div class="wrap">
 	<div class="breadcrumb">
-		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseId}">Course</a>
+		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">Course</a>
 		<span class="sep">/</span><span class="current">Quick Test</span>
 	</div>
 
@@ -153,7 +153,7 @@
 			<p class="guest-note">Sign up to save this progress toward your 10,000-question target.</p>
 		{/if}
 		<div class="results-actions">
-			<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseId}" class="btn btn-secondary">
+			<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}" class="btn btn-secondary">
 				Back to course
 			</a>
 			<button class="btn btn-primary" on:click={startSession}>Try another set</button>

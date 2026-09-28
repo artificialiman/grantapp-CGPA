@@ -27,7 +27,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: enrollments } = await event.locals.supabase
 		.from('enrollments')
-		.select('id, grade, courses(id, name, code)')
+		.select('id, grade, courses(id, name, code, slug, departments(slug, faculties(slug)))')
 		.eq('student_id', user.id);
 
 	const scale = GRADING_SCALES['nuc-5.0'];
@@ -39,7 +39,9 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: weakestMastery } = await event.locals.supabase
 		.from('mastery_state')
-		.select('course_id, cognitive_pattern, information_type, mastery_score, courses(name)')
+		.select(
+			'course_id, cognitive_pattern, information_type, mastery_score, courses(name, slug, departments(slug, faculties(slug)))'
+		)
 		.eq('student_id', user.id)
 		.not('mastery_score', 'is', null)
 		.order('mastery_score', { ascending: true })
@@ -48,13 +50,24 @@ export const load: PageServerLoad = async (event) => {
 
 	// Practice CTA target: weakest mastery combo's course first (most
 	// actionable — "here's specifically what to work on"), falling back
-	// to the first enrolled course for a student with enrollments but no
-	// answered questions yet, and null (browse-first) only when neither
-	// exists. /practice/{id} resolves the rest (see that route's load).
-	const practiceCourseId: number | null =
-		weakestMastery?.course_id ??
-		(enrollments?.[0]?.courses as unknown as { id: number } | null)?.id ??
-		null;
+	// to the first enrolled course, and null (browse-first) only when
+	// neither exists. Built as a finished href server-side from the slug
+	// chain (this query is legitimately live: it's the student's own
+	// status/analytics data), so the button is a plain link — no lookup
+	// at click time. /practice/{f}/{d}/{c} then validates against the
+	// static catalog and picks quick-test vs. course page.
+	type SlugChain = {
+		slug: string;
+		departments: { slug: string; faculties: { slug: string } };
+	};
+	const toHref = (c: SlugChain | null | undefined): string | null =>
+		c?.departments?.faculties?.slug
+			? `/practice/${c.departments.faculties.slug}/${c.departments.slug}/${c.slug}`
+			: null;
+
+	const practiceHref: string | null =
+		toHref(weakestMastery?.courses as unknown as SlugChain | null) ??
+		toHref(enrollments?.[0]?.courses as unknown as SlugChain | null);
 
 	return {
 		student,
@@ -63,6 +76,6 @@ export const load: PageServerLoad = async (event) => {
 		cgpa,
 		classification,
 		weakestMastery,
-		practiceCourseId
+		practiceHref
 	};
 };

@@ -12,7 +12,7 @@ import type { SupabaseClient } from '@supabase/supabase-js';
  * it can never end up in a client bundle.
  */
 export async function resolveCourseId(
-	supabase: SupabaseClient,
+	supabase: SupabaseClient<any, any, any>,
 	facultySlug: string,
 	deptSlug: string,
 	courseSlug: string
