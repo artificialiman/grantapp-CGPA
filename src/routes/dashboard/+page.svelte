@@ -53,8 +53,7 @@
 
 	{#if data.enrolledCount === 0}
 		<div class="prompt-card">
-			<p>You haven't added any courses yet — browse your Faculty to get started.</p>
-			<a href="/faculties" class="btn btn-primary">Browse Faculties</a>
+			<p>Open any course in your programme below and tap Add to My Courses to start your record.</p>
 		</div>
 	{:else if weakest}
 		<div class="prompt-card">
@@ -67,9 +66,32 @@
 		</div>
 	{/if}
 
+	<section class="programme faculty-context--{data.programme.facultySlug}">
+		<div class="programme-head">
+			<h2 class="programme-title">{data.programme.departmentName}</h2>
+			<span class="programme-sub">{data.programme.facultyName}</span>
+		</div>
+		{#each data.programme.years as y}
+			<h3 class="year-label">Year {y.year}</h3>
+			<ul class="programme-list">
+				{#each y.courses as c}
+					<li>
+						<a
+							href="/faculties/{data.programme.facultySlug}/{data.programme.departmentSlug}/{c.slug}"
+							class="programme-row"
+						>
+							<span class="programme-course">{c.name}</span>
+							{#if c.code}<span class="programme-code">{c.code}</span>{/if}
+						</a>
+					</li>
+				{/each}
+			</ul>
+		{/each}
+	</section>
+
 	<div class="link-grid">
-		<a href="/faculties" class="notes-card">
-			<div class="notes-title">Browse Faculties &amp; Courses</div>
+		<a href="/onboarding/programme" class="notes-card">
+			<div class="notes-title">Change my programme</div>
 		</a>
 		<a href="/transcript" class="notes-card">
 			<div class="notes-title">Transcript Tracker</div>
@@ -196,4 +218,14 @@
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 		gap: 0.75rem;
 	}
+
+	.programme { margin: 2rem 0; }
+	.programme-head { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; border-left: 4px solid var(--accent); padding-left: 0.85rem; margin-bottom: 1rem; }
+	.programme-title { font-family: var(--font-display); font-size: 1.35rem; letter-spacing: -0.02em; }
+	.programme-sub { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); }
+	.year-label { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 1.25rem 0 0.25rem; }
+	.programme-list { list-style: none; }
+	.programme-row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; padding: 0.75rem 0.85rem; border-bottom: 1px solid var(--border); border-left: 3px solid transparent; color: var(--text); text-decoration: none; transition: border-color 0.15s ease, background 0.15s ease; }
+	.programme-row:hover { border-left-color: var(--accent); background: var(--accent-dim); }
+	.programme-code { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); }
 </style>

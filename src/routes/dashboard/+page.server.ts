@@ -2,6 +2,7 @@ import { safeGetSessionOrDevBypass, isDevAuthBypassEnabled } from '$lib/auth/dev
 import { redirect } from '@sveltejs/kit';
 import { GRADING_SCALES, classifyGpa } from '$lib/cgpa/scales';
 import { calculateCgpa, type CourseEntry } from '$lib/cgpa/calculate';
+import { getDepartment } from '$lib/catalog';
 import type { PageServerLoad } from './$types';
 
 const DEFAULT_CREDIT_UNITS = 3; // see /transcript's identical note — no credit_units column exists on courses yet
@@ -24,6 +25,34 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { data: student } = await event.locals.supabase.from('students').select('*').eq('id', user.id).maybeSingle();
+
+	// No programme picked yet -> onboarding. The bio is what scopes
+	// everything below; without it there is nothing to show.
+	if (!student?.faculty_slug || !student?.department_slug) {
+		throw redirect(303, '/onboarding/programme');
+	}
+
+	// The student's own programme, straight from the bundled catalog —
+	// zero fetching. Only their department's courses ever reach the page.
+	const found = getDepartment(student.faculty_slug, student.department_slug);
+	if (!found) {
+		// Stored pair no longer in the catalog (catalog changed) -> re-pick.
+		throw redirect(303, '/onboarding/programme');
+	}
+	const byYear = new Map<number, typeof found.department.courses>();
+	for (const c of found.department.courses) {
+		if (!byYear.has(c.year)) byYear.set(c.year, []);
+		byYear.get(c.year)!.push(c);
+	}
+	const programme = {
+		facultySlug: found.faculty.slug,
+		facultyName: found.faculty.name,
+		departmentSlug: found.department.slug,
+		departmentName: found.department.name,
+		years: Array.from(byYear.entries())
+			.sort(([a], [b]) => a - b)
+			.map(([year, courses]) => ({ year, courses }))
+	};
 
 	const { data: enrollments } = await event.locals.supabase
 		.from('enrollments')
@@ -76,6 +105,7 @@ export const load: PageServerLoad = async (event) => {
 		cgpa,
 		classification,
 		weakestMastery,
-		practiceHref
+		practiceHref,
+		programme
 	};
 };
