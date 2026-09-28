@@ -50,6 +50,9 @@
 
 	async function handleSignOut() {
 		await client.auth.signOut();
+		// Wipe cached signed-in pages so a shared device doesn't keep
+		// this student's dashboard (see src/service-worker.ts).
+		navigator.serviceWorker?.controller?.postMessage({ type: 'clear-runtime' });
 		await goto('/login');
 	}
 
