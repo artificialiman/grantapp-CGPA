@@ -1,5 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
+	import { saveSession, loadSession, clearSession, queueSubmission } from '$lib/offline/db';
 
 	export let data: PageData;
 
@@ -30,12 +32,33 @@
 		is_guest: boolean;
 	};
 
-	let phase: 'config' | 'loading' | 'running' | 'submitting' | 'results' | 'error' = 'config';
+	let phase: 'config' | 'loading' | 'running' | 'submitting' | 'results' | 'queued' | 'error' = 'config';
 	let errorMessage = '';
 	let questions: Question[] = [];
 	let currentIndex = 0;
 	let selected: Record<number, string | null> = {};
 	let result: ResultData | null = null;
+
+	onMount(async () => {
+		const existing = await loadSession(data.courseId);
+		if (existing) {
+			questions = existing.questions as Question[];
+			selected = existing.selected;
+			currentIndex = Object.keys(selected).length < questions.length ? Object.keys(selected).length : questions.length - 1;
+			phase = 'running';
+		}
+	});
+
+	// Persists on every answer, not just at submit — a reload or a
+	// dropped connection mid-test never loses progress.
+	async function persist() {
+		await saveSession({
+			courseId: data.courseId,
+			questions,
+			selected,
+			savedAt: new Date().toISOString()
+		});
+	}
 
 	async function startSession() {
 		phase = 'loading';
@@ -60,11 +83,13 @@
 	function choose(optionId: string) {
 		selected[questions[currentIndex].id] = optionId;
 		selected = { ...selected };
+		void persist();
 	}
 
 	function skip() {
 		selected[questions[currentIndex].id] = null;
 		selected = { ...selected };
+		void persist();
 		advance();
 	}
 
@@ -78,11 +103,11 @@
 
 	async function submit() {
 		phase = 'submitting';
+		const answers = questions.map((q) => ({
+			question_id: q.id,
+			selected_option_id: selected[q.id] ?? null
+		}));
 		try {
-			const answers = questions.map((q) => ({
-				question_id: q.id,
-				selected_option_id: selected[q.id] ?? null
-			}));
 			const res = await fetch('/api/submit-quick-test', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -94,7 +119,25 @@
 			}
 			result = await res.json();
 			phase = 'results';
+			await clearSession(data.courseId);
 		} catch (e) {
+			// Offline (or a transient failure) at the exact moment of
+			// submitting — the attempt is never lost. Questions are
+			// served without an answer key (see the Question type's own
+			// comment), so a real score genuinely can't be computed on
+			// this device; queuing for a server-graded sync the instant
+			// connectivity returns is the honest option, not a fake
+			// client-side score.
+			if (!navigator.onLine) {
+				await queueSubmission({
+					course_id: data.courseId,
+					answers,
+					queuedAt: new Date().toISOString()
+				});
+				await clearSession(data.courseId);
+				phase = 'queued';
+				return;
+			}
 			errorMessage = e instanceof Error ? e.message : 'Failed to submit';
 			phase = 'error';
 		}
@@ -157,6 +200,18 @@
 				Back to course
 			</a>
 			<button class="btn btn-primary" on:click={startSession}>Try another set</button>
+		</div>
+	{:else if phase === 'queued'}
+		<h1 class="page-title">Saved — you're offline</h1>
+		<p class="answered-note">
+			Your answers are saved on this device and will submit automatically the moment you're back
+			online. Your score will show up then, not now — the questions on this page never included
+			the answer key, so there's nothing to grade here even offline.
+		</p>
+		<div class="results-actions">
+			<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}" class="btn btn-primary">
+				Back to course
+			</a>
 		</div>
 	{:else if phase === 'error'}
 		<p class="status-text error-text">{errorMessage}</p>

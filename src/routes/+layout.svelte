@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import { client } from '$lib/supabase';
 	import { goto } from '$app/navigation';
+	import { flushPendingSubmissions } from '$lib/offline/db';
 
 	let online = true;
 	let toolsMenuOpen = false;
@@ -57,12 +58,16 @@
 	}
 
 	onMount(() => {
-		const handleOnline = () => (online = true);
+		const handleOnline = () => {
+			online = true;
+			void flushPendingSubmissions();
+		};
 		const handleOffline = () => (online = false);
 
 		window.addEventListener('online', handleOnline);
 		window.addEventListener('offline', handleOffline);
 		online = navigator.onLine;
+		if (online) void flushPendingSubmissions();
 
 		document.addEventListener('click', handleClickOutside);
 
