@@ -8,7 +8,7 @@ const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
  * Creates the cgpa.students row after client-side auth.signUp() and
  * the device-limit check have both succeeded. Deliberately minimal —
  * doctrine's onboarding flow (Faculty -> Department -> course-path)
- * is a SEPARATE, later step (/onboarding), not folded into signup
+ * is a SEPARATE, later step (/faculties, obase's onboarding flow -- see DECISIONS.md's merge-strategy patch), not folded into signup
  * itself.
  */
 export const POST: RequestHandler = async ({ request, locals }) => {

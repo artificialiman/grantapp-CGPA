@@ -53,6 +53,23 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		// Auth-last build doctrine means a student can end up with a
+		// valid auth.users session but no cgpa.students row yet — e.g.
+		// an account created before this schema/table existed, or any
+		// future path where signup and profile-completion aren't
+		// strictly sequential. devices.student_id has a FK to
+		// cgpa.students(id), so inserting a device for a student with no
+		// row there fails with a foreign-key violation, surfacing as an
+		// opaque 500 rather than a clear error. Upsert the row here so
+		// login never depends on complete-signup having already run —
+		// full_name falls back to the email's local part, matching what
+		// a first-time /complete-signup call would have set if this
+		// student's own name isn't known yet.
+		const { error: ensureStudentError } = await adminClient
+			.from('students')
+			.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+		if (ensureStudentError) throw ensureStudentError;
+
 		const { data: existingDevices, error: fetchError } = await adminClient
 			.from('devices')
 			.select('id, device_hash, device_label, first_seen_at, last_active_at')

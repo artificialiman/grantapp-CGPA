@@ -1,5 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
+import { scoreAnswer } from '$lib/quiz/scoring';
+import { updateMasteryForAnswer } from '$lib/quiz/mastery';
 import type { RequestHandler } from './$types';
 
 const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
@@ -9,19 +11,9 @@ type SubmittedAnswer = {
 	selected_option_id: string | null;
 };
 
-/**
- * Scoring model: simple +1 correct / 0 skip / 0 wrong — no negative
- * marking. PROVISIONAL, not a doctrine-confirmed decision: UTME's
- * negative-marking scheme (skip beats guessing) is specific to JAMB's
- * real exam-day psychology and isn't something CGPA's docs ask for.
- * Kept as a single named constant so it's an easy, deliberate change
- * once a real CGPA scoring model is confirmed, not buried in the
- * scoring logic.
- */
-function scoreAnswer(isSkipped: boolean, isCorrect: boolean): number {
-	if (isSkipped) return 0;
-	return isCorrect ? 1 : 0;
-}
+// scoreAnswer moved to lib/quiz/scoring.ts -- submit-mastery-set needs
+// the exact same scoring and importing beats a second declaration.
+// See that file for the full scoring-model rationale.
 
 /**
  * The one write for a whole Quick Test session — same "one batched
@@ -59,10 +51,29 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
+		// Ensure a cgpa.students row exists before any progress write is
+		// attempted below — student_question_progress.student_id has a
+		// foreign-key constraint on cgpa.students(id), and a logged-in
+		// student without one yet (auth-last doctrine means signup and
+		// profile-completion aren't guaranteed sequential; this exact gap
+		// caused a real login 500 fixed earlier in check-device/+server.ts)
+		// would otherwise fail this upsert silently: the student sees
+		// their score on screen since scoring doesn't depend on this
+		// write, but their progress toward the question never actually
+		// saves, with nothing visible telling them that happened.
+		if (session && user) {
+			const { error: ensureStudentError } = await adminClient
+				.from('students')
+				.upsert({ id: user.id, full_name: user.email?.split('@')[0] ?? 'Student' }, { onConflict: 'id', ignoreDuplicates: true });
+			if (ensureStudentError) {
+				console.error('submit-quick-test ensure-student error:', ensureStudentError);
+			}
+		}
+
 		const questionIds = answers.map((a) => a.question_id);
 		const { data: questions, error: questionsError } = await adminClient
 			.from('keystone_questions')
-			.select('id, correct_option_id')
+			.select('id, correct_option_id, cognitive_patterns, information_types')
 			.in('id', questionIds);
 
 		if (questionsError) throw questionsError;
@@ -94,6 +105,34 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 					is_skipped: isSkipped,
 					points_awarded: points
 				});
+
+				// mastery_state update — this is what /analytics reads from.
+				// Without this, submit-quick-test only ever wrote to
+				// student_question_progress, leaving every Quick Test result
+				// invisible to a student's own progress-tracking screen — a
+				// real break in "track progress with detailed analysis"
+				// found while auditing this endpoint, not reported by a
+				// user. Skipped answers don't update mastery, same
+				// convention grantapp-shell's own updateMasteryForAnswer
+				// call sites already follow — a skip carries no signal
+				// about whether the student actually knows the combo.
+				if (!isSkipped) {
+					try {
+						await updateMasteryForAnswer(
+							adminClient,
+							user.id,
+							Number(course_id),
+							question.cognitive_patterns ?? [],
+							question.information_types ?? [],
+							isCorrect
+						);
+					} catch (masteryError) {
+						console.error('quick-test mastery update error:', masteryError);
+						// Same reasoning as the progress-upsert failure below —
+						// a mastery-tracking failure shouldn't cost the student
+						// their results screen either.
+					}
+				}
 			}
 		}
 

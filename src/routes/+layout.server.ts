@@ -27,11 +27,23 @@ export const load: LayoutServerLoad = async (event) => {
 				if (supabaseUrl) {
 					const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 					await ensureDevStudentExists(adminClient);
-					const { data } = await adminClient.from('students').select('*').eq('id', user.id).single();
+					const { data } = await adminClient.from('students').select('*').eq('id', user.id).maybeSingle();
 					student = data;
 				}
 			} else {
-				const { data } = await event.locals.supabase.from('students').select('*').eq('id', user.id).single();
+				// maybeSingle(), not single() -- single() THROWS on zero rows,
+				// which is exactly what a genuinely logged-in user hits if
+				// their auth.users row exists but cgpa.students doesn't yet
+				// (e.g. mid-signup, before complete-signup has run, or any
+				// account predating this schema -- the same class of gap
+				// check-device's own fix addressed). That throw was being
+				// caught by this function's outer try/catch and silently
+				// downgrading a valid session to session: null everywhere in
+				// the app -- a real user would appear logged-out on every
+				// page for no visible reason. maybeSingle() returns null
+				// instead of throwing, so a missing student row no longer
+				// destroys an otherwise-valid session.
+				const { data } = await event.locals.supabase.from('students').select('*').eq('id', user.id).maybeSingle();
 				student = data;
 			}
 		}

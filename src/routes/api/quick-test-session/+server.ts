@@ -60,7 +60,18 @@ export const GET: RequestHandler = async ({ url }) => {
 			[pool[i], pool[j]] = [pool[j], pool[i]];
 		}
 
-		const questions = pool.slice(0, Math.min(requestedCount, pool.length));
+		const selected = pool.slice(0, Math.min(requestedCount, pool.length));
+
+		// Strip correct_option_id and explanation before sending to the
+		// client — a real integrity bug found while auditing this
+		// endpoint, not reported: the answer key was going out in the
+		// same response the client uses to render the quiz, readable
+		// directly from devtools/network tab before the student ever
+		// answers a single question. Server-side scoring in
+		// submit-quick-test already re-fetches these same columns
+		// independently to grade the submission, so nothing about
+		// scoring depends on the client ever having them.
+		const questions = selected.map(({ correct_option_id, explanation, ...rest }) => rest);
 
 		return json({ course_id: courseId, questions });
 	} catch (err) {

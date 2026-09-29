@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1024 1024"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Grant App CGPA</title>
+  <desc id="desc">
+    A rising calligraphic stroke forming an academic cap and achievement mark.
+  </desc>
+
+  <!-- App-icon background -->
+  <rect
+    width="1024"
+    height="1024"
+    rx="224"
+    fill="#17233F"
+  />
+
+  <!-- Main symbol -->
+  <path
+    fill="#F5EEDF"
+    d="
+      M216 690
+      C286 650 350 590 408 526
+      C463 465 516 399 578 334
+      C598 313 624 313 643 329
+      L785 440
+      C803 454 800 482 779 493
+      L706 530
+      C681 543 653 541 631 526
+      L579 491
+      C546 525 516 561 482 597
+      C421 662 351 722 275 766
+      C249 781 220 762 216 734
+      C214 718 214 703 216 690
+      Z
+    "
+  />
+
+  <!-- Inner negative-space gesture -->
+  <path
+    d="
+      M341 681
+      C396 645 447 596 491 543
+      C531 496 568 448 602 404
+      C616 386 643 383 660 399
+      C674 413 674 436 661 452
+      C621 501 582 550 541 598
+      C489 659 431 713 366 751
+    "
+    fill="none"
+    stroke="#17233F"
+    stroke-width="42"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Japanese calligraphic tassel trail -->
+  <path
+    d="
+      M704 520
+      C737 557 746 600 728 638
+      C715 665 690 685 662 695
+    "
+    fill="none"
+    stroke="#C95545"
+    stroke-width="25"
+    stroke-linecap="round"
+  />
+
+  <!-- Small achievement accent -->
+  <circle
+    cx="602"
+    cy="404"
+    r="13"
+    fill="#C95545"
+  />
+</svg>
