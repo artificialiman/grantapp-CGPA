@@ -7,6 +7,8 @@
 	} from '$lib/components/ExamShell.svelte';
 	import type { PageData } from './$types';
 
+	import { queueSubmission } from '$lib/offline/db';
+
 	export let data: PageData;
 
 	async function checkAnswer(questionId: number, selectedOptionId: string | null): Promise<AnswerCheckResult> {
@@ -26,7 +28,7 @@
 	// (subject chosen on the page itself), the course here is already
 	// fixed by the route, so the session starts loading immediately on
 	// mount instead of waiting for a click.
-	let phase: 'loading' | 'gate-pending' | 'running' | 'set-complete' | 'session-complete' | 'error' =
+	let phase: 'loading' | 'gate-pending' | 'running' | 'set-complete' | 'set-queued' | 'session-complete' | 'error' =
 		'loading';
 	let errorMessage = '';
 	let questions: ExamQuestion[] = [];
@@ -72,20 +74,22 @@
 		if (!masteryAssignmentId) return;
 		phase = 'loading';
 
+		const body = {
+			mastery_assignment_id: masteryAssignmentId,
+			course_id: data.courseId,
+			set_number: currentSet,
+			answers
+		};
+
 		try {
 			const res = await fetch('/api/submit-mastery-set', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({
-					mastery_assignment_id: masteryAssignmentId,
-					course_id: data.courseId,
-					set_number: currentSet,
-					answers
-				})
+				body: JSON.stringify(body)
 			});
 			if (!res.ok) {
-				const body = await res.json().catch(() => ({}));
-				throw new Error(body.message ?? `Failed to submit set (${res.status})`);
+				const responseBody = await res.json().catch(() => ({}));
+				throw new Error(responseBody.message ?? `Failed to submit set (${res.status})`);
 			}
 			const result = await res.json();
 			lastSetScore = result.set_score;
@@ -99,6 +103,22 @@
 			currentSet = result.next_set;
 			phase = 'set-complete';
 		} catch (e) {
+			// Finished set, dropped connection right at submit — same
+			// treatment as quick-test: queue rather than lose it. Correct/
+			// incorrect feedback during the set already degraded
+			// gracefully per-question (see ExamShell's commitAnswer), so
+			// the student has already seen everything this device can
+			// show them; the set's actual score just isn't known until
+			// this syncs.
+			if (!navigator.onLine) {
+				await queueSubmission({
+					endpoint: '/api/submit-mastery-set',
+					body,
+					queuedAt: new Date().toISOString()
+				});
+				phase = 'set-queued';
+				return;
+			}
 			errorMessage = e instanceof Error ? e.message : 'Failed to submit set';
 			phase = 'error';
 		}
@@ -136,6 +156,15 @@
 			{lastSetScore} marks this set · {totalScoreToday} total today for {data.courseName}.
 		</p>
 		<button class="btn btn-primary" on:click={continueToNextSet}>Continue to set {currentSet}</button>
+	{:else if phase === 'set-queued'}
+		<h1 class="page-title">Set saved — you're offline</h1>
+		<p class="page-intro">
+			This set is saved on this device and will submit automatically once you're back online.
+			Its score will show up then.
+		</p>
+		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}" class="btn btn-primary">
+			Back to course
+		</a>
 	{:else if phase === 'session-complete'}
 		<h1 class="page-title">All 5 sets done</h1>
 		<p class="page-intro">

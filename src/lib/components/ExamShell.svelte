@@ -144,9 +144,25 @@
 		if (mode === 'practice') {
 			selectedOptionId = optionId;
 			if (checkAnswer) {
-				const result = await checkAnswer(currentQuestion.id, optionId);
-				revealCorrectOptionId = result.correct_option_id;
-				revealExplanation = result.explanation;
+				try {
+					const result = await checkAnswer(currentQuestion.id, optionId);
+					revealCorrectOptionId = result.correct_option_id;
+					revealExplanation = result.explanation;
+				} catch {
+					// Network failure (offline or transient) — the answer is
+					// already recorded in `answers` above and reaches
+					// onComplete regardless. Before this fix there was no
+					// catch here at all: a failed check left `submitting`
+					// true forever and the student permanently stuck on
+					// this question, online or off. Degrading to "no
+					// immediate feedback" and letting them continue is
+					// correct either way; real per-question feedback needs
+					// a server round trip and can't be faked offline any
+					// more than a final score can (see quick-test's own
+					// note on this).
+					revealCorrectOptionId = null;
+					revealExplanation = null;
+				}
 			}
 			revealed = true;
 			submitting = false;

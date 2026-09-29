@@ -71,8 +71,8 @@ export async function clearSession(courseId: number): Promise<void> {
 
 export type PendingSubmission = {
 	id?: number;
-	course_id: number;
-	answers: { question_id: number; selected_option_id: string | null }[];
+	endpoint: '/api/submit-quick-test' | '/api/submit-mastery-set';
+	body: Record<string, unknown>;
 	queuedAt: string;
 };
 
@@ -102,10 +102,10 @@ export async function flushPendingSubmissions(): Promise<void> {
 	const pending = await listPendingSubmissions();
 	for (const sub of pending) {
 		try {
-			const res = await fetch('/api/submit-quick-test', {
+			const res = await fetch(sub.endpoint, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ course_id: sub.course_id, answers: sub.answers })
+				body: JSON.stringify(sub.body)
 			});
 			if (res.ok && sub.id !== undefined) {
 				await removePendingSubmission(sub.id);

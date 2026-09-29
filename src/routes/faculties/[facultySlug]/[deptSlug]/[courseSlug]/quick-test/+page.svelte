@@ -130,8 +130,8 @@
 			// client-side score.
 			if (!navigator.onLine) {
 				await queueSubmission({
-					course_id: data.courseId,
-					answers,
+					endpoint: '/api/submit-quick-test',
+					body: { course_id: data.courseId, answers },
 					queuedAt: new Date().toISOString()
 				});
 				await clearSession(data.courseId);
