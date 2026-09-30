@@ -23,6 +23,16 @@
  * Regenerate via /home/claude/catalog-gen/ if the seed data ever
  * changes -- do not hand-edit slugs, they must stay byte-identical to
  * what migration 0016's regexp_replace produces in Postgres.
+ *
+ * HAND-ADDED (2026-09-28, not from the generator): departments
+ * microbiology, cybersecurity (science), medical-laboratory-science
+ * (medicine) and faculties economics, insurance -- all with EMPTY course
+ * lists on purpose (no curriculum has been supplied for them, and course
+ * content goes through the approval discipline, not agent invention).
+ * They are mirrored in migration ..._cgpa_0018_catalog_priority_programmes
+ * so cgpa.departments has the rows courses.department_id will need. The
+ * generator script is NOT in this repo: if it is ever re-run it will drop
+ * these unless it also reads that migration.
  */
 
 export type CatalogCourse = {
@@ -66,6 +76,18 @@ export const CATALOG: CatalogFaculty[] = [
 			{
 				slug: 'biochemistry',
 				name: 'Biochemistry',
+				courses: [
+				]
+			},
+			{
+				slug: 'microbiology',
+				name: 'Microbiology',
+				courses: [
+				]
+			},
+			{
+				slug: 'cybersecurity',
+				name: 'Cybersecurity',
 				courses: [
 				]
 			},
@@ -306,6 +328,12 @@ export const CATALOG: CatalogFaculty[] = [
 					{ slug: 'paediatrics-ii', name: 'Paediatrics II', code: null, year: 6, kind: 'core' },
 				]
 			},
+			{
+				slug: 'medical-laboratory-science',
+				name: 'Medical Laboratory Science',
+				courses: [
+				]
+			},
 		]
 	},
 	{
@@ -379,6 +407,30 @@ export const CATALOG: CatalogFaculty[] = [
 					{ slug: 'gst201', name: 'Venture Creation and Entrepreneurship I', code: 'GST201', year: 2, kind: 'core' },
 					{ slug: 'gst301', name: 'Peace and Conflict Resolution', code: 'GST301', year: 3, kind: 'core' },
 					{ slug: 'gst302', name: 'Entrepreneurship Studies II (Venture Creation)', code: 'GST302', year: 3, kind: 'core' },
+				]
+			},
+		]
+	},
+	{
+		slug: 'economics',
+		name: 'Economics',
+		departments: [
+			{
+				slug: 'economics',
+				name: 'Economics',
+				courses: [
+				]
+			},
+		]
+	},
+	{
+		slug: 'insurance',
+		name: 'Insurance',
+		departments: [
+			{
+				slug: 'insurance',
+				name: 'Insurance',
+				courses: [
 				]
 			},
 		]
