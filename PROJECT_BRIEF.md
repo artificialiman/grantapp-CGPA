@@ -11,9 +11,19 @@ It is not a GPA calculator. "CGPA" in the name signals "university-level,"
 not "grade math."
 
 ## Who for
-Any student, at any school, in any of the initial 7 courses/faculties:
-Medicine, Pharmacy, Biochemistry, Microbiology, Law, Economics, Insurance.
-No institutional gatekeeping — self-serve, like GrantApp UTME.
+Any student, at any school. No institutional gatekeeping — self-serve,
+like GrantApp UTME. A student locks their faculty/department (and
+implicitly their course) at signup, in the same request as account
+creation — not a later onboarding step.
+
+As-seeded faculties (9, catalog.ts — supersedes any earlier 7-faculty
+list, which was never actually built): Science, Engineering, Law,
+Medicine, Pharmacy, Nursing, General Studies, Economics, Insurance.
+Four of these are launch-priority per explicit founder ordering —
+Medicine, Cybersecurity (dept. under Science), Environmental Toxicology,
+Medical Laboratory Science (dept. under Medicine) — but all four
+currently have zero course content seeded; they're browsable, empty
+department pages.
 
 ## What success looks like
 - **The core is mastery, not rank.** A student answers up to 10,000
@@ -57,13 +67,29 @@ No institutional gatekeeping — self-serve, like GrantApp UTME.
   INVARIANTS.md #17. Not a static inheritance: CGPA's real vocabulary is
   expected to grow well past UTME's fixed set as real degree-breadth
   content gets tagged.
+- Faculty count: the originally-drafted 7 faculties were never actually
+  seeded. Real build has 9 (see "Who for" above) — brief corrected to
+  match reality rather than keep re-surfacing as a doc/build mismatch.
+- Programme (faculty+department) is now locked at signup, in the signup
+  request itself — not a separate post-signup onboarding step.
+- Device antitheft is built and solid (fingerprint, 2-device cap enforced
+  at signup and every login, self-serve removal, no admin path) — see
+  INVARIANTS.md #18-21. The gap closed by this update was documentation
+  only; the mechanism itself needed no fixes.
 
 ## Status
-Draft — corrected after founder clarification: this is a course/degree
-MASTERY app (10,000-keystone-question engine + lesson notes +
-school/lecturer-specific content), not primarily a rank/credibility
-layer for the sister app. Ready for INVARIANTS.md, DATA_DICTIONARY.md,
-PERMISSIONS.md, and DECISIONS.md to be built/revised on top of it. Open:
+Live build, iterating. Core loop (signup+programme-lock → browse catalog
+→ enroll → Quick Test / 100-day Mastery → dashboard/mastery tracking) is
+confirmed working end-to-end. Capital files were running behind the
+actual build for a while (see "Resolved since draft") — this pass
+reconciles them. Known real gaps going forward: service worker exists
+but is never registered (offline infra currently inert on-device); no
+touch-first nav/bottom-tab-bar; zero page-transition animation; .btn
+touch targets under the 44px minimum; no skeleton/loading-state
+component; no safe-area-inset handling for notched devices. Also open:
 the name and integration contract of the sister listings/placement app;
 exactly how school/lecturer-specific submissions are vetted before
-joining the keystone bank.
+joining the keystone bank; whether "graduate" is auto-detected or
+self-reported; the 4 priority courses' zero content; Cybersecurity's
+placement under Science and Medical Lab Science's placement under
+Medicine are reasonable-guess assumptions, not founder-confirmed.

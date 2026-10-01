@@ -90,3 +90,32 @@ awaiting confirmation.
     internship/fellowship/scholarship/apprenticeship listings and
     matching itself — that is the sister app's job. CGPA's responsibility
     ends at producing a trustworthy habits/results/rank profile.
+
+## Onboarding & programme
+
+18. `[CONFIRMED]` A student's faculty + department (their programme) is
+    locked in the SAME REQUEST as signup/account creation, not a
+    separate step afterward. The programme picker is embedded directly
+    in the signup form; complete-signup validates and writes
+    faculty_slug/department_slug in the same upsert that creates the
+    student row.
+19. `[CONFIRMED]` There is no guest funnel on CGPA (unlike UTME's tour-
+    for-unauthenticated-users model) — signup, including the programme
+    lock, is required before any course content is reachable.
+
+## Device antitheft (mechanism built; this is the first time it's documented here)
+
+20. `[CONFIRMED]` Device binding is enforced via a client-side SHA-256
+    fingerprint (user-agent + a persistent random ID stored in
+    localStorage, hashed before it ever reaches the server), checked at
+    BOTH signup and every subsequent login — not just first login. Cap
+    is 2 devices per student.
+21. `[CONFIRMED]` When the cap is hit, the student resolves it themselves
+    — the blocked-device list renders inline at the login step with a
+    remove option and auto-retry. There is no admin path for device
+    removal; it's deliberately self-serve only.
+22. `[OPEN]` Session/token lifetime has no explicit value set anywhere in
+    the codebase — it inherits whatever @supabase/ssr's default is
+    (observed as ~400 days, silently refreshed), which is effectively
+    permanent login until explicit sign-out. Nobody has deliberately
+    chosen this number; flagged as a real gap, not a confirmed decision.

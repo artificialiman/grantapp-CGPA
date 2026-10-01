@@ -108,17 +108,18 @@ this table overlaps with or feeds the sister app's listings at all.
 | `type` | internship / research community / survey-questionnaire / other | No | Content team |
 | `description` | What it is | No | Content team |
 
-## `students` `[OPEN — fields below are a starting proposal, not final]`
+## `students` `[faculty_slug/department_slug CONFIRMED and live; other fields below remain a starting proposal]`
 The core person-entity table. Lifecycle: active → inactive → archived
 (→ recycled, if ever applicable).
 
 | Column | Meaning | Sensitive? | Who may write |
 |---|---|---|---|
 | `id` | Stable unique identifier | No | System only |
-| `faculty` | One of the 7 starting faculties (enum) | No | Student, at signup; immutable after unless an explicit transfer flow exists — `[OPEN]` |
+| `faculty_slug` / `department_slug` | The student's locked programme — written in the SAME request as signup (INVARIANTS §18), validated against catalog.ts | No | Student, at signup only; no transfer/edit flow exists yet — `[OPEN]` |
 | `school` | Institution name/free text — "any school" per PROJECT_BRIEF | No | Student |
 | `status` | active / inactive / archived | No | System, per §7.4 rules — never a silent background job |
 | `grading_scale` | Which grading-scale variant applies (5.0/4.0 etc.) | No | System, derived from faculty/school — `[OPEN]` whether this is faculty-wide or school-specific per INVARIANTS §3 |
+| `device_fingerprints` | Up to 2 bound device hashes (INVARIANTS §20-21) | No — already hashed before it reaches the server | System only, student-triggered via signup/login/remove-device |
 
 ## `academic_records` `[OPEN]`
 Per-course, per-semester grade entries feeding the CGPA calculation.
