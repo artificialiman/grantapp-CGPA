@@ -28,7 +28,8 @@
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
-					department_slug: data.department.slug,
+					faculty_slug: data.faculty.slug,
+					dept_slug: data.department.slug,
 					year: newCourseYear,
 					name: newCourseName,
 					code: newCourseCode || undefined,
@@ -77,10 +78,15 @@
 			{#if activeYear === y.year}
 				<ul class="course-list">
 					{#each y.courses as course}
-						<li class="course-row">
-							<span class="course-name">{course.name}</span>
-							{#if course.code}<span class="course-code">{course.code}</span>{/if}
-							<span class="course-kind kind-{course.kind}">{kindLabel[course.kind]}</span>
+						<li>
+							<a
+								href="/faculties/{data.faculty.slug}/{data.department.slug}/{course.slug}"
+								class="course-row"
+							>
+								<span class="course-name">{course.name}</span>
+								{#if course.code}<span class="course-code">{course.code}</span>{/if}
+								<span class="course-kind kind-{course.kind}">{kindLabel[course.kind]}</span>
+							</a>
 						</li>
 					{/each}
 				</ul>
@@ -209,6 +215,8 @@
 		padding: 0.9rem 1rem;
 		border-bottom: 1px solid var(--border);
 		border-left: 3px solid transparent;
+		color: var(--text);
+		text-decoration: none;
 		transition: border-color 0.15s ease, background 0.15s ease;
 	}
 

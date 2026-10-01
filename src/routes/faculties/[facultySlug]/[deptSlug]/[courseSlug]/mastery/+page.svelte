@@ -113,7 +113,7 @@
 
 <div class="wrap">
 	<div class="breadcrumb">
-		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseId}">{data.courseCode}</a>
+		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">{data.courseCode}</a>
 		<span class="sep">/</span><span class="current">100-day Mastery</span>
 	</div>
 
@@ -141,7 +141,7 @@
 		<p class="page-intro">
 			{totalScoreToday} total marks today for {data.courseName}. Come back tomorrow to keep going.
 		</p>
-		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseId}" class="btn btn-secondary">
+		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}" class="btn btn-secondary">
 			Back to course
 		</a>
 	{:else if phase === 'error'}

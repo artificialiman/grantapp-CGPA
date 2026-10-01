@@ -23,7 +23,7 @@ export const load: LayoutServerLoad = async (event) => {
 
 	const adminEmails = (env.ADMIN_EMAILS ?? '')
 		.split(',')
-		.map((e) => e.trim().toLowerCase())
+		.map((e: string) => e.trim().toLowerCase())
 		.filter(Boolean);
 
 	const email = user.email?.toLowerCase();

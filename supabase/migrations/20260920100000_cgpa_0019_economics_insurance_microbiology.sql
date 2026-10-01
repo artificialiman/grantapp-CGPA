@@ -1,15 +1,16 @@
 -- ============================================================================
--- Companion to src/lib/data/faculties.ts (the new static faculty/
--- department catalog that replaced two live queries on the faculties
--- browse screens). That file is now the source SvelteKit routes read
--- for display; this table is still what courses.department_id keys
--- against, so the two need to stay in sync.
+-- Companion to $lib/catalog.ts, the bundled faculty/department/course
+-- catalog every browse route reads instead of querying live. This
+-- table is still what courses.department_id keys against, so the two
+-- need to stay in sync. (Originally written against the shorter-lived
+-- $lib/data/faculties.ts, superseded when this and the fuller
+-- hardcoded-catalog work were merged -- catalog.ts already carries
+-- Economics, Insurance and Microbiology as real entries.)
 --
 -- Economics and Insurance are from PROJECT_BRIEF.md's original 7
 -- faculties and had never been seeded in any prior migration under
 -- any name -- added per explicit founder instruction ("add both")
--- rather than dropped, same reasoning $lib/data/faculties.ts's header
--- documents in full.
+-- rather than dropped.
 --
 -- Microbiology, also from PROJECT_BRIEF.md's original 7, had likewise
 -- never been seeded as either a faculty or a department. Added as a

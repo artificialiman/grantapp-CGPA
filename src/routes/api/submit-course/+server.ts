@@ -18,33 +18,27 @@ const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
  * authenticated only), no INSERT policy at all, so the RLS-scoped
  * client would be denied outright regardless of auth state. Same
  * pattern api/complete-signup already uses for its own write.
- *
- * Takes department_slug, not department_id: the faculties browse
- * routes (see $lib/data/faculties.ts) no longer fetch departments from
- * the DB at all -- their Department type has no numeric id anymore,
- * only slug/name, since that data is now a static file. Resolving
- * slug -> id happens here instead, at actual write time, which is the
- * one moment a DB round-trip was always going to be unavoidable for
- * this action (submitting a form is already a network request; the
- * faculties/departments *browse* pages are what needed to be
- * fetch-free, not this).
  */
 export const POST: RequestHandler = async ({ request, locals }) => {
 	try {
 		const { session, user } = await locals.safeGetSession();
 
 		const body = (await request.json()) as {
-			department_slug: string;
+			faculty_slug: string;
+			dept_slug: string;
 			year: number;
 			name: string;
 			code?: string;
 			kind: 'core' | 'elective' | 'extra_credit';
 		};
 
-		const { department_slug, year, name, code, kind } = body;
+		const { faculty_slug, dept_slug, year, name, code, kind } = body;
 
-		if (!department_slug || !year || !name?.trim() || !kind) {
-			return json({ message: 'Missing department_slug, year, name, or kind' }, { status: 400 });
+		if (!faculty_slug || !dept_slug || !year || !name?.trim() || !kind) {
+			return json(
+				{ message: 'Missing faculty_slug, dept_slug, year, name, or kind' },
+				{ status: 400 }
+			);
 		}
 		if (!['core', 'elective', 'extra_credit'].includes(kind)) {
 			return json({ message: 'Invalid kind' }, { status: 400 });
@@ -63,16 +57,35 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const adminClient = createClient(supabaseUrl, SERVICE_ROLE_KEY, { db: { schema: 'cgpa' } });
 
-		const { data: department, error: deptError } = await adminClient
+		// The browse pages are fully static now (see $lib/catalog.ts) and
+		// never fetch a numeric department id — this endpoint is the one
+		// place that still needs it, and it already has to touch the DB
+		// to do the insert anyway, so resolving here costs nothing extra.
+		const { data: department, error: deptLookupError } = await adminClient
 			.from('departments')
-			.select('id')
-			.eq('slug', department_slug)
+			.select('id, faculties!inner(slug)')
+			.eq('slug', dept_slug)
+			.eq('faculties.slug', faculty_slug)
 			.maybeSingle();
 
-		if (deptError || !department) {
-			console.error('submit-course department lookup error:', deptError);
-			return json({ message: 'Unknown department' }, { status: 400 });
+		if (deptLookupError || !department) {
+			return json({ message: 'Unknown faculty or department' }, { status: 400 });
 		}
+
+		// courses.slug is NOT NULL (migration 0016) and must match
+		// exactly what that migration's backfill computes, so a
+		// student-submitted course slots into the same lookup scheme as
+		// every seeded one. code, when present, wins; a duplicate within
+		// this department is still possible (e.g. two different students
+		// both leaving code blank for a course called "Seminar") --
+		// department_slug_unique will reject the insert rather than
+		// silently colliding, and that's surfaced as a normal failure
+		// below rather than swallowed.
+		const slugSource = code?.trim() || name.trim();
+		const slug = slugSource
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, '-')
+			.replace(/^-+|-+$/g, '');
 
 		const { data, error } = await adminClient
 			.from('courses')
@@ -81,6 +94,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				year,
 				name: name.trim(),
 				code: code?.trim() || null,
+				slug,
 				kind,
 				approval_status: 'pending',
 				submitted_by: session && user ? user.id : null
