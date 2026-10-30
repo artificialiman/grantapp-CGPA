@@ -1291,6 +1291,46 @@
       ],
       "difficulty": 3,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "____ is the addition of nutrients to a polluted site to stimulate the growth of indigenous microbes that degrade pollutants.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the addition of nutrients to a polluted site to stimulate the growth of ____ microbes that degrade pollutants.",
+        "answers": [
+          "Biostimulation",
+          "indigenous"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Biosorption"
+        },
+        {
+          "id": "b",
+          "text": "Bioaugmentation"
+        },
+        {
+          "id": "c",
+          "text": "Biostimulation"
+        },
+        {
+          "id": "d",
+          "text": "Bioleaching"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Native microbes are encouraged by adding nitrogen and phosphorus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
