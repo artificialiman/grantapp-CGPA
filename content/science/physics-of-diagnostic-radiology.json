@@ -1284,6 +1284,269 @@
       ],
       "difficulty": 3,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Mammography uses a low tube voltage, about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 to 5 kVp"
+        },
+        {
+          "id": "b",
+          "text": "25 to 32 kVp"
+        },
+        {
+          "id": "c",
+          "text": "100 to 120 kVp"
+        },
+        {
+          "id": "d",
+          "text": "300 kVp"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It maximises contrast between soft tissues of similar density.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "Diagnostic reference levels (DRLs) are",
+      "options": [
+        {
+          "id": "a",
+          "text": "dose limits for staff"
+        },
+        {
+          "id": "b",
+          "text": "dose levels for typical examinations used to flag unusually high doses"
+        },
+        {
+          "id": "c",
+          "text": "legal maximum doses"
+        },
+        {
+          "id": "d",
+          "text": "dose limits for patients"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "If a facility's typical dose exceeds the DRL, a review is needed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "A routine quality assurance test for an X-ray machine includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "counting patients"
+        },
+        {
+          "id": "b",
+          "text": "painting the room"
+        },
+        {
+          "id": "c",
+          "text": "testing the chair"
+        },
+        {
+          "id": "d",
+          "text": "kVp accuracy, timer accuracy, beam alignment and half-value layer"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Results are compared with baseline values.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "Increasing the mAs increases the energy of the X-ray photons.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It increases the number of photons. The energy is controlled by kVp.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "Less than 1 percent of the electron energy in a diagnostic tube becomes X-rays.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "More than 99 percent is converted to heat.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "Assertion: A rotating anode permits higher X-ray tube currents. Reason: The heat is spread over a larger area of the target.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "____ is the process in which an X-ray photon is totally absorbed by an inner-shell electron, which is ejected; it varies approximately as Z cubed over energy cubed.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the process in which an X-ray photon is totally absorbed by an inner-shell electron, which is ejected; it varies approximately as Z cubed over energy ____.",
+        "answers": [
+          "The photoelectric effect",
+          "cubed"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "The photoelectric effect"
+        },
+        {
+          "id": "b",
+          "text": "Compton scattering"
+        },
+        {
+          "id": "c",
+          "text": "Pair production"
+        },
+        {
+          "id": "d",
+          "text": "Coherent scattering"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It produces most of the contrast between bone and soft tissue.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q048",
+      "prompt": "The ____ of a material is the thickness that reduces the beam intensity to one-half of its initial value.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ of a material is the thickness that reduces the beam intensity to ____ of its initial value.",
+        "answers": [
+          "half-value layer",
+          "one-half"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "half-value layer"
+        },
+        {
+          "id": "b",
+          "text": "mean free path"
+        },
+        {
+          "id": "c",
+          "text": "build-up factor"
+        },
+        {
+          "id": "d",
+          "text": "tenth-value layer"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "After n half-value layers, the intensity is I0 divided by 2 to the power n.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
