@@ -1275,6 +1275,86 @@
       ],
       "difficulty": 2,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "____ output is the volume of blood pumped by the heart per minute and equals heart rate multiplied by stroke volume.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ output is the volume of blood pumped by the heart per minute and equals heart rate multiplied by ____ volume.",
+        "answers": [
+          "Cardiac",
+          "stroke"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Cardiac"
+        },
+        {
+          "id": "b",
+          "text": "Minute"
+        },
+        {
+          "id": "c",
+          "text": "Blood"
+        },
+        {
+          "id": "d",
+          "text": "Renal"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "At rest it is about 5 litres per minute.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "The ____ plane divides the body into front and back parts, while the transverse plane divides it into upper and lower parts.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ plane divides the body into front and back parts, while the ____ plane divides it into upper and lower parts.",
+        "answers": [
+          "coronal",
+          "transverse"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "oblique"
+        },
+        {
+          "id": "b",
+          "text": "transverse"
+        },
+        {
+          "id": "c",
+          "text": "sagittal"
+        },
+        {
+          "id": "d",
+          "text": "coronal"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The sagittal plane divides it into left and right parts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
