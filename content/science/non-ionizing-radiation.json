@@ -1270,6 +1270,123 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: A coupling gel is applied between an ultrasound probe and the skin. Reason: Air has a very different acoustic impedance from tissue and reflects almost all of the beam.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the use of gel.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "____ is a measure of the rate of radiofrequency energy absorbed per unit mass of tissue exposed to radiofrequency fields, in W/kg.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is a measure of the rate of ____ energy absorbed per unit mass of tissue exposed to radiofrequency fields, in W/kg.",
+        "answers": [
+          "Specific absorption rate",
+          "radiofrequency"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Specific absorption rate"
+        },
+        {
+          "id": "b",
+          "text": "Exposure"
+        },
+        {
+          "id": "c",
+          "text": "Kerma"
+        },
+        {
+          "id": "d",
+          "text": "Equivalent dose"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is used to limit tissue heating.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "The acoustic ____ of a medium is the product of its density and the speed of sound in it.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The acoustic ____ of a medium is the product of its ____ and the speed of sound in it.",
+        "answers": [
+          "impedance",
+          "density"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "resolution"
+        },
+        {
+          "id": "b",
+          "text": "impedance"
+        },
+        {
+          "id": "c",
+          "text": "intensity"
+        },
+        {
+          "id": "d",
+          "text": "attenuation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Echoes are produced at boundaries between media of different impedance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
