@@ -1,0 +1,649 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "sta201",
+  "department_slugs": [
+    "medical-laboratory-science"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Blood group (A, B, AB, O) is an example of which type of data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominal"
+        },
+        {
+          "id": "b",
+          "text": "Ordinal"
+        },
+        {
+          "id": "c",
+          "text": "Interval"
+        },
+        {
+          "id": "d",
+          "text": "Ratio"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The categories have no natural order. Ordinal data, the nearest wrong choice, would have a ranked order such as mild, moderate or severe.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A pain score recorded as none, mild, moderate or severe is",
+      "options": [
+        {
+          "id": "a",
+          "text": "nominal data"
+        },
+        {
+          "id": "b",
+          "text": "ratio data"
+        },
+        {
+          "id": "c",
+          "text": "continuous data"
+        },
+        {
+          "id": "d",
+          "text": "ordinal data"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The categories can be ranked, but the gaps between them are not equal or measurable. For this reason, the median is a more suitable summary than the mean.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The median of the values 12, 7, 3, 15, 9 and 10 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "9.5"
+        },
+        {
+          "id": "d",
+          "text": "9.33"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Sorted values are 3, 7, 9, 10, 12 and 15. With an even number of values, the median is the mean of the middle two, (9 + 10) / 2 = 9.5. The mean of all six is 9.33. The values 9 and 10 each pick only one of the two middle numbers.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The mode of the values 2, 3, 3, 4, 5, 5, 5, 6 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5.5"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The mode is the value that appears most often. The value 5 occurs three times, while 3 occurs twice. The value 3 occurs twice and 4 once, and 5.5 is not in the data at all.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The population standard deviation of the values 2, 4, 4, 4, 5, 5, 7, 9 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "1.5"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The mean is 5 and the squared deviations are 9, 1, 1, 1, 0, 0, 4 and 16, which total 32. The variance is 32 / 8 = 4, so the standard deviation is 2. The figure 4 is the variance. The value 4 is the variance, 5 is the mean, and 1.5 does not arise from the calculation.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "IQ scores are normally distributed with mean 100 and standard deviation 15. About what percentage of people score between 70 and 130?",
+      "options": [
+        {
+          "id": "a",
+          "text": "95%"
+        },
+        {
+          "id": "b",
+          "text": "68%"
+        },
+        {
+          "id": "c",
+          "text": "99.7%"
+        },
+        {
+          "id": "d",
+          "text": "50%"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The range is the mean plus or minus 2 standard deviations, which covers about 95%. The value 68% corresponds to plus or minus 1 standard deviation. The value 99.7% corresponds to three standard deviations, and 50% is the share above the mean.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "In a positively skewed distribution, such as the length of hospital stay,",
+      "options": [
+        {
+          "id": "a",
+          "text": "the mean is less than the median"
+        },
+        {
+          "id": "b",
+          "text": "the mean equals the median"
+        },
+        {
+          "id": "c",
+          "text": "the mode is always the largest value"
+        },
+        {
+          "id": "d",
+          "text": "the mean is greater than the median"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A long tail of high values pulls the mean upwards. That is why the median is often preferred for skewed data. A mean below the median points to a negative skew, and equal values point to a symmetrical distribution.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A sample of 100 patients has a standard deviation of 20 mmHg. The standard error of the mean is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 mmHg"
+        },
+        {
+          "id": "b",
+          "text": "0.2 mmHg"
+        },
+        {
+          "id": "c",
+          "text": "2 mmHg"
+        },
+        {
+          "id": "d",
+          "text": "200 mmHg"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "SE = s / sqrt(n) = 20 / 10 = 2 mmHg. Using the standard deviation itself ignores the sample size. The value 0.2 mmHg divides by n instead of by its square root.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A sample mean is 50 with a standard error of 2. The approximate 95% confidence interval for the population mean is",
+      "options": [
+        {
+          "id": "a",
+          "text": "48 to 52"
+        },
+        {
+          "id": "b",
+          "text": "44 to 56"
+        },
+        {
+          "id": "c",
+          "text": "46.1 to 53.9"
+        },
+        {
+          "id": "d",
+          "text": "49 to 51"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The interval is 50 plus or minus 1.96 x 2 = 50 plus or minus 3.92, giving 46.1 to 53.9. The 48 to 52 interval is only 1 standard error either side, which is about 68%.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "A Type I error occurs when",
+      "options": [
+        {
+          "id": "a",
+          "text": "a false null hypothesis is not rejected"
+        },
+        {
+          "id": "b",
+          "text": "a true null hypothesis is rejected"
+        },
+        {
+          "id": "c",
+          "text": "the sample size is too large"
+        },
+        {
+          "id": "d",
+          "text": "the data are not normally distributed"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A Type I error is a false positive, and its probability is alpha. Failing to reject a false null hypothesis is a Type II error.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "A study reports p = 0.03. This means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "if the null hypothesis were true, a result this extreme would occur in about 3% of studies"
+        },
+        {
+          "id": "b",
+          "text": "there is a 3% chance that the null hypothesis is true"
+        },
+        {
+          "id": "c",
+          "text": "the effect is 3% of the control value"
+        },
+        {
+          "id": "d",
+          "text": "the study has 97% power"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The p-value is a probability of the data given the null, not the probability that the null is true. The result is conventionally called significant at the 5% level.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "A test is applied to 300 people: 90 true positives, 40 false positives, 10 false negatives and 160 true negatives. The sensitivity is",
+      "options": [
+        {
+          "id": "a",
+          "text": "80%"
+        },
+        {
+          "id": "b",
+          "text": "69%"
+        },
+        {
+          "id": "c",
+          "text": "94%"
+        },
+        {
+          "id": "d",
+          "text": "90%"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Sensitivity = TP / (TP + FN) = 90 / 100 = 90%. The value 80% is the specificity. The value 69% is the positive predictive value, 90 / 130, and 94% is the negative predictive value, 160 / 170.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Using the same results (90 true positives, 40 false positives, 10 false negatives, 160 true negatives), the specificity is",
+      "options": [
+        {
+          "id": "a",
+          "text": "90%"
+        },
+        {
+          "id": "b",
+          "text": "69%"
+        },
+        {
+          "id": "c",
+          "text": "75%"
+        },
+        {
+          "id": "d",
+          "text": "80%"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Specificity = TN / (TN + FP) = 160 / 200 = 80%. The value 90% is the sensitivity, the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Using the same results (90 true positives, 40 false positives, 10 false negatives, 160 true negatives), the positive predictive value is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "90%"
+        },
+        {
+          "id": "b",
+          "text": "80%"
+        },
+        {
+          "id": "c",
+          "text": "69%"
+        },
+        {
+          "id": "d",
+          "text": "94%"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "PPV = TP / (TP + FP) = 90 / 130 = 69%. The predictive value depends on how common the disease is in the people tested, unlike sensitivity.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "To compare the mean systolic blood pressure of two independent groups, with approximately normal data, the appropriate test is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "chi-squared test"
+        },
+        {
+          "id": "b",
+          "text": "independent-samples t-test"
+        },
+        {
+          "id": "c",
+          "text": "paired t-test"
+        },
+        {
+          "id": "d",
+          "text": "Pearson correlation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A t-test compares two means, and the groups are independent because they are different people. The chi-squared test is for categorical data, and the paired test is for the same people measured twice.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "A correlation coefficient of r = 0.8 means that the proportion of variance in one variable explained by the other is",
+      "options": [
+        {
+          "id": "a",
+          "text": "64%"
+        },
+        {
+          "id": "b",
+          "text": "80%"
+        },
+        {
+          "id": "c",
+          "text": "8%"
+        },
+        {
+          "id": "d",
+          "text": "0.8%"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The coefficient of determination is r squared = 0.64. A value of 80% would result from reading r itself as the proportion.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "In a population of 10,000 people at risk, 20 new cases of a disease appear in one year. The incidence is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 per 1,000 per year"
+        },
+        {
+          "id": "b",
+          "text": "20 per 1,000 per year"
+        },
+        {
+          "id": "c",
+          "text": "0.2 per 1,000 per year"
+        },
+        {
+          "id": "d",
+          "text": "2 per 100 per year"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Incidence = 20 / 10,000 = 0.002, which is 2 per 1,000. Prevalence, on the other hand, counts all existing cases, new and old. The value 20 per 1,000 is ten times too large, and 0.2 per 1,000 is ten times too small.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "In a cohort study, 20 of 100 exposed people and 10 of 100 unexposed people develop the disease. The relative risk is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "1.1"
+        },
+        {
+          "id": "d",
+          "text": "2.0"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "RR = 0.20 / 0.10 = 2.0, so the exposed group has twice the risk. The value 0.5 inverts the ratio. The value 10 is the difference in risk in percentage points, not the ratio.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Which measure of spread is LEAST affected by extreme outliers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Range"
+        },
+        {
+          "id": "b",
+          "text": "Standard deviation"
+        },
+        {
+          "id": "c",
+          "text": "Interquartile range"
+        },
+        {
+          "id": "d",
+          "text": "Variance"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The interquartile range uses the middle half of the data, so extreme values do not change it. The range depends on the two extremes alone.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "In a normal distribution with mean 100 and standard deviation 15, the z-score of a value of 130 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "30"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "0.5"
+        },
+        {
+          "id": "d",
+          "text": "8.7"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "z = (x - mean) / SD = (130 - 100) / 15 = 2, so the value is two standard deviations above the mean. The figure 30 is the raw difference.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "chm107",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In a titration, a burette is read at the start as 0.50 cm^3 and at the end as 24.70 cm^3. The titre is",
+      "options": [
+        {
+          "id": "a",
+          "text": "24.20 cm^3"
+        },
+        {
+          "id": "b",
+          "text": "25.20 cm^3"
+        },
+        {
+          "id": "c",
+          "text": "24.70 cm^3"
+        },
+        {
+          "id": "d",
+          "text": "23.20 cm^3"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Titre = final reading - initial reading = 24.70 - 0.50 = 24.20 cm^3. A burette scale increases downward, so the subtraction is final minus initial. The value 25.20 adds the starting reading, and 24.70 ignores it.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Before a titration, the burette should be rinsed with",
+      "options": [
+        {
+          "id": "a",
+          "text": "distilled water only"
+        },
+        {
+          "id": "b",
+          "text": "the indicator"
+        },
+        {
+          "id": "c",
+          "text": "the acid in the flask"
+        },
+        {
+          "id": "d",
+          "text": "the solution it will contain"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Rinsing with the solution itself ensures that water left on the walls does not dilute it. The conical flask, by contrast, is rinsed with distilled water only.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Which indicator is most suitable for titrating hydrochloric acid against aqueous ammonia (strong acid against weak base)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phenolphthalein"
+        },
+        {
+          "id": "b",
+          "text": "Litmus"
+        },
+        {
+          "id": "c",
+          "text": "Methyl orange"
+        },
+        {
+          "id": "d",
+          "text": "Universal indicator"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The equivalence point of this titration is acidic, and methyl orange changes colour over an acidic pH range. Phenolphthalein changes in a basic range, so its change would come after the true end point.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which indicator is suitable for titrating sodium hydroxide against ethanoic acid (strong base against weak acid)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Methyl orange"
+        },
+        {
+          "id": "b",
+          "text": "Phenolphthalein"
+        },
+        {
+          "id": "c",
+          "text": "Methyl red"
+        },
+        {
+          "id": "d",
+          "text": "Screened methyl orange"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The equivalence point is on the basic side, where phenolphthalein changes colour. Methyl orange changes in an acidic range and would signal the end point too early.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Phenolphthalein is",
+      "options": [
+        {
+          "id": "a",
+          "text": "red in alkali and yellow in acid"
+        },
+        {
+          "id": "b",
+          "text": "pink in alkaline solution and colourless in acid"
+        },
+        {
+          "id": "c",
+          "text": "colourless in alkali and pink in acid"
+        },
+        {
+          "id": "d",
+          "text": "yellow in alkali and red in acid"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Phenolphthalein turns pink above about pH 8.3. The red-in-acid, yellow-in-alkali pair describes methyl orange.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "25.0 cm^3 of 0.100 mol/dm^3 sodium hydroxide is neutralised by 20.0 cm^3 of hydrochloric acid. The concentration of the acid is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.125 mol/dm^3"
+        },
+        {
+          "id": "b",
+          "text": "0.080 mol/dm^3"
+        },
+        {
+          "id": "c",
+          "text": "0.100 mol/dm^3"
+        },
+        {
+          "id": "d",
+          "text": "0.250 mol/dm^3"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Moles NaOH = 0.0250 x 0.100 = 0.00250. The acid reacts 1 : 1, so its concentration = 0.00250 / 0.0200 = 0.125 mol/dm^3. The value 0.080 inverts the ratio of volumes. The value 0.100 would hold only if the two volumes were equal, and since the acid volume is smaller, its concentration must be higher than 0.100.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "What volume of 0.100 mol/dm^3 sodium hydroxide is needed to neutralise 20.0 cm^3 of 0.100 mol/dm^3 sulphuric acid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20.0 cm^3"
+        },
+        {
+          "id": "b",
+          "text": "10.0 cm^3"
+        },
+        {
+          "id": "c",
+          "text": "80.0 cm^3"
+        },
+        {
+          "id": "d",
+          "text": "40.0 cm^3"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "H2SO4 + 2NaOH -> Na2SO4 + 2H2O, so sulphuric acid needs twice as many moles of NaOH. Equal volumes would apply only to a 1 : 1 reaction.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which substance is suitable as a primary standard for preparing a standard solution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodium hydroxide"
+        },
+        {
+          "id": "b",
+          "text": "Concentrated hydrochloric acid"
+        },
+        {
+          "id": "c",
+          "text": "Anhydrous sodium carbonate"
+        },
+        {
+          "id": "d",
+          "text": "Potassium permanganate crystals"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A primary standard is pure, stable and not hygroscopic. Sodium hydroxide absorbs water and carbon dioxide from the air, so its mass is never exact.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Titres are described as concordant when they agree to within",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.00 cm^3"
+        },
+        {
+          "id": "b",
+          "text": "5.00 cm^3"
+        },
+        {
+          "id": "c",
+          "text": "0.10 cm^3"
+        },
+        {
+          "id": "d",
+          "text": "0.001 cm^3"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Concordant values are consistent enough to be averaged, typically within 0.10 cm^3. A spread of 1 cm^3 would be too wide for reliable results.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "What mass of anhydrous sodium carbonate (Na2CO3 = 106) is needed to prepare 250 cm^3 of a 0.100 mol/dm^3 solution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10.6 g"
+        },
+        {
+          "id": "b",
+          "text": "2.65 g"
+        },
+        {
+          "id": "c",
+          "text": "26.5 g"
+        },
+        {
+          "id": "d",
+          "text": "1.06 g"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Moles = 0.250 x 0.100 = 0.0250, and mass = 0.0250 x 106 = 2.65 g. Forgetting to convert 250 cm^3 to 0.250 dm^3 gives 10.6 g or 26.5 g. The value 1.06 g is the mass for only 0.0100 mol.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "A flame test gives a lilac (pale violet) flame. The metal ion present is",
+      "options": [
+        {
+          "id": "a",
+          "text": "potassium"
+        },
+        {
+          "id": "b",
+          "text": "sodium"
+        },
+        {
+          "id": "c",
+          "text": "calcium"
+        },
+        {
+          "id": "d",
+          "text": "copper"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Potassium gives a lilac flame. Sodium gives a persistent golden yellow, calcium brick-red and copper blue-green.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "A gas turns damp red litmus paper blue. The gas is",
+      "options": [
+        {
+          "id": "a",
+          "text": "carbon dioxide"
+        },
+        {
+          "id": "b",
+          "text": "hydrogen chloride"
+        },
+        {
+          "id": "c",
+          "text": "chlorine"
+        },
+        {
+          "id": "d",
+          "text": "ammonia"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Ammonia is the common alkaline gas. Hydrogen chloride and chlorine would give an acidic or bleaching effect, and carbon dioxide would turn blue litmus slightly red.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Which gas bleaches damp litmus paper?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydrogen"
+        },
+        {
+          "id": "b",
+          "text": "Oxygen"
+        },
+        {
+          "id": "c",
+          "text": "Nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "Chlorine"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Chlorine in water forms chloric(I) acid, which bleaches the dye. Oxygen relights a glowing splint but does not bleach.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "When diluting concentrated acid in the laboratory, a student should",
+      "options": [
+        {
+          "id": "a",
+          "text": "pour water quickly into the acid"
+        },
+        {
+          "id": "b",
+          "text": "heat the acid first"
+        },
+        {
+          "id": "c",
+          "text": "add the acid slowly to the water while stirring"
+        },
+        {
+          "id": "d",
+          "text": "add the acid in one rapid motion"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Adding acid to water spreads the heat released through the larger volume. Adding water to acid can cause the mixture to spit violently. Heating the acid first, or adding it in one rapid motion, makes the release of heat more dangerous.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "After a pipette has delivered its volume, the student should",
+      "options": [
+        {
+          "id": "a",
+          "text": "blow out the last drop into the flask"
+        },
+        {
+          "id": "b",
+          "text": "touch the tip against the inside wall of the flask and not blow out the last drop"
+        },
+        {
+          "id": "c",
+          "text": "shake the pipette hard over the flask"
+        },
+        {
+          "id": "d",
+          "text": "wipe the tip with a tissue"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A pipette is calibrated to deliver its stated volume with the remaining drop in the tip, so blowing it out would add too much.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "A few drops of distilled water are added to the conical flask during a titration. The result is",
+      "options": [
+        {
+          "id": "a",
+          "text": "not affected, because the number of moles of acid in the flask is unchanged"
+        },
+        {
+          "id": "b",
+          "text": "too high, because the acid is diluted"
+        },
+        {
+          "id": "c",
+          "text": "too low, because the alkali is diluted"
+        },
+        {
+          "id": "d",
+          "text": "invalid, because the end point cannot be seen"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Water changes the concentration of the solution but not the moles of acid, and the moles determine the volume of base needed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "A solution is made up to its final volume most accurately in a",
+      "options": [
+        {
+          "id": "a",
+          "text": "volumetric flask"
+        },
+        {
+          "id": "b",
+          "text": "beaker"
+        },
+        {
+          "id": "c",
+          "text": "measuring cylinder"
+        },
+        {
+          "id": "d",
+          "text": "conical flask"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The volumetric flask has a single calibration mark at one precise volume. Beakers and cylinders are marked only approximately.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "What mass of sodium hydroxide (NaOH = 40) is present in 250 cm^3 of a 0.500 mol/dm^3 solution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20.0 g"
+        },
+        {
+          "id": "b",
+          "text": "2.50 g"
+        },
+        {
+          "id": "c",
+          "text": "10.0 g"
+        },
+        {
+          "id": "d",
+          "text": "5.00 g"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Moles = 0.250 x 0.500 = 0.125, so mass = 0.125 x 40 = 5.00 g. The 20.0 g answer forgets to convert the volume to dm^3. The values 10.0 g and 2.50 g correspond to 500 cm^3 and 125 cm^3 of the solution.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "What is the percentage of water in hydrated copper(II) sulphate, CuSO4.5H2O? (Cu = 63.5, S = 32, O = 16, H = 1)",
+      "options": [
+        {
+          "id": "a",
+          "text": "18%"
+        },
+        {
+          "id": "b",
+          "text": "64%"
+        },
+        {
+          "id": "c",
+          "text": "36%"
+        },
+        {
+          "id": "d",
+          "text": "5%"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Molar mass = 159.5 + 90 = 249.5 and water contributes 90, so 90 / 249.5 = 36%. The 64% figure is the share of anhydrous salt, not water.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Methyl orange is red in acid solution and",
+      "options": [
+        {
+          "id": "a",
+          "text": "pink in alkaline solution"
+        },
+        {
+          "id": "b",
+          "text": "yellow in alkaline solution"
+        },
+        {
+          "id": "c",
+          "text": "blue in alkaline solution"
+        },
+        {
+          "id": "d",
+          "text": "colourless in alkaline solution"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Methyl orange changes from red to yellow around pH 3 to 4.5, with orange at the end point. Pink in alkali describes phenolphthalein, a different indicator.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

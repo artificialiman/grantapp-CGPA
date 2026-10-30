@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "bio102",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The part of Earth where life exists, including the air, water and land, is called the",
+      "options": [
+        {
+          "id": "a",
+          "text": "biosphere"
+        },
+        {
+          "id": "b",
+          "text": "ecosystem"
+        },
+        {
+          "id": "c",
+          "text": "population"
+        },
+        {
+          "id": "d",
+          "text": "community"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The biosphere is the whole of the living world and its habitats. An ecosystem is a smaller unit, a community and its non-living surroundings, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "In a food chain, 10,000 kJ of energy is fixed by producers. Assuming 10% transfer at each level, how much reaches the secondary consumers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1,000 kJ"
+        },
+        {
+          "id": "b",
+          "text": "10 kJ"
+        },
+        {
+          "id": "c",
+          "text": "5,000 kJ"
+        },
+        {
+          "id": "d",
+          "text": "100 kJ"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Primary consumers receive 1,000 kJ, and secondary consumers receive 10% of that, which is 100 kJ. The value 1,000 kJ is only the first transfer.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Rhizobium bacteria in the root nodules of legumes help the plant by",
+      "options": [
+        {
+          "id": "a",
+          "text": "absorbing carbon dioxide from the air"
+        },
+        {
+          "id": "b",
+          "text": "converting nitrates into nitrogen gas"
+        },
+        {
+          "id": "c",
+          "text": "converting atmospheric nitrogen into ammonia"
+        },
+        {
+          "id": "d",
+          "text": "breaking down dead leaves"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Nitrogen fixation turns N2 into a form the plant can use. Converting nitrates to nitrogen gas is denitrification, the opposite effect.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The relationship between Plasmodium and a human host is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "mutualism"
+        },
+        {
+          "id": "b",
+          "text": "parasitism"
+        },
+        {
+          "id": "c",
+          "text": "commensalism"
+        },
+        {
+          "id": "d",
+          "text": "competition"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The parasite benefits from the host while the host is harmed. In mutualism both partners benefit.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Which of these is necessary for natural selection to occur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A very large population that never changes"
+        },
+        {
+          "id": "b",
+          "text": "Heritable variation among individuals in a population"
+        },
+        {
+          "id": "c",
+          "text": "Identical traits in all members"
+        },
+        {
+          "id": "d",
+          "text": "Acquired traits being passed on automatically"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Selection acts on differences that can be inherited. If all individuals were identical, there would be nothing for selection to act on.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The forelimbs of a human, a bat and a whale have the same bone structure but different functions. This is evidence of",
+      "options": [
+        {
+          "id": "a",
+          "text": "homologous structures from a common ancestor"
+        },
+        {
+          "id": "b",
+          "text": "analogous structures from convergent evolution"
+        },
+        {
+          "id": "c",
+          "text": "vestigial structures"
+        },
+        {
+          "id": "d",
+          "text": "spontaneous generation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Same underlying structure with different uses points to common ancestry. Analogous structures have similar function but different origins, for example the wings of insects and birds.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "In a population in Hardy-Weinberg equilibrium, 4% of individuals are homozygous recessive (aa). The frequency of heterozygotes (Aa) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.16"
+        },
+        {
+          "id": "b",
+          "text": "0.64"
+        },
+        {
+          "id": "c",
+          "text": "0.20"
+        },
+        {
+          "id": "d",
+          "text": "0.32"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "q^2 = 0.04, so q = 0.2 and p = 0.8. Heterozygotes = 2pq = 2 x 0.8 x 0.2 = 0.32. The value 0.20 is just q. The value 0.64 is the frequency of homozygous dominant individuals (p squared), and 0.16 is the square of 0.4, which has no meaning here.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 5,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The sickle cell allele remains common in malaria-prone regions because heterozygous carriers",
+      "options": [
+        {
+          "id": "a",
+          "text": "are immune to every infection"
+        },
+        {
+          "id": "b",
+          "text": "never pass the allele on"
+        },
+        {
+          "id": "c",
+          "text": "are more resistant to severe malaria"
+        },
+        {
+          "id": "d",
+          "text": "have two sickle cell genes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The heterozygote advantage maintains the allele in the population. Carriers have one copy only, which is why they do not suffer the full disease.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Oxygen-rich blood from the lungs enters the heart through the",
+      "options": [
+        {
+          "id": "a",
+          "text": "right atrium, by the vena cava"
+        },
+        {
+          "id": "b",
+          "text": "left ventricle, by the aorta"
+        },
+        {
+          "id": "c",
+          "text": "left atrium, by the pulmonary veins"
+        },
+        {
+          "id": "d",
+          "text": "right ventricle, by the pulmonary artery"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pulmonary veins return oxygenated blood to the left atrium. The pulmonary artery, though it carries blood to the lungs, takes deoxygenated blood away from the heart.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Which part of the brain acts as the body's thermostat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerebellum"
+        },
+        {
+          "id": "b",
+          "text": "Hypothalamus"
+        },
+        {
+          "id": "c",
+          "text": "Medulla oblongata"
+        },
+        {
+          "id": "d",
+          "text": "Cerebrum"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The hypothalamus detects blood temperature and triggers responses such as sweating or shivering. The cerebellum controls balance and coordination.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The hormone ADH helps the body conserve water by",
+      "options": [
+        {
+          "id": "a",
+          "text": "making the collecting ducts of the kidney more permeable to water"
+        },
+        {
+          "id": "b",
+          "text": "increasing the filtration of blood in the glomerulus"
+        },
+        {
+          "id": "c",
+          "text": "making the loop of Henle shorter"
+        },
+        {
+          "id": "d",
+          "text": "stopping the production of urine entirely"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "More water is reabsorbed back into the blood, producing a small volume of concentrated urine. Filtration at the glomerulus is not what ADH regulates.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Which feature of the alveoli makes gas exchange efficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A thick wall to prevent leaks"
+        },
+        {
+          "id": "b",
+          "text": "A small total surface area"
+        },
+        {
+          "id": "c",
+          "text": "A dry inner surface"
+        },
+        {
+          "id": "d",
+          "text": "A thin wall and a rich supply of capillaries"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A thin barrier gives a short diffusion path, and the capillaries keep the gradient steep. A thick wall would slow diffusion down.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Which hormone lowers the blood glucose level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucagon"
+        },
+        {
+          "id": "b",
+          "text": "Adrenaline"
+        },
+        {
+          "id": "c",
+          "text": "Thyroxine"
+        },
+        {
+          "id": "d",
+          "text": "Insulin"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Insulin from the beta cells of the pancreas makes cells take up glucose. Glucagon raises glucose, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Fertilisation in the human female usually takes place in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "uterus"
+        },
+        {
+          "id": "b",
+          "text": "ovary"
+        },
+        {
+          "id": "c",
+          "text": "fallopian (uterine) tube"
+        },
+        {
+          "id": "d",
+          "text": "vagina"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The egg meets the sperm in the oviduct, and the zygote then travels to the uterus to implant. The uterus is where implantation and pregnancy proceed.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "A shoot bends towards a light source because auxin",
+      "options": [
+        {
+          "id": "a",
+          "text": "accumulates on the lit side and stops growth there"
+        },
+        {
+          "id": "b",
+          "text": "accumulates on the shaded side and causes cells there to elongate more"
+        },
+        {
+          "id": "c",
+          "text": "is destroyed on the shaded side"
+        },
+        {
+          "id": "d",
+          "text": "is produced only by the roots"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Greater cell elongation on the shaded side bends the shoot towards the light. Auxin does not stop growth in the same cells that would be on the illuminated side.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Double fertilisation in flowering plants produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "a diploid zygote and a triploid endosperm"
+        },
+        {
+          "id": "b",
+          "text": "two zygotes"
+        },
+        {
+          "id": "c",
+          "text": "a haploid zygote and a haploid endosperm"
+        },
+        {
+          "id": "d",
+          "text": "a seed coat and a root"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "One sperm fuses with the egg to give the diploid zygote, and the other fuses with two polar nuclei to give the triploid endosperm. Only one egg is fertilised, so there is one zygote, and the endosperm is triploid because it includes two polar nuclei.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The probability that a child will be male is",
+      "options": [
+        {
+          "id": "a",
+          "text": "50%, determined by the sperm"
+        },
+        {
+          "id": "b",
+          "text": "25%, determined by the egg"
+        },
+        {
+          "id": "c",
+          "text": "75%, determined by the egg"
+        },
+        {
+          "id": "d",
+          "text": "100% if the father is male"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The egg always carries an X chromosome, and the sperm carries either X or Y with equal probability. Because the egg always carries an X chromosome, it cannot decide the sex of the child. The sperm does.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A population grows in the logistic pattern and then levels off. The population size at which it stabilises is called the",
+      "options": [
+        {
+          "id": "a",
+          "text": "biotic potential"
+        },
+        {
+          "id": "b",
+          "text": "birth rate"
+        },
+        {
+          "id": "c",
+          "text": "exponential limit"
+        },
+        {
+          "id": "d",
+          "text": "carrying capacity"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Carrying capacity is the largest population the environment can sustain with the available resources. Biotic potential is the growth rate with no limits, and the birth rate is only one input to growth.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Primary succession begins on bare rock with pioneer species such as",
+      "options": [
+        {
+          "id": "a",
+          "text": "tall trees"
+        },
+        {
+          "id": "b",
+          "text": "grasses and shrubs"
+        },
+        {
+          "id": "c",
+          "text": "lichens"
+        },
+        {
+          "id": "d",
+          "text": "large mammals"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Lichens can colonise bare rock and begin forming soil. Grasses and shrubs come later, once some soil has been formed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Which of these is an example of ex-situ conservation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A national park"
+        },
+        {
+          "id": "b",
+          "text": "A seed bank"
+        },
+        {
+          "id": "c",
+          "text": "A forest reserve"
+        },
+        {
+          "id": "d",
+          "text": "A wildlife sanctuary"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ex-situ means conservation outside the natural habitat, for example in seed banks, botanical gardens or zoos. National parks protect species in their natural habitats.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

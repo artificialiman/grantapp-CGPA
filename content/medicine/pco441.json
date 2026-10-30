@@ -1,0 +1,649 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "pco441",
+  "department_slugs": [
+    "human-medicine"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Penicillins kill bacteria by",
+      "options": [
+        {
+          "id": "a",
+          "text": "inhibiting cell wall synthesis through binding to penicillin-binding proteins"
+        },
+        {
+          "id": "b",
+          "text": "inhibiting protein synthesis at the 30S subunit"
+        },
+        {
+          "id": "c",
+          "text": "inhibiting DNA gyrase"
+        },
+        {
+          "id": "d",
+          "text": "blocking folic acid synthesis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Beta-lactams block cross-linking of peptidoglycan, so the wall is weak and the cell lyses. Protein synthesis inhibition describes aminoglycosides and tetracyclines.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Clavulanic acid is combined with amoxicillin to",
+      "options": [
+        {
+          "id": "a",
+          "text": "increase renal excretion of amoxicillin"
+        },
+        {
+          "id": "b",
+          "text": "kill anaerobic bacteria directly"
+        },
+        {
+          "id": "c",
+          "text": "block protein synthesis"
+        },
+        {
+          "id": "d",
+          "text": "inhibit beta-lactamase enzymes that destroy amoxicillin"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It protects the beta-lactam ring from bacterial enzymes, so resistant organisms become susceptible. Clavulanic acid has little antibacterial action of its own, so it neither kills anaerobes directly nor blocks protein synthesis, and faster excretion would lower the amoxicillin level.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Methicillin-resistant Staphylococcus aureus (MRSA) is resistant because of",
+      "options": [
+        {
+          "id": "a",
+          "text": "production of ethambutol"
+        },
+        {
+          "id": "b",
+          "text": "loss of the cell membrane"
+        },
+        {
+          "id": "c",
+          "text": "the mecA gene producing an altered penicillin-binding protein (PBP2a)"
+        },
+        {
+          "id": "d",
+          "text": "a plasmid for vitamin K"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "PBP2a has a low affinity for beta-lactams, so these drugs cannot block cell wall synthesis. A simple beta-lactamase does not explain MRSA.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Gentamicin, an aminoglycoside, acts by binding to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "50S ribosomal subunit and causes grey baby syndrome"
+        },
+        {
+          "id": "b",
+          "text": "30S ribosomal subunit and is associated with nephrotoxicity and ototoxicity"
+        },
+        {
+          "id": "c",
+          "text": "DNA gyrase and causes tendon rupture"
+        },
+        {
+          "id": "d",
+          "text": "RNA polymerase and colours urine orange"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Aminoglycosides cause misreading of mRNA and are bactericidal. Their serious toxicity affects the kidney and the eighth cranial nerve. Grey baby syndrome is caused by chloramphenicol, tendon rupture by fluoroquinolones, and orange urine by rifampicin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Tetracyclines should be avoided in pregnancy and in children under 8 years because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "cause deafness in the fetus"
+        },
+        {
+          "id": "b",
+          "text": "deposit in developing bones and teeth, causing staining and impaired growth"
+        },
+        {
+          "id": "c",
+          "text": "cause grey baby syndrome"
+        },
+        {
+          "id": "d",
+          "text": "cause hepatic failure in every patient"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "They chelate calcium in growing tissue and discolour teeth permanently. Grey baby syndrome is a toxicity of chloramphenicol.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Ciprofloxacin acts by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacterial DNA gyrase (topoisomerase II) and topoisomerase IV"
+        },
+        {
+          "id": "b",
+          "text": "bacterial RNA polymerase"
+        },
+        {
+          "id": "c",
+          "text": "dihydrofolate reductase"
+        },
+        {
+          "id": "d",
+          "text": "cell wall synthesis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Blocking DNA supercoiling prevents replication. A recognised adverse effect is tendon damage, especially in older patients. RNA polymerase is the target of rifampicin, dihydrofolate reductase of trimethoprim, and cell wall synthesis of the beta-lactams.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Rifampicin acts by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "mycolic acid synthesis"
+        },
+        {
+          "id": "b",
+          "text": "arabinosyl transferase"
+        },
+        {
+          "id": "c",
+          "text": "the 30S ribosomal subunit"
+        },
+        {
+          "id": "d",
+          "text": "bacterial DNA-dependent RNA polymerase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It stops transcription. It also colours urine and tears orange-red, and induces liver enzymes. Mycolic acid synthesis is the target of isoniazid.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The standard first-line regimen for drug-susceptible tuberculosis is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 weeks of rifampicin alone"
+        },
+        {
+          "id": "b",
+          "text": "12 months of isoniazid alone"
+        },
+        {
+          "id": "c",
+          "text": "2 months of isoniazid, rifampicin, pyrazinamide and ethambutol, followed by 4 months of isoniazid and rifampicin"
+        },
+        {
+          "id": "d",
+          "text": "1 month of ciprofloxacin and ethambutol"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Combination therapy prevents drug resistance, and the intensive phase kills most bacilli quickly. Single-drug treatment would select resistant organisms.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Peripheral neuropathy caused by isoniazid is prevented by giving",
+      "options": [
+        {
+          "id": "a",
+          "text": "vitamin C"
+        },
+        {
+          "id": "b",
+          "text": "vitamin K"
+        },
+        {
+          "id": "c",
+          "text": "pyridoxine (vitamin B6)"
+        },
+        {
+          "id": "d",
+          "text": "folic acid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Isoniazid depletes pyridoxine, and supplementation prevents the neuropathy. Vitamin K is used for warfarin reversal, which is unrelated. Vitamin C, vitamin K and folic acid do not replace the pyridoxine that isoniazid depletes.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Optic neuritis, which can cause loss of colour vision, is the characteristic toxicity of",
+      "options": [
+        {
+          "id": "a",
+          "text": "rifampicin"
+        },
+        {
+          "id": "b",
+          "text": "ethambutol"
+        },
+        {
+          "id": "c",
+          "text": "pyrazinamide"
+        },
+        {
+          "id": "d",
+          "text": "isoniazid"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Patients on ethambutol should have their vision checked. Pyrazinamide's typical toxicities are hepatotoxicity and hyperuricaemia.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Co-trimoxazole combines sulfamethoxazole and trimethoprim, which act by",
+      "options": [
+        {
+          "id": "a",
+          "text": "blocking two sequential steps in bacterial folate synthesis"
+        },
+        {
+          "id": "b",
+          "text": "blocking two steps in protein synthesis"
+        },
+        {
+          "id": "c",
+          "text": "damaging the cell membrane in two ways"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting cell wall synthesis twice"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Sulfonamides inhibit dihydropteroate synthase and trimethoprim inhibits dihydrofolate reductase. The two together are synergistic and bactericidal. Protein synthesis is the target of the aminoglycosides, and membrane damage is the action of the polymyxins. These two drugs act on a single pathway, one step apart.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Metronidazole is effective against",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gram-positive aerobes only"
+        },
+        {
+          "id": "b",
+          "text": "viruses"
+        },
+        {
+          "id": "c",
+          "text": "all fungi"
+        },
+        {
+          "id": "d",
+          "text": "anaerobic bacteria and protozoa such as Giardia and Trichomonas"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is activated in anaerobic organisms. A disulfiram-like reaction can occur if alcohol is taken during treatment. It has no activity against viruses or against aerobic bacteria, because it needs an anaerobic environment to be activated.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Grey baby syndrome is a toxicity of",
+      "options": [
+        {
+          "id": "a",
+          "text": "tetracycline"
+        },
+        {
+          "id": "b",
+          "text": "gentamicin"
+        },
+        {
+          "id": "c",
+          "text": "ampicillin"
+        },
+        {
+          "id": "d",
+          "text": "chloramphenicol"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Newborns cannot conjugate chloramphenicol, so it accumulates, causing cardiovascular collapse. Tetracycline instead stains teeth.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The first-line treatment of uncomplicated Plasmodium falciparum malaria is",
+      "options": [
+        {
+          "id": "a",
+          "text": "chloroquine alone"
+        },
+        {
+          "id": "b",
+          "text": "primaquine alone"
+        },
+        {
+          "id": "c",
+          "text": "an artemisinin-based combination therapy such as artemether-lumefantrine"
+        },
+        {
+          "id": "d",
+          "text": "amoxicillin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Combination therapy is used to delay resistance. Chloroquine is no longer reliable against falciparum because of widespread resistance.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Primaquine is used mainly because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "kills the blood stage of P. falciparum rapidly"
+        },
+        {
+          "id": "b",
+          "text": "kills the dormant liver hypnozoites of P. vivax and P. ovale"
+        },
+        {
+          "id": "c",
+          "text": "prevents mosquito feeding"
+        },
+        {
+          "id": "d",
+          "text": "is a vaccine"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It prevents relapse. In patients with G6PD deficiency, it may cause haemolysis, so testing is advised.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Chloroquine kills malaria parasites by",
+      "options": [
+        {
+          "id": "a",
+          "text": "preventing the polymerisation of toxic haem inside the parasite's food vacuole"
+        },
+        {
+          "id": "b",
+          "text": "inhibiting DNA gyrase"
+        },
+        {
+          "id": "c",
+          "text": "blocking the cell wall"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting reverse transcriptase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Free haem builds up and poisons the parasite. Resistance in P. falciparum limits its use for that species. DNA gyrase is the target of ciprofloxacin, the cell wall of the beta-lactams, and reverse transcriptase of drugs such as zidovudine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Aciclovir is selective for cells infected with herpes simplex virus because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is activated by the viral thymidine kinase"
+        },
+        {
+          "id": "b",
+          "text": "is activated by human liver enzymes only"
+        },
+        {
+          "id": "c",
+          "text": "binds to the cell wall"
+        },
+        {
+          "id": "d",
+          "text": "blocks the proton pump"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The viral enzyme phosphorylates it, and the active form inhibits viral DNA polymerase. Uninfected cells do not activate it, so toxicity is low.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Amphotericin B acts by binding to",
+      "options": [
+        {
+          "id": "a",
+          "text": "chitin in the fungal wall"
+        },
+        {
+          "id": "b",
+          "text": "bacterial peptidoglycan"
+        },
+        {
+          "id": "c",
+          "text": "viral reverse transcriptase"
+        },
+        {
+          "id": "d",
+          "text": "ergosterol in the fungal cell membrane, forming pores"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Ergosterol is the main sterol in fungal membranes. The azoles, such as fluconazole, instead inhibit its synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Methotrexate acts by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "tubulin polymerisation"
+        },
+        {
+          "id": "b",
+          "text": "DNA cross-linking directly"
+        },
+        {
+          "id": "c",
+          "text": "dihydrofolate reductase, blocking DNA synthesis"
+        },
+        {
+          "id": "d",
+          "text": "topoisomerase II only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is an antimetabolite that blocks folate-dependent nucleotide synthesis, and its toxicity is reduced by folinic acid. Vincristine acts on tubulin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Vincristine, used in leukaemia and lymphoma, acts by",
+      "options": [
+        {
+          "id": "a",
+          "text": "cross-linking DNA strands"
+        },
+        {
+          "id": "b",
+          "text": "binding tubulin and preventing microtubule formation, arresting cells in mitosis"
+        },
+        {
+          "id": "c",
+          "text": "inhibiting dihydrofolate reductase"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting reverse transcriptase"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Without a mitotic spindle, dividing cells cannot complete mitosis. A dose-limiting toxicity is peripheral neuropathy. DNA cross-linking is the action of cisplatin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    }
+  ]
+}

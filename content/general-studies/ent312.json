@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "ent312",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In a business plan, the section that briefly states the whole venture for a busy reader is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "executive summary"
+        },
+        {
+          "id": "b",
+          "text": "appendix"
+        },
+        {
+          "id": "c",
+          "text": "financial projection"
+        },
+        {
+          "id": "d",
+          "text": "market survey"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The executive summary condenses the plan's key points and is usually written last but placed first. The financial projection is only one part of what it summarises.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A start-up that sells 400 units at N250, with fixed costs of N30,000 and variable cost of N100 per unit, makes a profit of",
+      "options": [
+        {
+          "id": "a",
+          "text": "N70,000"
+        },
+        {
+          "id": "b",
+          "text": "N10,000"
+        },
+        {
+          "id": "c",
+          "text": "N100,000"
+        },
+        {
+          "id": "d",
+          "text": "N30,000"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Revenue = 400 x 250 = 100,000. Total cost = 30,000 + 400 x 100 = 70,000. Profit = 30,000. Forgetting fixed costs gives N60,000, and subtracting only variable cost gives the wrong figure.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Dividing a market into groups of customers who share similar needs is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "market penetration"
+        },
+        {
+          "id": "b",
+          "text": "product diversification"
+        },
+        {
+          "id": "c",
+          "text": "market segmentation"
+        },
+        {
+          "id": "d",
+          "text": "price skimming"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Segmentation groups customers by traits such as age, income or location. Penetration is about winning a bigger share of an existing market.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Working capital is calculated as",
+      "options": [
+        {
+          "id": "a",
+          "text": "total assets minus fixed assets"
+        },
+        {
+          "id": "b",
+          "text": "current assets minus current liabilities"
+        },
+        {
+          "id": "c",
+          "text": "revenue minus profit"
+        },
+        {
+          "id": "d",
+          "text": "owner's equity plus loans"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Working capital shows the short-term funds available to run the business: current assets less current liabilities. Total assets less fixed assets only gives current assets.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A unique selling proposition (USP) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the legal name of the business"
+        },
+        {
+          "id": "b",
+          "text": "the specific reason a customer should choose your product over a competitor's"
+        },
+        {
+          "id": "c",
+          "text": "a list of the owner's qualifications"
+        },
+        {
+          "id": "d",
+          "text": "the cost of making one unit"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A USP states what makes the offer different and valuable to the customer. The legal name identifies the firm but says nothing about its advantage.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Which source of start-up finance does NOT require repayment or give up ownership?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A grant"
+        },
+        {
+          "id": "b",
+          "text": "A bank loan"
+        },
+        {
+          "id": "c",
+          "text": "Equity from an investor"
+        },
+        {
+          "id": "d",
+          "text": "Trade credit from a supplier"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A grant is money given without repayment or ownership share. Equity gives the investor a share, and a bank loan must be repaid with interest.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Which Nigerian agency promotes the growth of micro, small and medium enterprises?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NAFDAC"
+        },
+        {
+          "id": "b",
+          "text": "FRSC"
+        },
+        {
+          "id": "c",
+          "text": "NIMC"
+        },
+        {
+          "id": "d",
+          "text": "SMEDAN"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The Small and Medium Enterprises Development Agency of Nigeria supports MSMEs. NAFDAC regulates food and drugs, so it matters to some businesses but is not their development agency.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A cash flow statement is mainly used to show",
+      "options": [
+        {
+          "id": "a",
+          "text": "the owner's personal assets"
+        },
+        {
+          "id": "b",
+          "text": "the number of customers served"
+        },
+        {
+          "id": "c",
+          "text": "the movement of money into and out of the business over a period"
+        },
+        {
+          "id": "d",
+          "text": "the planned future products"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It tracks cash in and out. A business can be profitable on paper and still fail through lack of cash, which is why the statement matters. Personal assets belong to a personal net-worth statement, while customer numbers and product plans appear in operating and strategy reports.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A lean start-up approach favours",
+      "options": [
+        {
+          "id": "a",
+          "text": "completing a perfect product before showing anyone"
+        },
+        {
+          "id": "b",
+          "text": "avoiding all market research"
+        },
+        {
+          "id": "c",
+          "text": "launching a simple version quickly and improving it using customer feedback"
+        },
+        {
+          "id": "d",
+          "text": "delaying sales until profits are certain"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Lean thinking tests a minimum viable product against real customers. Perfecting the product in secret delays learning and increases the cost of wrong guesses.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The break-even point is the level of sales at which",
+      "options": [
+        {
+          "id": "a",
+          "text": "profit is highest"
+        },
+        {
+          "id": "b",
+          "text": "total revenue equals total cost"
+        },
+        {
+          "id": "c",
+          "text": "fixed costs are zero"
+        },
+        {
+          "id": "d",
+          "text": "variable costs equal fixed costs"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "At break-even there is neither profit nor loss. Profit is not highest there, and the point has no requirement that variable and fixed costs be equal.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

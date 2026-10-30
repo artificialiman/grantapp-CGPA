@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "chm108",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Sodium hydroxide solution is added to a solution of an unknown salt and gives a pale blue precipitate that does not dissolve in excess. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cu2+"
+        },
+        {
+          "id": "b",
+          "text": "Fe2+"
+        },
+        {
+          "id": "c",
+          "text": "Zn2+"
+        },
+        {
+          "id": "d",
+          "text": "Al3+"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Copper(II) hydroxide is pale blue and insoluble in excess alkali. Fe2+ gives a green precipitate, and Zn2+ and Al3+ give white precipitates that dissolve. Fe3+ gives a red-brown precipitate, not a pale blue one.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Excess aqueous ammonia is added to a solution containing Cu2+ ions. The result is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a green precipitate"
+        },
+        {
+          "id": "b",
+          "text": "a white precipitate"
+        },
+        {
+          "id": "c",
+          "text": "no visible change"
+        },
+        {
+          "id": "d",
+          "text": "a deep blue solution"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The precipitate first formed redissolves, forming the complex [Cu(NH3)4]2+, which is deep blue.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A green precipitate that turns brown on standing in air forms when sodium hydroxide is added to a solution. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fe3+"
+        },
+        {
+          "id": "b",
+          "text": "Cu2+"
+        },
+        {
+          "id": "c",
+          "text": "Fe2+"
+        },
+        {
+          "id": "d",
+          "text": "Ca2+"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Iron(II) hydroxide is green and is slowly oxidised by air to brown iron(III) hydroxide. Fe3+ gives a reddish-brown precipitate immediately. Cu2+ gives a pale blue precipitate, and Ca2+ gives at most a faint white one.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A reddish-brown precipitate is formed with sodium hydroxide solution. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fe2+"
+        },
+        {
+          "id": "b",
+          "text": "Fe3+"
+        },
+        {
+          "id": "c",
+          "text": "Zn2+"
+        },
+        {
+          "id": "d",
+          "text": "Mg2+"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Iron(III) hydroxide is reddish-brown. Fe2+ is the nearest wrong option because it gives a green precipitate.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A white precipitate forms with sodium hydroxide, dissolves in excess sodium hydroxide, and also dissolves in excess ammonia. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Al3+"
+        },
+        {
+          "id": "b",
+          "text": "Zn2+"
+        },
+        {
+          "id": "c",
+          "text": "Pb2+"
+        },
+        {
+          "id": "d",
+          "text": "Ca2+"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Zinc hydroxide dissolves in both excess alkali and excess ammonia. Al3+ dissolves in excess NaOH but not in excess NH3, and that difference distinguishes the two.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A white precipitate dissolves in excess sodium hydroxide but not in excess ammonia solution. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Al3+"
+        },
+        {
+          "id": "b",
+          "text": "Zn2+"
+        },
+        {
+          "id": "c",
+          "text": "Mg2+"
+        },
+        {
+          "id": "d",
+          "text": "Cu2+"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Aluminium hydroxide is amphoteric and dissolves in excess alkali, but it does not form an ammine complex. Zn2+ is the nearest wrong choice because it dissolves in both.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A solution gives a white precipitate with sodium hydroxide that dissolves in excess, and a yellow precipitate with potassium iodide. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zn2+"
+        },
+        {
+          "id": "b",
+          "text": "Al3+"
+        },
+        {
+          "id": "c",
+          "text": "Ca2+"
+        },
+        {
+          "id": "d",
+          "text": "Pb2+"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lead(II) iodide is bright yellow, which separates Pb2+ from Zn2+ and Al3+. Both of those have white precipitates, but their iodides are soluble.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A white precipitate forms with sodium hydroxide and does not dissolve in excess. The salt gives a brick-red flame. The cation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mg2+"
+        },
+        {
+          "id": "b",
+          "text": "Zn2+"
+        },
+        {
+          "id": "c",
+          "text": "Ca2+"
+        },
+        {
+          "id": "d",
+          "text": "Na+"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Calcium hydroxide is a white precipitate insoluble in excess, and calcium gives a brick-red flame. Mg2+ behaves the same way with NaOH but gives no flame colour.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A solution is acidified with dilute nitric acid and silver nitrate is added. A white precipitate that dissolves in dilute ammonia solution indicates",
+      "options": [
+        {
+          "id": "a",
+          "text": "sulphate ions"
+        },
+        {
+          "id": "b",
+          "text": "carbonate ions"
+        },
+        {
+          "id": "c",
+          "text": "chloride ions"
+        },
+        {
+          "id": "d",
+          "text": "iodide ions"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Silver chloride is white and soluble in dilute ammonia. Silver iodide is yellow and insoluble in dilute ammonia.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Barium chloride solution is added to a solution acidified with dilute hydrochloric acid, producing a white precipitate that stays. The anion is",
+      "options": [
+        {
+          "id": "a",
+          "text": "chloride"
+        },
+        {
+          "id": "b",
+          "text": "sulphate"
+        },
+        {
+          "id": "c",
+          "text": "carbonate"
+        },
+        {
+          "id": "d",
+          "text": "nitrate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Barium sulphate is insoluble even in acid. Barium carbonate would also be white, but it dissolves in acid, which is why the solution is acidified first.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Dilute acid is added to a solid, and a gas that turns limewater milky is given off. The solid is most likely a",
+      "options": [
+        {
+          "id": "a",
+          "text": "carbonate"
+        },
+        {
+          "id": "b",
+          "text": "sulphate"
+        },
+        {
+          "id": "c",
+          "text": "chloride"
+        },
+        {
+          "id": "d",
+          "text": "nitrate"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Carbonates release carbon dioxide on reaction with acid. Sulphates and chlorides do not give a gas with dilute acid.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The brown ring test is used to detect",
+      "options": [
+        {
+          "id": "a",
+          "text": "sulphate ions"
+        },
+        {
+          "id": "b",
+          "text": "chloride ions"
+        },
+        {
+          "id": "c",
+          "text": "carbonate ions"
+        },
+        {
+          "id": "d",
+          "text": "nitrate ions"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Freshly prepared iron(II) sulphate and concentrated sulphuric acid, added carefully down the tube, give a brown ring at the junction when nitrate is present.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "An organic liquid decolourises bromine water immediately in the cold. The liquid probably contains",
+      "options": [
+        {
+          "id": "a",
+          "text": "only single bonds"
+        },
+        {
+          "id": "b",
+          "text": "an alcohol group only"
+        },
+        {
+          "id": "c",
+          "text": "a carboxylic acid group only"
+        },
+        {
+          "id": "d",
+          "text": "a carbon-carbon double bond"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Alkenes undergo addition with bromine, which removes the brown colour. Alkanes need ultraviolet light and react by substitution. A compound with only single bonds does not decolourise bromine water in the dark, and alcohol and carboxylic acid groups do not react with it in the cold.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Tollens' reagent gives a silver mirror when warmed with",
+      "options": [
+        {
+          "id": "a",
+          "text": "a ketone"
+        },
+        {
+          "id": "b",
+          "text": "an alkane"
+        },
+        {
+          "id": "c",
+          "text": "an aldehyde"
+        },
+        {
+          "id": "d",
+          "text": "a carboxylic acid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Aldehydes are easily oxidised and reduce silver ions to silver. Ketones, the nearest wrong choice, are not oxidised under these conditions.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Fehling's solution can be used to distinguish",
+      "options": [
+        {
+          "id": "a",
+          "text": "alcohols from carboxylic acids"
+        },
+        {
+          "id": "b",
+          "text": "aldehydes from ketones"
+        },
+        {
+          "id": "c",
+          "text": "alkanes from alkenes"
+        },
+        {
+          "id": "d",
+          "text": "ethers from esters"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A brick-red precipitate of copper(I) oxide forms with an aldehyde, but not with a ketone.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "An orange precipitate forms when 2,4-dinitrophenylhydrazine is added to an organic compound. The compound contains a",
+      "options": [
+        {
+          "id": "a",
+          "text": "carbonyl group (C=O) of an aldehyde or ketone"
+        },
+        {
+          "id": "b",
+          "text": "hydroxyl group of an alcohol"
+        },
+        {
+          "id": "c",
+          "text": "carboxyl group only"
+        },
+        {
+          "id": "d",
+          "text": "double bond between two carbon atoms"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The reagent forms a coloured hydrazone with both aldehydes and ketones, so it shows a carbonyl group but does not separate the two types.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The enthalpy change of neutralisation for a strong acid and a strong base is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "57 kJ released per mole of water formed"
+        },
+        {
+          "id": "b",
+          "text": "57 kJ absorbed per mole of water formed"
+        },
+        {
+          "id": "c",
+          "text": "570 kJ released per mole of water formed"
+        },
+        {
+          "id": "d",
+          "text": "no heat change at all"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The reaction H+ + OH- -> H2O is exothermic, so heat is released, and the value is close to 57 kJ per mole. An absorbed value would imply an endothermic process, and the solution would cool.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A pure organic solid is distinguished from an impure sample by its melting point, because impurities",
+      "options": [
+        {
+          "id": "a",
+          "text": "raise the melting point sharply"
+        },
+        {
+          "id": "b",
+          "text": "have no effect on the melting point"
+        },
+        {
+          "id": "c",
+          "text": "make the substance melt instantly"
+        },
+        {
+          "id": "d",
+          "text": "lower the melting point and make it melt over a range"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A pure compound melts sharply at a fixed temperature. Impurities disrupt the crystal lattice, so the solid melts lower and over a range.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "In recrystallisation, the crude solid is dissolved in the minimum volume of hot solvent so that",
+      "options": [
+        {
+          "id": "a",
+          "text": "the solid will never dissolve"
+        },
+        {
+          "id": "b",
+          "text": "all impurities crystallise first"
+        },
+        {
+          "id": "c",
+          "text": "the solution is saturated and crystals form on cooling"
+        },
+        {
+          "id": "d",
+          "text": "the solvent will evaporate completely"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Using little solvent gives a saturated solution, so the pure compound crystallises as it cools and most impurities stay dissolved.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "When warmed with acidified potassium dichromate(VI), ethanol changes the colour of the mixture from",
+      "options": [
+        {
+          "id": "a",
+          "text": "green to orange"
+        },
+        {
+          "id": "b",
+          "text": "orange to green"
+        },
+        {
+          "id": "c",
+          "text": "colourless to purple"
+        },
+        {
+          "id": "d",
+          "text": "blue to colourless"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The orange dichromate(VI) ion is reduced to green chromium(III) while the alcohol is oxidised. A tertiary alcohol would show no change.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

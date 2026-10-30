@@ -1,0 +1,649 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "mls406",
+  "department_slugs": [
+    "medical-laboratory-science"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In the PICO framework for a clinical research question, the letters stand for",
+      "options": [
+        {
+          "id": "a",
+          "text": "Population, Intervention, Comparison and Outcome"
+        },
+        {
+          "id": "b",
+          "text": "Patient, Illness, Cause and Observation"
+        },
+        {
+          "id": "c",
+          "text": "Prevalence, Incidence, Cohort and Odds"
+        },
+        {
+          "id": "d",
+          "text": "Placebo, Intervention, Control and Output"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "PICO structures a question so that the population, treatment, comparator and outcome are specified. It is widely used for searching literature. None of the other expansions is recognised, and PICO has no letter for illness, cohort or placebo.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A null hypothesis states that",
+      "options": [
+        {
+          "id": "a",
+          "text": "the treatment is always effective"
+        },
+        {
+          "id": "b",
+          "text": "the sample is biased"
+        },
+        {
+          "id": "c",
+          "text": "there is a strong correlation"
+        },
+        {
+          "id": "d",
+          "text": "there is no difference or association between the variables being studied"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The null hypothesis is the default that a test attempts to reject. The researcher's expected effect is stated in the alternative hypothesis. A treatment that always works, a biased sample and a strong correlation are claims of effect or of a flaw, not the statement of no difference.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "In a study of the effect of a drug dose on blood pressure, the dependent variable is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the drug dose"
+        },
+        {
+          "id": "b",
+          "text": "the age of the investigator"
+        },
+        {
+          "id": "c",
+          "text": "blood pressure"
+        },
+        {
+          "id": "d",
+          "text": "the sample size"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The dependent variable is the outcome measured. The dose, which the researcher manipulates, is the independent variable. The drug dose is the independent variable, and the investigator's age and the sample size are not outcomes of the dose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which study design is considered the best for testing the efficacy of a new treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A case report"
+        },
+        {
+          "id": "b",
+          "text": "A randomised controlled trial"
+        },
+        {
+          "id": "c",
+          "text": "A cross-sectional survey"
+        },
+        {
+          "id": "d",
+          "text": "An expert opinion"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Random allocation balances known and unknown confounders between groups. A case report, though useful for generating ideas, cannot show efficacy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A cohort study is characterised by",
+      "options": [
+        {
+          "id": "a",
+          "text": "comparing people with and without disease by looking back at past exposure"
+        },
+        {
+          "id": "b",
+          "text": "following exposed and unexposed groups over time to compare the incidence of disease"
+        },
+        {
+          "id": "c",
+          "text": "measuring exposure and disease at a single point in time"
+        },
+        {
+          "id": "d",
+          "text": "randomly allocating participants to treatments"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cohort studies give incidence and relative risk. The looking-back description fits a case-control study.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A case-control study is especially suitable for studying",
+      "options": [
+        {
+          "id": "a",
+          "text": "rare diseases"
+        },
+        {
+          "id": "b",
+          "text": "very common diseases only"
+        },
+        {
+          "id": "c",
+          "text": "the long-term effects of a treatment given by random allocation"
+        },
+        {
+          "id": "d",
+          "text": "the prevalence of a disease in a community"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It starts with the cases, so a large cohort is not needed to find enough cases. It measures an odds ratio.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A cross-sectional survey measures",
+      "options": [
+        {
+          "id": "a",
+          "text": "incidence over many years"
+        },
+        {
+          "id": "b",
+          "text": "causation with certainty"
+        },
+        {
+          "id": "c",
+          "text": "treatment efficacy"
+        },
+        {
+          "id": "d",
+          "text": "prevalence at a single point in time but cannot show which came first, exposure or disease"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Exposure and outcome are measured together, so temporal order is unclear. For incidence, one needs follow-up of people over time.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "In the hierarchy of evidence, which is at the TOP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Expert opinion"
+        },
+        {
+          "id": "b",
+          "text": "Case reports"
+        },
+        {
+          "id": "c",
+          "text": "Systematic reviews and meta-analyses of randomised trials"
+        },
+        {
+          "id": "d",
+          "text": "Cohort studies"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "These combine results from several high-quality studies, which reduces random error. Expert opinion is at the base of the pyramid.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A researcher selects every 10th patient from a register after choosing a random starting point. This is",
+      "options": [
+        {
+          "id": "a",
+          "text": "stratified sampling"
+        },
+        {
+          "id": "b",
+          "text": "cluster sampling"
+        },
+        {
+          "id": "c",
+          "text": "systematic sampling"
+        },
+        {
+          "id": "d",
+          "text": "convenience sampling"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A fixed interval after a random start defines systematic sampling. Stratified sampling divides the population into groups first, and then samples within each.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "A researcher interviews only the patients who happen to attend the clinic on a Monday. This sample is vulnerable to",
+      "options": [
+        {
+          "id": "a",
+          "text": "recall bias only"
+        },
+        {
+          "id": "b",
+          "text": "selection bias, limiting generalisability"
+        },
+        {
+          "id": "c",
+          "text": "measurement error in the instrument only"
+        },
+        {
+          "id": "d",
+          "text": "confounding only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Convenience samples may differ from the target population. People attending on one day need not represent all patients.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "In a study of coffee drinking and lung cancer, smoking is a confounder because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is associated with both coffee drinking and lung cancer"
+        },
+        {
+          "id": "b",
+          "text": "is the outcome of the study"
+        },
+        {
+          "id": "c",
+          "text": "lies on the causal path from coffee to cancer"
+        },
+        {
+          "id": "d",
+          "text": "is unrelated to either"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A confounder is linked to both the exposure and the outcome, and can create a false association. Randomisation, restriction or adjustment can control it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "In a double-blind trial,",
+      "options": [
+        {
+          "id": "a",
+          "text": "only the participants know the allocation"
+        },
+        {
+          "id": "b",
+          "text": "only the statistician knows the allocation"
+        },
+        {
+          "id": "c",
+          "text": "everyone knows the allocation"
+        },
+        {
+          "id": "d",
+          "text": "neither the participants nor the investigators know who receives the treatment"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Blinding reduces observer and participant bias. Single-blind trials hide the allocation from only one party.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A weighing scale always reads 2 kg too high but gives the same value on repeated weighing. The scale is",
+      "options": [
+        {
+          "id": "a",
+          "text": "valid but not reliable"
+        },
+        {
+          "id": "b",
+          "text": "neither reliable nor valid"
+        },
+        {
+          "id": "c",
+          "text": "both reliable and valid"
+        },
+        {
+          "id": "d",
+          "text": "reliable but not valid"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Reliability is consistency, and the scale is consistent. Validity is accuracy about what is being measured, and the constant error means the readings are wrong.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Which document, issued by the World Medical Association, sets out ethical principles for medical research on human subjects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Hippocratic Oath"
+        },
+        {
+          "id": "b",
+          "text": "The Geneva Convention"
+        },
+        {
+          "id": "c",
+          "text": "The Declaration of Helsinki"
+        },
+        {
+          "id": "d",
+          "text": "The Beveridge Report"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Declaration of Helsinki, first adopted in 1964, emphasises consent and independent ethical review. The Nuremberg Code, the earlier document, arose from the trials of Nazi doctors. The Hippocratic Oath is a general medical pledge, the Geneva Convention concerns war, and the Beveridge Report is a British social welfare plan.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "In research involving human participants, ethical approval should be obtained",
+      "options": [
+        {
+          "id": "a",
+          "text": "after the data are analysed"
+        },
+        {
+          "id": "b",
+          "text": "before data collection begins"
+        },
+        {
+          "id": "c",
+          "text": "only if the study is published"
+        },
+        {
+          "id": "d",
+          "text": "only if there is a risk of death"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Approval before the study starts protects participants. Seeking it afterwards means that people may already have been exposed to risk.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Informed consent requires that the participant",
+      "options": [
+        {
+          "id": "a",
+          "text": "receives the information about the study and agrees voluntarily"
+        },
+        {
+          "id": "b",
+          "text": "signs a form without reading it"
+        },
+        {
+          "id": "c",
+          "text": "is told that refusal will affect their treatment"
+        },
+        {
+          "id": "d",
+          "text": "is paid enough that they cannot decline"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Consent must be informed and free from coercion. Pressure, whether threats or large payments, undermines voluntariness. Signing without reading removes the information, and threats to treatment or an irresistible payment remove free choice.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Which referencing style numbers references in the order they are first cited and is widely used in medical journals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vancouver"
+        },
+        {
+          "id": "b",
+          "text": "Harvard"
+        },
+        {
+          "id": "c",
+          "text": "MLA"
+        },
+        {
+          "id": "d",
+          "text": "Chicago author-date"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The Vancouver style uses numbers in the text that match a numbered list. Harvard uses the author's name and year.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The sections of a typical scientific research article follow the IMRaD structure, which stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "Introduction, Measurement, Review and Data"
+        },
+        {
+          "id": "b",
+          "text": "Information, Method, Reference and Design"
+        },
+        {
+          "id": "c",
+          "text": "Idea, Material, Research and Decision"
+        },
+        {
+          "id": "d",
+          "text": "Introduction, Methods, Results and Discussion"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "IMRaD gives readers a standard order: why the study was done, how, what was found, and what it means. The other three phrases are not expansions of IMRaD.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The question 'Do you find the lecturer clear and punctual?' is a poor questionnaire item because it is",
+      "options": [
+        {
+          "id": "a",
+          "text": "too short"
+        },
+        {
+          "id": "b",
+          "text": "an open question"
+        },
+        {
+          "id": "c",
+          "text": "double-barrelled, asking about two things at once"
+        },
+        {
+          "id": "d",
+          "text": "too easy to answer"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A respondent who finds the lecturer clear but late cannot give a single honest answer. Each item should ask about one issue only.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "A pilot study is conducted in order to",
+      "options": [
+        {
+          "id": "a",
+          "text": "replace the main study"
+        },
+        {
+          "id": "b",
+          "text": "test the feasibility of the study procedures and instruments on a small scale"
+        },
+        {
+          "id": "c",
+          "text": "prove the hypothesis conclusively"
+        },
+        {
+          "id": "d",
+          "text": "avoid ethical approval"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Problems with questions, logistics or sample size estimates can be corrected before the main study. A pilot does not replace the main study because its sample is too small.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

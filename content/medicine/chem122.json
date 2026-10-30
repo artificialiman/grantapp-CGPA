@@ -1,0 +1,649 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "chem122",
+  "department_slugs": [
+    "human-medicine"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "What is the pH of a 0.01 mol/dm3 solution of hydrochloric acid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "0.01"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "HCl is a strong acid, so [H+] = 0.01 = 10^-2 and pH = 2. A pH of 12 would be basic, so it cannot belong to an acid.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "What is the pH of a 0.001 mol/dm3 solution of sodium hydroxide at 25 C?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "11"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "[OH-] = 10^-3, so pOH = 3 and pH = 14 - 3 = 11. The value 3 is the pOH, which is the nearest wrong answer.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A buffer solution is made from",
+      "options": [
+        {
+          "id": "a",
+          "text": "a strong acid and a strong base"
+        },
+        {
+          "id": "b",
+          "text": "two strong acids"
+        },
+        {
+          "id": "c",
+          "text": "a weak acid and its conjugate base"
+        },
+        {
+          "id": "d",
+          "text": "a weak acid and a different strong acid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The pair resists changes in pH because the weak acid neutralises added base and the conjugate base neutralises added acid. Mixing strong acid and base does not give this behaviour.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "For N2(g) + 3H2(g) <-> 2NH3(g), increasing the pressure at constant temperature will",
+      "options": [
+        {
+          "id": "a",
+          "text": "shift the equilibrium towards the reactants"
+        },
+        {
+          "id": "b",
+          "text": "shift the equilibrium towards ammonia"
+        },
+        {
+          "id": "c",
+          "text": "have no effect on the position of equilibrium"
+        },
+        {
+          "id": "d",
+          "text": "change the value of the equilibrium constant"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Higher pressure favours the side with fewer gas moles: 2 on the product side against 4 on the reactant side. The constant K changes only with temperature, so changing pressure cannot alter it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The equilibrium constant expression Kc for N2(g) + 3H2(g) <-> 2NH3(g) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "[N2][H2]^3 / [NH3]^2"
+        },
+        {
+          "id": "b",
+          "text": "[NH3]^2 / ([N2][H2]^3)"
+        },
+        {
+          "id": "c",
+          "text": "[NH3] / ([N2][H2])"
+        },
+        {
+          "id": "d",
+          "text": "2[NH3] / (3[H2][N2])"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Products over reactants, each raised to the power of its coefficient. The inverted expression has the reactants on top, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A catalyst increases the rate of a reaction by",
+      "options": [
+        {
+          "id": "a",
+          "text": "providing an alternative path with a lower activation energy"
+        },
+        {
+          "id": "b",
+          "text": "increasing the enthalpy change of the reaction"
+        },
+        {
+          "id": "c",
+          "text": "shifting the equilibrium towards the products"
+        },
+        {
+          "id": "d",
+          "text": "raising the temperature of the reaction"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A catalyst lowers the activation energy and speeds up the forward and reverse reactions equally. It does not change delta H or the position of equilibrium.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "For a reaction with rate = k[A]^2, tripling the concentration of A makes the rate",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 times greater"
+        },
+        {
+          "id": "b",
+          "text": "6 times greater"
+        },
+        {
+          "id": "c",
+          "text": "unchanged"
+        },
+        {
+          "id": "d",
+          "text": "9 times greater"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The rate depends on [A] squared, and 3 squared is 9. A threefold rise would apply to a first-order reaction.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A first-order reaction has a rate constant of 0.0693 min^-1. Its half-life is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.0693 min"
+        },
+        {
+          "id": "b",
+          "text": "1 min"
+        },
+        {
+          "id": "c",
+          "text": "10 min"
+        },
+        {
+          "id": "d",
+          "text": "100 min"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "For first order, t1/2 = 0.693 / k = 0.693 / 0.0693 = 10 min. Taking the constant itself as the time confuses the units.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The oxidation number of manganese in potassium permanganate, KMnO4, is",
+      "options": [
+        {
+          "id": "a",
+          "text": "+2"
+        },
+        {
+          "id": "b",
+          "text": "+4"
+        },
+        {
+          "id": "c",
+          "text": "+7"
+        },
+        {
+          "id": "d",
+          "text": "+6"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "K is +1 and four O atoms are -8 in total, so Mn must be +7 to give a neutral compound. The value +6 is the figure for manganate, K2MnO4. The value +2 is the common manganese(II) state, and +4 is the state in MnO2.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "In the reaction Zn + Cu2+ -> Zn2+ + Cu, the oxidising agent is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zn"
+        },
+        {
+          "id": "b",
+          "text": "Cu2+"
+        },
+        {
+          "id": "c",
+          "text": "Zn2+"
+        },
+        {
+          "id": "d",
+          "text": "Cu"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cu2+ gains electrons and is reduced, so it is the oxidising agent. Zinc loses electrons and is the reducing agent. Zn2+ and Cu are the products, and neither takes up electrons in this reaction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "A current of 2.0 A flows for 965 s through copper(II) sulphate solution. What mass of copper is deposited? (Cu = 63.5; 1 F = 96,500 C/mol)",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.635 g"
+        },
+        {
+          "id": "b",
+          "text": "1.27 g"
+        },
+        {
+          "id": "c",
+          "text": "0.3175 g"
+        },
+        {
+          "id": "d",
+          "text": "6.35 g"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Charge = 2.0 x 965 = 1930 C = 0.02 mol of electrons. Cu2+ needs 2 electrons per atom, so 0.01 mol x 63.5 = 0.635 g. Ignoring the 2+ charge would give 1.27 g.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 5,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "In a galvanic (voltaic) cell, oxidation takes place at the",
+      "options": [
+        {
+          "id": "a",
+          "text": "cathode, and electrons flow from it through the external circuit"
+        },
+        {
+          "id": "b",
+          "text": "anode, and electrons flow through the salt bridge"
+        },
+        {
+          "id": "c",
+          "text": "cathode, and electrons flow through the electrolyte"
+        },
+        {
+          "id": "d",
+          "text": "anode, and electrons flow from it through the external circuit"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Oxidation always occurs at the anode. Electrons travel through the wire, while the salt bridge carries ions only.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Adding sodium chloride to a saturated solution of silver chloride will",
+      "options": [
+        {
+          "id": "a",
+          "text": "increase the solubility of silver chloride"
+        },
+        {
+          "id": "b",
+          "text": "have no effect on the solubility of silver chloride"
+        },
+        {
+          "id": "c",
+          "text": "increase the solubility product"
+        },
+        {
+          "id": "d",
+          "text": "reduce the solubility of silver chloride"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Extra chloride ions (common ion effect) push the equilibrium towards solid AgCl. The solubility product depends only on temperature, so it remains the same.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The functional group present in ethanoic acid is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "hydroxyl group, -OH"
+        },
+        {
+          "id": "b",
+          "text": "carbonyl group, C=O only"
+        },
+        {
+          "id": "c",
+          "text": "carboxyl group, -COOH"
+        },
+        {
+          "id": "d",
+          "text": "amino group, -NH2"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Carboxylic acids contain -COOH. The hydroxyl group belongs to alcohols and is the nearest wrong choice because -OH is also part of the carboxyl group.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "How many structural isomers does butane, C4H10, have (including butane itself)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The two are butane (straight chain) and 2-methylpropane (branched). Pentane, C5H12, is the alkane with three isomers. Four carbons can be arranged in only two ways, as a straight chain or with one methyl branch, so there is no third or fourth isomer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Which type of reaction is characteristic of alkenes such as ethene?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Addition"
+        },
+        {
+          "id": "b",
+          "text": "Substitution"
+        },
+        {
+          "id": "c",
+          "text": "Condensation"
+        },
+        {
+          "id": "d",
+          "text": "Neutralisation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The double bond opens and atoms add across it, for example when bromine water is decolourised. Substitution is the typical reaction of alkanes.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Ethanol reacts with ethanoic acid in the presence of concentrated sulphuric acid to form",
+      "options": [
+        {
+          "id": "a",
+          "text": "ethyl ethanoate and water"
+        },
+        {
+          "id": "b",
+          "text": "ethanal and hydrogen"
+        },
+        {
+          "id": "c",
+          "text": "ethene and water"
+        },
+        {
+          "id": "d",
+          "text": "sodium ethanoate and water"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "This is esterification: an alcohol plus a carboxylic acid gives an ester and water. Sodium ethanoate would form only if sodium hydroxide were used.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A reaction is spontaneous at a given temperature when its Gibbs free energy change, delta G, is",
+      "options": [
+        {
+          "id": "a",
+          "text": "positive"
+        },
+        {
+          "id": "b",
+          "text": "equal to delta H"
+        },
+        {
+          "id": "c",
+          "text": "equal to temperature"
+        },
+        {
+          "id": "d",
+          "text": "negative"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Delta G = delta H - T delta S, and a negative value means the process can proceed spontaneously. A positive delta G means it is non-spontaneous in that direction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Which of these is a reducing sugar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sucrose"
+        },
+        {
+          "id": "b",
+          "text": "Starch"
+        },
+        {
+          "id": "c",
+          "text": "Glucose"
+        },
+        {
+          "id": "d",
+          "text": "Cellulose"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Glucose has a free aldehyde group in its open-chain form, so it reduces Benedict's solution. Sucrose is the nearest wrong choice: its two units are joined through their reducing groups, so it does not reduce.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Hess's law states that the enthalpy change of a reaction",
+      "options": [
+        {
+          "id": "a",
+          "text": "depends on the number of steps taken"
+        },
+        {
+          "id": "b",
+          "text": "is the same whichever route is taken from reactants to products"
+        },
+        {
+          "id": "c",
+          "text": "is always negative"
+        },
+        {
+          "id": "d",
+          "text": "depends on the catalyst used"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Enthalpy is a state function, so only the initial and final states matter. A catalyst changes the route and the rate, but not the overall enthalpy change.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
