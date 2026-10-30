@@ -1270,6 +1270,123 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Skin sparing occurs in megavoltage photon radiotherapy. Reason: Electrons set in motion by photons travel forward and the dose builds up to a maximum below the surface.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the build-up effect.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "The ____ target volume includes the gross target volume plus a margin for subclinical tumour spread.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ target volume includes the ____ target volume plus a margin for subclinical tumour spread.",
+        "answers": [
+          "clinical",
+          "gross"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "planning"
+        },
+        {
+          "id": "b",
+          "text": "treated"
+        },
+        {
+          "id": "c",
+          "text": "clinical"
+        },
+        {
+          "id": "d",
+          "text": "organ"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The sequence is GTV, CTV and PTV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "____ is the treatment of cancer in which a radioactive source is placed inside or in contact with the tumour.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the treatment of cancer in which a radioactive source is placed ____ or in contact with the tumour.",
+        "answers": [
+          "Brachytherapy",
+          "inside"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Brachytherapy"
+        },
+        {
+          "id": "b",
+          "text": "Chemotherapy"
+        },
+        {
+          "id": "c",
+          "text": "Radiosurgery"
+        },
+        {
+          "id": "d",
+          "text": "Teletherapy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It gives a high dose to the tumour with a steep fall-off.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
