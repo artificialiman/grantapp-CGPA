@@ -1,0 +1,1144 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb404",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Industrial microbiology is the use of microorganisms to",
+      "options": [
+        {
+          "id": "a",
+          "text": "produce commercially useful products such as antibiotics, enzymes and organic acids"
+        },
+        {
+          "id": "b",
+          "text": "cause disease"
+        },
+        {
+          "id": "c",
+          "text": "make glass"
+        },
+        {
+          "id": "d",
+          "text": "study fossils"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It combines microbial physiology with process engineering on a large scale.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A primary metabolite is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a toxin only"
+        },
+        {
+          "id": "b",
+          "text": "a product made only in stationary phase"
+        },
+        {
+          "id": "c",
+          "text": "a product made during the growth phase that is needed for growth, such as ethanol or amino acids"
+        },
+        {
+          "id": "d",
+          "text": "a pigment"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Secondary metabolites such as antibiotics are made mainly after active growth stops.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Penicillin is an example of a",
+      "options": [
+        {
+          "id": "a",
+          "text": "structural protein"
+        },
+        {
+          "id": "b",
+          "text": "secondary metabolite"
+        },
+        {
+          "id": "c",
+          "text": "primary metabolite"
+        },
+        {
+          "id": "d",
+          "text": "enzyme cofactor"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is formed mainly in the stationary phase of Penicillium chrysogenum, when growth slows.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A fermenter (bioreactor) is a vessel in which",
+      "options": [
+        {
+          "id": "a",
+          "text": "food is cooked"
+        },
+        {
+          "id": "b",
+          "text": "a controlled environment allows large-scale growth of microbes"
+        },
+        {
+          "id": "c",
+          "text": "water is distilled"
+        },
+        {
+          "id": "d",
+          "text": "metal is cast"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Temperature, pH, oxygen and agitation are monitored and controlled.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "In a stirred-tank fermenter the main purpose of the agitator and sparger is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "heat the culture"
+        },
+        {
+          "id": "b",
+          "text": "filter the product"
+        },
+        {
+          "id": "c",
+          "text": "kill contaminants"
+        },
+        {
+          "id": "d",
+          "text": "supply oxygen and mix the culture"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Oxygen has low solubility in water, so aeration and mixing are important for aerobic cultures.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A batch culture differs from a continuous culture because in batch culture",
+      "options": [
+        {
+          "id": "a",
+          "text": "the volume is constantly removed"
+        },
+        {
+          "id": "b",
+          "text": "nothing is added or removed during the run apart from air"
+        },
+        {
+          "id": "c",
+          "text": "the cells are always in log phase"
+        },
+        {
+          "id": "d",
+          "text": "fresh medium is added continuously"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "In continuous culture, such as a chemostat, growth is held in a steady state.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "In fed-batch culture for penicillin production",
+      "options": [
+        {
+          "id": "a",
+          "text": "the whole medium is added at the start"
+        },
+        {
+          "id": "b",
+          "text": "no oxygen is supplied"
+        },
+        {
+          "id": "c",
+          "text": "the culture is removed continuously"
+        },
+        {
+          "id": "d",
+          "text": "the nutrient (e.g. glucose) is added gradually to avoid catabolite repression"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Controlled feeding keeps the sugar concentration low and prolongs antibiotic synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The microorganism most widely used to produce industrial ethanol is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saccharomyces cerevisiae"
+        },
+        {
+          "id": "b",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "c",
+          "text": "Rhizopus"
+        },
+        {
+          "id": "d",
+          "text": "Clostridium tetani"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Yeast ferments glucose to ethanol and carbon dioxide under anaerobic conditions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Citric acid is commercially produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clostridium acetobutylicum"
+        },
+        {
+          "id": "b",
+          "text": "Lactobacillus delbrueckii"
+        },
+        {
+          "id": "c",
+          "text": "Acetobacter aceti"
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus niger"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A. niger gives high yields from sucrose or molasses in surface or submerged fermentation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Lactic acid for industry is produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetobacter"
+        },
+        {
+          "id": "b",
+          "text": "Lactobacillus species"
+        },
+        {
+          "id": "c",
+          "text": "Aspergillus niger"
+        },
+        {
+          "id": "d",
+          "text": "Penicillium"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is used in food, plastics (polylactic acid) and pharmaceuticals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The ABE (acetone-butanol-ethanol) fermentation is carried out by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aspergillus oryzae"
+        },
+        {
+          "id": "b",
+          "text": "Clostridium acetobutylicum"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus subtilis"
+        },
+        {
+          "id": "d",
+          "text": "Saccharomyces cerevisiae"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It was an important industrial process in the early 20th century.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Amylase from Bacillus species is used in the industry to",
+      "options": [
+        {
+          "id": "a",
+          "text": "digest cellulose"
+        },
+        {
+          "id": "b",
+          "text": "digest proteins"
+        },
+        {
+          "id": "c",
+          "text": "break starch into sugars"
+        },
+        {
+          "id": "d",
+          "text": "digest fats"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Amylase is used in baking, brewing, textiles and detergents.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Proteases from Bacillus are commonly added to",
+      "options": [
+        {
+          "id": "a",
+          "text": "fuels"
+        },
+        {
+          "id": "b",
+          "text": "plastics"
+        },
+        {
+          "id": "c",
+          "text": "fertilisers only"
+        },
+        {
+          "id": "d",
+          "text": "detergents"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Alkaline proteases remove protein stains from clothes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Glutamic acid, used to make monosodium glutamate, is produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corynebacterium glutamicum"
+        },
+        {
+          "id": "b",
+          "text": "Lactobacillus"
+        },
+        {
+          "id": "c",
+          "text": "Aspergillus niger"
+        },
+        {
+          "id": "d",
+          "text": "Saccharomyces"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Biotin-limited cultures cause the cells to excrete glutamate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Industrial vitamin B12 is made by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetobacter"
+        },
+        {
+          "id": "b",
+          "text": "Saccharomyces"
+        },
+        {
+          "id": "c",
+          "text": "Propionibacterium and Pseudomonas species"
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cobalt is added to the medium to support vitamin B12 synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Xanthan gum is produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xanthomonas campestris"
+        },
+        {
+          "id": "b",
+          "text": "Saccharomyces"
+        },
+        {
+          "id": "c",
+          "text": "Penicillium"
+        },
+        {
+          "id": "d",
+          "text": "Bacillus subtilis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is a polysaccharide used to thicken foods and oil-drilling fluids.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Streptomycin is produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptomyces griseus"
+        },
+        {
+          "id": "b",
+          "text": "Cephalosporium"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus polymyxa"
+        },
+        {
+          "id": "d",
+          "text": "Penicillium chrysogenum"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Waksman discovered it in 1943 and it was the first effective drug for tuberculosis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The first widely used antibiotic, penicillin, was developed for mass production by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Koch and Pasteur"
+        },
+        {
+          "id": "b",
+          "text": "Jenner and Lister"
+        },
+        {
+          "id": "c",
+          "text": "Waksman and Fleming alone"
+        },
+        {
+          "id": "d",
+          "text": "Florey and Chain"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Fleming discovered it, and Florey and Chain purified it and demonstrated its use.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The step in the industrial production of an antibiotic that follows fermentation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "media sterilisation"
+        },
+        {
+          "id": "b",
+          "text": "strain improvement"
+        },
+        {
+          "id": "c",
+          "text": "downstream processing (recovery and purification)"
+        },
+        {
+          "id": "d",
+          "text": "inoculum preparation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It includes cell separation, extraction, purification and formulation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Strain improvement of industrial microbes is mainly done by",
+      "options": [
+        {
+          "id": "a",
+          "text": "diluting them"
+        },
+        {
+          "id": "b",
+          "text": "mutation and selection or genetic engineering"
+        },
+        {
+          "id": "c",
+          "text": "growing them at room temperature"
+        },
+        {
+          "id": "d",
+          "text": "storing them in the dark"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Mutagens such as UV or chemicals are used followed by screening for high yield.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The inoculum for a large fermenter is prepared by",
+      "options": [
+        {
+          "id": "a",
+          "text": "adding sterile water only"
+        },
+        {
+          "id": "b",
+          "text": "pouring spores straight into the large tank"
+        },
+        {
+          "id": "c",
+          "text": "boiling the culture"
+        },
+        {
+          "id": "d",
+          "text": "successive scale-up from a stock culture through flasks and seed fermenters"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Gradual scale-up gives a large, healthy culture in log phase.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Large fermentation media are usually sterilised by",
+      "options": [
+        {
+          "id": "a",
+          "text": "cooling to 4 degrees C"
+        },
+        {
+          "id": "b",
+          "text": "exposure to sunlight"
+        },
+        {
+          "id": "c",
+          "text": "steam under pressure, either in the vessel or by continuous heat exchangers"
+        },
+        {
+          "id": "d",
+          "text": "filtration with paper"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Contamination can cause loss of the whole batch, so sterility is essential.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Foam in fermenters is controlled by adding",
+      "options": [
+        {
+          "id": "a",
+          "text": "more nutrients"
+        },
+        {
+          "id": "b",
+          "text": "water"
+        },
+        {
+          "id": "c",
+          "text": "antifoam agents such as silicone oils"
+        },
+        {
+          "id": "d",
+          "text": "more oxygen"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Excessive foam can block filters and cause loss of culture.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Immobilised enzymes are advantageous because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "are cheaper to make"
+        },
+        {
+          "id": "b",
+          "text": "work only once"
+        },
+        {
+          "id": "c",
+          "text": "can be reused and separated from the product"
+        },
+        {
+          "id": "d",
+          "text": "are less stable"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They are bound to a solid support such as alginate beads.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "High fructose syrup is made using the enzyme",
+      "options": [
+        {
+          "id": "a",
+          "text": "pepsin"
+        },
+        {
+          "id": "b",
+          "text": "lipase"
+        },
+        {
+          "id": "c",
+          "text": "lactase"
+        },
+        {
+          "id": "d",
+          "text": "glucose isomerase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It converts glucose to fructose, which is sweeter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Biogas produced by anaerobic digestion is mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "methane"
+        },
+        {
+          "id": "b",
+          "text": "oxygen"
+        },
+        {
+          "id": "c",
+          "text": "nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "hydrogen sulphide"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Methanogens produce methane. Biogas is used for cooking and electricity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Bioremediation is the use of microbes to",
+      "options": [
+        {
+          "id": "a",
+          "text": "diagnose disease"
+        },
+        {
+          "id": "b",
+          "text": "break down pollutants in soil and water"
+        },
+        {
+          "id": "c",
+          "text": "make antibiotics"
+        },
+        {
+          "id": "d",
+          "text": "make cheese"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bacteria such as Pseudomonas degrade oil in contaminated sites, for example in the Niger Delta.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Single cell protein is",
+      "options": [
+        {
+          "id": "a",
+          "text": "microbial biomass used as food or feed"
+        },
+        {
+          "id": "b",
+          "text": "a vaccine"
+        },
+        {
+          "id": "c",
+          "text": "a bacterial toxin"
+        },
+        {
+          "id": "d",
+          "text": "a vitamin"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Yeast, algae and bacteria grown on cheap substrates supply protein.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Brewing beer starts with the conversion of starch to fermentable sugars by",
+      "options": [
+        {
+          "id": "a",
+          "text": "malting (enzymes in germinating barley)"
+        },
+        {
+          "id": "b",
+          "text": "filtration"
+        },
+        {
+          "id": "c",
+          "text": "distillation"
+        },
+        {
+          "id": "d",
+          "text": "pasteurisation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Amylase from malt hydrolyses starch to maltose before yeast ferments it.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Antibiotics are mostly secondary metabolites.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They are made mainly at the end of the growth phase and are not essential for growth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Aseptic conditions are not important in industrial fermentation.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Contaminants can overgrow the production organism, so sterility is critical.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Assertion: Fed-batch culture is widely used for penicillin production. Reason: Slow feeding of glucose prevents catabolite repression of antibiotic synthesis.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the use of fed-batch.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "A ____ metabolite is a product formed mainly after active growth has stopped and is not essential for growth, as with antibiotics.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ metabolite is a product formed mainly after active growth has stopped and is not essential for growth, as with ____.",
+        "answers": [
+          "secondary",
+          "antibiotics"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "constitutive"
+        },
+        {
+          "id": "b",
+          "text": "primary"
+        },
+        {
+          "id": "c",
+          "text": "structural"
+        },
+        {
+          "id": "d",
+          "text": "secondary"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Primary metabolites are made during growth. Secondary ones such as antibiotics appear in the stationary phase.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "____ is the use of living microorganisms to degrade or detoxify pollutants in soil and water.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the use of living microorganisms to degrade or detoxify ____ in soil and water.",
+        "answers": [
+          "Bioremediation",
+          "pollutants"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Biomagnification"
+        },
+        {
+          "id": "b",
+          "text": "Biofiltration"
+        },
+        {
+          "id": "c",
+          "text": "Bioremediation"
+        },
+        {
+          "id": "d",
+          "text": "Biosorption"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It uses microbial metabolism to convert contaminants such as oil into harmless products.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "In a ____ culture, fresh medium is added and spent medium removed at the same rate so that growth is held in a steady state.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "In a ____ culture, fresh medium is added and spent medium removed at the same rate so that growth is held in a ____ state.",
+        "answers": [
+          "continuous",
+          "steady"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "batch"
+        },
+        {
+          "id": "b",
+          "text": "continuous"
+        },
+        {
+          "id": "c",
+          "text": "fed-batch"
+        },
+        {
+          "id": "d",
+          "text": "closed"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A chemostat is the standard example of continuous culture.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
