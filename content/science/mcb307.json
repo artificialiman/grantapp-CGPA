@@ -1,0 +1,960 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb307",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Fungi are classified as",
+      "options": [
+        {
+          "id": "a",
+          "text": "eukaryotic, heterotrophic organisms with chitin in their walls"
+        },
+        {
+          "id": "b",
+          "text": "plants"
+        },
+        {
+          "id": "c",
+          "text": "viruses"
+        },
+        {
+          "id": "d",
+          "text": "prokaryotic photosynthetic organisms"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Fungi absorb nutrients from their surroundings. They lack chlorophyll.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The vegetative body of a mould is made up of threads called",
+      "options": [
+        {
+          "id": "a",
+          "text": "flagella"
+        },
+        {
+          "id": "b",
+          "text": "villi"
+        },
+        {
+          "id": "c",
+          "text": "hyphae"
+        },
+        {
+          "id": "d",
+          "text": "pili"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A mass of hyphae is a mycelium. Yeasts are unicellular and do not form hyphae in their usual form.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Hyphae without cross-walls are said to be",
+      "options": [
+        {
+          "id": "a",
+          "text": "haploid only"
+        },
+        {
+          "id": "b",
+          "text": "septate"
+        },
+        {
+          "id": "c",
+          "text": "dikaryotic"
+        },
+        {
+          "id": "d",
+          "text": "coenocytic (aseptate)"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Zygomycetes such as Rhizopus and Mucor have coenocytic hyphae. Aspergillus has septate hyphae.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Yeasts usually reproduce asexually by",
+      "options": [
+        {
+          "id": "a",
+          "text": "budding"
+        },
+        {
+          "id": "b",
+          "text": "binary fission"
+        },
+        {
+          "id": "c",
+          "text": "sporangia"
+        },
+        {
+          "id": "d",
+          "text": "conjugation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A bud forms on the mother cell and separates. Binary fission is used by bacteria and by fission yeast Schizosaccharomyces.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The yeast used in baking and brewing is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cryptococcus neoformans"
+        },
+        {
+          "id": "b",
+          "text": "Saccharomyces cerevisiae"
+        },
+        {
+          "id": "c",
+          "text": "Candida albicans"
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus flavus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It ferments sugar to ethanol and carbon dioxide. Candida and Cryptococcus are pathogens.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Rhizopus stolonifer is the common black bread mould and belongs to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deuteromycota"
+        },
+        {
+          "id": "b",
+          "text": "Zygomycota"
+        },
+        {
+          "id": "c",
+          "text": "Basidiomycota"
+        },
+        {
+          "id": "d",
+          "text": "Ascomycota"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It forms sporangia on sporangiophores and reproduces sexually by zygospores.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Sexual spores of the Ascomycota are produced in a sac called an",
+      "options": [
+        {
+          "id": "a",
+          "text": "ascus"
+        },
+        {
+          "id": "b",
+          "text": "sporangium"
+        },
+        {
+          "id": "c",
+          "text": "basidium"
+        },
+        {
+          "id": "d",
+          "text": "conidiophore"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The ascus usually holds eight ascospores. Basidiomycetes form basidiospores on basidia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Mushrooms such as Pleurotus belong to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chytridiomycota"
+        },
+        {
+          "id": "b",
+          "text": "Zygomycota"
+        },
+        {
+          "id": "c",
+          "text": "Ascomycota"
+        },
+        {
+          "id": "d",
+          "text": "Basidiomycota"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They form basidiospores on gills or pores of the fruiting body.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Aflatoxins are produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aspergillus flavus"
+        },
+        {
+          "id": "b",
+          "text": "Rhizopus oryzae"
+        },
+        {
+          "id": "c",
+          "text": "Candida albicans"
+        },
+        {
+          "id": "d",
+          "text": "Penicillium notatum"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They contaminate groundnut, maize and other crops stored in warm damp conditions and cause liver damage and cancer. Aflatoxin B1 is the most toxic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The best way to prevent aflatoxin contamination of stored grain is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "dry the grain well and store it in cool, dry conditions"
+        },
+        {
+          "id": "b",
+          "text": "store it in direct sun on wet ground"
+        },
+        {
+          "id": "c",
+          "text": "store it wet in sealed bags"
+        },
+        {
+          "id": "d",
+          "text": "add water before storing"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Aspergillus needs moisture and warmth. Drying to a safe moisture content prevents growth.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Candida albicans commonly causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "oral thrush and vaginal candidiasis"
+        },
+        {
+          "id": "b",
+          "text": "tetanus"
+        },
+        {
+          "id": "c",
+          "text": "cholera"
+        },
+        {
+          "id": "d",
+          "text": "tuberculosis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Candida is part of the normal flora but becomes an opportunist after antibiotics or in immunosuppression.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Ringworm (tinea) is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Candida"
+        },
+        {
+          "id": "b",
+          "text": "dermatophytes such as Trichophyton"
+        },
+        {
+          "id": "c",
+          "text": "Mucor"
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Dermatophytes digest keratin in skin, hair and nails. The lesion is ring shaped and not caused by a worm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Cryptococcus neoformans is characterised by",
+      "options": [
+        {
+          "id": "a",
+          "text": "acid fastness"
+        },
+        {
+          "id": "b",
+          "text": "spores"
+        },
+        {
+          "id": "c",
+          "text": "no cell wall"
+        },
+        {
+          "id": "d",
+          "text": "a polysaccharide capsule seen by India ink"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It causes meningitis in patients with AIDS. Pigeon droppings are a source.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Histoplasma capsulatum is a dimorphic fungus, which means it",
+      "options": [
+        {
+          "id": "a",
+          "text": "forms two kinds of spores"
+        },
+        {
+          "id": "b",
+          "text": "infects two kinds of host"
+        },
+        {
+          "id": "c",
+          "text": "grows as mould at 25 degrees C and as yeast at 37 degrees C"
+        },
+        {
+          "id": "d",
+          "text": "has two nuclei"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Thermal dimorphism is typical of several systemic fungal pathogens.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Fungal spores called conidia are formed by",
+      "options": [
+        {
+          "id": "a",
+          "text": "binary fission"
+        },
+        {
+          "id": "b",
+          "text": "meiosis only"
+        },
+        {
+          "id": "c",
+          "text": "asexual reproduction on conidiophores"
+        },
+        {
+          "id": "d",
+          "text": "fusion of two nuclei"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Penicillium and Aspergillus form chains of conidia on specialised hyphae.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The antifungal drug amphotericin B acts by",
+      "options": [
+        {
+          "id": "a",
+          "text": "blocking DNA gyrase"
+        },
+        {
+          "id": "b",
+          "text": "binding ergosterol and making holes in the membrane"
+        },
+        {
+          "id": "c",
+          "text": "blocking chitin synthesis"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting 30S ribosomes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ergosterol is the main sterol in fungal membranes and cholesterol in animals. Azoles block ergosterol synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Antibacterial drugs do not work on fungi because fungi",
+      "options": [
+        {
+          "id": "a",
+          "text": "are eukaryotes with different cell wall and membrane"
+        },
+        {
+          "id": "b",
+          "text": "are viruses"
+        },
+        {
+          "id": "c",
+          "text": "have no ribosomes"
+        },
+        {
+          "id": "d",
+          "text": "have no DNA"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Antibacterials target peptidoglycan and 70S ribosomes, which fungi do not have.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The medium most used for the isolation of fungi is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chocolate agar"
+        },
+        {
+          "id": "b",
+          "text": "MacConkey agar"
+        },
+        {
+          "id": "c",
+          "text": "Lowenstein-Jensen medium"
+        },
+        {
+          "id": "d",
+          "text": "Sabouraud dextrose agar"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Its low pH of about 5.6 and high sugar favour fungi and suppress bacteria.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Lichens are mutualistic associations of a fungus with",
+      "options": [
+        {
+          "id": "a",
+          "text": "a bacterium only"
+        },
+        {
+          "id": "b",
+          "text": "a protozoan"
+        },
+        {
+          "id": "c",
+          "text": "an alga or cyanobacterium"
+        },
+        {
+          "id": "d",
+          "text": "a virus"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The alga makes food by photosynthesis and the fungus gives shelter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Penicillium chrysogenum is important in industry because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "makes ethanol"
+        },
+        {
+          "id": "b",
+          "text": "is the source of penicillin"
+        },
+        {
+          "id": "c",
+          "text": "causes tinea"
+        },
+        {
+          "id": "d",
+          "text": "makes citric acid only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Strains of P. chrysogenum, improved by mutation, give high yields of penicillin in fermenters.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Ergotism is caused by a fungus growing on",
+      "options": [
+        {
+          "id": "a",
+          "text": "yam"
+        },
+        {
+          "id": "b",
+          "text": "cassava"
+        },
+        {
+          "id": "c",
+          "text": "groundnut"
+        },
+        {
+          "id": "d",
+          "text": "rye and other cereals"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Claviceps purpurea forms sclerotia on rye. Ergot alkaloids cause gangrene and hallucinations.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The basic structure of a mushroom that bears the spores is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "stolon"
+        },
+        {
+          "id": "b",
+          "text": "rhizoid"
+        },
+        {
+          "id": "c",
+          "text": "fruiting body"
+        },
+        {
+          "id": "d",
+          "text": "capsid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The visible mushroom is the reproductive structure. The mycelium is hidden in the soil or wood.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Mycorrhizal fungi help plants mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "making fruit"
+        },
+        {
+          "id": "b",
+          "text": "increasing absorption of phosphorus and water"
+        },
+        {
+          "id": "c",
+          "text": "fixing nitrogen gas"
+        },
+        {
+          "id": "d",
+          "text": "killing all bacteria"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The hyphae extend the root surface area.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The function of the sterol ergosterol in fungi is comparable to that of",
+      "options": [
+        {
+          "id": "a",
+          "text": "peptidoglycan in bacteria"
+        },
+        {
+          "id": "b",
+          "text": "cholesterol in animal cells"
+        },
+        {
+          "id": "c",
+          "text": "chlorophyll in plants"
+        },
+        {
+          "id": "d",
+          "text": "lipopolysaccharide"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Both stabilise the cell membrane.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The lactophenol cotton blue stain is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "stain capsules of bacteria"
+        },
+        {
+          "id": "b",
+          "text": "detect acid-fast bacilli"
+        },
+        {
+          "id": "c",
+          "text": "observe fungal structures under the microscope"
+        },
+        {
+          "id": "d",
+          "text": "stain bacterial spores"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Lactophenol kills the fungus and cotton blue stains the chitin of the cell wall.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Which of these is a mould used in making blue cheese?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Candida albicans"
+        },
+        {
+          "id": "b",
+          "text": "Saccharomyces cerevisiae"
+        },
+        {
+          "id": "c",
+          "text": "Mucor rouxii"
+        },
+        {
+          "id": "d",
+          "text": "Penicillium roqueforti"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "P. roqueforti gives veins and flavour to Roquefort cheese.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Truffles and morels belong to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zygomycota"
+        },
+        {
+          "id": "b",
+          "text": "Basidiomycota"
+        },
+        {
+          "id": "c",
+          "text": "Ascomycota"
+        },
+        {
+          "id": "d",
+          "text": "Oomycota"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They form ascospores in asci in fruiting bodies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Fungi can make their own food by photosynthesis.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Fungi lack chlorophyll and absorb food from organic matter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The cell wall of yeast contains chitin and glucans.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Chitin and glucans give the wall strength and are targets of some antifungals such as echinocandins.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Assertion: Antibiotics such as penicillin do not treat fungal infections. Reason: Fungi do not make peptidoglycan.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. Penicillin targets peptidoglycan synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}
