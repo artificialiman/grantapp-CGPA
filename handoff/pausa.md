@@ -2,18 +2,18 @@
 
 Each agent overwrites only its own section at the end of every window. Read it at the start of every window.
 
-## manchi (head) — 2026-10-30
-**Done:** depot format (`content/`), validator (`scripts/check-content.py`), taxonomy mirror, handoff files, December plan.
-**Mid-doing:** design of the pack builder (E2).
-**Rule for everyone:** migration files are written, never applied. manchi reviews each one before it runs. There is no staging database.
-**Open:** F-1 to F-5 in `PRODUCTION_PLAN.md` section 6.
+## manchi (head, 001) — 2026-10-30
+**Done:** depot and validator (E1); pack builder v1 (E2); CI workflow; type-check fix; 56 questions moved into the depot; `DECISIONS.md` and `INVARIANTS.md` updated; `PRODUCTION_PLAN.md` v2; cards C-O3, C-S3 to C-S6, C-I4, C-I5; `VETTING.md`.
+**Mid-doing:** E3, the offline engine (IndexedDB store, pack download with hash check, local test and grading, attempt queue).
+**Rule for everyone:** work on a branch, open a pull request per card, wait for CI to be green. Migration files are written, never applied. manchi reviews each before it runs.
+**Open:** nine items in `PRODUCTION_PLAN.md` section 6, written up in `DECISIONS.md` 2026-10-30.
 **Review queue:** empty.
 
 ## obase — not started
-First card: C-O1. Then C-O2. C-O3 waits for the December course list (F-3).
+First cards: C-O2, then C-O3 batches. C-O1 is already done.
 
 ## sloww — not started
-First cards: C-S1, then C-S2.
+First cards: C-S1, C-S2, then C-S3 (navigation).
 
 ## iman — not started
-First cards: C-I1, C-I2, C-I3.
+First cards: C-I1, C-I2, C-I4. Then C-I3 and C-I5.

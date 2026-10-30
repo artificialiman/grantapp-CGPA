@@ -6,10 +6,10 @@ This is the access-and-ownership map required by BUILD-DOCTRINE section 4, item 
 
 | Agent | Lane | May write | Must not write |
 |---|---|---|---|
-| manchi (head) | Architecture, offline engine, packs, extension, merge gate, release | Anything not exclusive to another lane | Nothing is off limits, but antitheft files change only with Iman's word |
+| manchi (head, agent 001) | Architecture, offline engine, packs, `static/packs/**`, vetting, merge gate, release | Anything not exclusive to another lane | Nothing is off limits, but antitheft files change only with Iman's word |
 | obase | Content depot | `content/**`, `scripts/extract-course-map.py`, migrations numbered 0100–0199 (content seeding only) | `src/**`, other scripts |
-| sloww | Interface | `src/routes/**` (pages only, not `api/`), `src/lib/components/**`, `src/app.css`, `static/**` | `src/routes/api/**`, auth, service worker, migrations |
-| iman | Capital files, audit, export | Root `*.md`, `handoff/**` (own section of `pausa.md` only), `scripts/export-db.py`, migrations 0200–0299 (documentation and RLS fixes only) | `src/**` |
+| sloww | Interface | `src/routes/**` (pages only, not `api/`, not `*.server.ts`), `src/lib/components/**`, `src/app.css`, `static/**` except `static/packs/**` | `src/routes/api/**`, auth, service worker, migrations |
+| iman | Capital files, audit, export, compliance | Root `*.md` except `DECISIONS.md` and `INVARIANTS.md` (founder and manchi only), `handoff/**` (own section of `pausa.md` only), `scripts/export-db.py`, migrations 0200–0299 (documentation and RLS fixes only) | `src/**` |
 
 Lanes were inferred from `DECISIONS.md`: obase built the `/faculties/*` tree, sloww built the Tools screens and calculators. Migration ranges: manchi 0020–0099, obase 0100–0199, iman 0200–0299. Shipped migrations 0001–0020 are never touched.
 
@@ -27,7 +27,7 @@ Stop rules:
 - A card that is not green at 75 minutes stops. Commit nothing broken, write the blocker into `pausa.md`, start the next card.
 - At four hours elapsed, stop. Push whatever is green and write `pausa.md`.
 - A missing fact becomes `[OPEN]`. Do not search the repo broadly: read the files the card names, plus three more at most.
-- One commit may change at most 200 lines. A content commit may add at most 40 questions, so Iman can review it in one sitting.
+- Work on a branch and open one pull request per card; never commit to `main`. One commit may change at most 200 lines. A content commit may add at most 40 questions, so Iman can review it in one sitting.
 - Head review: manchi reads `git log` since the last review once per window. A bad commit is fixed forward by a new commit, never rewritten.
 
 ## 3. Card template
@@ -36,7 +36,7 @@ Stop rules:
 
 ## 4. Cards — first window
 
-### C-O1 · obase · Move batch1 out of SQL into the depot (45 min)
+### C-O1 · DONE 2026-10-30 by manchi (script `scripts/sql-to-depot.py`) — kept for the record
 **Goal:** the 56 approved questions become 7 JSON files in the depot, so later steps can build packs from them.
 **Read:** `supabase/migrations/20260916052227_cgpa_0012_keystone_questions_pending_review_batch1.sql` (rows grouped by `course_id` comments), `supabase/migrations/20261001173918_cgpa_0015_approve_batch1_keystone_questions.sql`, the docstring of `scripts/check-content.py`, `content/taxonomy.json`.
 **Write:** these seven files only.
@@ -63,15 +63,21 @@ Stop rules:
 **Done when:** the script runs with `python3` and no arguments, the output has no duplicate `(department_slug, slug)` pair, and every course named in C-O1 appears.
 **Commit:** `content: generate course-map.json from the seed migrations`.
 
-### C-O3 · obase · Exam-depth question batch · BLOCKED
-Needs one input from Iman: the list of courses students will sit in December. Do not start until that list is in `pausa.md`. Rules for the card are in `PRODUCTION_PLAN.md` section 5.
+### C-O3 · obase · Question batch of 40 (repeat, 60 min each) — UNBLOCKED
+Founder decision 2026-10-30: build the whole platform whatever the December course list. Goal: reach 520 approved questions by Nov 27 (gates in `PRODUCTION_PLAN.md`), spread across every faculty, so the first install holds at least 500.
+**Read:** `PRODUCTION_PLAN.md` section 5, `handoff/VETTING.md`, `content/taxonomy.json`, one existing file in `content/`.
+**Write:** `content/**` only. Add questions to an existing course file (ids continue: q009, q010 …) or create `content/{faculty}/{course}.json`, using the slug rules in the validator docstring.
+**Order of courses:** (1) GST courses, since every student sits them; (2) each faculty's first-year core; (3) the course with the fewest questions in the faculty with the fewest. Write the choice into your `pausa.md` section.
+**Do:** exactly 40 questions per pull request, all `status: "pending"`. In the pull request body, list the 40 ids and, for each, the one-line fact or derivation the answer rests on. Rules in `PRODUCTION_PLAN.md` section 5.
+**Done when:** CI is green on the pull request. manchi vets and approves; you do not set `approved`.
+**Commit:** `content: <course> +40 questions (pending)`.
 
 ### C-S1 · sloww · Touch targets and safe areas (30 min)
 **Goal:** the known gaps in `PROJECT_BRIEF.md` status: buttons under 44 px, no notch handling.
 **Read:** `src/app.css`.
 **Write:** `src/app.css` only.
 **Do:** give `.btn` a `min-height` and `min-width` of 44px. Add `env(safe-area-inset-*)` padding to the page container and any fixed element. No colour or wording changes.
-**Done when:** `npm run check && npm run build` is clean and `grep -n "44px" src/app.css` shows the rule.
+**Done when:** CI is green and `grep -n "44px" src/app.css` shows the rule.
 **Commit:** `ui: 44px touch targets and safe-area insets`.
 
 ### C-S2 · sloww · Skeleton loader (45 min)
@@ -79,7 +85,7 @@ Needs one input from Iman: the list of courses students will sit in December. Do
 **Read:** `src/app.css` (existing tokens), `src/routes/dashboard/+page.svelte`.
 **Write:** `src/lib/components/Skeleton.svelte` (props: `lines`, `height`), and use it in `src/routes/dashboard/+page.svelte` only.
 **Do:** use existing CSS tokens. No animation library. Respect `prefers-reduced-motion`.
-**Done when:** check and build are clean.
+**Done when:** CI is green.
 **Commit:** `ui: Skeleton component, first use on the dashboard`.
 
 ### C-I1 · iman · BRAND.md (40 min)
@@ -106,7 +112,41 @@ Needs one input from Iman: the list of courses students will sit in December. Do
 **Done when:** `python3 scripts/export-db.py --dry-run` lists every table and exits 0.
 **Commit:** `ops: independent database export script, dry-run first`.
 
-## 5. Cards held for later windows
-- sloww: bottom tab bar, page transitions, offline status badge (waits for the offline engine).
-- iman: `PERMISSIONS.md`, `NOT_NOW.md` (wait for the invariants standardisation).
-- obase: C-O3 and onward.
+## 5. Cards added 2026-10-30
+
+### C-S3 · sloww · Navigation between pages, analytics, settings and back (two windows)
+**Goal:** the founder likes the styling and calls the navigation amateur. You have full creative latitude inside the existing design tokens.
+**Read:** `src/routes/+layout.svelte`, `src/app.css`, `EXPERIENCE_CONTEXT.md`, the dashboard page.
+**Write:** `src/routes/+layout.svelte`, new components under `src/lib/components/nav/`.
+**Do:** one consistent way to reach home, courses, analytics, transcript and settings from any page on a phone; a back control that always works; no dead ends. Touch targets 44 px. Phones as small as 360 px wide.
+**Done when:** CI green, and the pull request lists every top-level route with the number of taps to reach it (two or fewer).
+
+### C-S4 · sloww · Year switching without blocking
+**Goal:** a student states their current year but may open any year's tests. Nothing is locked by year.
+**Read:** `src/routes/faculties/[facultySlug]/[deptSlug]/+page.svelte`.
+**Write:** that page and one new component.
+**Done when:** CI green; the page shows all years, marks the student's own, and lets them switch.
+
+### C-S5 · sloww · Faculty lock and a skippable tour
+**Goal:** after onboarding, a student sees their own faculty's pathway and not the others'; general and shared courses (GST, common Maths) stay visible to everyone. The tour walks the routes end to end and can be skipped.
+**Read:** `src/routes/+layout.server.ts` (read only), `src/routes/onboarding/`, `src/routes/faculties/`.
+**Write:** pages and components only.
+**Stop rule:** if the student's faculty is not available to the page from existing load data, write `[OPEN]` in `pausa.md` and stop. Do not edit a `*.server.ts` file.
+
+### C-S6 · sloww · Analytics shimmer
+**Goal:** shimmer on the analytics cards for liveliness, not loading state. Use `src/glow-shimmer-motion.css`; stop animation under `prefers-reduced-motion`.
+**Write:** the analytics page and its components.
+
+### C-I4 · iman · COMPLIANCE.md data inventory (60 min)
+**Goal:** list every personal-data field the app collects.
+**Read:** migrations 0001–0020 and `src/routes/signup/`, `src/routes/onboarding/`.
+**Write:** `COMPLIANCE.md`.
+**Do:** one table: field, purpose, where stored, who can read it (from the RLS policies), how it is deleted today. Mark every decision about consent, age, retention or deletion `[FOUNDER]`; you never decide them. Add a breach runbook skeleton: who is told, the regulator's 72-hour clock (`DECISIONS.md` 2026-10-30, Data Protection Act s.40), and what is logged.
+**Done when:** every table with student data in `supabase/migrations` appears.
+
+### C-I5 · iman · PERMISSIONS.md and NOT_NOW.md (45 min)
+**Write:** `PERMISSIONS.md` (who may read and write each table, taken from the RLS policies) and `NOT_NOW.md` (copy section 8 of `PRODUCTION_PLAN.md`, one line each, with why it waits).
+
+## 6. Cards held for later windows
+- sloww: offline status badge and the offline Quick Test screens (after E3).
+- manchi: E3 to E5, E9 and E10 in `PRODUCTION_PLAN.md`.
