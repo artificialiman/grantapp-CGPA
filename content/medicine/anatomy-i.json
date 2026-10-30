@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "anatomy-i",
+  "department_slugs": [
+    "human-medicine"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The femur is the principal bone of which region of the body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thigh"
+        },
+        {
+          "id": "b",
+          "text": "Forearm"
+        },
+        {
+          "id": "c",
+          "text": "Lower leg"
+        },
+        {
+          "id": "d",
+          "text": "Upper arm"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The femur is the longest and strongest bone in the human body, located in the thigh, articulating with the pelvis at the hip and the tibia/patella at the knee.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "How many bones are in the adult human skeleton?",
+      "options": [
+        {
+          "id": "a",
+          "text": "186"
+        },
+        {
+          "id": "b",
+          "text": "196"
+        },
+        {
+          "id": "c",
+          "text": "206"
+        },
+        {
+          "id": "d",
+          "text": "216"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The adult human skeleton has 206 bones; infants are born with roughly 270-300, many of which fuse during growth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "How many chambers does the human heart have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The heart has four chambers: right atrium, right ventricle, left atrium, left ventricle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "What is the largest organ in the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liver"
+        },
+        {
+          "id": "b",
+          "text": "Skin"
+        },
+        {
+          "id": "c",
+          "text": "Lungs"
+        },
+        {
+          "id": "d",
+          "text": "Small intestine"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The skin is the largest organ by surface area and weight, forming the integumentary system.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The spinal cord is directly protected by which structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ribcage"
+        },
+        {
+          "id": "b",
+          "text": "Skull"
+        },
+        {
+          "id": "c",
+          "text": "Vertebral column"
+        },
+        {
+          "id": "d",
+          "text": "Sternum"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The vertebral column (spine) encases and protects the spinal cord within the vertebral canal.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Which cranial nerve is primarily responsible for vision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Optic nerve (CN II)"
+        },
+        {
+          "id": "b",
+          "text": "Olfactory nerve (CN I)"
+        },
+        {
+          "id": "c",
+          "text": "Trigeminal nerve (CN V)"
+        },
+        {
+          "id": "d",
+          "text": "Vagus nerve (CN X)"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The optic nerve (cranial nerve II) transmits visual information from the retina to the brain.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The trachea bifurcates into which two structures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left and right bronchi"
+        },
+        {
+          "id": "b",
+          "text": "Left and right lungs"
+        },
+        {
+          "id": "c",
+          "text": "Alveoli and bronchioles"
+        },
+        {
+          "id": "d",
+          "text": "Larynx and pharynx"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The trachea splits at the carina into the left and right main bronchi, each entering a lung.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "What is the functional unit of the kidney called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nephron"
+        },
+        {
+          "id": "b",
+          "text": "Alveolus"
+        },
+        {
+          "id": "c",
+          "text": "Neuron"
+        },
+        {
+          "id": "d",
+          "text": "Villus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The nephron is the basic structural and functional unit of the kidney, responsible for filtering blood and forming urine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

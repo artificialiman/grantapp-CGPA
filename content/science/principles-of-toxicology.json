@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "principles-of-toxicology",
+  "department_slugs": [
+    "environmental-management-and-toxicology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The founding principle of toxicology, often summarized as \"the dose makes the poison,\" was articulated by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paracelsus"
+        },
+        {
+          "id": "b",
+          "text": "Louis Pasteur"
+        },
+        {
+          "id": "c",
+          "text": "Rachel Carson"
+        },
+        {
+          "id": "d",
+          "text": "Charles Darwin"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Paracelsus, a 16th-century physician, is credited with the foundational toxicological principle that any substance can be toxic depending on dose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "LD50 refers to the dose of a substance that is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lethal to 50% of a test population"
+        },
+        {
+          "id": "b",
+          "text": "Effective in 50% of a test population"
+        },
+        {
+          "id": "c",
+          "text": "Non-toxic to all subjects"
+        },
+        {
+          "id": "d",
+          "text": "Half the maximum tolerated dose"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "LD50 (median lethal dose) is the dose required to kill 50% of a tested population, a standard measure of acute toxicity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The branch of toxicology concerned with the effects of toxic substances on ecosystems is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ecotoxicology"
+        },
+        {
+          "id": "b",
+          "text": "Forensic toxicology"
+        },
+        {
+          "id": "c",
+          "text": "Clinical toxicology"
+        },
+        {
+          "id": "d",
+          "text": "Occupational toxicology"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Ecotoxicology studies the effects of toxicants on populations and ecosystems, not just individual organisms.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The capacity of a substance to cause cancer is referred to as its:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carcinogenicity"
+        },
+        {
+          "id": "b",
+          "text": "Mutagenicity"
+        },
+        {
+          "id": "c",
+          "text": "Teratogenicity"
+        },
+        {
+          "id": "d",
+          "text": "Neurotoxicity"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Carcinogenicity describes a substance's potential to cause cancer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The liver's primary toxicological role is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Filtration of solid waste"
+        },
+        {
+          "id": "b",
+          "text": "Detoxification and biotransformation of xenobiotics"
+        },
+        {
+          "id": "c",
+          "text": "Storage of toxins indefinitely"
+        },
+        {
+          "id": "d",
+          "text": "Production of red blood cells"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The liver is the primary site of xenobiotic biotransformation, converting foreign substances into forms that can be excreted.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Bioaccumulation refers to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "The rapid excretion of a substance from an organism"
+        },
+        {
+          "id": "b",
+          "text": "The buildup of a substance in an organism faster than it can be eliminated"
+        },
+        {
+          "id": "c",
+          "text": "The breakdown of a substance into harmless byproducts"
+        },
+        {
+          "id": "d",
+          "text": "The dilution of a substance across a population"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bioaccumulation occurs when an organism absorbs a substance at a rate faster than it is metabolized or excreted, leading to a buildup over time.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Acute toxicity refers to adverse effects that occur:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only after decades of exposure"
+        },
+        {
+          "id": "b",
+          "text": "Within a short period after a single or short-term exposure"
+        },
+        {
+          "id": "c",
+          "text": "Exclusively in aquatic organisms"
+        },
+        {
+          "id": "d",
+          "text": "Only at sub-threshold doses"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Acute toxicity describes adverse effects arising shortly after a single or short-duration exposure to a substance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The highest dose at which no observable adverse effect occurs is termed the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "LD50"
+        },
+        {
+          "id": "b",
+          "text": "No Observed Effect Level (NOEL)"
+        },
+        {
+          "id": "c",
+          "text": "Median effective dose"
+        },
+        {
+          "id": "d",
+          "text": "Threshold limit value"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The No Observed Effect Level (NOEL) is the highest tested dose at which no adverse effect is detected in a study population.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

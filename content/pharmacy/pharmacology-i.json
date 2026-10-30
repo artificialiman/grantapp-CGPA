@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "pharmacy",
+  "course_slug": "pharmacology-i",
+  "department_slugs": [
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "ED50 refers to the dose that produces:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A lethal effect in 50% of a population"
+        },
+        {
+          "id": "b",
+          "text": "50% of the maximal therapeutic effect in 50% of a population"
+        },
+        {
+          "id": "c",
+          "text": "Toxicity in all subjects"
+        },
+        {
+          "id": "d",
+          "text": "No measurable effect"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "ED50 (median effective dose) is the dose producing a specified effect (often 50% of maximal response) in 50% of the population tested.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "First-pass metabolism of orally administered drugs primarily occurs in the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kidney"
+        },
+        {
+          "id": "b",
+          "text": "Liver"
+        },
+        {
+          "id": "c",
+          "text": "Lungs"
+        },
+        {
+          "id": "d",
+          "text": "Stomach"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The liver extensively metabolizes many orally administered drugs before they reach systemic circulation -- first-pass (hepatic) metabolism.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A drug that blocks beta-adrenergic receptors is classified as a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beta agonist"
+        },
+        {
+          "id": "b",
+          "text": "Beta blocker"
+        },
+        {
+          "id": "c",
+          "text": "Alpha blocker"
+        },
+        {
+          "id": "d",
+          "text": "Calcium channel blocker"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Beta blockers (e.g. propranolol) competitively antagonize beta-adrenergic receptors, commonly used in hypertension and arrhythmias.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which route of administration bypasses first-pass hepatic metabolism entirely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oral"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous"
+        },
+        {
+          "id": "c",
+          "text": "Rectal (partial)"
+        },
+        {
+          "id": "d",
+          "text": "Enteric-coated oral"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Intravenous administration delivers the drug directly into systemic circulation, avoiding first-pass hepatic metabolism.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Aspirin exerts its anti-inflammatory effect primarily by inhibiting which enzyme?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyclooxygenase (COX)"
+        },
+        {
+          "id": "b",
+          "text": "Lipoxygenase"
+        },
+        {
+          "id": "c",
+          "text": "Acetylcholinesterase"
+        },
+        {
+          "id": "d",
+          "text": "Monoamine oxidase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Aspirin irreversibly inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A drug that competes with an agonist for the same receptor binding site, without activating it, is called a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Competitive antagonist"
+        },
+        {
+          "id": "b",
+          "text": "Non-competitive antagonist"
+        },
+        {
+          "id": "c",
+          "text": "Partial agonist"
+        },
+        {
+          "id": "d",
+          "text": "Inverse agonist"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A competitive antagonist binds reversibly to the same site as the agonist, and its effect can be overcome by increasing agonist concentration.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "ACE inhibitors are primarily used in the treatment of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypertension"
+        },
+        {
+          "id": "b",
+          "text": "Diabetes mellitus"
+        },
+        {
+          "id": "c",
+          "text": "Asthma"
+        },
+        {
+          "id": "d",
+          "text": "Peptic ulcer disease"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "ACE inhibitors block angiotensin-converting enzyme, reducing angiotensin II formation, widely used as antihypertensives.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The time required for the plasma concentration of a drug to reduce by half is called its:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Onset of action"
+        },
+        {
+          "id": "b",
+          "text": "Half-life"
+        },
+        {
+          "id": "c",
+          "text": "Bioavailability"
+        },
+        {
+          "id": "d",
+          "text": "Therapeutic index"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Half-life (t1/2) is the time for plasma drug concentration to fall by 50%, a key determinant of dosing frequency.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

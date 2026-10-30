@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "engineering",
+  "course_slug": "engineering-mathematics-i",
+  "department_slugs": [
+    "*"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "What is the derivative of x² with respect to x?",
+      "options": [
+        {
+          "id": "a",
+          "text": "x"
+        },
+        {
+          "id": "b",
+          "text": "2x"
+        },
+        {
+          "id": "c",
+          "text": "x²"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Using the power rule, d/dx(x^n) = n*x^(n-1), so d/dx(x²) = 2x.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "What is the value of sin(90°)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "sin(90°) = 1, the maximum value of the sine function.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Solve for x: 2x + 4 = 10",
+      "options": [
+        {
+          "id": "a",
+          "text": "x = 2"
+        },
+        {
+          "id": "b",
+          "text": "x = 3"
+        },
+        {
+          "id": "c",
+          "text": "x = 4"
+        },
+        {
+          "id": "d",
+          "text": "x = 7"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "2x + 4 = 10 -> 2x = 6 -> x = 3.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The determinant of the 2x2 matrix [[a,b],[c,d]] is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a+d - b+c"
+        },
+        {
+          "id": "b",
+          "text": "ad - bc"
+        },
+        {
+          "id": "c",
+          "text": "ab - cd"
+        },
+        {
+          "id": "d",
+          "text": "ac - bd"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "For a 2x2 matrix, the determinant is calculated as (a*d) - (b*c).",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Evaluate the integral of 2x dx.",
+      "options": [
+        {
+          "id": "a",
+          "text": "x + C"
+        },
+        {
+          "id": "b",
+          "text": "2x² + C"
+        },
+        {
+          "id": "c",
+          "text": "x² + C"
+        },
+        {
+          "id": "d",
+          "text": "x²/2 + C"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The integral of 2x with respect to x is x² + C, reversing the power rule of differentiation.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "What is the value of log10(100)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "log10(100) = 2, since 10^2 = 100.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The sum of the interior angles of a triangle is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "90°"
+        },
+        {
+          "id": "b",
+          "text": "180°"
+        },
+        {
+          "id": "c",
+          "text": "270°"
+        },
+        {
+          "id": "d",
+          "text": "360°"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The interior angles of any triangle always sum to 180°.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The quadratic formula is used to solve equations of the general form:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ax + b = 0"
+        },
+        {
+          "id": "b",
+          "text": "ax² + bx + c = 0"
+        },
+        {
+          "id": "c",
+          "text": "ax³ + b = 0"
+        },
+        {
+          "id": "d",
+          "text": "a/x + b = 0"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The quadratic formula x = (-b ± sqrt(b²-4ac)) / 2a solves any equation of the form ax² + bx + c = 0.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Computation (skill)"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}

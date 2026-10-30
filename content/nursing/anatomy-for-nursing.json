@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "nursing",
+  "course_slug": "anatomy-for-nursing",
+  "department_slugs": [
+    "nursing-science"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "How many chambers does the human heart have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The heart has four chambers: two atria and two ventricles.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "What is the largest artery in the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pulmonary artery"
+        },
+        {
+          "id": "b",
+          "text": "Aorta"
+        },
+        {
+          "id": "c",
+          "text": "Carotid artery"
+        },
+        {
+          "id": "d",
+          "text": "Femoral artery"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The aorta is the largest artery, carrying oxygenated blood from the left ventricle to the rest of the body.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The functional unit of the kidney is the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nephron"
+        },
+        {
+          "id": "b",
+          "text": "Alveolus"
+        },
+        {
+          "id": "c",
+          "text": "Villus"
+        },
+        {
+          "id": "d",
+          "text": "Neuron"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The nephron filters blood and forms urine; each kidney contains roughly a million nephrons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which bone forms the kneecap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Femur"
+        },
+        {
+          "id": "b",
+          "text": "Patella"
+        },
+        {
+          "id": "c",
+          "text": "Tibia"
+        },
+        {
+          "id": "d",
+          "text": "Fibula"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The patella (kneecap) is a sesamoid bone embedded in the quadriceps tendon.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Which gland primarily regulates the body's metabolic rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adrenal gland"
+        },
+        {
+          "id": "b",
+          "text": "Thyroid gland"
+        },
+        {
+          "id": "c",
+          "text": "Pituitary gland"
+        },
+        {
+          "id": "d",
+          "text": "Pancreas"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The thyroid gland secretes T3 and T4, which regulate the body's basal metabolic rate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The outer layer of the brain is known as the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerebral cortex"
+        },
+        {
+          "id": "b",
+          "text": "Cerebellum"
+        },
+        {
+          "id": "c",
+          "text": "Medulla oblongata"
+        },
+        {
+          "id": "d",
+          "text": "Hypothalamus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The cerebral cortex is the outer layer of grey matter responsible for higher-order functions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "How many pairs of ribs does the human body typically have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Humans typically have 12 pairs of ribs, forming the ribcage that protects the heart and lungs.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which organ produces insulin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liver"
+        },
+        {
+          "id": "b",
+          "text": "Pancreas"
+        },
+        {
+          "id": "c",
+          "text": "Spleen"
+        },
+        {
+          "id": "d",
+          "text": "Gallbladder"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The pancreas produces insulin via its beta cells in the islets of Langerhans.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}

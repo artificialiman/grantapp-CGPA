@@ -1,0 +1,265 @@
+{
+  "faculty_slug": "law",
+  "course_slug": "nigerian-legal-system",
+  "department_slugs": [
+    "common-law"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The Nigerian legal system is primarily based on which legal tradition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "English common law"
+        },
+        {
+          "id": "b",
+          "text": "French civil law"
+        },
+        {
+          "id": "c",
+          "text": "Roman-Dutch law"
+        },
+        {
+          "id": "d",
+          "text": "Sharia law exclusively"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Nigeria's legal system is rooted in English common law, inherited through colonial history, alongside customary and Islamic law in various contexts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "What is the highest court in Nigeria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Court of Appeal"
+        },
+        {
+          "id": "b",
+          "text": "Federal High Court"
+        },
+        {
+          "id": "c",
+          "text": "Supreme Court"
+        },
+        {
+          "id": "d",
+          "text": "State High Court"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Supreme Court of Nigeria is the apex court, with final appellate jurisdiction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The supreme law of the Federal Republic of Nigeria is the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Criminal Code"
+        },
+        {
+          "id": "b",
+          "text": "1999 Constitution (as amended)"
+        },
+        {
+          "id": "c",
+          "text": "Evidence Act"
+        },
+        {
+          "id": "d",
+          "text": "Interpretation Act"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The 1999 Constitution (as amended) is the supreme law of Nigeria; all other laws must conform to it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which legal system operates alongside common law in parts of Northern Nigeria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sharia law"
+        },
+        {
+          "id": "b",
+          "text": "Roman law"
+        },
+        {
+          "id": "c",
+          "text": "Napoleonic code"
+        },
+        {
+          "id": "d",
+          "text": "Talmudic law"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Several northern Nigerian states apply Sharia law for personal and, in some cases, criminal matters alongside the general common-law framework.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Original jurisdiction over most civil matters at the state level lies with the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Magistrate Court"
+        },
+        {
+          "id": "b",
+          "text": "State High Court"
+        },
+        {
+          "id": "c",
+          "text": "Court of Appeal"
+        },
+        {
+          "id": "d",
+          "text": "Supreme Court"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The State High Court has unlimited original jurisdiction over civil and criminal matters within the state, subject to constitutional exceptions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Customary law in Nigeria is best described as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Written law passed by the National Assembly"
+        },
+        {
+          "id": "b",
+          "text": "Unwritten law based on the customs and traditions of a community"
+        },
+        {
+          "id": "c",
+          "text": "Law derived exclusively from religious texts"
+        },
+        {
+          "id": "d",
+          "text": "International treaty law"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Customary law is largely unwritten, deriving from the accepted customs and traditions of specific communities, and is recognized subject to compatibility with statute and public policy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The doctrine that lower courts are bound by the decisions of higher courts is known as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stare decisis"
+        },
+        {
+          "id": "b",
+          "text": "Habeas corpus"
+        },
+        {
+          "id": "c",
+          "text": "Mens rea"
+        },
+        {
+          "id": "d",
+          "text": "Ratio legis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Stare decisis (judicial precedent) requires courts to follow the legal principles established by higher courts in earlier decisions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "At the federal level, laws are made by the:",
+      "options": [
+        {
+          "id": "a",
+          "text": "National Assembly"
+        },
+        {
+          "id": "b",
+          "text": "Federal Executive Council"
+        },
+        {
+          "id": "c",
+          "text": "Supreme Court"
+        },
+        {
+          "id": "d",
+          "text": "Council of State"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The National Assembly (Senate and House of Representatives) holds federal legislative power under the 1999 Constitution.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}
