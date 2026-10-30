@@ -1,6 +1,8 @@
 import { createServerClient } from '@supabase/ssr';
 import type { Handle } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
+import { createClient } from '@supabase/supabase-js';
+import { AUTH_FROZEN, DEMO_STUDENT_ID, DEMO_STUDENT_EMAIL } from '$lib/auth/freeze';
 
 /**
  * $env/dynamic/private, not process.env directly — same reasoning as
@@ -31,6 +33,8 @@ const supabaseAnonKey = env.VITE_SUPABASE_ANON_KEY as string;
  * route silently failed auth checks despite login succeeding. Copying
  * the fix rather than re-deriving it and risking the same regression.
  */
+let demoStudentEnsured = false;
+
 export const handle: Handle = async ({ event, resolve }) => {
 	// Explicit generic on createServerClient itself — passing
 	// { db: { schema: 'cgpa' } } as a runtime option doesn't
@@ -79,6 +83,33 @@ export const handle: Handle = async ({ event, resolve }) => {
 		const { session } = await event.locals.safeGetSession();
 		return session;
 	};
+
+	if (AUTH_FROZEN) {
+		// Frozen for testing/demo: every request is the one demo student, no
+		// cookie or Supabase auth involved. When a service-role key is set,
+		// database reads and writes go through it, because there is no real
+		// signed-in user for row-level security to recognise.
+		const demoUser = { id: DEMO_STUDENT_ID, email: DEMO_STUDENT_EMAIL } as import('@supabase/supabase-js').User;
+		const demoSession = { user: demoUser } as import('@supabase/supabase-js').Session;
+		event.locals.safeGetSession = async () => ({ session: demoSession, user: demoUser });
+		event.locals.getSession = async () => demoSession;
+		if (env.SERVICE_ROLE_KEY && supabaseUrl) {
+			event.locals.supabase = createClient(supabaseUrl, env.SERVICE_ROLE_KEY, {
+				db: { schema: 'cgpa' },
+				auth: { persistSession: false, autoRefreshToken: false }
+			}) as unknown as typeof event.locals.supabase;
+			if (!demoStudentEnsured) {
+				// Best effort, once per server instance: writes that reference the
+				// demo student need its row. A failure here never blocks the page.
+				demoStudentEnsured = true;
+				void Promise.resolve(
+					event.locals.supabase
+						.from('students')
+						.upsert({ id: DEMO_STUDENT_ID, full_name: 'Demo Student' }, { onConflict: 'id', ignoreDuplicates: true })
+				).catch((err: unknown) => console.error('demo student upsert failed:', err));
+			}
+		}
+	}
 
 	return resolve(event, {
 		filterSerializedResponseHeaders(name) {

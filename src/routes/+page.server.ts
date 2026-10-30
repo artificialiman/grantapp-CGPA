@@ -1,5 +1,6 @@
 import { redirect } from '@sveltejs/kit';
 import { safeGetSessionOrDevBypass } from '$lib/auth/devMode';
+import { AUTH_FROZEN } from '$lib/auth/freeze';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -17,6 +18,8 @@ import type { PageServerLoad } from './$types';
  * /dashboard during build/test rather than bouncing to signup.
  */
 export const load: PageServerLoad = async ({ locals }) => {
+	// Frozen demo: start at the sign-up screen so the whole flow can be shown.
+	if (AUTH_FROZEN) throw redirect(303, '/signup');
 	const { session } = await safeGetSessionOrDevBypass(locals);
 	throw redirect(303, session ? '/dashboard' : '/signup');
 };
