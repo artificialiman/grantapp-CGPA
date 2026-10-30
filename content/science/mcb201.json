@@ -1,0 +1,1056 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb201",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In a bacterial growth curve, the phase of fastest and constant cell division is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "lag phase"
+        },
+        {
+          "id": "b",
+          "text": "stationary phase"
+        },
+        {
+          "id": "c",
+          "text": "log (exponential) phase"
+        },
+        {
+          "id": "d",
+          "text": "death phase"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "During the log phase the population doubles at a steady generation time. In the lag phase cells adapt, in the stationary phase growth equals death, and in the death phase cells die faster than they divide.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "During the lag phase of a bacterial culture, cells mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "die in large numbers"
+        },
+        {
+          "id": "b",
+          "text": "adjust to the new medium and synthesise enzymes with little division"
+        },
+        {
+          "id": "c",
+          "text": "form the greatest number of spores"
+        },
+        {
+          "id": "d",
+          "text": "divide at the maximum rate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cells moved into fresh medium need time to make enzymes and ribosomes before they can divide quickly.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Under ideal conditions the generation time of Escherichia coli is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "24 hours"
+        },
+        {
+          "id": "b",
+          "text": "2 hours"
+        },
+        {
+          "id": "c",
+          "text": "6 hours"
+        },
+        {
+          "id": "d",
+          "text": "20 minutes"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "E. coli in rich medium at 37 degrees C doubles in about 20 minutes. Slower organisms such as Mycobacterium tuberculosis take about 15 to 20 hours.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "One bacterium with a generation time of 30 minutes is grown for 3 hours. Assuming no lag and no death, the number of cells is",
+      "options": [
+        {
+          "id": "a",
+          "text": "128"
+        },
+        {
+          "id": "b",
+          "text": "64"
+        },
+        {
+          "id": "c",
+          "text": "32"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "3 hours is 6 generations of 30 minutes, and 2 to the power 6 is 64.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A culture begins with 1000 cells and goes through 4 generations without death. The number of cells is",
+      "options": [
+        {
+          "id": "a",
+          "text": "16000"
+        },
+        {
+          "id": "b",
+          "text": "8000"
+        },
+        {
+          "id": "c",
+          "text": "4000"
+        },
+        {
+          "id": "d",
+          "text": "10000"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Each generation doubles the number, so 1000 times 2 to the power 4 is 1000 times 16, giving 16000.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Microorganisms with an optimum growth temperature of 20 to 45 degrees C are called",
+      "options": [
+        {
+          "id": "a",
+          "text": "mesophiles"
+        },
+        {
+          "id": "b",
+          "text": "hyperthermophiles"
+        },
+        {
+          "id": "c",
+          "text": "psychrophiles"
+        },
+        {
+          "id": "d",
+          "text": "thermophiles"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Most human pathogens are mesophiles, with an optimum near 37 degrees C. Thermophiles prefer 45 to 80 degrees C and psychrophiles grow best below about 15 degrees C.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "An organism that uses oxygen when it is present but can switch to fermentation or anaerobic respiration when it is absent is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "facultative anaerobe"
+        },
+        {
+          "id": "b",
+          "text": "obligate anaerobe"
+        },
+        {
+          "id": "c",
+          "text": "obligate aerobe"
+        },
+        {
+          "id": "d",
+          "text": "microaerophile"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Facultative anaerobes such as E. coli grow in both conditions. Obligate aerobes need oxygen and obligate anaerobes are harmed by it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "An organism that uses carbon dioxide as its carbon source is an",
+      "options": [
+        {
+          "id": "a",
+          "text": "autotroph"
+        },
+        {
+          "id": "b",
+          "text": "saprophyte"
+        },
+        {
+          "id": "c",
+          "text": "chemoorganotroph"
+        },
+        {
+          "id": "d",
+          "text": "heterotroph"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Autotrophs build organic compounds from carbon dioxide. Heterotrophs, chemoorganotrophs and saprophytes obtain carbon from organic compounds.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A phototroph obtains its energy from",
+      "options": [
+        {
+          "id": "a",
+          "text": "heat"
+        },
+        {
+          "id": "b",
+          "text": "organic compounds only"
+        },
+        {
+          "id": "c",
+          "text": "light"
+        },
+        {
+          "id": "d",
+          "text": "inorganic chemicals only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Phototrophs convert light energy into chemical energy. Chemotrophs use the energy of chemical reactions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The bacterial structure that mainly helps a pathogen resist phagocytosis is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "plasmid"
+        },
+        {
+          "id": "b",
+          "text": "ribosome"
+        },
+        {
+          "id": "c",
+          "text": "capsule"
+        },
+        {
+          "id": "d",
+          "text": "cytoplasm"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The polysaccharide capsule is slippery and hides surface antigens from white cells. Streptococcus pneumoniae loses much of its virulence when it loses the capsule.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The structure through which DNA passes from donor to recipient during bacterial conjugation is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "sex pilus"
+        },
+        {
+          "id": "b",
+          "text": "endospore"
+        },
+        {
+          "id": "c",
+          "text": "flagellum"
+        },
+        {
+          "id": "d",
+          "text": "capsule"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The F pilus makes contact between the cells and draws them together so DNA can pass. Flagella give motility.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Bacterial ribosomes have a sedimentation coefficient of",
+      "options": [
+        {
+          "id": "a",
+          "text": "80S"
+        },
+        {
+          "id": "b",
+          "text": "70S"
+        },
+        {
+          "id": "c",
+          "text": "40S"
+        },
+        {
+          "id": "d",
+          "text": "60S"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Prokaryotic ribosomes are 70S, made of 50S and 30S subunits. Eukaryotic cytoplasmic ribosomes are 80S, which is why some antibiotics act selectively.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A plasmid is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a rigid layer outside the cell wall"
+        },
+        {
+          "id": "b",
+          "text": "the site of protein synthesis"
+        },
+        {
+          "id": "c",
+          "text": "a storage granule for phosphate"
+        },
+        {
+          "id": "d",
+          "text": "a small circular piece of DNA, separate from the chromosome, that often carries resistance genes"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Plasmids replicate independently and can be passed between cells. R plasmids carry antibiotic resistance genes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "An antiseptic differs from a disinfectant mainly because an antiseptic",
+      "options": [
+        {
+          "id": "a",
+          "text": "kills bacterial spores"
+        },
+        {
+          "id": "b",
+          "text": "is safe to apply on living tissue"
+        },
+        {
+          "id": "c",
+          "text": "is used only on floors"
+        },
+        {
+          "id": "d",
+          "text": "is always a heavy metal"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Antiseptics such as dilute iodine are used on skin and wounds. Disinfectants such as strong phenols are applied to inanimate surfaces.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "A bacteriostatic agent",
+      "options": [
+        {
+          "id": "a",
+          "text": "stops the growth of bacteria without necessarily killing them"
+        },
+        {
+          "id": "b",
+          "text": "destroys spores"
+        },
+        {
+          "id": "c",
+          "text": "dissolves the cell wall completely"
+        },
+        {
+          "id": "d",
+          "text": "kills all bacteria within minutes"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Growth resumes when a bacteriostatic agent is removed. A bactericidal agent kills cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "In the flash (high-temperature short-time) method of pasteurising milk, the milk is heated to about",
+      "options": [
+        {
+          "id": "a",
+          "text": "121 degrees C for 15 minutes"
+        },
+        {
+          "id": "b",
+          "text": "160 degrees C for 2 hours"
+        },
+        {
+          "id": "c",
+          "text": "72 degrees C for 15 seconds"
+        },
+        {
+          "id": "d",
+          "text": "100 degrees C for 30 minutes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "HTST uses 72 degrees C for 15 seconds to kill non-spore pathogens such as Mycobacterium bovis and Salmonella while keeping the milk quality.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Glassware in a hot-air oven is commonly sterilised at",
+      "options": [
+        {
+          "id": "a",
+          "text": "121 degrees C for 15 minutes"
+        },
+        {
+          "id": "b",
+          "text": "60 degrees C for 10 minutes"
+        },
+        {
+          "id": "c",
+          "text": "72 degrees C for 15 seconds"
+        },
+        {
+          "id": "d",
+          "text": "160 degrees C for 2 hours"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Dry heat needs higher temperature and longer time than steam. 121 degrees C for 15 minutes is for the autoclave.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A filter intended to remove bacteria from a heat-sensitive solution and give a sterile filtrate typically has a pore size of",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 micrometres"
+        },
+        {
+          "id": "b",
+          "text": "0.22 micrometre"
+        },
+        {
+          "id": "c",
+          "text": "5 micrometres"
+        },
+        {
+          "id": "d",
+          "text": "2 micrometres"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Pores of 0.22 micrometre are sterilising grade because bacteria are larger. The bigger pores listed would let bacteria through.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Ultraviolet light kills microbes mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "dissolving the cell wall"
+        },
+        {
+          "id": "b",
+          "text": "breaking down ribosomes"
+        },
+        {
+          "id": "c",
+          "text": "causing thymine dimers in DNA"
+        },
+        {
+          "id": "d",
+          "text": "coagulating the capsule"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "UV at about 260 nm links adjacent thymines in DNA and blocks replication. It penetrates poorly, so it is used for surfaces and air.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The stationary phase of a growth curve occurs because",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacteria stop making DNA"
+        },
+        {
+          "id": "b",
+          "text": "the temperature drops"
+        },
+        {
+          "id": "c",
+          "text": "all cells have formed spores"
+        },
+        {
+          "id": "d",
+          "text": "nutrients are depleted and wastes accumulate, so division equals death"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "In stationary phase the number of viable cells stays constant because the rate of cell division equals the rate of death.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Psychrophiles are best described as organisms that",
+      "options": [
+        {
+          "id": "a",
+          "text": "grow only above 80 degrees C"
+        },
+        {
+          "id": "b",
+          "text": "grow only without light"
+        },
+        {
+          "id": "c",
+          "text": "grow well at low temperatures, with optimum near 15 degrees C or below"
+        },
+        {
+          "id": "d",
+          "text": "require high salt"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Psychrophiles are found in cold environments such as polar water and refrigerated food. Thermophiles prefer high temperatures.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Halophiles require for growth",
+      "options": [
+        {
+          "id": "a",
+          "text": "high pressure"
+        },
+        {
+          "id": "b",
+          "text": "high concentrations of sodium chloride"
+        },
+        {
+          "id": "c",
+          "text": "ultraviolet light"
+        },
+        {
+          "id": "d",
+          "text": "high acid"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Halophiles such as Halobacterium live in salt lakes and brines.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The pH range in which most bacteria of medical importance grow best is",
+      "options": [
+        {
+          "id": "a",
+          "text": "9.5 to 11.0"
+        },
+        {
+          "id": "b",
+          "text": "1.0 to 3.0"
+        },
+        {
+          "id": "c",
+          "text": "3.0 to 4.5"
+        },
+        {
+          "id": "d",
+          "text": "6.5 to 7.5"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Most pathogens prefer near neutral pH. Fungi often tolerate a lower pH of 4 to 6.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Which of these is a sign that a culture medium is selective?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It contains an inhibitor that prevents growth of unwanted organisms"
+        },
+        {
+          "id": "b",
+          "text": "It contains blood"
+        },
+        {
+          "id": "c",
+          "text": "It has no agar"
+        },
+        {
+          "id": "d",
+          "text": "It changes colour with acid production"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Selective media include substances such as bile salts or antibiotics that inhibit certain groups. A colour change indicates a differential medium.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Blood agar is described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a minimal medium"
+        },
+        {
+          "id": "b",
+          "text": "a transport medium"
+        },
+        {
+          "id": "c",
+          "text": "a selective medium for fungi"
+        },
+        {
+          "id": "d",
+          "text": "an enriched medium that also shows haemolysis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Blood adds nutrients for fastidious organisms and shows alpha, beta or gamma haemolysis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Which structure stores genetic information in a bacterium besides the chromosome?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ribosome"
+        },
+        {
+          "id": "b",
+          "text": "Plasmid"
+        },
+        {
+          "id": "c",
+          "text": "Capsule"
+        },
+        {
+          "id": "d",
+          "text": "Mesosome"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Plasmids carry extra genes such as resistance and virulence genes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Peptidoglycan is made of alternating residues of",
+      "options": [
+        {
+          "id": "a",
+          "text": "N-acetylglucosamine and N-acetylmuramic acid"
+        },
+        {
+          "id": "b",
+          "text": "chitin and cellulose"
+        },
+        {
+          "id": "c",
+          "text": "alanine and glycine only"
+        },
+        {
+          "id": "d",
+          "text": "glucose and fructose"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Short peptides cross-link the sugar chains to give strength. Penicillin blocks the cross-linking.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "A hospital laboratory needs to sterilise a heat-labile antibiotic solution. The best method is",
+      "options": [
+        {
+          "id": "a",
+          "text": "boiling"
+        },
+        {
+          "id": "b",
+          "text": "autoclaving"
+        },
+        {
+          "id": "c",
+          "text": "membrane filtration"
+        },
+        {
+          "id": "d",
+          "text": "hot air oven"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Autoclaving, boiling and dry heat would destroy the antibiotic. Filtration removes microbes without heat.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The spore-forming bacteria are the hardest group to kill because endospores",
+      "options": [
+        {
+          "id": "a",
+          "text": "are very large"
+        },
+        {
+          "id": "b",
+          "text": "resist heat, drying and many chemicals"
+        },
+        {
+          "id": "c",
+          "text": "have two cell walls only"
+        },
+        {
+          "id": "d",
+          "text": "multiply faster"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Endospores contain dipicolinic acid and a tough coat. This is why autoclaving at 121 degrees C is used for sterilisation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "A bacterium that is spiral in shape is called a",
+      "options": [
+        {
+          "id": "a",
+          "text": "coccus"
+        },
+        {
+          "id": "b",
+          "text": "vibrio"
+        },
+        {
+          "id": "c",
+          "text": "bacillus"
+        },
+        {
+          "id": "d",
+          "text": "spirillum"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Spirilla are rigid spiral cells. A vibrio is comma shaped, a coccus spherical and a bacillus rod shaped.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "A bacteriostatic agent kills bacteria immediately.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A bacteriostatic agent only inhibits growth. Killing is bactericidal action.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Autoclaving uses saturated steam under pressure.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Steam at 15 psi reaches 121 degrees C, which kills spores.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Assertion: Endospores survive boiling water. Reason: The spore coat and dipicolinic acid make the core resistant to heat and desiccation.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

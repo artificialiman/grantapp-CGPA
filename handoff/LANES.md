@@ -27,7 +27,7 @@ Stop rules:
 - A card that is not green at 75 minutes stops. Commit nothing broken, write the blocker into `pausa.md`, start the next card.
 - At four hours elapsed, stop. Push whatever is green and write `pausa.md`.
 - A missing fact becomes `[OPEN]`. Do not search the repo broadly: read the files the card names, plus three more at most.
-- Work on a branch and open one pull request per card; never commit to `main`. One commit may change at most 200 lines. A content commit may add at most 40 questions, so Iman can review it in one sitting.
+- Work on a branch and open one pull request per card; never commit to `main`. One commit may change at most 200 lines. Content commits have no question cap (founder decision, 2026-10-30).
 - Head review: manchi reads `git log` since the last review once per window. A bad commit is fixed forward by a new commit, never rewritten.
 
 ## 3. Card template

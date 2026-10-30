@@ -83,6 +83,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -162,6 +163,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -235,6 +237,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -314,6 +317,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -506,6 +510,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering"
@@ -594,6 +599,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering",
@@ -708,6 +714,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -796,6 +803,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -934,6 +942,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -1010,6 +1019,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -1186,6 +1196,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -1272,6 +1283,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "petroleum-engineering",
     "pharmacy"
@@ -1399,6 +1411,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering",
@@ -2061,6 +2074,7 @@
     "insurance",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering"
@@ -2186,6 +2200,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering",
@@ -2638,6 +2653,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "petroleum-engineering",

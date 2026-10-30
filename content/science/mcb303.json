@@ -1,0 +1,1024 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb303",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Soil microorganisms are most abundant in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "bedrock"
+        },
+        {
+          "id": "b",
+          "text": "topsoil (A horizon)"
+        },
+        {
+          "id": "c",
+          "text": "dry sand dune only"
+        },
+        {
+          "id": "d",
+          "text": "deep subsoil"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Topsoil has organic matter, air and moisture. Numbers decline sharply with depth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Of the soil microbes by numbers, the most numerous are usually the",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacteria"
+        },
+        {
+          "id": "b",
+          "text": "nematodes"
+        },
+        {
+          "id": "c",
+          "text": "protozoa"
+        },
+        {
+          "id": "d",
+          "text": "algae"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Bacteria number about 10 to the power 8 to 10 to the power 9 per gram of fertile soil. Fungi often hold more biomass.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Actinomycetes such as Streptomyces are important in soil because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "cause nitrate loss only"
+        },
+        {
+          "id": "b",
+          "text": "fix atmospheric carbon"
+        },
+        {
+          "id": "c",
+          "text": "produce geosmin and many antibiotics"
+        },
+        {
+          "id": "d",
+          "text": "photosynthesise"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Streptomyces gives soil its earthy smell and is the source of streptomycin and tetracycline.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Conversion of ammonia to nitrite and then to nitrate is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrification"
+        },
+        {
+          "id": "b",
+          "text": "ammonification"
+        },
+        {
+          "id": "c",
+          "text": "denitrification"
+        },
+        {
+          "id": "d",
+          "text": "nitrogen fixation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Nitrosomonas oxidises ammonia to nitrite and Nitrobacter oxidises nitrite to nitrate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Denitrification is the conversion of",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrate to nitrogen gas"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen gas to ammonia"
+        },
+        {
+          "id": "c",
+          "text": "protein to ammonia"
+        },
+        {
+          "id": "d",
+          "text": "ammonia to nitrite"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Pseudomonas and Paracoccus species reduce nitrate to nitrogen gas in waterlogged anaerobic soil. This loses nitrogen from fields.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Ammonification is the release of ammonia from",
+      "options": [
+        {
+          "id": "a",
+          "text": "atmospheric nitrogen"
+        },
+        {
+          "id": "b",
+          "text": "nitrate"
+        },
+        {
+          "id": "c",
+          "text": "urea fertiliser only"
+        },
+        {
+          "id": "d",
+          "text": "decomposing organic nitrogen compounds"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Decomposers break down proteins and amino acids to ammonia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A free-living nitrogen-fixing bacterium found in soil is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptococcus"
+        },
+        {
+          "id": "b",
+          "text": "Rhizobium"
+        },
+        {
+          "id": "c",
+          "text": "Azotobacter"
+        },
+        {
+          "id": "d",
+          "text": "Nitrosomonas"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Azotobacter fixes nitrogen without a host. Rhizobium needs legume nodules.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The nitrogenase enzyme is inactivated by",
+      "options": [
+        {
+          "id": "a",
+          "text": "low temperature only"
+        },
+        {
+          "id": "b",
+          "text": "oxygen"
+        },
+        {
+          "id": "c",
+          "text": "ammonia salts only"
+        },
+        {
+          "id": "d",
+          "text": "light"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Nitrogenase is oxygen sensitive. Legume nodules use leghaemoglobin to keep oxygen low.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The plant family whose roots form nodules with Rhizobium is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "legumes (Fabaceae)"
+        },
+        {
+          "id": "b",
+          "text": "palms (Arecaceae)"
+        },
+        {
+          "id": "c",
+          "text": "cassava (Euphorbiaceae)"
+        },
+        {
+          "id": "d",
+          "text": "grasses (Poaceae)"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Beans, groundnut and cowpea are nodulated by rhizobia. Cereals and cassava do not form such nodules.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Mycorrhiza is a symbiotic association between",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacteria and animal gut"
+        },
+        {
+          "id": "b",
+          "text": "nematodes and bacteria"
+        },
+        {
+          "id": "c",
+          "text": "algae and fungi"
+        },
+        {
+          "id": "d",
+          "text": "fungi and plant roots"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The fungus helps the plant absorb phosphorus and water, and the plant supplies sugars. Lichens are the association of fungi with algae or cyanobacteria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The process of breaking down plant residues into humus is mainly carried out by",
+      "options": [
+        {
+          "id": "a",
+          "text": "primary producers"
+        },
+        {
+          "id": "b",
+          "text": "viruses"
+        },
+        {
+          "id": "c",
+          "text": "decomposers such as fungi and bacteria"
+        },
+        {
+          "id": "d",
+          "text": "photosynthetic algae only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Humus forms from partly decomposed organic matter. Lignin is resistant and decays slowly.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The carbon to nitrogen ratio of well-matured compost is generally about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 : 10"
+        },
+        {
+          "id": "b",
+          "text": "10 to 20 : 1"
+        },
+        {
+          "id": "c",
+          "text": "500 : 1"
+        },
+        {
+          "id": "d",
+          "text": "100 : 1"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "As microbes use carbon and conserve nitrogen, the ratio falls to about 10 to 20 to 1. Fresh straw has a much higher ratio.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Adding fresh sawdust with high C:N ratio to soil usually causes temporary",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrogen fixation"
+        },
+        {
+          "id": "b",
+          "text": "nitrate leaching"
+        },
+        {
+          "id": "c",
+          "text": "ammonification"
+        },
+        {
+          "id": "d",
+          "text": "nitrogen immobilisation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Microbes need nitrogen to break down carbon-rich material, so they take up mineral nitrogen and make less available to crops.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The genus responsible for phosphate solubilisation in soil includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bordetella"
+        },
+        {
+          "id": "b",
+          "text": "Treponema"
+        },
+        {
+          "id": "c",
+          "text": "Neisseria"
+        },
+        {
+          "id": "d",
+          "text": "Pseudomonas and Bacillus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "These bacteria release organic acids that dissolve insoluble phosphates. They are used as biofertiliser inoculants.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Biological nitrogen fixation converts nitrogen gas into",
+      "options": [
+        {
+          "id": "a",
+          "text": "ammonia"
+        },
+        {
+          "id": "b",
+          "text": "nitrate"
+        },
+        {
+          "id": "c",
+          "text": "nitrous oxide"
+        },
+        {
+          "id": "d",
+          "text": "nitrite"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The nitrogenase enzyme reduces N2 to NH3, which the plant uses to make amino acids.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Sulphate-reducing bacteria such as Desulfovibrio produce",
+      "options": [
+        {
+          "id": "a",
+          "text": "methane"
+        },
+        {
+          "id": "b",
+          "text": "nitrate"
+        },
+        {
+          "id": "c",
+          "text": "hydrogen sulphide"
+        },
+        {
+          "id": "d",
+          "text": "oxygen"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They use sulphate as the terminal electron acceptor. Their activity causes corrosion of buried iron pipes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Methanogens are classified as",
+      "options": [
+        {
+          "id": "a",
+          "text": "algae"
+        },
+        {
+          "id": "b",
+          "text": "fungi"
+        },
+        {
+          "id": "c",
+          "text": "archaea"
+        },
+        {
+          "id": "d",
+          "text": "protozoa"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Methanogens produce methane from carbon dioxide and hydrogen or from acetate in anaerobic places such as swamps and the rumen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The microbial biofertiliser Rhizobium is best applied to",
+      "options": [
+        {
+          "id": "a",
+          "text": "fish ponds"
+        },
+        {
+          "id": "b",
+          "text": "maize leaves"
+        },
+        {
+          "id": "c",
+          "text": "cassava stems"
+        },
+        {
+          "id": "d",
+          "text": "legume seeds"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Seed inoculation puts rhizobia near the root for nodulation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A soil with pH of 4.0 will mostly favour the growth of",
+      "options": [
+        {
+          "id": "a",
+          "text": "fungi"
+        },
+        {
+          "id": "b",
+          "text": "Rhizobium"
+        },
+        {
+          "id": "c",
+          "text": "nitrifying bacteria"
+        },
+        {
+          "id": "d",
+          "text": "actinomycetes"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Fungi tolerate acid soils. Actinomycetes and most bacteria prefer neutral to slightly alkaline pH.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The dilution plate method with soil extract agar is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "measure soil pH"
+        },
+        {
+          "id": "b",
+          "text": "find soil colour"
+        },
+        {
+          "id": "c",
+          "text": "detect soil viruses"
+        },
+        {
+          "id": "d",
+          "text": "count viable soil bacteria"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Soil is serially diluted, spread on a medium and the colonies are counted. This gives colony forming units per gram of soil.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Martin's rose bengal streptomycin agar is used to isolate",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrifiers"
+        },
+        {
+          "id": "b",
+          "text": "soil fungi"
+        },
+        {
+          "id": "c",
+          "text": "anaerobic bacteria"
+        },
+        {
+          "id": "d",
+          "text": "actinomycetes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Rose bengal limits spreading growth and streptomycin suppresses bacteria. It selects fungi.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Rhizosphere refers to",
+      "options": [
+        {
+          "id": "a",
+          "text": "the underground water table"
+        },
+        {
+          "id": "b",
+          "text": "the soil region around plant roots influenced by root exudates"
+        },
+        {
+          "id": "c",
+          "text": "the bottom of the ocean"
+        },
+        {
+          "id": "d",
+          "text": "a type of fungus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Microbial numbers are higher in the rhizosphere than in the surrounding soil because of root exudates.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The R:S ratio, the rhizosphere to bulk soil ratio of microbes, is usually",
+      "options": [
+        {
+          "id": "a",
+          "text": "less than 1"
+        },
+        {
+          "id": "b",
+          "text": "greater than 1"
+        },
+        {
+          "id": "c",
+          "text": "always 1"
+        },
+        {
+          "id": "d",
+          "text": "equal to zero"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Roots release sugars and amino acids, so more microbes live near them.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Soil organisms that physically mix and break up litter and improve structure include",
+      "options": [
+        {
+          "id": "a",
+          "text": "earthworms"
+        },
+        {
+          "id": "b",
+          "text": "Plasmodium species"
+        },
+        {
+          "id": "c",
+          "text": "rhinoviruses"
+        },
+        {
+          "id": "d",
+          "text": "Treponema species"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Earthworms feed on decaying matter and mix it into the soil. They are macrofauna rather than microbes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Pesticides that persist in soil are mainly broken down by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sunlight only"
+        },
+        {
+          "id": "b",
+          "text": "filtration"
+        },
+        {
+          "id": "c",
+          "text": "microbial biodegradation"
+        },
+        {
+          "id": "d",
+          "text": "wind"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Bacteria such as Pseudomonas use many pesticides as carbon sources. Persistence depends on the compound structure and microbial adaptation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Which of the following would most reduce the number of aerobic soil bacteria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Addition of compost"
+        },
+        {
+          "id": "b",
+          "text": "Addition of legume residues"
+        },
+        {
+          "id": "c",
+          "text": "Light ploughing"
+        },
+        {
+          "id": "d",
+          "text": "Waterlogging of the soil"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Waterlogging excludes oxygen and favours anaerobes. Compost and legume residues give nutrients, and ploughing increases aeration.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Lichens are associations between a fungus and",
+      "options": [
+        {
+          "id": "a",
+          "text": "a nematode"
+        },
+        {
+          "id": "b",
+          "text": "an alga or cyanobacterium"
+        },
+        {
+          "id": "c",
+          "text": "a protozoan"
+        },
+        {
+          "id": "d",
+          "text": "a virus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The photobiont supplies food and the fungus gives protection and mineral uptake. Lichens are pioneers on bare rock.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Streptomyces species are best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "unicellular algae"
+        },
+        {
+          "id": "b",
+          "text": "yeasts"
+        },
+        {
+          "id": "c",
+          "text": "filamentous Gram-positive bacteria"
+        },
+        {
+          "id": "d",
+          "text": "enveloped viruses"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Streptomyces forms branching hyphae and spores and produces many antibiotics.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The enzyme urease helps soil microbes convert urea to",
+      "options": [
+        {
+          "id": "a",
+          "text": "ammonia and carbon dioxide"
+        },
+        {
+          "id": "b",
+          "text": "methane"
+        },
+        {
+          "id": "c",
+          "text": "nitrogen gas"
+        },
+        {
+          "id": "d",
+          "text": "nitrate"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Urea hydrolysis releases ammonia, which can be lost to air if urea is applied to the surface of dry alkaline soil.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Rhizobium fixes nitrogen in the root nodules of legumes.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The bacteria and the legume form a symbiosis in which the plant gets ammonia and the bacteria get sugars.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Denitrification increases the nitrate content of soil.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Denitrification converts nitrate to nitrogen gas and so reduces soil nitrate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Assertion: Waterlogged soils lose nitrogen. Reason: Denitrifying bacteria use nitrate as an electron acceptor when oxygen is absent.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

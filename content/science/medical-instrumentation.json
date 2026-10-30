@@ -1,0 +1,1392 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "medical-instrumentation",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "A transducer is a device that",
+      "options": [
+        {
+          "id": "a",
+          "text": "stores charge only"
+        },
+        {
+          "id": "b",
+          "text": "amplifies voltage only"
+        },
+        {
+          "id": "c",
+          "text": "produces light only"
+        },
+        {
+          "id": "d",
+          "text": "converts one form of energy to another"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Examples are a thermistor, a strain gauge and a piezoelectric crystal.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The accuracy of a measurement describes",
+      "options": [
+        {
+          "id": "a",
+          "text": "how close the reading is to the true value"
+        },
+        {
+          "id": "b",
+          "text": "how large the reading is"
+        },
+        {
+          "id": "c",
+          "text": "how repeatable it is"
+        },
+        {
+          "id": "d",
+          "text": "how fast it is"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Precision describes repeatability.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Resolution of an instrument is",
+      "options": [
+        {
+          "id": "a",
+          "text": "its range"
+        },
+        {
+          "id": "b",
+          "text": "its cost"
+        },
+        {
+          "id": "c",
+          "text": "the smallest change in the quantity that it can detect"
+        },
+        {
+          "id": "d",
+          "text": "its size"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A digital thermometer reading to 0.1 degrees has a resolution of 0.1 degrees.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Calibration of an instrument means",
+      "options": [
+        {
+          "id": "a",
+          "text": "cleaning it"
+        },
+        {
+          "id": "b",
+          "text": "turning it on"
+        },
+        {
+          "id": "c",
+          "text": "testing its colour"
+        },
+        {
+          "id": "d",
+          "text": "comparing it with a known standard and adjusting it"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It ensures traceable accuracy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A biopotential electrode commonly used for ECG is made of",
+      "options": [
+        {
+          "id": "a",
+          "text": "silver/silver chloride"
+        },
+        {
+          "id": "b",
+          "text": "iron"
+        },
+        {
+          "id": "c",
+          "text": "aluminium"
+        },
+        {
+          "id": "d",
+          "text": "plastic"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Ag/AgCl gives a stable half-cell potential and low noise.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Skin preparation before attaching an ECG electrode is done to",
+      "options": [
+        {
+          "id": "a",
+          "text": "colour the skin"
+        },
+        {
+          "id": "b",
+          "text": "increase impedance"
+        },
+        {
+          "id": "c",
+          "text": "reduce skin impedance"
+        },
+        {
+          "id": "d",
+          "text": "kill bacteria"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Removing dead cells and oils lowers noise and artefacts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The typical amplitude of the ECG signal at the body surface is",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 1 V"
+        },
+        {
+          "id": "b",
+          "text": "about 1 mV"
+        },
+        {
+          "id": "c",
+          "text": "about 100 V"
+        },
+        {
+          "id": "d",
+          "text": "about 1 microvolt"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The frequency range is 0.05 to 100 Hz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The typical amplitude of the EEG signal at the scalp is",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 mV"
+        },
+        {
+          "id": "b",
+          "text": "10 to 100 microvolts"
+        },
+        {
+          "id": "c",
+          "text": "1 V"
+        },
+        {
+          "id": "d",
+          "text": "1 to 5 mV"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Frequency range 0.5 to 50 Hz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The alpha rhythm in the EEG, seen in a relaxed adult with eyes closed, has a frequency of",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 to 100 Hz"
+        },
+        {
+          "id": "b",
+          "text": "13 to 30 Hz"
+        },
+        {
+          "id": "c",
+          "text": "0.5 to 4 Hz"
+        },
+        {
+          "id": "d",
+          "text": "8 to 13 Hz"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Delta is 0.5 to 4 Hz, theta 4 to 8 Hz and beta 13 to 30 Hz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The ECG paper speed normally used is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.5 mm per second"
+        },
+        {
+          "id": "b",
+          "text": "25 mm per second"
+        },
+        {
+          "id": "c",
+          "text": "250 mm per second"
+        },
+        {
+          "id": "d",
+          "text": "1 mm per second"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "One large box (5 mm) is 0.2 s.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "On an ECG at 25 mm/s the R-R interval is 4 large boxes. The heart rate is",
+      "options": [
+        {
+          "id": "a",
+          "text": "60 beats per minute"
+        },
+        {
+          "id": "b",
+          "text": "300 beats per minute"
+        },
+        {
+          "id": "c",
+          "text": "100 beats per minute"
+        },
+        {
+          "id": "d",
+          "text": "75 beats per minute"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "300 divided by 4 = 75 beats per minute.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "In Einthoven's triangle, lead II equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "lead III minus lead I"
+        },
+        {
+          "id": "b",
+          "text": "lead I multiplied by lead III"
+        },
+        {
+          "id": "c",
+          "text": "lead I plus lead III"
+        },
+        {
+          "id": "d",
+          "text": "lead I minus lead III"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It follows from Kirchhoff's voltage law.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "An instrumentation amplifier is used in ECG because it has",
+      "options": [
+        {
+          "id": "a",
+          "text": "no gain"
+        },
+        {
+          "id": "b",
+          "text": "low gain only"
+        },
+        {
+          "id": "c",
+          "text": "low input impedance"
+        },
+        {
+          "id": "d",
+          "text": "high input impedance and high common-mode rejection"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It amplifies the difference between two electrodes and rejects common noise.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Common-mode rejection ratio (CMRR) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the ratio of current to voltage"
+        },
+        {
+          "id": "b",
+          "text": "the sum of two gains"
+        },
+        {
+          "id": "c",
+          "text": "the ratio of differential gain to common-mode gain"
+        },
+        {
+          "id": "d",
+          "text": "the ratio of input to output"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A good biopotential amplifier has a CMRR above 80 to 100 dB.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "An amplifier has a differential gain of 1000 and a common-mode gain of 0.1. The CMRR in dB is",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 dB"
+        },
+        {
+          "id": "b",
+          "text": "80 dB"
+        },
+        {
+          "id": "c",
+          "text": "60 dB"
+        },
+        {
+          "id": "d",
+          "text": "100 dB"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The ratio is 10,000 and 20 multiplied by log10(10,000) = 80 dB.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "An amplifier turns a 1 mV input into a 1 V output. The gain in decibels is",
+      "options": [
+        {
+          "id": "a",
+          "text": "60 dB"
+        },
+        {
+          "id": "b",
+          "text": "20 dB"
+        },
+        {
+          "id": "c",
+          "text": "100 dB"
+        },
+        {
+          "id": "d",
+          "text": "30 dB"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Gain = 1000, and 20 multiplied by log10(1000) = 60 dB.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The mains frequency interference (50 Hz in Nigeria) can be reduced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "a rectifier"
+        },
+        {
+          "id": "b",
+          "text": "a fuse"
+        },
+        {
+          "id": "c",
+          "text": "an amplifier"
+        },
+        {
+          "id": "d",
+          "text": "a notch filter at 50 Hz"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Shielded leads and a right-leg drive circuit also help.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A low-pass filter",
+      "options": [
+        {
+          "id": "a",
+          "text": "passes high frequencies only"
+        },
+        {
+          "id": "b",
+          "text": "passes low frequencies and attenuates high frequencies"
+        },
+        {
+          "id": "c",
+          "text": "passes a single frequency"
+        },
+        {
+          "id": "d",
+          "text": "passes everything"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is used to remove high-frequency noise from biosignals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "To sample an ECG signal with maximum frequency 100 Hz without aliasing, the sampling rate must be at least",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 Hz"
+        },
+        {
+          "id": "b",
+          "text": "50 Hz"
+        },
+        {
+          "id": "c",
+          "text": "20 Hz"
+        },
+        {
+          "id": "d",
+          "text": "200 Hz"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The Nyquist rate is twice the highest frequency.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "A 12-bit analogue-to-digital converter has an input range of 10 V. The smallest step is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.1 mV"
+        },
+        {
+          "id": "b",
+          "text": "1 mV"
+        },
+        {
+          "id": "c",
+          "text": "2.44 mV"
+        },
+        {
+          "id": "d",
+          "text": "10 mV"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "2 to the power 12 = 4096. 10 divided by 4096 = 2.44 mV.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "A thermistor used in a clinical thermometer is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "temperature-dependent resistor"
+        },
+        {
+          "id": "b",
+          "text": "capacitor"
+        },
+        {
+          "id": "c",
+          "text": "diode"
+        },
+        {
+          "id": "d",
+          "text": "coil"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A negative temperature coefficient thermistor has resistance that falls as temperature rises.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "A strain gauge is used in a pressure transducer because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it emits light"
+        },
+        {
+          "id": "b",
+          "text": "it generates heat"
+        },
+        {
+          "id": "c",
+          "text": "its resistance changes with strain"
+        },
+        {
+          "id": "d",
+          "text": "it stores charge"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is typically connected in a Wheatstone bridge.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The Wheatstone bridge in a strain gauge transducer is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "rectify"
+        },
+        {
+          "id": "b",
+          "text": "convert a small resistance change into a voltage"
+        },
+        {
+          "id": "c",
+          "text": "filter noise"
+        },
+        {
+          "id": "d",
+          "text": "store charge"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The output is zero when the bridge is balanced.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "A pulse oximeter measures oxygen saturation using light of",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 660 nm (red) and 940 nm (infrared)"
+        },
+        {
+          "id": "b",
+          "text": "X-rays"
+        },
+        {
+          "id": "c",
+          "text": "ultrasound"
+        },
+        {
+          "id": "d",
+          "text": "microwaves"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Oxyhaemoglobin and deoxyhaemoglobin absorb the two wavelengths differently.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "A normal arterial oxygen saturation measured by a pulse oximeter is",
+      "options": [
+        {
+          "id": "a",
+          "text": "70 to 80 percent"
+        },
+        {
+          "id": "b",
+          "text": "50 to 60 percent"
+        },
+        {
+          "id": "c",
+          "text": "95 to 100 percent"
+        },
+        {
+          "id": "d",
+          "text": "105 to 110 percent"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Values below 90 percent indicate hypoxaemia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "A pulse oximeter can give a falsely high reading in",
+      "options": [
+        {
+          "id": "a",
+          "text": "a dark room"
+        },
+        {
+          "id": "b",
+          "text": "a cold room"
+        },
+        {
+          "id": "c",
+          "text": "anaemia only"
+        },
+        {
+          "id": "d",
+          "text": "carbon monoxide poisoning"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Carboxyhaemoglobin absorbs light similarly to oxyhaemoglobin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The Korotkoff sounds in blood pressure measurement are heard when",
+      "options": [
+        {
+          "id": "a",
+          "text": "blood flow is turbulent under a partly occluding cuff"
+        },
+        {
+          "id": "b",
+          "text": "the heart stops"
+        },
+        {
+          "id": "c",
+          "text": "the artery is closed"
+        },
+        {
+          "id": "d",
+          "text": "the cuff is fully inflated"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The first sound marks systolic pressure and the disappearance marks diastolic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The stored energy in a defibrillator capacitor is",
+      "options": [
+        {
+          "id": "a",
+          "text": "E = half multiplied by C multiplied by V squared"
+        },
+        {
+          "id": "b",
+          "text": "E = V divided by C"
+        },
+        {
+          "id": "c",
+          "text": "E = C divided by V squared"
+        },
+        {
+          "id": "d",
+          "text": "E = C multiplied by V"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The capacitor is charged and discharged through the patient.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "A defibrillator capacitor of 100 microfarads is charged to 3000 V. The stored energy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "45 J"
+        },
+        {
+          "id": "b",
+          "text": "900 J"
+        },
+        {
+          "id": "c",
+          "text": "450 J"
+        },
+        {
+          "id": "d",
+          "text": "300 J"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "0.5 multiplied by 100 x 10 to the power -6 multiplied by 3000 squared = 450 J.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Macroshock refers to",
+      "options": [
+        {
+          "id": "a",
+          "text": "current applied directly to the heart"
+        },
+        {
+          "id": "b",
+          "text": "current applied to the surface of the body"
+        },
+        {
+          "id": "c",
+          "text": "a static charge"
+        },
+        {
+          "id": "d",
+          "text": "a thermal burn only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Perception occurs near 1 mA, and ventricular fibrillation from about 75 to 400 mA.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Microshock is dangerous because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it is harmless"
+        },
+        {
+          "id": "b",
+          "text": "it affects only the skin"
+        },
+        {
+          "id": "c",
+          "text": "it causes burns"
+        },
+        {
+          "id": "d",
+          "text": "small currents reaching the heart directly can cause fibrillation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The limit for cardiac catheter situations is 10 microamperes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "A Type CF applied part is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a mains part"
+        },
+        {
+          "id": "b",
+          "text": "an unprotected part"
+        },
+        {
+          "id": "c",
+          "text": "suitable for direct cardiac application, with the lowest leakage current"
+        },
+        {
+          "id": "d",
+          "text": "a surface-only part"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "B is body, BF is body floating and CF is cardiac floating.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "An isolation transformer in medical equipment is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "separate the patient circuit from the mains earth"
+        },
+        {
+          "id": "b",
+          "text": "filter noise"
+        },
+        {
+          "id": "c",
+          "text": "increase voltage"
+        },
+        {
+          "id": "d",
+          "text": "rectify"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It reduces leakage currents.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The normal condition earth leakage current limit for general medical equipment (IEC 60601-1) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 mA"
+        },
+        {
+          "id": "b",
+          "text": "500 mA"
+        },
+        {
+          "id": "c",
+          "text": "0.5 mA"
+        },
+        {
+          "id": "d",
+          "text": "5 mA"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is much smaller for patient leakage current.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Total internal reflection is the basis of",
+      "options": [
+        {
+          "id": "a",
+          "text": "X-ray tubes"
+        },
+        {
+          "id": "b",
+          "text": "optical fibre endoscopes"
+        },
+        {
+          "id": "c",
+          "text": "MRI"
+        },
+        {
+          "id": "d",
+          "text": "ultrasound"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Light is guided along the flexible fibre bundle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "A glucose meter works by",
+      "options": [
+        {
+          "id": "a",
+          "text": "an enzyme reaction (glucose oxidase) producing a current proportional to glucose"
+        },
+        {
+          "id": "b",
+          "text": "using ultrasound"
+        },
+        {
+          "id": "c",
+          "text": "using X-rays"
+        },
+        {
+          "id": "d",
+          "text": "measuring blood pressure"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Test strips contain the enzyme and electrodes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Preventive maintenance of medical equipment includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "scheduled inspection, calibration and safety testing"
+        },
+        {
+          "id": "b",
+          "text": "waiting for failure"
+        },
+        {
+          "id": "c",
+          "text": "replacing every month"
+        },
+        {
+          "id": "d",
+          "text": "only cleaning"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Records are kept in an equipment log.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "In Nigeria, the agency that regulates registration of medical devices is",
+      "options": [
+        {
+          "id": "a",
+          "text": "NIMR"
+        },
+        {
+          "id": "b",
+          "text": "SON only"
+        },
+        {
+          "id": "c",
+          "text": "NAFDAC"
+        },
+        {
+          "id": "d",
+          "text": "NNRA"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The National Agency for Food and Drug Administration and Control registers and regulates medical devices.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "A high CMRR is desirable in a biopotential amplifier.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It means common-mode interference is strongly rejected.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "An ECG signal is about 1 volt at the skin surface.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is about 1 millivolt, so it needs an amplifier.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Skin preparation is carried out before attaching ECG electrodes. Reason: It lowers the electrode-skin impedance and reduces noise.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the preparation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "A ____ is a device that converts a physical quantity such as temperature or pressure into an electrical signal.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is a device that converts a ____ quantity such as temperature or pressure into an electrical signal.",
+        "answers": [
+          "transducer",
+          "physical"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "filter"
+        },
+        {
+          "id": "b",
+          "text": "transducer"
+        },
+        {
+          "id": "c",
+          "text": "rectifier"
+        },
+        {
+          "id": "d",
+          "text": "amplifier"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Examples are thermistors and strain gauges.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "The ____ rejection ratio is the ratio of the differential gain to the common-mode gain of an amplifier.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ rejection ratio is the ratio of the ____ gain to the common-mode gain of an amplifier.",
+        "answers": [
+          "common-mode",
+          "differential"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "signal"
+        },
+        {
+          "id": "b",
+          "text": "common-mode"
+        },
+        {
+          "id": "c",
+          "text": "differential"
+        },
+        {
+          "id": "d",
+          "text": "input"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is usually expressed in decibels.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

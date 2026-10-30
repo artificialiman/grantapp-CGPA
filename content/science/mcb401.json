@@ -1,0 +1,1566 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb401",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The first line of defence against infection includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "memory cells"
+        },
+        {
+          "id": "b",
+          "text": "intact skin and mucous membranes"
+        },
+        {
+          "id": "c",
+          "text": "complement only"
+        },
+        {
+          "id": "d",
+          "text": "antibodies"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Skin, mucus, cilia, stomach acid and lysozyme are non-specific barriers. Antibodies and memory cells belong to the adaptive immune response.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Lysozyme in tears and saliva protects by",
+      "options": [
+        {
+          "id": "a",
+          "text": "making antibodies"
+        },
+        {
+          "id": "b",
+          "text": "killing viruses by heat"
+        },
+        {
+          "id": "c",
+          "text": "neutralising toxins"
+        },
+        {
+          "id": "d",
+          "text": "breaking down peptidoglycan"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It cleaves the bond between N-acetylglucosamine and N-acetylmuramic acid, which weakens bacterial walls, especially of Gram-positive cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The most abundant phagocytic white cells in blood are the",
+      "options": [
+        {
+          "id": "a",
+          "text": "eosinophils"
+        },
+        {
+          "id": "b",
+          "text": "basophils"
+        },
+        {
+          "id": "c",
+          "text": "monocytes"
+        },
+        {
+          "id": "d",
+          "text": "neutrophils"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Neutrophils are first responders in bacterial infection and make up about 60 to 70 percent of white cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Macrophages differ from neutrophils because macrophages",
+      "options": [
+        {
+          "id": "a",
+          "text": "are red cells"
+        },
+        {
+          "id": "b",
+          "text": "are never phagocytic"
+        },
+        {
+          "id": "c",
+          "text": "make antibodies"
+        },
+        {
+          "id": "d",
+          "text": "can present antigens to T cells and live longer"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Macrophages derive from monocytes and are antigen-presenting cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Which cells make antibodies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "Plasma cells"
+        },
+        {
+          "id": "c",
+          "text": "T helper cells"
+        },
+        {
+          "id": "d",
+          "text": "Natural killer cells"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Activated B cells differentiate into plasma cells that secrete antibodies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The immunoglobulin class that crosses the placenta is",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgG"
+        },
+        {
+          "id": "b",
+          "text": "IgM"
+        },
+        {
+          "id": "c",
+          "text": "IgE"
+        },
+        {
+          "id": "d",
+          "text": "IgA"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "IgG gives passive immunity to the fetus. IgM is the first antibody made in a primary response and is a pentamer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The immunoglobulin found in secretions such as saliva, tears and breast milk is",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgA"
+        },
+        {
+          "id": "b",
+          "text": "IgD"
+        },
+        {
+          "id": "c",
+          "text": "IgG"
+        },
+        {
+          "id": "d",
+          "text": "IgM"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Secretory IgA protects mucosal surfaces.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The antibody class associated with allergy and parasitic worm infection is",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgG"
+        },
+        {
+          "id": "b",
+          "text": "IgM"
+        },
+        {
+          "id": "c",
+          "text": "IgA"
+        },
+        {
+          "id": "d",
+          "text": "IgE"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "IgE binds mast cells. When allergen cross-links IgE, the mast cells release histamine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The first antibody produced in a primary immune response is",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgG"
+        },
+        {
+          "id": "b",
+          "text": "IgM"
+        },
+        {
+          "id": "c",
+          "text": "IgA"
+        },
+        {
+          "id": "d",
+          "text": "IgE"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "IgM is a large pentamer produced early. IgG follows later and dominates the secondary response.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "An antibody molecule has",
+      "options": [
+        {
+          "id": "a",
+          "text": "two heavy chains and two light chains"
+        },
+        {
+          "id": "b",
+          "text": "two light chains only"
+        },
+        {
+          "id": "c",
+          "text": "four heavy chains"
+        },
+        {
+          "id": "d",
+          "text": "one heavy chain only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The four chains are joined by disulphide bonds. The Fab arms bind antigen and the Fc region mediates effector functions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The region of an antibody that binds to antigen is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "hinge only"
+        },
+        {
+          "id": "b",
+          "text": "constant region of the Fc tail"
+        },
+        {
+          "id": "c",
+          "text": "J chain"
+        },
+        {
+          "id": "d",
+          "text": "variable region of the Fab arms"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The variable regions of heavy and light chains form the antigen binding site.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "A substance that stimulates an immune response is an",
+      "options": [
+        {
+          "id": "a",
+          "text": "antibiotic"
+        },
+        {
+          "id": "b",
+          "text": "antigen"
+        },
+        {
+          "id": "c",
+          "text": "enzyme"
+        },
+        {
+          "id": "d",
+          "text": "antibody"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A hapten is too small to stimulate a response alone and needs a carrier.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The small part of an antigen recognised by an antibody is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "paratope"
+        },
+        {
+          "id": "b",
+          "text": "epitope"
+        },
+        {
+          "id": "c",
+          "text": "hapten"
+        },
+        {
+          "id": "d",
+          "text": "adjuvant"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The paratope is the antibody's binding site. An adjuvant boosts the response to a vaccine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Helper T cells carry the surface marker",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD4"
+        },
+        {
+          "id": "b",
+          "text": "CD34"
+        },
+        {
+          "id": "c",
+          "text": "CD19"
+        },
+        {
+          "id": "d",
+          "text": "CD8"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Helper T cells recognise antigen presented on MHC class II and release cytokines.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Cytotoxic T cells carry the marker",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD20"
+        },
+        {
+          "id": "b",
+          "text": "CD3 only"
+        },
+        {
+          "id": "c",
+          "text": "CD8"
+        },
+        {
+          "id": "d",
+          "text": "CD4"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They recognise antigen on MHC class I and kill infected cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "MHC class I molecules are found on",
+      "options": [
+        {
+          "id": "a",
+          "text": "only red cells"
+        },
+        {
+          "id": "b",
+          "text": "only macrophages"
+        },
+        {
+          "id": "c",
+          "text": "all nucleated cells"
+        },
+        {
+          "id": "d",
+          "text": "only B cells"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They present endogenous peptides, such as viral proteins, to CD8 cells. Red cells have no nucleus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "MHC class II molecules are mainly on",
+      "options": [
+        {
+          "id": "a",
+          "text": "all nucleated cells"
+        },
+        {
+          "id": "b",
+          "text": "antigen-presenting cells"
+        },
+        {
+          "id": "c",
+          "text": "erythrocytes"
+        },
+        {
+          "id": "d",
+          "text": "neurons only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Macrophages, dendritic cells and B cells present exogenous antigen to CD4 cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The complement system helps defence by",
+      "options": [
+        {
+          "id": "a",
+          "text": "stimulating red cell production"
+        },
+        {
+          "id": "b",
+          "text": "making antibodies"
+        },
+        {
+          "id": "c",
+          "text": "forming membrane attack complexes and promoting phagocytosis"
+        },
+        {
+          "id": "d",
+          "text": "producing interferon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Complement proteins opsonise microbes, attract phagocytes and lyse cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Opsonisation means",
+      "options": [
+        {
+          "id": "a",
+          "text": "making a vaccine"
+        },
+        {
+          "id": "b",
+          "text": "killing a microbe by heat"
+        },
+        {
+          "id": "c",
+          "text": "neutralising a toxin"
+        },
+        {
+          "id": "d",
+          "text": "coating of a microbe to make it easier to phagocytose"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Antibodies and complement fragments such as C3b are opsonins.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The type of immunity gained by receiving antibodies from another person is",
+      "options": [
+        {
+          "id": "a",
+          "text": "innate immunity"
+        },
+        {
+          "id": "b",
+          "text": "active immunity"
+        },
+        {
+          "id": "c",
+          "text": "passive immunity"
+        },
+        {
+          "id": "d",
+          "text": "herd immunity"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Examples are antibodies across the placenta, in breast milk and antitoxin injections. They give immediate but short-lived protection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "A person who recovers from measles and has lifelong protection has",
+      "options": [
+        {
+          "id": "a",
+          "text": "naturally acquired active immunity"
+        },
+        {
+          "id": "b",
+          "text": "artificially acquired passive immunity"
+        },
+        {
+          "id": "c",
+          "text": "naturally acquired passive immunity"
+        },
+        {
+          "id": "d",
+          "text": "innate immunity"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The immune system made its own memory cells after exposure to the virus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "A vaccine gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "artificially acquired passive immunity"
+        },
+        {
+          "id": "b",
+          "text": "naturally acquired passive immunity"
+        },
+        {
+          "id": "c",
+          "text": "artificially acquired active immunity"
+        },
+        {
+          "id": "d",
+          "text": "naturally acquired active immunity"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It exposes the immune system to an antigen without disease and induces memory.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The BCG, measles and oral polio vaccines are made from",
+      "options": [
+        {
+          "id": "a",
+          "text": "killed organisms"
+        },
+        {
+          "id": "b",
+          "text": "toxoids"
+        },
+        {
+          "id": "c",
+          "text": "live attenuated organisms"
+        },
+        {
+          "id": "d",
+          "text": "subunits"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Live vaccines give strong, long immunity but are not given to severely immunocompromised persons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Tetanus and diphtheria vaccines are",
+      "options": [
+        {
+          "id": "a",
+          "text": "conjugate polysaccharide only"
+        },
+        {
+          "id": "b",
+          "text": "DNA vaccines"
+        },
+        {
+          "id": "c",
+          "text": "toxoids"
+        },
+        {
+          "id": "d",
+          "text": "live attenuated"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A toxoid is a toxin made harmless but still immunogenic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Herd immunity occurs when",
+      "options": [
+        {
+          "id": "a",
+          "text": "enough of a population is immune that spread of the disease is limited"
+        },
+        {
+          "id": "b",
+          "text": "vaccines are given as boosters only"
+        },
+        {
+          "id": "c",
+          "text": "all people are sick"
+        },
+        {
+          "id": "d",
+          "text": "antibiotics are widely used"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The threshold depends on how infectious the agent is. For measles, about 95 percent coverage is needed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The herd immunity threshold is estimated as 1 minus 1 over R0. For a disease with R0 equal to 4 this is",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 percent"
+        },
+        {
+          "id": "b",
+          "text": "75 percent"
+        },
+        {
+          "id": "c",
+          "text": "96 percent"
+        },
+        {
+          "id": "d",
+          "text": "25 percent"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Threshold = 1 minus 1/4 = 0.75, or 75 percent.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "A secondary immune response is faster and stronger than a primary response because of",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "complement"
+        },
+        {
+          "id": "c",
+          "text": "memory cells"
+        },
+        {
+          "id": "d",
+          "text": "skin barriers"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Memory B and T cells are quickly activated on re-exposure, and mainly IgG is made.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The Mantoux (tuberculin) skin test is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "type III hypersensitivity"
+        },
+        {
+          "id": "b",
+          "text": "type II hypersensitivity"
+        },
+        {
+          "id": "c",
+          "text": "type I hypersensitivity"
+        },
+        {
+          "id": "d",
+          "text": "type IV delayed hypersensitivity"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The reaction is T cell mediated and appears at 48 to 72 hours.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Anaphylaxis is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "type I hypersensitivity reaction"
+        },
+        {
+          "id": "b",
+          "text": "type III reaction"
+        },
+        {
+          "id": "c",
+          "text": "type IV reaction"
+        },
+        {
+          "id": "d",
+          "text": "type II reaction"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "IgE-mediated release of histamine from mast cells causes bronchospasm, hypotension and shock. Adrenaline is the first-line treatment.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Haemolytic disease of the newborn involves a mother who is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rh positive carrying an Rh negative fetus"
+        },
+        {
+          "id": "b",
+          "text": "group AB"
+        },
+        {
+          "id": "c",
+          "text": "group O"
+        },
+        {
+          "id": "d",
+          "text": "Rh negative carrying an Rh positive fetus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The mother makes anti-D antibodies after sensitisation, usually after a first pregnancy, and they cross the placenta in later pregnancies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Anti-D immunoglobulin is given to Rh negative mothers after delivery of an Rh positive baby to",
+      "options": [
+        {
+          "id": "a",
+          "text": "make the baby Rh negative"
+        },
+        {
+          "id": "b",
+          "text": "prevent the mother making her own anti-D antibodies"
+        },
+        {
+          "id": "c",
+          "text": "treat the baby"
+        },
+        {
+          "id": "d",
+          "text": "kill the fetus cells"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It destroys fetal Rh positive cells in the mother's blood before her immune system responds.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Blood group O individuals have",
+      "options": [
+        {
+          "id": "a",
+          "text": "no antibodies"
+        },
+        {
+          "id": "b",
+          "text": "both A and B antigens"
+        },
+        {
+          "id": "c",
+          "text": "no A or B antigens on red cells, with anti-A and anti-B in plasma"
+        },
+        {
+          "id": "d",
+          "text": "only anti-A in plasma"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Group O is the universal red cell donor for ABO, and group AB is the universal recipient.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "A person of blood group A has plasma antibodies against",
+      "options": [
+        {
+          "id": "a",
+          "text": "B antigen (anti-B)"
+        },
+        {
+          "id": "b",
+          "text": "A antigen"
+        },
+        {
+          "id": "c",
+          "text": "both A and B"
+        },
+        {
+          "id": "d",
+          "text": "none"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "This is why group A blood cannot be given to a group B recipient.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The ELISA test detects",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA sequences only"
+        },
+        {
+          "id": "b",
+          "text": "bacteria by gram stain"
+        },
+        {
+          "id": "c",
+          "text": "viruses by electron microscope"
+        },
+        {
+          "id": "d",
+          "text": "antigens or antibodies using an enzyme-linked antibody and a colour change"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The enzyme turns a colourless substrate to a coloured product. It is used in HIV screening.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Agglutination reactions occur when antibodies",
+      "options": [
+        {
+          "id": "a",
+          "text": "cross-link particulate antigens such as cells or latex beads"
+        },
+        {
+          "id": "b",
+          "text": "digest antigens"
+        },
+        {
+          "id": "c",
+          "text": "neutralise toxins only"
+        },
+        {
+          "id": "d",
+          "text": "are heated"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The visible clumping is used in blood grouping and in tests such as Widal.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "The precipitation test differs from agglutination because the antigen in precipitation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a bacterium"
+        },
+        {
+          "id": "b",
+          "text": "a whole cell"
+        },
+        {
+          "id": "c",
+          "text": "a red cell"
+        },
+        {
+          "id": "d",
+          "text": "soluble"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Antigen and antibody form a visible lattice in gel in the Ouchterlony double diffusion test.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Autoimmune disease occurs when",
+      "options": [
+        {
+          "id": "a",
+          "text": "there is no MHC"
+        },
+        {
+          "id": "b",
+          "text": "the immune system attacks self antigens"
+        },
+        {
+          "id": "c",
+          "text": "antibodies fail to form"
+        },
+        {
+          "id": "d",
+          "text": "the immune system is absent"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Examples include rheumatoid arthritis and type 1 diabetes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Which is an example of an immunodeficiency disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rheumatoid arthritis"
+        },
+        {
+          "id": "b",
+          "text": "AIDS"
+        },
+        {
+          "id": "c",
+          "text": "Contact dermatitis"
+        },
+        {
+          "id": "d",
+          "text": "Hay fever"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "HIV destroys CD4 cells and leads to acquired immunodeficiency. Hay fever is an allergy and rheumatoid arthritis an autoimmune disease.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Cytokines such as interleukin-2 are",
+      "options": [
+        {
+          "id": "a",
+          "text": "signalling proteins that regulate immune cells"
+        },
+        {
+          "id": "b",
+          "text": "capsules"
+        },
+        {
+          "id": "c",
+          "text": "vaccines"
+        },
+        {
+          "id": "d",
+          "text": "antibiotics"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "IL-2 stimulates T cell proliferation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Natural killer cells are part of",
+      "options": [
+        {
+          "id": "a",
+          "text": "innate immunity"
+        },
+        {
+          "id": "b",
+          "text": "the complement system"
+        },
+        {
+          "id": "c",
+          "text": "the blood groups"
+        },
+        {
+          "id": "d",
+          "text": "adaptive immunity only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They kill virus-infected and tumour cells without prior sensitisation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Transplant rejection is mainly mediated by",
+      "options": [
+        {
+          "id": "a",
+          "text": "mast cells"
+        },
+        {
+          "id": "b",
+          "text": "T cells recognising foreign MHC"
+        },
+        {
+          "id": "c",
+          "text": "complement alone"
+        },
+        {
+          "id": "d",
+          "text": "IgE"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Matching of HLA between donor and recipient reduces rejection. Immunosuppressants such as ciclosporin are used.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "Monoclonal antibodies are produced from",
+      "options": [
+        {
+          "id": "a",
+          "text": "viruses"
+        },
+        {
+          "id": "b",
+          "text": "polyclonal serum only"
+        },
+        {
+          "id": "c",
+          "text": "a single clone of B cells fused with myeloma cells"
+        },
+        {
+          "id": "d",
+          "text": "bacterial culture only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hybridoma cells produce identical antibodies against one epitope.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "Immunoglobulin IgM is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "monomer"
+        },
+        {
+          "id": "b",
+          "text": "dimer"
+        },
+        {
+          "id": "c",
+          "text": "pentamer with ten antigen binding sites"
+        },
+        {
+          "id": "d",
+          "text": "trimer"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The pentamer is held by a J chain and is efficient at agglutination and complement activation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "Immunological memory is held by",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "complement"
+        },
+        {
+          "id": "c",
+          "text": "platelets"
+        },
+        {
+          "id": "d",
+          "text": "memory B and T cells"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Memory cells persist for years and respond quickly to the same antigen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "Antibiotics are useful for the treatment of viral diseases such as measles.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Antibiotics act on bacterial structures and have no effect on viruses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "Plasma cells secrete antibodies.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Plasma cells are the effector form of B cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "A vaccine gives passive immunity.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A vaccine stimulates the person's own immune system and gives active immunity. Passive immunity is the transfer of ready-made antibodies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q048",
+      "prompt": "Assertion: A second exposure to the same antigen produces a faster response. Reason: Memory cells formed in the first exposure persist.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q049",
+      "prompt": "Assertion: Group O red cells can be given to patients of any ABO group in an emergency. Reason: Group O cells have no A or B antigens.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. Without A or B antigens, the recipient's anti-A and anti-B cannot agglutinate the donor cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

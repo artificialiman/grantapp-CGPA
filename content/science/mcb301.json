@@ -1,0 +1,2069 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb301",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Staphylococcus aureus appears under the microscope as",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gram-negative diplococci"
+        },
+        {
+          "id": "b",
+          "text": "Gram-positive cocci in long chains"
+        },
+        {
+          "id": "c",
+          "text": "Gram-positive cocci in grape-like clusters"
+        },
+        {
+          "id": "d",
+          "text": "Gram-positive rods with spores"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The name comes from the Greek for a bunch of grapes. Streptococci form chains and Neisseria forms diplococci.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The test used to separate Staphylococcus aureus from other staphylococci is",
+      "options": [
+        {
+          "id": "a",
+          "text": "indole"
+        },
+        {
+          "id": "b",
+          "text": "oxidase"
+        },
+        {
+          "id": "c",
+          "text": "urease"
+        },
+        {
+          "id": "d",
+          "text": "coagulase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "S. aureus produces coagulase, which clots plasma. Most other staphylococci are coagulase negative.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The catalase test separates staphylococci from streptococci because",
+      "options": [
+        {
+          "id": "a",
+          "text": "streptococci produce coagulase"
+        },
+        {
+          "id": "b",
+          "text": "staphylococci produce haemolysin only"
+        },
+        {
+          "id": "c",
+          "text": "streptococci form spores"
+        },
+        {
+          "id": "d",
+          "text": "staphylococci break down hydrogen peroxide and release oxygen bubbles"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Staphylococci are catalase positive and streptococci are catalase negative.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "On mannitol salt agar, Staphylococcus aureus produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "black colonies"
+        },
+        {
+          "id": "b",
+          "text": "yellow colonies"
+        },
+        {
+          "id": "c",
+          "text": "no growth"
+        },
+        {
+          "id": "d",
+          "text": "green colonies"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The medium has 7.5 percent salt, which selects staphylococci. S. aureus ferments mannitol and the acid turns the indicator yellow.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Methicillin resistance in MRSA is due to",
+      "options": [
+        {
+          "id": "a",
+          "text": "a capsule"
+        },
+        {
+          "id": "b",
+          "text": "an altered penicillin-binding protein, PBP2a, coded by mecA"
+        },
+        {
+          "id": "c",
+          "text": "loss of the cell wall"
+        },
+        {
+          "id": "d",
+          "text": "a plasmid for tetracycline pumps only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "PBP2a has low affinity for beta-lactams, so wall synthesis continues in the presence of the drug.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Streptococcus pyogenes is classified as",
+      "options": [
+        {
+          "id": "a",
+          "text": "group D, gamma-haemolytic"
+        },
+        {
+          "id": "b",
+          "text": "Lancefield group A, beta-haemolytic"
+        },
+        {
+          "id": "c",
+          "text": "group B, alpha-haemolytic"
+        },
+        {
+          "id": "d",
+          "text": "group C, non-haemolytic"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It causes sore throat, impetigo and scarlet fever. Complete haemolysis on blood agar is called beta-haemolysis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Rheumatic fever is a late complication of infection by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "b",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "id": "c",
+          "text": "Neisseria meningitidis"
+        },
+        {
+          "id": "d",
+          "text": "Staphylococcus aureus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Antibodies to group A streptococcal antigens cross-react with heart tissue.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Streptococcus pneumoniae is distinguished from viridans streptococci by being",
+      "options": [
+        {
+          "id": "a",
+          "text": "sensitive to optochin and soluble in bile"
+        },
+        {
+          "id": "b",
+          "text": "catalase positive"
+        },
+        {
+          "id": "c",
+          "text": "resistant to optochin and insoluble in bile"
+        },
+        {
+          "id": "d",
+          "text": "a Gram-negative rod"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The pneumococcus is the commonest cause of lobar pneumonia in adults and is lancet-shaped.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A black eschar in a skin lesion following contact with infected animal hides suggests",
+      "options": [
+        {
+          "id": "a",
+          "text": "leprosy"
+        },
+        {
+          "id": "b",
+          "text": "tetanus"
+        },
+        {
+          "id": "c",
+          "text": "diphtheria"
+        },
+        {
+          "id": "d",
+          "text": "cutaneous anthrax"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Bacillus anthracis causes a painless black eschar. The spores survive in soil and hides for years.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Tetanus produces spastic paralysis because tetanospasmin",
+      "options": [
+        {
+          "id": "a",
+          "text": "destroys red blood cells"
+        },
+        {
+          "id": "b",
+          "text": "inhibits protein synthesis in the gut"
+        },
+        {
+          "id": "c",
+          "text": "blocks release of acetylcholine at the neuromuscular junction"
+        },
+        {
+          "id": "d",
+          "text": "blocks release of inhibitory neurotransmitters in the spinal cord"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Without inhibition, motor neurons fire continuously, causing muscle spasm and lockjaw. Botulinum toxin blocks acetylcholine and causes flaccid paralysis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Botulism causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "bloody diarrhoea"
+        },
+        {
+          "id": "b",
+          "text": "haemolytic anaemia"
+        },
+        {
+          "id": "c",
+          "text": "spastic paralysis"
+        },
+        {
+          "id": "d",
+          "text": "flaccid paralysis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Botulinum toxin prevents release of acetylcholine, so muscles cannot contract.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Tetanus is best prevented by",
+      "options": [
+        {
+          "id": "a",
+          "text": "tetanus toxoid immunisation"
+        },
+        {
+          "id": "b",
+          "text": "boiling drinking water"
+        },
+        {
+          "id": "c",
+          "text": "treatment with antimalarials"
+        },
+        {
+          "id": "d",
+          "text": "use of insecticide-treated nets"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The toxoid is an inactivated toxin that induces antitoxin antibodies. It is included in DTP vaccine.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Gas gangrene is classically caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clostridium perfringens"
+        },
+        {
+          "id": "b",
+          "text": "Corynebacterium diphtheriae"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus cereus"
+        },
+        {
+          "id": "d",
+          "text": "Clostridium tetani"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "C. perfringens alpha toxin (lecithinase) destroys tissue and produces gas in deep wounds.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Pseudomembranous colitis after prolonged antibiotic therapy is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "b",
+          "text": "Clostridioides difficile"
+        },
+        {
+          "id": "c",
+          "text": "Shigella dysenteriae"
+        },
+        {
+          "id": "d",
+          "text": "Salmonella Typhi"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Antibiotics wipe out normal flora and allow C. difficile spores to grow and release toxins.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The diphtheria toxin acts by",
+      "options": [
+        {
+          "id": "a",
+          "text": "inhibiting protein synthesis through ADP-ribosylation of elongation factor 2"
+        },
+        {
+          "id": "b",
+          "text": "blocking acetylcholine release"
+        },
+        {
+          "id": "c",
+          "text": "breaking down lecithin"
+        },
+        {
+          "id": "d",
+          "text": "raising cyclic AMP"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The toxin is coded by a gene carried by a lysogenic phage. Only toxin-producing strains cause diphtheria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Corynebacterium diphtheriae is best grown on",
+      "options": [
+        {
+          "id": "a",
+          "text": "MacConkey agar"
+        },
+        {
+          "id": "b",
+          "text": "Thayer-Martin agar"
+        },
+        {
+          "id": "c",
+          "text": "Loeffler serum slope or tellurite medium"
+        },
+        {
+          "id": "d",
+          "text": "Lowenstein-Jensen medium"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Loeffler's medium shows metachromatic granules on staining. Tellurite agar gives grey-black colonies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Mycobacterium tuberculosis is called acid-fast because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it lives in the stomach"
+        },
+        {
+          "id": "b",
+          "text": "it secretes acid"
+        },
+        {
+          "id": "c",
+          "text": "mycolic acids in its wall resist decolourisation by acid alcohol"
+        },
+        {
+          "id": "d",
+          "text": "it grows only in acid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "In the Ziehl-Neelsen stain, acid-fast bacilli stay red against a blue background.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Lowenstein-Jensen medium is used for the isolation of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neisseria gonorrhoeae"
+        },
+        {
+          "id": "b",
+          "text": "Salmonella Typhi"
+        },
+        {
+          "id": "c",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "d",
+          "text": "Mycobacterium tuberculosis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The egg-based medium contains malachite green. Cultures take several weeks because the generation time is about 18 hours.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The BCG vaccine is prepared from",
+      "options": [
+        {
+          "id": "a",
+          "text": "live attenuated Mycobacterium bovis"
+        },
+        {
+          "id": "b",
+          "text": "a toxoid"
+        },
+        {
+          "id": "c",
+          "text": "killed Mycobacterium tuberculosis"
+        },
+        {
+          "id": "d",
+          "text": "a polysaccharide capsule"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "BCG is given at birth in Nigeria and gives partial protection against severe childhood tuberculosis.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Mycobacterium leprae differs from many bacteria because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is a spore former"
+        },
+        {
+          "id": "b",
+          "text": "forms colonies in 24 hours"
+        },
+        {
+          "id": "c",
+          "text": "has a capsule only"
+        },
+        {
+          "id": "d",
+          "text": "cannot be grown on artificial culture media"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is grown in mouse footpads or nine-banded armadillos. Leprosy is treated by multidrug therapy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "On MacConkey agar Escherichia coli forms",
+      "options": [
+        {
+          "id": "a",
+          "text": "black colonies"
+        },
+        {
+          "id": "b",
+          "text": "pink colonies"
+        },
+        {
+          "id": "c",
+          "text": "green colonies"
+        },
+        {
+          "id": "d",
+          "text": "colourless colonies"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "E. coli ferments lactose, and the acid changes the neutral red indicator to pink.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "E. coli on eosin methylene blue agar gives colonies with",
+      "options": [
+        {
+          "id": "a",
+          "text": "a yellow centre"
+        },
+        {
+          "id": "b",
+          "text": "a green metallic sheen"
+        },
+        {
+          "id": "c",
+          "text": "a blue-green pigment"
+        },
+        {
+          "id": "d",
+          "text": "no colour"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Strong lactose fermentation produces acid that precipitates the dye as a metallic sheen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Escherichia coli is used as an indicator of",
+      "options": [
+        {
+          "id": "a",
+          "text": "soil nitrogen"
+        },
+        {
+          "id": "b",
+          "text": "food spoilage by moulds"
+        },
+        {
+          "id": "c",
+          "text": "faecal contamination of water"
+        },
+        {
+          "id": "d",
+          "text": "air pollution"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It lives in the gut of humans and warm-blooded animals, so its presence shows recent faecal contamination.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Typhoid fever is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salmonella enterica serovar Typhi"
+        },
+        {
+          "id": "b",
+          "text": "Escherichia coli O157"
+        },
+        {
+          "id": "c",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "d",
+          "text": "Shigella flexneri"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "S. Typhi spreads by the faecal-oral route and causes prolonged fever.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The Widal test is used to diagnose",
+      "options": [
+        {
+          "id": "a",
+          "text": "syphilis"
+        },
+        {
+          "id": "b",
+          "text": "typhoid fever"
+        },
+        {
+          "id": "c",
+          "text": "tuberculosis"
+        },
+        {
+          "id": "d",
+          "text": "cholera"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It detects O and H agglutinating antibodies against Salmonella Typhi and Paratyphi in the patient's serum.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "On XLD agar, Salmonella Typhimurium produces colonies that are",
+      "options": [
+        {
+          "id": "a",
+          "text": "colourless without black centre"
+        },
+        {
+          "id": "b",
+          "text": "red with black centres"
+        },
+        {
+          "id": "c",
+          "text": "blue"
+        },
+        {
+          "id": "d",
+          "text": "yellow"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Salmonella does not ferment lactose or sucrose and produces hydrogen sulphide, which blackens the centre of the colony.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Shigella species are different from Salmonella because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "are flagellated"
+        },
+        {
+          "id": "b",
+          "text": "ferment lactose strongly"
+        },
+        {
+          "id": "c",
+          "text": "produce spores"
+        },
+        {
+          "id": "d",
+          "text": "are non-motile"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Shigella has no flagella and does not produce gas from glucose. Shigella dysenteriae causes bacillary dysentery with a very low infective dose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Vibrio cholerae is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a comma-shaped, motile Gram-negative rod"
+        },
+        {
+          "id": "b",
+          "text": "a spirochaete"
+        },
+        {
+          "id": "c",
+          "text": "a Gram-positive coccus"
+        },
+        {
+          "id": "d",
+          "text": "a spore-forming rod"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It has a single polar flagellum and grows well at alkaline pH.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The selective medium for the isolation of Vibrio cholerae is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mannitol salt agar"
+        },
+        {
+          "id": "b",
+          "text": "Lowenstein-Jensen medium"
+        },
+        {
+          "id": "c",
+          "text": "TCBS agar"
+        },
+        {
+          "id": "d",
+          "text": "XLD agar"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Thiosulphate citrate bile salts sucrose agar gives yellow colonies because V. cholerae ferments sucrose.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "The cholera toxin causes watery diarrhoea by",
+      "options": [
+        {
+          "id": "a",
+          "text": "increasing cyclic AMP in intestinal cells so chloride and water are secreted"
+        },
+        {
+          "id": "b",
+          "text": "blocking protein synthesis"
+        },
+        {
+          "id": "c",
+          "text": "destroying red blood cells"
+        },
+        {
+          "id": "d",
+          "text": "destroying the villi completely"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "ADP-ribosylation of a G protein keeps adenylate cyclase active. Treatment is rapid rehydration with oral rehydration solution.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Pseudomonas aeruginosa is recognised by",
+      "options": [
+        {
+          "id": "a",
+          "text": "acid-fast staining"
+        },
+        {
+          "id": "b",
+          "text": "a yellow colony on mannitol salt agar"
+        },
+        {
+          "id": "c",
+          "text": "a blue-green pigment, pyocyanin, and a positive oxidase test"
+        },
+        {
+          "id": "d",
+          "text": "a positive coagulase test"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is an opportunist in burns, wounds and the lungs of cystic fibrosis patients, and resists many antibiotics.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "A mucoid colony of a lactose-fermenting, non-motile Gram-negative rod is typical of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proteus mirabilis"
+        },
+        {
+          "id": "b",
+          "text": "Klebsiella pneumoniae"
+        },
+        {
+          "id": "c",
+          "text": "Salmonella Typhi"
+        },
+        {
+          "id": "d",
+          "text": "Shigella sonnei"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Klebsiella has a large polysaccharide capsule and causes pneumonia and urinary tract infection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Neisseria gonorrhoeae can be separated from Neisseria meningitidis because gonococcus",
+      "options": [
+        {
+          "id": "a",
+          "text": "ferments glucose only, while meningococcus ferments glucose and maltose"
+        },
+        {
+          "id": "b",
+          "text": "ferments maltose only"
+        },
+        {
+          "id": "c",
+          "text": "ferments lactose"
+        },
+        {
+          "id": "d",
+          "text": "ferments sucrose only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are Gram-negative diplococci and oxidase positive.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "Neisseria meningitidis is a common cause of",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacterial meningitis"
+        },
+        {
+          "id": "b",
+          "text": "dysentery"
+        },
+        {
+          "id": "c",
+          "text": "tetanus"
+        },
+        {
+          "id": "d",
+          "text": "cholera"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Outbreaks occur in the meningitis belt of Africa, which includes the northern states of Nigeria, in the dry season.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Haemophilus influenzae grows on chocolate agar because it needs",
+      "options": [
+        {
+          "id": "a",
+          "text": "tellurite"
+        },
+        {
+          "id": "b",
+          "text": "agar only"
+        },
+        {
+          "id": "c",
+          "text": "X factor (haemin) and V factor (NAD)"
+        },
+        {
+          "id": "d",
+          "text": "lactose"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "These factors are released from lysed red cells when blood is heated to make chocolate agar.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Whooping cough is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brucella abortus"
+        },
+        {
+          "id": "b",
+          "text": "Bordetella pertussis"
+        },
+        {
+          "id": "c",
+          "text": "Haemophilus influenzae"
+        },
+        {
+          "id": "d",
+          "text": "Legionella pneumophila"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bordetella pertussis colonises the ciliated cells of the respiratory tract. DTP vaccine protects against it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Bubonic plague is transmitted from rats to humans by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the rat flea Xenopsylla cheopis"
+        },
+        {
+          "id": "b",
+          "text": "the body louse"
+        },
+        {
+          "id": "c",
+          "text": "Aedes aegypti"
+        },
+        {
+          "id": "d",
+          "text": "the tsetse fly"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Yersinia pestis multiplies in the flea gut and blocks it, so the flea regurgitates bacteria when it bites.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Treponema pallidum, the cause of syphilis, is best seen by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ziehl-Neelsen stain"
+        },
+        {
+          "id": "b",
+          "text": "Gram stain"
+        },
+        {
+          "id": "c",
+          "text": "dark-field microscopy"
+        },
+        {
+          "id": "d",
+          "text": "culture on blood agar"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is a thin spirochaete that cannot be grown on artificial media and is too thin to see by ordinary staining.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Helicobacter pylori survives in the stomach by",
+      "options": [
+        {
+          "id": "a",
+          "text": "having a thick capsule"
+        },
+        {
+          "id": "b",
+          "text": "being acid fast"
+        },
+        {
+          "id": "c",
+          "text": "forming spores"
+        },
+        {
+          "id": "d",
+          "text": "producing urease, which makes ammonia"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Ammonia neutralises acid around the bacteria. The organism is linked to peptic ulcer and gastric cancer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Chlamydia trachomatis is an obligate intracellular bacterium that causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "trachoma and genital infection"
+        },
+        {
+          "id": "b",
+          "text": "tetanus"
+        },
+        {
+          "id": "c",
+          "text": "cholera"
+        },
+        {
+          "id": "d",
+          "text": "anthrax"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Chlamydiae cannot make their own ATP and grow only in host cells. Trachoma is a leading infectious cause of blindness.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Rickettsia species are usually transmitted to humans by",
+      "options": [
+        {
+          "id": "a",
+          "text": "arthropod vectors such as lice, fleas and ticks"
+        },
+        {
+          "id": "b",
+          "text": "airborne droplets"
+        },
+        {
+          "id": "c",
+          "text": "sexual contact"
+        },
+        {
+          "id": "d",
+          "text": "contaminated water"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Epidemic typhus is carried by the body louse. The Weil-Felix test is used for diagnosis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "The IMViC pattern (indole, methyl red, Voges-Proskauer, citrate) of Escherichia coli is",
+      "options": [
+        {
+          "id": "a",
+          "text": "minus, minus, plus, plus"
+        },
+        {
+          "id": "b",
+          "text": "plus, plus, minus, minus"
+        },
+        {
+          "id": "c",
+          "text": "minus, plus, minus, plus"
+        },
+        {
+          "id": "d",
+          "text": "plus, minus, plus, minus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "E. coli is indole positive and methyl red positive, but does not give acetoin and cannot use citrate. Enterobacter and Klebsiella show the opposite pattern.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "A positive indole test is shown by a red ring after adding Kovac's reagent, which indicates that the organism",
+      "options": [
+        {
+          "id": "a",
+          "text": "makes catalase"
+        },
+        {
+          "id": "b",
+          "text": "makes urease"
+        },
+        {
+          "id": "c",
+          "text": "ferments lactose"
+        },
+        {
+          "id": "d",
+          "text": "breaks down tryptophan to indole"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Tryptophanase converts tryptophan to indole, pyruvate and ammonia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "A positive oxidase test is shown by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salmonella Typhi"
+        },
+        {
+          "id": "b",
+          "text": "Klebsiella pneumoniae"
+        },
+        {
+          "id": "c",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The enzyme cytochrome c oxidase turns the reagent purple. Enterobacteriaceae are oxidase negative.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "Proteus species are recognised on agar by",
+      "options": [
+        {
+          "id": "a",
+          "text": "acid-fast staining"
+        },
+        {
+          "id": "b",
+          "text": "a blue-green pigment"
+        },
+        {
+          "id": "c",
+          "text": "swarming growth and strong urease activity"
+        },
+        {
+          "id": "d",
+          "text": "large mucoid colonies"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Proteus mirabilis spreads over the plate in waves and splits urea, which raises urinary pH and favours stones.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "On triple sugar iron agar, Salmonella gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "acid slant, acid butt with gas"
+        },
+        {
+          "id": "b",
+          "text": "alkaline slant and alkaline butt"
+        },
+        {
+          "id": "c",
+          "text": "alkaline slant, acid butt and hydrogen sulphide (black)"
+        },
+        {
+          "id": "d",
+          "text": "no change"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Salmonella ferments only glucose, so the slant is red and the butt is yellow. Thiosulphate reduction gives the black precipitate.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "Endotoxin differs from exotoxin because endotoxin",
+      "options": [
+        {
+          "id": "a",
+          "text": "is released only by Gram-positive bacteria"
+        },
+        {
+          "id": "b",
+          "text": "can be converted to a toxoid"
+        },
+        {
+          "id": "c",
+          "text": "is the lipid A part of lipopolysaccharide in the Gram-negative outer membrane"
+        },
+        {
+          "id": "d",
+          "text": "is a protein secreted by living cells"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Endotoxin causes fever and septic shock. Exotoxins are proteins and can be made into toxoids.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q048",
+      "prompt": "India ink is used in microbiology to demonstrate",
+      "options": [
+        {
+          "id": "a",
+          "text": "capsules by negative staining"
+        },
+        {
+          "id": "b",
+          "text": "acid fastness"
+        },
+        {
+          "id": "c",
+          "text": "flagella"
+        },
+        {
+          "id": "d",
+          "text": "spores"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The ink does not enter the capsule, so the capsule appears as a clear halo around the cell.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q049",
+      "prompt": "The Schaeffer-Fulton method is used to stain",
+      "options": [
+        {
+          "id": "a",
+          "text": "flagella"
+        },
+        {
+          "id": "b",
+          "text": "capsules"
+        },
+        {
+          "id": "c",
+          "text": "cell walls"
+        },
+        {
+          "id": "d",
+          "text": "endospores"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Malachite green is driven into spores by heat and safranin counterstains the vegetative cells.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q050",
+      "prompt": "The Kirby-Bauer test measures antibiotic susceptibility by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the pH of the medium"
+        },
+        {
+          "id": "b",
+          "text": "the colour of the broth"
+        },
+        {
+          "id": "c",
+          "text": "counting colonies after dilution"
+        },
+        {
+          "id": "d",
+          "text": "the zone of inhibition around antibiotic discs on Mueller-Hinton agar"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A standard inoculum is spread on the plate and the zone diameter is compared with published breakpoints.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q051",
+      "prompt": "The minimum inhibitory concentration (MIC) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the lowest antibiotic concentration that prevents visible growth"
+        },
+        {
+          "id": "b",
+          "text": "the highest dose a patient can tolerate"
+        },
+        {
+          "id": "c",
+          "text": "the concentration found in blood after one dose"
+        },
+        {
+          "id": "d",
+          "text": "the concentration that kills all cells"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is found by broth or agar dilution. A lower MIC means a more potent agent against that organism.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q052",
+      "prompt": "Beta-lactamase gives resistance to penicillin by",
+      "options": [
+        {
+          "id": "a",
+          "text": "pumping the drug out only"
+        },
+        {
+          "id": "b",
+          "text": "breaking the beta-lactam ring"
+        },
+        {
+          "id": "c",
+          "text": "changing the ribosome"
+        },
+        {
+          "id": "d",
+          "text": "forming spores"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Hydrolysis of the ring inactivates the drug. Clavulanic acid inhibits many beta-lactamases.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q053",
+      "prompt": "Penicillin kills growing bacteria by",
+      "options": [
+        {
+          "id": "a",
+          "text": "binding the 30S ribosome"
+        },
+        {
+          "id": "b",
+          "text": "damaging the cell membrane"
+        },
+        {
+          "id": "c",
+          "text": "inhibiting DNA gyrase"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting cross-linking of peptidoglycan so the wall weakens"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It blocks the transpeptidase (penicillin-binding protein), so the cell lyses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q054",
+      "prompt": "Tetracyclines act by",
+      "options": [
+        {
+          "id": "a",
+          "text": "blocking cell wall synthesis"
+        },
+        {
+          "id": "b",
+          "text": "inhibiting DNA gyrase"
+        },
+        {
+          "id": "c",
+          "text": "binding to the 30S ribosomal subunit"
+        },
+        {
+          "id": "d",
+          "text": "inhibiting RNA polymerase"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They prevent aminoacyl-tRNA from binding the A site. Macrolides bind the 50S subunit.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q055",
+      "prompt": "The antituberculosis drug rifampicin acts by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "mycolic acid synthesis"
+        },
+        {
+          "id": "b",
+          "text": "cell wall synthesis"
+        },
+        {
+          "id": "c",
+          "text": "bacterial RNA polymerase"
+        },
+        {
+          "id": "d",
+          "text": "DNA gyrase"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Rifampicin is a key drug for tuberculosis. Isoniazid inhibits mycolic acid synthesis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q056",
+      "prompt": "Quinolones such as ciprofloxacin act by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "folic acid synthesis"
+        },
+        {
+          "id": "b",
+          "text": "DNA gyrase (topoisomerase II)"
+        },
+        {
+          "id": "c",
+          "text": "protein synthesis at 50S"
+        },
+        {
+          "id": "d",
+          "text": "cell wall synthesis"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Without gyrase, supercoiled bacterial DNA cannot be replicated.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q057",
+      "prompt": "Which of these is a first-line drug for tuberculosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tetracycline"
+        },
+        {
+          "id": "b",
+          "text": "Ampicillin"
+        },
+        {
+          "id": "c",
+          "text": "Chloramphenicol"
+        },
+        {
+          "id": "d",
+          "text": "Pyrazinamide"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "First-line drugs are isoniazid, rifampicin, pyrazinamide and ethambutol. The others are not standard anti-tuberculosis drugs.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q058",
+      "prompt": "Streptococci are catalase-positive.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Streptococci do not produce catalase. This separates them from the catalase-positive staphylococci.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q059",
+      "prompt": "Salmonella Typhi is a Gram-negative bacillus.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Salmonella belongs to the Enterobacteriaceae, which are Gram-negative rods.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q060",
+      "prompt": "Mycobacterium tuberculosis is easily stained by the Gram stain.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The waxy mycolic acid layer resists ordinary dyes, so the acid-fast stain is used.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q061",
+      "prompt": "Vibrio cholerae causes disease mainly by invading the bloodstream.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cholera is caused by the toxin made in the gut. The organisms stay in the lumen and do not invade the blood.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q062",
+      "prompt": "Exotoxins of Gram-positive bacteria can be converted into toxoids.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Treating an exotoxin with formaldehyde removes toxicity while keeping antigenicity. Diphtheria and tetanus toxoids are examples.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q063",
+      "prompt": "Assertion: Mycobacterium tuberculosis cultures take several weeks to show growth. Reason: The organism has a long generation time of about 18 hours.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the slow doubling time explains the slow appearance of colonies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q064",
+      "prompt": "Assertion: Gram-negative bacteria are generally more resistant to penicillin G than Gram-positive bacteria. Reason: The outer membrane limits entry of large hydrophobic drugs.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. The outer membrane and its porins limit entry of penicillin G.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q065",
+      "prompt": "Assertion: Tetanus is controlled by vaccination. Reason: Tetanus is spread by person-to-person contact.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The assertion is true because the toxoid works. The reason is false, since Clostridium tetani spores come from soil and wounds, not from person to person.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

@@ -79,7 +79,8 @@
       "name": "Sciences",
       "departments": [
         "biochemistry",
-        "microbiology"
+        "microbiology",
+        "medical-physics"
       ],
       "roster_pending": [
         "Biology",
@@ -90,7 +91,8 @@
         "Geology"
       ],
       "open": [
-        "biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences."
+        "biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences.",
+        "medical-physics: no undergraduate course list found; year 1 assumed from the science core and the year-4 rows derived from UNN's postgraduate list. Replace when a sponsor supplies the university's own table."
       ],
       "authority": "founder-manifest"
     },

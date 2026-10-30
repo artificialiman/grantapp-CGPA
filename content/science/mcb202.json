@@ -1,0 +1,1056 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb202",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The end product of glycolysis is",
+      "options": [
+        {
+          "id": "a",
+          "text": "pyruvate"
+        },
+        {
+          "id": "b",
+          "text": "lactate"
+        },
+        {
+          "id": "c",
+          "text": "citrate"
+        },
+        {
+          "id": "d",
+          "text": "acetyl CoA"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "One glucose is split into two pyruvate molecules with a net gain of 2 ATP. Lactate and acetyl CoA are formed later from pyruvate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "In aerobic respiration the final electron acceptor is",
+      "options": [
+        {
+          "id": "a",
+          "text": "sulphate"
+        },
+        {
+          "id": "b",
+          "text": "carbon dioxide"
+        },
+        {
+          "id": "c",
+          "text": "oxygen"
+        },
+        {
+          "id": "d",
+          "text": "nitrate"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Oxygen accepts electrons at the end of the chain and forms water. In anaerobic respiration inorganic molecules such as nitrate or sulphate act as acceptor.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Fermentation of glucose by Saccharomyces cerevisiae produces mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "ethanol and carbon dioxide"
+        },
+        {
+          "id": "b",
+          "text": "acetic acid only"
+        },
+        {
+          "id": "c",
+          "text": "butyric acid and hydrogen"
+        },
+        {
+          "id": "d",
+          "text": "lactic acid only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Yeast ferments pyruvate to ethanol and carbon dioxide, which is used in brewing and baking. Lactobacillus species make lactic acid.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which process does not require oxygen and regenerates NAD+ so that glycolysis can continue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxidative phosphorylation"
+        },
+        {
+          "id": "b",
+          "text": "Fermentation"
+        },
+        {
+          "id": "c",
+          "text": "The citric acid cycle"
+        },
+        {
+          "id": "d",
+          "text": "Photophosphorylation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Fermentation reduces pyruvate or its products and so reoxidises NADH. The citric acid cycle and oxidative phosphorylation depend on the electron transport chain.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Enzymes speed up a reaction by",
+      "options": [
+        {
+          "id": "a",
+          "text": "being used up"
+        },
+        {
+          "id": "b",
+          "text": "lowering the activation energy"
+        },
+        {
+          "id": "c",
+          "text": "changing the equilibrium position"
+        },
+        {
+          "id": "d",
+          "text": "raising the temperature"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "An enzyme provides a pathway of lower activation energy and is not consumed. It does not change the equilibrium position.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Quorum sensing in bacteria depends on",
+      "options": [
+        {
+          "id": "a",
+          "text": "the number of flagella"
+        },
+        {
+          "id": "b",
+          "text": "the concentration of signal molecules called autoinducers"
+        },
+        {
+          "id": "c",
+          "text": "the thickness of the capsule"
+        },
+        {
+          "id": "d",
+          "text": "the temperature of the medium"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cells release autoinducers, and when the concentration passes a threshold the population switches on genes such as those for biofilm formation or bioluminescence.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Transformation is the transfer of genes by",
+      "options": [
+        {
+          "id": "a",
+          "text": "uptake of free DNA from the environment"
+        },
+        {
+          "id": "b",
+          "text": "binary fission"
+        },
+        {
+          "id": "c",
+          "text": "a bacteriophage"
+        },
+        {
+          "id": "d",
+          "text": "direct cell contact through a pilus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Griffith's experiment with Streptococcus pneumoniae showed transformation. Transfer by a phage is transduction and by contact is conjugation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Transduction is the transfer of bacterial DNA by",
+      "options": [
+        {
+          "id": "a",
+          "text": "a spore"
+        },
+        {
+          "id": "b",
+          "text": "a bacteriophage"
+        },
+        {
+          "id": "c",
+          "text": "free DNA in the medium"
+        },
+        {
+          "id": "d",
+          "text": "a pilus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A phage may package bacterial DNA by mistake and deliver it to another cell.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The Ames test is used to detect",
+      "options": [
+        {
+          "id": "a",
+          "text": "the number of viable bacteria in food"
+        },
+        {
+          "id": "b",
+          "text": "the mutagenic potential of chemicals"
+        },
+        {
+          "id": "c",
+          "text": "antibiotic susceptibility"
+        },
+        {
+          "id": "d",
+          "text": "the Gram reaction of a culture"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It uses histidine-requiring mutants of Salmonella typhimurium and counts revertants that grow without histidine. A chemical that raises the revertant count is a mutagen and a possible carcinogen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The inducer of the lac operon in Escherichia coli is",
+      "options": [
+        {
+          "id": "a",
+          "text": "cyclic AMP"
+        },
+        {
+          "id": "b",
+          "text": "glucose"
+        },
+        {
+          "id": "c",
+          "text": "allolactose"
+        },
+        {
+          "id": "d",
+          "text": "tryptophan"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Allolactose, formed from lactose, binds the repressor and releases it from the operator so the genes can be transcribed. Cyclic AMP acts through CAP when glucose is low.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The flow of genetic information in cells is",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA to RNA to protein"
+        },
+        {
+          "id": "b",
+          "text": "protein to DNA to RNA"
+        },
+        {
+          "id": "c",
+          "text": "RNA to protein to DNA"
+        },
+        {
+          "id": "d",
+          "text": "protein to RNA to DNA"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "This is the central dogma. Reverse transcription in retroviruses is an exception for RNA to DNA.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Nitrosomonas obtains energy by oxidising",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrate to nitrogen gas"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen gas to ammonia"
+        },
+        {
+          "id": "c",
+          "text": "nitrite to nitrate"
+        },
+        {
+          "id": "d",
+          "text": "ammonia to nitrite"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Nitrosomonas is a chemoautotroph. Nitrobacter oxidises nitrite to nitrate. Conversion of nitrate to nitrogen gas is denitrification.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Rhizobium species are important because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "digest cellulose in the rumen"
+        },
+        {
+          "id": "b",
+          "text": "ferment lactose in milk"
+        },
+        {
+          "id": "c",
+          "text": "cause damping off in seedlings"
+        },
+        {
+          "id": "d",
+          "text": "fix nitrogen in the root nodules of legumes"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Rhizobium in nodules converts nitrogen gas to ammonia for the plant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The method that counts only living cells able to form colonies is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "total microscopic count"
+        },
+        {
+          "id": "b",
+          "text": "turbidity reading"
+        },
+        {
+          "id": "c",
+          "text": "plate count"
+        },
+        {
+          "id": "d",
+          "text": "dry weight"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The viable plate count gives colony forming units. Turbidity and microscopic counts include dead cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "0.1 mL of a 10 to the power minus 5 dilution of a culture gives 150 colonies on a plate. The number of CFU per mL of the original culture is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 x 10 to the power 9"
+        },
+        {
+          "id": "b",
+          "text": "1.5 x 10 to the power 7"
+        },
+        {
+          "id": "c",
+          "text": "1.5 x 10 to the power 6"
+        },
+        {
+          "id": "d",
+          "text": "1.5 x 10 to the power 8"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "CFU per mL = colonies divided by (dilution times volume plated) = 150 / (10 to the power minus 5 times 0.1) = 150 / 10 to the power minus 6 = 1.5 x 10 to the power 8.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "In the hierarchy of classification, the taxon immediately above genus is",
+      "options": [
+        {
+          "id": "a",
+          "text": "family"
+        },
+        {
+          "id": "b",
+          "text": "species"
+        },
+        {
+          "id": "c",
+          "text": "order"
+        },
+        {
+          "id": "d",
+          "text": "class"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The sequence is domain, phylum, class, order, family, genus, species.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The three domains of life in Woese's system are",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prokaryota, Virus and Animalia"
+        },
+        {
+          "id": "b",
+          "text": "Bacteria, Archaea and Eukarya"
+        },
+        {
+          "id": "c",
+          "text": "Protista, Fungi and Plantae"
+        },
+        {
+          "id": "d",
+          "text": "Monera, Plantae and Animalia"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Woese proposed the three domains from ribosomal RNA sequences.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Which feature is present in the cell walls of Gram-positive bacteria but not in Gram-negative bacteria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lipopolysaccharide"
+        },
+        {
+          "id": "b",
+          "text": "Porins"
+        },
+        {
+          "id": "c",
+          "text": "Teichoic acids"
+        },
+        {
+          "id": "d",
+          "text": "An outer membrane"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Teichoic and lipoteichoic acids are embedded in the thick peptidoglycan of Gram-positive cells. The other three belong to Gram-negative envelopes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The wall of archaea differs from that of bacteria because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is made of lipopolysaccharide only"
+        },
+        {
+          "id": "b",
+          "text": "contains cellulose"
+        },
+        {
+          "id": "c",
+          "text": "lacks true peptidoglycan"
+        },
+        {
+          "id": "d",
+          "text": "contains chitin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Archaeal walls are made of pseudomurein, protein or polysaccharide, but not the muramic acid-containing peptidoglycan found in bacteria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The citric acid cycle in eukaryotic cells takes place in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "lysosome"
+        },
+        {
+          "id": "b",
+          "text": "nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "d",
+          "text": "mitochondrial matrix"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The enzymes of the cycle are in the matrix of the mitochondrion. In prokaryotes the cycle takes place in the cytoplasm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Substrate-level phosphorylation is the formation of ATP by",
+      "options": [
+        {
+          "id": "a",
+          "text": "photosynthesis"
+        },
+        {
+          "id": "b",
+          "text": "diffusion of oxygen"
+        },
+        {
+          "id": "c",
+          "text": "the proton motive force"
+        },
+        {
+          "id": "d",
+          "text": "transfer of a phosphate group from a substrate to ADP"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It occurs in glycolysis and in the citric acid cycle. The proton motive force drives oxidative phosphorylation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The bacterium used in the production of yoghurt is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lactobacillus bulgaricus"
+        },
+        {
+          "id": "b",
+          "text": "Clostridium botulinum"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus anthracis"
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Lactobacillus and Streptococcus thermophilus ferment lactose to lactic acid, which curdles the milk.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "A plasmid carrying genes for antibiotic resistance can spread between bacteria mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "conjugation"
+        },
+        {
+          "id": "b",
+          "text": "sporulation"
+        },
+        {
+          "id": "c",
+          "text": "mitosis"
+        },
+        {
+          "id": "d",
+          "text": "binary fission only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Conjugation transfers plasmids through a pilus bridge. Binary fission passes plasmids only to daughter cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "A point mutation that changes a codon to a stop codon is called a",
+      "options": [
+        {
+          "id": "a",
+          "text": "frameshift mutation"
+        },
+        {
+          "id": "b",
+          "text": "silent mutation"
+        },
+        {
+          "id": "c",
+          "text": "missense mutation"
+        },
+        {
+          "id": "d",
+          "text": "nonsense mutation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A nonsense mutation produces a premature stop. A missense mutation changes one amino acid and a silent one changes none.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Insertion of one nucleotide into a gene is most likely to cause a",
+      "options": [
+        {
+          "id": "a",
+          "text": "frameshift mutation"
+        },
+        {
+          "id": "b",
+          "text": "missense mutation only"
+        },
+        {
+          "id": "c",
+          "text": "no change in the reading frame"
+        },
+        {
+          "id": "d",
+          "text": "silent mutation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Adding or deleting a number of bases that is not a multiple of three shifts the reading frame of all codons that follow.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Streptococcus pneumoniae was used by Griffith to demonstrate",
+      "options": [
+        {
+          "id": "a",
+          "text": "conjugation"
+        },
+        {
+          "id": "b",
+          "text": "transduction"
+        },
+        {
+          "id": "c",
+          "text": "transformation"
+        },
+        {
+          "id": "d",
+          "text": "binary fission"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Heat-killed smooth cells transformed living rough cells into smooth virulent cells in mice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The final products of the complete aerobic breakdown of one glucose molecule are",
+      "options": [
+        {
+          "id": "a",
+          "text": "lactic acid"
+        },
+        {
+          "id": "b",
+          "text": "methane and water"
+        },
+        {
+          "id": "c",
+          "text": "ethanol and carbon dioxide"
+        },
+        {
+          "id": "d",
+          "text": "carbon dioxide and water"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Aerobic respiration oxidises glucose fully to carbon dioxide and water and gives much more ATP than fermentation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Anaerobic respiration differs from fermentation because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "occurs only in plants"
+        },
+        {
+          "id": "b",
+          "text": "uses an electron transport chain with an inorganic acceptor other than oxygen"
+        },
+        {
+          "id": "c",
+          "text": "does not make ATP"
+        },
+        {
+          "id": "d",
+          "text": "requires oxygen"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "For example some bacteria use nitrate as the final acceptor. Fermentation uses organic compounds and makes ATP only by substrate-level phosphorylation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The enzyme that unwinds the DNA double helix at the replication fork is",
+      "options": [
+        {
+          "id": "a",
+          "text": "ligase"
+        },
+        {
+          "id": "b",
+          "text": "helicase"
+        },
+        {
+          "id": "c",
+          "text": "primase"
+        },
+        {
+          "id": "d",
+          "text": "polymerase III"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Helicase breaks hydrogen bonds between strands. Ligase joins fragments and primase makes RNA primers.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Which of the following is a function of messenger RNA?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Forms the main part of the ribosome"
+        },
+        {
+          "id": "b",
+          "text": "Brings amino acids to the ribosome"
+        },
+        {
+          "id": "c",
+          "text": "Carries the genetic code from DNA to the ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Copies DNA during replication"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "mRNA is the template read by ribosomes. tRNA carries amino acids and rRNA is a structural part of ribosomes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Fermentation requires oxygen.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Fermentation is an anaerobic process. It regenerates NAD+ without an electron transport chain.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "In conjugation, DNA is transferred through direct contact between cells.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A pilus joins donor and recipient and a copy of DNA, often a plasmid, passes across.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Assertion: The lac operon is switched on in the presence of lactose. Reason: Allolactose binds the repressor and releases it from the operator.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason is the mechanism of induction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

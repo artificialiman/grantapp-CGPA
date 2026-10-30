@@ -1,0 +1,1336 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb409",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Environmental microbiology is the study of",
+      "options": [
+        {
+          "id": "a",
+          "text": "microorganisms in natural and engineered environments"
+        },
+        {
+          "id": "b",
+          "text": "vaccines only"
+        },
+        {
+          "id": "c",
+          "text": "diseases only"
+        },
+        {
+          "id": "d",
+          "text": "human genetics"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It covers soil, water, air, waste treatment and biogeochemical cycles.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The most abundant microorganisms in soil are",
+      "options": [
+        {
+          "id": "a",
+          "text": "algae"
+        },
+        {
+          "id": "b",
+          "text": "bacteria"
+        },
+        {
+          "id": "c",
+          "text": "protozoa"
+        },
+        {
+          "id": "d",
+          "text": "viruses"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bacteria number up to a billion per gram in fertile soil.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Actinomycetes in soil are important because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "destroy chlorophyll"
+        },
+        {
+          "id": "b",
+          "text": "produce antibiotics and the earthy smell geosmin"
+        },
+        {
+          "id": "c",
+          "text": "fix nitrogen only"
+        },
+        {
+          "id": "d",
+          "text": "cause rain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Streptomyces produces many antibiotics.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The rhizosphere is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the human gut"
+        },
+        {
+          "id": "b",
+          "text": "the soil region around plant roots rich in microbial activity"
+        },
+        {
+          "id": "c",
+          "text": "deep ocean"
+        },
+        {
+          "id": "d",
+          "text": "the upper atmosphere"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Root exudates support a large microbial population.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Mycorrhizae are",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacteria in the gut"
+        },
+        {
+          "id": "b",
+          "text": "associations between fungi and plant roots"
+        },
+        {
+          "id": "c",
+          "text": "viruses of plants"
+        },
+        {
+          "id": "d",
+          "text": "nodules in legumes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The fungi improve phosphorus uptake in exchange for sugars.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Rhizobium fixes nitrogen in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "leaves of cereals"
+        },
+        {
+          "id": "b",
+          "text": "gills of fish"
+        },
+        {
+          "id": "c",
+          "text": "root nodules of legumes"
+        },
+        {
+          "id": "d",
+          "text": "stems of trees"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It lives in symbiosis with beans, cowpea and groundnut.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "In denitrification, nitrate is converted to",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrite only"
+        },
+        {
+          "id": "b",
+          "text": "ammonia"
+        },
+        {
+          "id": "c",
+          "text": "nitrogen gas"
+        },
+        {
+          "id": "d",
+          "text": "urea"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pseudomonas and Paracoccus do this under anaerobic conditions, a loss of nitrogen from soil.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Nitrification involves oxidation of",
+      "options": [
+        {
+          "id": "a",
+          "text": "ammonia to nitrite and then to nitrate"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen to ammonia"
+        },
+        {
+          "id": "c",
+          "text": "nitrate to ammonia"
+        },
+        {
+          "id": "d",
+          "text": "nitrite to nitrogen"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is carried out by Nitrosomonas and Nitrobacter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Ammonification is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "oxidation of ammonia"
+        },
+        {
+          "id": "b",
+          "text": "reduction of nitrate"
+        },
+        {
+          "id": "c",
+          "text": "release of ammonia from organic nitrogen compounds"
+        },
+        {
+          "id": "d",
+          "text": "fixation of nitrogen"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Decomposers break down proteins and urea.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The carbon cycle depends on microbes because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "make oxygen only"
+        },
+        {
+          "id": "b",
+          "text": "decompose organic matter and fix carbon dioxide"
+        },
+        {
+          "id": "c",
+          "text": "break rocks only"
+        },
+        {
+          "id": "d",
+          "text": "produce rain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Both cyanobacteria and decomposers drive the cycle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "In the sulphur cycle, sulphate is reduced to sulphide by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rhizobium"
+        },
+        {
+          "id": "b",
+          "text": "Nitrobacter"
+        },
+        {
+          "id": "c",
+          "text": "Thiobacillus"
+        },
+        {
+          "id": "d",
+          "text": "Desulfovibrio"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Sulphate-reducing bacteria use sulphate as an electron acceptor.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Thiobacillus ferrooxidans is used in biomining to",
+      "options": [
+        {
+          "id": "a",
+          "text": "make bread"
+        },
+        {
+          "id": "b",
+          "text": "treat water"
+        },
+        {
+          "id": "c",
+          "text": "leach metals such as copper from ores"
+        },
+        {
+          "id": "d",
+          "text": "make antibiotics"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It oxidises iron and sulphur to produce sulphuric acid and soluble metals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The indicator organism used to show faecal contamination of water is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptomyces"
+        },
+        {
+          "id": "b",
+          "text": "Pseudomonas"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus subtilis"
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It lives in the intestines of warm-blooded animals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Faecal coliforms differ from total coliforms because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "grow at 44 to 45 degrees C"
+        },
+        {
+          "id": "b",
+          "text": "do not ferment lactose"
+        },
+        {
+          "id": "c",
+          "text": "are spore formers"
+        },
+        {
+          "id": "d",
+          "text": "are Gram-positive"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Thermotolerant coliforms are more specific for faecal contamination.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The WHO guideline for drinking water is",
+      "options": [
+        {
+          "id": "a",
+          "text": "no E. coli or thermotolerant coliforms in 100 mL"
+        },
+        {
+          "id": "b",
+          "text": "100 E. coli per mL"
+        },
+        {
+          "id": "c",
+          "text": "10 coliforms per 100 mL"
+        },
+        {
+          "id": "d",
+          "text": "no limit"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Any detection indicates contamination and corrective action is needed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The presumptive test for coliforms uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "India ink"
+        },
+        {
+          "id": "b",
+          "text": "lactose broth with Durham tubes, looking for acid and gas"
+        },
+        {
+          "id": "c",
+          "text": "Ziehl-Neelsen stain"
+        },
+        {
+          "id": "d",
+          "text": "Gram stain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Production of gas in the Durham tube after 24 to 48 hours at 35 to 37 degrees C is presumptive.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The membrane filtration method for water analysis involves",
+      "options": [
+        {
+          "id": "a",
+          "text": "filtering 100 mL through a 0.45 micrometre membrane and incubating it on selective medium"
+        },
+        {
+          "id": "b",
+          "text": "staining with dye only"
+        },
+        {
+          "id": "c",
+          "text": "centrifuging at high speed"
+        },
+        {
+          "id": "d",
+          "text": "boiling the sample"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Colonies on the membrane are counted directly.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The multiple tube fermentation test results are reported as",
+      "options": [
+        {
+          "id": "a",
+          "text": "plaque forming units"
+        },
+        {
+          "id": "b",
+          "text": "most probable number (MPN) per 100 mL"
+        },
+        {
+          "id": "c",
+          "text": "colony forming units per mL"
+        },
+        {
+          "id": "d",
+          "text": "percent survival"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "MPN is a statistical estimate from positive and negative tubes.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "In water analysis, the biochemical oxygen demand (BOD) is a measure of",
+      "options": [
+        {
+          "id": "a",
+          "text": "oxygen dissolved in pure water"
+        },
+        {
+          "id": "b",
+          "text": "oxygen used by microbes to degrade organic matter in water"
+        },
+        {
+          "id": "c",
+          "text": "carbon dioxide produced"
+        },
+        {
+          "id": "d",
+          "text": "chlorine level"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "High BOD means heavy organic pollution.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The standard BOD test is incubated for",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 days at 4 degrees C"
+        },
+        {
+          "id": "b",
+          "text": "30 minutes at 100 degrees C"
+        },
+        {
+          "id": "c",
+          "text": "1 day at 37 degrees C"
+        },
+        {
+          "id": "d",
+          "text": "5 days at 20 degrees C"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is reported as BOD5 in mg per litre.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The primary treatment of sewage is",
+      "options": [
+        {
+          "id": "a",
+          "text": "physical removal of solids by screening and sedimentation"
+        },
+        {
+          "id": "b",
+          "text": "filtration through sand"
+        },
+        {
+          "id": "c",
+          "text": "chlorination"
+        },
+        {
+          "id": "d",
+          "text": "biological digestion"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Sludge settles and scum is skimmed off.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Secondary sewage treatment relies on",
+      "options": [
+        {
+          "id": "a",
+          "text": "chemical flocculation only"
+        },
+        {
+          "id": "b",
+          "text": "ultraviolet light only"
+        },
+        {
+          "id": "c",
+          "text": "screens"
+        },
+        {
+          "id": "d",
+          "text": "aerobic microbes that degrade dissolved organic matter"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Activated sludge and trickling filters are common systems.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "In the activated sludge process",
+      "options": [
+        {
+          "id": "a",
+          "text": "sewage is filtered through charcoal"
+        },
+        {
+          "id": "b",
+          "text": "sewage is frozen"
+        },
+        {
+          "id": "c",
+          "text": "sewage is boiled"
+        },
+        {
+          "id": "d",
+          "text": "air is bubbled through sewage mixed with a microbial floc"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The floc settles and part is recycled as return sludge.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Anaerobic digestion of sludge produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "oxygen"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen"
+        },
+        {
+          "id": "c",
+          "text": "chlorine"
+        },
+        {
+          "id": "d",
+          "text": "methane and carbon dioxide"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Methanogens are archaea and the biogas can be used as fuel.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Methanogens belong to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eubacteria"
+        },
+        {
+          "id": "b",
+          "text": "Fungi"
+        },
+        {
+          "id": "c",
+          "text": "Protozoa"
+        },
+        {
+          "id": "d",
+          "text": "Archaea"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They are strict anaerobes found in swamps, the rumen and digesters.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Eutrophication is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "toxic metals only"
+        },
+        {
+          "id": "b",
+          "text": "lack of nutrients"
+        },
+        {
+          "id": "c",
+          "text": "acid rain only"
+        },
+        {
+          "id": "d",
+          "text": "excess nutrients such as nitrates and phosphates in water"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Algal blooms use up oxygen when they die and decay.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Chlorination of drinking water is effective because chlorine",
+      "options": [
+        {
+          "id": "a",
+          "text": "filters out particles"
+        },
+        {
+          "id": "b",
+          "text": "oxidises cell components and kills microbes"
+        },
+        {
+          "id": "c",
+          "text": "removes dissolved salts"
+        },
+        {
+          "id": "d",
+          "text": "removes viruses by size"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A residual of 0.2 to 0.5 mg per litre protects against recontamination.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Cryptosporidium oocysts are a problem in water treatment because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "are too big to filter"
+        },
+        {
+          "id": "b",
+          "text": "are killed by it immediately"
+        },
+        {
+          "id": "c",
+          "text": "are resistant to chlorine"
+        },
+        {
+          "id": "d",
+          "text": "are not infectious"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Filtration and UV are more effective.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Bioaugmentation is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "addition of chlorine"
+        },
+        {
+          "id": "b",
+          "text": "removal of microbes"
+        },
+        {
+          "id": "c",
+          "text": "addition of specific microbes to a contaminated site to speed degradation"
+        },
+        {
+          "id": "d",
+          "text": "addition of fertilisers"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Biostimulation, in contrast, adds nutrients to boost native microbes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Pseudomonas species are used in bioremediation of oil because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "make antibiotics"
+        },
+        {
+          "id": "b",
+          "text": "fix nitrogen"
+        },
+        {
+          "id": "c",
+          "text": "ferment sugar"
+        },
+        {
+          "id": "d",
+          "text": "degrade hydrocarbons"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They produce enzymes such as oxygenases that attack alkanes and aromatics.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Biosurfactants help oil bioremediation by",
+      "options": [
+        {
+          "id": "a",
+          "text": "thickening oil"
+        },
+        {
+          "id": "b",
+          "text": "killing microbes"
+        },
+        {
+          "id": "c",
+          "text": "emulsifying hydrocarbons so microbes can reach them"
+        },
+        {
+          "id": "d",
+          "text": "absorbing oil"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They reduce surface tension between oil and water.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Air is not a natural habitat for microbes, but the organisms found there include",
+      "options": [
+        {
+          "id": "a",
+          "text": "viruses only"
+        },
+        {
+          "id": "b",
+          "text": "protozoa"
+        },
+        {
+          "id": "c",
+          "text": "spore-forming bacteria and fungal spores"
+        },
+        {
+          "id": "d",
+          "text": "actively growing bacteria only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Spores resist drying and radiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Airborne microbes in a room can be sampled by",
+      "options": [
+        {
+          "id": "a",
+          "text": "exposing open agar plates (settle plates) for a set time"
+        },
+        {
+          "id": "b",
+          "text": "culturing urine"
+        },
+        {
+          "id": "c",
+          "text": "boiling air"
+        },
+        {
+          "id": "d",
+          "text": "centrifuging air"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Colonies are counted after incubation.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "A water sample of 100 mL gives 250 colonies on a membrane filter. The count per 1 mL is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.5"
+        },
+        {
+          "id": "b",
+          "text": "0.4"
+        },
+        {
+          "id": "c",
+          "text": "250"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "250 colonies divided by 100 mL is 2.5 per mL.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "A borehole water sample has a lactose broth tube that gives acid and gas at 24 hours. The next step in the standard test is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a confirmatory test on EMB agar or brilliant green bile broth"
+        },
+        {
+          "id": "b",
+          "text": "adding chlorine without further test"
+        },
+        {
+          "id": "c",
+          "text": "declaring it safe"
+        },
+        {
+          "id": "d",
+          "text": "boiling the sample"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Positive presumptive tubes are confirmed and then completed.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Denitrification returns nitrogen gas to the atmosphere.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It reduces nitrate to nitrogen gas under anaerobic conditions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Methanogens are bacteria of the domain Eubacteria.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "They are archaea, a separate domain from the true bacteria (Eubacteria).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Assertion: Escherichia coli is used as an indicator of faecal pollution. Reason: It lives in the intestines of humans and warm-blooded animals.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "____ oxygen demand is the amount of oxygen consumed by microorganisms while breaking down organic matter in water over five days at 20 degrees C.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ oxygen demand is the amount of oxygen consumed by ____ while breaking down organic matter in water over five days at 20 degrees C.",
+        "answers": [
+          "Biochemical",
+          "microorganisms"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Total"
+        },
+        {
+          "id": "b",
+          "text": "Biochemical"
+        },
+        {
+          "id": "c",
+          "text": "Dissolved"
+        },
+        {
+          "id": "d",
+          "text": "Chemical"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The five-day test is written BOD5.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "____ is the conversion of atmospheric nitrogen into ammonia, carried out by bacteria such as Rhizobium and Azotobacter.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the conversion of atmospheric nitrogen into ____, carried out by bacteria such as Rhizobium and Azotobacter.",
+        "answers": [
+          "Nitrogen fixation",
+          "ammonia"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Nitrogen fixation"
+        },
+        {
+          "id": "b",
+          "text": "Nitrification"
+        },
+        {
+          "id": "c",
+          "text": "Ammonification"
+        },
+        {
+          "id": "d",
+          "text": "Denitrification"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The enzyme nitrogenase is required.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "____ is the addition of nutrients to a polluted site to stimulate the growth of indigenous microbes that degrade pollutants.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the addition of nutrients to a polluted site to stimulate the growth of ____ microbes that degrade pollutants.",
+        "answers": [
+          "Biostimulation",
+          "indigenous"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Biosorption"
+        },
+        {
+          "id": "b",
+          "text": "Bioaugmentation"
+        },
+        {
+          "id": "c",
+          "text": "Biostimulation"
+        },
+        {
+          "id": "d",
+          "text": "Bioleaching"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Native microbes are encouraged by adding nitrogen and phosphorus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

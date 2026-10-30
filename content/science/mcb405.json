@@ -1,0 +1,1080 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb405",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Sterile pharmaceutical products must be",
+      "options": [
+        {
+          "id": "a",
+          "text": "free of all viable microorganisms"
+        },
+        {
+          "id": "b",
+          "text": "low in bacteria"
+        },
+        {
+          "id": "c",
+          "text": "free of Gram-negative bacteria only"
+        },
+        {
+          "id": "d",
+          "text": "free of pathogens only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Sterility means no living organisms at all. Injections and eye drops must be sterile.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Which of the following must be sterile?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A tablet"
+        },
+        {
+          "id": "b",
+          "text": "An intravenous infusion"
+        },
+        {
+          "id": "c",
+          "text": "An oral syrup"
+        },
+        {
+          "id": "d",
+          "text": "A cream for intact skin"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Parenteral products bypass body defences. Oral and topical products need only acceptable microbial limits.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Pharmaceutical water for injection is prepared by",
+      "options": [
+        {
+          "id": "a",
+          "text": "adding chlorine"
+        },
+        {
+          "id": "b",
+          "text": "simple boiling"
+        },
+        {
+          "id": "c",
+          "text": "distillation or reverse osmosis followed by sterilisation"
+        },
+        {
+          "id": "d",
+          "text": "tap water filtration"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It must be pyrogen free. Distillation removes pyrogens.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Pyrogens are mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "viruses"
+        },
+        {
+          "id": "b",
+          "text": "antibiotics"
+        },
+        {
+          "id": "c",
+          "text": "bacterial endotoxins that cause fever"
+        },
+        {
+          "id": "d",
+          "text": "spores"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The lipopolysaccharide of Gram-negative bacteria causes fever when injected, even if the bacteria are dead.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The test used to detect bacterial endotoxin in injections is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Limulus amoebocyte lysate (LAL) test"
+        },
+        {
+          "id": "b",
+          "text": "Widal test"
+        },
+        {
+          "id": "c",
+          "text": "Gram stain"
+        },
+        {
+          "id": "d",
+          "text": "catalase test"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Endotoxin causes lysate from horseshoe crab blood to clot or gel.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Sterility testing of a pharmaceutical product is done by",
+      "options": [
+        {
+          "id": "a",
+          "text": "membrane filtration or direct inoculation in thioglycollate medium and soybean-casein digest medium"
+        },
+        {
+          "id": "b",
+          "text": "measuring the pH"
+        },
+        {
+          "id": "c",
+          "text": "counting colonies on MacConkey agar"
+        },
+        {
+          "id": "d",
+          "text": "Gram staining the product"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Thioglycollate supports anaerobes and some aerobes, and soybean-casein supports aerobes and fungi.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Fluid thioglycollate medium is used to detect",
+      "options": [
+        {
+          "id": "a",
+          "text": "prions"
+        },
+        {
+          "id": "b",
+          "text": "only moulds"
+        },
+        {
+          "id": "c",
+          "text": "viruses"
+        },
+        {
+          "id": "d",
+          "text": "anaerobic and aerobic bacteria"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The thioglycollate reduces oxygen and allows growth of anaerobes in the lower part.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The microbial limit test for non-sterile products checks for",
+      "options": [
+        {
+          "id": "a",
+          "text": "toxins only"
+        },
+        {
+          "id": "b",
+          "text": "the total aerobic count and specified organisms"
+        },
+        {
+          "id": "c",
+          "text": "viruses"
+        },
+        {
+          "id": "d",
+          "text": "sterility only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Specified organisms include Escherichia coli, Salmonella, Pseudomonas aeruginosa and Staphylococcus aureus depending on the product.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Which organism must be absent from a non-sterile oral liquid product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bacillus subtilis"
+        },
+        {
+          "id": "b",
+          "text": "Micrococcus luteus"
+        },
+        {
+          "id": "c",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "d",
+          "text": "Saccharomyces"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "E. coli indicates faecal contamination. Its absence in 1 g or mL is required by pharmacopoeial standards.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Preservatives are added to multi-dose products to",
+      "options": [
+        {
+          "id": "a",
+          "text": "colour the product"
+        },
+        {
+          "id": "b",
+          "text": "prevent growth of microbes introduced during use"
+        },
+        {
+          "id": "c",
+          "text": "make the drug act faster"
+        },
+        {
+          "id": "d",
+          "text": "sterilise the product"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Examples are parabens, benzalkonium chloride and benzyl alcohol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Methyl and propyl parabens are used in syrups as",
+      "options": [
+        {
+          "id": "a",
+          "text": "flavours"
+        },
+        {
+          "id": "b",
+          "text": "sweeteners"
+        },
+        {
+          "id": "c",
+          "text": "colouring agents"
+        },
+        {
+          "id": "d",
+          "text": "preservatives"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They are esters of p-hydroxybenzoic acid and are effective against moulds and yeasts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Benzalkonium chloride is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "alcohol"
+        },
+        {
+          "id": "b",
+          "text": "quaternary ammonium cationic surfactant"
+        },
+        {
+          "id": "c",
+          "text": "halogen"
+        },
+        {
+          "id": "d",
+          "text": "phenol"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It disrupts cell membranes and is a preservative in eye drops and a disinfectant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A disinfectant is tested for effectiveness against bacteria using the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Widal test"
+        },
+        {
+          "id": "b",
+          "text": "Ames test"
+        },
+        {
+          "id": "c",
+          "text": "phenol coefficient"
+        },
+        {
+          "id": "d",
+          "text": "Gram stain"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The coefficient is the ratio of the dilution of the disinfectant to that of phenol that kills in the same time.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "A phenol coefficient greater than 1 means the disinfectant is",
+      "options": [
+        {
+          "id": "a",
+          "text": "less effective than phenol"
+        },
+        {
+          "id": "b",
+          "text": "as effective as phenol"
+        },
+        {
+          "id": "c",
+          "text": "ineffective"
+        },
+        {
+          "id": "d",
+          "text": "more effective than phenol"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is a number that compares the test agent with phenol under the same conditions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Ethylene oxide gas is used to sterilise",
+      "options": [
+        {
+          "id": "a",
+          "text": "culture media"
+        },
+        {
+          "id": "b",
+          "text": "heat-sensitive medical equipment"
+        },
+        {
+          "id": "c",
+          "text": "glassware"
+        },
+        {
+          "id": "d",
+          "text": "water"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is an alkylating agent. Sterilised items must be aired to remove residual gas.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Gamma radiation is used in the industry to sterilise",
+      "options": [
+        {
+          "id": "a",
+          "text": "culture broth"
+        },
+        {
+          "id": "b",
+          "text": "glass beakers only"
+        },
+        {
+          "id": "c",
+          "text": "nutrient agar"
+        },
+        {
+          "id": "d",
+          "text": "disposable syringes and plastic items"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It penetrates packaging and is used for items that cannot be heat sterilised.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Autoclave sterilisation is checked by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gram stain"
+        },
+        {
+          "id": "b",
+          "text": "litmus milk"
+        },
+        {
+          "id": "c",
+          "text": "biological indicators with spores of Geobacillus stearothermophilus"
+        },
+        {
+          "id": "d",
+          "text": "pH paper"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The spores are very heat resistant, so if they are killed the cycle was effective.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The biological indicator used for dry heat sterilisation is spores of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geobacillus stearothermophilus"
+        },
+        {
+          "id": "b",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus atrophaeus"
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Different spores are used for each method because their resistance differs.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The D value is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the number of cells in a vial"
+        },
+        {
+          "id": "b",
+          "text": "the time needed at a given temperature to reduce the microbial population by 90 percent"
+        },
+        {
+          "id": "c",
+          "text": "the temperature at which all cells die"
+        },
+        {
+          "id": "d",
+          "text": "the time to kill all cells"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A smaller D value means the organism is less heat resistant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "A population of 10 to the power 6 spores has a D value of 2 minutes at 121 degrees C. The time needed to reduce it to 10 to the power 2 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "12 minutes"
+        },
+        {
+          "id": "b",
+          "text": "4 minutes"
+        },
+        {
+          "id": "c",
+          "text": "8 minutes"
+        },
+        {
+          "id": "d",
+          "text": "2 minutes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Four log reductions are needed (10 to the power 6 to 10 to the power 2) and each takes 2 minutes, so 8 minutes.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Good Manufacturing Practice (GMP) in pharmaceutical production aims to",
+      "options": [
+        {
+          "id": "a",
+          "text": "ensure that products are consistently produced and controlled to quality standards"
+        },
+        {
+          "id": "b",
+          "text": "avoid testing"
+        },
+        {
+          "id": "c",
+          "text": "reduce research"
+        },
+        {
+          "id": "d",
+          "text": "increase the price of drugs"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It covers premises, personnel, equipment, documentation and quality control.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "In a clean room, a high-efficiency particulate air (HEPA) filter removes",
+      "options": [
+        {
+          "id": "a",
+          "text": "water vapour"
+        },
+        {
+          "id": "b",
+          "text": "only large dust"
+        },
+        {
+          "id": "c",
+          "text": "gases"
+        },
+        {
+          "id": "d",
+          "text": "at least 99.97 percent of particles of 0.3 micrometre"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Grade A zones for aseptic filling have HEPA filtered laminar flow.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Antimicrobial susceptibility is measured quantitatively by",
+      "options": [
+        {
+          "id": "a",
+          "text": "MIC determination"
+        },
+        {
+          "id": "b",
+          "text": "Voges-Proskauer test"
+        },
+        {
+          "id": "c",
+          "text": "Gram stain"
+        },
+        {
+          "id": "d",
+          "text": "catalase test"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Broth dilution gives the lowest concentration that prevents visible growth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The Ames test is used in the pharmaceutical industry to",
+      "options": [
+        {
+          "id": "a",
+          "text": "measure potency"
+        },
+        {
+          "id": "b",
+          "text": "test pyrogens"
+        },
+        {
+          "id": "c",
+          "text": "check sterility"
+        },
+        {
+          "id": "d",
+          "text": "screen drugs for mutagenic potential"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It uses Salmonella strains that need histidine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "A vaccine is quality controlled to ensure that it is",
+      "options": [
+        {
+          "id": "a",
+          "text": "safe, potent and free from contaminating organisms"
+        },
+        {
+          "id": "b",
+          "text": "always live"
+        },
+        {
+          "id": "c",
+          "text": "coloured"
+        },
+        {
+          "id": "d",
+          "text": "cheap"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Each batch is tested for identity, potency, sterility and safety.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Antibiotic potency can be assayed microbiologically by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the Gram stain"
+        },
+        {
+          "id": "b",
+          "text": "the cylinder-plate (agar diffusion) method"
+        },
+        {
+          "id": "c",
+          "text": "viscosity"
+        },
+        {
+          "id": "d",
+          "text": "pH titration"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The zone of inhibition around a cylinder is compared with a standard.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Antibiotic resistance emerges mainly because of",
+      "options": [
+        {
+          "id": "a",
+          "text": "selection pressure from overuse and misuse of antibiotics"
+        },
+        {
+          "id": "b",
+          "text": "good hygiene"
+        },
+        {
+          "id": "c",
+          "text": "the use of vaccines"
+        },
+        {
+          "id": "d",
+          "text": "sterilisation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Resistant mutants survive and multiply when susceptible cells are killed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Injectable products must be sterile and pyrogen free.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both microbes and endotoxins can cause harm when given by injection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Boiling is a reliable method for sterilising injections.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Boiling at 100 degrees C does not destroy bacterial spores.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Assertion: Endotoxin tests are required for injectable products. Reason: Endotoxin causes fever and shock even if the bacteria that made it are dead.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the requirement.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "The ____ value is the time needed, at a stated temperature, to reduce a microbial population by 90 percent.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ value is the time needed, at a stated temperature, to reduce a microbial population by ____ percent.",
+        "answers": [
+          "D",
+          "90"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Z"
+        },
+        {
+          "id": "b",
+          "text": "D"
+        },
+        {
+          "id": "c",
+          "text": "K"
+        },
+        {
+          "id": "d",
+          "text": "F"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A tenfold (one log) reduction equals 90 percent kill. A smaller D value means a less heat resistant organism.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "____ are fever-causing substances, mainly the lipopolysaccharide of Gram-negative bacteria, that survive sterilisation by filtration or boiling.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ are fever-causing substances, mainly the lipopolysaccharide of ____ bacteria, that survive sterilisation by filtration or boiling.",
+        "answers": [
+          "Pyrogens",
+          "Gram-negative"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Antigens"
+        },
+        {
+          "id": "b",
+          "text": "Spores"
+        },
+        {
+          "id": "c",
+          "text": "Toxoids"
+        },
+        {
+          "id": "d",
+          "text": "Pyrogens"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They are detected by the Limulus amoebocyte lysate test.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The phenol ____ compares the killing power of a disinfectant with that of phenol under the same conditions.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The phenol ____ compares the killing power of a disinfectant with that of ____ under the same conditions.",
+        "answers": [
+          "coefficient",
+          "phenol"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "coefficient"
+        },
+        {
+          "id": "b",
+          "text": "constant"
+        },
+        {
+          "id": "c",
+          "text": "ratio"
+        },
+        {
+          "id": "d",
+          "text": "index"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A value above 1 shows the disinfectant is more effective than phenol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

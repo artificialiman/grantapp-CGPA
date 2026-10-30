@@ -1,0 +1,960 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb309",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Which factor is NOT an intrinsic factor that controls microbial growth in food?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Water activity"
+        },
+        {
+          "id": "b",
+          "text": "pH of the food"
+        },
+        {
+          "id": "c",
+          "text": "Nutrient content"
+        },
+        {
+          "id": "d",
+          "text": "Storage temperature"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Intrinsic factors are properties of the food itself, such as pH, water activity and nutrients. Storage temperature is an extrinsic factor.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Water activity (aw) of pure water is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.0"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "1.0"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Water activity is the ratio of vapour pressure of the food to that of pure water. Most bacteria need aw above about 0.91.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Most spoilage bacteria are inhibited when the water activity falls below about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.97"
+        },
+        {
+          "id": "b",
+          "text": "0.99"
+        },
+        {
+          "id": "c",
+          "text": "1.00"
+        },
+        {
+          "id": "d",
+          "text": "0.91"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lowering aw by drying, salting or adding sugar is the basis of preservation. Xerophilic moulds and osmophilic yeasts grow at lower aw.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A food with pH below 4.6 is described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "low acid"
+        },
+        {
+          "id": "b",
+          "text": "alkaline"
+        },
+        {
+          "id": "c",
+          "text": "high acid"
+        },
+        {
+          "id": "d",
+          "text": "neutral"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Low acid foods have pH above 4.6 and require sterilisation to destroy Clostridium botulinum spores in canning.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Canned low-acid foods are given a severe heat treatment mainly to destroy",
+      "options": [
+        {
+          "id": "a",
+          "text": "yeasts"
+        },
+        {
+          "id": "b",
+          "text": "spores of Clostridium botulinum"
+        },
+        {
+          "id": "c",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "d",
+          "text": "Lactobacillus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The botulinum cook ensures a 12-log reduction of C. botulinum spores. The anaerobic sealed can would otherwise allow toxin production.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Staphylococcal food poisoning is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "infection of the gut by live bacteria that take days to grow"
+        },
+        {
+          "id": "b",
+          "text": "a virus"
+        },
+        {
+          "id": "c",
+          "text": "a heat-stable enterotoxin made in the food"
+        },
+        {
+          "id": "d",
+          "text": "a mycotoxin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The toxin is preformed, so symptoms of vomiting appear within 1 to 6 hours of eating. Cooking later does not destroy the toxin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The usual source of staphylococcal food poisoning is",
+      "options": [
+        {
+          "id": "a",
+          "text": "insects only"
+        },
+        {
+          "id": "b",
+          "text": "contaminated drinking water"
+        },
+        {
+          "id": "c",
+          "text": "soil"
+        },
+        {
+          "id": "d",
+          "text": "a food handler with infected skin lesions or nasal carriage"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Staphylococcus aureus grows in cooked food left at room temperature, such as meat, cream and rice dishes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which organism causes a food poisoning with a short incubation of 1 to 6 hours and vomiting in fried rice left at room temperature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shigella dysenteriae"
+        },
+        {
+          "id": "b",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus cereus"
+        },
+        {
+          "id": "d",
+          "text": "Brucella abortus"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The emetic form is caused by a heat-stable toxin formed by spores that survive cooking.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The main cause of gastroenteritis from raw poultry and eggs is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salmonella"
+        },
+        {
+          "id": "b",
+          "text": "Clostridium tetani"
+        },
+        {
+          "id": "c",
+          "text": "Corynebacterium"
+        },
+        {
+          "id": "d",
+          "text": "Treponema"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Salmonella enters the food chain from the gut of birds. Thorough cooking and avoiding cross-contamination reduce risk.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Botulism is associated with",
+      "options": [
+        {
+          "id": "a",
+          "text": "boiled water"
+        },
+        {
+          "id": "b",
+          "text": "fresh milk only"
+        },
+        {
+          "id": "c",
+          "text": "raw fruit"
+        },
+        {
+          "id": "d",
+          "text": "improperly canned or fermented foods"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Spores germinate in anaerobic, low-acid conditions and produce a heat-labile neurotoxin. Heating food for 10 minutes at 100 degrees C destroys the toxin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Listeria monocytogenes is a concern in food because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "can grow at refrigerator temperatures"
+        },
+        {
+          "id": "b",
+          "text": "is a virus"
+        },
+        {
+          "id": "c",
+          "text": "needs high temperature"
+        },
+        {
+          "id": "d",
+          "text": "only grows in cans"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It causes listeriosis, which is dangerous to pregnant women and newborns. Cold storage does not stop it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The bacterium that makes lactic acid in fermented milk and gari is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lactobacillus"
+        },
+        {
+          "id": "b",
+          "text": "Escherichia"
+        },
+        {
+          "id": "c",
+          "text": "Pseudomonas"
+        },
+        {
+          "id": "d",
+          "text": "Clostridium"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Lactic acid lowers pH and preserves the food. Cassava fermentation also involves Lactobacillus and Leuconostoc.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "In the production of gari, cassava is fermented to",
+      "options": [
+        {
+          "id": "a",
+          "text": "produce alcohol"
+        },
+        {
+          "id": "b",
+          "text": "reduce cyanide content and develop flavour"
+        },
+        {
+          "id": "c",
+          "text": "add vitamins only"
+        },
+        {
+          "id": "d",
+          "text": "increase starch only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Linamarase from the roots and microbes release hydrogen cyanide, which is lost in drying and roasting.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The bacteria used in the production of vinegar convert ethanol to acetic acid and belong to the genus",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetobacter"
+        },
+        {
+          "id": "b",
+          "text": "Lactobacillus"
+        },
+        {
+          "id": "c",
+          "text": "Streptococcus"
+        },
+        {
+          "id": "d",
+          "text": "Bacillus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Acetobacter oxidises ethanol in the presence of oxygen. Yeast first makes the ethanol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Pasteurisation of milk is designed mainly to kill",
+      "options": [
+        {
+          "id": "a",
+          "text": "non-spore-forming pathogens such as Mycobacterium bovis and Brucella"
+        },
+        {
+          "id": "b",
+          "text": "only yeasts"
+        },
+        {
+          "id": "c",
+          "text": "all bacteria and spores"
+        },
+        {
+          "id": "d",
+          "text": "viruses only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is not sterilisation. Pasteurised milk still contains some bacteria, so it needs refrigeration.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Which test is used to check that milk has been properly pasteurised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Methylene blue test only for fat"
+        },
+        {
+          "id": "b",
+          "text": "Phosphatase test"
+        },
+        {
+          "id": "c",
+          "text": "Widal test"
+        },
+        {
+          "id": "d",
+          "text": "Gram stain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Alkaline phosphatase in raw milk is destroyed by pasteurisation, so a positive test means under-heating.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The methylene blue reduction test is used to judge",
+      "options": [
+        {
+          "id": "a",
+          "text": "the protein of milk"
+        },
+        {
+          "id": "b",
+          "text": "the microbial quality of milk"
+        },
+        {
+          "id": "c",
+          "text": "the vitamin C"
+        },
+        {
+          "id": "d",
+          "text": "the fat content of milk"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Active microbes use up oxygen and reduce the blue dye to colourless. The faster the decolourisation, the poorer the milk.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Salting and sugar curing preserve food by",
+      "options": [
+        {
+          "id": "a",
+          "text": "raising temperature"
+        },
+        {
+          "id": "b",
+          "text": "increasing pH"
+        },
+        {
+          "id": "c",
+          "text": "adding nutrients"
+        },
+        {
+          "id": "d",
+          "text": "reducing water activity"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Osmotic withdrawal of water from microbial cells stops growth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Freezing food at minus 18 degrees C",
+      "options": [
+        {
+          "id": "a",
+          "text": "kills spores"
+        },
+        {
+          "id": "b",
+          "text": "stops microbial growth but does not kill all microbes"
+        },
+        {
+          "id": "c",
+          "text": "destroys toxins"
+        },
+        {
+          "id": "d",
+          "text": "sterilises the food"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Frozen food can still carry live organisms that grow again on thawing.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Irradiation of foods is a method of preservation that",
+      "options": [
+        {
+          "id": "a",
+          "text": "dries the food"
+        },
+        {
+          "id": "b",
+          "text": "heats the food to 121 degrees C"
+        },
+        {
+          "id": "c",
+          "text": "adds acid"
+        },
+        {
+          "id": "d",
+          "text": "uses gamma rays or electron beams to kill microbes"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It reduces spoilage and pathogens without much heat.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The most common cause of spoilage of bread is",
+      "options": [
+        {
+          "id": "a",
+          "text": "rickettsiae"
+        },
+        {
+          "id": "b",
+          "text": "Neisseria species"
+        },
+        {
+          "id": "c",
+          "text": "moulds such as Rhizopus and Aspergillus"
+        },
+        {
+          "id": "d",
+          "text": "Vibrio species"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Bread has high carbohydrate and moderate water activity, which favours moulds.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Souring of milk is due to",
+      "options": [
+        {
+          "id": "a",
+          "text": "aflatoxin"
+        },
+        {
+          "id": "b",
+          "text": "lactic acid formed from lactose by bacteria"
+        },
+        {
+          "id": "c",
+          "text": "botulinum toxin"
+        },
+        {
+          "id": "d",
+          "text": "alcohol"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Lactic acid bacteria ferment lactose to lactic acid. The fall in pH causes the casein to curdle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Which organism is a mould used in making soy sauce and miso?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rhizopus stolonifer"
+        },
+        {
+          "id": "b",
+          "text": "Candida albicans"
+        },
+        {
+          "id": "c",
+          "text": "Aspergillus oryzae"
+        },
+        {
+          "id": "d",
+          "text": "Penicillium roqueforti"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Aspergillus oryzae supplies enzymes that break down soy and wheat.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Cross-contamination in a kitchen is best prevented by",
+      "options": [
+        {
+          "id": "a",
+          "text": "rinsing chicken before cooking"
+        },
+        {
+          "id": "b",
+          "text": "storing raw meat above cooked food"
+        },
+        {
+          "id": "c",
+          "text": "using separate chopping boards for raw meat and ready-to-eat food"
+        },
+        {
+          "id": "d",
+          "text": "washing hands once a day"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Raw foods carry pathogens that can be transferred to food that will not be cooked again.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The temperature range in which food bacteria grow fastest, called the danger zone, is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "minus 20 to 0 degrees C"
+        },
+        {
+          "id": "b",
+          "text": "5 to 60 degrees C"
+        },
+        {
+          "id": "c",
+          "text": "70 to 100 degrees C"
+        },
+        {
+          "id": "d",
+          "text": "100 to 121 degrees C"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Food should not stay in this range for more than about two hours.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "HACCP in the food industry stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hazard Analysis and Critical Control Points"
+        },
+        {
+          "id": "b",
+          "text": "Hygiene and Chemical Control Plan"
+        },
+        {
+          "id": "c",
+          "text": "High Acidity and Controlled Cooking Procedure"
+        },
+        {
+          "id": "d",
+          "text": "Heat and Chill Control Practice"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It identifies hazards, sets critical limits and monitors control points. It is a preventive system, not end-product testing alone.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The coliform count in food and water is used to show",
+      "options": [
+        {
+          "id": "a",
+          "text": "faecal contamination or poor hygiene"
+        },
+        {
+          "id": "b",
+          "text": "the presence of aflatoxin"
+        },
+        {
+          "id": "c",
+          "text": "the protein content"
+        },
+        {
+          "id": "d",
+          "text": "vitamin level"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Coliforms and E. coli are indicators of faecal contamination.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Staphylococcal enterotoxin is destroyed by normal cooking.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The enterotoxin is heat stable. Cooking kills the bacteria but not the preformed toxin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Lactic acid bacteria can preserve food by lowering the pH.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Acid inhibits many spoilage and pathogenic organisms.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Assertion: Canning of low-acid foods requires temperatures above 100 degrees C. Reason: Spores of Clostridium botulinum survive boiling.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. Pressure cooking reaches about 121 degrees C and destroys the spores.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

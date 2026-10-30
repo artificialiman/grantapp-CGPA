@@ -1,0 +1,10 @@
+Fundamentals of Nuclear Physics||Nuclear structure, radioactive decay, half-life, binding energy and nuclear reactions.|NUM LOG MEM|LAB DAT
+Radiation Detection and Dosimetry||Ionisation chambers, Geiger-Mueller and scintillation detectors, absorbed dose, kerma and exposure.|NUM DET MEC|LAB HSE DAT
+Nuclear Application in Medicine, Industry and Research||Radioisotopes in nuclear medicine, tracers, sterilisation, gauging and dating.|VER MEM|CLN LAB HSE
+Non-Ionizing Radiation||Ultraviolet, visible, infrared, microwave, radiofrequency, ultrasound and laser interaction with tissue and safety limits.|NUM LOG|CLN HSE
+Physiology and Anatomy for Medical Physics||Body systems and organs relevant to imaging and radiation treatment.|MEM VER|CLN
+Radiation Protection||Dose limits, ALARA, shielding, time-distance-shielding and regulation.|NUM CRT DET|HSE LEG ETH
+Radiobiology||Radiation effects on cells, DNA damage, cell survival curves, tissue response and risk.|LOG MEM|CLN RES
+Physics of Diagnostic Radiology||X-ray production, attenuation, image formation, contrast, CT, ultrasound and MRI principles.|NUM LOG SPA|CLN LAB DAT
+Physics of Therapeutic Radiology||Radiotherapy beams, depth dose, treatment planning, brachytherapy and quality assurance.|NUM CRT DET|CLN HSE DAT
+Medical Instrumentation||Biosensors, ECG and EEG amplifiers, imaging equipment, electrical safety and calibration.|MEC NUM|LAB DES HSE

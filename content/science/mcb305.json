@@ -1,0 +1,1256 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb305",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The bacterial chromosome is typically",
+      "options": [
+        {
+          "id": "a",
+          "text": "several linear chromosomes with histones"
+        },
+        {
+          "id": "b",
+          "text": "a set of paired chromosomes"
+        },
+        {
+          "id": "c",
+          "text": "single-stranded RNA"
+        },
+        {
+          "id": "d",
+          "text": "a single circular double-stranded DNA molecule"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Most bacteria have one circular chromosome in the nucleoid. Some, such as Borrelia and Streptomyces, have linear chromosomes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "DNA replication in bacteria begins at",
+      "options": [
+        {
+          "id": "a",
+          "text": "the telomere"
+        },
+        {
+          "id": "b",
+          "text": "a single origin of replication, oriC"
+        },
+        {
+          "id": "c",
+          "text": "many origins along the chromosome"
+        },
+        {
+          "id": "d",
+          "text": "the centromere"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "E. coli replicates bidirectionally from oriC. Eukaryotic chromosomes have many origins and have centromeres and telomeres.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The enzyme that joins Okazaki fragments on the lagging strand is",
+      "options": [
+        {
+          "id": "a",
+          "text": "helicase"
+        },
+        {
+          "id": "b",
+          "text": "DNA ligase"
+        },
+        {
+          "id": "c",
+          "text": "primase"
+        },
+        {
+          "id": "d",
+          "text": "topoisomerase"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ligase seals the nicks between fragments after DNA polymerase I removes the RNA primers.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "DNA gyrase in bacteria",
+      "options": [
+        {
+          "id": "a",
+          "text": "unwinds DNA with ATP"
+        },
+        {
+          "id": "b",
+          "text": "relieves supercoiling ahead of the replication fork"
+        },
+        {
+          "id": "c",
+          "text": "joins Okazaki fragments"
+        },
+        {
+          "id": "d",
+          "text": "makes RNA primers"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is a type II topoisomerase and the target of quinolones.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A DNA strand has the base sequence 5'-ATGC-3'. The complementary strand read 5' to 3' is",
+      "options": [
+        {
+          "id": "a",
+          "text": "TACG"
+        },
+        {
+          "id": "b",
+          "text": "ATGC"
+        },
+        {
+          "id": "c",
+          "text": "GCAT"
+        },
+        {
+          "id": "d",
+          "text": "CGTA"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pairing A with T and G with C gives 3'-TACG-5', which is read 5' to 3' as GCAT.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "During transcription, the enzyme that makes RNA from a DNA template is",
+      "options": [
+        {
+          "id": "a",
+          "text": "ligase"
+        },
+        {
+          "id": "b",
+          "text": "DNA polymerase"
+        },
+        {
+          "id": "c",
+          "text": "reverse transcriptase"
+        },
+        {
+          "id": "d",
+          "text": "RNA polymerase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "In bacteria one RNA polymerase transcribes all genes, with a sigma factor that recognises the promoter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The sigma factor of bacterial RNA polymerase is needed for",
+      "options": [
+        {
+          "id": "a",
+          "text": "replication of plasmids"
+        },
+        {
+          "id": "b",
+          "text": "joining amino acids"
+        },
+        {
+          "id": "c",
+          "text": "termination of translation"
+        },
+        {
+          "id": "d",
+          "text": "recognition of the promoter"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Sigma binds the core enzyme and directs it to the promoter. It is released after initiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The genetic code is described as degenerate because",
+      "options": [
+        {
+          "id": "a",
+          "text": "codons overlap"
+        },
+        {
+          "id": "b",
+          "text": "more than one codon can code for the same amino acid"
+        },
+        {
+          "id": "c",
+          "text": "a codon codes for more than one amino acid"
+        },
+        {
+          "id": "d",
+          "text": "the code changes between species"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "There are 64 codons for 20 amino acids, so several codons are synonyms.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The number of nucleotides in 10 codons is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "60"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Each codon is a triplet, so 10 codons contain 30 nucleotides.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The start codon of translation in most organisms is",
+      "options": [
+        {
+          "id": "a",
+          "text": "AUG"
+        },
+        {
+          "id": "b",
+          "text": "UGA"
+        },
+        {
+          "id": "c",
+          "text": "UAG"
+        },
+        {
+          "id": "d",
+          "text": "UAA"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "AUG codes for methionine, which is formylmethionine in bacteria. UAA, UAG and UGA are stop codons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Which of the following is a stop codon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "UAG"
+        },
+        {
+          "id": "b",
+          "text": "AAA"
+        },
+        {
+          "id": "c",
+          "text": "GCU"
+        },
+        {
+          "id": "d",
+          "text": "AUG"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "UAA, UAG and UGA end translation. AUG is the start codon, GCU codes for alanine and AAA for lysine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "In bacteria, translation can begin before transcription is finished because",
+      "options": [
+        {
+          "id": "a",
+          "text": "mRNA is always spliced"
+        },
+        {
+          "id": "b",
+          "text": "there is no nuclear membrane separating the two processes"
+        },
+        {
+          "id": "c",
+          "text": "ribosomes are larger"
+        },
+        {
+          "id": "d",
+          "text": "the code is different"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The mRNA is read by ribosomes as it is made, a process called coupled transcription and translation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Eukaryotic mRNA is different from bacterial mRNA in that it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is never capped"
+        },
+        {
+          "id": "b",
+          "text": "is polycistronic"
+        },
+        {
+          "id": "c",
+          "text": "has introns removed by splicing"
+        },
+        {
+          "id": "d",
+          "text": "has a Shine-Dalgarno sequence"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Bacterial mRNA is often polycistronic and has a ribosome binding site (Shine-Dalgarno). Eukaryotic mRNA has a cap, a poly-A tail and spliced exons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Streptomycin inhibits protein synthesis by binding to the",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA gyrase"
+        },
+        {
+          "id": "b",
+          "text": "50S ribosomal subunit"
+        },
+        {
+          "id": "c",
+          "text": "30S ribosomal subunit"
+        },
+        {
+          "id": "d",
+          "text": "RNA polymerase"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Aminoglycosides cause misreading of mRNA and block initiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "In the lac operon, the repressor is coded by the",
+      "options": [
+        {
+          "id": "a",
+          "text": "lacI gene"
+        },
+        {
+          "id": "b",
+          "text": "lacY gene"
+        },
+        {
+          "id": "c",
+          "text": "lacA gene"
+        },
+        {
+          "id": "d",
+          "text": "lacZ gene"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "lacI makes the repressor. lacZ codes for beta-galactosidase, lacY for permease and lacA for transacetylase.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "In the lac operon, high glucose and high lactose gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "no promoter"
+        },
+        {
+          "id": "b",
+          "text": "no repressor"
+        },
+        {
+          "id": "c",
+          "text": "high expression"
+        },
+        {
+          "id": "d",
+          "text": "low expression, because of catabolite repression"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Low cyclic AMP means CAP cannot activate transcription, even though the repressor is inactive. Glucose is used first.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The trp operon is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "an antibiotic resistance gene"
+        },
+        {
+          "id": "b",
+          "text": "an inducible operon"
+        },
+        {
+          "id": "c",
+          "text": "a constitutive gene"
+        },
+        {
+          "id": "d",
+          "text": "a repressible operon"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "When tryptophan is abundant it acts as a corepressor and switches the operon off.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A mutation that changes one amino acid in a protein is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "frameshift mutation"
+        },
+        {
+          "id": "b",
+          "text": "nonsense mutation"
+        },
+        {
+          "id": "c",
+          "text": "missense mutation"
+        },
+        {
+          "id": "d",
+          "text": "silent mutation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A silent mutation changes the codon but not the amino acid, and a nonsense mutation creates a stop codon.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A mutagen that inserts between DNA base pairs and causes frameshifts is",
+      "options": [
+        {
+          "id": "a",
+          "text": "ethidium bromide or acridine orange"
+        },
+        {
+          "id": "b",
+          "text": "ultraviolet light"
+        },
+        {
+          "id": "c",
+          "text": "nitrous acid"
+        },
+        {
+          "id": "d",
+          "text": "5-bromouracil"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Intercalating agents distort the helix and cause insertions or deletions. UV forms thymine dimers.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Restriction endonucleases are used in genetic engineering to",
+      "options": [
+        {
+          "id": "a",
+          "text": "join DNA fragments"
+        },
+        {
+          "id": "b",
+          "text": "copy RNA"
+        },
+        {
+          "id": "c",
+          "text": "cut DNA at specific recognition sequences"
+        },
+        {
+          "id": "d",
+          "text": "make proteins"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "EcoRI cuts at GAATTC. Fragments are joined by DNA ligase.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "A vector commonly used to carry foreign DNA into Escherichia coli is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "plasmid"
+        },
+        {
+          "id": "b",
+          "text": "ribosome"
+        },
+        {
+          "id": "c",
+          "text": "chloroplast"
+        },
+        {
+          "id": "d",
+          "text": "mitochondrion"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Plasmids such as pBR322 and pUC carry selectable markers such as ampicillin resistance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The polymerase chain reaction needs",
+      "options": [
+        {
+          "id": "a",
+          "text": "a ribosome and mRNA"
+        },
+        {
+          "id": "b",
+          "text": "a live host cell"
+        },
+        {
+          "id": "c",
+          "text": "an antibiotic"
+        },
+        {
+          "id": "d",
+          "text": "a heat-stable DNA polymerase, primers, nucleotides and a template"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Taq polymerase from Thermus aquaticus survives the denaturation step at about 95 degrees C.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "After 5 cycles of PCR, a single DNA template theoretically gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "32 copies"
+        },
+        {
+          "id": "b",
+          "text": "64 copies"
+        },
+        {
+          "id": "c",
+          "text": "25 copies"
+        },
+        {
+          "id": "d",
+          "text": "10 copies"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Each cycle doubles the number, so 2 to the power 5 equals 32.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The steps of one PCR cycle in order are",
+      "options": [
+        {
+          "id": "a",
+          "text": "annealing, denaturation, extension"
+        },
+        {
+          "id": "b",
+          "text": "denaturation, extension, annealing"
+        },
+        {
+          "id": "c",
+          "text": "denaturation, annealing, extension"
+        },
+        {
+          "id": "d",
+          "text": "extension, annealing, denaturation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Heating separates strands, cooling lets primers bind, and polymerase extends them at about 72 degrees C.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "In gel electrophoresis, DNA fragments move toward the",
+      "options": [
+        {
+          "id": "a",
+          "text": "negative electrode"
+        },
+        {
+          "id": "b",
+          "text": "bottom only after heating"
+        },
+        {
+          "id": "c",
+          "text": "top of the gel"
+        },
+        {
+          "id": "d",
+          "text": "positive electrode, because DNA is negatively charged"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Phosphate groups carry negative charge. Smaller fragments move faster through the gel.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "DNA bands on an agarose gel are usually made visible by",
+      "options": [
+        {
+          "id": "a",
+          "text": "methylene blue in broth"
+        },
+        {
+          "id": "b",
+          "text": "ethidium bromide under ultraviolet light"
+        },
+        {
+          "id": "c",
+          "text": "iodine"
+        },
+        {
+          "id": "d",
+          "text": "Gram stain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ethidium bromide intercalates between bases and fluoresces. Safer dyes are also now used.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Southern blotting is used to detect",
+      "options": [
+        {
+          "id": "a",
+          "text": "specific RNA sequences"
+        },
+        {
+          "id": "b",
+          "text": "specific DNA sequences"
+        },
+        {
+          "id": "c",
+          "text": "specific proteins"
+        },
+        {
+          "id": "d",
+          "text": "specific lipids"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Northern blotting detects RNA and Western blotting detects proteins.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The transfer of a gene by a bacteriophage that carries any piece of host DNA is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "specialised transduction"
+        },
+        {
+          "id": "b",
+          "text": "generalised transduction"
+        },
+        {
+          "id": "c",
+          "text": "transformation"
+        },
+        {
+          "id": "d",
+          "text": "conjugation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "In generalised transduction a headful of random host DNA is packaged in error. In specialised transduction only genes near the prophage are carried.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Hfr cells differ from F plus cells because in Hfr cells",
+      "options": [
+        {
+          "id": "a",
+          "text": "the F factor is integrated into the chromosome"
+        },
+        {
+          "id": "b",
+          "text": "there is no pilus"
+        },
+        {
+          "id": "c",
+          "text": "there is no DNA"
+        },
+        {
+          "id": "d",
+          "text": "the F factor is lost"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Hfr conjugation transfers chromosomal genes starting from the integration site, and the recipient seldom becomes F plus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "The F factor in F plus cells carries genes for",
+      "options": [
+        {
+          "id": "a",
+          "text": "capsule production"
+        },
+        {
+          "id": "b",
+          "text": "spore formation"
+        },
+        {
+          "id": "c",
+          "text": "sex pilus formation and DNA transfer"
+        },
+        {
+          "id": "d",
+          "text": "nitrogen fixation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The F plasmid has tra genes for the pilus and transfer machinery.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Insertion sequences and transposons are",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA segments that can move from one site to another"
+        },
+        {
+          "id": "b",
+          "text": "ribosomal RNA genes"
+        },
+        {
+          "id": "c",
+          "text": "restriction enzymes"
+        },
+        {
+          "id": "d",
+          "text": "antibiotics"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Transposons often carry antibiotic resistance genes and spread them between plasmids and chromosomes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "The CRISPR-Cas system in bacteria is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "source of antibiotics"
+        },
+        {
+          "id": "b",
+          "text": "way to make capsule"
+        },
+        {
+          "id": "c",
+          "text": "way of making spores"
+        },
+        {
+          "id": "d",
+          "text": "defence against invading phage DNA"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Spacers from past phage infections guide Cas nucleases to cut matching DNA. It is now used in genome editing.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The bacterial genome is enclosed in a nuclear membrane.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bacteria lack a nucleus. The DNA is in the nucleoid region of the cytoplasm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "Plasmids are essential for the survival of a bacterial cell under all conditions.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Plasmids carry extra, usually non-essential genes such as resistance genes. Cells survive without them in an environment without the selecting drug.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Translation takes place on ribosomes.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Ribosomes read mRNA codons and join amino acids brought by tRNA.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Assertion: Bacterial cells can start translation while mRNA is still being made. Reason: Bacteria lack a nuclear envelope.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the absence of a nuclear envelope allows coupled transcription and translation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Assertion: Antibiotic resistance can spread to bacteria of different species. Reason: Plasmids can be transferred by conjugation.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. Conjugative plasmids carrying resistance genes may cross species boundaries.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Assertion: Taq polymerase is used in PCR. Reason: It remains active at the high temperature of the denaturation step.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. A normal polymerase would be destroyed at 95 degrees C.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Assertion: Ultraviolet light is a mutagen. Reason: It forms covalent bonds between adjacent thymines in DNA.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. The thymine dimers distort DNA and cause errors in replication if not repaired.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

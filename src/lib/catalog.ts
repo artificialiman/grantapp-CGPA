@@ -83,6 +83,42 @@ export const CATALOG: CatalogFaculty[] = [
 				slug: 'microbiology',
 				name: 'Microbiology',
 				courses: [
+					{ slug: 'mcb101', name: 'Introduction to Microbiology', code: 'MCB101', year: 1, kind: 'core' },
+					{ slug: 'mcb201', name: 'General Microbiology I', code: 'MCB201', year: 2, kind: 'core' },
+					{ slug: 'mcb202', name: 'General Microbiology II', code: 'MCB202', year: 2, kind: 'core' },
+					{ slug: 'mcb203', name: 'Introductory Virology', code: 'MCB203', year: 2, kind: 'core' },
+					{ slug: 'mcb301', name: 'Bacteriology', code: 'MCB301', year: 3, kind: 'core' },
+					{ slug: 'mcb303', name: 'Soil Microbiology', code: 'MCB303', year: 3, kind: 'core' },
+					{ slug: 'mcb305', name: 'Microbial Genetics and Molecular Biology', code: 'MCB305', year: 3, kind: 'core' },
+					{ slug: 'mcb307', name: 'Mycology', code: 'MCB307', year: 3, kind: 'core' },
+					{ slug: 'mcb309', name: 'Food Microbiology', code: 'MCB309', year: 3, kind: 'core' },
+					{ slug: 'mcb311', name: 'Microbial Ecology', code: 'MCB311', year: 3, kind: 'core' },
+					{ slug: 'mcb401', name: 'Immunology and Immunochemistry', code: 'MCB401', year: 4, kind: 'core' },
+					{ slug: 'mcb403', name: 'Principles of Epidemiology and Public Health', code: 'MCB403', year: 4, kind: 'core' },
+					{ slug: 'mcb404', name: 'Industrial Microbiology', code: 'MCB404', year: 4, kind: 'core' },
+					{ slug: 'mcb405', name: 'Pharmaceutical Microbiology', code: 'MCB405', year: 4, kind: 'core' },
+					{ slug: 'mcb407', name: 'Pathogenic Microbiology', code: 'MCB407', year: 4, kind: 'core' },
+					{ slug: 'mcb408', name: 'Microbial Physiology and Metabolism', code: 'MCB408', year: 4, kind: 'core' },
+					{ slug: 'mcb409', name: 'Environmental Microbiology', code: 'MCB409', year: 4, kind: 'core' },
+					{ slug: 'zoo301', name: 'Parasitology I', code: 'ZOO301', year: 3, kind: 'core' },
+				]
+			},
+			{
+				// FLAG: course list derived from POSTGRADUATE sources (UNN PHY 620-629); no undergraduate
+				// Medical Physics table found. Provisional. See curriculum/medical-physics.txt and DECISIONS.md.
+				slug: 'medical-physics',
+				name: 'Medical Physics',
+				courses: [
+					{ slug: 'fundamentals-of-nuclear-physics', name: 'Fundamentals of Nuclear Physics', code: null, year: 4, kind: 'core' },
+					{ slug: 'medical-instrumentation', name: 'Medical Instrumentation', code: null, year: 4, kind: 'core' },
+					{ slug: 'non-ionizing-radiation', name: 'Non-Ionizing Radiation', code: null, year: 4, kind: 'core' },
+					{ slug: 'nuclear-application-in-medicine-industry-and-research', name: 'Nuclear Application in Medicine, Industry and Research', code: null, year: 4, kind: 'core' },
+					{ slug: 'physics-of-diagnostic-radiology', name: 'Physics of Diagnostic Radiology', code: null, year: 4, kind: 'core' },
+					{ slug: 'physics-of-therapeutic-radiology', name: 'Physics of Therapeutic Radiology', code: null, year: 4, kind: 'core' },
+					{ slug: 'physiology-and-anatomy-for-medical-physics', name: 'Physiology and Anatomy for Medical Physics', code: null, year: 4, kind: 'core' },
+					{ slug: 'radiation-detection-and-dosimetry', name: 'Radiation Detection and Dosimetry', code: null, year: 4, kind: 'core' },
+					{ slug: 'radiation-protection', name: 'Radiation Protection', code: null, year: 4, kind: 'core' },
+					{ slug: 'radiobiology', name: 'Radiobiology', code: null, year: 4, kind: 'core' },
 				]
 			},
 			{

@@ -1,0 +1,1392 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb408",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Metabolism is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the sum of all chemical reactions in a cell"
+        },
+        {
+          "id": "b",
+          "text": "the movement of water"
+        },
+        {
+          "id": "c",
+          "text": "only the breakdown of food"
+        },
+        {
+          "id": "d",
+          "text": "only the building of proteins"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It includes catabolism (breakdown) and anabolism (synthesis).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Catabolic reactions",
+      "options": [
+        {
+          "id": "a",
+          "text": "do not involve enzymes"
+        },
+        {
+          "id": "b",
+          "text": "release energy by breaking down molecules"
+        },
+        {
+          "id": "c",
+          "text": "use energy to build molecules"
+        },
+        {
+          "id": "d",
+          "text": "only occur in plants"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The energy released is trapped mainly as ATP.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "ATP is called the energy currency because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it carries oxygen"
+        },
+        {
+          "id": "b",
+          "text": "it stores genetic information"
+        },
+        {
+          "id": "c",
+          "text": "its terminal phosphate bond releases energy for cellular work"
+        },
+        {
+          "id": "d",
+          "text": "it forms the cell wall"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hydrolysis of ATP to ADP and phosphate drives many reactions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Glycolysis takes place in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "ribosome"
+        },
+        {
+          "id": "b",
+          "text": "mitochondrion"
+        },
+        {
+          "id": "c",
+          "text": "nucleus"
+        },
+        {
+          "id": "d",
+          "text": "cytoplasm"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "In bacteria, which have no mitochondria, the whole pathway is cytoplasmic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The net yield of ATP from glycolysis of one glucose molecule by substrate-level phosphorylation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "38"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Two ATP are used and four produced, giving a net of two. Two NADH are also formed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Each glucose molecule is converted by glycolysis into two molecules of",
+      "options": [
+        {
+          "id": "a",
+          "text": "acetyl-CoA"
+        },
+        {
+          "id": "b",
+          "text": "citrate"
+        },
+        {
+          "id": "c",
+          "text": "pyruvate"
+        },
+        {
+          "id": "d",
+          "text": "lactate"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Each glucose gives two pyruvate molecules.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Fermentation regenerates NAD+ so that",
+      "options": [
+        {
+          "id": "a",
+          "text": "glycolysis can continue in the absence of oxygen"
+        },
+        {
+          "id": "b",
+          "text": "the Krebs cycle can run"
+        },
+        {
+          "id": "c",
+          "text": "ATP can be stored"
+        },
+        {
+          "id": "d",
+          "text": "DNA can replicate"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "NADH is oxidised by reducing pyruvate or its derivatives.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "In lactic acid fermentation pyruvate is reduced to",
+      "options": [
+        {
+          "id": "a",
+          "text": "ethanol"
+        },
+        {
+          "id": "b",
+          "text": "acetate"
+        },
+        {
+          "id": "c",
+          "text": "citrate"
+        },
+        {
+          "id": "d",
+          "text": "lactic acid"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lactobacillus and Streptococcus do this, for example in yoghurt.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Alcoholic fermentation by yeast produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "methane"
+        },
+        {
+          "id": "b",
+          "text": "lactic acid"
+        },
+        {
+          "id": "c",
+          "text": "ethanol and carbon dioxide"
+        },
+        {
+          "id": "d",
+          "text": "acetic acid only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pyruvate is decarboxylated to acetaldehyde, which is reduced to ethanol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The Krebs cycle occurs in bacteria in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "cytoplasm"
+        },
+        {
+          "id": "b",
+          "text": "nucleus"
+        },
+        {
+          "id": "c",
+          "text": "outer membrane"
+        },
+        {
+          "id": "d",
+          "text": "mitochondria"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Prokaryotes have no mitochondria, so the cycle is in the cytosol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The Krebs cycle begins with the combination of acetyl-CoA and",
+      "options": [
+        {
+          "id": "a",
+          "text": "malate"
+        },
+        {
+          "id": "b",
+          "text": "pyruvate"
+        },
+        {
+          "id": "c",
+          "text": "oxaloacetate"
+        },
+        {
+          "id": "d",
+          "text": "succinate"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The reaction forms citrate (citric acid), hence the name citric acid cycle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "One turn of the Krebs cycle produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 NADH only"
+        },
+        {
+          "id": "b",
+          "text": "3 NADH, 1 FADH2 and 1 GTP (or ATP)"
+        },
+        {
+          "id": "c",
+          "text": "1 NADH"
+        },
+        {
+          "id": "d",
+          "text": "4 ATP only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Two turns are needed per glucose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The electron transport chain in bacteria is located in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "cytoplasmic membrane"
+        },
+        {
+          "id": "b",
+          "text": "capsule"
+        },
+        {
+          "id": "c",
+          "text": "cytoplasm"
+        },
+        {
+          "id": "d",
+          "text": "cell wall"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Respiration drives protons across the membrane and ATP synthase makes ATP.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Which substance is the terminal electron acceptor of the aerobic electron transport chain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrate"
+        },
+        {
+          "id": "b",
+          "text": "oxygen"
+        },
+        {
+          "id": "c",
+          "text": "carbon dioxide"
+        },
+        {
+          "id": "d",
+          "text": "sulphate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Oxygen is reduced to water.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "In anaerobic respiration the final electron acceptor can be",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrate or sulphate"
+        },
+        {
+          "id": "b",
+          "text": "NAD+"
+        },
+        {
+          "id": "c",
+          "text": "oxygen"
+        },
+        {
+          "id": "d",
+          "text": "pyruvate"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Denitrifying bacteria use nitrate. Desulfovibrio uses sulphate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Chemiosmosis is the production of ATP using",
+      "options": [
+        {
+          "id": "a",
+          "text": "light only"
+        },
+        {
+          "id": "b",
+          "text": "substrate-level phosphorylation"
+        },
+        {
+          "id": "c",
+          "text": "fermentation"
+        },
+        {
+          "id": "d",
+          "text": "a proton gradient across a membrane"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The proton motive force drives ATP synthase.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Phototrophs obtain energy from",
+      "options": [
+        {
+          "id": "a",
+          "text": "inorganic compounds"
+        },
+        {
+          "id": "b",
+          "text": "organic compounds"
+        },
+        {
+          "id": "c",
+          "text": "light"
+        },
+        {
+          "id": "d",
+          "text": "oxygen"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Photosynthetic bacteria include cyanobacteria and purple bacteria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Which group carries out oxygenic photosynthesis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Halobacteria"
+        },
+        {
+          "id": "b",
+          "text": "Cyanobacteria"
+        },
+        {
+          "id": "c",
+          "text": "Purple sulphur bacteria"
+        },
+        {
+          "id": "d",
+          "text": "Green sulphur bacteria"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cyanobacteria use water as an electron donor and release oxygen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A chemolithotroph obtains energy by",
+      "options": [
+        {
+          "id": "a",
+          "text": "absorbing light"
+        },
+        {
+          "id": "b",
+          "text": "fermenting proteins"
+        },
+        {
+          "id": "c",
+          "text": "oxidising inorganic compounds"
+        },
+        {
+          "id": "d",
+          "text": "oxidising sugars"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Nitrifying bacteria oxidise ammonia or nitrite.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Nitrosomonas converts",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrogen to ammonia"
+        },
+        {
+          "id": "b",
+          "text": "ammonia to nitrite"
+        },
+        {
+          "id": "c",
+          "text": "nitrate to nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "nitrite to nitrate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Nitrobacter then oxidises nitrite to nitrate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "An autotroph uses as its carbon source",
+      "options": [
+        {
+          "id": "a",
+          "text": "carbon dioxide"
+        },
+        {
+          "id": "b",
+          "text": "fatty acids"
+        },
+        {
+          "id": "c",
+          "text": "glucose"
+        },
+        {
+          "id": "d",
+          "text": "amino acids"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Heterotrophs use organic carbon.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "An enzyme is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "vitamin"
+        },
+        {
+          "id": "b",
+          "text": "biological catalyst, usually a protein"
+        },
+        {
+          "id": "c",
+          "text": "lipid that stores energy"
+        },
+        {
+          "id": "d",
+          "text": "nucleic acid that stores information"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It lowers activation energy without being used up.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "A competitive inhibitor",
+      "options": [
+        {
+          "id": "a",
+          "text": "binds to the active site and can be overcome by more substrate"
+        },
+        {
+          "id": "b",
+          "text": "destroys the enzyme"
+        },
+        {
+          "id": "c",
+          "text": "binds away from the active site and cannot be overcome"
+        },
+        {
+          "id": "d",
+          "text": "increases Vmax"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Km rises but Vmax is unchanged.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "In Michaelis-Menten kinetics, Km is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "substrate concentration at half the maximum velocity"
+        },
+        {
+          "id": "b",
+          "text": "inhibitor concentration"
+        },
+        {
+          "id": "c",
+          "text": "maximum velocity"
+        },
+        {
+          "id": "d",
+          "text": "enzyme concentration"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A low Km means high affinity of the enzyme for its substrate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "In a Lineweaver-Burk plot, the y-intercept is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vmax"
+        },
+        {
+          "id": "b",
+          "text": "Km"
+        },
+        {
+          "id": "c",
+          "text": "-1/Km"
+        },
+        {
+          "id": "d",
+          "text": "1/Vmax"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The plot is 1/v against 1/[S], and the x-intercept is -1/Km.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Allosteric enzymes are regulated by",
+      "options": [
+        {
+          "id": "a",
+          "text": "binding of effectors at a site other than the active site"
+        },
+        {
+          "id": "b",
+          "text": "competition at the active site"
+        },
+        {
+          "id": "c",
+          "text": "temperature only"
+        },
+        {
+          "id": "d",
+          "text": "pH only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Feedback inhibition of the first step of a pathway is a common example.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Feedback inhibition means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "a gene is deleted"
+        },
+        {
+          "id": "b",
+          "text": "the enzyme is destroyed"
+        },
+        {
+          "id": "c",
+          "text": "substrate activates the pathway"
+        },
+        {
+          "id": "d",
+          "text": "the end product of a pathway inhibits an earlier enzyme"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It prevents wasteful overproduction of the end product.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The lac operon is induced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "glucose in the presence of lactose"
+        },
+        {
+          "id": "b",
+          "text": "tryptophan"
+        },
+        {
+          "id": "c",
+          "text": "arabinose only"
+        },
+        {
+          "id": "d",
+          "text": "allolactose (lactose) in the absence of glucose"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is an example of an inducible system under catabolite repression.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Catabolite repression means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "cAMP is destroyed"
+        },
+        {
+          "id": "b",
+          "text": "lactose stops growth"
+        },
+        {
+          "id": "c",
+          "text": "glucose prevents expression of genes for use of other sugars"
+        },
+        {
+          "id": "d",
+          "text": "glucose is not used"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Low cAMP when glucose is plentiful reduces CAP activation of the operon.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "The trp operon is an example of a",
+      "options": [
+        {
+          "id": "a",
+          "text": "inducible operon"
+        },
+        {
+          "id": "b",
+          "text": "plasmid"
+        },
+        {
+          "id": "c",
+          "text": "constitutive gene"
+        },
+        {
+          "id": "d",
+          "text": "repressible operon"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Tryptophan binds the repressor, which then blocks transcription.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Nitrogen fixation is the conversion of",
+      "options": [
+        {
+          "id": "a",
+          "text": "amino acids to ammonia"
+        },
+        {
+          "id": "b",
+          "text": "atmospheric nitrogen to ammonia"
+        },
+        {
+          "id": "c",
+          "text": "nitrate to nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "ammonia to nitrate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Rhizobium in legume nodules and Azotobacter are fixers.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "The enzyme complex that fixes nitrogen is",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrate reductase"
+        },
+        {
+          "id": "b",
+          "text": "urease"
+        },
+        {
+          "id": "c",
+          "text": "catalase"
+        },
+        {
+          "id": "d",
+          "text": "nitrogenase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is oxygen sensitive, so legume nodules contain leghaemoglobin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The Calvin cycle fixes carbon dioxide using the enzyme",
+      "options": [
+        {
+          "id": "a",
+          "text": "catalase"
+        },
+        {
+          "id": "b",
+          "text": "RuBisCO"
+        },
+        {
+          "id": "c",
+          "text": "pyruvate kinase"
+        },
+        {
+          "id": "d",
+          "text": "PEP carboxylase only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ribulose bisphosphate carboxylase catalyses the first step.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "Obligate anaerobes lack",
+      "options": [
+        {
+          "id": "a",
+          "text": "ribosomes"
+        },
+        {
+          "id": "b",
+          "text": "DNA"
+        },
+        {
+          "id": "c",
+          "text": "catalase and superoxide dismutase"
+        },
+        {
+          "id": "d",
+          "text": "cell walls"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They cannot detoxify reactive oxygen species and are killed by oxygen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Catalase breaks down",
+      "options": [
+        {
+          "id": "a",
+          "text": "lactose"
+        },
+        {
+          "id": "b",
+          "text": "hydrogen peroxide into water and oxygen"
+        },
+        {
+          "id": "c",
+          "text": "glucose"
+        },
+        {
+          "id": "d",
+          "text": "urea"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Bubbling on adding hydrogen peroxide is the catalase test.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Fermentation of glucose to lactic acid and other acids, with a fall in pH, is shown by methyl red as",
+      "options": [
+        {
+          "id": "a",
+          "text": "no change"
+        },
+        {
+          "id": "b",
+          "text": "blue colour"
+        },
+        {
+          "id": "c",
+          "text": "red colour"
+        },
+        {
+          "id": "d",
+          "text": "yellow colour"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The methyl red test is positive for mixed acid fermenters such as Escherichia coli.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "The Voges-Proskauer test detects",
+      "options": [
+        {
+          "id": "a",
+          "text": "indole"
+        },
+        {
+          "id": "b",
+          "text": "urease"
+        },
+        {
+          "id": "c",
+          "text": "hydrogen sulphide"
+        },
+        {
+          "id": "d",
+          "text": "acetoin from butanediol fermentation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Klebsiella and Enterobacter are VP positive and E. coli is negative.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The phosphorylation of ADP to ATP by oxidative phosphorylation yields about 2.5 ATP per NADH. The ATP from 10 NADH is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "50"
+        },
+        {
+          "id": "b",
+          "text": "25"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "2.5"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "10 multiplied by 2.5 equals 25.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Fermentation of glucose needs free oxygen to proceed.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Fermentation occurs in the absence of oxygen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Glycolysis occurs in the cytoplasm.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It does not require mitochondria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Competitive inhibition can be overcome by increasing substrate concentration. Reason: The inhibitor and the substrate compete for the same active site.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "A ____ is a biological catalyst, usually a protein, that speeds up a reaction by lowering the activation energy.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is a biological catalyst, usually a protein, that speeds up a reaction by lowering the ____ energy.",
+        "answers": [
+          "enzyme",
+          "activation"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "coenzyme"
+        },
+        {
+          "id": "b",
+          "text": "hormone"
+        },
+        {
+          "id": "c",
+          "text": "vitamin"
+        },
+        {
+          "id": "d",
+          "text": "enzyme"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is not used up in the reaction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "____ is the process by which the end product of a pathway inhibits an early enzyme in the pathway, called feedback inhibition.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the process by which the end product of a pathway inhibits an early enzyme in the pathway, called ____ inhibition.",
+        "answers": [
+          "Regulation",
+          "feedback"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Repression"
+        },
+        {
+          "id": "b",
+          "text": "Activation"
+        },
+        {
+          "id": "c",
+          "text": "Regulation"
+        },
+        {
+          "id": "d",
+          "text": "Induction"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It prevents wasteful overproduction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

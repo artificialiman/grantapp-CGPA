@@ -1,0 +1,1392 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "physics-of-therapeutic-radiology",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Radiotherapy aims to",
+      "options": [
+        {
+          "id": "a",
+          "text": "image the body"
+        },
+        {
+          "id": "b",
+          "text": "deliver a lethal dose to tumour cells while sparing normal tissue"
+        },
+        {
+          "id": "c",
+          "text": "detect radioactivity"
+        },
+        {
+          "id": "d",
+          "text": "measure blood pressure"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The difference between tumour control and normal tissue complication is the therapeutic ratio.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Teletherapy is the treatment in which the source is",
+      "options": [
+        {
+          "id": "a",
+          "text": "in the bloodstream"
+        },
+        {
+          "id": "b",
+          "text": "inside the tumour"
+        },
+        {
+          "id": "c",
+          "text": "swallowed"
+        },
+        {
+          "id": "d",
+          "text": "at a distance from the patient"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "External beam radiotherapy is teletherapy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Brachytherapy is the treatment in which the source is",
+      "options": [
+        {
+          "id": "a",
+          "text": "outside the building"
+        },
+        {
+          "id": "b",
+          "text": "far from the patient"
+        },
+        {
+          "id": "c",
+          "text": "placed in or near the tumour"
+        },
+        {
+          "id": "d",
+          "text": "in the blood"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The short distance gives a steep dose fall-off.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A medical linear accelerator accelerates electrons using",
+      "options": [
+        {
+          "id": "a",
+          "text": "a magnetic field only"
+        },
+        {
+          "id": "b",
+          "text": "ultrasound"
+        },
+        {
+          "id": "c",
+          "text": "microwaves in a waveguide"
+        },
+        {
+          "id": "d",
+          "text": "gamma rays"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The microwave power is supplied by a magnetron or klystron at about 3 GHz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "In a linear accelerator, X-rays are produced by electrons striking",
+      "options": [
+        {
+          "id": "a",
+          "text": "a high-Z target such as tungsten"
+        },
+        {
+          "id": "b",
+          "text": "a bolus"
+        },
+        {
+          "id": "c",
+          "text": "a wedge"
+        },
+        {
+          "id": "d",
+          "text": "a flattening filter"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The photon beam has a spectrum of energies up to the nominal energy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The purpose of the flattening filter is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "make the dose profile uniform across the field"
+        },
+        {
+          "id": "b",
+          "text": "cool the target"
+        },
+        {
+          "id": "c",
+          "text": "stop electrons"
+        },
+        {
+          "id": "d",
+          "text": "accelerate electrons"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It absorbs more at the centre where the beam is more intense.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A multileaf collimator is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "shape the radiation field to the tumour"
+        },
+        {
+          "id": "b",
+          "text": "accelerate electrons"
+        },
+        {
+          "id": "c",
+          "text": "reduce energy"
+        },
+        {
+          "id": "d",
+          "text": "filter the electrons"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Modern MLCs have 80 to 160 leaves.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A cobalt-60 teletherapy unit produces gamma rays of mean energy",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.25 MeV"
+        },
+        {
+          "id": "b",
+          "text": "140 keV"
+        },
+        {
+          "id": "c",
+          "text": "511 keV"
+        },
+        {
+          "id": "d",
+          "text": "6 MeV"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The two photon energies are 1.17 and 1.33 MeV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A 6 MV photon beam means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "the electrons were accelerated through a potential of 6 million volts, giving a spectrum with a maximum of 6 MeV"
+        },
+        {
+          "id": "b",
+          "text": "the machine uses 6 volts"
+        },
+        {
+          "id": "c",
+          "text": "the photons have 6 MV charge"
+        },
+        {
+          "id": "d",
+          "text": "all photons have 6 MeV"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The mean photon energy is about one-third of the maximum.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The build-up region of a megavoltage photon beam gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "zero dose"
+        },
+        {
+          "id": "b",
+          "text": "no effect"
+        },
+        {
+          "id": "c",
+          "text": "maximum skin dose"
+        },
+        {
+          "id": "d",
+          "text": "skin sparing"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Secondary electrons need some depth to reach electronic equilibrium.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The depth of maximum dose (dmax) for cobalt-60 is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 cm"
+        },
+        {
+          "id": "b",
+          "text": "3.0 cm"
+        },
+        {
+          "id": "c",
+          "text": "1.5 cm"
+        },
+        {
+          "id": "d",
+          "text": "0.5 cm"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "For a 6 MV beam, dmax is about 1.5 cm, and about 3 cm for 15 to 18 MV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Percentage depth dose (PDD) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the dose at the skin"
+        },
+        {
+          "id": "b",
+          "text": "dose at the surface only"
+        },
+        {
+          "id": "c",
+          "text": "the dose at depth as a percentage of the dose at dmax"
+        },
+        {
+          "id": "d",
+          "text": "dose rate at the source"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It depends on energy, depth, field size and source-to-surface distance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "With increasing beam energy the percentage depth dose at 10 cm",
+      "options": [
+        {
+          "id": "a",
+          "text": "increases"
+        },
+        {
+          "id": "b",
+          "text": "decreases"
+        },
+        {
+          "id": "c",
+          "text": "is unchanged"
+        },
+        {
+          "id": "d",
+          "text": "becomes zero"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Higher-energy beams are more penetrating.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "One monitor unit (MU) is calibrated in reference conditions to deliver",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 R"
+        },
+        {
+          "id": "b",
+          "text": "1 cGy at dmax"
+        },
+        {
+          "id": "c",
+          "text": "1 Gy at the skin"
+        },
+        {
+          "id": "d",
+          "text": "1 J"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The reference conditions are a 10 cm by 10 cm field at 100 cm source-to-surface distance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "A prescription is 200 cGy at a depth where the PDD is 80 percent. The machine gives 1 cGy per MU at dmax. The MU needed (ignoring other factors) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "160"
+        },
+        {
+          "id": "b",
+          "text": "320"
+        },
+        {
+          "id": "c",
+          "text": "250"
+        },
+        {
+          "id": "d",
+          "text": "200"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "MU = prescribed dose divided by PDD fraction = 200 divided by 0.80 = 250.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "A cobalt-60 unit has an output of 80 cGy per minute at the treatment point. For a prescribed dose of 200 cGy, the treatment time is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.4 minutes"
+        },
+        {
+          "id": "b",
+          "text": "2.5 minutes"
+        },
+        {
+          "id": "c",
+          "text": "4 minutes"
+        },
+        {
+          "id": "d",
+          "text": "1.6 minutes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Time = 200 divided by 80 = 2.5 minutes.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The output of a cobalt-60 unit today is 100 cGy per minute. After one half-life (5.27 years), the output is",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 cGy per minute"
+        },
+        {
+          "id": "b",
+          "text": "25 cGy per minute"
+        },
+        {
+          "id": "c",
+          "text": "75 cGy per minute"
+        },
+        {
+          "id": "d",
+          "text": "50 cGy per minute"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Output halves each half-life, so treatment times must increase.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The dose rate at 80 cm from a source is 1 Gy per minute. At 100 cm it is (inverse square law)",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.8 Gy per minute"
+        },
+        {
+          "id": "b",
+          "text": "0.64 Gy per minute"
+        },
+        {
+          "id": "c",
+          "text": "1.25 Gy per minute"
+        },
+        {
+          "id": "d",
+          "text": "1.56 Gy per minute"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "(80 divided by 100) squared = 0.64.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The gross tumour volume (GTV) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the whole organ"
+        },
+        {
+          "id": "b",
+          "text": "the planning target volume"
+        },
+        {
+          "id": "c",
+          "text": "the tumour plus margin for microscopic disease"
+        },
+        {
+          "id": "d",
+          "text": "the visible or palpable extent of the tumour"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "CTV adds margin for subclinical spread. PTV adds margin for set-up error and motion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The planning target volume (PTV) includes a margin for",
+      "options": [
+        {
+          "id": "a",
+          "text": "the machine size"
+        },
+        {
+          "id": "b",
+          "text": "the skin"
+        },
+        {
+          "id": "c",
+          "text": "set-up uncertainty and organ motion"
+        },
+        {
+          "id": "d",
+          "text": "the dose rate"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It ensures that the CTV receives the prescribed dose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Organs at risk (OARs) are",
+      "options": [
+        {
+          "id": "a",
+          "text": "tumour tissues"
+        },
+        {
+          "id": "b",
+          "text": "shielding blocks"
+        },
+        {
+          "id": "c",
+          "text": "normal tissues whose radiation sensitivity may limit the prescribed dose"
+        },
+        {
+          "id": "d",
+          "text": "radioactive sources"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The spinal cord, lens, kidneys and lungs are typical.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The ICRU recommendation for dose homogeneity in the PTV is",
+      "options": [
+        {
+          "id": "a",
+          "text": "between +50 and -50 percent"
+        },
+        {
+          "id": "b",
+          "text": "between +7 percent and -5 percent of the prescribed dose"
+        },
+        {
+          "id": "c",
+          "text": "exactly 100 percent"
+        },
+        {
+          "id": "d",
+          "text": "any value"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The reference point is at or near the centre of the PTV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Intensity-modulated radiotherapy (IMRT) differs from conventional radiotherapy because",
+      "options": [
+        {
+          "id": "a",
+          "text": "only one beam is used"
+        },
+        {
+          "id": "b",
+          "text": "it uses no photons"
+        },
+        {
+          "id": "c",
+          "text": "the beam intensity is varied across each field"
+        },
+        {
+          "id": "d",
+          "text": "electrons are used only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It gives conformal doses around complex shapes and spares OARs.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Volumetric modulated arc therapy (VMAT) delivers dose during",
+      "options": [
+        {
+          "id": "a",
+          "text": "cobalt decay"
+        },
+        {
+          "id": "b",
+          "text": "brachytherapy"
+        },
+        {
+          "id": "c",
+          "text": "a stationary beam"
+        },
+        {
+          "id": "d",
+          "text": "rotation of the gantry in one or more arcs"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It shortens treatment time compared with fixed-field IMRT.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Image-guided radiotherapy (IGRT) uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "imaging before or during treatment to correct patient position"
+        },
+        {
+          "id": "b",
+          "text": "only palpation"
+        },
+        {
+          "id": "c",
+          "text": "lead blocks"
+        },
+        {
+          "id": "d",
+          "text": "no imaging"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Cone-beam CT is often used.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The Bragg peak is characteristic of",
+      "options": [
+        {
+          "id": "a",
+          "text": "gamma rays"
+        },
+        {
+          "id": "b",
+          "text": "neutrons"
+        },
+        {
+          "id": "c",
+          "text": "heavy charged particles such as protons"
+        },
+        {
+          "id": "d",
+          "text": "X-rays"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The dose is low at the surface, then peaks at the end of range and falls to zero.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The practical range in cm of an electron beam of energy E MeV in tissue is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "E divided by 2"
+        },
+        {
+          "id": "b",
+          "text": "E squared"
+        },
+        {
+          "id": "c",
+          "text": "E multiplied by 2"
+        },
+        {
+          "id": "d",
+          "text": "E divided by 10"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A 12 MeV beam penetrates about 6 cm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Electron beams are used mainly for",
+      "options": [
+        {
+          "id": "a",
+          "text": "imaging"
+        },
+        {
+          "id": "b",
+          "text": "deep tumours"
+        },
+        {
+          "id": "c",
+          "text": "bone density"
+        },
+        {
+          "id": "d",
+          "text": "superficial tumours"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The dose falls off rapidly beyond the range.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Bolus is used in radiotherapy to",
+      "options": [
+        {
+          "id": "a",
+          "text": "filter electrons"
+        },
+        {
+          "id": "b",
+          "text": "reduce skin dose"
+        },
+        {
+          "id": "c",
+          "text": "increase the dose to the skin surface"
+        },
+        {
+          "id": "d",
+          "text": "shape the MLC"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is a tissue-equivalent material placed on the skin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "A wedge filter in a photon beam is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "stop the beam"
+        },
+        {
+          "id": "b",
+          "text": "tilt the isodose curves to compensate for sloping surfaces"
+        },
+        {
+          "id": "c",
+          "text": "reduce scatter in air"
+        },
+        {
+          "id": "d",
+          "text": "increase the energy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It produces a gradient of dose across the field.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "High dose rate (HDR) brachytherapy is defined as a dose rate above",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.1 Gy per hour"
+        },
+        {
+          "id": "b",
+          "text": "1 Gy per hour"
+        },
+        {
+          "id": "c",
+          "text": "0.01 Gy per hour"
+        },
+        {
+          "id": "d",
+          "text": "12 Gy per hour"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Iridium-192 is the usual source and is delivered by a remote afterloader.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "A common seed implant source for permanent prostate brachytherapy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "iodine-125"
+        },
+        {
+          "id": "b",
+          "text": "iridium-192"
+        },
+        {
+          "id": "c",
+          "text": "cobalt-60"
+        },
+        {
+          "id": "d",
+          "text": "technetium-99m"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Its half-life is 59.4 days and the photon energy is low, about 28 keV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The standard fractionation scheme for curative radiotherapy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.2 Gy per fraction weekly"
+        },
+        {
+          "id": "b",
+          "text": "20 Gy per fraction daily"
+        },
+        {
+          "id": "c",
+          "text": "60 Gy in one fraction"
+        },
+        {
+          "id": "d",
+          "text": "2 Gy per fraction, 5 days a week"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Total doses of 60 to 70 Gy are used for many epithelial tumours.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The tolerance dose of the spinal cord for conventional fractionation is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "500 Gy"
+        },
+        {
+          "id": "b",
+          "text": "45 to 50 Gy"
+        },
+        {
+          "id": "c",
+          "text": "100 Gy"
+        },
+        {
+          "id": "d",
+          "text": "5 Gy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Exceeding it risks radiation myelitis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "The total dose to the cervix in external-beam radiotherapy for cervical cancer is usually followed by",
+      "options": [
+        {
+          "id": "a",
+          "text": "surgery only"
+        },
+        {
+          "id": "b",
+          "text": "a brachytherapy boost"
+        },
+        {
+          "id": "c",
+          "text": "chemotherapy only"
+        },
+        {
+          "id": "d",
+          "text": "no further treatment"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Combined external beam and brachytherapy gives the best local control.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Before each treatment fraction, the radiographer must confirm",
+      "options": [
+        {
+          "id": "a",
+          "text": "only the weather"
+        },
+        {
+          "id": "b",
+          "text": "patient identity, treatment site and set-up"
+        },
+        {
+          "id": "c",
+          "text": "nothing"
+        },
+        {
+          "id": "d",
+          "text": "the colour of the machine"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A time-out and independent checks prevent errors.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "A daily output check of a linear accelerator should be within",
+      "options": [
+        {
+          "id": "a",
+          "text": "any value"
+        },
+        {
+          "id": "b",
+          "text": "plus or minus 15 percent"
+        },
+        {
+          "id": "c",
+          "text": "plus or minus 30 percent"
+        },
+        {
+          "id": "d",
+          "text": "plus or minus 3 percent of the baseline"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Output deviations beyond tolerance require action.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "In radiotherapy, the \"inverse planning\" process means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "the plan is made in reverse after treatment"
+        },
+        {
+          "id": "b",
+          "text": "the planner specifies the desired dose and the computer finds the beam settings"
+        },
+        {
+          "id": "c",
+          "text": "beams are placed by hand"
+        },
+        {
+          "id": "d",
+          "text": "no dose is calculated"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is used for IMRT and VMAT.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Megavoltage photon beams spare the skin more than orthovoltage beams.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The build-up effect places the maximum dose below the surface.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "The output of a cobalt-60 unit is constant for its lifetime.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The source decays with a half-life of 5.27 years, so the output falls.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Skin sparing occurs in megavoltage photon radiotherapy. Reason: Electrons set in motion by photons travel forward and the dose builds up to a maximum below the surface.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the build-up effect.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "The ____ target volume includes the gross target volume plus a margin for subclinical tumour spread.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ target volume includes the ____ target volume plus a margin for subclinical tumour spread.",
+        "answers": [
+          "clinical",
+          "gross"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "planning"
+        },
+        {
+          "id": "b",
+          "text": "treated"
+        },
+        {
+          "id": "c",
+          "text": "clinical"
+        },
+        {
+          "id": "d",
+          "text": "organ"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The sequence is GTV, CTV and PTV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "____ is the treatment of cancer in which a radioactive source is placed inside or in contact with the tumour.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the treatment of cancer in which a radioactive source is placed ____ or in contact with the tumour.",
+        "answers": [
+          "Brachytherapy",
+          "inside"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Brachytherapy"
+        },
+        {
+          "id": "b",
+          "text": "Chemotherapy"
+        },
+        {
+          "id": "c",
+          "text": "Radiosurgery"
+        },
+        {
+          "id": "d",
+          "text": "Teletherapy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It gives a high dose to the tumour with a steep fall-off.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

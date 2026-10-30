@@ -1,0 +1,16 @@
+# dept: medical-physics
+# complete_years:
+# source: NO undergraduate Medical Physics course list was found in any source read (UNN, Ritman, Khairun, FUMHSF and NUC pages searched 2026-10-30). Year 1 is the standard NUC CCMAS 100-level science core (GST plus science-year1) and is an ASSUMPTION for this programme, not a confirmed Medical Physics table. Years 2-4 are unresearched. The ten year-4 rows are the subject areas in the UNN Department of Physics and Astronomy Medical Physics list (physicsandastronomy.unn.edu.ng/?p=272), which carries PHY 620 to PHY 629 and is therefore a postgraduate (600-level) list; they are placed at year 4 with no code so the app has something to teach, and are DERIVED, not a verified B.Sc. structure.
+# supersedes:
+@include gst
+@include science-year1
+4||Fundamentals of Nuclear Physics|c
+4||Radiation Detection and Dosimetry|c
+4||Nuclear Application in Medicine, Industry and Research|c
+4||Non-Ionizing Radiation|c
+4||Physiology and Anatomy for Medical Physics|c
+4||Radiation Protection|c
+4||Radiobiology|c
+4||Physics of Diagnostic Radiology|c
+4||Physics of Therapeutic Radiology|c
+4||Medical Instrumentation|c

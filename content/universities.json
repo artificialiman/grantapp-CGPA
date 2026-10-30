@@ -1,0 +1,16 @@
+{
+  "_note": "Registry of universities a question or feedback note can come from (field origin_universities, a list of these slugs). Sponsors supply university-specific material, so the dataset records where each item came from. Only the founder adds entries. A question with no origin_universities is general NUC CCMAS-level material, not tied to one university. Never label a question with a university unless that university's material was its source.",
+  "universities": [
+    {"slug": "ui", "name": "University of Ibadan"},
+    {"slug": "unn", "name": "University of Nigeria, Nsukka"},
+    {"slug": "uniben", "name": "University of Benin"},
+    {"slug": "unilorin", "name": "University of Ilorin"},
+    {"slug": "uniosun", "name": "Osun State University"},
+    {"slug": "mouau", "name": "Michael Okpara University of Agriculture, Umudike"},
+    {"slug": "funaab", "name": "Federal University of Agriculture, Abeokuta"},
+    {"slug": "khairun", "name": "Khairun University"},
+    {"slug": "caleb", "name": "Caleb University"},
+    {"slug": "dominion", "name": "Dominion University"},
+    {"slug": "fumhsf", "name": "Federal University of Medical and Health Sciences, Funtua"}
+  ]
+}

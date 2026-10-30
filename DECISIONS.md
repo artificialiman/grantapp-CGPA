@@ -190,3 +190,19 @@ is edited.
 1. The faculty-to-Supabase-account mapping (one project today, so nothing
    blocks the build).
 2. What manual sign-up holders receive beyond updates, if anything.
+
+## 2026-10-30: University of origin, and question kinds
+
+- **University of origin is a tag on questions and feedback notes.** Sponsors collect each university's own material, so accuracy
+  can be traced to a source. Field: `origin_universities` (list of slugs from `content/universities.json`). The founder owns the
+  registry. Content written from general knowledge is never labelled with a university.
+- **Question kinds beyond multiple choice** (`true_false`, `assertion_reason`, `cloze`) are added without breaking the existing
+  screen: each still carries a multiple-choice form. Details and rules in `handoff/QUESTION_KINDS.md`.
+- **Fill-in-the-blank (cloze) is the test type for definitions, quotations and professional registers.** Chosen for memorisation
+  of exact wording. Needs its own screen; until then it shows as a multiple-choice question on blank 1.
+- **Medical Physics added as a department under Science.** No verified undergraduate course table was found; its ten subject
+  rows are derived from the UNN postgraduate list and are marked as such in `curriculum/medical-physics.txt`. Replace them when a
+  sponsor supplies a university's own table.
+- **Content limit raised for the focus group:** at least 30 questions per course, up to 100 for heavy courses (was 500 per install).
+- **The 40-question cap per content commit and per batch is removed** (founder, 2026-10-30). `handoff/VETTING.md` and `handoff/LANES.md` updated. The 200-line commit cap in LANES.md is unchanged.
+- **FLAG: the Medical Physics course list comes from postgraduate sources.** The only list found is the UNN Medical Physics list (PHY 620 to 629, 600-level). No undergraduate table has been found. The ten courses and 432 questions are postgraduate-level subject areas placed at year 4 of an undergraduate department. Treat them as provisional until a sponsor supplies an undergraduate table.
