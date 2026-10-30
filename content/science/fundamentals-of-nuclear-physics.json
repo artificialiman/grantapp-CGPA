@@ -1277,6 +1277,253 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Gamma rays carry no electric charge.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They are photons, so they are not deflected by electric or magnetic fields.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "After 4 half-lives, one-sixteenth of the original activity remains.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "(1/2) to the power 4 is 1/16.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "Assertion: The nucleus of a stable heavy atom has more neutrons than protons. Reason: Neutrons add attraction by the nuclear force without adding electrostatic repulsion.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion. The stable line bends above N = Z for heavy nuclei.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "The ____ of a radioactive nuclide is the time taken for its activity to fall to one-half of its initial value.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ of a radioactive nuclide is the time taken for its ____ to fall to one-half of its initial value.",
+        "answers": [
+          "half-life",
+          "activity"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "range"
+        },
+        {
+          "id": "b",
+          "text": "decay constant"
+        },
+        {
+          "id": "c",
+          "text": "mean life"
+        },
+        {
+          "id": "d",
+          "text": "half-life"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The number of undecayed nuclei, and so the activity, falls by half in each half-life.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "The ____ of a nucleus is the energy equivalent of its mass defect, the difference between the mass of its separate nucleons and its actual mass.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ of a nucleus is the energy equivalent of its ____, the difference between the mass of its separate nucleons and its actual mass.",
+        "answers": [
+          "binding energy",
+          "mass defect"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "excitation energy"
+        },
+        {
+          "id": "b",
+          "text": "kinetic energy"
+        },
+        {
+          "id": "c",
+          "text": "ionisation energy"
+        },
+        {
+          "id": "d",
+          "text": "binding energy"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is calculated using E = mc squared with 1 u equal to 931.5 MeV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "____ is the number of particles in one mole of any substance, equal to 6.022 x 10 to the power 23.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the number of ____ in one mole of any substance, equal to 6.022 x 10 to the power 23.",
+        "answers": [
+          "Avogadro's constant",
+          "particles"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Boltzmann's constant"
+        },
+        {
+          "id": "b",
+          "text": "Planck's constant"
+        },
+        {
+          "id": "c",
+          "text": "Avogadro's constant"
+        },
+        {
+          "id": "d",
+          "text": "Faraday's constant"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It converts between the number of particles and the amount of substance in moles.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "____ is the spontaneous disintegration of an unstable nucleus with the emission of alpha, beta or gamma radiation.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the spontaneous ____ of an unstable nucleus with the emission of alpha, beta or gamma radiation.",
+        "answers": [
+          "Radioactive decay",
+          "disintegration"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Nuclear fusion"
+        },
+        {
+          "id": "b",
+          "text": "Fission"
+        },
+        {
+          "id": "c",
+          "text": "Radioactive decay"
+        },
+        {
+          "id": "d",
+          "text": "Ionisation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is a random process governed by the decay constant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
