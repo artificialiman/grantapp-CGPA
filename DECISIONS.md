@@ -139,3 +139,43 @@ NOT silently resolved.
 9. Who sets `approved` on a question: manchi, or "an agent".
 10. Fork F-5 (export location) answered "keep"; D-7 left blank, so its
     default applies: a push runs check and build automatically.
+
+## 2026-10-30 (later) — Founder's replies to the listed conflicts
+Replies to the ten "Unresolved" items in the entry above. Where a reply
+settles an item it SUPERSEDES that part of the entry above; nothing above
+is edited.
+
+**Decided**
+- **Money.** All money is donation. A subscription donation unlocks a
+  special tier. (Replaces "paid unlock".) Vercel's Hobby terms exempt
+  "asking for donations" from commercial use; whether a donation that
+  unlocks a tier stays inside that exemption is Vercel's reading to make.
+- **Age.** All ages are welcome. The university admission age in Nigeria is
+  16 and anyone may test. There is no age gate. The Data Protection Act
+  s.31 requires a guardian's consent for a child, and the Act takes its
+  definition of child from the Child's Rights Act; the founder's decision
+  stands as recorded, with that reading noted here.
+- **Registration.** "Myself" and "team" are the same: the founder files.
+- **Deletion.** Data is deleted on the client's request. This supersedes
+  INVARIANTS #4 ("not deleted when they stop using the app").
+- **500 and 10,000.** 500 questions in the first install, with answers and
+  feedback on the device, do not threaten the target of up to 10,000
+  questions per course (INVARIANTS #11). 500 is the install, not a ceiling.
+- **Review and sourcing.** manchi reviews and tags every question and sets
+  `approved`. The founder generates or sources questions manually and
+  hands them over.
+- **Priority.** The app working end to end outranks question count.
+  Questions are a continuum; 10,000 will not arrive at once. Content
+  numbers in the plan are pace markers, not gates.
+- **Routing.** A faculty-based rule will route users to a Supabase account.
+  The rule is to be supplied.
+
+**Still open**
+1. Feedback after each question, or after the whole test.
+2. What the special tier contains, and whether it belongs to the account or
+   the device.
+3. The routing rule, and how sign-up finds the right database before a
+   faculty has been chosen (the 2-device check also needs the student's
+   database).
+4. The sticky widget, keyboard or overlay needs a native Android app; the
+   app is a web app.

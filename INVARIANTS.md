@@ -63,7 +63,8 @@ awaiting confirmation.
 4. `[CONFIRMED]` A student's habits/results/rank profile is not deleted
    when they stop using the app or graduate. It converts into two durable
    artifacts: (a) a transcript, and (b) a "GrantApp Wrapped"-style
-   retrospective summary of their academic journey.
+   retrospective summary of their academic journey. Deletion on the
+   client's request now applies (see #31).
 5. `[OPEN]` The exact contents, format, and generation trigger for the
    transcript and the "Wrapped" artifact are not yet defined — belongs in
    DATA_DICTIONARY.md once scoped.
@@ -140,8 +141,19 @@ awaiting confirmation.
     faculties' pathways. `[OPEN]` General and shared courses stay visible.
 30. `[CONFIRMED]` Biodata and programme are taken at onboarding and a
     remember-me session is kept on the device.
-31. `[OPEN]` Deletion on the client's request versus #4 (profile never
-    deleted). `[OPEN]` Guardian consent for under-18s versus the stated "no
-    age limit" (Data Protection Act s.31). `[OPEN]` Which features sit
-    behind the paid unlock and whether it belongs to the account or the
-    device.
+31. `[CONFIRMED]` A student's data is deleted on their request. This
+    supersedes the "not deleted" rule in #4.
+32. `[CONFIRMED]` All ages are welcome and there is no age gate. The
+    university admission age in Nigeria is 16 and anyone may test. The Data
+    Protection Act s.31 asks for a guardian's consent for a child; see
+    DECISIONS 2026-10-30 (later).
+33. `[CONFIRMED]` All money is donation. A subscription donation unlocks a
+    special tier. `[OPEN]` What the tier contains, and whether it belongs to
+    the account or the device.
+34. `[OPEN]` Users are routed to a Supabase account by a faculty-based rule,
+    to be supplied. Sign-up must find its database before a faculty is chosen.
+35. `[CONFIRMED]` The app working end to end outranks question count.
+    Questions grow continuously. 500 is the first install, not a ceiling,
+    and does not conflict with up to 10,000 per course (#11).
+36. `[CONFIRMED]` manchi reviews, tags and approves every question. The
+    founder generates or sources questions manually.

@@ -63,14 +63,8 @@ Stop rules:
 **Done when:** the script runs with `python3` and no arguments, the output has no duplicate `(department_slug, slug)` pair, and every course named in C-O1 appears.
 **Commit:** `content: generate course-map.json from the seed migrations`.
 
-### C-O3 · obase · Question batch of 40 (repeat, 60 min each) — UNBLOCKED
-Founder decision 2026-10-30: build the whole platform whatever the December course list. Goal: reach 520 approved questions by Nov 27 (gates in `PRODUCTION_PLAN.md`), spread across every faculty, so the first install holds at least 500.
-**Read:** `PRODUCTION_PLAN.md` section 5, `handoff/VETTING.md`, `content/taxonomy.json`, one existing file in `content/`.
-**Write:** `content/**` only. Add questions to an existing course file (ids continue: q009, q010 …) or create `content/{faculty}/{course}.json`, using the slug rules in the validator docstring.
-**Order of courses:** (1) GST courses, since every student sits them; (2) each faculty's first-year core; (3) the course with the fewest questions in the faculty with the fewest. Write the choice into your `pausa.md` section.
-**Do:** exactly 40 questions per pull request, all `status: "pending"`. In the pull request body, list the 40 ids and, for each, the one-line fact or derivation the answer rests on. Rules in `PRODUCTION_PLAN.md` section 5.
-**Done when:** CI is green on the pull request. manchi vets and approves; you do not set `approved`.
-**Commit:** `content: <course> +40 questions (pending)`.
+### C-O3 · obase · ON HOLD — the founder sources questions
+Founder decision 2026-10-30: he generates or sources questions by hand and manchi reviews and tags them (intake: `inbox/README.md`). obase writes questions only if the founder asks. After C-O2, obase waits for a new card.
 
 ### C-S1 · sloww · Touch targets and safe areas (30 min)
 **Goal:** the known gaps in `PROJECT_BRIEF.md` status: buttons under 44 px, no notch handling.
