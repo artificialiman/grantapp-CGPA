@@ -50,6 +50,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science"
    ],
@@ -101,6 +102,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science"
    ],
@@ -148,6 +150,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology"
    ],
    "general_name": "Introductory Biology Laboratory I",
@@ -194,6 +197,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology"
    ],
    "general_name": "Introductory Biology Laboratory II",
@@ -271,6 +275,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -350,6 +355,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -423,6 +429,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -502,6 +509,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -629,6 +637,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -718,6 +727,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -806,6 +816,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -916,6 +927,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -992,6 +1004,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -1078,6 +1091,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -1164,6 +1178,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering"
@@ -1378,6 +1393,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -1841,6 +1857,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -1922,6 +1939,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",

@@ -83,6 +83,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -162,6 +163,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -235,6 +237,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -314,6 +317,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -506,6 +510,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science"
@@ -594,6 +599,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -683,6 +689,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -771,6 +778,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -909,6 +917,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -985,6 +994,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -1161,6 +1171,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -1247,6 +1258,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "pharmacy"
@@ -1374,6 +1386,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -2036,6 +2049,7 @@
     "insurance",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science"
@@ -2196,6 +2210,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -2648,6 +2663,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",

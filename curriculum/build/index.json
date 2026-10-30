@@ -197,7 +197,8 @@
     "Geology"
    ],
    "open": [
-    "biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences."
+    "biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences.",
+    "medical-physics: no undergraduate course list found; year 1 assumed from the science core and the year-4 rows derived from UNN's postgraduate list. Replace when a sponsor supplies the university's own table."
    ],
    "departments": [
     {
@@ -220,6 +221,18 @@
       "2": 20,
       "3": 10,
       "4": 13,
+      "5": 0,
+      "6": 0
+     }
+    },
+    {
+     "slug": "medical-physics",
+     "courses": 31,
+     "by_year": {
+      "1": 17,
+      "2": 2,
+      "3": 2,
+      "4": 10,
       "5": 0,
       "6": 0
      }
@@ -411,6 +424,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -440,6 +454,7 @@
     "insurance",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -466,6 +481,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -493,6 +509,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -520,6 +537,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -547,6 +565,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "nursing-science",
@@ -569,6 +588,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -591,6 +611,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -613,6 +634,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -635,6 +657,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -656,6 +679,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -677,6 +701,7 @@
     "human-medicine",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -698,6 +723,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -719,6 +745,7 @@
     "electrical-and-electronic-engineering",
     "environmental-management-and-toxicology",
     "mechanical-engineering",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -739,6 +766,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -759,6 +787,7 @@
     "environmental-management-and-toxicology",
     "mechanical-engineering",
     "medical-laboratory-science",
+    "medical-physics",
     "metallurgical-and-materials-engineering",
     "microbiology",
     "petroleum-engineering",
@@ -1244,6 +1273,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
     "pharmacy"
@@ -1258,22 +1288,9 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "nursing-science",
-    "pharmacy"
-   ]
-  },
-  {
-   "name": "Project",
-   "years": [
-    5
-   ],
-   "departments": [
-    "civil-engineering",
-    "environmental-management-and-toxicology",
-    "metallurgical-and-materials-engineering",
-    "nursing-science",
-    "petroleum-engineering",
     "pharmacy"
    ]
   },
@@ -1286,6 +1303,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "pharmacy"
    ]
@@ -1299,6 +1317,7 @@
     "biochemistry",
     "environmental-management-and-toxicology",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology",
     "pharmacy"
    ]
@@ -1313,7 +1332,22 @@
     "computer-science",
     "cybersecurity",
     "medical-laboratory-science",
+    "medical-physics",
     "microbiology"
+   ]
+  },
+  {
+   "name": "Project",
+   "years": [
+    5
+   ],
+   "departments": [
+    "civil-engineering",
+    "environmental-management-and-toxicology",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
    ]
   },
   {
