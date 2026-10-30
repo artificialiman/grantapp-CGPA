@@ -7,26 +7,34 @@
   "questions": [
     {
       "id": "q001",
-      "prompt": "An isotope of an element has the same number of ____ but a different number of ____.",
+      "prompt": "An isotope of an element has the same number of ____ but a different number of neutrons.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "An isotope of an element has the same number of ____ but a different number of ____.",
+        "answers": [
+          "protons",
+          "neutrons"
+        ]
+      },
       "options": [
         {
           "id": "a",
-          "text": "protons;neutrons"
+          "text": "electrons"
         },
         {
           "id": "b",
-          "text": "nucleons;protons"
+          "text": "neutrons"
         },
         {
           "id": "c",
-          "text": "neutrons;protons"
+          "text": "protons"
         },
         {
           "id": "d",
-          "text": "electrons;nucleons"
+          "text": "nucleons"
         }
       ],
-      "correct_option_id": "a",
+      "correct_option_id": "c",
       "explanation": "Isotopes share the atomic number Z and differ in neutron number N, so their mass numbers A differ.",
       "cognitive_patterns": [
         "Logical"
