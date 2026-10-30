@@ -42,6 +42,7 @@ GST and ENT are university-wide core. GET is the shared engineering core.
 | computer-science | University of Ibadan CCMAS | 1-5 | High |
 | biochemistry | Khairun CCMAS | 1-4 | High |
 | microbiology | UNIOSUN | 1-4 | Medium: years 2-4 not labelled CCMAS |
+| medical-physics | UNN Medical Physics list (PHY 620-629) | none verified | **Low: postgraduate source.** Year 1 assumed, years 2-3 unresearched, year 4 rows derived |
 | medical-laboratory-science | Khairun CCMAS | 1-5 | High |
 | cybersecurity | Khairun CCMAS | 1-4 | High |
 | economics | UNIOSUN (y1), UNN (y2, y4), UNIBEN (y3) | 1-4 | Medium: mixed numbering across universities |

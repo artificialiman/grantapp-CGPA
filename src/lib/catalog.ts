@@ -104,6 +104,8 @@ export const CATALOG: CatalogFaculty[] = [
 				]
 			},
 			{
+				// FLAG: course list derived from POSTGRADUATE sources (UNN PHY 620-629); no undergraduate
+				// Medical Physics table found. Provisional. See curriculum/medical-physics.txt and DECISIONS.md.
 				slug: 'medical-physics',
 				name: 'Medical Physics',
 				courses: [

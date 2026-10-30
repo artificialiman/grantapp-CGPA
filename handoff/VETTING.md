@@ -10,7 +10,7 @@ Owner: manchi. Applies to every question before `status` becomes `approved`. The
 5. **Level matches the tag.** Difficulty 1 to 5 reflects university level for the named course. Tags come only from `content/taxonomy.json`.
 6. **No repeats.** The validator catches identical prompts; manchi also catches the same question reworded.
 
-## Per batch (at most 40 questions)
+## Per batch (no size cap)
 - Run `python3 scripts/check-content.py`. No errors; read every warning in the batch.
 - Answer letters: no letter correct in more than 35% of the file.
 - Record the batch in `handoff/vetting-log.md`: date, file, ids approved, ids rejected, ids held, and five ids chosen at random for anyone who wants to spot-check.

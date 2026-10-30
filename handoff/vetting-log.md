@@ -7,6 +7,7 @@ Batches recorded under `handoff/VETTING.md`. One section per batch.
 Author: Manchi (Claude), session https://claude.ai/code/session_01KUTLjSiZ7CSVH7h6m4emtX.
 Method: each key derived from the subject, distractors written to be plausible, every explanation teaches the answer, every calculation recomputed before it was kept.
 Review: single reader (the author). No second reviewer has read these. All are marked `approved` so the packs ship to the focus group; a subject lecturer or sponsor should spot-check before wide release.
+FLAG: the Medical Physics banks (10 files, 432 questions) follow a course list taken from postgraduate sources (UNN PHY 620 to 629). Their level is provisional.
 Origin: general CCMAS-level material. No question carries an `origin_universities` tag because none was drawn from one university's own notes.
 Held: none. Rejected: none.
 
