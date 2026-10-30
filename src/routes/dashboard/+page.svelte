@@ -81,7 +81,6 @@
 						<li>
 							<a href={c.href} class="programme-row">
 								<span class="programme-course">{c.name}</span>
-								{#if c.code}<span class="programme-code">{c.code}</span>{/if}
 							</a>
 						</li>
 					{/each}

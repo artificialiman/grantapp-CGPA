@@ -40,7 +40,7 @@
 			</div>
 
 			{#if sub.courses}
-				<div class="submission-course">For: {sub.courses.name}{sub.courses.code ? ` (${sub.courses.code})` : ''}</div>
+				<div class="submission-course">For: {sub.courses.name}</div>
 			{/if}
 
 			{#if sub.notes_text}
