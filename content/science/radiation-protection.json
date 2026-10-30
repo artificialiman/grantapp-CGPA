@@ -1,0 +1,1275 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "radiation-protection",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The three principles of radiation protection are",
+      "options": [
+        {
+          "id": "a",
+          "text": "avoidance, monitoring and recording"
+        },
+        {
+          "id": "b",
+          "text": "detection, filtration and storage"
+        },
+        {
+          "id": "c",
+          "text": "distance, time and shielding"
+        },
+        {
+          "id": "d",
+          "text": "justification, optimisation and dose limitation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "ICRP recommends that no practice be adopted unless it does more good than harm, doses be kept as low as reasonably achievable, and limits not be exceeded.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "ALARA stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "always limit all radiation access"
+        },
+        {
+          "id": "b",
+          "text": "as low as reasonably achievable"
+        },
+        {
+          "id": "c",
+          "text": "as long as radiation allows"
+        },
+        {
+          "id": "d",
+          "text": "as little as radiation allows"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Economic and social factors are considered when optimising protection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The three basic methods of external protection are",
+      "options": [
+        {
+          "id": "a",
+          "text": "filter, barrier and mask"
+        },
+        {
+          "id": "b",
+          "text": "mass, distance and energy"
+        },
+        {
+          "id": "c",
+          "text": "time, distance and shielding"
+        },
+        {
+          "id": "d",
+          "text": "time, dose and detection"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Reduce time near the source, increase distance, and use shielding.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Under the inverse square law, doubling the distance from a point source",
+      "options": [
+        {
+          "id": "a",
+          "text": "reduces the dose rate to one-quarter"
+        },
+        {
+          "id": "b",
+          "text": "doubles it"
+        },
+        {
+          "id": "c",
+          "text": "reduces it to one-half"
+        },
+        {
+          "id": "d",
+          "text": "has no effect"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Intensity is proportional to 1 divided by distance squared.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A radiographer measures 100 microsieverts per hour at 1 m from a point source. At 5 m the dose rate is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 microsieverts per hour"
+        },
+        {
+          "id": "b",
+          "text": "500 microsieverts per hour"
+        },
+        {
+          "id": "c",
+          "text": "4 microsieverts per hour"
+        },
+        {
+          "id": "d",
+          "text": "0.8 microsieverts per hour"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Distance is 5 times greater, so the rate falls by 25. 100 divided by 25 = 4.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A point source gives a dose rate of 75 microsieverts per hour at 2 m. At 1 m the dose rate is",
+      "options": [
+        {
+          "id": "a",
+          "text": "37.5 microsieverts per hour"
+        },
+        {
+          "id": "b",
+          "text": "150 microsieverts per hour"
+        },
+        {
+          "id": "c",
+          "text": "75 microsieverts per hour"
+        },
+        {
+          "id": "d",
+          "text": "300 microsieverts per hour"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Halving the distance quadruples the rate. 75 multiplied by 4 = 300.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The half-value layer (HVL) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the thickness that reduces it to one-tenth"
+        },
+        {
+          "id": "b",
+          "text": "the thickness of material that reduces the beam intensity to one-half"
+        },
+        {
+          "id": "c",
+          "text": "half the range of the beam"
+        },
+        {
+          "id": "d",
+          "text": "the distance at which dose halves"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "After n HVLs, the intensity is I0 divided by 2 to the power n.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The HVL of a lead shield for a gamma beam is 4 mm. A lead thickness of 12 mm reduces the intensity to",
+      "options": [
+        {
+          "id": "a",
+          "text": "one-third"
+        },
+        {
+          "id": "b",
+          "text": "one-half"
+        },
+        {
+          "id": "c",
+          "text": "one-sixth"
+        },
+        {
+          "id": "d",
+          "text": "one-eighth"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "12 mm is 3 HVL, so the intensity is (1/2) cubed = 1/8.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The tenth-value layer (TVL) is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 multiplied by the HVL"
+        },
+        {
+          "id": "b",
+          "text": "0.69 multiplied by the HVL"
+        },
+        {
+          "id": "c",
+          "text": "10 multiplied by the HVL"
+        },
+        {
+          "id": "d",
+          "text": "3.32 multiplied by the HVL"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Since 2 to the power 3.32 is 10, TVL = 3.32 HVL.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The linear attenuation coefficient of a shield is 0.1386 per cm. The HVL is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 cm"
+        },
+        {
+          "id": "b",
+          "text": "0.693 cm"
+        },
+        {
+          "id": "c",
+          "text": "0.1 cm"
+        },
+        {
+          "id": "d",
+          "text": "5 cm"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "HVL = 0.693 divided by 0.1386 = 5.0 cm.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Which material is best for shielding against gamma rays and X-rays?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plastic"
+        },
+        {
+          "id": "b",
+          "text": "Aluminium"
+        },
+        {
+          "id": "c",
+          "text": "Lead"
+        },
+        {
+          "id": "d",
+          "text": "Water"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "High density and atomic number give strong absorption.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Beta particles are best shielded by",
+      "options": [
+        {
+          "id": "a",
+          "text": "lead alone"
+        },
+        {
+          "id": "b",
+          "text": "low atomic number material such as plastic or aluminium"
+        },
+        {
+          "id": "c",
+          "text": "paper only"
+        },
+        {
+          "id": "d",
+          "text": "nothing"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "High-Z materials produce bremsstrahlung X-rays when beta particles stop in them.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Shielding for neutrons is best done with",
+      "options": [
+        {
+          "id": "a",
+          "text": "hydrogen-rich materials such as water, polythene or concrete"
+        },
+        {
+          "id": "b",
+          "text": "steel only"
+        },
+        {
+          "id": "c",
+          "text": "lead"
+        },
+        {
+          "id": "d",
+          "text": "aluminium foil"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Hydrogen slows neutrons efficiently, and boron or cadmium absorbs the slowed neutrons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Alpha particles are stopped by",
+      "options": [
+        {
+          "id": "a",
+          "text": "several centimetres of lead"
+        },
+        {
+          "id": "b",
+          "text": "a sheet of paper or the dead layer of skin"
+        },
+        {
+          "id": "c",
+          "text": "a thick steel plate"
+        },
+        {
+          "id": "d",
+          "text": "a metre of concrete"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "They are an internal hazard if inhaled or ingested.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The ICRP occupational limit of effective dose is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 mSv per year"
+        },
+        {
+          "id": "b",
+          "text": "100 mSv per year"
+        },
+        {
+          "id": "c",
+          "text": "5 mSv per year"
+        },
+        {
+          "id": "d",
+          "text": "20 mSv per year averaged over 5 years, with no more than 50 mSv in a single year"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The limit for members of the public is 1 mSv per year.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The annual effective dose limit for members of the public is",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 mSv"
+        },
+        {
+          "id": "b",
+          "text": "1 mSv"
+        },
+        {
+          "id": "c",
+          "text": "5 mSv"
+        },
+        {
+          "id": "d",
+          "text": "20 mSv"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It excludes natural background and medical exposures.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The equivalent dose limit for the lens of the eye for workers is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 mSv per year averaged over 5 years"
+        },
+        {
+          "id": "b",
+          "text": "150 mSv per year"
+        },
+        {
+          "id": "c",
+          "text": "500 mSv per year"
+        },
+        {
+          "id": "d",
+          "text": "1 mSv per year"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The ICRP reduced it in 2011 from 150 mSv per year.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The occupational equivalent dose limit for the skin and extremities is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 mSv per year"
+        },
+        {
+          "id": "b",
+          "text": "20 mSv per year"
+        },
+        {
+          "id": "c",
+          "text": "500 mSv per year"
+        },
+        {
+          "id": "d",
+          "text": "50 mSv per year"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Skin and extremities are less sensitive than the whole body.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "After a pregnant worker declares her pregnancy, the dose to the fetus for the remainder of the pregnancy should not exceed",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 mSv"
+        },
+        {
+          "id": "b",
+          "text": "1 mSv"
+        },
+        {
+          "id": "c",
+          "text": "20 mSv"
+        },
+        {
+          "id": "d",
+          "text": "5 mSv"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The worker's duties may be changed to meet this limit.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The worldwide average annual dose from natural background radiation is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "240 mSv"
+        },
+        {
+          "id": "b",
+          "text": "24 mSv"
+        },
+        {
+          "id": "c",
+          "text": "2.4 mSv"
+        },
+        {
+          "id": "d",
+          "text": "0.24 mSv"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Radon is the largest contributor.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The largest natural source of radiation exposure to the public is",
+      "options": [
+        {
+          "id": "a",
+          "text": "potassium-40 in the body"
+        },
+        {
+          "id": "b",
+          "text": "radon and its decay products"
+        },
+        {
+          "id": "c",
+          "text": "cosmic rays"
+        },
+        {
+          "id": "d",
+          "text": "terrestrial gamma rays"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is a radioactive gas from uranium decay that accumulates indoors.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "A typical effective dose from a chest X-ray is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.1 mSv"
+        },
+        {
+          "id": "b",
+          "text": "1000 mSv"
+        },
+        {
+          "id": "c",
+          "text": "100 mSv"
+        },
+        {
+          "id": "d",
+          "text": "10 mSv"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is equal to about 10 days of natural background.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "A typical effective dose from a CT scan of the abdomen is on the order of",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.01 mSv"
+        },
+        {
+          "id": "b",
+          "text": "1000 mSv"
+        },
+        {
+          "id": "c",
+          "text": "0.1 mSv"
+        },
+        {
+          "id": "d",
+          "text": "10 mSv"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "CT contributes a large fraction of medical exposure.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Stochastic effects of radiation are those for which",
+      "options": [
+        {
+          "id": "a",
+          "text": "severity increases with dose and there is a threshold"
+        },
+        {
+          "id": "b",
+          "text": "effects appear within hours"
+        },
+        {
+          "id": "c",
+          "text": "probability increases with dose and there is no threshold"
+        },
+        {
+          "id": "d",
+          "text": "a single dose is always lethal"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cancer and hereditary effects are stochastic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Deterministic (tissue reaction) effects",
+      "options": [
+        {
+          "id": "a",
+          "text": "occur at any dose with a fixed severity"
+        },
+        {
+          "id": "b",
+          "text": "have no threshold"
+        },
+        {
+          "id": "c",
+          "text": "have a threshold dose and severity increases with dose"
+        },
+        {
+          "id": "d",
+          "text": "are always hereditary"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cataract, skin erythema and sterility are examples.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The linear no-threshold (LNT) model assumes that",
+      "options": [
+        {
+          "id": "a",
+          "text": "risk is proportional to dose with no safe threshold"
+        },
+        {
+          "id": "b",
+          "text": "risk falls at low dose"
+        },
+        {
+          "id": "c",
+          "text": "there is a safe dose"
+        },
+        {
+          "id": "d",
+          "text": "only high doses carry risk"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is used for radiation protection at low doses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "A controlled area is one where",
+      "options": [
+        {
+          "id": "a",
+          "text": "no radiation exists"
+        },
+        {
+          "id": "b",
+          "text": "special protection measures are required and access is restricted"
+        },
+        {
+          "id": "c",
+          "text": "only the public may enter"
+        },
+        {
+          "id": "d",
+          "text": "any person may enter freely"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Entry requires training, monitoring and authorisation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "In X-ray room shielding design, the factor U (use factor) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the time the room is occupied"
+        },
+        {
+          "id": "b",
+          "text": "the distance to the barrier"
+        },
+        {
+          "id": "c",
+          "text": "the fraction of time the primary beam points at a given barrier"
+        },
+        {
+          "id": "d",
+          "text": "the workload"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Occupancy factor T is the fraction of time the area is occupied.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "A primary barrier in an X-ray room is one that",
+      "options": [
+        {
+          "id": "a",
+          "text": "intercepts the useful beam"
+        },
+        {
+          "id": "b",
+          "text": "only stops scatter"
+        },
+        {
+          "id": "c",
+          "text": "is made of wood"
+        },
+        {
+          "id": "d",
+          "text": "only reduces leakage"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Secondary barriers protect against leakage and scattered radiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Lead aprons used in fluoroscopy are usually equivalent to",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 cm of lead"
+        },
+        {
+          "id": "b",
+          "text": "0.001 mm of lead"
+        },
+        {
+          "id": "c",
+          "text": "5 mm of lead"
+        },
+        {
+          "id": "d",
+          "text": "0.25 to 0.5 mm of lead"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They attenuate scattered X-rays but not the primary beam.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Before handling an unsealed radioactive source, a worker should",
+      "options": [
+        {
+          "id": "a",
+          "text": "wear gloves and a lab coat, use a tray and monitor hands afterwards"
+        },
+        {
+          "id": "b",
+          "text": "eat first"
+        },
+        {
+          "id": "c",
+          "text": "handle without gloves"
+        },
+        {
+          "id": "d",
+          "text": "keep it in a pocket"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Contamination control prevents ingestion and spread.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "If a radioactive liquid is spilled, the first step is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "warn others, contain the spill and restrict access"
+        },
+        {
+          "id": "b",
+          "text": "mop it up with bare hands"
+        },
+        {
+          "id": "c",
+          "text": "ignore it"
+        },
+        {
+          "id": "d",
+          "text": "flush it into a sink"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Then decontaminate from the outside inwards and monitor.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Radioactive waste with a short half-life may be",
+      "options": [
+        {
+          "id": "a",
+          "text": "thrown in a bin"
+        },
+        {
+          "id": "b",
+          "text": "stored for decay until activity is below clearance levels"
+        },
+        {
+          "id": "c",
+          "text": "poured into a drain"
+        },
+        {
+          "id": "d",
+          "text": "burned in the open"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Storage for about 10 half-lives usually reduces the activity to below 0.1 percent.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "A radioactive source is described as sealed if",
+      "options": [
+        {
+          "id": "a",
+          "text": "it is in a bottle"
+        },
+        {
+          "id": "b",
+          "text": "it is a liquid"
+        },
+        {
+          "id": "c",
+          "text": "the radioactive material is permanently enclosed in a capsule"
+        },
+        {
+          "id": "d",
+          "text": "it is a gas"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Leak tests are carried out regularly.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "A worker's dose rate is 15 microsieverts per hour. Working at this rate, the time to reach 20 mSv is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 hours"
+        },
+        {
+          "id": "b",
+          "text": "13,333 hours"
+        },
+        {
+          "id": "c",
+          "text": "1333 hours"
+        },
+        {
+          "id": "d",
+          "text": "133 hours"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "20 mSv = 20,000 microsieverts. Divide by 15 to get 1333 hours.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "A source has a gamma constant of 0.3 microsievert metre squared per MBq per hour. Its activity is 1000 MBq. The dose rate at 2 m is",
+      "options": [
+        {
+          "id": "a",
+          "text": "75 microsieverts per hour"
+        },
+        {
+          "id": "b",
+          "text": "300 microsieverts per hour"
+        },
+        {
+          "id": "c",
+          "text": "150 microsieverts per hour"
+        },
+        {
+          "id": "d",
+          "text": "600 microsieverts per hour"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Dose rate = 0.3 multiplied by 1000 divided by 2 squared = 300 divided by 4 = 75.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "A source of dose rate 120 microsieverts per hour at the working position is shielded by 2 HVLs. The new dose rate is",
+      "options": [
+        {
+          "id": "a",
+          "text": "90 microsieverts per hour"
+        },
+        {
+          "id": "b",
+          "text": "15 microsieverts per hour"
+        },
+        {
+          "id": "c",
+          "text": "60 microsieverts per hour"
+        },
+        {
+          "id": "d",
+          "text": "30 microsieverts per hour"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "After 2 HVLs the intensity is one-quarter. 120 divided by 4 = 30.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The effective dose of a worker can be assessed from the reading of a personal dosimeter worn",
+      "options": [
+        {
+          "id": "a",
+          "text": "at home"
+        },
+        {
+          "id": "b",
+          "text": "at the chest under the lead apron, with a second dosimeter above for fluoroscopy"
+        },
+        {
+          "id": "c",
+          "text": "on a hat only"
+        },
+        {
+          "id": "d",
+          "text": "on the finger only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Two dosimeters help to estimate whole-body and unshielded parts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "The dose limits for workers apply to patients receiving medical exposure.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Patients are not subject to dose limits. Their exposure is controlled by justification and optimisation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Alpha particles are a serious hazard when emitters are taken into the body.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Their high LET deposits energy in a very small volume of tissue.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}
