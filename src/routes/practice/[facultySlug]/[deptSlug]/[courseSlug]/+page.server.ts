@@ -1,6 +1,7 @@
 import { error, redirect } from '@sveltejs/kit';
 import { getCourse } from '$lib/catalog';
 import { resolveCourseId } from '$lib/catalog-resolve.server';
+import { packForCourse } from '$lib/offline/available.server';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -14,13 +15,18 @@ import type { PageServerLoad } from './$types';
  * course's own detail page instead of an empty quick-test — that page
  * already shows the honest "not ready yet" state.
  */
-export const load: PageServerLoad = async ({ params, locals }) => {
+export const load: PageServerLoad = async ({ params, locals, fetch }) => {
 	const found = getCourse(params.facultySlug, params.deptSlug, params.courseSlug);
 	if (!found) {
 		throw error(404, 'Unknown course');
 	}
 
 	const basePath = `/faculties/${params.facultySlug}/${params.deptSlug}/${params.courseSlug}`;
+
+	// A saved question pack opens the test straight away, whatever the database holds.
+	if (await packForCourse(fetch, params.facultySlug, params.deptSlug, params.courseSlug)) {
+		throw redirect(303, `${basePath}/quick-test`);
+	}
 
 	const courseId = await resolveCourseId(
 		locals.supabase,

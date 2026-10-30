@@ -105,12 +105,12 @@
 		<a
 			href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.course.slug}/mastery"
 			class="practice-card"
-			class:disabled={data.questionCount === 0}
+			class:disabled={data.masteryCount === 0}
 		>
 			<span class="practice-title">100-day Mastery</span>
 			<span class="practice-detail">
-				{#if data.questionCount === 0}
-					No questions available yet for this course
+				{#if data.masteryCount === 0}
+					Opens when this course's questions are in the online bank
 				{:else}
 					5 sets of 20, staged around your strengths and weak spots as you go
 				{/if}

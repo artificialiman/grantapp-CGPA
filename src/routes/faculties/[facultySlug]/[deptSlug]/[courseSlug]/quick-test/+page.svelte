@@ -36,7 +36,7 @@
 	// Offline-first: when this course has a saved pack, the whole test runs on the phone.
 	// If it has none and the phone is online, fetch just this course's pack first.
 	// A course with no pack (nothing approved in the depot yet) uses the online test below.
-	$: packKey = `${data.facultySlug}/${data.courseSlug}`;
+	$: packKey = data.packKey ?? `${data.facultySlug}/${data.courseSlug}`;
 	let local: boolean | null = null;
 
 	onMount(async () => {
@@ -62,6 +62,9 @@
 		phase = 'loading';
 		errorMessage = '';
 		try {
+			if (!data.courseId) {
+				throw new Error('This course has no saved questions on your phone yet. Connect to the internet once and open it again.');
+			}
 			const res = await fetch(`/api/quick-test-session?course_id=${data.courseId}&count=20`);
 			if (!res.ok) {
 				const body = await res.json().catch(() => ({}));
@@ -122,7 +125,11 @@
 	}
 </script>
 
-{#if local}
+{#if local === null}
+	<div class="wrap">
+		<p class="status-text">Opening your saved questions…</p>
+	</div>
+{:else if local}
 	<div class="wrap">
 		<div class="breadcrumb">
 			<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">Course</a>

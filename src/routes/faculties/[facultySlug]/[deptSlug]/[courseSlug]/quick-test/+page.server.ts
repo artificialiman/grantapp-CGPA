@@ -1,5 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { resolveCourseId } from '$lib/catalog-resolve.server';
+import { packForCourse } from '$lib/offline/available.server';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -11,7 +12,7 @@ import type { PageServerLoad } from './$types';
  * name the client-side fetch in +page.svelte already reads — that file
  * needed zero changes for this rename.
  */
-export const load: PageServerLoad = async ({ params, locals }) => {
+export const load: PageServerLoad = async ({ params, locals, fetch }) => {
 	const courseId = await resolveCourseId(
 		locals.supabase,
 		params.facultySlug,
@@ -19,12 +20,16 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		params.courseSlug
 	);
 
-	if (!courseId) {
+	// The test runs from the saved question pack when there is one, so a course the database does
+	// not know yet still opens. With neither a pack nor a database course there is nothing to run.
+	const pack = await packForCourse(fetch, params.facultySlug, params.deptSlug, params.courseSlug);
+	if (!courseId && !pack) {
 		throw error(404, 'Unknown or unapproved course');
 	}
 
 	return {
 		courseId,
+		packKey: pack?.key ?? null,
 		courseSlug: params.courseSlug,
 		facultySlug: params.facultySlug,
 		deptSlug: params.deptSlug
