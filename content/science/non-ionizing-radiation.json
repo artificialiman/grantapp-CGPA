@@ -1,0 +1,1275 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "non-ionizing-radiation",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Non-ionising radiation is radiation that",
+      "options": [
+        {
+          "id": "a",
+          "text": "consists of alpha particles"
+        },
+        {
+          "id": "b",
+          "text": "is harmless at all intensities"
+        },
+        {
+          "id": "c",
+          "text": "does not have enough energy per photon to ionise atoms"
+        },
+        {
+          "id": "d",
+          "text": "always ionises atoms"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It includes radio waves, microwaves, infrared, visible light and the lower-energy part of ultraviolet.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The correct order of electromagnetic waves from lowest to highest frequency is",
+      "options": [
+        {
+          "id": "a",
+          "text": "radio, microwave, infrared, visible, ultraviolet, X-ray, gamma"
+        },
+        {
+          "id": "b",
+          "text": "gamma, X-ray, visible, infrared, radio"
+        },
+        {
+          "id": "c",
+          "text": "ultraviolet, infrared, radio, gamma"
+        },
+        {
+          "id": "d",
+          "text": "visible, radio, X-ray, microwave"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Photon energy rises with frequency.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The energy of a photon is given by",
+      "options": [
+        {
+          "id": "a",
+          "text": "E = h divided by f"
+        },
+        {
+          "id": "b",
+          "text": "E = mc"
+        },
+        {
+          "id": "c",
+          "text": "E = f divided by h"
+        },
+        {
+          "id": "d",
+          "text": "E = hf, where h is Planck's constant"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "h = 6.626 x 10 to the power -34 J s. Energy is proportional to frequency and inversely proportional to wavelength.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The photon energy in electronvolts for a wavelength in nanometres is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "124 divided by the wavelength"
+        },
+        {
+          "id": "b",
+          "text": "1240 multiplied by the wavelength"
+        },
+        {
+          "id": "c",
+          "text": "12400 multiplied by the wavelength"
+        },
+        {
+          "id": "d",
+          "text": "1240 divided by the wavelength"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "E (eV) = hc/lambda = 1240 eV nm divided by lambda (nm).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The photon energy of green light of wavelength 500 nm is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.48 eV"
+        },
+        {
+          "id": "b",
+          "text": "0.4 eV"
+        },
+        {
+          "id": "c",
+          "text": "24.8 eV"
+        },
+        {
+          "id": "d",
+          "text": "620 eV"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "1240 divided by 500 = 2.48 eV.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The visible spectrum covers wavelengths of about",
+      "options": [
+        {
+          "id": "a",
+          "text": "400 to 700 nm"
+        },
+        {
+          "id": "b",
+          "text": "100 to 200 nm"
+        },
+        {
+          "id": "c",
+          "text": "1 to 10 mm"
+        },
+        {
+          "id": "d",
+          "text": "10 to 100 micrometres"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Violet is near 400 nm and red near 700 nm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "UV-B radiation has a wavelength of",
+      "options": [
+        {
+          "id": "a",
+          "text": "400 to 700 nm"
+        },
+        {
+          "id": "b",
+          "text": "315 to 400 nm"
+        },
+        {
+          "id": "c",
+          "text": "100 to 280 nm"
+        },
+        {
+          "id": "d",
+          "text": "280 to 315 nm"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "UV-B causes sunburn and vitamin D synthesis in skin. UV-A is 315 to 400 nm and UV-C is 100 to 280 nm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which ultraviolet band is almost completely absorbed by the ozone layer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "UV-C"
+        },
+        {
+          "id": "b",
+          "text": "visible light"
+        },
+        {
+          "id": "c",
+          "text": "UV-A"
+        },
+        {
+          "id": "d",
+          "text": "infrared"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "UV-C is germicidal and is used for sterilisation lamps.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Excessive exposure to ultraviolet radiation causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "bone fractures"
+        },
+        {
+          "id": "b",
+          "text": "sunburn, skin cancer and cataract"
+        },
+        {
+          "id": "c",
+          "text": "anaemia"
+        },
+        {
+          "id": "d",
+          "text": "hearing loss"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "UV is absorbed in the outer layers of the skin and the cornea and lens of the eye.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Skin pigment that protects against ultraviolet radiation is",
+      "options": [
+        {
+          "id": "a",
+          "text": "haemoglobin"
+        },
+        {
+          "id": "b",
+          "text": "keratin"
+        },
+        {
+          "id": "c",
+          "text": "collagen"
+        },
+        {
+          "id": "d",
+          "text": "melanin"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It absorbs UV, and people with more melanin have lower risk of skin cancer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The sun protection factor (SPF) of a sunscreen indicates",
+      "options": [
+        {
+          "id": "a",
+          "text": "the temperature"
+        },
+        {
+          "id": "b",
+          "text": "how much water it contains"
+        },
+        {
+          "id": "c",
+          "text": "how much longer skin can be exposed before burning"
+        },
+        {
+          "id": "d",
+          "text": "the UV-A dose only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "SPF 15 allows about 15 times longer exposure to get the same erythema, under test conditions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Phototherapy for neonatal jaundice uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "gamma rays"
+        },
+        {
+          "id": "b",
+          "text": "X-rays"
+        },
+        {
+          "id": "c",
+          "text": "blue light of about 450 nm"
+        },
+        {
+          "id": "d",
+          "text": "microwaves"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It converts bilirubin to forms excreted without liver conjugation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Infrared radiation is felt as",
+      "options": [
+        {
+          "id": "a",
+          "text": "sound"
+        },
+        {
+          "id": "b",
+          "text": "heat"
+        },
+        {
+          "id": "c",
+          "text": "light"
+        },
+        {
+          "id": "d",
+          "text": "sweetness"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is emitted by all warm bodies and absorbed by tissue as thermal energy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Thermography in medicine records",
+      "options": [
+        {
+          "id": "a",
+          "text": "X-ray attenuation"
+        },
+        {
+          "id": "b",
+          "text": "magnetic resonance"
+        },
+        {
+          "id": "c",
+          "text": "infrared radiation emitted from the skin surface"
+        },
+        {
+          "id": "d",
+          "text": "ultrasound echoes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hot spots may indicate inflammation or increased blood flow.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Microwave ovens heat food mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "ionising atoms"
+        },
+        {
+          "id": "b",
+          "text": "creating X-rays"
+        },
+        {
+          "id": "c",
+          "text": "cooling the surface"
+        },
+        {
+          "id": "d",
+          "text": "making polar molecules such as water rotate"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Dielectric heating works at 2.45 GHz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The wavelength of a microwave of frequency 2.45 GHz in air is about (speed of light 3 x 10 to the power 8 m/s)",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.82 cm"
+        },
+        {
+          "id": "b",
+          "text": "12.2 cm"
+        },
+        {
+          "id": "c",
+          "text": "1.22 cm"
+        },
+        {
+          "id": "d",
+          "text": "122 cm"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Wavelength = c divided by f = 3 x 10 to the power 8 divided by 2.45 x 10 to the power 9 = 0.122 m.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Specific absorption rate (SAR) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the dose in gray"
+        },
+        {
+          "id": "b",
+          "text": "the rate of energy absorbed per unit mass of tissue, in watts per kilogram"
+        },
+        {
+          "id": "c",
+          "text": "the electric field in volts per metre"
+        },
+        {
+          "id": "d",
+          "text": "the heat in joules"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is used to limit radiofrequency heating from phones and MRI scanners.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The SAR limit for whole-body exposure of the general public in ICNIRP guidelines is",
+      "options": [
+        {
+          "id": "a",
+          "text": "8 W/kg"
+        },
+        {
+          "id": "b",
+          "text": "0.0008 W/kg"
+        },
+        {
+          "id": "c",
+          "text": "80 W/kg"
+        },
+        {
+          "id": "d",
+          "text": "0.08 W/kg"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The local limit for head and trunk is 2 W/kg for the general public.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The main established effect of radiofrequency fields at guideline levels is",
+      "options": [
+        {
+          "id": "a",
+          "text": "tissue heating"
+        },
+        {
+          "id": "b",
+          "text": "ionisation of DNA"
+        },
+        {
+          "id": "c",
+          "text": "bone loss"
+        },
+        {
+          "id": "d",
+          "text": "production of radioactivity"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Guidelines are set to prevent heating and nerve stimulation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The Larmor frequency of hydrogen in a magnetic field B is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 MHz per tesla"
+        },
+        {
+          "id": "b",
+          "text": "0.5 MHz per tesla"
+        },
+        {
+          "id": "c",
+          "text": "42.58 MHz per tesla multiplied by B"
+        },
+        {
+          "id": "d",
+          "text": "100 MHz per tesla"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "At 1.5 T it is about 63.9 MHz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The Larmor frequency of hydrogen nuclei in a 3 T MRI scanner is about (gyromagnetic ratio 42.58 MHz per tesla)",
+      "options": [
+        {
+          "id": "a",
+          "text": "127.7 MHz"
+        },
+        {
+          "id": "b",
+          "text": "63.9 MHz"
+        },
+        {
+          "id": "c",
+          "text": "42.6 MHz"
+        },
+        {
+          "id": "d",
+          "text": "14.2 MHz"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "42.58 multiplied by 3 = 127.74 MHz.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Hazards in the MRI room include",
+      "options": [
+        {
+          "id": "a",
+          "text": "alpha contamination"
+        },
+        {
+          "id": "b",
+          "text": "ferromagnetic projectiles, noise and heating"
+        },
+        {
+          "id": "c",
+          "text": "radioactive waste"
+        },
+        {
+          "id": "d",
+          "text": "ionising radiation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The strong static field attracts iron objects. Implants such as pacemakers need special assessment.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The earth's magnetic field is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 microtesla"
+        },
+        {
+          "id": "b",
+          "text": "5 millitesla"
+        },
+        {
+          "id": "c",
+          "text": "5 tesla"
+        },
+        {
+          "id": "d",
+          "text": "0.5 tesla"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A clinical MRI scanner at 1.5 T is about 30,000 times stronger.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Ultrasound is sound with a frequency",
+      "options": [
+        {
+          "id": "a",
+          "text": "above 20 kHz"
+        },
+        {
+          "id": "b",
+          "text": "between 20 Hz and 20 kHz"
+        },
+        {
+          "id": "c",
+          "text": "above 20 GHz"
+        },
+        {
+          "id": "d",
+          "text": "below 20 Hz"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Diagnostic ultrasound uses 2 to 15 MHz.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The speed of ultrasound in soft tissue is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "340 m/s"
+        },
+        {
+          "id": "b",
+          "text": "3000 m/s"
+        },
+        {
+          "id": "c",
+          "text": "1540 m/s"
+        },
+        {
+          "id": "d",
+          "text": "150 m/s"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Scanners assume this value to convert echo times into depth.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "An echo returns to the transducer 130 microseconds after the pulse. With speed 1540 m/s, the depth of the reflector is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 cm"
+        },
+        {
+          "id": "b",
+          "text": "5 cm"
+        },
+        {
+          "id": "c",
+          "text": "10 cm"
+        },
+        {
+          "id": "d",
+          "text": "20 cm"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Depth = speed multiplied by time divided by 2 = 1540 multiplied by 130 x 10 to the power -6 divided by 2 = 0.100 m.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The wavelength of 5 MHz ultrasound in soft tissue (1540 m/s) is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.031 mm"
+        },
+        {
+          "id": "b",
+          "text": "0.31 mm"
+        },
+        {
+          "id": "c",
+          "text": "31 mm"
+        },
+        {
+          "id": "d",
+          "text": "3.1 mm"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Wavelength = 1540 divided by 5 x 10 to the power 6 = 3.08 x 10 to the power -4 m.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Ultrasound waves are produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "ionisation chambers"
+        },
+        {
+          "id": "b",
+          "text": "photomultiplier tubes"
+        },
+        {
+          "id": "c",
+          "text": "piezoelectric crystals"
+        },
+        {
+          "id": "d",
+          "text": "X-ray tubes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A voltage across the crystal makes it vibrate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Acoustic impedance of a material is",
+      "options": [
+        {
+          "id": "a",
+          "text": "speed divided by density"
+        },
+        {
+          "id": "b",
+          "text": "density divided by speed"
+        },
+        {
+          "id": "c",
+          "text": "frequency multiplied by wavelength"
+        },
+        {
+          "id": "d",
+          "text": "density multiplied by speed of sound"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Echoes arise at boundaries where acoustic impedance changes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "A coupling gel is used in ultrasound to",
+      "options": [
+        {
+          "id": "a",
+          "text": "conduct electricity"
+        },
+        {
+          "id": "b",
+          "text": "remove air between the probe and skin"
+        },
+        {
+          "id": "c",
+          "text": "cool the patient"
+        },
+        {
+          "id": "d",
+          "text": "colour the image"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The air-tissue interface reflects almost all of the beam, about 99.9 percent.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "The Doppler effect in ultrasound is used to measure",
+      "options": [
+        {
+          "id": "a",
+          "text": "bone density"
+        },
+        {
+          "id": "b",
+          "text": "blood flow velocity"
+        },
+        {
+          "id": "c",
+          "text": "body temperature"
+        },
+        {
+          "id": "d",
+          "text": "tissue elasticity only"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The frequency shift is proportional to the velocity of moving blood cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "A 5 MHz ultrasound beam meets blood moving at 0.5 m/s at an angle of 60 degrees. The Doppler shift is about (speed 1540 m/s, 2 f v cos(theta) divided by c)",
+      "options": [
+        {
+          "id": "a",
+          "text": "162 Hz"
+        },
+        {
+          "id": "b",
+          "text": "3240 Hz"
+        },
+        {
+          "id": "c",
+          "text": "810 Hz"
+        },
+        {
+          "id": "d",
+          "text": "1620 Hz"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "2 multiplied by 5 x 10 to the power 6 multiplied by 0.5 multiplied by cos 60 degrees divided by 1540 = 1623 Hz.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Higher ultrasound frequency gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "poorer resolution but deeper penetration"
+        },
+        {
+          "id": "b",
+          "text": "both better resolution and penetration"
+        },
+        {
+          "id": "c",
+          "text": "better resolution but less penetration"
+        },
+        {
+          "id": "d",
+          "text": "no change"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Attenuation rises with frequency, so deep organs use lower frequencies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The mechanical index in ultrasound relates to the risk of",
+      "options": [
+        {
+          "id": "a",
+          "text": "skin colour change"
+        },
+        {
+          "id": "b",
+          "text": "cavitation"
+        },
+        {
+          "id": "c",
+          "text": "radioactivity"
+        },
+        {
+          "id": "d",
+          "text": "ionisation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is the peak negative pressure divided by the square root of frequency.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "The word LASER stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "light absorption by stimulated emission of radiation"
+        },
+        {
+          "id": "b",
+          "text": "long acting source of electrical radiation"
+        },
+        {
+          "id": "c",
+          "text": "light amplified by selected electron radiation"
+        },
+        {
+          "id": "d",
+          "text": "light amplification by stimulated emission of radiation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The beam is coherent, nearly monochromatic and collimated.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "The hazard region for the retina is the wavelength band of",
+      "options": [
+        {
+          "id": "a",
+          "text": "400 to 1400 nm"
+        },
+        {
+          "id": "b",
+          "text": "1.4 to 10 micrometres"
+        },
+        {
+          "id": "c",
+          "text": "10 to 100 nm"
+        },
+        {
+          "id": "d",
+          "text": "100 to 300 nm"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The cornea and lens transmit and focus this radiation onto the retina.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "The carbon dioxide laser, at 10.6 micrometres, is used for cutting tissue because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it penetrates deeply"
+        },
+        {
+          "id": "b",
+          "text": "it ionises tissue"
+        },
+        {
+          "id": "c",
+          "text": "it passes through glass"
+        },
+        {
+          "id": "d",
+          "text": "it is strongly absorbed by water at the surface"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Tissue is more than 70 percent water.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Laser safety requires that personnel in the room wear",
+      "options": [
+        {
+          "id": "a",
+          "text": "any sunglasses"
+        },
+        {
+          "id": "b",
+          "text": "no protection"
+        },
+        {
+          "id": "c",
+          "text": "eyewear rated for the specific laser wavelength"
+        },
+        {
+          "id": "d",
+          "text": "lead aprons"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Eyewear must match the wavelength and optical density rating of the laser.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Ultrasound uses ionising radiation.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is mechanical waves, not electromagnetic radiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Magnetic resonance imaging does not involve ionising radiation.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It uses a static field, gradient fields and radiofrequency pulses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}
