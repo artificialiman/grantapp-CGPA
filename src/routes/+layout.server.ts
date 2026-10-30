@@ -1,6 +1,7 @@
 import { env } from '$env/dynamic/private';
 import type { LayoutServerLoad } from './$types';
-import { safeGetSessionOrDevBypass, isDevAuthBypassEnabled, ensureDevStudentExists } from '$lib/auth/devMode';
+import { safeGetSessionOrDevBypass, isDevAuthBypassEnabled, ensureDevStudentExists, frozenStudent } from '$lib/auth/devMode';
+import { AUTH_FROZEN } from '$lib/auth/freeze';
 
 const SERVICE_ROLE_KEY = env.SERVICE_ROLE_KEY;
 
@@ -17,7 +18,10 @@ export const load: LayoutServerLoad = async (event) => {
 		const { session, user } = await safeGetSessionOrDevBypass(event.locals);
 
 		let student = null;
-		if (user) {
+		if (user && AUTH_FROZEN) {
+			// Frozen: the student comes from the browser cookie, not the database.
+			student = frozenStudent(event);
+		} else if (user) {
 			if (isDevAuthBypassEnabled() && SERVICE_ROLE_KEY) {
 				// Bootstrap the dev student row via a service-role client —
 				// see ensureDevStudentExists's doc comment for why this can't

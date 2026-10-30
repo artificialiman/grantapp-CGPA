@@ -1,5 +1,8 @@
 import { env } from '$env/dynamic/private';
 import type { Session, SupabaseClient, User } from '@supabase/supabase-js';
+import type { RequestEvent } from '@sveltejs/kit';
+import { AUTH_FROZEN, DEMO_STUDENT_ID, DEMO_STUDENT_EMAIL, DEMO_STUDENT_NAME, PROGRAMME_COOKIE } from './freeze';
+import { getDepartment } from '$lib/catalog';
 
 /**
  * STAND-DOWN SWITCH FOR AUTH DURING BUILD/TEST — per explicit
@@ -23,9 +26,10 @@ import type { Session, SupabaseClient, User } from '@supabase/supabase-js';
  * would make every foreign-key-dependent write fail, which defeats
  * the entire point of standing auth down for smooth iteration.
  */
-const BYPASS_ENABLED = env.CGPA_DEV_BYPASS_AUTH === 'true';
-const DEV_STUDENT_ID = env.CGPA_DEV_STUDENT_ID ?? '00000000-0000-0000-0000-000000000001';
-const DEV_STUDENT_EMAIL = 'dev@grantapp.local';
+// AUTH_FROZEN (src/lib/auth/freeze.ts) turns the bypass on for everyone; the env var still works on its own.
+const BYPASS_ENABLED = AUTH_FROZEN || env.CGPA_DEV_BYPASS_AUTH === 'true';
+const DEV_STUDENT_ID = AUTH_FROZEN ? DEMO_STUDENT_ID : (env.CGPA_DEV_STUDENT_ID ?? DEMO_STUDENT_ID);
+const DEV_STUDENT_EMAIL = DEMO_STUDENT_EMAIL;
 
 export function isDevAuthBypassEnabled(): boolean {
 	return BYPASS_ENABLED;
@@ -74,5 +78,30 @@ export async function ensureDevStudentExists(serviceRoleClient: SupabaseClient<a
 	if (!BYPASS_ENABLED) return;
 	await serviceRoleClient
 		.from('students')
-		.upsert({ id: DEV_STUDENT_ID, full_name: 'Dev Test Student' }, { onConflict: 'id' });
+		.upsert({ id: DEV_STUDENT_ID, full_name: DEMO_STUDENT_NAME }, { onConflict: 'id' });
+}
+
+/**
+ * The demo student, built without touching the database. The programme
+ * comes from the browser cookie the onboarding/signup links set; an
+ * unknown or missing cookie means "no programme yet", which sends the
+ * visitor to the onboarding screen.
+ */
+export function frozenStudent(event: Pick<RequestEvent, 'cookies'>): {
+	id: string;
+	full_name: string;
+	faculty_slug: string | null;
+	department_slug: string | null;
+} {
+	let faculty_slug: string | null = null;
+	let department_slug: string | null = null;
+	const raw = event.cookies.get(PROGRAMME_COOKIE);
+	if (raw) {
+		const [f, d] = decodeURIComponent(raw).split('/');
+		if (f && d && getDepartment(f, d)) {
+			faculty_slug = f;
+			department_slug = d;
+		}
+	}
+	return { id: DEV_STUDENT_ID, full_name: DEMO_STUDENT_NAME, faculty_slug, department_slug };
 }

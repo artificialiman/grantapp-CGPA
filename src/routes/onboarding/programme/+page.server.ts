@@ -1,6 +1,7 @@
 import { redirect } from '@sveltejs/kit';
 import { CATALOG } from '$lib/catalog';
 import { safeGetSessionOrDevBypass } from '$lib/auth/devMode';
+import { AUTH_FROZEN } from '$lib/auth/freeze';
 import type { PageServerLoad } from './$types';
 
 /**
@@ -11,7 +12,7 @@ import type { PageServerLoad } from './$types';
  */
 export const load: PageServerLoad = async ({ locals }) => {
 	const { session, user } = await safeGetSessionOrDevBypass(locals);
-	if (!session || !user) {
+	if (!AUTH_FROZEN && (!session || !user)) {
 		throw redirect(303, '/signup');
 	}
 

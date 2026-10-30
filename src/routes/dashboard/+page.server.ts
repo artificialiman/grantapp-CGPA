@@ -1,4 +1,5 @@
-import { safeGetSessionOrDevBypass, isDevAuthBypassEnabled } from '$lib/auth/devMode';
+import { safeGetSessionOrDevBypass, isDevAuthBypassEnabled, frozenStudent } from '$lib/auth/devMode';
+import { AUTH_FROZEN } from '$lib/auth/freeze';
 import { redirect } from '@sveltejs/kit';
 import { GRADING_SCALES, classifyGpa } from '$lib/cgpa/scales';
 import { calculateCgpa, type CourseEntry } from '$lib/cgpa/calculate';
@@ -24,7 +25,9 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(303, '/login?next=/dashboard');
 	}
 
-	const { data: student } = await event.locals.supabase.from('students').select('*').eq('id', user.id).maybeSingle();
+	const student = AUTH_FROZEN
+		? frozenStudent(event)
+		: (await event.locals.supabase.from('students').select('*').eq('id', user.id).maybeSingle()).data;
 
 	// No programme picked yet -> onboarding. The bio is what scopes
 	// everything below; without it there is nothing to show.

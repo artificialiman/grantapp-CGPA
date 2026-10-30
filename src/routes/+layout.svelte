@@ -6,6 +6,7 @@
 	import { client } from '$lib/supabase';
 	import { goto } from '$app/navigation';
 	import { bootOffline } from '$lib/offline/boot';
+	import { AUTH_FROZEN } from '$lib/auth/freeze';
 	import UpdatePrompt from '$lib/components/offline/UpdatePrompt.svelte';
 
 	let online = true;
@@ -51,7 +52,7 @@
 	}
 
 	async function handleSignOut() {
-		await client.auth.signOut();
+		if (!AUTH_FROZEN) await client.auth.signOut();
 		// Wipe cached signed-in pages so a shared device doesn't keep
 		// this student's dashboard (see src/service-worker.ts).
 		navigator.serviceWorker?.controller?.postMessage({ type: 'clear-runtime' });
