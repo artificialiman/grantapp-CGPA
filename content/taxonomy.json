@@ -1,0 +1,26 @@
+{
+  "_note": "Mirror of cgpa.taxonomy_tags. 'global' = the UTME baseline, verbatim from grantapp-shell/TAXONOMY.md (migration 20260912002700_cgpa_0003). 'faculty' holds additions scoped to one faculty slug. Per INVARIANTS #17 the vocabulary grows from real content gaps; only Iman adds entries here. Agents never add tags.",
+  "cognitive_pattern": {
+    "global": [
+      "Pragmatic",
+      "Logical",
+      "Canon / Administrative",
+      "Statistical / Predictive",
+      "Pure Mathematical"
+    ],
+    "faculty": {}
+  },
+  "information_type": {
+    "global": [
+      "Essential / definitive",
+      "Contextual / rhetoric",
+      "Abstract / Visual",
+      "Procedural / supply chain",
+      "Mathematical Proofs"
+    ],
+    "faculty": {
+      "engineering": ["Computation (skill)"]
+    }
+  },
+  "_observed": "'Computation (skill)' is used by 8 approved rows in migration 0012 (Engineering Mathematics I) but is defined in no migration, so it is not in the seeded cgpa.taxonomy_tags. It is mirrored here only so the depot validates against what production already holds. Iman ratifies it or replaces it; nobody else decides."
+}
