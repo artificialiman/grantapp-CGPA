@@ -204,5 +204,5 @@ is edited.
   rows are derived from the UNN postgraduate list and are marked as such in `curriculum/medical-physics.txt`. Replace them when a
   sponsor supplies a university's own table.
 - **Content limit raised for the focus group:** at least 30 questions per course, up to 100 for heavy courses (was 500 per install).
-- **The 40-question cap per content commit and per batch is removed** (founder, 2026-10-30). `handoff/VETTING.md` and `handoff/LANES.md` updated. The 200-line commit cap in LANES.md is unchanged.
+- **The 40-question cap per content commit and per batch is removed** (founder, 2026-10-30). `handoff/VETTING.md` and `handoff/LANES.md` updated. The 200-line figure in LANES.md is guidance that encourages incremental commits, not a limit (founder, 2026-10-30).
 - **FLAG: the Medical Physics course list comes from postgraduate sources.** The only list found is the UNN Medical Physics list (PHY 620 to 629, 600-level). No undergraduate table has been found. The ten courses and 432 questions are postgraduate-level subject areas placed at year 4 of an undergraduate department. Treat them as provisional until a sponsor supplies an undergraduate table.
