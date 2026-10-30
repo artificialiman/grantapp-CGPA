@@ -1,0 +1,1024 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb203",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "A complete, infectious viral particle outside a host cell is called a",
+      "options": [
+        {
+          "id": "a",
+          "text": "virion"
+        },
+        {
+          "id": "b",
+          "text": "plasmid"
+        },
+        {
+          "id": "c",
+          "text": "viroid"
+        },
+        {
+          "id": "d",
+          "text": "prion"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A virion is the nucleic acid core inside its protein coat, and sometimes an envelope. Viroids and prions are different agents, and a plasmid is bacterial DNA.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The protein coat of a virus is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "envelope"
+        },
+        {
+          "id": "b",
+          "text": "nucleoid"
+        },
+        {
+          "id": "c",
+          "text": "capsule"
+        },
+        {
+          "id": "d",
+          "text": "capsid"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The capsid is built from repeating protein units called capsomeres. The envelope is a lipid layer taken from the host membrane in some viruses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Which of these viruses is non-enveloped?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herpes simplex virus"
+        },
+        {
+          "id": "b",
+          "text": "HIV"
+        },
+        {
+          "id": "c",
+          "text": "Influenza virus"
+        },
+        {
+          "id": "d",
+          "text": "Poliovirus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Poliovirus and adenovirus have only a capsid. Influenza, HIV and herpes viruses all acquire a lipid envelope.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A virus that infects bacteria is called a",
+      "options": [
+        {
+          "id": "a",
+          "text": "prophage"
+        },
+        {
+          "id": "b",
+          "text": "viroid"
+        },
+        {
+          "id": "c",
+          "text": "retrovirus"
+        },
+        {
+          "id": "d",
+          "text": "bacteriophage"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Bacteriophages, or phages, infect bacterial cells. A prophage is a phage genome integrated in the bacterial chromosome.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "In the lytic cycle of a bacteriophage, the step that follows penetration is",
+      "options": [
+        {
+          "id": "a",
+          "text": "attachment"
+        },
+        {
+          "id": "b",
+          "text": "integration into the host chromosome"
+        },
+        {
+          "id": "c",
+          "text": "biosynthesis of phage components"
+        },
+        {
+          "id": "d",
+          "text": "release of virions"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The order is attachment, penetration, biosynthesis, assembly (maturation) and release. Integration occurs in the lysogenic cycle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A prophage is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a phage tail fibre"
+        },
+        {
+          "id": "b",
+          "text": "a protein coat without DNA"
+        },
+        {
+          "id": "c",
+          "text": "a free phage particle"
+        },
+        {
+          "id": "d",
+          "text": "phage DNA integrated in the bacterial chromosome"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "During lysogeny the phage genome is replicated with the host chromosome until induction starts the lytic cycle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A phage that can follow either the lytic or the lysogenic cycle is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "enveloped"
+        },
+        {
+          "id": "b",
+          "text": "temperate"
+        },
+        {
+          "id": "c",
+          "text": "virulent"
+        },
+        {
+          "id": "d",
+          "text": "defective"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Temperate phages such as lambda can integrate. Virulent phages only lyse.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The enzyme that allows HIV to make DNA from its RNA genome is",
+      "options": [
+        {
+          "id": "a",
+          "text": "RNA ligase"
+        },
+        {
+          "id": "b",
+          "text": "DNA polymerase III"
+        },
+        {
+          "id": "c",
+          "text": "helicase"
+        },
+        {
+          "id": "d",
+          "text": "reverse transcriptase"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Reverse transcriptase builds a DNA copy of the RNA genome, which is then integrated into the host DNA. It is a target for drugs such as zidovudine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "HIV mainly infects and destroys",
+      "options": [
+        {
+          "id": "a",
+          "text": "red blood cells"
+        },
+        {
+          "id": "b",
+          "text": "neurons only"
+        },
+        {
+          "id": "c",
+          "text": "CD4-positive T helper cells"
+        },
+        {
+          "id": "d",
+          "text": "platelets"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "HIV binds CD4 and a co-receptor on helper T cells. Their loss leads to AIDS.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Antigenic shift in influenza A is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "reassortment of RNA segments between different strains"
+        },
+        {
+          "id": "b",
+          "text": "loss of the envelope"
+        },
+        {
+          "id": "c",
+          "text": "integration into host DNA"
+        },
+        {
+          "id": "d",
+          "text": "a point mutation in one gene"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Because the genome has eight segments, two strains infecting one cell can swap segments and make a new subtype. Antigenic drift is gradual change from point mutations.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The influenza enzyme that helps newly formed virions leave the infected cell is",
+      "options": [
+        {
+          "id": "a",
+          "text": "neuraminidase"
+        },
+        {
+          "id": "b",
+          "text": "hemagglutinin"
+        },
+        {
+          "id": "c",
+          "text": "thymidine kinase"
+        },
+        {
+          "id": "d",
+          "text": "reverse transcriptase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Neuraminidase cleaves sialic acid so virions are released. Hemagglutinin helps attachment. Oseltamivir inhibits neuraminidase.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The first human disease declared eradicated worldwide, in 1980, was",
+      "options": [
+        {
+          "id": "a",
+          "text": "measles"
+        },
+        {
+          "id": "b",
+          "text": "smallpox"
+        },
+        {
+          "id": "c",
+          "text": "rabies"
+        },
+        {
+          "id": "d",
+          "text": "polio"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Vaccination with vaccinia virus ended smallpox transmission. Polio is not yet eradicated and measles and rabies persist.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Which of these viruses has a DNA genome?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Influenza virus"
+        },
+        {
+          "id": "b",
+          "text": "Rabies virus"
+        },
+        {
+          "id": "c",
+          "text": "Poliovirus"
+        },
+        {
+          "id": "d",
+          "text": "Hepatitis B virus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Hepatitis B virus is a partly double-stranded DNA virus that also uses reverse transcription. The other three have RNA genomes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Negri bodies seen in the neurons of brain tissue are characteristic of",
+      "options": [
+        {
+          "id": "a",
+          "text": "polio"
+        },
+        {
+          "id": "b",
+          "text": "mumps"
+        },
+        {
+          "id": "c",
+          "text": "rabies"
+        },
+        {
+          "id": "d",
+          "text": "measles"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Negri bodies are cytoplasmic inclusions of rabies virus in neurons. Their detection supports the diagnosis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The Sabin polio vaccine is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "live attenuated oral vaccine"
+        },
+        {
+          "id": "b",
+          "text": "toxoid"
+        },
+        {
+          "id": "c",
+          "text": "DNA vaccine"
+        },
+        {
+          "id": "d",
+          "text": "killed injected vaccine"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Sabin OPV contains weakened viruses. The Salk vaccine is inactivated and injected.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Interferons are",
+      "options": [
+        {
+          "id": "a",
+          "text": "host proteins that make nearby cells resistant to viral infection"
+        },
+        {
+          "id": "b",
+          "text": "bacterial toxins"
+        },
+        {
+          "id": "c",
+          "text": "viral enzymes"
+        },
+        {
+          "id": "d",
+          "text": "antibiotics from fungi"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Infected cells release interferons, which switch on antiviral genes in neighbouring cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Human papillomavirus infection is a major cause of",
+      "options": [
+        {
+          "id": "a",
+          "text": "typhoid"
+        },
+        {
+          "id": "b",
+          "text": "tuberculosis"
+        },
+        {
+          "id": "c",
+          "text": "cervical cancer"
+        },
+        {
+          "id": "d",
+          "text": "malaria"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Types 16 and 18 are linked to most cervical cancers. HPV vaccines prevent infection with these types.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Which of these is NOT a method for cultivating viruses?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cell culture"
+        },
+        {
+          "id": "b",
+          "text": "Growth on nutrient agar alone"
+        },
+        {
+          "id": "c",
+          "text": "Embryonated hen's eggs"
+        },
+        {
+          "id": "d",
+          "text": "Susceptible laboratory animals"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Viruses need living host cells and cannot grow on cell-free media such as nutrient agar.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A cytopathic effect is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a mutation in the host genome"
+        },
+        {
+          "id": "b",
+          "text": "the death of bacteria on agar"
+        },
+        {
+          "id": "c",
+          "text": "a visible change in cultured cells caused by viral infection"
+        },
+        {
+          "id": "d",
+          "text": "a chemical stain for viruses"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cells may round up, fuse or detach. It is used as evidence of viral growth in cell culture.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Plating 0.1 mL of a 10 to the power minus 6 dilution of a phage suspension gives 40 plaques. The titre in plaque forming units per mL is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 x 10 to the power 6"
+        },
+        {
+          "id": "b",
+          "text": "4 x 10 to the power 8"
+        },
+        {
+          "id": "c",
+          "text": "4 x 10 to the power 9"
+        },
+        {
+          "id": "d",
+          "text": "4 x 10 to the power 7"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Titre = plaques divided by (dilution times volume) = 40 / (10 to the power minus 6 times 0.1) = 40 / 10 to the power minus 7 = 4 x 10 to the power 8.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "In Nigeria, the animal reservoir of Lassa fever virus is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "fruit bat"
+        },
+        {
+          "id": "b",
+          "text": "multimammate rat (Mastomys natalensis)"
+        },
+        {
+          "id": "c",
+          "text": "domestic cat"
+        },
+        {
+          "id": "d",
+          "text": "mosquito"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Humans catch Lassa fever from food or surfaces contaminated by rodent urine or droppings. Mosquitoes spread yellow fever and dengue.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Yellow fever virus is transmitted by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anopheles gambiae"
+        },
+        {
+          "id": "b",
+          "text": "Culex quinquefasciatus"
+        },
+        {
+          "id": "c",
+          "text": "Aedes aegypti"
+        },
+        {
+          "id": "d",
+          "text": "Glossina palpalis"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Aedes aegypti is the main vector of yellow fever and dengue. Anopheles transmits malaria and Glossina transmits sleeping sickness.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Hepatitis A virus is mainly spread by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sexual contact only"
+        },
+        {
+          "id": "b",
+          "text": "the faecal-oral route"
+        },
+        {
+          "id": "c",
+          "text": "blood transfusion"
+        },
+        {
+          "id": "d",
+          "text": "bites of mosquitoes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Contaminated food and water spread hepatitis A. Hepatitis B and C spread through blood and body fluids.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "SARS-CoV-2 is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "retrovirus"
+        },
+        {
+          "id": "b",
+          "text": "DNA virus"
+        },
+        {
+          "id": "c",
+          "text": "coronavirus with a single-stranded positive-sense RNA genome"
+        },
+        {
+          "id": "d",
+          "text": "bacteriophage"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is an enveloped RNA virus with spike proteins. Its genome serves as mRNA.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Viroids are",
+      "options": [
+        {
+          "id": "a",
+          "text": "infectious naked RNA molecules that infect plants"
+        },
+        {
+          "id": "b",
+          "text": "proteins that cause disease"
+        },
+        {
+          "id": "c",
+          "text": "bacteria without walls"
+        },
+        {
+          "id": "d",
+          "text": "enveloped DNA viruses"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Viroids have no protein coat. Examples include potato spindle tuber viroid.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Acyclovir is effective against herpes viruses because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "is activated by viral thymidine kinase and stops viral DNA synthesis"
+        },
+        {
+          "id": "b",
+          "text": "destroys the capsid"
+        },
+        {
+          "id": "c",
+          "text": "binds the ribosome"
+        },
+        {
+          "id": "d",
+          "text": "blocks the neuraminidase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Only infected cells convert acyclovir to its active form, so uninfected cells are largely spared.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Oseltamivir (Tamiflu) acts by inhibiting",
+      "options": [
+        {
+          "id": "a",
+          "text": "neuraminidase"
+        },
+        {
+          "id": "b",
+          "text": "cell wall synthesis"
+        },
+        {
+          "id": "c",
+          "text": "DNA gyrase"
+        },
+        {
+          "id": "d",
+          "text": "reverse transcriptase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Blocking neuraminidase stops release of influenza virions. It does not act on HIV, bacteria or the wall.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The genome of a positive-sense single-stranded RNA virus",
+      "options": [
+        {
+          "id": "a",
+          "text": "is made of DNA"
+        },
+        {
+          "id": "b",
+          "text": "cannot encode proteins"
+        },
+        {
+          "id": "c",
+          "text": "must first be copied by reverse transcriptase"
+        },
+        {
+          "id": "d",
+          "text": "can be translated directly by the host ribosomes"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Positive-sense RNA has the same sense as mRNA. Negative-sense RNA must first be copied to a complementary strand.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "A laboratory scientist counts clear zones on a bacterial lawn after adding a diluted sample. The zones are caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "endospore formation"
+        },
+        {
+          "id": "b",
+          "text": "bacteriophage lysis of bacterial cells"
+        },
+        {
+          "id": "c",
+          "text": "antibiotic resistance"
+        },
+        {
+          "id": "d",
+          "text": "capsule production"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Each plaque marks an area where a phage and its descendants have lysed the bacteria.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Antibiotics such as penicillin are effective against viral infections.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Penicillin attacks bacterial cell wall synthesis. Viruses have no wall and replicate inside host cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Bacteriophages infect bacterial cells.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Phages are viruses that use bacteria as hosts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Assertion: HIV infection weakens the immune system. Reason: HIV destroys CD4-positive T helper cells.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true, and the loss of helper T cells explains the weakened immunity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
