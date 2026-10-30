@@ -1,0 +1,1280 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "physiology-and-anatomy-for-medical-physics",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In the anatomical position, the body",
+      "options": [
+        {
+          "id": "a",
+          "text": "sits cross-legged"
+        },
+        {
+          "id": "b",
+          "text": "stands upright, facing forward, arms at the sides with palms forward"
+        },
+        {
+          "id": "c",
+          "text": "is bent forward"
+        },
+        {
+          "id": "d",
+          "text": "lies on the back"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "All directional terms are described from this position.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The plane that divides the body into left and right parts is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "transverse plane"
+        },
+        {
+          "id": "b",
+          "text": "coronal plane"
+        },
+        {
+          "id": "c",
+          "text": "sagittal plane"
+        },
+        {
+          "id": "d",
+          "text": "oblique plane"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The midsagittal plane divides the body into equal halves.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The plane that divides the body into front and back parts is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "transverse plane"
+        },
+        {
+          "id": "b",
+          "text": "coronal (frontal) plane"
+        },
+        {
+          "id": "c",
+          "text": "sagittal plane"
+        },
+        {
+          "id": "d",
+          "text": "median plane"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Coronal CT and MRI images show the body from the front.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The transverse (axial) plane divides the body into",
+      "options": [
+        {
+          "id": "a",
+          "text": "inner and outer parts"
+        },
+        {
+          "id": "b",
+          "text": "left and right parts"
+        },
+        {
+          "id": "c",
+          "text": "front and back parts"
+        },
+        {
+          "id": "d",
+          "text": "upper and lower parts"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Axial CT slices are in this plane.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The term \"proximal\" means",
+      "options": [
+        {
+          "id": "a",
+          "text": "towards the front"
+        },
+        {
+          "id": "b",
+          "text": "towards the back"
+        },
+        {
+          "id": "c",
+          "text": "nearer to the point of attachment or the trunk"
+        },
+        {
+          "id": "d",
+          "text": "farther from the trunk"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The elbow is proximal to the wrist.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The term \"anterior\" means",
+      "options": [
+        {
+          "id": "a",
+          "text": "towards the front"
+        },
+        {
+          "id": "b",
+          "text": "towards the side"
+        },
+        {
+          "id": "c",
+          "text": "towards the head"
+        },
+        {
+          "id": "d",
+          "text": "towards the back"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The opposite is posterior.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The basic structural and functional unit of the body is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "tissue"
+        },
+        {
+          "id": "b",
+          "text": "system"
+        },
+        {
+          "id": "c",
+          "text": "cell"
+        },
+        {
+          "id": "d",
+          "text": "organ"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Tissues are groups of similar cells, and organs are groups of tissues.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The four basic tissue types are",
+      "options": [
+        {
+          "id": "a",
+          "text": "red, white, grey and yellow"
+        },
+        {
+          "id": "b",
+          "text": "soft, hard, fluid and gas"
+        },
+        {
+          "id": "c",
+          "text": "epithelial, connective, muscle and nervous"
+        },
+        {
+          "id": "d",
+          "text": "bone, blood, skin and nerve"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Each has typical cells and functions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The cell membrane is made mainly of",
+      "options": [
+        {
+          "id": "a",
+          "text": "a phospholipid bilayer with proteins"
+        },
+        {
+          "id": "b",
+          "text": "cellulose"
+        },
+        {
+          "id": "c",
+          "text": "silica"
+        },
+        {
+          "id": "d",
+          "text": "chitin"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is selectively permeable.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The organelle that produces most of the ATP in a human cell is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "ribosome"
+        },
+        {
+          "id": "b",
+          "text": "Golgi body"
+        },
+        {
+          "id": "c",
+          "text": "nucleus"
+        },
+        {
+          "id": "d",
+          "text": "mitochondrion"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Oxidative phosphorylation occurs in the inner mitochondrial membrane.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "DNA is found mainly in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "nucleus"
+        },
+        {
+          "id": "b",
+          "text": "lysosome"
+        },
+        {
+          "id": "c",
+          "text": "cytoplasm"
+        },
+        {
+          "id": "d",
+          "text": "cell membrane"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is a major target of radiation damage.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The adult human skeleton has",
+      "options": [
+        {
+          "id": "a",
+          "text": "106 bones"
+        },
+        {
+          "id": "b",
+          "text": "406 bones"
+        },
+        {
+          "id": "c",
+          "text": "306 bones"
+        },
+        {
+          "id": "d",
+          "text": "206 bones"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It supports the body, protects organs and makes blood cells in the marrow.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Red bone marrow is the site of",
+      "options": [
+        {
+          "id": "a",
+          "text": "hormone storage"
+        },
+        {
+          "id": "b",
+          "text": "calcium storage only"
+        },
+        {
+          "id": "c",
+          "text": "blood cell formation"
+        },
+        {
+          "id": "d",
+          "text": "fat digestion"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is highly radiosensitive because the cells divide rapidly.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "The heart has",
+      "options": [
+        {
+          "id": "a",
+          "text": "five chambers"
+        },
+        {
+          "id": "b",
+          "text": "four chambers"
+        },
+        {
+          "id": "c",
+          "text": "three chambers"
+        },
+        {
+          "id": "d",
+          "text": "two chambers"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Two atria and two ventricles. The left ventricle pumps blood to the body.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Blood from the body returns to the heart through the vena cava into the",
+      "options": [
+        {
+          "id": "a",
+          "text": "right atrium"
+        },
+        {
+          "id": "b",
+          "text": "left atrium"
+        },
+        {
+          "id": "c",
+          "text": "right ventricle"
+        },
+        {
+          "id": "d",
+          "text": "left ventricle"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It then passes through the tricuspid valve to the right ventricle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Oxygenated blood leaves the heart by the",
+      "options": [
+        {
+          "id": "a",
+          "text": "pulmonary artery"
+        },
+        {
+          "id": "b",
+          "text": "pulmonary vein"
+        },
+        {
+          "id": "c",
+          "text": "vena cava"
+        },
+        {
+          "id": "d",
+          "text": "aorta"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The pulmonary veins bring oxygenated blood from the lungs to the left atrium.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Cardiac output is calculated as",
+      "options": [
+        {
+          "id": "a",
+          "text": "stroke volume divided by heart rate"
+        },
+        {
+          "id": "b",
+          "text": "heart rate multiplied by stroke volume"
+        },
+        {
+          "id": "c",
+          "text": "heart rate divided by stroke volume"
+        },
+        {
+          "id": "d",
+          "text": "blood pressure multiplied by heart rate"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is measured in litres per minute.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A person has a heart rate of 70 beats per minute and a stroke volume of 70 mL. The cardiac output is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4.9 litres per minute"
+        },
+        {
+          "id": "b",
+          "text": "49 litres per minute"
+        },
+        {
+          "id": "c",
+          "text": "1 litre per minute"
+        },
+        {
+          "id": "d",
+          "text": "0.49 litres per minute"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "70 multiplied by 70 = 4900 mL per minute = 4.9 L per minute.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A normal adult blood pressure is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "60/40 mmHg"
+        },
+        {
+          "id": "b",
+          "text": "90/150 mmHg"
+        },
+        {
+          "id": "c",
+          "text": "120/80 mmHg"
+        },
+        {
+          "id": "d",
+          "text": "200/120 mmHg"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Systolic pressure is when the ventricle contracts and diastolic when it relaxes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The P wave on an ECG represents",
+      "options": [
+        {
+          "id": "a",
+          "text": "ventricular depolarisation"
+        },
+        {
+          "id": "b",
+          "text": "ventricular repolarisation"
+        },
+        {
+          "id": "c",
+          "text": "atrial depolarisation"
+        },
+        {
+          "id": "d",
+          "text": "atrial repolarisation"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The QRS complex is ventricular depolarisation and the T wave is ventricular repolarisation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Gas exchange in the lungs occurs in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "alveoli"
+        },
+        {
+          "id": "b",
+          "text": "trachea"
+        },
+        {
+          "id": "c",
+          "text": "pleura"
+        },
+        {
+          "id": "d",
+          "text": "bronchi"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The alveolar walls are very thin and surrounded by capillaries.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The normal tidal volume of an adult at rest is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 mL"
+        },
+        {
+          "id": "b",
+          "text": "5 litres"
+        },
+        {
+          "id": "c",
+          "text": "500 mL"
+        },
+        {
+          "id": "d",
+          "text": "2 litres"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Respiratory rate is about 12 to 20 breaths per minute.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Haemoglobin in red cells",
+      "options": [
+        {
+          "id": "a",
+          "text": "clots blood"
+        },
+        {
+          "id": "b",
+          "text": "digests food"
+        },
+        {
+          "id": "c",
+          "text": "carries oxygen"
+        },
+        {
+          "id": "d",
+          "text": "fights infection"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Each haemoglobin molecule can carry four oxygen molecules.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The most radiosensitive circulating blood cell is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutrophil"
+        },
+        {
+          "id": "b",
+          "text": "erythrocyte"
+        },
+        {
+          "id": "c",
+          "text": "platelet"
+        },
+        {
+          "id": "d",
+          "text": "lymphocyte"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lymphocytes die even at low doses, so the count falls quickly after exposure.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The functional unit of the kidney is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "villus"
+        },
+        {
+          "id": "b",
+          "text": "alveolus"
+        },
+        {
+          "id": "c",
+          "text": "neuron"
+        },
+        {
+          "id": "d",
+          "text": "nephron"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It filters blood in the glomerulus and modifies the filtrate along the tubule.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The normal glomerular filtration rate is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "12.5 mL per minute"
+        },
+        {
+          "id": "b",
+          "text": "125 mL per minute"
+        },
+        {
+          "id": "c",
+          "text": "1250 mL per minute"
+        },
+        {
+          "id": "d",
+          "text": "5 mL per minute"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is used to assess kidney function, for example with technetium-99m DTPA scans.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The thyroid gland takes up",
+      "options": [
+        {
+          "id": "a",
+          "text": "sodium"
+        },
+        {
+          "id": "b",
+          "text": "iodine to make thyroid hormones"
+        },
+        {
+          "id": "c",
+          "text": "calcium"
+        },
+        {
+          "id": "d",
+          "text": "iron"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "T3 and T4 control metabolic rate, so radioiodine is taken up by the thyroid.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The functional unit of the nervous system is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "neuron"
+        },
+        {
+          "id": "b",
+          "text": "nephron"
+        },
+        {
+          "id": "c",
+          "text": "sarcomere"
+        },
+        {
+          "id": "d",
+          "text": "alveolus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It consists of a cell body, dendrites and an axon.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "The resting membrane potential of a neuron is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "+30 mV"
+        },
+        {
+          "id": "b",
+          "text": "-700 mV"
+        },
+        {
+          "id": "c",
+          "text": "0 mV"
+        },
+        {
+          "id": "d",
+          "text": "-70 mV"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The inside of the cell is negative relative to the outside.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "The brain and spinal cord together make up the",
+      "options": [
+        {
+          "id": "a",
+          "text": "endocrine system"
+        },
+        {
+          "id": "b",
+          "text": "central nervous system"
+        },
+        {
+          "id": "c",
+          "text": "autonomic nervous system only"
+        },
+        {
+          "id": "d",
+          "text": "peripheral nervous system"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Cranial and spinal nerves form the peripheral system.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Muscle contraction results from the sliding of",
+      "options": [
+        {
+          "id": "a",
+          "text": "elastin fibres"
+        },
+        {
+          "id": "b",
+          "text": "actin and myosin filaments"
+        },
+        {
+          "id": "c",
+          "text": "collagen fibres"
+        },
+        {
+          "id": "d",
+          "text": "keratin fibres"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Calcium and ATP are needed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "The part of the digestive tract where most nutrient absorption occurs is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "small intestine"
+        },
+        {
+          "id": "b",
+          "text": "large intestine"
+        },
+        {
+          "id": "c",
+          "text": "oesophagus"
+        },
+        {
+          "id": "d",
+          "text": "stomach"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Villi greatly increase the surface area.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The intestinal lining is radiosensitive because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it has no blood supply"
+        },
+        {
+          "id": "b",
+          "text": "it contains only nerve cells"
+        },
+        {
+          "id": "c",
+          "text": "it is made of bone"
+        },
+        {
+          "id": "d",
+          "text": "its crypt cells divide rapidly"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "High doses cause gastrointestinal syndrome.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The lens of the eye is a concern in radiation protection because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it produces hormones"
+        },
+        {
+          "id": "b",
+          "text": "radiation can cause cataract"
+        },
+        {
+          "id": "c",
+          "text": "it makes blood"
+        },
+        {
+          "id": "d",
+          "text": "it stores radioactive iodine"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The ICRP reduced the occupational equivalent dose limit for the lens to 20 mSv per year averaged over 5 years.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "The gonads are given a high tissue weighting factor because",
+      "options": [
+        {
+          "id": "a",
+          "text": "they store calcium"
+        },
+        {
+          "id": "b",
+          "text": "radiation can cause hereditary effects"
+        },
+        {
+          "id": "c",
+          "text": "they are not radiosensitive"
+        },
+        {
+          "id": "d",
+          "text": "they have no blood supply"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The factor in ICRP 103 is 0.08.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Which of the following structures is not in the mediastinum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The stomach"
+        },
+        {
+          "id": "b",
+          "text": "The heart"
+        },
+        {
+          "id": "c",
+          "text": "The trachea"
+        },
+        {
+          "id": "d",
+          "text": "The oesophagus"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The stomach is in the abdominal cavity, below the diaphragm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "The diaphragm separates the",
+      "options": [
+        {
+          "id": "a",
+          "text": "cranial cavity from the thoracic cavity"
+        },
+        {
+          "id": "b",
+          "text": "left lung from the right lung"
+        },
+        {
+          "id": "c",
+          "text": "thoracic cavity from the abdominal cavity"
+        },
+        {
+          "id": "d",
+          "text": "pelvic cavity from the abdominal cavity"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is the main muscle of breathing.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The coronal plane divides the body into upper and lower parts.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "That is the transverse plane. The coronal plane divides front from back.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Lymphocytes are among the most radiosensitive cells in the body.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They die by interphase death at doses as low as 0.1 to 0.5 Gy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "Assertion: Rapidly dividing tissues such as bone marrow are radiosensitive. Reason: Cells are most sensitive to radiation during division.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}
