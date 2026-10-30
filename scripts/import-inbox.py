@@ -21,7 +21,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 INBOX = ROOT / "inbox"
 STAGED = INBOX / "staged"
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-OPT = re.compile(r"^\s*([A-Ea-e])\s*[\).:]\s*(.*\S)\s*$")
+OPT = re.compile(r"^\s*([A-Fa-f])\s*[\).:]\s*(.*\S)\s*$")
 KEY = re.compile(r"^\s*(COURSE|DEPARTMENTS|Q|ANSWER|WHY|LEVEL)\s*:\s*(.*)$", re.I)
 
 
@@ -95,7 +95,7 @@ def parse(path):
                 field = "prompt"
             elif q is not None and key == "ANSWER":
                 a = val[:1].upper()
-                q["answer"] = a if a in "ABCDE" and a else None
+                q["answer"] = a if a in "ABCDEF" and a else None
                 field = None
             elif q is not None and key == "WHY":
                 q["why"] = val

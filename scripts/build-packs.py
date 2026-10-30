@@ -54,11 +54,22 @@ def dumps(obj):
     return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
+def is_live(q):
+    """Only formats the live test can show are shipped. Fill-in, essay and six-option questions
+    are valid in the depot but stay out of the packs until their interfaces go live (content/FORMATS.md)."""
+    return q.get("type", "mcq") == "mcq" and len(q.get("options", [])) <= 5
+
+
+WITHHELD = []  # (course key, question id) of approved questions kept out of the packs, reported by main()
+
+
 def load_courses():
     courses = []
     for path in sorted(CONTENT.glob("*/*.json")):
         doc = json.loads(path.read_text(encoding="utf-8"))
-        approved = [q for q in doc["questions"] if q.get("status") == "approved"]
+        approved = [q for q in doc["questions"] if q.get("status") == "approved" and is_live(q)]
+        WITHHELD.extend((f'{doc["faculty_slug"]}/{doc["course_slug"]}', q["id"]) for q in doc["questions"]
+                        if q.get("status") == "approved" and not is_live(q))
         if not approved:
             continue
         courses.append(
@@ -135,6 +146,9 @@ def main():
     courses = load_courses()
     if not courses:
         sys.exit("no approved questions in the depot")
+    if WITHHELD:
+        print(f"{len(WITHHELD)} approved question(s) are in a format that is not live yet and were left out of the packs: "
+              + ", ".join(f"{k}#{i}" for k, i in WITHHELD[:5]) + (" ..." if len(WITHHELD) > 5 else ""))
     starter = pick_starter(courses)
     prev = previous_release_dates()
 
