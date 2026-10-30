@@ -1,0 +1,1088 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb403",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Epidemiology is the study of",
+      "options": [
+        {
+          "id": "a",
+          "text": "how drugs are made"
+        },
+        {
+          "id": "b",
+          "text": "the distribution and determinants of disease in populations"
+        },
+        {
+          "id": "c",
+          "text": "the structure of cells"
+        },
+        {
+          "id": "d",
+          "text": "how bacteria are grown"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It also covers the application of this knowledge to control health problems.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Incidence is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the total population"
+        },
+        {
+          "id": "b",
+          "text": "the number of new cases in a population during a given period"
+        },
+        {
+          "id": "c",
+          "text": "the number of deaths"
+        },
+        {
+          "id": "d",
+          "text": "all existing cases at one time"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Prevalence counts all existing cases. Incidence counts only new cases in a time period.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "In a town of 20000 people, 40 new cases of cholera occur in one month. The incidence rate per 1000 population is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5 per 1000"
+        },
+        {
+          "id": "b",
+          "text": "20 per 1000"
+        },
+        {
+          "id": "c",
+          "text": "2 per 1000"
+        },
+        {
+          "id": "d",
+          "text": "40 per 1000"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Incidence rate = new cases divided by population times 1000 = 40 / 20000 x 1000 = 2.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "In a village of 5000 people, 150 are found to have malaria at one time. The prevalence is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 percent"
+        },
+        {
+          "id": "b",
+          "text": "1.5 percent"
+        },
+        {
+          "id": "c",
+          "text": "0.3 percent"
+        },
+        {
+          "id": "d",
+          "text": "30 percent"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Prevalence = 150 / 5000 = 0.03, which is 3 percent.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "An endemic disease is one that",
+      "options": [
+        {
+          "id": "a",
+          "text": "has been eradicated"
+        },
+        {
+          "id": "b",
+          "text": "is constantly present in a given area"
+        },
+        {
+          "id": "c",
+          "text": "appears suddenly in large numbers"
+        },
+        {
+          "id": "d",
+          "text": "affects many countries at once"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Malaria is endemic in Nigeria. A pandemic affects several continents.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "An epidemic is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a disease only in animals"
+        },
+        {
+          "id": "b",
+          "text": "an unusual increase in cases of a disease in a region"
+        },
+        {
+          "id": "c",
+          "text": "a disease always present"
+        },
+        {
+          "id": "d",
+          "text": "a rare disease"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The number of cases is above what is normally expected in that area and time.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A pandemic differs from an epidemic because a pandemic",
+      "options": [
+        {
+          "id": "a",
+          "text": "spreads across many countries or continents"
+        },
+        {
+          "id": "b",
+          "text": "affects only animals"
+        },
+        {
+          "id": "c",
+          "text": "is always fatal"
+        },
+        {
+          "id": "d",
+          "text": "has no cause"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "COVID-19 and the 1918 influenza are examples.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A sporadic disease is one that",
+      "options": [
+        {
+          "id": "a",
+          "text": "is present all the time"
+        },
+        {
+          "id": "b",
+          "text": "is found only in children"
+        },
+        {
+          "id": "c",
+          "text": "occurs occasionally and irregularly in a few cases"
+        },
+        {
+          "id": "d",
+          "text": "affects everyone"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Sporadic cases are scattered and do not follow a clear pattern.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The infectious dose of a pathogen is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the amount of drug needed"
+        },
+        {
+          "id": "b",
+          "text": "the number of deaths"
+        },
+        {
+          "id": "c",
+          "text": "the time to cure"
+        },
+        {
+          "id": "d",
+          "text": "the number of organisms needed to cause infection"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Shigella has a very low infectious dose, and Vibrio cholerae a high one.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The chain of infection links in order from the source are",
+      "options": [
+        {
+          "id": "a",
+          "text": "reservoir, portal of exit, mode of transmission, portal of entry, susceptible host"
+        },
+        {
+          "id": "b",
+          "text": "reservoir, vaccine, exit"
+        },
+        {
+          "id": "c",
+          "text": "exit, drug, entry"
+        },
+        {
+          "id": "d",
+          "text": "host, vaccine, drug, cure"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Breaking any link stops the spread of infection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "A carrier is a person who",
+      "options": [
+        {
+          "id": "a",
+          "text": "is immune"
+        },
+        {
+          "id": "b",
+          "text": "has severe symptoms"
+        },
+        {
+          "id": "c",
+          "text": "has no pathogen"
+        },
+        {
+          "id": "d",
+          "text": "harbours and spreads a pathogen without showing symptoms"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Typhoid Mary was a famous healthy carrier of Salmonella Typhi.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "A zoonosis is a disease",
+      "options": [
+        {
+          "id": "a",
+          "text": "caused by a plant"
+        },
+        {
+          "id": "b",
+          "text": "spread only between humans"
+        },
+        {
+          "id": "c",
+          "text": "caused by a toxin only"
+        },
+        {
+          "id": "d",
+          "text": "transmitted from animals to humans"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Rabies, brucellosis and Lassa fever are zoonoses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A vector is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a vaccine"
+        },
+        {
+          "id": "b",
+          "text": "a drug"
+        },
+        {
+          "id": "c",
+          "text": "a living organism that carries a pathogen from one host to another"
+        },
+        {
+          "id": "d",
+          "text": "a type of capsule"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Anopheles mosquitoes carry malaria parasites. Fomites are inanimate objects.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "A fomite is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a vector"
+        },
+        {
+          "id": "b",
+          "text": "a carrier"
+        },
+        {
+          "id": "c",
+          "text": "a vaccine"
+        },
+        {
+          "id": "d",
+          "text": "an inanimate object that carries pathogens"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Door handles, towels and bedding can act as fomites.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The airborne mode of transmission includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "droplet nuclei containing pathogens such as Mycobacterium tuberculosis"
+        },
+        {
+          "id": "b",
+          "text": "faecal-oral spread"
+        },
+        {
+          "id": "c",
+          "text": "bites of mosquitoes"
+        },
+        {
+          "id": "d",
+          "text": "contaminated needles"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Droplet nuclei remain suspended in air. Large droplets travel less than a metre.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Cholera is mainly transmitted by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sexual contact"
+        },
+        {
+          "id": "b",
+          "text": "the faecal-oral route through contaminated water"
+        },
+        {
+          "id": "c",
+          "text": "blood transfusion"
+        },
+        {
+          "id": "d",
+          "text": "airborne droplets"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Poor sanitation and unsafe water allow outbreaks, especially in crowded areas.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Malaria is transmitted by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sexual contact"
+        },
+        {
+          "id": "b",
+          "text": "the bite of a female Anopheles mosquito"
+        },
+        {
+          "id": "c",
+          "text": "contaminated food"
+        },
+        {
+          "id": "d",
+          "text": "the bite of Aedes aegypti"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Female Anopheles mosquitoes take blood meals. Aedes spreads dengue and yellow fever.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The basic reproduction number R0 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the number of vaccines"
+        },
+        {
+          "id": "b",
+          "text": "the number of deaths"
+        },
+        {
+          "id": "c",
+          "text": "the average number of secondary cases from one case in a fully susceptible population"
+        },
+        {
+          "id": "d",
+          "text": "the total number of cases"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "If R0 is greater than 1 the outbreak grows. If it is below 1 it dies out.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The case fatality rate is calculated as",
+      "options": [
+        {
+          "id": "a",
+          "text": "new cases divided by deaths"
+        },
+        {
+          "id": "b",
+          "text": "cases divided by the population"
+        },
+        {
+          "id": "c",
+          "text": "deaths divided by the total population"
+        },
+        {
+          "id": "d",
+          "text": "deaths from the disease divided by the number of cases of the disease"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It measures how deadly a disease is among those who contract it.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "In an outbreak of 250 cases of Lassa fever, 50 patients die. The case fatality rate is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 percent"
+        },
+        {
+          "id": "b",
+          "text": "50 percent"
+        },
+        {
+          "id": "c",
+          "text": "5 percent"
+        },
+        {
+          "id": "d",
+          "text": "25 percent"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "CFR = 50 / 250 x 100 = 20 percent.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "A case-control study compares",
+      "options": [
+        {
+          "id": "a",
+          "text": "people with the disease to people without it, looking back at exposures"
+        },
+        {
+          "id": "b",
+          "text": "two groups followed forward in time"
+        },
+        {
+          "id": "c",
+          "text": "only healthy people"
+        },
+        {
+          "id": "d",
+          "text": "a drug and a placebo"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is useful for rare diseases and quick. Cohort studies follow groups forward.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "A cohort study follows",
+      "options": [
+        {
+          "id": "a",
+          "text": "a single case"
+        },
+        {
+          "id": "b",
+          "text": "exposed and unexposed groups forward in time to see who develops disease"
+        },
+        {
+          "id": "c",
+          "text": "only deaths"
+        },
+        {
+          "id": "d",
+          "text": "only patients"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It gives incidence and relative risk.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The relative risk of a disease in the exposed group compared with the unexposed group is",
+      "options": [
+        {
+          "id": "a",
+          "text": "deaths divided by cases"
+        },
+        {
+          "id": "b",
+          "text": "exposed minus unexposed"
+        },
+        {
+          "id": "c",
+          "text": "cases divided by controls"
+        },
+        {
+          "id": "d",
+          "text": "incidence in exposed divided by incidence in unexposed"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A value of 1 means no association.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "A randomised controlled trial is the best design to test",
+      "options": [
+        {
+          "id": "a",
+          "text": "the cost of a disease"
+        },
+        {
+          "id": "b",
+          "text": "the prevalence of a disease"
+        },
+        {
+          "id": "c",
+          "text": "the cause of rare diseases only"
+        },
+        {
+          "id": "d",
+          "text": "the effect of an intervention"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Random allocation reduces bias and confounding.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The first step in investigating an outbreak is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "confirm the diagnosis and verify that an outbreak exists"
+        },
+        {
+          "id": "b",
+          "text": "publish findings"
+        },
+        {
+          "id": "c",
+          "text": "treat all patients with antibiotics"
+        },
+        {
+          "id": "d",
+          "text": "close the school"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Other steps include defining cases, counting them, describing by time, place and person, and testing hypotheses.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "An epidemic curve is a graph showing",
+      "options": [
+        {
+          "id": "a",
+          "text": "the weight of patients"
+        },
+        {
+          "id": "b",
+          "text": "the number of cases against the time of onset"
+        },
+        {
+          "id": "c",
+          "text": "the age of cases"
+        },
+        {
+          "id": "d",
+          "text": "the drug sold"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Its shape suggests whether the source was a point source, continuing or propagated.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Surveillance means",
+      "options": [
+        {
+          "id": "a",
+          "text": "continuous collection, analysis and interpretation of health data"
+        },
+        {
+          "id": "b",
+          "text": "production of vaccines"
+        },
+        {
+          "id": "c",
+          "text": "treatment of cases"
+        },
+        {
+          "id": "d",
+          "text": "a clinical trial"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The data are used to plan, implement and evaluate public health action.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "In Nigeria, the body responsible for national public health surveillance and outbreak response is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "National Universities Commission"
+        },
+        {
+          "id": "b",
+          "text": "Joint Admissions and Matriculation Board"
+        },
+        {
+          "id": "c",
+          "text": "Nigeria Centre for Disease Control (NCDC)"
+        },
+        {
+          "id": "d",
+          "text": "Central Bank"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The NCDC leads the response to outbreaks such as Lassa fever and cholera.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Primary prevention aims to",
+      "options": [
+        {
+          "id": "a",
+          "text": "rehabilitate patients"
+        },
+        {
+          "id": "b",
+          "text": "diagnose disease early"
+        },
+        {
+          "id": "c",
+          "text": "prevent disease before it occurs, for example by vaccination"
+        },
+        {
+          "id": "d",
+          "text": "treat established disease"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Secondary prevention is screening and early detection, and tertiary prevention reduces complications.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "A healthcare-associated (nosocomial) infection is one that",
+      "options": [
+        {
+          "id": "a",
+          "text": "is present at admission"
+        },
+        {
+          "id": "b",
+          "text": "occurs only in animals"
+        },
+        {
+          "id": "c",
+          "text": "is acquired in a health facility"
+        },
+        {
+          "id": "d",
+          "text": "has no cause"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The most important preventive measure is hand hygiene.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "The most effective single measure to reduce hospital infections is",
+      "options": [
+        {
+          "id": "a",
+          "text": "use of antibiotics for all patients"
+        },
+        {
+          "id": "b",
+          "text": "use of face masks only"
+        },
+        {
+          "id": "c",
+          "text": "hand washing"
+        },
+        {
+          "id": "d",
+          "text": "closing wards"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Contaminated hands of staff are the main route of transmission.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "An epidemic and an endemic disease mean the same thing.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Endemic means constantly present in an area. Epidemic means an unusual rise in cases above the expected level.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Vaccination is an example of primary prevention.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It prevents disease before exposure.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "Assertion: Vaccination can protect people who are not vaccinated. Reason: Reducing the number of susceptible people limits the spread of pathogens.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. This is herd immunity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}
