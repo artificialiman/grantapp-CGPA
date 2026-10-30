@@ -1270,6 +1270,123 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Competitive inhibition can be overcome by increasing substrate concentration. Reason: The inhibitor and the substrate compete for the same active site.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "A ____ is a biological catalyst, usually a protein, that speeds up a reaction by lowering the activation energy.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is a biological catalyst, usually a protein, that speeds up a reaction by lowering the ____ energy.",
+        "answers": [
+          "enzyme",
+          "activation"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "coenzyme"
+        },
+        {
+          "id": "b",
+          "text": "hormone"
+        },
+        {
+          "id": "c",
+          "text": "vitamin"
+        },
+        {
+          "id": "d",
+          "text": "enzyme"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is not used up in the reaction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "____ is the process by which the end product of a pathway inhibits an early enzyme in the pathway, called feedback inhibition.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the process by which the end product of a pathway inhibits an early enzyme in the pathway, called ____ inhibition.",
+        "answers": [
+          "Regulation",
+          "feedback"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Repression"
+        },
+        {
+          "id": "b",
+          "text": "Activation"
+        },
+        {
+          "id": "c",
+          "text": "Regulation"
+        },
+        {
+          "id": "d",
+          "text": "Induction"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It prevents wasteful overproduction.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
