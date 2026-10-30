@@ -1284,6 +1284,283 @@
       ],
       "difficulty": 2,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Transplant rejection is mainly mediated by",
+      "options": [
+        {
+          "id": "a",
+          "text": "mast cells"
+        },
+        {
+          "id": "b",
+          "text": "T cells recognising foreign MHC"
+        },
+        {
+          "id": "c",
+          "text": "complement alone"
+        },
+        {
+          "id": "d",
+          "text": "IgE"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Matching of HLA between donor and recipient reduces rejection. Immunosuppressants such as ciclosporin are used.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "Monoclonal antibodies are produced from",
+      "options": [
+        {
+          "id": "a",
+          "text": "viruses"
+        },
+        {
+          "id": "b",
+          "text": "polyclonal serum only"
+        },
+        {
+          "id": "c",
+          "text": "a single clone of B cells fused with myeloma cells"
+        },
+        {
+          "id": "d",
+          "text": "bacterial culture only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hybridoma cells produce identical antibodies against one epitope.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "Immunoglobulin IgM is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "monomer"
+        },
+        {
+          "id": "b",
+          "text": "dimer"
+        },
+        {
+          "id": "c",
+          "text": "pentamer with ten antigen binding sites"
+        },
+        {
+          "id": "d",
+          "text": "trimer"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The pentamer is held by a J chain and is efficient at agglutination and complement activation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "Immunological memory is held by",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "complement"
+        },
+        {
+          "id": "c",
+          "text": "platelets"
+        },
+        {
+          "id": "d",
+          "text": "memory B and T cells"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Memory cells persist for years and respond quickly to the same antigen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "Antibiotics are useful for the treatment of viral diseases such as measles.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Antibiotics act on bacterial structures and have no effect on viruses.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "Plasma cells secrete antibodies.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Plasma cells are the effector form of B cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "A vaccine gives passive immunity.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A vaccine stimulates the person's own immune system and gives active immunity. Passive immunity is the transfer of ready-made antibodies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q048",
+      "prompt": "Assertion: A second exposure to the same antigen produces a faster response. Reason: Memory cells formed in the first exposure persist.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q049",
+      "prompt": "Assertion: Group O red cells can be given to patients of any ABO group in an emergency. Reason: Group O cells have no A or B antigens.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true. Without A or B antigens, the recipient's anti-A and anti-B cannot agglutinate the donor cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
