@@ -1,0 +1,1288 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "radiobiology",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The most critical target of radiation in the cell is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the cell membrane"
+        },
+        {
+          "id": "b",
+          "text": "DNA"
+        },
+        {
+          "id": "c",
+          "text": "the cytoplasm"
+        },
+        {
+          "id": "d",
+          "text": "mitochondrial water"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Unrepaired double-strand breaks lead to cell death or mutation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Direct action of radiation means that",
+      "options": [
+        {
+          "id": "a",
+          "text": "radiation fuses cells"
+        },
+        {
+          "id": "b",
+          "text": "radiation breaks a molecule such as DNA by direct ionisation"
+        },
+        {
+          "id": "c",
+          "text": "radicals from water damage DNA"
+        },
+        {
+          "id": "d",
+          "text": "radiation heats the cell"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Indirect action involves hydroxyl radicals from water.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Indirect action of radiation on DNA is mainly through",
+      "options": [
+        {
+          "id": "a",
+          "text": "hydroxyl free radicals from the radiolysis of water"
+        },
+        {
+          "id": "b",
+          "text": "proteins"
+        },
+        {
+          "id": "c",
+          "text": "oxygen only"
+        },
+        {
+          "id": "d",
+          "text": "nitrogen"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It accounts for about two-thirds of damage from low LET radiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The most damaging type of DNA lesion is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "double-strand break"
+        },
+        {
+          "id": "b",
+          "text": "methylation"
+        },
+        {
+          "id": "c",
+          "text": "single-strand break"
+        },
+        {
+          "id": "d",
+          "text": "base loss"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Double-strand breaks are difficult to repair accurately.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Linear energy transfer (LET) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the particle's charge"
+        },
+        {
+          "id": "b",
+          "text": "the range of the particle"
+        },
+        {
+          "id": "c",
+          "text": "the energy deposited per unit length of track"
+        },
+        {
+          "id": "d",
+          "text": "the penetration depth"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is expressed in keV per micrometre.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "High-LET radiation includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "visible light"
+        },
+        {
+          "id": "b",
+          "text": "beta particles"
+        },
+        {
+          "id": "c",
+          "text": "X-rays and gamma rays"
+        },
+        {
+          "id": "d",
+          "text": "alpha particles and neutrons"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It produces dense ionisation and clustered DNA damage.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Relative biological effectiveness (RBE) is the ratio of",
+      "options": [
+        {
+          "id": "a",
+          "text": "the dose of reference radiation to the dose of test radiation giving the same effect"
+        },
+        {
+          "id": "b",
+          "text": "activities of two sources"
+        },
+        {
+          "id": "c",
+          "text": "doses over time"
+        },
+        {
+          "id": "d",
+          "text": "doses of two types of tissue"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The reference is usually 250 kVp X-rays or cobalt-60 gamma rays.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The oxygen enhancement ratio (OER) for low-LET radiation is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "2.5 to 3"
+        },
+        {
+          "id": "d",
+          "text": "0.5"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cells in the presence of oxygen are roughly 2.5 to 3 times more radiosensitive than hypoxic cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Hypoxic tumour cells are",
+      "options": [
+        {
+          "id": "a",
+          "text": "unaffected by any radiation"
+        },
+        {
+          "id": "b",
+          "text": "killed by oxygen"
+        },
+        {
+          "id": "c",
+          "text": "more sensitive to radiation"
+        },
+        {
+          "id": "d",
+          "text": "more resistant to radiation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "This is why reoxygenation helps in fractionated radiotherapy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The law of Bergonie and Tribondeau states that cells are most radiosensitive when they are",
+      "options": [
+        {
+          "id": "a",
+          "text": "old and differentiated"
+        },
+        {
+          "id": "b",
+          "text": "rapidly dividing, undifferentiated and have a long mitotic future"
+        },
+        {
+          "id": "c",
+          "text": "non-dividing"
+        },
+        {
+          "id": "d",
+          "text": "slowly dividing and specialised"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Lymphocytes are an exception, being sensitive despite being differentiated.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "In the cell cycle, the most radiosensitive phases are",
+      "options": [
+        {
+          "id": "a",
+          "text": "late S"
+        },
+        {
+          "id": "b",
+          "text": "G0"
+        },
+        {
+          "id": "c",
+          "text": "G1 only"
+        },
+        {
+          "id": "d",
+          "text": "G2 and M"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Late S phase is the most resistant, probably because of homologous recombination repair.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The cell survival curve for mammalian cells is plotted with",
+      "options": [
+        {
+          "id": "a",
+          "text": "the logarithm of surviving fraction against dose"
+        },
+        {
+          "id": "b",
+          "text": "dose against time"
+        },
+        {
+          "id": "c",
+          "text": "activity against dose"
+        },
+        {
+          "id": "d",
+          "text": "LET against dose"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The shoulder at low doses reflects repair capacity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The linear-quadratic model gives the surviving fraction as",
+      "options": [
+        {
+          "id": "a",
+          "text": "S = alpha D + beta D"
+        },
+        {
+          "id": "b",
+          "text": "S = exp(-alpha D - beta D squared)"
+        },
+        {
+          "id": "c",
+          "text": "S = exp(alpha D)"
+        },
+        {
+          "id": "d",
+          "text": "S = D divided by alpha"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Alpha is the linear component and beta the quadratic component.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "With alpha = 0.3 per Gy and beta = 0.03 per Gy squared, the surviving fraction after 4 Gy is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.30"
+        },
+        {
+          "id": "b",
+          "text": "0.82"
+        },
+        {
+          "id": "c",
+          "text": "0.19"
+        },
+        {
+          "id": "d",
+          "text": "0.05"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "alpha D = 1.2 and beta D squared = 0.48. The sum 1.68 gives exp(-1.68) = 0.186.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "The alpha/beta ratio for alpha = 0.3 per Gy and beta = 0.03 per Gy squared is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.1 Gy"
+        },
+        {
+          "id": "c",
+          "text": "0.9 Gy"
+        },
+        {
+          "id": "d",
+          "text": "9 Gy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "0.3 divided by 0.03 = 10 Gy. This is typical for early-responding tissues and many tumours.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Late-responding normal tissues typically have an alpha/beta ratio of",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 100 Gy"
+        },
+        {
+          "id": "b",
+          "text": "about 30 Gy"
+        },
+        {
+          "id": "c",
+          "text": "about 3 Gy"
+        },
+        {
+          "id": "d",
+          "text": "about 10 Gy"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Late tissues are more sensitive to fraction size than early-responding ones.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "For a simple exponential survival curve with D0 = 1.5 Gy, the surviving fraction after 3 Gy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.135"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "0.37"
+        },
+        {
+          "id": "d",
+          "text": "0.05"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "S = exp(-3 divided by 1.5) = exp(-2) = 0.135.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The biologically effective dose of 30 fractions of 2 Gy, with alpha/beta = 10 Gy, is",
+      "options": [
+        {
+          "id": "a",
+          "text": "60 Gy"
+        },
+        {
+          "id": "b",
+          "text": "72 Gy"
+        },
+        {
+          "id": "c",
+          "text": "66 Gy"
+        },
+        {
+          "id": "d",
+          "text": "90 Gy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "BED = nd (1 + d divided by alpha/beta) = 60 multiplied by (1 + 0.2) = 72 Gy.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The biologically effective dose of 20 fractions of 3 Gy, with alpha/beta = 10 Gy, is",
+      "options": [
+        {
+          "id": "a",
+          "text": "60 Gy"
+        },
+        {
+          "id": "b",
+          "text": "78 Gy"
+        },
+        {
+          "id": "c",
+          "text": "90 Gy"
+        },
+        {
+          "id": "d",
+          "text": "66 Gy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "BED = 60 multiplied by (1 + 3 divided by 10) = 60 multiplied by 1.3 = 78 Gy.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "The \"4 Rs\" of radiobiology in fractionated radiotherapy are",
+      "options": [
+        {
+          "id": "a",
+          "text": "resistance, range, recoil and radiolysis"
+        },
+        {
+          "id": "b",
+          "text": "repair, reassortment, repopulation and reoxygenation"
+        },
+        {
+          "id": "c",
+          "text": "radiation, response, risk and recovery"
+        },
+        {
+          "id": "d",
+          "text": "remission, relapse, repair and recurrence"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A fifth R, intrinsic radiosensitivity, is often added.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Repopulation between fractions",
+      "options": [
+        {
+          "id": "a",
+          "text": "only affects late tissue"
+        },
+        {
+          "id": "b",
+          "text": "has no effect"
+        },
+        {
+          "id": "c",
+          "text": "stops cell division"
+        },
+        {
+          "id": "d",
+          "text": "allows surviving cells to divide and is faster in rapidly proliferating tissues"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It may reduce tumour control if the overall treatment time is prolonged.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Fractionation in radiotherapy spares normal tissue because",
+      "options": [
+        {
+          "id": "a",
+          "text": "tumour cells repair faster"
+        },
+        {
+          "id": "b",
+          "text": "normal cells repair sublethal damage between fractions"
+        },
+        {
+          "id": "c",
+          "text": "normal cells are not damaged"
+        },
+        {
+          "id": "d",
+          "text": "dose is lower"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Tumour cells often have impaired repair.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The mean lethal dose for 50 percent of an exposed human population at 30 days without treatment (LD50/30) is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.4 Gy"
+        },
+        {
+          "id": "c",
+          "text": "4 Gy"
+        },
+        {
+          "id": "d",
+          "text": "400 Gy"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "This is whole-body acute exposure. Medical care raises the value.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The haematopoietic syndrome of acute radiation syndrome is caused by damage to",
+      "options": [
+        {
+          "id": "a",
+          "text": "the gut lining"
+        },
+        {
+          "id": "b",
+          "text": "the brain"
+        },
+        {
+          "id": "c",
+          "text": "the skin"
+        },
+        {
+          "id": "d",
+          "text": "bone marrow"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It appears at whole-body doses above about 1 to 2 Gy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The gastrointestinal syndrome appears at whole-body doses above about",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.6 Gy"
+        },
+        {
+          "id": "c",
+          "text": "0.06 Gy"
+        },
+        {
+          "id": "d",
+          "text": "60 Gy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Death of intestinal crypt cells causes diarrhoea, fluid loss and infection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The central nervous system syndrome requires doses above about",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.02 Gy"
+        },
+        {
+          "id": "c",
+          "text": "0.2 Gy"
+        },
+        {
+          "id": "d",
+          "text": "2 Gy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Death occurs within hours to days.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The phases of acute radiation syndrome in order are",
+      "options": [
+        {
+          "id": "a",
+          "text": "recovery, prodromal, latent, death"
+        },
+        {
+          "id": "b",
+          "text": "prodromal, latent, manifest illness, recovery or death"
+        },
+        {
+          "id": "c",
+          "text": "manifest, latent, prodromal, recovery"
+        },
+        {
+          "id": "d",
+          "text": "latent, prodromal, recovery, death"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The prodromal phase includes nausea, vomiting and fatigue.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The threshold absorbed dose for early transient skin erythema is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.2 Gy"
+        },
+        {
+          "id": "b",
+          "text": "2 Gy"
+        },
+        {
+          "id": "c",
+          "text": "0.02 Gy"
+        },
+        {
+          "id": "d",
+          "text": "20 Gy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Temporary hair loss needs about 3 Gy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Temporary male sterility can follow an acute testicular dose of about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1500 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.0015 Gy"
+        },
+        {
+          "id": "c",
+          "text": "0.15 Gy"
+        },
+        {
+          "id": "d",
+          "text": "15 Gy"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Permanent sterility needs a higher dose.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "The stage of pregnancy in which radiation most often causes major malformations is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the last trimester"
+        },
+        {
+          "id": "b",
+          "text": "the first week"
+        },
+        {
+          "id": "c",
+          "text": "organogenesis (about weeks 2 to 8)"
+        },
+        {
+          "id": "d",
+          "text": "after birth"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Weeks 8 to 15 are most sensitive for intellectual disability.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "The tissue weighting factors in ICRP 103 sum to",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.1"
+        },
+        {
+          "id": "b",
+          "text": "100"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The lung, stomach, colon, bone marrow and breast have 0.12 each.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "The ICRP detriment-adjusted nominal risk of fatal cancer and hereditary effects is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.05 percent per sievert"
+        },
+        {
+          "id": "b",
+          "text": "0.5 percent per sievert"
+        },
+        {
+          "id": "c",
+          "text": "50 percent per sievert"
+        },
+        {
+          "id": "d",
+          "text": "5 percent per sievert"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is applied to low-dose protection.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The bystander effect refers to",
+      "options": [
+        {
+          "id": "a",
+          "text": "protection of neighbouring cells"
+        },
+        {
+          "id": "b",
+          "text": "the movement of cells"
+        },
+        {
+          "id": "c",
+          "text": "a delay in tumour growth"
+        },
+        {
+          "id": "d",
+          "text": "biological effects in cells that were not directly traversed by radiation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Signals pass from irradiated to non-irradiated cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "A radioprotector such as amifostine works by",
+      "options": [
+        {
+          "id": "a",
+          "text": "increasing oxygen"
+        },
+        {
+          "id": "b",
+          "text": "killing tumour cells"
+        },
+        {
+          "id": "c",
+          "text": "increasing LET"
+        },
+        {
+          "id": "d",
+          "text": "scavenging free radicals"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Sulfhydryl compounds donate hydrogen atoms to repair damaged molecules.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "A radiosensitiser such as halogenated pyrimidine works by",
+      "options": [
+        {
+          "id": "a",
+          "text": "absorbing X-rays only"
+        },
+        {
+          "id": "b",
+          "text": "reducing oxygen"
+        },
+        {
+          "id": "c",
+          "text": "being incorporated into DNA to increase damage"
+        },
+        {
+          "id": "d",
+          "text": "repairing DNA"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Bromodeoxyuridine replaces thymidine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "The Goiania accident of 1987 involved a lost source of",
+      "options": [
+        {
+          "id": "a",
+          "text": "caesium-137"
+        },
+        {
+          "id": "b",
+          "text": "cobalt-60"
+        },
+        {
+          "id": "c",
+          "text": "radium-226"
+        },
+        {
+          "id": "d",
+          "text": "iridium-192"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A teletherapy source was opened by scrap collectors in Brazil, exposing many people.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Hypoxic cells are more radiosensitive than well-oxygenated cells.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Oxygen fixes radical damage, so oxygenated cells are about 2.5 to 3 times more sensitive.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The severity of a stochastic effect depends on the dose received.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The probability, not the severity, depends on dose. Severity depends on dose for deterministic effects.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "Assertion: Late S-phase cells are relatively radioresistant. Reason: Homologous recombination repair is active in late S phase.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the resistance.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "____ is the ratio of the dose of a reference radiation to the dose of a test radiation that produces the same biological effect.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the ratio of the dose of a reference radiation to the dose of a test radiation that produces the same biological ____.",
+        "answers": [
+          "Relative biological effectiveness",
+          "effect"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Equivalent dose"
+        },
+        {
+          "id": "b",
+          "text": "Oxygen enhancement ratio"
+        },
+        {
+          "id": "c",
+          "text": "Linear energy transfer"
+        },
+        {
+          "id": "d",
+          "text": "Relative biological effectiveness"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It depends on LET, dose, dose rate and the biological endpoint.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
