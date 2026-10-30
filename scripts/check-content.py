@@ -44,6 +44,11 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 STATUSES = {"pending", "approved", "rejected"}
+# Optional question kinds. Absent means a plain multiple-choice question. true_false has exactly the
+# options True and False; assertion_reason has the five standard options a to e; cloze carries a "cloze" object
+# (text with ____ blanks plus the answers) and keeps a multiple-choice fallback for blank 1 (handoff/QUESTION_KINDS.md).
+KINDS = {"mcq", "true_false", "assertion_reason", "cloze"}
+BLANK = "____"
 OPTION_ID = re.compile(r"^[a-e]$")
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 QID = re.compile(r"^q\d{3,}$")
@@ -52,6 +57,17 @@ MAX_OPTION = 300
 MIN_EXPLANATION = 20
 BIAS_LIMIT = 0.5  # warn if one option letter is the answer for more than this share
 BIAS_MIN_N = 8
+
+
+def load_universities():
+    path = CONTENT / "universities.json"
+    if not path.exists():
+        return set()
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return {u["slug"] for u in raw.get("universities", [])}
+
+
+UNIVERSITIES = load_universities()
 
 
 def norm(text):
@@ -174,6 +190,39 @@ def check_file(path, allowed, seen_prompts):
         else:
             answer_letters[correct] += 1
 
+        kind = q.get("kind")
+        if kind is not None:
+            if kind not in KINDS:
+                errors.append(f"{tag}: kind must be one of {sorted(KINDS)}")
+            elif kind == "true_false" and [o.get("text") for o in options or [] if isinstance(o, dict)] != ["True", "False"]:
+                errors.append(f"{tag}: a true_false question has exactly the options True and False")
+            elif kind == "assertion_reason" and (not isinstance(options, list) or len(options) != 5):
+                errors.append(f"{tag}: an assertion_reason question has exactly five options")
+            elif kind == "cloze":
+                cz = q.get("cloze")
+                answers = cz.get("answers") if isinstance(cz, dict) else None
+                text = cz.get("text") if isinstance(cz, dict) else None
+                if not isinstance(text, str) or not isinstance(answers, list) or not answers \
+                        or not all(isinstance(a, str) and a.strip() for a in answers):
+                    errors.append(f"{tag}: a cloze question needs cloze.text and a non-empty cloze.answers list")
+                else:
+                    if text.count(BLANK) != len(answers):
+                        errors.append(f"{tag}: cloze.text has {text.count(BLANK)} blanks but {len(answers)} answers")
+                    if BLANK not in (q.get("prompt") or ""):
+                        errors.append(f"{tag}: a cloze prompt keeps blank 1 as {BLANK}")
+                    right = next((o.get("text") for o in options or [] if isinstance(o, dict) and o.get("id") == correct), None)
+                    if right is None or norm(right) != norm(answers[0]):
+                        errors.append(f"{tag}: the correct option must equal cloze.answers[0]")
+
+        origins = q.get("origin_universities")
+        if origins is not None:
+            if not isinstance(origins, list) or not origins or not all(isinstance(u, str) and SLUG.match(u) for u in origins):
+                errors.append(f"{tag}: origin_universities must be a non-empty list of university slugs")
+            else:
+                for u in origins:
+                    if u not in UNIVERSITIES:
+                        errors.append(f"{tag}: '{u}' is not in content/universities.json (the founder adds universities)")
+
         status = q.get("status")
         if status not in STATUSES:
             errors.append(f"{tag}: status must be one of {sorted(STATUSES)}")
@@ -221,7 +270,7 @@ def main(argv):
     strict = "--strict" in argv
     paths = [pathlib.Path(a) for a in argv if not a.startswith("--")]
     if not paths:
-        paths = sorted(p for p in CONTENT.rglob("*.json") if p.name != "taxonomy.json")
+        paths = sorted(p for p in CONTENT.rglob("*.json") if p.name not in ("taxonomy.json", "universities.json"))
     if not paths:
         print("no content files found under content/")
         return 0

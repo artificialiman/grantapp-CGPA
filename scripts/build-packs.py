@@ -49,6 +49,10 @@ FIELDS = (
 )
 
 
+# Present only on questions that have them, so packs of ordinary questions keep their hashes.
+OPTIONAL_FIELDS = ("kind", "cloze", "origin_universities")
+
+
 def dumps(obj):
     # Canonical form: stable key order, no spaces, UTF-8. The hash depends on this exactly.
     return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
@@ -67,7 +71,7 @@ def load_courses():
                 "faculty": doc["faculty_slug"],
                 "course": doc["course_slug"],
                 "departments": doc["department_slugs"],
-                "questions": [{k: q[k] for k in FIELDS} for q in approved],
+                "questions": [{k: q[k] for k in FIELDS + tuple(x for x in OPTIONAL_FIELDS if x in q)} for q in approved],
             }
         )
     return courses
