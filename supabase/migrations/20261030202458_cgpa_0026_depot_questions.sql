@@ -3,8 +3,8 @@
 
 insert into cgpa.keystone_questions
   (course_id, cognitive_patterns, information_types, prompt, options, correct_option_id, explanation, difficulty, depot_key, depot_qid)
-select c.id, array['Logical']::text[], array['Essential / definitive']::text[], 'An isotope of an element has the same number of ____ but a different number of ____.',
-  '[{"id": "a", "text": "protons;neutrons"}, {"id": "b", "text": "nucleons;protons"}, {"id": "c", "text": "neutrons;protons"}, {"id": "d", "text": "electrons;nucleons"}]'::jsonb, 'a', 'Isotopes share the atomic number Z and differ in neutron number N, so their mass numbers A differ.', 1,
+select c.id, array['Logical']::text[], array['Essential / definitive']::text[], 'An isotope of an element has the same number of ____ but a different number of neutrons.',
+  '[{"id": "a", "text": "electrons"}, {"id": "b", "text": "neutrons"}, {"id": "c", "text": "protons"}, {"id": "d", "text": "nucleons"}]'::jsonb, 'c', 'Isotopes share the atomic number Z and differ in neutron number N, so their mass numbers A differ.', 1,
   'science/fundamentals-of-nuclear-physics', 'q001'
 from cgpa.courses c
 join cgpa.departments d on d.id = c.department_id

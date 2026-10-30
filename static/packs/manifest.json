@@ -1,5 +1,5 @@
 {
-  "content_hash": "3be47e7496575d3b84c7c6677a69e7580ed28f003d79ab6877c1526af7ac8eab",
+  "content_hash": "8885650eff7deaf5c8c8e0062087e21188cf4fd00656b2e4f3dc142d6c609554",
   "format": 1,
   "packs": [
     {
@@ -524,18 +524,18 @@
       "starter": true
     },
     {
-      "bytes": 23313,
+      "bytes": 23435,
       "count": 47,
       "course": "fundamentals-of-nuclear-physics",
       "departments": [
         "medical-physics"
       ],
       "faculty": "science",
-      "gz_bytes": 5030,
+      "gz_bytes": 5045,
       "key": "science/fundamentals-of-nuclear-physics",
-      "path": "packs/science/fundamentals-of-nuclear-physics.5a91dfde.json",
+      "path": "packs/science/fundamentals-of-nuclear-physics.eb0e29aa.json",
       "released_on": "2026-10-30",
-      "sha256": "5a91dfde9fed12ea7d43fd0ae9337c43a1241e14f2f29e8464d83623c2f7cd1d",
+      "sha256": "eb0e29aad2b007b2222b35ebfa60322e15bdd92b80afea2e5f130f30793b3283",
       "starter": true
     },
     {
@@ -963,7 +963,7 @@
   "totals": {
     "packs": 63,
     "questions": 1697,
-    "starter_gz_bytes": 74621,
+    "starter_gz_bytes": 74636,
     "starter_packs": 25,
     "starter_questions": 505
   }

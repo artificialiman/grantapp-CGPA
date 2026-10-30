@@ -214,6 +214,11 @@ def check_file(path, allowed, seen_prompts):
                     if right is None or norm(right) != norm(answers[0]):
                         errors.append(f"{tag}: the correct option must equal cloze.answers[0]")
 
+        if kind != "cloze" and isinstance(prompt, str) and BLANK in prompt:
+            errors.append(f"{tag}: the prompt has a ____ blank but kind is not cloze")
+        if kind != "cloze" and isinstance(options, list) and any(isinstance(o, dict) and ";" in str(o.get("text", "")) for o in options) and isinstance(prompt, str) and BLANK in prompt:
+            errors.append(f"{tag}: options look like blank answers joined by ';' but kind is not cloze")
+
         origins = q.get("origin_universities")
         if origins is not None:
             if not isinstance(origins, list) or not origins or not all(isinstance(u, str) and SLUG.match(u) for u in origins):
