@@ -1284,6 +1284,945 @@
       ],
       "difficulty": 3,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Which organism causes whooping cough?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bordetella pertussis"
+        },
+        {
+          "id": "b",
+          "text": "Legionella"
+        },
+        {
+          "id": "c",
+          "text": "Corynebacterium diphtheriae"
+        },
+        {
+          "id": "d",
+          "text": "Haemophilus influenzae"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is a small Gram-negative coccobacillus and the vaccine is part of the DPT/pentavalent schedule.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "In a genital ulcer swab, the spirochaete of syphilis is best demonstrated by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ziehl-Neelsen stain"
+        },
+        {
+          "id": "b",
+          "text": "India ink"
+        },
+        {
+          "id": "c",
+          "text": "dark-field microscopy"
+        },
+        {
+          "id": "d",
+          "text": "Gram stain"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is too thin to be seen by routine light microscopy and is not cultured routinely.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "The VDRL test is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "culture method"
+        },
+        {
+          "id": "b",
+          "text": "non-treponemal test using cardiolipin antigen"
+        },
+        {
+          "id": "c",
+          "text": "treponemal test"
+        },
+        {
+          "id": "d",
+          "text": "PCR method"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It detects reagin antibodies and is used for screening. Confirmation uses TPHA or FTA-ABS.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "Chlamydia trachomatis is an obligate",
+      "options": [
+        {
+          "id": "a",
+          "text": "fungus"
+        },
+        {
+          "id": "b",
+          "text": "intracellular bacterium"
+        },
+        {
+          "id": "c",
+          "text": "virus"
+        },
+        {
+          "id": "d",
+          "text": "extracellular bacterium"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It cannot make its own ATP and replicates in host cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "Trachoma, a leading cause of preventable blindness, is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neisseria gonorrhoeae"
+        },
+        {
+          "id": "b",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "id": "c",
+          "text": "Haemophilus influenzae"
+        },
+        {
+          "id": "d",
+          "text": "Chlamydia trachomatis serotypes A to C"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Repeated infection leads to scarring and trichiasis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "Rickettsia species are transmitted to humans by",
+      "options": [
+        {
+          "id": "a",
+          "text": "direct contact"
+        },
+        {
+          "id": "b",
+          "text": "contaminated water"
+        },
+        {
+          "id": "c",
+          "text": "arthropod vectors such as lice, fleas and ticks"
+        },
+        {
+          "id": "d",
+          "text": "inhalation only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Epidemic typhus is carried by body lice (Rickettsia prowazekii).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q047",
+      "prompt": "The causative agent of syphilis, Treponema pallidum, is classified as a",
+      "options": [
+        {
+          "id": "a",
+          "text": "spirochaete"
+        },
+        {
+          "id": "b",
+          "text": "coccus"
+        },
+        {
+          "id": "c",
+          "text": "bacillus"
+        },
+        {
+          "id": "d",
+          "text": "vibrio"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Spirochaetes are helical, motile bacteria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q048",
+      "prompt": "Lyme disease is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treponema pallidum"
+        },
+        {
+          "id": "b",
+          "text": "Borrelia burgdorferi"
+        },
+        {
+          "id": "c",
+          "text": "Rickettsia"
+        },
+        {
+          "id": "d",
+          "text": "Leptospira interrogans"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is spread by Ixodes ticks. Borrelia recurrentis causes relapsing fever from lice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q049",
+      "prompt": "Leptospirosis is mainly acquired by",
+      "options": [
+        {
+          "id": "a",
+          "text": "mosquito bites"
+        },
+        {
+          "id": "b",
+          "text": "contact with water contaminated by animal urine"
+        },
+        {
+          "id": "c",
+          "text": "sexual contact"
+        },
+        {
+          "id": "d",
+          "text": "inhaling spores"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Rats are a main reservoir. Weil's disease is the severe form.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q050",
+      "prompt": "Candida albicans is identified by the",
+      "options": [
+        {
+          "id": "a",
+          "text": "coagulase test"
+        },
+        {
+          "id": "b",
+          "text": "oxidase test"
+        },
+        {
+          "id": "c",
+          "text": "germ tube test"
+        },
+        {
+          "id": "d",
+          "text": "catalase test"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It forms short germ tubes when incubated in serum at 37 degrees C for 2 hours.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q051",
+      "prompt": "India ink preparation of CSF is used to demonstrate",
+      "options": [
+        {
+          "id": "a",
+          "text": "capsule of Cryptococcus neoformans"
+        },
+        {
+          "id": "b",
+          "text": "Candida pseudohyphae"
+        },
+        {
+          "id": "c",
+          "text": "spirochaetes"
+        },
+        {
+          "id": "d",
+          "text": "acid-fast bacilli"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The capsule appears as a clear halo against the black background.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q052",
+      "prompt": "The dermatophyte infections of skin, hair and nails are known as",
+      "options": [
+        {
+          "id": "a",
+          "text": "histoplasmosis"
+        },
+        {
+          "id": "b",
+          "text": "aspergillosis"
+        },
+        {
+          "id": "c",
+          "text": "candidiasis"
+        },
+        {
+          "id": "d",
+          "text": "tinea"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Tinea capitis affects the scalp and is common in children in Nigeria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q053",
+      "prompt": "A Gram-positive branching filamentous bacterium that is partially acid-fast is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neisseria"
+        },
+        {
+          "id": "b",
+          "text": "Vibrio"
+        },
+        {
+          "id": "c",
+          "text": "Nocardia"
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It causes pulmonary and cutaneous infections in immunocompromised persons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q054",
+      "prompt": "A clinic reports that of 400 patients with fever, 120 had positive blood cultures for Salmonella Typhi. The proportion culture-positive is",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 percent"
+        },
+        {
+          "id": "b",
+          "text": "33 percent"
+        },
+        {
+          "id": "c",
+          "text": "12 percent"
+        },
+        {
+          "id": "d",
+          "text": "3 percent"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "120 divided by 400 equals 0.30, or 30 percent.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q055",
+      "prompt": "A 25-year-old woman has dysuria and frequency. Urine culture on CLED agar shows yellow lactose-fermenting colonies. The organism most likely is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "b",
+          "text": "Proteus mirabilis"
+        },
+        {
+          "id": "c",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "d",
+          "text": "Staphylococcus saprophyticus"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "E. coli is the commonest cause of urinary tract infection and ferments lactose to give yellow colonies on CLED agar.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q056",
+      "prompt": "A child in the dry season has fever, headache, neck stiffness and a petechial rash. CSF Gram stain shows Gram-negative diplococci. The most likely organism is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Haemophilus influenzae type b"
+        },
+        {
+          "id": "b",
+          "text": "Neisseria meningitidis"
+        },
+        {
+          "id": "c",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "id": "d",
+          "text": "Listeria monocytogenes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Gram-negative diplococci in CSF with petechiae point to meningococcal meningitis.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q057",
+      "prompt": "A farmer presents with a painful wound, then lockjaw and spasms of the back muscles. The toxin acts by",
+      "options": [
+        {
+          "id": "a",
+          "text": "blocking release of acetylcholine"
+        },
+        {
+          "id": "b",
+          "text": "inhibiting elongation factor 2"
+        },
+        {
+          "id": "c",
+          "text": "raising cyclic AMP"
+        },
+        {
+          "id": "d",
+          "text": "blocking release of inhibitory neurotransmitters"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "These are the features of tetanus caused by tetanospasmin.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q058",
+      "prompt": "A patient with chronic cough for 4 weeks, night sweats and weight loss has a sputum smear showing red rods on a blue background after Ziehl-Neelsen staining. The most likely organism is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nocardia only"
+        },
+        {
+          "id": "b",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "id": "c",
+          "text": "Klebsiella pneumoniae"
+        },
+        {
+          "id": "d",
+          "text": "Mycobacterium tuberculosis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Acid-fast bacilli in sputum with a compatible history confirm pulmonary TB.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q059",
+      "prompt": "A traveller develops profuse painless watery diarrhoea with rice-water stool. Stool grows yellow colonies on TCBS agar. The management that matters most is",
+      "options": [
+        {
+          "id": "a",
+          "text": "surgery"
+        },
+        {
+          "id": "b",
+          "text": "antimotility drugs"
+        },
+        {
+          "id": "c",
+          "text": "antipyretics"
+        },
+        {
+          "id": "d",
+          "text": "oral or intravenous rehydration"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The disease is cholera and fluid replacement saves lives.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q060",
+      "prompt": "Endotoxin is a protein secreted by living Gram-positive bacteria.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Endotoxin is lipopolysaccharide in the outer membrane of Gram-negative bacteria and is released mainly when cells die.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q061",
+      "prompt": "Mycobacterium tuberculosis is acid-fast because of mycolic acids in its cell wall.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Mycolic acids retain carbol fuchsin even after treatment with acid-alcohol.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q062",
+      "prompt": "The Widal test is a culture method.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is a serological agglutination test for antibodies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q063",
+      "prompt": "Pseudomonas aeruginosa is oxidase positive.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It produces cytochrome c oxidase, unlike the Enterobacteriaceae.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q064",
+      "prompt": "Assertion: Clostridium tetani infection causes spastic paralysis. Reason: Tetanus toxin blocks release of inhibitory neurotransmitters in the spinal cord.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q065",
+      "prompt": "Assertion: Botulinum toxin causes flaccid paralysis. Reason: It prevents release of acetylcholine at the neuromuscular junction.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q066",
+      "prompt": "Assertion: Endotoxin can be converted to a toxoid for use as a vaccine. Reason: Endotoxin is a protein.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "e",
+      "explanation": "Both are false. Endotoxin is lipopolysaccharide and cannot be made into a toxoid. Exotoxins can.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q067",
+      "prompt": "____ postulates state that the organism must be found in every case of the disease, isolated in pure culture, and cause the same disease when inoculated into a healthy host.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ postulates state that the organism must be found in every case of the disease, isolated in ____ culture, and cause the same disease when inoculated into a healthy host.",
+        "answers": [
+          "Koch's",
+          "pure"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Jenner's"
+        },
+        {
+          "id": "b",
+          "text": "Koch's"
+        },
+        {
+          "id": "c",
+          "text": "Pasteur's"
+        },
+        {
+          "id": "d",
+          "text": "Lister's"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "After inoculation the organism must be re-isolated and shown to be the same.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q068",
+      "prompt": "____ is a lipopolysaccharide component of the outer membrane of Gram-negative bacteria that causes fever and shock when released.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is a lipopolysaccharide component of the outer membrane of ____ bacteria that causes fever and shock when released.",
+        "answers": [
+          "Endotoxin",
+          "Gram-negative"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Enterotoxin"
+        },
+        {
+          "id": "b",
+          "text": "Exotoxin"
+        },
+        {
+          "id": "c",
+          "text": "Toxoid"
+        },
+        {
+          "id": "d",
+          "text": "Endotoxin"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lipid A is the toxic part of the molecule.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q069",
+      "prompt": "____ is the degree of pathogenicity of a strain, and depends on factors such as toxins and capsules.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ is the degree of pathogenicity of a strain, and depends on factors such as ____ and capsules.",
+        "answers": [
+          "Virulence",
+          "toxins"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Resistance"
+        },
+        {
+          "id": "b",
+          "text": "Virulence"
+        },
+        {
+          "id": "c",
+          "text": "Immunity"
+        },
+        {
+          "id": "d",
+          "text": "Commensalism"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Virulence factors help the organism to invade, evade defences and damage tissue.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
