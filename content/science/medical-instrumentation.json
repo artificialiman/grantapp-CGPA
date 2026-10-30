@@ -1270,6 +1270,123 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Skin preparation is carried out before attaching ECG electrodes. Reason: It lowers the electrode-skin impedance and reduces noise.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the preparation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "A ____ is a device that converts a physical quantity such as temperature or pressure into an electrical signal.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is a device that converts a ____ quantity such as temperature or pressure into an electrical signal.",
+        "answers": [
+          "transducer",
+          "physical"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "filter"
+        },
+        {
+          "id": "b",
+          "text": "transducer"
+        },
+        {
+          "id": "c",
+          "text": "rectifier"
+        },
+        {
+          "id": "d",
+          "text": "amplifier"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Examples are thermistors and strain gauges.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "The ____ rejection ratio is the ratio of the differential gain to the common-mode gain of an amplifier.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ rejection ratio is the ratio of the ____ gain to the common-mode gain of an amplifier.",
+        "answers": [
+          "common-mode",
+          "differential"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "signal"
+        },
+        {
+          "id": "b",
+          "text": "common-mode"
+        },
+        {
+          "id": "c",
+          "text": "differential"
+        },
+        {
+          "id": "d",
+          "text": "input"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is usually expressed in decibels.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
