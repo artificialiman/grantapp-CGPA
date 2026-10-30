@@ -63,3 +63,44 @@ test('grouping drops no course and orders semesters 1, 2, then unassigned', () =
 		}
 	}
 });
+
+// Science subjects in the first three years: every chemistry, physics, mathematics, biology,
+// zoology and botany course the curriculum data lists for a Science department (years 1-3) is in the
+// catalog, and has a database row in some migration, so a student can open it and add it.
+import { readFileSync, readdirSync } from 'node:fs';
+const SCIENCE = /^(CHM|PHY|MTH|BIO|ZOO|BOT)/;
+const migrations = readdirSync('supabase/migrations').map((f) => readFileSync(`supabase/migrations/${f}`, 'utf8')).join('\n');
+
+test('Science departments list their first-three-year science subjects, each with a database row', () => {
+	const science = CATALOG.find((f) => f.slug === 'science');
+	const missingCatalog = [];
+	const missingRow = [];
+	for (const dept of science.departments) {
+		const doc = JSON.parse(readFileSync(`curriculum/build/${dept.slug}.json`, 'utf8'));
+		for (const c of doc.courses) {
+			if (!c.code || !SCIENCE.test(c.code) || c.year > 3) continue;
+			if (!dept.courses.some((x) => x.slug === c.slug)) missingCatalog.push(`${dept.slug}/${c.code}`);
+		}
+		for (const c of dept.courses) {
+			if (c.code && SCIENCE.test(c.code) && c.year <= 3 && !migrations.includes(`'${c.code}'`)) missingRow.push(`${dept.slug}/${c.code}`);
+		}
+	}
+	assert.deepEqual(missingCatalog, []);
+	assert.deepEqual(missingRow, []);
+});
+
+test('every Science department has the same 14 compulsory year-1 science courses (chemistry, physics, mathematics, biology)', () => {
+	const core = readFileSync('curriculum/shared/science-year1.txt', 'utf8')
+		.split('\n')
+		.filter((l) => /^1\|(CHM|PHY|MTH|BIO)/.test(l))
+		.map((l) => l.split('|')[1]);
+	assert.equal(core.length, 14);
+	for (const dept of CATALOG.find((f) => f.slug === 'science').departments) {
+		for (const code of core) {
+			const hit = dept.courses.find((c) => c.code === code);
+			assert.ok(hit, `${dept.slug} lacks ${code}`);
+			assert.equal(hit.year, 1, `${dept.slug} ${code} year`);
+			assert.equal(hit.kind, 'core', `${dept.slug} ${code} kind`);
+		}
+	}
+});

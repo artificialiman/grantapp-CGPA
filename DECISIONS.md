@@ -214,3 +214,11 @@ is edited.
 - **Year 1 and 2 electives:** the twelve year-2 electives in the curriculum data (common law 4, economics 6, insurance 1, microbiology 1) are now in the catalog. No year-1 electives exist in the curriculum data and none were invented. No General Studies electives exist in the data either.
 - **Each year is split into First and Second semester.** Rule: odd last digit of the course code = first semester, even = second (the usual Nigerian numbering). Courses with no code take the semester of the same-named course in `curriculum/build`. The rest show under "Semester not yet assigned". This is derived, not verified per university; a university's own table overrides it by setting `semester` on the catalog line.
 - **Order inside a semester:** department core, department electives, then General Studies.
+
+## 2026-10-30: Science subjects in the first three years
+
+- **Every Science department takes the same year-1 chemistry, physics, mathematics and biology as compulsory courses** (founder rule): CHM101, 102, 107, 108; PHY101, 102, 107, 108; MTH101, 102; BIO101, 102, 107, 108. Source: `curriculum/shared/science-year1.txt` (NUC CCMAS 100-level science core). Applies to computer science and cybersecurity too, on the founder's instruction.
+- **Years 2 and 3:** each department also lists the chemistry, physics, mathematics, biology, zoology and botany courses its own curriculum table names (for example BIO201, CHM210 to 212 and CHM303 in biochemistry; BIO201 to 207 and CHM202, 205, 207, 291, 292 in microbiology; MTH201, 202, 209 in computer science). Kinds are as the data gives them: compulsory except MTH209 (elective).
+- **Gaps, not filled:** medical physics, environmental management and toxicology, and cybersecurity have no year 2 or 3 science rows in the curriculum data. Later-year science electives are not in the data either. Nothing was invented.
+- **Credit units:** neither the curriculum data nor the database has a credit-unit column (the dashboard assumes 3 per course), so "high credit" cannot be shown yet.
+- Biochemistry's existing database row BCH101 is now in the catalog. Migration `0028` adds the new course rows.
