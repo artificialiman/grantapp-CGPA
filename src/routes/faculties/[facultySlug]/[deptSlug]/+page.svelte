@@ -84,7 +84,6 @@
 							<li>
 								<a href={course.href} class="course-row">
 									<span class="course-name">{course.name}</span>
-									{#if course.code}<span class="course-code">{course.code}</span>{/if}
 									{#if course.shared}<span class="course-kind kind-shared">General Studies</span>
 									{:else}<span class="course-kind kind-{course.kind}">{kindLabel[course.kind]}</span>{/if}
 								</a>

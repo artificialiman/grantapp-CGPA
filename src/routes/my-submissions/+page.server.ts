@@ -33,7 +33,7 @@ export const load: PageServerLoad = async (event) => {
 			.select('id, name, code')
 			.in('id', allDetectedIds);
 		detectedCourseNames = Object.fromEntries(
-			(detected ?? []).map((c) => [c.id, c.code ? `${c.name} (${c.code})` : c.name])
+			(detected ?? []).map((c) => [c.id, c.name])
 		);
 	}
 

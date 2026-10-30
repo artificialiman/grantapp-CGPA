@@ -31,7 +31,6 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		courseId,
 		courseSlug: params.courseSlug,
 		courseName: found.course.name,
-		courseCode: found.course.code,
 		facultySlug: params.facultySlug,
 		deptSlug: params.deptSlug
 	};

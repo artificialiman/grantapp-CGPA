@@ -113,7 +113,7 @@
 
 <div class="wrap">
 	<div class="breadcrumb">
-		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">{data.courseCode}</a>
+		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">{data.courseName}</a>
 		<span class="sep">/</span><span class="current">100-day Mastery</span>
 	</div>
 

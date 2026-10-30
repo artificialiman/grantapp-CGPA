@@ -53,7 +53,6 @@
 	</div>
 
 	<h1 class="page-title">{data.course.name}</h1>
-	{#if data.course.code}<p class="course-code">{data.course.code}</p>{/if}
 
 	{#if data.isLoggedIn}
 		{#if data.alreadyEnrolled || justEnrolled}

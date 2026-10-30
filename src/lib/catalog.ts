@@ -682,6 +682,25 @@ export type ListedCourse = CatalogCourse & {
  * an unknown department.
  */
 export function listCourses(facultySlug: string, deptSlug: string): ListedCourse[] | undefined {
+	const all = listCoursesWithRepeats(facultySlug, deptSlug);
+	return all && withoutRepeatedTitles(all);
+}
+
+const titleKey = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/**
+ * Students see titles, not codes, because codes differ between universities. The same title in the
+ * same year is therefore one course: when the old and the national (CCMAS) code both exist, only the
+ * later catalog entry is listed, which is the newer scheme and the one the question banks are written
+ * against. The other entry keeps its page; it is only left out of the lists.
+ */
+export function withoutRepeatedTitles<T extends CatalogCourse>(courses: T[]): T[] {
+	const last = new Map<string, number>();
+	courses.forEach((c, i) => last.set(`${c.year}|${titleKey(c.name)}`, i));
+	return courses.filter((c, i) => last.get(`${c.year}|${titleKey(c.name)}`) === i);
+}
+
+function listCoursesWithRepeats(facultySlug: string, deptSlug: string): ListedCourse[] | undefined {
 	const found = getDepartment(facultySlug, deptSlug);
 	if (!found) return undefined;
 	const own = found.department.courses.map((c) => ({

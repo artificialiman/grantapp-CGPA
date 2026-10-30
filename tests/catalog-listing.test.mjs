@@ -2,24 +2,38 @@
 // Department listings: General Studies for everybody, electives included, years split in semesters.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { CATALOG, listCourses, groupByYearAndSemester } from '../src/lib/catalog.ts';
+import { CATALOG, listCourses, groupByYearAndSemester, withoutRepeatedTitles } from '../src/lib/catalog.ts';
+const titleKey = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
 const departments = CATALOG.flatMap((f) => f.departments.map((d) => ({ f: f.slug, d: d.slug })));
 const gst = CATALOG.find((f) => f.slug === 'general-studies').departments[0].courses;
 
-test('every department lists every General Studies course, pointing at its one canonical page', () => {
+test('every department lists every General Studies title, pointing at its one canonical page', () => {
 	for (const { f, d } of departments) {
 		const list = listCourses(f, d);
 		for (const g of gst) {
-			const hit = list.filter((c) => c.slug === g.slug && c.shared);
-			if (f === 'general-studies') {
-				assert.equal(list.filter((c) => c.slug === g.slug).length, 1, `${g.slug} duplicated in General Studies`);
-			} else {
-				assert.equal(hit.length, 1, `${g.slug} missing in ${f}/${d}`);
-				assert.equal(hit[0].href, `/faculties/general-studies/general-studies/${g.slug}`);
-			}
+			const hit = list.filter((c) => c.year === g.year && titleKey(c.name) === titleKey(g.name) && (f === 'general-studies' || c.shared));
+			assert.equal(hit.length, 1, `${g.slug} (${g.name}) listed ${hit.length} times in ${f}/${d}`);
+			if (f !== 'general-studies') assert.match(hit[0].href, /^\/faculties\/general-studies\/general-studies\/[a-z0-9-]+$/);
 		}
 	}
+});
+
+test('a title appears once per year in every list (codes differ between universities, titles do not)', () => {
+	for (const { f, d } of departments) {
+		const seen = new Set();
+		for (const c of listCourses(f, d)) {
+			const k = `${c.year}|${titleKey(c.name)}`;
+			assert.ok(!seen.has(k), `${f}/${d}: "${c.name}" repeated in year ${c.year}`);
+			seen.add(k);
+		}
+	}
+	// the later (newer-scheme) entry survives
+	const out = withoutRepeatedTitles([
+		{ slug: 'a', name: 'Nigerian Peoples and Culture', year: 1 },
+		{ slug: 'b', name: 'Nigerian Peoples and Culture!', year: 1 }
+	]);
+	assert.deepEqual(out.map((c) => c.slug), ['b']);
 });
 
 test('year 1 of every department shows the year-1 General Studies courses', () => {
@@ -28,8 +42,8 @@ test('year 1 of every department shows the year-1 General Studies courses', () =
 	for (const { f, d } of departments) {
 		const y1 = groupByYearAndSemester(listCourses(f, d)).find((y) => y.year === 1);
 		assert.ok(y1, `no year 1 in ${f}/${d}`);
-		const slugs = y1.semesters.flatMap((s) => s.courses.map((c) => c.slug));
-		for (const s of year1) assert.ok(slugs.includes(s), `${s} missing from year 1 of ${f}/${d}`);
+		const titles = y1.semesters.flatMap((s) => s.courses.map((c) => titleKey(c.name)));
+		for (const s of year1) assert.ok(titles.includes(titleKey(gst.find((g) => g.slug === s).name)), `${s} missing from year 1 of ${f}/${d}`);
 	}
 });
 

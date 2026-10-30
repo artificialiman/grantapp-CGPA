@@ -88,7 +88,7 @@
 			<tbody>
 				{#each byYear.get(year) ?? [] as row}
 					<tr>
-						<td>{row.courses?.name ?? '—'}{row.courses?.code ? ` (${row.courses.code})` : ''}</td>
+						<td>{row.courses?.name ?? '—'}</td>
 						<td>{row.semester}</td>
 						<td class="kind-cell">{row.courses?.kind ?? '—'}</td>
 						<td>

@@ -74,7 +74,7 @@
 			<select id="course" bind:value={selectedCourseId}>
 				<option value="">Not sure / general</option>
 				{#each data.courses as course}
-					<option value={course.id}>{course.name}{course.code ? ` (${course.code})` : ''}</option>
+					<option value={course.id}>{course.name}</option>
 				{/each}
 			</select>
 		</div>
