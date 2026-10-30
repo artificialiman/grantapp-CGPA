@@ -25,7 +25,7 @@
         "general-studies"
       ],
       "faculty": "general-studies",
-      "gz_bytes": 2018,
+      "gz_bytes": 2017,
       "key": "general-studies/ent211",
       "path": "packs/general-studies/ent211.2623e642.json",
       "released_on": "2026-10-30",
@@ -70,7 +70,7 @@
         "general-studies"
       ],
       "faculty": "general-studies",
-      "gz_bytes": 2152,
+      "gz_bytes": 2150,
       "key": "general-studies/gst111",
       "path": "packs/general-studies/gst111.3b1480f2.json",
       "released_on": "2026-10-30",
@@ -85,7 +85,7 @@
         "general-studies"
       ],
       "faculty": "general-studies",
-      "gz_bytes": 2019,
+      "gz_bytes": 2018,
       "key": "general-studies/gst112",
       "path": "packs/general-studies/gst112.cb1ee720.json",
       "released_on": "2026-10-30",
@@ -100,7 +100,7 @@
         "general-studies"
       ],
       "faculty": "general-studies",
-      "gz_bytes": 1943,
+      "gz_bytes": 1942,
       "key": "general-studies/gst212",
       "path": "packs/general-studies/gst212.0c988f3e.json",
       "released_on": "2026-10-30",
@@ -115,7 +115,7 @@
         "general-studies"
       ],
       "faculty": "general-studies",
-      "gz_bytes": 2012,
+      "gz_bytes": 2009,
       "key": "general-studies/gst312",
       "path": "packs/general-studies/gst312.0b2dd5f2.json",
       "released_on": "2026-10-30",
@@ -160,7 +160,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3258,
+      "gz_bytes": 3248,
       "key": "medicine/ant214",
       "path": "packs/medicine/ant214.3c8e8ec2.json",
       "released_on": "2026-10-30",
@@ -175,7 +175,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3411,
+      "gz_bytes": 3404,
       "key": "medicine/ant315",
       "path": "packs/medicine/ant315.c88dcc36.json",
       "released_on": "2026-10-30",
@@ -191,7 +191,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3345,
+      "gz_bytes": 3340,
       "key": "medicine/bio101",
       "path": "packs/medicine/bio101.faf1db86.json",
       "released_on": "2026-10-30",
@@ -207,7 +207,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3688,
+      "gz_bytes": 3668,
       "key": "medicine/bio102",
       "path": "packs/medicine/bio102.c3e428b5.json",
       "released_on": "2026-10-30",
@@ -223,7 +223,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3489,
+      "gz_bytes": 3481,
       "key": "medicine/bio107",
       "path": "packs/medicine/bio107.cbcde909.json",
       "released_on": "2026-10-30",
@@ -239,7 +239,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3656,
+      "gz_bytes": 3648,
       "key": "medicine/bio108",
       "path": "packs/medicine/bio108.229a17ea.json",
       "released_on": "2026-10-30",
@@ -254,7 +254,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3245,
+      "gz_bytes": 3243,
       "key": "medicine/chem111",
       "path": "packs/medicine/chem111.a4cffcf4.json",
       "released_on": "2026-10-30",
@@ -269,7 +269,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3315,
+      "gz_bytes": 3306,
       "key": "medicine/chem122",
       "path": "packs/medicine/chem122.c4b2d476.json",
       "released_on": "2026-10-30",
@@ -285,7 +285,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3316,
+      "gz_bytes": 3314,
       "key": "medicine/chm107",
       "path": "packs/medicine/chm107.2189394e.json",
       "released_on": "2026-10-30",
@@ -301,7 +301,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 2943,
+      "gz_bytes": 2934,
       "key": "medicine/chm108",
       "path": "packs/medicine/chm108.361ee2fb.json",
       "released_on": "2026-10-30",
@@ -316,7 +316,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3635,
+      "gz_bytes": 3622,
       "key": "medicine/man326",
       "path": "packs/medicine/man326.77ae1cc0.json",
       "released_on": "2026-10-30",
@@ -331,7 +331,7 @@
         "medical-laboratory-science"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3870,
+      "gz_bytes": 3860,
       "key": "medicine/mls406",
       "path": "packs/medicine/mls406.a3419cf8.json",
       "released_on": "2026-10-30",
@@ -346,7 +346,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3609,
+      "gz_bytes": 3593,
       "key": "medicine/pco320",
       "path": "packs/medicine/pco320.565d8fec.json",
       "released_on": "2026-10-30",
@@ -361,7 +361,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3388,
+      "gz_bytes": 3378,
       "key": "medicine/pco421",
       "path": "packs/medicine/pco421.c783a93b.json",
       "released_on": "2026-10-30",
@@ -376,7 +376,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3593,
+      "gz_bytes": 3587,
       "key": "medicine/pco441",
       "path": "packs/medicine/pco441.5c0a270b.json",
       "released_on": "2026-10-30",
@@ -392,7 +392,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3261,
+      "gz_bytes": 3257,
       "key": "medicine/phy101",
       "path": "packs/medicine/phy101.b66904a8.json",
       "released_on": "2026-10-30",
@@ -408,7 +408,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3378,
+      "gz_bytes": 3370,
       "key": "medicine/phy102",
       "path": "packs/medicine/phy102.1e0f75e4.json",
       "released_on": "2026-10-30",
@@ -424,7 +424,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3741,
+      "gz_bytes": 3730,
       "key": "medicine/phy107",
       "path": "packs/medicine/phy107.7bfc24fc.json",
       "released_on": "2026-10-30",
@@ -440,7 +440,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3772,
+      "gz_bytes": 3762,
       "key": "medicine/phy108",
       "path": "packs/medicine/phy108.91c7dfa2.json",
       "released_on": "2026-10-30",
@@ -455,7 +455,7 @@
         "human-medicine"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3555,
+      "gz_bytes": 3552,
       "key": "medicine/phy109",
       "path": "packs/medicine/phy109.829e45d0.json",
       "released_on": "2026-10-30",
@@ -471,7 +471,7 @@
         "pharmacy"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3483,
+      "gz_bytes": 3471,
       "key": "medicine/pio201",
       "path": "packs/medicine/pio201.57fc5ce6.json",
       "released_on": "2026-10-30",
@@ -486,7 +486,7 @@
         "medical-laboratory-science"
       ],
       "faculty": "medicine",
-      "gz_bytes": 3141,
+      "gz_bytes": 3134,
       "key": "medicine/sta201",
       "path": "packs/medicine/sta201.a54a523f.json",
       "released_on": "2026-10-30",
@@ -543,7 +543,7 @@
   "totals": {
     "packs": 35,
     "questions": 556,
-    "starter_gz_bytes": 89833,
+    "starter_gz_bytes": 89654,
     "starter_packs": 33,
     "starter_questions": 516
   }
