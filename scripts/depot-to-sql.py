@@ -41,13 +41,18 @@ def arr(items):
     return "array[" + ", ".join(lit(x) for x in items) + "]::text[]" if items else "'{}'::text[]"
 
 
+def is_live(q):
+    # Same rule as build-packs.py: formats whose interfaces are not live yet stay out of the database too.
+    return q.get("type", "mcq") == "mcq" and len(q.get("options", [])) <= 5
+
+
 def approved(content_dir):
     out = []
     for path in sorted(content_dir.glob("*/*.json")):
         doc = json.loads(path.read_text(encoding="utf-8"))
         key = f'{doc["faculty_slug"]}/{doc["course_slug"]}'
         for q in doc["questions"]:
-            if q.get("status") == "approved":
+            if q.get("status") == "approved" and is_live(q):
                 out.append((f'{key}#{q["id"]}', doc, q))
     return out
 

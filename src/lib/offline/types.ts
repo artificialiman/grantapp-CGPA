@@ -60,3 +60,40 @@ export type Attempt = {
 	tries: number;
 	last_error?: string;
 };
+
+// ---- Question formats that are built but not yet in the live test ----------------------------
+// The live test (LocalTest.svelte) still handles multiple choice only. These shapes belong to the
+// fill-in, essay and six-option interfaces in src/lib/components/ and content/FORMATS.md.
+
+/** One cell of a fill-in table: fixed text, or a blank the student fills. */
+export type FillCell = { text: string } | { blank: string; accept?: string[]; numeric?: boolean; tolerance?: number };
+
+type FormatBase = Omit<PackQuestion, 'options' | 'correct_option_id'>;
+
+/** Fill in properties or blanks. With `columns` it is shown as a table, without it as lines of text. */
+export type FillQuestion = FormatBase & {
+	type: 'fill';
+	columns?: string[];
+	rows: FillCell[][];
+};
+
+export type RubricPoint = { point: string; marks: number };
+
+/** An essay or article: written by the student, compared with a model answer. */
+export type EssayQuestion = FormatBase & {
+	type: 'essay';
+	marks: number;
+	word_limit?: number;
+	model_answer: string;
+	rubric: RubricPoint[];
+};
+
+/** The six-option multiple choice: one right answer and five kinds of near miss (see formats.ts). */
+export type SixOptionQuestion = PackQuestion & {
+	type?: 'mcq';
+	/** Option id -> kind of near miss, for the five wrong options. */
+	distractor_kinds: Record<string, string>;
+};
+
+/** What the student wrote for a fill-in or essay question. */
+export type WrittenAnswer = { fills?: Record<string, string>; text?: string };

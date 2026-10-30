@@ -21,7 +21,7 @@ Q: Next question...
 
 - `COURSE:` is `faculty/course`, the same names as the folders in `content/`. A new `COURSE:` line starts a new course. For a course that does not exist yet, write the name you would give it.
 - `DEPARTMENTS:` is optional, a list such as `common-law, civil-law`. Leave it out for a course every department shares.
-- Options run `A)` to `E)` (`A.` and `A:` also work). The prompt may span several lines.
+- Options run `A)` to `F)` (the six-option format is not live yet, so use two to five for now) (`A.` and `A:` also work). The prompt may span several lines.
 - `ANSWER:` is the letter of the right option. `WHY:` and `LEVEL:` (1 to 5) are optional; manchi fills them in if missing.
 - Separate questions with a blank line.
 - A question the script cannot read is reported with its line number and skipped; nothing else is affected.
