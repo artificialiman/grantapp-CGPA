@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { getCourse } from '$lib/catalog';
 import { resolveCourseId } from '$lib/catalog-resolve.server';
+import { packForCourse } from '$lib/offline/available.server';
 import { safeGetSessionOrDevBypass } from '$lib/auth/devMode';
 import type { PageServerLoad } from './$types';
 
@@ -39,13 +40,18 @@ export const load: PageServerLoad = async (event) => {
 	// DB, or not exist there at all yet for a newly-added department —
 	// fail soft into "0 questions available" rather than a hard error,
 	// since the page itself is still real and worth showing.
-	const questionCount = courseId
+	const dbQuestionCount = courseId
 		? ((
 				await locals.supabase.rpc('approved_question_count', {
 					p_course_id: courseId
 				})
 			).data ?? 0)
 		: 0;
+
+	// Quick Test runs from the question packs that ship with the app, so it is open whenever a pack
+	// exists, whatever the database holds. Only 100-day Mastery needs the online bank.
+	const pack = await packForCourse(event.fetch, params.facultySlug, params.deptSlug, params.courseSlug);
+	const questionCount = pack?.count ?? dbQuestionCount;
 
 	const { session, user } = await safeGetSessionOrDevBypass(locals);
 	let alreadyEnrolled = false;
@@ -65,6 +71,7 @@ export const load: PageServerLoad = async (event) => {
 		facultySlug: faculty.slug,
 		deptSlug: department.slug,
 		questionCount,
+		masteryCount: dbQuestionCount,
 		isLoggedIn: !!(session && user),
 		alreadyEnrolled
 	};
