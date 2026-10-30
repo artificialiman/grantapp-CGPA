@@ -1,0 +1,1296 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "nuclear-application-in-medicine-industry-and-research",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "A radiotracer is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a reactor fuel"
+        },
+        {
+          "id": "b",
+          "text": "a shielding material"
+        },
+        {
+          "id": "c",
+          "text": "a type of detector"
+        },
+        {
+          "id": "d",
+          "text": "a radioactive compound used to follow the path of a substance"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Its radiation is detected outside the body or system to show where it goes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The most widely used radionuclide in diagnostic nuclear medicine is",
+      "options": [
+        {
+          "id": "a",
+          "text": "technetium-99m"
+        },
+        {
+          "id": "b",
+          "text": "caesium-137"
+        },
+        {
+          "id": "c",
+          "text": "cobalt-60"
+        },
+        {
+          "id": "d",
+          "text": "iodine-131"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It emits a 140 keV gamma ray, has a 6-hour half-life and is available from a generator.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The parent radionuclide in a technetium-99m generator is",
+      "options": [
+        {
+          "id": "a",
+          "text": "molybdenum-99"
+        },
+        {
+          "id": "b",
+          "text": "iodine-131"
+        },
+        {
+          "id": "c",
+          "text": "fluorine-18"
+        },
+        {
+          "id": "d",
+          "text": "cobalt-60"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The generator is eluted with saline to give sodium pertechnetate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The half-life of molybdenum-99 is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "66 hours"
+        },
+        {
+          "id": "b",
+          "text": "6 hours"
+        },
+        {
+          "id": "c",
+          "text": "8 days"
+        },
+        {
+          "id": "d",
+          "text": "110 minutes"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Its longer half-life makes the generator last about a week.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The photon energy of technetium-99m used for imaging is",
+      "options": [
+        {
+          "id": "a",
+          "text": "364 keV"
+        },
+        {
+          "id": "b",
+          "text": "140 keV"
+        },
+        {
+          "id": "c",
+          "text": "511 keV"
+        },
+        {
+          "id": "d",
+          "text": "1.25 MeV"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It suits the NaI(Tl) crystal in a gamma camera.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A gamma camera forms an image using a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geiger counter"
+        },
+        {
+          "id": "b",
+          "text": "solid-state X-ray tube"
+        },
+        {
+          "id": "c",
+          "text": "collimator, scintillation crystal and photomultiplier tubes"
+        },
+        {
+          "id": "d",
+          "text": "film only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The collimator defines the direction of detected photons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The function of the collimator in a gamma camera is to",
+      "options": [
+        {
+          "id": "a",
+          "text": "filter out heat"
+        },
+        {
+          "id": "b",
+          "text": "convert light to charge"
+        },
+        {
+          "id": "c",
+          "text": "amplify the signal"
+        },
+        {
+          "id": "d",
+          "text": "accept only photons travelling in a chosen direction"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Lead septa absorb obliquely travelling photons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "SPECT stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "single photon emission computed tomography"
+        },
+        {
+          "id": "b",
+          "text": "simple photon energy count tomography"
+        },
+        {
+          "id": "c",
+          "text": "single proton emission cross tomography"
+        },
+        {
+          "id": "d",
+          "text": "scatter photon energy computed tomography"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A gamma camera rotates around the patient to give cross-sectional images.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "PET stands for",
+      "options": [
+        {
+          "id": "a",
+          "text": "photon energy tracing"
+        },
+        {
+          "id": "b",
+          "text": "proton emission tomography"
+        },
+        {
+          "id": "c",
+          "text": "positron emission tomography"
+        },
+        {
+          "id": "d",
+          "text": "pulsed electron tomography"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It detects pairs of annihilation photons.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "In PET, a positron annihilates with an electron to produce",
+      "options": [
+        {
+          "id": "a",
+          "text": "a neutron"
+        },
+        {
+          "id": "b",
+          "text": "an alpha particle"
+        },
+        {
+          "id": "c",
+          "text": "two 511 keV photons travelling in opposite directions"
+        },
+        {
+          "id": "d",
+          "text": "one 1.022 MeV photon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The coincidence detection of two photons defines the line of response.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The tracer most used in PET oncology is",
+      "options": [
+        {
+          "id": "a",
+          "text": "technetium-99m"
+        },
+        {
+          "id": "b",
+          "text": "fluorine-18 fluorodeoxyglucose (FDG)"
+        },
+        {
+          "id": "c",
+          "text": "thallium-201"
+        },
+        {
+          "id": "d",
+          "text": "iodine-131"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "FDG is taken up by cells with high glucose uptake, such as many tumours.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The half-life of fluorine-18 is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "110 minutes"
+        },
+        {
+          "id": "b",
+          "text": "66 hours"
+        },
+        {
+          "id": "c",
+          "text": "8 days"
+        },
+        {
+          "id": "d",
+          "text": "6 hours"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "This allows delivery from a cyclotron site to nearby hospitals, but not over long distances.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A fluorine-18 dose has an activity of 370 MBq at calibration. Its half-life is 110 minutes. The activity after 220 minutes is",
+      "options": [
+        {
+          "id": "a",
+          "text": "185 MBq"
+        },
+        {
+          "id": "b",
+          "text": "123 MBq"
+        },
+        {
+          "id": "c",
+          "text": "46.25 MBq"
+        },
+        {
+          "id": "d",
+          "text": "92.5 MBq"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "220 minutes is 2 half-lives, so activity = 370 divided by 4 = 92.5 MBq.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "A technetium-99m preparation of 740 MBq is used 12 hours later. The half-life is 6 hours. The activity then is",
+      "options": [
+        {
+          "id": "a",
+          "text": "185 MBq"
+        },
+        {
+          "id": "b",
+          "text": "246.7 MBq"
+        },
+        {
+          "id": "c",
+          "text": "92.5 MBq"
+        },
+        {
+          "id": "d",
+          "text": "370 MBq"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "12 hours is 2 half-lives, so 740 divided by 4 = 185 MBq.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Iodine-131 is used for the treatment of",
+      "options": [
+        {
+          "id": "a",
+          "text": "lung infections"
+        },
+        {
+          "id": "b",
+          "text": "hyperthyroidism and thyroid cancer"
+        },
+        {
+          "id": "c",
+          "text": "bone fractures"
+        },
+        {
+          "id": "d",
+          "text": "diabetes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The thyroid takes up iodine and the beta particles destroy thyroid tissue locally.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Iodine-123 is preferred over iodine-131 for thyroid imaging because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it emits gamma rays without beta particles, giving a lower dose"
+        },
+        {
+          "id": "b",
+          "text": "it is cheaper"
+        },
+        {
+          "id": "c",
+          "text": "it emits alpha particles"
+        },
+        {
+          "id": "d",
+          "text": "it has a longer half-life"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Its half-life is about 13 hours and the gamma energy is 159 keV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Thallium-201 is used for",
+      "options": [
+        {
+          "id": "a",
+          "text": "thyroid treatment"
+        },
+        {
+          "id": "b",
+          "text": "myocardial perfusion imaging"
+        },
+        {
+          "id": "c",
+          "text": "brain tumours"
+        },
+        {
+          "id": "d",
+          "text": "bone pain"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It behaves like potassium and is taken up by viable heart muscle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Yttrium-90 is used in",
+      "options": [
+        {
+          "id": "a",
+          "text": "radioembolisation of liver tumours"
+        },
+        {
+          "id": "b",
+          "text": "smoke detectors"
+        },
+        {
+          "id": "c",
+          "text": "gamma camera imaging"
+        },
+        {
+          "id": "d",
+          "text": "bone scans"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is a pure beta emitter and microspheres deliver dose to the tumour.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Radium-223 dichloride is used to treat",
+      "options": [
+        {
+          "id": "a",
+          "text": "leukaemia"
+        },
+        {
+          "id": "b",
+          "text": "thyroid cancer"
+        },
+        {
+          "id": "c",
+          "text": "bone metastases, as an alpha emitter"
+        },
+        {
+          "id": "d",
+          "text": "brain tumours"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It behaves like calcium and localises in bone with high-LET alpha radiation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Lutetium-177 is used for",
+      "options": [
+        {
+          "id": "a",
+          "text": "food irradiation"
+        },
+        {
+          "id": "b",
+          "text": "targeted radionuclide therapy of neuroendocrine and prostate cancers"
+        },
+        {
+          "id": "c",
+          "text": "bone densitometry"
+        },
+        {
+          "id": "d",
+          "text": "X-ray imaging"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It emits beta particles and low-energy gamma rays for imaging.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Cobalt-60 teletherapy sources emit gamma rays of",
+      "options": [
+        {
+          "id": "a",
+          "text": "364 keV"
+        },
+        {
+          "id": "b",
+          "text": "140 keV"
+        },
+        {
+          "id": "c",
+          "text": "1.17 and 1.33 MeV"
+        },
+        {
+          "id": "d",
+          "text": "511 keV"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The half-life is 5.27 years, so sources need replacing every 5 to 7 years.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "A common source for high dose rate brachytherapy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "fluorine-18"
+        },
+        {
+          "id": "b",
+          "text": "iodine-123"
+        },
+        {
+          "id": "c",
+          "text": "iridium-192"
+        },
+        {
+          "id": "d",
+          "text": "technetium-99m"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Its half-life is 74 days and it is used in remote afterloading units.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Caesium-137 has a half-life of about",
+      "options": [
+        {
+          "id": "a",
+          "text": "8 days"
+        },
+        {
+          "id": "b",
+          "text": "74 days"
+        },
+        {
+          "id": "c",
+          "text": "30 years"
+        },
+        {
+          "id": "d",
+          "text": "5 years"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is used in some brachytherapy sources, calibration sources and industrial gauges.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The quality control test for the radiochemical purity of a radiopharmaceutical is usually",
+      "options": [
+        {
+          "id": "a",
+          "text": "mass spectrometry only"
+        },
+        {
+          "id": "b",
+          "text": "Gram staining"
+        },
+        {
+          "id": "c",
+          "text": "autoclaving"
+        },
+        {
+          "id": "d",
+          "text": "chromatography"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It measures the fraction of the radionuclide in the desired chemical form.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Radionuclide purity refers to",
+      "options": [
+        {
+          "id": "a",
+          "text": "the proportion of the total activity from the desired radionuclide"
+        },
+        {
+          "id": "b",
+          "text": "chemical purity"
+        },
+        {
+          "id": "c",
+          "text": "colour"
+        },
+        {
+          "id": "d",
+          "text": "particle size"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The molybdenum breakthrough test checks for molybdenum-99 in the technetium eluate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Radiopharmaceuticals for injection must be",
+      "options": [
+        {
+          "id": "a",
+          "text": "inactive"
+        },
+        {
+          "id": "b",
+          "text": "stored at room temperature always"
+        },
+        {
+          "id": "c",
+          "text": "coloured"
+        },
+        {
+          "id": "d",
+          "text": "sterile and pyrogen free"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They must also meet radiochemical and radionuclidic purity limits.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Industrial radiography to check welds commonly uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "iodine-131"
+        },
+        {
+          "id": "b",
+          "text": "iridium-192 or cobalt-60 gamma sources"
+        },
+        {
+          "id": "c",
+          "text": "fluorine-18"
+        },
+        {
+          "id": "d",
+          "text": "technetium-99m"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The gamma rays penetrate metal and expose film or a detector.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Industrial thickness gauges for paper or sheet metal use the principle that",
+      "options": [
+        {
+          "id": "a",
+          "text": "charge builds up"
+        },
+        {
+          "id": "b",
+          "text": "reflected light increases"
+        },
+        {
+          "id": "c",
+          "text": "temperature changes"
+        },
+        {
+          "id": "d",
+          "text": "transmitted radiation decreases as the thickness increases"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Beta sources suit thin materials and gamma sources thicker ones.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Smoke detectors commonly contain",
+      "options": [
+        {
+          "id": "a",
+          "text": "iodine-131"
+        },
+        {
+          "id": "b",
+          "text": "cobalt-60"
+        },
+        {
+          "id": "c",
+          "text": "iridium-192"
+        },
+        {
+          "id": "d",
+          "text": "americium-241"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The alpha particles ionise air in a chamber and smoke disrupts the current.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Gamma sterilisation of medical products uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "iodine-131"
+        },
+        {
+          "id": "b",
+          "text": "carbon-14"
+        },
+        {
+          "id": "c",
+          "text": "cobalt-60"
+        },
+        {
+          "id": "d",
+          "text": "technetium-99m"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A dose of about 25 kGy is a common standard for sterilising disposable items.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Carbon-14 dating works because",
+      "options": [
+        {
+          "id": "a",
+          "text": "carbon-14 is stable"
+        },
+        {
+          "id": "b",
+          "text": "living organisms exchange carbon with the atmosphere and the activity falls after death"
+        },
+        {
+          "id": "c",
+          "text": "bones are radioactive"
+        },
+        {
+          "id": "d",
+          "text": "plants emit gamma rays"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The ratio of carbon-14 to carbon-12 falls with a half-life of 5730 years.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Neutron activation analysis is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "treat tumours"
+        },
+        {
+          "id": "b",
+          "text": "detect trace elements by measuring gamma rays from activated nuclei"
+        },
+        {
+          "id": "c",
+          "text": "clean water"
+        },
+        {
+          "id": "d",
+          "text": "measure temperature"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Samples are irradiated in a reactor and the induced radioactivity is measured.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "In Nigeria, the Nigeria Research Reactor-1 (NIRR-1) is located at",
+      "options": [
+        {
+          "id": "a",
+          "text": "University of Lagos"
+        },
+        {
+          "id": "b",
+          "text": "the Centre for Energy Research and Training, Zaria"
+        },
+        {
+          "id": "c",
+          "text": "Port Harcourt"
+        },
+        {
+          "id": "d",
+          "text": "University of Ibadan"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is a low-power research reactor used for neutron activation analysis and training.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "In Nigeria, the body that regulates the use of radiation sources and nuclear materials is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "National Agency for Food and Drug Administration"
+        },
+        {
+          "id": "b",
+          "text": "Nigerian Medical Association"
+        },
+        {
+          "id": "c",
+          "text": "Standards Organisation of Nigeria"
+        },
+        {
+          "id": "d",
+          "text": "Nigerian Nuclear Regulatory Authority"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It issues authorisations, inspects facilities and enforces radiation protection requirements.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "The sterile insect technique uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "sterilised male insects released to reduce a pest population"
+        },
+        {
+          "id": "b",
+          "text": "chemical spraying"
+        },
+        {
+          "id": "c",
+          "text": "food irradiation"
+        },
+        {
+          "id": "d",
+          "text": "radiation to kill all insects"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It has been used against the tsetse fly and fruit fly.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Technetium-99m is a pure gamma emitter (no particulate emission) suited to imaging.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "This gives good images with a low radiation dose to the patient.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Positron emission tomography detects a single 140 keV photon.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It detects two 511 keV photons in coincidence.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "Assertion: Technetium-99m is the most used radionuclide in diagnostic nuclear medicine. Reason: It has a short half-life and a gamma energy suitable for the gamma camera.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "A ____ is a radioactive compound, given in a small amount, whose path in the body or a system can be followed by detecting its radiation.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is a radioactive compound, given in a small amount, whose path in the body or a system can be followed by detecting its ____.",
+        "answers": [
+          "radiotracer",
+          "radiation"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "collimator"
+        },
+        {
+          "id": "b",
+          "text": "moderator"
+        },
+        {
+          "id": "c",
+          "text": "coolant"
+        },
+        {
+          "id": "d",
+          "text": "radiotracer"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The tracer principle assumes the labelled molecule behaves like the unlabelled one.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "In ____ equilibrium the parent half-life is longer than the daughter's, as in the molybdenum-99 and technetium-99m generator.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "In ____ equilibrium the parent half-life is longer than the daughter's, as in the molybdenum-99 and technetium-99m ____.",
+        "answers": [
+          "transient",
+          "generator"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "thermal"
+        },
+        {
+          "id": "b",
+          "text": "secular"
+        },
+        {
+          "id": "c",
+          "text": "transient"
+        },
+        {
+          "id": "d",
+          "text": "static"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The daughter activity grows to a maximum and then decays with the parent half-life.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
