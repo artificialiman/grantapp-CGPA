@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { getDepartment } from '$lib/catalog';
+import { getDepartment, listCourses, groupByYearAndSemester } from '$lib/catalog';
 import type { PageLoad } from './$types';
 
 /**
@@ -19,14 +19,8 @@ export const load: PageLoad = ({ params }) => {
 
 	const { faculty, department } = found;
 
-	const byYear = new Map<number, typeof department.courses>();
-	for (const course of department.courses) {
-		if (!byYear.has(course.year)) byYear.set(course.year, []);
-		byYear.get(course.year)!.push(course);
-	}
-	const years = Array.from(byYear.entries())
-		.sort(([a], [b]) => a - b)
-		.map(([year, courses]) => ({ year, courses }));
+	// Own courses plus General Studies (GST/ENT), which every department shows; grouped year -> semester.
+	const years = groupByYearAndSemester(listCourses(params.facultySlug, params.deptSlug) ?? []);
 
 	return {
 		faculty: { slug: faculty.slug, name: faculty.name },

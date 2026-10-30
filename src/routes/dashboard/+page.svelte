@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { SEMESTER_LABEL } from '$lib/catalog';
 	export let data: PageData;
 
 	type WeakestMastery = {
@@ -73,19 +74,19 @@
 		</div>
 		{#each data.programme.years as y}
 			<h3 class="year-label">Year {y.year}</h3>
-			<ul class="programme-list">
-				{#each y.courses as c}
-					<li>
-						<a
-							href="/faculties/{data.programme.facultySlug}/{data.programme.departmentSlug}/{c.slug}"
-							class="programme-row"
-						>
-							<span class="programme-course">{c.name}</span>
-							{#if c.code}<span class="programme-code">{c.code}</span>{/if}
-						</a>
-					</li>
-				{/each}
-			</ul>
+			{#each y.semesters as sem}
+				<h4 class="semester-label">{SEMESTER_LABEL[String(sem.semester)]}</h4>
+				<ul class="programme-list">
+					{#each sem.courses as c}
+						<li>
+							<a href={c.href} class="programme-row">
+								<span class="programme-course">{c.name}</span>
+								{#if c.code}<span class="programme-code">{c.code}</span>{/if}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			{/each}
 		{/each}
 	</section>
 
@@ -224,6 +225,7 @@
 	.programme-title { font-family: var(--font-display); font-size: 1.35rem; letter-spacing: -0.02em; }
 	.programme-sub { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); }
 	.year-label { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 1.25rem 0 0.25rem; }
+	.semester-label { font-size: 0.78rem; font-weight: 600; color: var(--muted); margin: 0.6rem 0 0.1rem; }
 	.programme-list { list-style: none; }
 	.programme-row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; padding: 0.75rem 0.85rem; border-bottom: 1px solid var(--border); border-left: 3px solid transparent; color: var(--text); text-decoration: none; transition: border-color 0.15s ease, background 0.15s ease; }
 	.programme-row:hover { border-left-color: var(--accent); background: var(--accent-dim); }
