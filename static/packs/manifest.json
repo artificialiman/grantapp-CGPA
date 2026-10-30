@@ -1,0 +1,119 @@
+{
+  "content_hash": "3101bd91f10422a08735e81deebd6aa2e0e7ea30bfbd153010d0a1ada83985e1",
+  "format": 1,
+  "packs": [
+    {
+      "bytes": 3281,
+      "count": 8,
+      "course": "engineering-mathematics-i",
+      "departments": [
+        "*"
+      ],
+      "faculty": "engineering",
+      "gz_bytes": 881,
+      "key": "engineering/engineering-mathematics-i",
+      "path": "packs/engineering/engineering-mathematics-i.4a530ada.json",
+      "released_on": "2026-10-30",
+      "sha256": "4a530ada1bb72b0de0dbf8b068d718f06e75c61babba178e12358be266a850ee",
+      "starter": true
+    },
+    {
+      "bytes": 3691,
+      "count": 8,
+      "course": "gst101",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 1032,
+      "key": "general-studies/gst101",
+      "path": "packs/general-studies/gst101.27b0c895.json",
+      "released_on": "2026-10-30",
+      "sha256": "27b0c895898becc00f3d9e7b5914e108a9b09c774954dd3c58ad64722341abca",
+      "starter": true
+    },
+    {
+      "bytes": 4357,
+      "count": 8,
+      "course": "nigerian-legal-system",
+      "departments": [
+        "common-law"
+      ],
+      "faculty": "law",
+      "gz_bytes": 1323,
+      "key": "law/nigerian-legal-system",
+      "path": "packs/law/nigerian-legal-system.16269866.json",
+      "released_on": "2026-10-30",
+      "sha256": "1626986625c42274fc8402ee60bf673abac15bcbcb4689f003fea67a24230a6b",
+      "starter": true
+    },
+    {
+      "bytes": 3749,
+      "count": 8,
+      "course": "anatomy-i",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 1096,
+      "key": "medicine/anatomy-i",
+      "path": "packs/medicine/anatomy-i.1b5cf6fb.json",
+      "released_on": "2026-10-30",
+      "sha256": "1b5cf6fb8ca385f86f1c638753c86a66aefb8ab82fcdf21aaa4b66c199b72e34",
+      "starter": true
+    },
+    {
+      "bytes": 3484,
+      "count": 8,
+      "course": "anatomy-for-nursing",
+      "departments": [
+        "nursing-science"
+      ],
+      "faculty": "nursing",
+      "gz_bytes": 1020,
+      "key": "nursing/anatomy-for-nursing",
+      "path": "packs/nursing/anatomy-for-nursing.565440b0.json",
+      "released_on": "2026-10-30",
+      "sha256": "565440b05cb9ae7d61ebc4790393ffb36163b51b2a9a126ce057378665e92bca",
+      "starter": true
+    },
+    {
+      "bytes": 4312,
+      "count": 8,
+      "course": "pharmacology-i",
+      "departments": [
+        "pharmacy"
+      ],
+      "faculty": "pharmacy",
+      "gz_bytes": 1355,
+      "key": "pharmacy/pharmacology-i",
+      "path": "packs/pharmacy/pharmacology-i.7b944602.json",
+      "released_on": "2026-10-30",
+      "sha256": "7b944602cfd4193345d2abde38f8284e49a120ca4049b6dfd962ce6abbf45632",
+      "starter": true
+    },
+    {
+      "bytes": 4595,
+      "count": 8,
+      "course": "principles-of-toxicology",
+      "departments": [
+        "environmental-management-and-toxicology"
+      ],
+      "faculty": "science",
+      "gz_bytes": 1411,
+      "key": "science/principles-of-toxicology",
+      "path": "packs/science/principles-of-toxicology.282d1fef.json",
+      "released_on": "2026-10-30",
+      "sha256": "282d1fefda5da6b3342f54245836d392b24f34615e5fb8e43e78059e0a489ccf",
+      "starter": true
+    }
+  ],
+  "release": "2026-10-30",
+  "totals": {
+    "packs": 7,
+    "questions": 56,
+    "starter_gz_bytes": 8118,
+    "starter_packs": 7,
+    "starter_questions": 56
+  }
+}
