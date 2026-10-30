@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { SEMESTER_LABEL } from '$lib/catalog';
 
 	export let data: PageData;
 
@@ -76,20 +77,21 @@
 
 		{#each data.years as y}
 			{#if activeYear === y.year}
-				<ul class="course-list">
-					{#each y.courses as course}
-						<li>
-							<a
-								href="/faculties/{data.faculty.slug}/{data.department.slug}/{course.slug}"
-								class="course-row"
-							>
-								<span class="course-name">{course.name}</span>
-								{#if course.code}<span class="course-code">{course.code}</span>{/if}
-								<span class="course-kind kind-{course.kind}">{kindLabel[course.kind]}</span>
-							</a>
-						</li>
-					{/each}
-				</ul>
+				{#each y.semesters as sem}
+					<h2 class="semester-label">{SEMESTER_LABEL[String(sem.semester)]}</h2>
+					<ul class="course-list">
+						{#each sem.courses as course}
+							<li>
+								<a href={course.href} class="course-row">
+									<span class="course-name">{course.name}</span>
+									{#if course.code}<span class="course-code">{course.code}</span>{/if}
+									{#if course.shared}<span class="course-kind kind-shared">General Studies</span>
+									{:else}<span class="course-kind kind-{course.kind}">{kindLabel[course.kind]}</span>{/if}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				{/each}
 			{/if}
 		{/each}
 	{/if}
@@ -252,6 +254,20 @@
 	.kind-elective {
 		background: var(--surface-2);
 		color: var(--muted);
+	}
+
+	.kind-shared {
+		background: var(--surface-2);
+		color: var(--text);
+	}
+
+	.semester-label {
+		font-size: 0.8rem;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin: 1.1rem 0 0.2rem;
 	}
 
 	.kind-extra_credit {

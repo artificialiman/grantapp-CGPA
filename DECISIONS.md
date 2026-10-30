@@ -206,3 +206,11 @@ is edited.
 - **Content limit raised for the focus group:** at least 30 questions per course, up to 100 for heavy courses (was 500 per install).
 - **The 40-question cap per content commit and per batch is removed** (founder, 2026-10-30). `handoff/VETTING.md` and `handoff/LANES.md` updated. The 200-line figure in LANES.md is guidance that encourages incremental commits, not a limit (founder, 2026-10-30).
 - **FLAG: the Medical Physics course list comes from postgraduate sources.** The only list found is the UNN Medical Physics list (PHY 620 to 629, 600-level). No undergraduate table has been found. The ten courses and 432 questions are postgraduate-level subject areas placed at year 4 of an undergraduate department. Treat them as provisional until a sponsor supplies an undergraduate table.
+
+## 2026-10-30: General Studies for everybody, electives, semesters
+
+- **General Studies (GST and ENT) courses appear in every department's course list**, by their year (year 1 for GST101 to GST106, GST111, GST112). They keep one page at `/faculties/general-studies/general-studies/<course>`, so there is one question bank and one set of results per course. Source: `listCourses()` in `src/lib/catalog.ts`; used by the department page and the dashboard programme list.
+- **Both numbering schemes are listed.** The older GST101 to GST106 set and the CCMAS GST111/GST112/ENT/GST2xx-3xx set sit side by side because universities still use either. Nothing is hidden or merged by name.
+- **Year 1 and 2 electives:** the twelve year-2 electives in the curriculum data (common law 4, economics 6, insurance 1, microbiology 1) are now in the catalog. No year-1 electives exist in the curriculum data and none were invented. No General Studies electives exist in the data either.
+- **Each year is split into First and Second semester.** Rule: odd last digit of the course code = first semester, even = second (the usual Nigerian numbering). Courses with no code take the semester of the same-named course in `curriculum/build`. The rest show under "Semester not yet assigned". This is derived, not verified per university; a university's own table overrides it by setting `semester` on the catalog line.
+- **Order inside a semester:** department core, department electives, then General Studies.

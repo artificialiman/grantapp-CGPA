@@ -3,7 +3,7 @@ import { AUTH_FROZEN } from '$lib/auth/freeze';
 import { redirect } from '@sveltejs/kit';
 import { GRADING_SCALES, classifyGpa } from '$lib/cgpa/scales';
 import { calculateCgpa, type CourseEntry } from '$lib/cgpa/calculate';
-import { getDepartment } from '$lib/catalog';
+import { getDepartment, listCourses, groupByYearAndSemester } from '$lib/catalog';
 import type { PageServerLoad } from './$types';
 
 const DEFAULT_CREDIT_UNITS = 3; // see /transcript's identical note — no credit_units column exists on courses yet
@@ -42,19 +42,13 @@ export const load: PageServerLoad = async (event) => {
 		// Stored pair no longer in the catalog (catalog changed) -> re-pick.
 		throw redirect(303, '/onboarding/programme');
 	}
-	const byYear = new Map<number, typeof found.department.courses>();
-	for (const c of found.department.courses) {
-		if (!byYear.has(c.year)) byYear.set(c.year, []);
-		byYear.get(c.year)!.push(c);
-	}
 	const programme = {
 		facultySlug: found.faculty.slug,
 		facultyName: found.faculty.name,
 		departmentSlug: found.department.slug,
 		departmentName: found.department.name,
-		years: Array.from(byYear.entries())
-			.sort(([a], [b]) => a - b)
-			.map(([year, courses]) => ({ year, courses }))
+		// Own courses plus General Studies (GST/ENT), grouped year -> semester.
+		years: groupByYearAndSemester(listCourses(student.faculty_slug, student.department_slug) ?? [])
 	};
 
 	const { data: enrollments } = await event.locals.supabase
