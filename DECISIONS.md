@@ -222,3 +222,8 @@ is edited.
 - **Gaps, not filled:** medical physics, environmental management and toxicology, and cybersecurity have no year 2 or 3 science rows in the curriculum data. Later-year science electives are not in the data either. Nothing was invented.
 - **Credit units:** neither the curriculum data nor the database has a credit-unit column (the dashboard assumes 3 per course), so "high credit" cannot be shown yet.
 - Biochemistry's existing database row BCH101 is now in the catalog. Migration `0028` adds the new course rows.
+
+## 2026-10-30: Titles, not codes
+
+- **Students see course titles; codes are not shown** (founder: codes vary between universities). Applies to department lists, the dashboard, course and mastery pages, transcript, my-submissions and the upload picker. The admin screen keeps codes, and code detection in uploaded material still uses them.
+- **Same title in the same year = one course in lists.** `withoutRepeatedTitles()` in `src/lib/catalog.ts` keeps the later catalog entry (the newer national scheme). Left out of lists today: GST103 (GST112 kept), GST301 (GST312 kept), the codeless General Pathology (MAN326 kept). The left-out courses keep their pages.
