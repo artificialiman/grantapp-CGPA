@@ -1,0 +1,1282 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "fundamentals-of-nuclear-physics",
+  "department_slugs": [
+    "medical-physics"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "An isotope of an element has the same number of ____ but a different number of ____.",
+      "options": [
+        {
+          "id": "a",
+          "text": "protons;neutrons"
+        },
+        {
+          "id": "b",
+          "text": "nucleons;protons"
+        },
+        {
+          "id": "c",
+          "text": "neutrons;protons"
+        },
+        {
+          "id": "d",
+          "text": "electrons;nucleons"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Isotopes share the atomic number Z and differ in neutron number N, so their mass numbers A differ.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The nucleus of an atom contains",
+      "options": [
+        {
+          "id": "a",
+          "text": "electrons only"
+        },
+        {
+          "id": "b",
+          "text": "neutrons and electrons"
+        },
+        {
+          "id": "c",
+          "text": "protons and neutrons"
+        },
+        {
+          "id": "d",
+          "text": "protons and electrons"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Protons and neutrons are together called nucleons. Electrons orbit outside the nucleus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The mass number A of a nuclide is the number of",
+      "options": [
+        {
+          "id": "a",
+          "text": "electrons"
+        },
+        {
+          "id": "b",
+          "text": "protons only"
+        },
+        {
+          "id": "c",
+          "text": "protons plus neutrons"
+        },
+        {
+          "id": "d",
+          "text": "neutrons only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A = Z + N, where Z is the atomic number and N the neutron number.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Nuclides with the same mass number but different atomic numbers are called",
+      "options": [
+        {
+          "id": "a",
+          "text": "isotopes"
+        },
+        {
+          "id": "b",
+          "text": "isomers"
+        },
+        {
+          "id": "c",
+          "text": "isotones"
+        },
+        {
+          "id": "d",
+          "text": "isobars"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Isotopes share Z, isotones share N, and isomers are the same nuclide in different energy states.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The nuclear force is",
+      "options": [
+        {
+          "id": "a",
+          "text": "repulsive between protons"
+        },
+        {
+          "id": "b",
+          "text": "dependent on electric charge"
+        },
+        {
+          "id": "c",
+          "text": "weak and of long range"
+        },
+        {
+          "id": "d",
+          "text": "strong, attractive and of very short range"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It acts between all nucleons over about 1 to 3 femtometres and overcomes proton repulsion inside the nucleus.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The radius of a nucleus with mass number A is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.2 fm multiplied by A to the power one-third"
+        },
+        {
+          "id": "b",
+          "text": "1.2 fm multiplied by A squared"
+        },
+        {
+          "id": "c",
+          "text": "1.2 fm divided by A"
+        },
+        {
+          "id": "d",
+          "text": "1.2 fm multiplied by A"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "R = r0 A^(1/3) with r0 near 1.2 fm, so nuclear volume is proportional to A and nuclear density is nearly constant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "One atomic mass unit (1 u) is equivalent to about",
+      "options": [
+        {
+          "id": "a",
+          "text": "931.5 MeV"
+        },
+        {
+          "id": "b",
+          "text": "1.022 MeV"
+        },
+        {
+          "id": "c",
+          "text": "1 MeV"
+        },
+        {
+          "id": "d",
+          "text": "0.511 MeV"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "From E = mc squared. The electron rest energy is 0.511 MeV and the proton about 938 MeV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The binding energy of a nucleus is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the energy of its gamma rays"
+        },
+        {
+          "id": "b",
+          "text": "its kinetic energy"
+        },
+        {
+          "id": "c",
+          "text": "the energy needed to separate it into its individual nucleons"
+        },
+        {
+          "id": "d",
+          "text": "the energy of its electrons"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It equals the mass defect multiplied by c squared.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "The mass defect of a nucleus is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the difference between the sum of the masses of its separate nucleons and the mass of the nucleus"
+        },
+        {
+          "id": "b",
+          "text": "its total mass"
+        },
+        {
+          "id": "c",
+          "text": "its charge divided by mass"
+        },
+        {
+          "id": "d",
+          "text": "the mass of its electrons"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The nucleus is lighter than its parts because binding energy was released when it formed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The binding energy per nucleon is greatest for nuclei near",
+      "options": [
+        {
+          "id": "a",
+          "text": "hydrogen"
+        },
+        {
+          "id": "b",
+          "text": "helium only"
+        },
+        {
+          "id": "c",
+          "text": "iron (mass number around 56 to 62)"
+        },
+        {
+          "id": "d",
+          "text": "uranium"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Fusion of light nuclei and fission of heavy nuclei both release energy because they move towards this peak.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "The mass defect of deuterium is 0.002388 u. Using 931.5 MeV per u, its binding energy is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.11 MeV"
+        },
+        {
+          "id": "b",
+          "text": "4.44 MeV"
+        },
+        {
+          "id": "c",
+          "text": "0.51 MeV"
+        },
+        {
+          "id": "d",
+          "text": "2.22 MeV"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "0.002388 multiplied by 931.5 gives 2.224 MeV. The binding energy per nucleon is about 1.11 MeV.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Radioactivity is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "joining of nuclei"
+        },
+        {
+          "id": "b",
+          "text": "loss of electrons from atoms"
+        },
+        {
+          "id": "c",
+          "text": "splitting of a nucleus by neutrons"
+        },
+        {
+          "id": "d",
+          "text": "spontaneous disintegration of unstable nuclei with emission of radiation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is random, unaffected by temperature or chemical state, and characteristic of each nuclide.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "An alpha particle is identical to the nucleus of",
+      "options": [
+        {
+          "id": "a",
+          "text": "lithium-6"
+        },
+        {
+          "id": "b",
+          "text": "helium-4"
+        },
+        {
+          "id": "c",
+          "text": "hydrogen-1"
+        },
+        {
+          "id": "d",
+          "text": "carbon-12"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It has 2 protons and 2 neutrons, so charge +2 and mass number 4.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "When a nucleus emits an alpha particle, its mass number and atomic number fall by",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 and 1"
+        },
+        {
+          "id": "b",
+          "text": "4 and 2"
+        },
+        {
+          "id": "c",
+          "text": "0 and 1"
+        },
+        {
+          "id": "d",
+          "text": "2 and 4"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Uranium-238 (Z=92) becomes thorium-234 (Z=90).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "In beta-minus decay a neutron changes into a proton, and the nucleus emits",
+      "options": [
+        {
+          "id": "a",
+          "text": "an electron and an antineutrino"
+        },
+        {
+          "id": "b",
+          "text": "a positron and a neutrino"
+        },
+        {
+          "id": "c",
+          "text": "an alpha particle"
+        },
+        {
+          "id": "d",
+          "text": "a gamma ray only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Z increases by 1 and A is unchanged. Carbon-14 becomes nitrogen-14.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "In positron emission (beta-plus decay)",
+      "options": [
+        {
+          "id": "a",
+          "text": "an alpha particle is emitted"
+        },
+        {
+          "id": "b",
+          "text": "a neutron changes into a proton"
+        },
+        {
+          "id": "c",
+          "text": "an electron is captured"
+        },
+        {
+          "id": "d",
+          "text": "a proton changes into a neutron, a positron and a neutrino"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Z falls by 1 and A is unchanged. Fluorine-18 becomes oxygen-18.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The minimum photon energy for pair production is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 keV"
+        },
+        {
+          "id": "b",
+          "text": "1.022 MeV"
+        },
+        {
+          "id": "c",
+          "text": "0.511 MeV"
+        },
+        {
+          "id": "d",
+          "text": "2.044 MeV"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The photon must supply the rest energy of an electron and a positron, 2 multiplied by 0.511 MeV.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A gamma ray is emitted when",
+      "options": [
+        {
+          "id": "a",
+          "text": "a proton becomes a neutron"
+        },
+        {
+          "id": "b",
+          "text": "an excited nucleus drops to a lower energy state"
+        },
+        {
+          "id": "c",
+          "text": "a neutron is lost"
+        },
+        {
+          "id": "d",
+          "text": "an electron is added to the nucleus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is electromagnetic radiation from the nucleus with no change in A or Z.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Technetium-99m decays by isomeric transition, which means",
+      "options": [
+        {
+          "id": "a",
+          "text": "the nucleus drops from a metastable state to its ground state with gamma emission"
+        },
+        {
+          "id": "b",
+          "text": "a proton is lost"
+        },
+        {
+          "id": "c",
+          "text": "a neutron is lost"
+        },
+        {
+          "id": "d",
+          "text": "the nucleus splits"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The \"m\" marks the metastable state with a 6-hour half-life. The 140 keV gamma ray is used for imaging.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "In electron capture, the nucleus",
+      "options": [
+        {
+          "id": "a",
+          "text": "emits an alpha particle"
+        },
+        {
+          "id": "b",
+          "text": "captures an inner orbital electron, turning a proton into a neutron"
+        },
+        {
+          "id": "c",
+          "text": "emits an electron"
+        },
+        {
+          "id": "d",
+          "text": "emits a positron"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Z falls by 1. Characteristic X-rays follow as the vacancy is filled.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The SI unit of activity is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "gray"
+        },
+        {
+          "id": "b",
+          "text": "becquerel"
+        },
+        {
+          "id": "c",
+          "text": "sievert"
+        },
+        {
+          "id": "d",
+          "text": "curie"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "One becquerel is one disintegration per second.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "One curie is equal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "3.7 x 10 to the power 10 Bq"
+        },
+        {
+          "id": "b",
+          "text": "1 Bq"
+        },
+        {
+          "id": "c",
+          "text": "2.58 x 10 to the power -4 Bq"
+        },
+        {
+          "id": "d",
+          "text": "3.7 x 10 to the power 7 Bq"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It was based on the activity of 1 g of radium-226.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The radioactive decay law is N = N0 multiplied by",
+      "options": [
+        {
+          "id": "a",
+          "text": "e to the power minus lambda t"
+        },
+        {
+          "id": "b",
+          "text": "one-half t"
+        },
+        {
+          "id": "c",
+          "text": "e to the power lambda t"
+        },
+        {
+          "id": "d",
+          "text": "lambda t"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "N0 is the initial number of nuclei and lambda the decay constant.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The half-life T and decay constant lambda are related by",
+      "options": [
+        {
+          "id": "a",
+          "text": "T = lambda divided by 0.693"
+        },
+        {
+          "id": "b",
+          "text": "T = lambda squared"
+        },
+        {
+          "id": "c",
+          "text": "T = 0.693 divided by lambda"
+        },
+        {
+          "id": "d",
+          "text": "T = 0.693 multiplied by lambda"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "From ln 2 = 0.693. A large lambda means a short half-life.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "The mean life of a radionuclide is",
+      "options": [
+        {
+          "id": "a",
+          "text": "half of the half-life"
+        },
+        {
+          "id": "b",
+          "text": "1 divided by the decay constant, about 1.44 half-lives"
+        },
+        {
+          "id": "c",
+          "text": "the time for all atoms to decay"
+        },
+        {
+          "id": "d",
+          "text": "equal to the half-life"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "After one mean life the number of nuclei falls to 1/e, about 37 percent.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Technetium-99m has a half-life of 6 hours. A 80 MBq sample is left for 18 hours. The activity left is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 MBq"
+        },
+        {
+          "id": "b",
+          "text": "40 MBq"
+        },
+        {
+          "id": "c",
+          "text": "26.7 MBq"
+        },
+        {
+          "id": "d",
+          "text": "10 MBq"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "18 hours is 3 half-lives, so the activity is 80 divided by 2 cubed, which is 10 MBq.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "The decay constant of a nuclide with a half-life of 6 hours is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "4.16 per hour"
+        },
+        {
+          "id": "b",
+          "text": "0.0116 per hour"
+        },
+        {
+          "id": "c",
+          "text": "1.155 per hour"
+        },
+        {
+          "id": "d",
+          "text": "0.1155 per hour"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "lambda = 0.693 divided by 6 = 0.1155 per hour.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Iodine-131 has a half-life of about 8 days. The fraction left after 24 days is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/4"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "1/8"
+        },
+        {
+          "id": "d",
+          "text": "1/16"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "24 days is 3 half-lives, so the fraction is (1/2) cubed = 1/8, or 12.5 percent.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "A bone sample has 25 percent of the carbon-14 activity of living tissue. The half-life of carbon-14 is 5730 years. The age is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "5730 years"
+        },
+        {
+          "id": "b",
+          "text": "17,190 years"
+        },
+        {
+          "id": "c",
+          "text": "11,460 years"
+        },
+        {
+          "id": "d",
+          "text": "22,920 years"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "25 percent is two half-lives, 2 multiplied by 5730 = 11,460 years.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "A source of cobalt-60 (half-life 5.27 years) is used for 10.54 years. The fraction of its original activity left is",
+      "options": [
+        {
+          "id": "a",
+          "text": "12.5 percent"
+        },
+        {
+          "id": "b",
+          "text": "25 percent"
+        },
+        {
+          "id": "c",
+          "text": "75 percent"
+        },
+        {
+          "id": "d",
+          "text": "50 percent"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "10.54 years is exactly 2 half-lives, leaving 1/4.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "The activity of a source is 1.6 MBq. The number of disintegrations in 5 minutes is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4.8 x 10 to the power 5"
+        },
+        {
+          "id": "b",
+          "text": "8 x 10 to the power 6"
+        },
+        {
+          "id": "c",
+          "text": "1.6 x 10 to the power 6"
+        },
+        {
+          "id": "d",
+          "text": "4.8 x 10 to the power 8"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "1.6 x 10 to the power 6 per second multiplied by 300 s gives 4.8 x 10 to the power 8, ignoring decay during the 5 minutes.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "A source has a decay constant of 0.02 per second and contains 5 x 10 to the power 6 nuclei. Its activity is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 x 10 to the power 5 Bq"
+        },
+        {
+          "id": "b",
+          "text": "1 x 10 to the power 8 Bq"
+        },
+        {
+          "id": "c",
+          "text": "250 Bq"
+        },
+        {
+          "id": "d",
+          "text": "2.5 x 10 to the power 8 Bq"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A = lambda N = 0.02 multiplied by 5 x 10 to the power 6 = 1 x 10 to the power 5 Bq.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "Secular equilibrium occurs when",
+      "options": [
+        {
+          "id": "a",
+          "text": "the parent is stable"
+        },
+        {
+          "id": "b",
+          "text": "the daughter is longer lived than the parent"
+        },
+        {
+          "id": "c",
+          "text": "the half-life of the parent is very much longer than that of the daughter"
+        },
+        {
+          "id": "d",
+          "text": "the two half-lives are equal"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The activities become equal, as with radium-226 and radon-222.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "The molybdenum-99 (66 h) to technetium-99m (6 h) generator shows",
+      "options": [
+        {
+          "id": "a",
+          "text": "decay by alpha emission"
+        },
+        {
+          "id": "b",
+          "text": "transient equilibrium"
+        },
+        {
+          "id": "c",
+          "text": "no equilibrium"
+        },
+        {
+          "id": "d",
+          "text": "secular equilibrium"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The parent half-life is longer than the daughter's but not by a huge factor. The daughter activity peaks about 23 hours after elution.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "The magic numbers for protons or neutrons include",
+      "options": [
+        {
+          "id": "a",
+          "text": "2, 8, 20, 28, 50, 82 and 126"
+        },
+        {
+          "id": "b",
+          "text": "10, 20, 30 and 40"
+        },
+        {
+          "id": "c",
+          "text": "1, 3, 5, 7 and 9"
+        },
+        {
+          "id": "d",
+          "text": "4, 6 and 12"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Nuclei with these numbers are especially stable.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "A moderator in a thermal reactor is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "absorb all neutrons"
+        },
+        {
+          "id": "b",
+          "text": "cool the fuel"
+        },
+        {
+          "id": "c",
+          "text": "slow down fast neutrons"
+        },
+        {
+          "id": "d",
+          "text": "speed up neutrons"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Water, heavy water and graphite are used. Slow neutrons are more likely to cause fission of uranium-235.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Control rods in a reactor contain materials such as cadmium or boron because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "produce neutrons"
+        },
+        {
+          "id": "b",
+          "text": "absorb neutrons"
+        },
+        {
+          "id": "c",
+          "text": "slow neutrons"
+        },
+        {
+          "id": "d",
+          "text": "reflect gamma rays"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Inserting the rods lowers the neutron population and reduces the fission rate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The energy released per fission of uranium-235 is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "17.6 MeV"
+        },
+        {
+          "id": "b",
+          "text": "200 MeV"
+        },
+        {
+          "id": "c",
+          "text": "0.2 MeV"
+        },
+        {
+          "id": "d",
+          "text": "2 MeV"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Most appears as kinetic energy of the fission fragments.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "The deuterium-tritium fusion reaction releases about",
+      "options": [
+        {
+          "id": "a",
+          "text": "17.6 MeV"
+        },
+        {
+          "id": "b",
+          "text": "2 MeV"
+        },
+        {
+          "id": "c",
+          "text": "200 MeV"
+        },
+        {
+          "id": "d",
+          "text": "0.511 MeV"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "D + T gives helium-4 and a neutron.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "The rate of radioactive decay can be changed by heating the source.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Decay depends on the nucleus, not temperature, pressure or chemical form.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    }
+  ]
+}
