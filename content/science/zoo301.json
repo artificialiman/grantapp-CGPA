@@ -1,0 +1,1289 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "zoo301",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Parasitology is the study of",
+      "options": [
+        {
+          "id": "a",
+          "text": "organisms that live on or in another organism and harm it"
+        },
+        {
+          "id": "b",
+          "text": "only viruses"
+        },
+        {
+          "id": "c",
+          "text": "only fungi"
+        },
+        {
+          "id": "d",
+          "text": "only bacteria"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A parasite depends on the host for nutrition and shelter.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A definitive host is the host in which the parasite",
+      "options": [
+        {
+          "id": "a",
+          "text": "undergoes asexual stages only"
+        },
+        {
+          "id": "b",
+          "text": "reaches sexual maturity"
+        },
+        {
+          "id": "c",
+          "text": "never lives"
+        },
+        {
+          "id": "d",
+          "text": "is killed"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "For Plasmodium, the female Anopheles is the definitive host and man the intermediate host.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "An intermediate host harbours",
+      "options": [
+        {
+          "id": "a",
+          "text": "only eggs"
+        },
+        {
+          "id": "b",
+          "text": "the larval or asexual stages of the parasite"
+        },
+        {
+          "id": "c",
+          "text": "the adult sexual stage"
+        },
+        {
+          "id": "d",
+          "text": "no stages of the parasite"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "For Schistosoma, snails are intermediate hosts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A vector is an organism that",
+      "options": [
+        {
+          "id": "a",
+          "text": "is the definitive host only"
+        },
+        {
+          "id": "b",
+          "text": "is killed by the parasite"
+        },
+        {
+          "id": "c",
+          "text": "transmits a parasite from one host to another"
+        },
+        {
+          "id": "d",
+          "text": "is not infected"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mechanical vectors carry parasites on their body. Biological vectors support parasite development.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Malaria in humans is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trypanosoma"
+        },
+        {
+          "id": "b",
+          "text": "Plasmodium species"
+        },
+        {
+          "id": "c",
+          "text": "Giardia"
+        },
+        {
+          "id": "d",
+          "text": "Leishmania"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Five species infect humans: falciparum, vivax, ovale, malariae and knowlesi.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The most dangerous human malaria parasite is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plasmodium falciparum"
+        },
+        {
+          "id": "b",
+          "text": "Plasmodium vivax"
+        },
+        {
+          "id": "c",
+          "text": "Plasmodium malariae"
+        },
+        {
+          "id": "d",
+          "text": "Plasmodium ovale"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It causes the greatest mortality, especially in sub-Saharan Africa.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The vector of human malaria is the female",
+      "options": [
+        {
+          "id": "a",
+          "text": "tsetse fly"
+        },
+        {
+          "id": "b",
+          "text": "Anopheles mosquito"
+        },
+        {
+          "id": "c",
+          "text": "Culex mosquito"
+        },
+        {
+          "id": "d",
+          "text": "Aedes mosquito"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Only female mosquitoes take blood meals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Sporozoites of Plasmodium are the stage that is",
+      "options": [
+        {
+          "id": "a",
+          "text": "found in the mosquito gut wall"
+        },
+        {
+          "id": "b",
+          "text": "found in red cells"
+        },
+        {
+          "id": "c",
+          "text": "excreted in faeces"
+        },
+        {
+          "id": "d",
+          "text": "injected by the mosquito"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They go to the liver and develop in hepatocytes.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Hypnozoites occur in infections with",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plasmodium falciparum"
+        },
+        {
+          "id": "b",
+          "text": "Trypanosoma"
+        },
+        {
+          "id": "c",
+          "text": "Plasmodium malariae"
+        },
+        {
+          "id": "d",
+          "text": "Plasmodium vivax and ovale"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "These dormant liver stages cause relapses. Primaquine removes them.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "The characteristic fever pattern of vivax malaria is",
+      "options": [
+        {
+          "id": "a",
+          "text": "quartan, every 72 hours"
+        },
+        {
+          "id": "b",
+          "text": "irregular always"
+        },
+        {
+          "id": "c",
+          "text": "tertian, every 48 hours"
+        },
+        {
+          "id": "d",
+          "text": "continuous"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "P. malariae gives a quartan fever.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Malaria is diagnosed by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sputum culture"
+        },
+        {
+          "id": "b",
+          "text": "thick and thin blood films stained with Giemsa"
+        },
+        {
+          "id": "c",
+          "text": "urine dipstick"
+        },
+        {
+          "id": "d",
+          "text": "stool microscopy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Thick films detect parasites and thin films identify the species.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Rapid diagnostic tests for malaria detect",
+      "options": [
+        {
+          "id": "a",
+          "text": "bacterial endotoxin"
+        },
+        {
+          "id": "b",
+          "text": "DNA in urine"
+        },
+        {
+          "id": "c",
+          "text": "parasite antigen such as HRP2 or pLDH"
+        },
+        {
+          "id": "d",
+          "text": "IgE only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Results appear in 15 to 20 minutes.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The first-line treatment of uncomplicated falciparum malaria in Nigeria is",
+      "options": [
+        {
+          "id": "a",
+          "text": "chloroquine alone"
+        },
+        {
+          "id": "b",
+          "text": "quinine only"
+        },
+        {
+          "id": "c",
+          "text": "penicillin"
+        },
+        {
+          "id": "d",
+          "text": "artemisinin-based combination therapy (ACT)"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "ACTs include artemether-lumefantrine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Sickle-cell trait gives some protection against",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plasmodium falciparum malaria"
+        },
+        {
+          "id": "b",
+          "text": "typhoid"
+        },
+        {
+          "id": "c",
+          "text": "cholera"
+        },
+        {
+          "id": "d",
+          "text": "tuberculosis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Heterozygous (AS) individuals have lower parasite density.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Trypanosoma brucei gambiense causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chagas disease"
+        },
+        {
+          "id": "b",
+          "text": "African sleeping sickness"
+        },
+        {
+          "id": "c",
+          "text": "kala-azar"
+        },
+        {
+          "id": "d",
+          "text": "malaria"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is spread by the tsetse fly (Glossina).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Leishmania donovani causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "visceral leishmaniasis (kala-azar)"
+        },
+        {
+          "id": "b",
+          "text": "sleeping sickness"
+        },
+        {
+          "id": "c",
+          "text": "malaria"
+        },
+        {
+          "id": "d",
+          "text": "amoebiasis"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is transmitted by sandflies.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Entamoeba histolytica causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "trichomoniasis"
+        },
+        {
+          "id": "b",
+          "text": "malaria"
+        },
+        {
+          "id": "c",
+          "text": "amoebic dysentery and liver abscess"
+        },
+        {
+          "id": "d",
+          "text": "giardiasis"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The infective stage is the cyst, acquired by the faecal-oral route.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The infective stage of Giardia lamblia is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "sporozoite"
+        },
+        {
+          "id": "b",
+          "text": "egg"
+        },
+        {
+          "id": "c",
+          "text": "cyst"
+        },
+        {
+          "id": "d",
+          "text": "trophozoite"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Cysts survive in water and are ingested.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The pear-shaped flagellate seen in stool of a patient with greasy diarrhoea is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giardia lamblia"
+        },
+        {
+          "id": "b",
+          "text": "Entamoeba coli"
+        },
+        {
+          "id": "c",
+          "text": "Trichomonas vaginalis"
+        },
+        {
+          "id": "d",
+          "text": "Balantidium"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Its sucking disc and \"face-like\" appearance are characteristic.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Toxoplasma gondii is of special concern in pregnancy because it can cause",
+      "options": [
+        {
+          "id": "a",
+          "text": "elephantiasis"
+        },
+        {
+          "id": "b",
+          "text": "dysentery"
+        },
+        {
+          "id": "c",
+          "text": "malaria"
+        },
+        {
+          "id": "d",
+          "text": "congenital infection"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The definitive host is the cat.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "Ascaris lumbricoides is acquired by",
+      "options": [
+        {
+          "id": "a",
+          "text": "eating undercooked pork"
+        },
+        {
+          "id": "b",
+          "text": "skin penetration by larvae"
+        },
+        {
+          "id": "c",
+          "text": "mosquito bites"
+        },
+        {
+          "id": "d",
+          "text": "swallowing eggs"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is the commonest human helminth and the adult lives in the small intestine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "The hookworms Necator americanus and Ancylostoma duodenale are acquired by",
+      "options": [
+        {
+          "id": "a",
+          "text": "swallowing cysts"
+        },
+        {
+          "id": "b",
+          "text": "eating beef"
+        },
+        {
+          "id": "c",
+          "text": "larvae penetrating the skin"
+        },
+        {
+          "id": "d",
+          "text": "mosquito bites"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Barefoot walking on contaminated soil exposes people. They cause iron-deficiency anaemia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "Which helminth egg has a characteristic lemon or barrel shape with polar plugs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trichuris trichiura"
+        },
+        {
+          "id": "b",
+          "text": "Enterobius vermicularis"
+        },
+        {
+          "id": "c",
+          "text": "Ascaris lumbricoides"
+        },
+        {
+          "id": "d",
+          "text": "Taenia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Whipworm eggs are barrel shaped.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "Enterobius vermicularis is diagnosed by",
+      "options": [
+        {
+          "id": "a",
+          "text": "sputum smear"
+        },
+        {
+          "id": "b",
+          "text": "the cellophane tape test around the anus"
+        },
+        {
+          "id": "c",
+          "text": "blood film"
+        },
+        {
+          "id": "d",
+          "text": "urine microscopy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Eggs are laid on perianal skin at night.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "Taenia solium infection from eating undercooked pork gives",
+      "options": [
+        {
+          "id": "a",
+          "text": "hydatid cyst"
+        },
+        {
+          "id": "b",
+          "text": "intestinal tapeworm"
+        },
+        {
+          "id": "c",
+          "text": "elephantiasis"
+        },
+        {
+          "id": "d",
+          "text": "malaria"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ingesting the eggs, rather than cysts, can lead to cysticercosis.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "Neurocysticercosis results from the human ingestion of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ascaris eggs"
+        },
+        {
+          "id": "b",
+          "text": "hookworm larvae"
+        },
+        {
+          "id": "c",
+          "text": "Taenia saginata eggs"
+        },
+        {
+          "id": "d",
+          "text": "Taenia solium eggs"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The larvae encyst in the brain and cause seizures.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "Schistosoma haematobium infects the",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut only"
+        },
+        {
+          "id": "b",
+          "text": "lungs only"
+        },
+        {
+          "id": "c",
+          "text": "urinary bladder, causing terminal haematuria"
+        },
+        {
+          "id": "d",
+          "text": "liver only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It is common in Nigeria and the eggs have a terminal spine.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "The intermediate host of Schistosoma is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "freshwater snail"
+        },
+        {
+          "id": "b",
+          "text": "mosquito"
+        },
+        {
+          "id": "c",
+          "text": "fly"
+        },
+        {
+          "id": "d",
+          "text": "fish"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Cercariae released by snails penetrate human skin in water.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Wuchereria bancrofti causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "malaria"
+        },
+        {
+          "id": "b",
+          "text": "lymphatic filariasis (elephantiasis)"
+        },
+        {
+          "id": "c",
+          "text": "river blindness"
+        },
+        {
+          "id": "d",
+          "text": "dracunculiasis"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is transmitted by mosquitoes, and microfilariae show nocturnal periodicity.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "River blindness (onchocerciasis) is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dracunculus medinensis"
+        },
+        {
+          "id": "b",
+          "text": "Loa loa"
+        },
+        {
+          "id": "c",
+          "text": "Wuchereria bancrofti"
+        },
+        {
+          "id": "d",
+          "text": "Onchocerca volvulus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is transmitted by the blackfly Simulium. Ivermectin is used for mass treatment.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q031",
+      "prompt": "Dracunculus medinensis is acquired by",
+      "options": [
+        {
+          "id": "a",
+          "text": "drinking water containing infected copepods"
+        },
+        {
+          "id": "b",
+          "text": "mosquito bite"
+        },
+        {
+          "id": "c",
+          "text": "eating pork"
+        },
+        {
+          "id": "d",
+          "text": "skin penetration"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Guinea worm disease is close to eradication.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q032",
+      "prompt": "Loa loa is transmitted by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the deer fly Chrysops"
+        },
+        {
+          "id": "b",
+          "text": "the blackfly"
+        },
+        {
+          "id": "c",
+          "text": "the tsetse fly"
+        },
+        {
+          "id": "d",
+          "text": "the sandfly"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Eye worm is seen in West and Central Africa.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q033",
+      "prompt": "The drug of choice for most intestinal nematodes is",
+      "options": [
+        {
+          "id": "a",
+          "text": "metronidazole"
+        },
+        {
+          "id": "b",
+          "text": "penicillin"
+        },
+        {
+          "id": "c",
+          "text": "albendazole or mebendazole"
+        },
+        {
+          "id": "d",
+          "text": "chloroquine"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They inhibit microtubule formation in the worm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q034",
+      "prompt": "Praziquantel is the drug of choice for",
+      "options": [
+        {
+          "id": "a",
+          "text": "malaria"
+        },
+        {
+          "id": "b",
+          "text": "giardiasis"
+        },
+        {
+          "id": "c",
+          "text": "schistosomiasis"
+        },
+        {
+          "id": "d",
+          "text": "amoebiasis"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It affects calcium channels in the worm.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q035",
+      "prompt": "Metronidazole is used to treat",
+      "options": [
+        {
+          "id": "a",
+          "text": "amoebiasis, giardiasis and trichomoniasis"
+        },
+        {
+          "id": "b",
+          "text": "schistosomiasis"
+        },
+        {
+          "id": "c",
+          "text": "filariasis"
+        },
+        {
+          "id": "d",
+          "text": "malaria"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is effective against anaerobic protozoa.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q036",
+      "prompt": "Ectoparasites include",
+      "options": [
+        {
+          "id": "a",
+          "text": "tapeworms"
+        },
+        {
+          "id": "b",
+          "text": "Plasmodium"
+        },
+        {
+          "id": "c",
+          "text": "hookworms"
+        },
+        {
+          "id": "d",
+          "text": "lice, ticks and mites"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "They live on the outer surface of the host.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q037",
+      "prompt": "Sarcoptes scabiei causes",
+      "options": [
+        {
+          "id": "a",
+          "text": "pediculosis"
+        },
+        {
+          "id": "b",
+          "text": "scabies"
+        },
+        {
+          "id": "c",
+          "text": "malaria"
+        },
+        {
+          "id": "d",
+          "text": "filariasis"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The mite burrows into skin and causes intense itching, especially at night.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q038",
+      "prompt": "The head louse is Pediculus humanus",
+      "options": [
+        {
+          "id": "a",
+          "text": "pubis"
+        },
+        {
+          "id": "b",
+          "text": "corporis"
+        },
+        {
+          "id": "c",
+          "text": "vulgaris"
+        },
+        {
+          "id": "d",
+          "text": "capitis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Body lice (corporis) transmit typhus and relapsing fever.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q039",
+      "prompt": "A stool sample is examined by Kato-Katz thick smear. A smear made with a 41.7 mg template shows 20 eggs. Using the multiplier 24, the eggs per gram is",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "480"
+        },
+        {
+          "id": "c",
+          "text": "41"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Eggs per gram equals eggs counted multiplied by 24 for a 41.7 mg template, so 20 multiplied by 24 equals 480.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q040",
+      "prompt": "A child in a rural area has anaemia, pot belly and pica. Stool shows oval thin-shelled eggs with 4 to 8 cells. The infection is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trichuris"
+        },
+        {
+          "id": "b",
+          "text": "Ascaris"
+        },
+        {
+          "id": "c",
+          "text": "hookworm"
+        },
+        {
+          "id": "d",
+          "text": "Enterobius"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Thin-shelled oval eggs in early cleavage point to hookworm, with iron-deficiency anaemia from blood loss.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    }
+  ]
+}
