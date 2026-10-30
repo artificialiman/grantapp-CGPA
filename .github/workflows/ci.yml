@@ -1,0 +1,46 @@
+# The gate every change passes. Agents on GitHub web cannot run a build, so this
+# is where "green" is decided (handoff/DOCTRINE_DIGEST.md, rule 3).
+name: ci
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Question depot is valid
+        run: python3 -I scripts/check-content.py
+
+      - name: Offline packs are current with the depot
+        run: python3 -I scripts/build-packs.py --check
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Type check
+        run: npm run check
+
+      - name: Build
+        run: npm run build
