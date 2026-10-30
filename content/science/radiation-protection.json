@@ -1270,6 +1270,123 @@
       ],
       "difficulty": 1,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "Assertion: Plastic is used to shield beta radiation instead of lead. Reason: High atomic number materials produce more bremsstrahlung when beta particles are stopped.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the choice of low-Z shielding.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "The principle of ____ states that radiation doses should be kept as low as reasonably achievable.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The principle of ____ states that radiation doses should be kept as low as ____ achievable.",
+        "answers": [
+          "optimisation",
+          "reasonably"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "detection"
+        },
+        {
+          "id": "b",
+          "text": "justification"
+        },
+        {
+          "id": "c",
+          "text": "limitation"
+        },
+        {
+          "id": "d",
+          "text": "optimisation"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Economic and social factors are taken into account.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "The ____ layer is the thickness of a material that reduces the intensity of a beam to one-half of its initial value.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ layer is the thickness of a material that reduces the intensity of a beam to ____ of its initial value.",
+        "answers": [
+          "half-value",
+          "one-half"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "half-value"
+        },
+        {
+          "id": "b",
+          "text": "quarter-value"
+        },
+        {
+          "id": "c",
+          "text": "tenth-value"
+        },
+        {
+          "id": "d",
+          "text": "mean free path"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "After n layers, the intensity is I0 divided by 2 to the power n.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
