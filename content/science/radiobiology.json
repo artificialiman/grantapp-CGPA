@@ -1283,6 +1283,46 @@
       ],
       "difficulty": 3,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "The ____ enhancement ratio is the ratio of the dose needed in hypoxic conditions to that in well-oxygenated conditions for the same effect.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "The ____ enhancement ratio is the ratio of the dose needed in ____ conditions to that in well-oxygenated conditions for the same effect.",
+        "answers": [
+          "oxygen",
+          "hypoxic"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "oxygen"
+        },
+        {
+          "id": "b",
+          "text": "dose"
+        },
+        {
+          "id": "c",
+          "text": "linear"
+        },
+        {
+          "id": "d",
+          "text": "energy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "For low-LET radiation the ratio is about 2.5 to 3.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
