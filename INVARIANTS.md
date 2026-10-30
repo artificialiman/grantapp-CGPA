@@ -148,12 +148,19 @@ awaiting confirmation.
     Protection Act s.31 asks for a guardian's consent for a child; see
     DECISIONS 2026-10-30 (later).
 33. `[CONFIRMED]` All money is donation. A subscription donation unlocks a
-    special tier. `[OPEN]` What the tier contains, and whether it belongs to
-    the account or the device.
-34. `[OPEN]` Users are routed to a Supabase account by a faculty-based rule,
-    to be supplied. Sign-up must find its database before a faculty is chosen.
+    special tier. `[CONFIRMED]` The tier is the update stream: a person
+    added by hand by the founder (manual sign-up) receives constant updates to
+    the question bank; a normal sign-up receives the 500-question install. The
+    tier belongs to the account, not the device.
+34. `[CONFIRMED]` The faculty is chosen at the first sign-up and keys the
+    routing of the user to a Supabase account. `[OPEN]` The mapping from
+    faculty to account; until supplied, all faculties use the one project.
 35. `[CONFIRMED]` The app working end to end outranks question count.
     Questions grow continuously. 500 is the first install, not a ceiling,
     and does not conflict with up to 10,000 per course (#11).
 36. `[CONFIRMED]` manchi reviews, tags and approves every question. The
     founder generates or sources questions manually.
+37. `[CONFIRMED]` Feedback (answers and explanations) is shown after the whole
+    test, not after each question.
+38. `[CONFIRMED]` The sticky widget is built with the native apps, after the
+    offline web app is finished.

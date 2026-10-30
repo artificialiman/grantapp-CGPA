@@ -1,5 +1,8 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { onMount } from 'svelte';
+	import LocalTest from '$lib/components/LocalTest.svelte';
+	import { loadPacks, checkForUpdates, applyPlan } from '$lib/offline/sync';
 
 	export let data: PageData;
 
@@ -29,6 +32,24 @@
 		total_score: number;
 		is_guest: boolean;
 	};
+
+	// Offline-first: when this course has a saved pack, the whole test runs on the phone.
+	// If it has none and the phone is online, fetch just this course's pack first.
+	// A course with no pack (nothing approved in the depot yet) uses the online test below.
+	$: packKey = `${data.facultySlug}/${data.courseSlug}`;
+	let local: boolean | null = null;
+
+	onMount(async () => {
+		try {
+			if ((await loadPacks([packKey])).length === 0 && navigator.onLine) {
+				const { manifest, plan } = await checkForUpdates((p) => p.key === packKey);
+				await applyPlan(manifest, plan);
+			}
+			local = (await loadPacks([packKey])).length > 0;
+		} catch {
+			local = false;
+		}
+	});
 
 	let phase: 'config' | 'loading' | 'running' | 'submitting' | 'results' | 'error' = 'config';
 	let errorMessage = '';
@@ -101,6 +122,15 @@
 	}
 </script>
 
+{#if local}
+	<div class="wrap">
+		<div class="breadcrumb">
+			<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">Course</a>
+			<span class="sep">/</span><span class="current">Quick Test</span>
+		</div>
+		<LocalTest {packKey} backHref="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}" />
+	</div>
+{:else}
 <div class="wrap">
 	<div class="breadcrumb">
 		<a href="/faculties/{data.facultySlug}/{data.deptSlug}/{data.courseSlug}">Course</a>
@@ -163,6 +193,7 @@
 		<button class="btn btn-secondary" on:click={() => (phase = 'config')}>Try again</button>
 	{/if}
 </div>
+{/if}
 
 <style>
 	.wrap {

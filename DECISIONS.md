@@ -170,12 +170,23 @@ is edited.
 - **Routing.** A faculty-based rule will route users to a Supabase account.
   The rule is to be supplied.
 
+## 2026-10-30 (latest) — Founder's replies to the four open items
+
+- **Feedback timing.** Feedback comes after the whole test, not after each
+  question. A test is as long as the quick test is split today (the current
+  question count per test is kept; no new length is set).
+- **Two sign-ups.** *Normal* gives access to the 500-question install.
+  *Manual* means the founder adds the person by hand to a database that
+  qualifies them for constant updates to the app's question bank. The special
+  tier is therefore the update stream, and it belongs to the account (a row
+  the founder adds), not to the device.
+- **Faculty.** The faculty is chosen at the very first sign-up. It is the key
+  the routing rule uses. The mapping of faculty to Supabase account is still
+  to be supplied; until then every faculty maps to the one existing project.
+- **Sticky widget.** Built with the native apps once the offline web app is
+  finished. It is outside the December window.
+
 **Still open**
-1. Feedback after each question, or after the whole test.
-2. What the special tier contains, and whether it belongs to the account or
-   the device.
-3. The routing rule, and how sign-up finds the right database before a
-   faculty has been chosen (the 2-device check also needs the student's
-   database).
-4. The sticky widget, keyboard or overlay needs a native Android app; the
-   app is a web app.
+1. The faculty-to-Supabase-account mapping (one project today, so nothing
+   blocks the build).
+2. What manual sign-up holders receive beyond updates, if anything.

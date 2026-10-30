@@ -138,3 +138,11 @@ test('queue: 404 (endpoint not deployed yet) is retried, then fails after MAX_TR
 	await flushQueue(s, async () => ({ ok: false, status: 404 }));
 	assert.equal(s.m.get('1').status, 'failed');
 });
+
+test('queue: a 401 (not signed in) keeps the attempt and counts no try', async () => {
+	const s = memStore([att('g1', '2026-10-30T10:00:00Z')]);
+	for (let i = 0; i < MAX_TRIES + 2; i++) await flushQueue(s, async () => ({ ok: false, status: 401 }));
+	const [a] = await s.getAll();
+	assert.equal(a.status, 'pending');
+	assert.equal(a.tries, 0);
+});

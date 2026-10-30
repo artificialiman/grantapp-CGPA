@@ -15,6 +15,7 @@ export type FlushReport = { sent: number; failed: number; pending: number; offli
  * Send queued attempts, oldest first. An attempt is never lost and never sent twice:
  *  - success            -> marked "sent" (the server also dedupes on attempt.id)
  *  - network error      -> stop, leave everything pending (we are offline)
+ *  - 401                -> not signed in yet: keep the attempt, no try counted, stop for now
  *  - 5xx, 404, 408, 429 -> count a try, stop for now (server busy or not deployed yet), retry next time
  *  - other 4xx          -> marked "failed" with the reason; retrying cannot help
  *  - MAX_TRIES reached  -> marked "failed"
@@ -44,6 +45,8 @@ export async function flushQueue(
 		if (res.ok) {
 			await store.put({ ...a, status: 'sent', last_error: undefined });
 			sent += 1;
+		} else if (res.status === 401) {
+			stopped = true;
 		} else if (res.status >= 400 && res.status < 500 && res.status !== 404 && res.status !== 408 && res.status !== 429) {
 			await store.put({ ...a, status: 'failed', tries: a.tries + 1, last_error: `HTTP ${res.status}` });
 			failed += 1;

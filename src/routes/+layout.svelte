@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import { client } from '$lib/supabase';
 	import { goto } from '$app/navigation';
+	import { bootOffline } from '$lib/offline/boot';
 
 	let online = true;
 	let toolsMenuOpen = false;
@@ -65,8 +66,10 @@
 		online = navigator.onLine;
 
 		document.addEventListener('click', handleClickOutside);
+		const stopOffline = bootOffline();
 
 		return () => {
+			stopOffline();
 			window.removeEventListener('online', handleOnline);
 			window.removeEventListener('offline', handleOffline);
 			document.removeEventListener('click', handleClickOutside);

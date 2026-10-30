@@ -30,20 +30,20 @@ Owner: manchi (head). v2, 2026-10-30, after the founder's final-lap answers (`DE
 | --- | --- | --- | --- | --- | --- |
 | E1 | Question depot and validator | manchi | Nov 3 | **Done Oct 30** | Validator exits 0 on all 56 |
 | E2 | Pack builder and manifest | manchi | Nov 7 | **v1 done Oct 30** | `build-packs.py --check` passes in CI |
-| E3 | Offline engine: IndexedDB store, pack download with hash check, local test and grading, attempt queue | manchi | Nov 8 | **Library done Oct 30** (`src/lib/offline/`, 13 tests in CI). Pages not wired yet | `npm test` green |
-| E4 | Offline Quick Test screens, feedback, sync on reconnect | manchi, sloww | Nov 14 | Needs open item 1, migration 0021 and `/api/submit-offline-attempt` (below) | Airplane-mode run: open a course, sit a test, see answers; queued attempt reaches the server once |
-| E5 | Update channel: manifest check on launch and on `online`, ask first, 50 MB ceiling | manchi | Nov 18 | Waits for E3 | A new release reaches a phone by downloading only the changed pack |
+| E3 | Offline engine: IndexedDB store, pack download with hash check, local test and grading, attempt queue | manchi | Nov 8 | **Done Oct 30** (`src/lib/offline/`, 14 tests in CI) | `npm test` green |
+| E4 | Offline Quick Test screens, feedback, sync on reconnect | manchi, sloww | Nov 14 | **Code done Oct 30**: `LocalTest.svelte` (20 questions, answers after the whole test), quick-test page uses a saved pack, `/offline` lists saved courses, first-run starter download and queue flush in `bootOffline()`, `/api/submit-offline-attempt`. **Waits for the founder to apply migration 0021**, then the airplane-mode run | Airplane-mode run: open a course, sit a test, see answers; queued attempt reaches the server once |
+| E5 | Update channel: manifest check on launch and on `online`, ask first, 50 MB ceiling | manchi | Nov 18 | Library ready (`checkForUpdates`, `applyPlan`). Page prompt not built; shown only to manual sign-ups (E9) | A new release reaches a phone by downloading only the changed pack |
 | E6 | Content grows continuously | founder sources, manchi reviews and tags | Pace markers: 150 by Nov 6, 300 by Nov 13, 450 by Nov 20, 520 by Nov 27 | Intake built (`inbox/`) | Validator green, then reviewed. Missing a marker holds no other event |
 | E7 | Navigation redesign, year switching, faculty lock and tour, analytics shimmer, touch targets, skeleton | sloww | Nov 14 and Nov 21 | Not started | Pages work on a small screen; checks green |
 | E8 | `BRAND.md`, drift report, export script, `COMPLIANCE.md` data inventory | iman agent | Nov 13 | Not started | Files exist; dry-run passes |
-| E9 | Donation tier: a subscription donation unlocks a special tier | manchi | Nov 21 | **Blocked** on what the tier contains, account or device, and the routing rule | An unlocked account stays unlocked offline |
+| E9 | Two sign-ups: normal gets the 500-question install; manual (added by the founder) also receives constant question-bank updates. Faculty chosen at first sign-up | manchi | Nov 21 | Design set; build after E4/E5. Needs a per-account entitlement row the founder can add by hand, and a faculty field at sign-up | A manual account sees update prompts; a normal account does not; both keep working offline |
 | E10 | Hardening and freeze: rollback rehearsal, Android 7 test, restore drill, load check | all, manchi gates | Nov 27–30 | Not started | Release tag |
 
 ## 4. Offline design
 - **Packs.** One JSON pack per course, named by content hash (`static/packs/{faculty}/{course}.{hash8}.json`). Each question carries id, prompt, options, correct option, explanation, tags, difficulty. `manifest.json` lists every pack with `sha256`, size, count, `released_on` and a `starter` flag.
 - **First install.** The `starter` packs are fetched and stored together so the app opens with at least 500 questions. `build-packs.py` picks them round-robin across faculties.
 - **Storage.** IndexedDB, not `localStorage`. Three stores: packs, attempts, meta.
-- **Tests.** Questions are drawn from stored packs, graded on the phone, and shown with answer and explanation. Timing of feedback (after each question or after the test) is open item 1.
+- **Tests.** Questions are drawn from stored packs, graded on the phone, and shown with answer and explanation. Feedback (answer and explanation for every question) appears once, after the whole test; a test is 20 questions, the length the online Quick Test already uses.
 - **Grading of record.** Each attempt is stored with a UUID. On reconnect it is sent to the existing submit endpoint, which grades again on the server. A retry cannot create a second row.
 - **Updates.** The manifest is fetched network-first and is never cached long. Only packs whose hash is missing are downloaded, and only after the student agrees.
 - **Server side of the sync.** Depot ids (`q001`) are not database ids, and the existing `submit-quick-test` takes database ids. A new endpoint, `/api/submit-offline-attempt`, takes `{attempt_id, course_key, answers}`, looks questions up by natural key and ignores a repeated `attempt_id`. It needs migration 0021: `depot_key` and `depot_qid` columns on `keystone_questions` (filled for the 56 existing rows by matching prompt text) and an `offline_attempts` table with its policy in the same file. manchi drafts it; the founder applies it, because the only Supabase project this session can see belongs to another business.
@@ -65,12 +65,10 @@ Owner: manchi (head). v2, 2026-10-30, after the founder's final-lap answers (`DE
 - No prompt repeated anywhere in the depot.
 
 ## 6. Open items (named, not guessed; full text in `DECISIONS.md`)
-1. Feedback after each question or after the whole test.
-2. What the special tier contains, and whether it belongs to the account or the device.
-3. The faculty-based routing rule across Supabase accounts, and how sign-up finds its database before a faculty is chosen.
-4. The sticky widget, keyboard or overlay needs a native Android app.
+1. The faculty-to-Supabase-account mapping. One project exists today, so nothing is blocked; sign-up records the faculty so the mapping can be applied later.
+2. Whether manual sign-up holders receive anything beyond question-bank updates.
 
-Settled on 2026-10-30: money is donation, all ages welcome, the founder files the registration, data is deleted on request, manchi reviews and tags.
+Settled on 2026-10-30: money is donation, all ages welcome, the founder files the registration, data is deleted on request, manchi reviews and tags, feedback comes after the whole test, there are two sign-ups (normal and manual), the faculty is chosen at first sign-up, and the sticky widget is built with the native apps after the offline web app.
 
 ## 7. Risks
 - **Content volume.** The founder sources questions by hand, so volume follows his time. The app must work end to end with whatever is approved; 56 questions is enough to prove that.
@@ -81,7 +79,7 @@ Settled on 2026-10-30: money is donation, all ages welcome, the founder files th
 - **Shared project.** A UTME spike and a CGPA exam week land on one instance.
 
 ## 8. Outside the December window
-- Sticky widget, keyboard and overlay (item 8), and the sidebar over PDF and Word files.
+- Sticky widget, keyboard and overlay: built with the native apps once the offline web app is finished. Also the sidebar over PDF and Word files.
 - Sidebar tier C (generating questions from a page with a model).
 - Lagoslife: a module reads the same packs through one call. No build in this window.
 - Adding the app to iPhones outside the App Store: to be explored after the app is built.
