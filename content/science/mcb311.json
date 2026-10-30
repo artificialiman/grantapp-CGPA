@@ -1,0 +1,960 @@
+{
+  "faculty_slug": "science",
+  "course_slug": "mcb311",
+  "department_slugs": [
+    "microbiology"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The study of the interactions of microorganisms with each other and with their environment is",
+      "options": [
+        {
+          "id": "a",
+          "text": "taxonomy"
+        },
+        {
+          "id": "b",
+          "text": "immunology"
+        },
+        {
+          "id": "c",
+          "text": "microbial ecology"
+        },
+        {
+          "id": "d",
+          "text": "pharmacology"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Microbial ecology examines distribution, abundance, activity and interactions of microbes in habitats.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A group of organisms of the same species living in an area is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "population"
+        },
+        {
+          "id": "b",
+          "text": "ecosystem"
+        },
+        {
+          "id": "c",
+          "text": "biome"
+        },
+        {
+          "id": "d",
+          "text": "community"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A community is all the populations of different species in a habitat. An ecosystem includes the community and its physical environment.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A relationship in which both partners benefit is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "commensalism"
+        },
+        {
+          "id": "b",
+          "text": "mutualism"
+        },
+        {
+          "id": "c",
+          "text": "parasitism"
+        },
+        {
+          "id": "d",
+          "text": "amensalism"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Rhizobium and legumes are an example. In commensalism one benefits and the other is unaffected.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A relationship in which one organism benefits and the other is harmed is",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutralism"
+        },
+        {
+          "id": "b",
+          "text": "commensalism"
+        },
+        {
+          "id": "c",
+          "text": "parasitism"
+        },
+        {
+          "id": "d",
+          "text": "mutualism"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pathogens and their hosts show parasitism. Commensalism has no harm to the other partner.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Antibiotic production by Streptomyces that inhibits other microbes in soil is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutralism"
+        },
+        {
+          "id": "b",
+          "text": "commensalism"
+        },
+        {
+          "id": "c",
+          "text": "amensalism (antagonism)"
+        },
+        {
+          "id": "d",
+          "text": "mutualism"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Amensalism is a relationship in which one population is harmed and the other is unaffected. The inhibitor producer gains an advantage by reducing competitors.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The relationship between a nitrifying bacterium that uses ammonia and the next one that uses nitrite is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "predation"
+        },
+        {
+          "id": "b",
+          "text": "amensalism"
+        },
+        {
+          "id": "c",
+          "text": "parasitism"
+        },
+        {
+          "id": "d",
+          "text": "syntrophy (metabolic cooperation)"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "One organism's product is the other's substrate, so both depend on the sequence.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "In a food chain, bacteria and fungi that break down dead organisms are",
+      "options": [
+        {
+          "id": "a",
+          "text": "decomposers"
+        },
+        {
+          "id": "b",
+          "text": "primary consumers"
+        },
+        {
+          "id": "c",
+          "text": "producers"
+        },
+        {
+          "id": "d",
+          "text": "secondary consumers"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They recycle nutrients to the environment.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Primary producers in aquatic ecosystems are mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "fish"
+        },
+        {
+          "id": "b",
+          "text": "zooplankton"
+        },
+        {
+          "id": "c",
+          "text": "phytoplankton and cyanobacteria"
+        },
+        {
+          "id": "d",
+          "text": "decomposing bacteria"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "They fix carbon by photosynthesis and form the base of the food web.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Cyanobacteria are important in ecosystems because they",
+      "options": [
+        {
+          "id": "a",
+          "text": "are obligate anaerobes without light"
+        },
+        {
+          "id": "b",
+          "text": "are archaea"
+        },
+        {
+          "id": "c",
+          "text": "carry out oxygenic photosynthesis and some fix nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "only cause disease"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Their ancestors produced the oxygen in Earth's atmosphere. Anabaena fixes nitrogen in heterocysts.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Eutrophication of a lake is caused by",
+      "options": [
+        {
+          "id": "a",
+          "text": "low temperature only"
+        },
+        {
+          "id": "b",
+          "text": "an excess of nutrients such as nitrates and phosphates"
+        },
+        {
+          "id": "c",
+          "text": "too much oxygen"
+        },
+        {
+          "id": "d",
+          "text": "lack of sunlight"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Nutrient enrichment causes algal blooms, and decay of dead algae uses up dissolved oxygen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "During eutrophication, fish die mainly because",
+      "options": [
+        {
+          "id": "a",
+          "text": "water becomes too cold"
+        },
+        {
+          "id": "b",
+          "text": "dissolved oxygen falls as decomposers break down dead algae"
+        },
+        {
+          "id": "c",
+          "text": "nitrates are toxic in all concentrations"
+        },
+        {
+          "id": "d",
+          "text": "there are no producers"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "High biochemical oxygen demand depletes oxygen.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Biochemical oxygen demand (BOD) measures",
+      "options": [
+        {
+          "id": "a",
+          "text": "the oxygen in air"
+        },
+        {
+          "id": "b",
+          "text": "the amount of dissolved metals"
+        },
+        {
+          "id": "c",
+          "text": "the oxygen used by microbes to break down organic matter in water"
+        },
+        {
+          "id": "d",
+          "text": "the pH of the water"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A high BOD means a high level of organic pollution. It is measured over five days at 20 degrees C (BOD5).",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Initial dissolved oxygen of a water sample is 9.0 mg/L and after 5 days of incubation it is 4.0 mg/L. The BOD5 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "13.0 mg/L"
+        },
+        {
+          "id": "b",
+          "text": "5.0 mg/L"
+        },
+        {
+          "id": "c",
+          "text": "4.0 mg/L"
+        },
+        {
+          "id": "d",
+          "text": "9.0 mg/L"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "BOD5 is the initial oxygen minus the final oxygen, 9.0 minus 4.0 equals 5.0 mg/L.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "A biofilm is",
+      "options": [
+        {
+          "id": "a",
+          "text": "a community of microbes attached to a surface in a matrix they produce"
+        },
+        {
+          "id": "b",
+          "text": "a type of virus"
+        },
+        {
+          "id": "c",
+          "text": "a single bacterial cell"
+        },
+        {
+          "id": "d",
+          "text": "a layer of fat"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Biofilms form on teeth, catheters and pipes and are more resistant to antibiotics and disinfectants.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Dental plaque is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "a biofilm"
+        },
+        {
+          "id": "b",
+          "text": "a capsule"
+        },
+        {
+          "id": "c",
+          "text": "a pure culture"
+        },
+        {
+          "id": "d",
+          "text": "a spore"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Streptococcus mutans and other bacteria stick to the tooth surface and make acid from sugars.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The part of the ocean where light penetrates enough for photosynthesis is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "benthic zone"
+        },
+        {
+          "id": "b",
+          "text": "photic zone"
+        },
+        {
+          "id": "c",
+          "text": "abyssal zone"
+        },
+        {
+          "id": "d",
+          "text": "aphotic zone"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Phytoplankton live in the photic zone. Below it is the dark aphotic zone.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Extremophiles that live in hot springs at temperatures above 80 degrees C are",
+      "options": [
+        {
+          "id": "a",
+          "text": "hyperthermophiles"
+        },
+        {
+          "id": "b",
+          "text": "halophiles"
+        },
+        {
+          "id": "c",
+          "text": "mesophiles"
+        },
+        {
+          "id": "d",
+          "text": "psychrophiles"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Thermus aquaticus, the source of Taq polymerase, lives in hot springs. Many hyperthermophiles are archaea.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Hydrothermal vent communities at the sea floor depend mainly on",
+      "options": [
+        {
+          "id": "a",
+          "text": "plants"
+        },
+        {
+          "id": "b",
+          "text": "chemosynthetic bacteria"
+        },
+        {
+          "id": "c",
+          "text": "photosynthetic algae"
+        },
+        {
+          "id": "d",
+          "text": "sunlight"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Chemoautotrophic bacteria oxidise hydrogen sulphide and give energy to animals such as tube worms.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The microbial community of the human gut is called the",
+      "options": [
+        {
+          "id": "a",
+          "text": "nasal pathogen"
+        },
+        {
+          "id": "b",
+          "text": "biofilm only"
+        },
+        {
+          "id": "c",
+          "text": "microbial mat"
+        },
+        {
+          "id": "d",
+          "text": "gut microbiota"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The gut flora help digest food, make vitamin K and protect against pathogens.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "A gut microbe contributing vitamin K and some B vitamins to the host is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "b",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "c",
+          "text": "Bacillus anthracis"
+        },
+        {
+          "id": "d",
+          "text": "Treponema pallidum"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "E. coli and other gut bacteria synthesise vitamin K and some B vitamins.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q021",
+      "prompt": "The rumen of cattle supports microbes that",
+      "options": [
+        {
+          "id": "a",
+          "text": "digest cellulose"
+        },
+        {
+          "id": "b",
+          "text": "digest only protein"
+        },
+        {
+          "id": "c",
+          "text": "make no products"
+        },
+        {
+          "id": "d",
+          "text": "are viruses only"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Cellulolytic bacteria and protozoa ferment cellulose to volatile fatty acids that feed the animal. Methanogens also produce methane.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q022",
+      "prompt": "Succession in microbial communities is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the passing of genes between species"
+        },
+        {
+          "id": "b",
+          "text": "the death of all microbes"
+        },
+        {
+          "id": "c",
+          "text": "the formation of spores"
+        },
+        {
+          "id": "d",
+          "text": "the orderly change in community composition over time"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Early colonisers change conditions and allow later species to take over.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q023",
+      "prompt": "The nitrogen cycle step that converts nitrogen gas to ammonia is",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrification"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen fixation"
+        },
+        {
+          "id": "c",
+          "text": "denitrification"
+        },
+        {
+          "id": "d",
+          "text": "ammonification"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It requires nitrogenase and is carried out by free-living and symbiotic bacteria and cyanobacteria.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q024",
+      "prompt": "The step that returns nitrogen gas to the atmosphere is",
+      "options": [
+        {
+          "id": "a",
+          "text": "nitrification"
+        },
+        {
+          "id": "b",
+          "text": "nitrogen fixation"
+        },
+        {
+          "id": "c",
+          "text": "assimilation"
+        },
+        {
+          "id": "d",
+          "text": "denitrification"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Anaerobic bacteria reduce nitrate to nitrogen gas, which closes the cycle.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q025",
+      "prompt": "In the carbon cycle, decomposers return carbon to the air mainly as",
+      "options": [
+        {
+          "id": "a",
+          "text": "methane only"
+        },
+        {
+          "id": "b",
+          "text": "ozone"
+        },
+        {
+          "id": "c",
+          "text": "carbon monoxide"
+        },
+        {
+          "id": "d",
+          "text": "carbon dioxide"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Respiration of decomposers releases carbon dioxide. Methane is produced by methanogens in anaerobic conditions.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q026",
+      "prompt": "The Winogradsky column is used to",
+      "options": [
+        {
+          "id": "a",
+          "text": "count viruses"
+        },
+        {
+          "id": "b",
+          "text": "sterilise water"
+        },
+        {
+          "id": "c",
+          "text": "study the succession of microbes in sediment under light"
+        },
+        {
+          "id": "d",
+          "text": "make antibiotics"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mud and water in a sealed column develop layers of microbes, such as sulphate reducers and purple sulphur bacteria.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q027",
+      "prompt": "A symbiotic association between termites and gut protozoa helps termites to",
+      "options": [
+        {
+          "id": "a",
+          "text": "see"
+        },
+        {
+          "id": "b",
+          "text": "fly"
+        },
+        {
+          "id": "c",
+          "text": "produce silk"
+        },
+        {
+          "id": "d",
+          "text": "digest wood (cellulose)"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Gut microbes break down cellulose. The termite cannot digest wood on its own.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q028",
+      "prompt": "Microbial communities in soil are the same everywhere in the world.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Soil type, pH, moisture, temperature and organic matter all change which microbes dominate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q029",
+      "prompt": "Decomposers are essential to nutrient cycling.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "They convert dead organic matter into inorganic nutrients that plants can use.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q030",
+      "prompt": "Assertion: Eutrophic lakes often have fish kills. Reason: Decomposition of the excess algae reduces dissolved oxygen.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
