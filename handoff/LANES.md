@@ -141,6 +141,9 @@ Founder decision 2026-10-30: he generates or sources questions by hand and manch
 ### C-I5 · iman · PERMISSIONS.md and NOT_NOW.md (45 min)
 **Write:** `PERMISSIONS.md` (who may read and write each table, taken from the RLS policies) and `NOT_NOW.md` (copy section 8 of `PRODUCTION_PLAN.md`, one line each, with why it waits).
 
-## 6. Cards held for later windows
-- sloww: offline status badge and the offline Quick Test screens (after E3).
-- manchi: E3 to E5, E9 and E10 in `PRODUCTION_PLAN.md`.
+## 6. Cards added after the engine landed
+Full text, order and the capstone are in `handoff/ASSIGNMENTS.md`.
+- obase: C-O4 (`--queue`: SOURCING_QUEUE.md), C-O5 (`--coverage`: COVERAGE.md).
+- sloww: C-S7 (saved-on-phone badge), C-S8 (restyle `LocalTest.svelte`, markup and styles only).
+- iman: C-I6 (`handoff/DELETION.md`), C-I7 (`handoff/AIRPLANE_TEST.md`).
+- manchi: E10 in `PRODUCTION_PLAN.md`. E3 to E5 and the data side of E9 are built.

@@ -2,7 +2,7 @@
 // Tests the pure parts of the offline engine (plan, session, queue). Node 22 strips the types.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { planUpdate, UPDATE_CEILING_BYTES } from '../src/lib/offline/plan.ts';
+import { planUpdate, UPDATE_CEILING_BYTES, includeForFaculty, trimToCeiling } from '../src/lib/offline/plan.ts';
 import { buildTest, gradeAnswers, mulberry32 } from '../src/lib/offline/session.ts';
 import { flushQueue, MAX_TRIES } from '../src/lib/offline/queue.ts';
 
@@ -145,4 +145,24 @@ test('queue: a 401 (not signed in) keeps the attempt and counts no try', async (
 	const [a] = await s.getAll();
 	assert.equal(a.status, 'pending');
 	assert.equal(a.tries, 0);
+});
+
+test('plan: includeForFaculty keeps own faculty, general studies and shared courses', () => {
+	const inc = includeForFaculty('law');
+	assert.equal(inc(meta('law/a', '1'.repeat(64), { departments: ['common-law'] })), true);
+	assert.equal(inc(meta('general-studies/gst101', '2'.repeat(64), { departments: ['general-studies'] })), true);
+	assert.equal(inc(meta('engineering/maths', '3'.repeat(64), { departments: ['*'] })), true);
+	assert.equal(inc(meta('medicine/x', '4'.repeat(64), { departments: ['human-medicine'] })), false);
+	assert.equal(includeForFaculty(null)(meta('medicine/x', '4'.repeat(64))), true);
+});
+
+test('plan: trimToCeiling keeps whole packs under the ceiling and defers the rest', () => {
+	const big = (k, gz) => meta(k, k.padEnd(64, '0'), { gz_bytes: gz });
+	const m = manifest([big('law/a', 40), big('law/b', 40), big('law/c', 15)]);
+	const p = trimToCeiling(planUpdate(m, []), 60);
+	assert.deepEqual(p.download.map((x) => x.key), ['law/a', 'law/c']); // b (80 total) does not fit, c still does
+	assert.equal(p.bytes, 55);
+	assert.equal(p.exceedsCeiling, false);
+	const same = planUpdate(manifest([big('law/a', 10)]), []);
+	assert.equal(trimToCeiling(same, 60), same);
 });

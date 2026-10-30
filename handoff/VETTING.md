@@ -18,3 +18,8 @@ Owner: manchi. Applies to every question before `status` becomes `approved`. The
 
 ## What this does not cover
 manchi and obase are the same kind of system, so a shared blind spot is possible. The control is the derivation in step 2 and the held list, not agreement between the two. Held questions are never shipped.
+
+## After approval
+1. `python3 scripts/build-packs.py` rebuilds the packs and manifest.
+2. `python3 scripts/depot-to-sql.py` writes the next migration for the newly approved questions and records them in `supabase/depot-synced.json`. CI fails if an approved question has no migration.
+3. Commit the content, the packs, the migration and the ledger together. The founder applies the migration; until then an offline answer for a new question is counted as unmatched, not lost.

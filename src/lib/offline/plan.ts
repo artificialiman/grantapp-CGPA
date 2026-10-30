@@ -35,3 +35,29 @@ export function planUpdate(
 		upToDate: download.length === 0 && remove.length === 0
 	};
 }
+
+/**
+ * What a signed-in student's updates cover: their own faculty, the general-studies courses
+ * everyone takes, and any course shared by every department (departments ["*"]).
+ * Starter packs are wanted regardless (see planUpdate).
+ */
+export function includeForFaculty(facultySlug: string | null | undefined): (p: PackMeta) => boolean {
+	return (p) =>
+		!facultySlug || p.faculty === facultySlug || p.faculty === 'general-studies' || p.departments.indexOf('*') !== -1;
+}
+
+/**
+ * Keep an update under the weekly ceiling. Whole packs only, in manifest order; whatever does not
+ * fit waits for the next update. A single pack larger than the ceiling is still skipped, never split.
+ */
+export function trimToCeiling(plan: UpdatePlan, ceiling: number = UPDATE_CEILING_BYTES): UpdatePlan {
+	if (plan.bytes <= ceiling) return plan;
+	const download: PackMeta[] = [];
+	let bytes = 0;
+	for (const p of plan.download) {
+		if (bytes + p.gz_bytes > ceiling) continue;
+		download.push(p);
+		bytes += p.gz_bytes;
+	}
+	return { ...plan, download, bytes, exceedsCeiling: false, upToDate: download.length === 0 && plan.remove.length === 0 };
+}

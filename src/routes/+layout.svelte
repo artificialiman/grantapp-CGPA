@@ -6,6 +6,7 @@
 	import { client } from '$lib/supabase';
 	import { goto } from '$app/navigation';
 	import { bootOffline } from '$lib/offline/boot';
+	import UpdatePrompt from '$lib/components/offline/UpdatePrompt.svelte';
 
 	let online = true;
 	let toolsMenuOpen = false;
@@ -76,6 +77,8 @@
 		};
 	});
 </script>
+
+<UpdatePrompt />
 
 <nav class="site-nav" class:nav-dashboard={isLoggedIn}>
 	<div class="nav-left">

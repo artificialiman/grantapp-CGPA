@@ -36,6 +36,9 @@ jobs:
       - name: Offline packs are current with the depot
         run: python3 -I scripts/build-packs.py --check
 
+      - name: Every approved question has a database migration
+        run: python3 -I scripts/depot-to-sql.py --check
+
       - name: Inbox files are readable
         run: python3 -I scripts/import-inbox.py --check
 
