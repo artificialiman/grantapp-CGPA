@@ -17,7 +17,8 @@ Decisions this implements (DECISIONS 2026-10-30, INVARIANTS #23-#24):
 Usage:
   python3 scripts/build-packs.py                 # write packs and manifest
   python3 scripts/build-packs.py --release 2026-11-07
-  python3 scripts/build-packs.py --check         # exit 1 if the files on disk are stale (CI)
+  python3 scripts/build-packs.py --check         # exit 1 if the files on disk are stale (CI). Compressed sizes in the
+                                                 # manifest may differ by 1% between zlib builds; nothing else may.
 
 Standard library only.
 """
@@ -95,6 +96,31 @@ def build_pack(course):
         "gz_bytes": len(gzip.compress(raw, 9, mtime=0)),
         "relpath": f'packs/{course["faculty"]}/{course["course"]}.{digest[:8]}.json',
     }
+
+
+def close(a, b):
+    """gz_bytes is a download-budget estimate. Different zlib builds differ by a few bytes, so the check allows 1% or 16 bytes."""
+    return abs(a - b) <= max(16, 0.01 * max(a, b))
+
+
+def same_manifest(on_disk_bytes, fresh_bytes):
+    """True if the manifest on disk matches a fresh build, ignoring zlib-version noise in the compressed sizes only."""
+    try:
+        old, new = json.loads(on_disk_bytes), json.loads(fresh_bytes)
+    except ValueError:
+        return False
+    if len(old.get("packs", [])) != len(new["packs"]):
+        return False
+    for a, b in zip(old["packs"], new["packs"]):
+        if {k: v for k, v in a.items() if k != "gz_bytes"} != {k: v for k, v in b.items() if k != "gz_bytes"}:
+            return False
+        if not close(a.get("gz_bytes", -1), b["gz_bytes"]):
+            return False
+    ta, tb = dict(old.get("totals", {})), dict(new["totals"])
+    if not close(ta.pop("starter_gz_bytes", -1), tb.pop("starter_gz_bytes")):
+        return False
+    rest = lambda m: {k: v for k, v in m.items() if k not in ("packs", "totals")}
+    return ta == tb and rest(old) == rest(new)
 
 
 def pick_starter(courses):
@@ -195,7 +221,17 @@ def main():
     on_disk = {str(p.relative_to(OUT)) for p in OUT.rglob("*") if p.is_file()} if OUT.exists() else set()
     wanted = set(k.replace("packs/", "", 1) if k.startswith("packs/") else k for k in files)
     stale = on_disk - wanted
-    drift = [k for k in wanted if not (OUT / k).exists() or (OUT / k).read_bytes() != files[k if k == "manifest.json" else "packs/" + k]]
+    drift = []
+    for k in wanted:
+        target = OUT / k
+        fresh = files[k if k == "manifest.json" else "packs/" + k]
+        if not target.exists():
+            drift.append(k)
+        elif k == "manifest.json" and args.check:
+            if not same_manifest(target.read_bytes(), fresh):
+                drift.append(k)
+        elif target.read_bytes() != fresh:
+            drift.append(k)
 
     if args.check:
         if stale or drift:
