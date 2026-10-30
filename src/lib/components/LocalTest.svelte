@@ -8,6 +8,10 @@
 	import { buildTest, gradeAnswers, type TestQuestion, type TestResult } from '$lib/offline/session';
 	import { scoreAnswer } from '$lib/quiz/scoring';
 	import type { Answer } from '$lib/offline/types';
+	import { analyse, type Analytics } from '$lib/offline/analytics';
+	import AnalyticsPanel from '$lib/components/AnalyticsPanel.svelte';
+	import ShareResult from '$lib/components/ShareResult.svelte';
+	import { courseLabelFor } from '$lib/offline/share';
 
 	export let packKey: string;
 	export let backHref: string | null = null;
@@ -23,6 +27,9 @@
 	let result: TestResult | null = null;
 	let byId: Record<string, TestQuestion> = {};
 	let saved = true;
+	let analytics: Analytics | null = null;
+	let finishedAt = new Date();
+	let courseLabel = '';
 
 	onMount(async () => {
 		try {
@@ -67,6 +74,9 @@
 			selected_option_id: selected[q.id] ?? null
 		}));
 		result = gradeAnswers(questions, answers, scoreAnswer);
+		finishedAt = new Date();
+		analytics = analyse(questions, result, (finishedAt.getTime() - startedAt.getTime()) / 1000);
+		courseLabel = courseLabelFor(packKey);
 		phase = 'review';
 		try {
 			await recordAttempt(packKey, startedAt, answers);
@@ -127,6 +137,10 @@
 	<p class="answered-note">{result.skipped_count} skipped</p>
 	{#if !saved}
 		<p class="warn-note">This result could not be saved on your phone.</p>
+	{/if}
+	{#if analytics}
+		<AnalyticsPanel {analytics} />
+		<ShareResult {questions} {result} {analytics} {courseLabel} {finishedAt} />
 	{/if}
 	<ol class="review">
 		{#each result.results as r}
