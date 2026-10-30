@@ -1,0 +1,2715 @@
+{
+ "department_slug": "microbiology",
+ "faculty_slug": "sciences",
+ "faculty_name": "Sciences",
+ "source": "Year 1 from the CCMAS B.Sc. Microbiology at UNIOSUN; years 2-4 from the UNIOSUN B.Sc. Microbiology course structure (uniosun.edu.ng, April 2026), which is not labelled CCMAS. Cross-check Unilorin (microbiology.lifesciences.unilorin.edu.ng) for the alternative scheme.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "BIO101",
+   "name": "General Biology I",
+   "kind": "core",
+   "slug": "bio101",
+   "known_codes": "BIO101 (2), BIO151",
+   "aliases": [
+    {
+     "code": "BIO101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO151",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "nursing-science",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology I: Cell Biology and Diversity of Life",
+   "summary": "Cell structure and function, biomolecules, genetics and heredity, evolution and the classification of living organisms.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO102",
+   "name": "General Biology II",
+   "kind": "core",
+   "slug": "bio102",
+   "known_codes": "BIO102 (2), BIO152",
+   "aliases": [
+    {
+     "code": "BIO102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO152",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "nursing-science",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology II: Physiology and Ecology",
+   "summary": "Plant and animal physiology, reproduction, ecology, ecosystems and environmental biology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO107",
+   "name": "General Practical Biology I",
+   "kind": "core",
+   "slug": "bio107",
+   "known_codes": "BIO107 (1)",
+   "aliases": [
+    {
+     "code": "BIO107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology Laboratory I",
+   "summary": "Microscopy, cell and tissue observation, dissections and basic biological techniques with drawings.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO108",
+   "name": "General Practical Biology II",
+   "kind": "core",
+   "slug": "bio108",
+   "known_codes": "BIO108 (1)",
+   "aliases": [
+    {
+     "code": "BIO108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology Laboratory II",
+   "summary": "Practicals on plant and animal physiology, ecology sampling and identification.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM101",
+   "name": "General Chemistry I",
+   "kind": "core",
+   "slug": "chm101",
+   "known_codes": "CHM101 (2/3), CHM111, CHM113",
+   "aliases": [
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Atomic Structure, Bonding and Physical Chemistry I",
+   "summary": "Atomic structure, periodic table, bonding, stoichiometry, states of matter, gas laws, thermochemistry and chemical equilibrium.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM102",
+   "name": "General Chemistry II",
+   "kind": "core",
+   "slug": "chm102",
+   "known_codes": "CHM102 (2/3), CHM121, CHM122",
+   "aliases": [
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM121",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Inorganic and Organic Chemistry",
+   "summary": "Kinetics, electrochemistry, acids and bases, periodic trends, main-group chemistry, and introduction to organic compounds and reactions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM107",
+   "name": "General Practical Chemistry I",
+   "kind": "core",
+   "slug": "chm107",
+   "known_codes": "CHM107 (1), CHM114",
+   "aliases": [
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM114",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Chemistry Laboratory I",
+   "summary": "Safe lab practice, volumetric analysis, titrations, qualitative tests and simple physical-chemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM108",
+   "name": "General Practical Chemistry II",
+   "kind": "core",
+   "slug": "chm108",
+   "known_codes": "CHM108 (1), CHM116 (1), CHM124",
+   "aliases": [
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM124",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM116",
+     "units": 1,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Chemistry Laboratory II",
+   "summary": "Qualitative inorganic analysis, organic functional-group tests, kinetics and electrochemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "COS101",
+   "name": "Introduction to Computing Sciences",
+   "kind": "core",
+   "slug": "cos101",
+   "known_codes": "COS101 (3)",
+   "aliases": [
+    {
+     "code": "COS101",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS101",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "COS101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "computer-science",
+    "cybersecurity",
+    "medical-laboratory-science"
+   ],
+   "general_name": "Introduction to Computer Science and Information Technology",
+   "summary": "History and generations of computers, hardware, software, operating systems, networks, number systems and the Internet, with productivity tools.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MCB101",
+   "name": "Introduction to Microbiology",
+   "kind": "core",
+   "slug": "mcb101",
+   "known_codes": "MCB101",
+   "aliases": [
+    {
+     "code": "MCB101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine"
+   ],
+   "general_name": "Introduction to Microbiology",
+   "summary": "History, microbial diversity, bacteria, viruses, fungi, protozoa, sterilisation, culture and microbes in health and industry.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH101",
+   "name": "Elementary Mathematics I",
+   "kind": "core",
+   "slug": "mth101",
+   "known_codes": "MTH101 (2), MTH111 (3), MTH112",
+   "aliases": [
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Pre-calculus: Algebra, Trigonometry and Coordinate Geometry",
+   "summary": "Sets, number systems, polynomials, inequalities, functions, logarithms, trigonometry, complex numbers and sequences.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH102",
+   "name": "Elementary Mathematics II",
+   "kind": "core",
+   "slug": "mth102",
+   "known_codes": "MTH102 (2), MTH121 (3), MTH122",
+   "aliases": [
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Calculus",
+   "summary": "Limits, continuity, differentiation, applications of derivatives, integration, areas and volumes, and basic differential equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY101",
+   "name": "General Physics I",
+   "kind": "core",
+   "slug": "phy101",
+   "known_codes": "PHY101 (2), PHY111",
+   "aliases": [
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Mechanics and Properties of Matter",
+   "summary": "Units and dimensions, vectors, kinematics, Newton's laws, work, energy, momentum, rotational motion, gravitation, elasticity and fluids.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY102",
+   "name": "General Physics II",
+   "kind": "core",
+   "slug": "phy102",
+   "known_codes": "PHY102 (2), PHY122",
+   "aliases": [
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Electricity, Magnetism and Waves",
+   "summary": "Electric fields, potential, capacitance, DC circuits, magnetism, induction, AC basics, then waves and optics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY107",
+   "name": "General Practical Physics I",
+   "kind": "core",
+   "slug": "phy107",
+   "known_codes": "PHY107 (1), PHY117",
+   "aliases": [
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY117",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory I",
+   "summary": "Measurement, error analysis and experiments in mechanics, heat and properties of matter, with report writing.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY108",
+   "name": "General Practical Physics II",
+   "kind": "core",
+   "slug": "phy108",
+   "known_codes": "PHY108 (1), PHY127",
+   "aliases": [
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY127",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory II",
+   "summary": "Experiments in electricity, magnetism, optics and waves, with graph work and error analysis.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH201",
+   "name": "General Biochemistry I",
+   "kind": "core",
+   "slug": "bch201",
+   "known_codes": "BCH201 (2)",
+   "aliases": [
+    {
+     "code": "BCH201",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BCH201",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "medical-laboratory-science"
+   ],
+   "general_name": "Introductory Biochemistry I: Biomolecules and Enzymes",
+   "summary": "Structure and function of carbohydrates, lipids, amino acids, proteins and nucleic acids, plus enzyme basics.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH202",
+   "name": "General Biochemistry II",
+   "kind": "core",
+   "slug": "bch202",
+   "known_codes": "BCH202 (2)",
+   "aliases": [
+    {
+     "code": "BCH202",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BCH202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "medical-laboratory-science"
+   ],
+   "general_name": "Introductory Biochemistry II: Metabolism",
+   "summary": "Bioenergetics, glycolysis, TCA cycle, oxidative phosphorylation, lipid and amino-acid metabolism.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIO201",
+   "name": "General Ecology",
+   "kind": "core",
+   "slug": "bio201",
+   "known_codes": "BIO201",
+   "aliases": [
+    {
+     "code": "BIO201",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Ecology",
+   "summary": "Ecosystems, populations, communities and energy flow.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIO202",
+   "name": "Biological Techniques",
+   "kind": "core",
+   "slug": "bio202",
+   "known_codes": "BIO202",
+   "aliases": [
+    {
+     "code": "BIO202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biological Techniques",
+   "summary": "Microscopy, staining, sampling and lab techniques.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIO204",
+   "name": "General Physiology",
+   "kind": "core",
+   "slug": "bio204",
+   "known_codes": "BIO204",
+   "aliases": [
+    {
+     "code": "BIO204",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine"
+   ],
+   "general_name": "General Physiology",
+   "summary": "Cell physiology, membranes, body fluids, homeostasis, excitable tissues, muscle and transport.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIO207",
+   "name": "Introductory Genetics and Cell Biology",
+   "kind": "core",
+   "slug": "bio207",
+   "known_codes": "BIO207",
+   "aliases": [
+    {
+     "code": "BIO207",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Genetics and Cell Biology",
+   "summary": "Cell structure, division, inheritance and genetics.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CHM202",
+   "name": "Organic Chemistry I",
+   "kind": "core",
+   "slug": "chm202",
+   "known_codes": "CHE176, CHM113, CHM202, CHM211 (2)",
+   "aliases": [
+    {
+     "code": "CHM211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHE176",
+     "units": null,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "CHM202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "human-medicine"
+   ],
+   "general_name": "Introductory Organic Chemistry: Structure, Bonding and Reactions",
+   "summary": "Hydrocarbons, alkyl halides, alcohols, stereochemistry, reaction mechanisms and functional groups.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CHM205",
+   "name": "Physical Chemistry I",
+   "kind": "core",
+   "slug": "chm205",
+   "known_codes": "CHE156, CHM205, CHM210 (2)",
+   "aliases": [
+    {
+     "code": "CHM210",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHE156",
+     "units": null,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "CHM205",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry"
+   ],
+   "general_name": "Physical Chemistry I: Thermodynamics and Kinetics",
+   "summary": "Gas laws, thermodynamics, thermochemistry, chemical equilibrium and reaction rates.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CHM207",
+   "name": "Inorganic Chemistry I",
+   "kind": "core",
+   "slug": "chm207",
+   "known_codes": "CHE126, CHM207, CHM212 (2)",
+   "aliases": [
+    {
+     "code": "CHM212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHE126",
+     "units": null,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "CHM207",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry"
+   ],
+   "general_name": "Inorganic Chemistry I: Structure and Periodicity",
+   "summary": "Atomic and molecular structure, periodic trends, bonding theories and chemistry of main-group elements.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CHM291",
+   "name": "Experimental Physical and Inorganic Chemistry",
+   "kind": "core",
+   "slug": "chm291",
+   "known_codes": "CHM291",
+   "aliases": [
+    {
+     "code": "CHM291",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Experimental Physical and Inorganic Chemistry",
+   "summary": "Lab work: thermochemistry, kinetics and inorganic analysis.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CHM292",
+   "name": "Experimental Physical and Organic Chemistry",
+   "kind": "core",
+   "slug": "chm292",
+   "known_codes": "CHM292",
+   "aliases": [
+    {
+     "code": "CHM292",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Experimental Physical and Organic Chemistry",
+   "summary": "Lab work: organic synthesis and physical measurements.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MCB201",
+   "name": "General Microbiology I",
+   "kind": "core",
+   "slug": "mcb201",
+   "known_codes": "MCB201",
+   "aliases": [
+    {
+     "code": "MCB201",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Microbiology I",
+   "summary": "Microbial diversity, bacterial structure and growth.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MCB202",
+   "name": "General Microbiology II",
+   "kind": "core",
+   "slug": "mcb202",
+   "known_codes": "MCB202",
+   "aliases": [
+    {
+     "code": "MCB202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Microbiology II",
+   "summary": "Microbial metabolism, genetics and control.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MCB203",
+   "name": "Introductory Virology",
+   "kind": "core",
+   "slug": "mcb203",
+   "known_codes": "MCB203",
+   "aliases": [
+    {
+     "code": "MCB203",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Virology",
+   "summary": "Virus structure, replication and diseases.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MCB204",
+   "name": "Introduction to Food Science",
+   "kind": "core",
+   "slug": "mcb204",
+   "known_codes": "MCB204",
+   "aliases": [
+    {
+     "code": "MCB204",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Food Science",
+   "summary": "Food composition, processing and preservation.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "STA229",
+   "name": "Statistics for Agricultural and Biological Sciences Students",
+   "kind": "core",
+   "slug": "sta229",
+   "known_codes": "STA229",
+   "aliases": [
+    {
+     "code": "STA229",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistics for Agricultural and Biological Sciences Students",
+   "summary": "Statistical analysis for biological experiments.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ZOO202",
+   "name": "Invertebrate Zoology",
+   "kind": "core",
+   "slug": "zoo202",
+   "known_codes": "ZOO202",
+   "aliases": [
+    {
+     "code": "ZOO202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Invertebrate Zoology",
+   "summary": "Classification and biology of invertebrates.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MCB208",
+   "name": "Introduction to Biotechnology",
+   "kind": "elective",
+   "slug": "mcb208",
+   "known_codes": "MCB208",
+   "aliases": [
+    {
+     "code": "MCB208",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Biotechnology",
+   "summary": "Principles and applications of biotechnology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB301",
+   "name": "Bacteriology",
+   "kind": "core",
+   "slug": "mcb301",
+   "known_codes": "MCB301, MCB315 (3)",
+   "aliases": [
+    {
+     "code": "MCB315",
+     "units": 3,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MCB301",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Bacteriology",
+   "summary": "Bacterial structure, genetics and pathogenic species.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB303",
+   "name": "Soil Microbiology",
+   "kind": "core",
+   "slug": "mcb303",
+   "known_codes": "MCB303, MCB429 (3)",
+   "aliases": [
+    {
+     "code": "MCB429",
+     "units": 3,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MCB303",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Soil Microbiology",
+   "summary": "Soil microbes, nutrient cycles and biofertilisers.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB305",
+   "name": "Microbial Genetics and Molecular Biology",
+   "kind": "core",
+   "slug": "mcb305",
+   "known_codes": "MCB305, MLS301",
+   "aliases": [
+    {
+     "code": "MLS301",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MCB305",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "Microbial Genetics and Molecular Biology",
+   "summary": "Bacterial and viral genetics, gene transfer, mutation, gene regulation and recombinant DNA techniques.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB307",
+   "name": "Mycology",
+   "kind": "core",
+   "slug": "mcb307",
+   "known_codes": "MCB307, MCB313 (3)",
+   "aliases": [
+    {
+     "code": "MCB313",
+     "units": 3,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MCB307",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mycology",
+   "summary": "Fungal biology, classification and mycoses.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB309",
+   "name": "Food Microbiology",
+   "kind": "core",
+   "slug": "mcb309",
+   "known_codes": "MCB309",
+   "aliases": [
+    {
+     "code": "MCB309",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Food Microbiology",
+   "summary": "Spoilage, food-borne disease and preservation.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB311",
+   "name": "Microbial Ecology",
+   "kind": "core",
+   "slug": "mcb311",
+   "known_codes": "MCB311",
+   "aliases": [
+    {
+     "code": "MCB311",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microbial Ecology",
+   "summary": "Microbes in habitats and interactions.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Fieldwork and survey",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MCB399",
+   "name": "SIWES (Student Industrial Work Experience Scheme)",
+   "kind": "core",
+   "slug": "mcb399",
+   "known_codes": "ENG402, PAA499",
+   "aliases": [
+    {
+     "code": "ENG402",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "PAA499",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "SIWES (Student Industrial Work Experience Scheme)",
+   "summary": "Supervised industrial placement with logbook and report.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ZOO301",
+   "name": "Parasitology I",
+   "kind": "core",
+   "slug": "zoo301",
+   "known_codes": "ZOO301",
+   "aliases": [
+    {
+     "code": "ZOO301",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Parasitology I",
+   "summary": "Protozoan and helminth parasites.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB401",
+   "name": "Immunology and Immunochemistry",
+   "kind": "core",
+   "slug": "mcb401",
+   "known_codes": "BCH412 (2), MCB401",
+   "aliases": [
+    {
+     "code": "BCH412",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MCB401",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry"
+   ],
+   "general_name": "Immunology",
+   "summary": "Innate and adaptive immunity, antigens, antibodies, hypersensitivity, autoimmunity, vaccines and immunoassays.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB402",
+   "name": "Virology and Tissue Culture",
+   "kind": "core",
+   "slug": "mcb402",
+   "known_codes": "MCB402",
+   "aliases": [
+    {
+     "code": "MCB402",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Virology and Tissue Culture",
+   "summary": "Virology methods and cell culture.",
+   "psychometric": [
+    "Attention to detail",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB403",
+   "name": "Principles of Epidemiology and Public Health",
+   "kind": "core",
+   "slug": "mcb403",
+   "known_codes": "MCB403",
+   "aliases": [
+    {
+     "code": "MCB403",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Epidemiology and Public Health",
+   "summary": "Disease patterns, outbreak methods and public-health basics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB404",
+   "name": "Industrial Microbiology",
+   "kind": "core",
+   "slug": "mcb404",
+   "known_codes": "MCB404, MCB425 (4)",
+   "aliases": [
+    {
+     "code": "MCB425",
+     "units": 4,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MCB404",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Industrial Microbiology",
+   "summary": "Fermentation, industrial strains and production.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Workshop and manufacturing"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB405",
+   "name": "Pharmaceutical Microbiology",
+   "kind": "core",
+   "slug": "mcb405",
+   "known_codes": "MCB405",
+   "aliases": [
+    {
+     "code": "MCB405",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Microbiology",
+   "summary": "Sterility, antibiotics and pharmaceutical quality.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB406",
+   "name": "Petroleum Microbiology",
+   "kind": "core",
+   "slug": "mcb406",
+   "known_codes": "MCB406, MCB421 (3)",
+   "aliases": [
+    {
+     "code": "MCB421",
+     "units": 3,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MCB406",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Petroleum Microbiology",
+   "summary": "Hydrocarbon-degrading microbes and bioremediation.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB407",
+   "name": "Pathogenic Microbiology",
+   "kind": "core",
+   "slug": "mcb407",
+   "known_codes": "MCB407",
+   "aliases": [
+    {
+     "code": "MCB407",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pathogenic Microbiology",
+   "summary": "Medically important pathogens and diagnosis.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB408",
+   "name": "Microbial Physiology and Metabolism",
+   "kind": "core",
+   "slug": "mcb408",
+   "known_codes": "MCB408",
+   "aliases": [
+    {
+     "code": "MCB408",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microbial Physiology and Metabolism",
+   "summary": "Microbial growth, energy and metabolic pathways.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB409",
+   "name": "Environmental Microbiology",
+   "kind": "core",
+   "slug": "mcb409",
+   "known_codes": "MCB409",
+   "aliases": [
+    {
+     "code": "MCB409",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Environmental Microbiology",
+   "summary": "Microbes in water, soil and waste.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB410",
+   "name": "Biodeterioration",
+   "kind": "core",
+   "slug": "mcb410",
+   "known_codes": "MCB410",
+   "aliases": [
+    {
+     "code": "MCB410",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biodeterioration",
+   "summary": "Microbial damage to materials.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB411",
+   "name": "Microbiological Quality Assurance",
+   "kind": "core",
+   "slug": "mcb411",
+   "known_codes": "MCB411",
+   "aliases": [
+    {
+     "code": "MCB411",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microbiological Quality Assurance",
+   "summary": "Quality systems, standards and testing.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Safety and regulatory compliance",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB421",
+   "name": "Seminar Presentation",
+   "kind": "core",
+   "slug": "mcb421",
+   "known_codes": "MCB421",
+   "aliases": [
+    {
+     "code": "MCB421",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Seminar Presentation",
+   "summary": "Researching and presenting a microbiology topic.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Research method"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MCB499",
+   "name": "Research Project",
+   "kind": "core",
+   "slug": "mcb499",
+   "known_codes": "ACS412 (6), BCH406 (6), MCB499, MLS504",
+   "aliases": [
+    {
+     "code": "ACS412",
+     "units": 6,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "BCH406",
+     "units": 6,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MLS504",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MCB499",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "insurance",
+    "medical-laboratory-science"
+   ],
+   "general_name": "Undergraduate Research Project",
+   "summary": "Independent supervised research with data collection, analysis, thesis and defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis",
+    "Professional communication"
+   ]
+  }
+ ]
+}

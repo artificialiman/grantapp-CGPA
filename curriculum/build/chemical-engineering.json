@@ -1,0 +1,3797 @@
+{
+ "department_slug": "chemical-engineering",
+ "faculty_slug": "engineering",
+ "faculty_name": "Engineering",
+ "source": "MOUAU B.Eng Chemical Engineering CCMAS Students Handbook (ceet.mouau.edu.ng). Departmental TCH codes are MOUAU's own and are left blank; the engineering core (GET) is added from the CCMAS handbooks. Last 21,000 characters of the handbook were not read.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "supersedes_placeholders": [
+  "Engineering Mathematics II",
+  "Engineering Drawing",
+  "Introduction to Engineering",
+  "Thermodynamics",
+  "Mechanics of Solids"
+ ],
+ "courses": [
+  {
+   "year": 1,
+   "code": "CHM101",
+   "name": "General Chemistry I",
+   "kind": "core",
+   "slug": "chm101",
+   "known_codes": "CHM101 (2/3), CHM111, CHM113",
+   "aliases": [
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Atomic Structure, Bonding and Physical Chemistry I",
+   "summary": "Atomic structure, periodic table, bonding, stoichiometry, states of matter, gas laws, thermochemistry and chemical equilibrium.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM102",
+   "name": "General Chemistry II",
+   "kind": "core",
+   "slug": "chm102",
+   "known_codes": "CHM102 (2/3), CHM121, CHM122",
+   "aliases": [
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM121",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Inorganic and Organic Chemistry",
+   "summary": "Kinetics, electrochemistry, acids and bases, periodic trends, main-group chemistry, and introduction to organic compounds and reactions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM107",
+   "name": "General Practical Chemistry I",
+   "kind": "core",
+   "slug": "chm107",
+   "known_codes": "CHM107 (1), CHM114",
+   "aliases": [
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM114",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Chemistry Laboratory I",
+   "summary": "Safe lab practice, volumetric analysis, titrations, qualitative tests and simple physical-chemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM108",
+   "name": "General Practical Chemistry II",
+   "kind": "core",
+   "slug": "chm108",
+   "known_codes": "CHM108 (1), CHM116 (1), CHM124",
+   "aliases": [
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM124",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM116",
+     "units": 1,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Chemistry Laboratory II",
+   "summary": "Qualitative inorganic analysis, organic functional-group tests, kinetics and electrochemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GET101",
+   "name": "Engineer in Society",
+   "kind": "core",
+   "slug": "get101",
+   "known_codes": "ENS211, GET101 (1), GET111",
+   "aliases": [
+    {
+     "code": "GET101",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET101",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENS211",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET101",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to the Engineering Profession and Society",
+   "summary": "Engineering disciplines, history, ethics, COREN and professional bodies, safety, sustainability and the engineer's duty to society.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Professional communication",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GET102",
+   "name": "Engineering Graphics and Solid Modelling I",
+   "kind": "core",
+   "slug": "get102",
+   "known_codes": "GET102 (2)",
+   "aliases": [
+    {
+     "code": "GET102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET102",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Drawing and Computer-Aided Design I",
+   "summary": "Drawing instruments, lettering, orthographic projection, sectioning, dimensioning and an introduction to 2D CAD.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Technical drawing and CAD",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": null,
+   "name": "Introduction to Chemical Engineering",
+   "kind": "core",
+   "slug": "introduction-to-chemical-engineering",
+   "known_codes": "TCH121",
+   "aliases": [
+    {
+     "code": "TCH121",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Chemical Engineering",
+   "summary": "Chemical industry overview, unit operations, material and energy balances and the profession.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH101",
+   "name": "Elementary Mathematics I",
+   "kind": "core",
+   "slug": "mth101",
+   "known_codes": "MTH101 (2), MTH111 (3), MTH112",
+   "aliases": [
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Pre-calculus: Algebra, Trigonometry and Coordinate Geometry",
+   "summary": "Sets, number systems, polynomials, inequalities, functions, logarithms, trigonometry, complex numbers and sequences.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH102",
+   "name": "Elementary Mathematics II",
+   "kind": "core",
+   "slug": "mth102",
+   "known_codes": "MTH102 (2), MTH121 (3), MTH122",
+   "aliases": [
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Calculus",
+   "summary": "Limits, continuity, differentiation, applications of derivatives, integration, areas and volumes, and basic differential equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH103",
+   "name": "Elementary Mathematics III",
+   "kind": "core",
+   "slug": "mth103",
+   "known_codes": "MTH103 (2), MTH122 (3), MTH123",
+   "aliases": [
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH123",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "computer-science",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Vectors, Analytic Geometry and Introductory Mechanics",
+   "summary": "Vector algebra, lines and planes in space, conic sections, kinematics, statics and particle dynamics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Spatial reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY101",
+   "name": "General Physics I",
+   "kind": "core",
+   "slug": "phy101",
+   "known_codes": "PHY101 (2), PHY111",
+   "aliases": [
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Mechanics and Properties of Matter",
+   "summary": "Units and dimensions, vectors, kinematics, Newton's laws, work, energy, momentum, rotational motion, gravitation, elasticity and fluids.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY102",
+   "name": "General Physics II",
+   "kind": "core",
+   "slug": "phy102",
+   "known_codes": "PHY102 (2), PHY122",
+   "aliases": [
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Electricity, Magnetism and Waves",
+   "summary": "Electric fields, potential, capacitance, DC circuits, magnetism, induction, AC basics, then waves and optics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY103",
+   "name": "General Physics III",
+   "kind": "core",
+   "slug": "phy103",
+   "known_codes": "PHY103 (2), PHY113",
+   "aliases": [
+    {
+     "code": "PHY103",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY113",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY103",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY103",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Heat, Thermodynamics, Waves and Optics",
+   "summary": "Temperature, heat transfer, gas laws, laws of thermodynamics, oscillations, wave motion, sound, light and optical instruments.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY104",
+   "name": "General Physics IV",
+   "kind": "core",
+   "slug": "phy104",
+   "known_codes": "PHY104 (2), PHY124",
+   "aliases": [
+    {
+     "code": "PHY104",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY124",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY104",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Modern Physics and Electronics",
+   "summary": "Atomic structure, quantum ideas, radioactivity, nuclear physics, relativity basics and introductory semiconductor electronics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY107",
+   "name": "General Practical Physics I",
+   "kind": "core",
+   "slug": "phy107",
+   "known_codes": "PHY107 (1), PHY117",
+   "aliases": [
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY117",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory I",
+   "summary": "Measurement, error analysis and experiments in mechanics, heat and properties of matter, with report writing.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY108",
+   "name": "General Practical Physics II",
+   "kind": "core",
+   "slug": "phy108",
+   "known_codes": "PHY108 (1), PHY127",
+   "aliases": [
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY127",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory II",
+   "summary": "Experiments in electricity, magnetism, optics and waves, with graph work and error analysis.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "STA112",
+   "name": "Probability I",
+   "kind": "core",
+   "slug": "sta112",
+   "known_codes": "STA112 (3)",
+   "aliases": [
+    {
+     "code": "STA112",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "STA112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "STA112",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Probability Theory",
+   "summary": "Sample spaces, counting, conditional probability, Bayes' rule, random variables, expectation and common distributions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": null,
+   "name": "Chemical Engineering Fundamentals",
+   "kind": "core",
+   "slug": "chemical-engineering-fundamentals",
+   "known_codes": "TCH221",
+   "aliases": [
+    {
+     "code": "TCH221",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Fundamentals",
+   "summary": "Material and energy balances on processes with reaction and recycle.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET201",
+   "name": "Applied Electricity I",
+   "kind": "core",
+   "slug": "get201",
+   "known_codes": "GET201 (3), GET211",
+   "aliases": [
+    {
+     "code": "GET201",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET201",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET201",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Basic Electrical Circuits and Machines for Engineers",
+   "summary": "DC and AC circuit laws, network theorems, magnetism, transformers and introduction to electrical machines and measurements.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET202",
+   "name": "Engineering Materials",
+   "kind": "core",
+   "slug": "get202",
+   "known_codes": "GET202 (3), GET222",
+   "aliases": [
+    {
+     "code": "GET202",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET222",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET202",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Materials Science for Engineers",
+   "summary": "Atomic structure, crystal structures, mechanical properties, metals, polymers, ceramics, composites, corrosion and material selection.",
+   "psychometric": [
+    "Memory and recall",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET203",
+   "name": "Engineering Graphics and Solid Modelling II",
+   "kind": "core",
+   "slug": "get203",
+   "known_codes": "GET203 (2)",
+   "aliases": [
+    {
+     "code": "GET203",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Drawing and Computer-Aided Design II",
+   "summary": "Isometric and auxiliary views, assembly drawings, 3D solid modelling and CAD practice.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Technical drawing and CAD",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET204",
+   "name": "Students Workshop Practice",
+   "kind": "core",
+   "slug": "get204",
+   "known_codes": "GET204 (2), GET215",
+   "aliases": [
+    {
+     "code": "GET204",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET215",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET204",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Workshop Technology and Practice",
+   "summary": "Hands-on use of hand tools and machines: fitting, welding, machining, carpentry and sheet metal, with workshop safety.",
+   "psychometric": [
+    "Mechanical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET205",
+   "name": "Fundamentals of Fluid Mechanics",
+   "kind": "core",
+   "slug": "get205",
+   "known_codes": "GET205 (3), GET225",
+   "aliases": [
+    {
+     "code": "GET205",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET225",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET205",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET205",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Fluid Mechanics",
+   "summary": "Fluid properties, hydrostatics, continuity, Bernoulli's equation, momentum, pipe flow and dimensional analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET206",
+   "name": "Fundamentals of Thermodynamics",
+   "kind": "core",
+   "slug": "get206",
+   "known_codes": "GET206 (3), GET216",
+   "aliases": [
+    {
+     "code": "GET206",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET216",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET206",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Thermodynamics I",
+   "summary": "Energy, first and second laws, properties of pure substances, ideal gases, entropy and basic power and refrigeration cycles.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET207",
+   "name": "Applied Mechanics",
+   "kind": "core",
+   "slug": "get207",
+   "known_codes": "ENGR102, GET207 (3), GET214, MEE211",
+   "aliases": [
+    {
+     "code": "GET207",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET214",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENGR102",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "GET207",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MEE211",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET207",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Mechanics: Statics and Dynamics",
+   "summary": "Force systems, equilibrium, friction, centroids, moments of inertia, kinematics and kinetics of particles and rigid bodies.",
+   "psychometric": [
+    "Mechanical reasoning",
+    "Numerical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET208",
+   "name": "Strength of Materials",
+   "kind": "core",
+   "slug": "get208",
+   "known_codes": "CVE211, GET208 (3), GET224",
+   "aliases": [
+    {
+     "code": "GET208",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET224",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CVE211",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET208",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Mechanics of Materials",
+   "summary": "Stress and strain, axial, torsion and bending loads, shear and moment diagrams, deflection, buckling and combined stresses.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET209",
+   "name": "Engineering Mathematics I",
+   "kind": "core",
+   "slug": "get209",
+   "known_codes": "GET209 (3), GET213",
+   "aliases": [
+    {
+     "code": "GET209",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET213",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET209",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET209",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Advanced Calculus and Linear Algebra for Engineers",
+   "summary": "Multivariable calculus, series, matrices, determinants, eigenvalues and ordinary differential equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET210",
+   "name": "Engineering Mathematics II",
+   "kind": "core",
+   "slug": "get210",
+   "known_codes": "EMA282, GET210 (3), GET223",
+   "aliases": [
+    {
+     "code": "GET210",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET223",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET210",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "EMA282",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET210",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Differential Equations and Transforms for Engineers",
+   "summary": "Higher-order differential equations, Laplace transforms, Fourier series, vector calculus and complex variables.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET211",
+   "name": "Computing and Software Engineering",
+   "kind": "core",
+   "slug": "get211",
+   "known_codes": "GET211 (3), GET221",
+   "aliases": [
+    {
+     "code": "GET211",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET221",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET211",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET211",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Programming and Software Engineering for Engineers",
+   "summary": "Algorithms, programming in a high-level language, problem solving with code, basic software life cycle and tools.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GET299",
+   "name": "SIWES I (Students Industrial Work Experience Scheme)",
+   "kind": "core",
+   "slug": "get299",
+   "known_codes": "CSC299 (3), CYB299, GET229, GET299 (3)",
+   "aliases": [
+    {
+     "code": "GET229",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CSC299",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GET299",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB299",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GET299",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Industrial Training I (SIWES)",
+   "summary": "Supervised short industrial placement (about 9 weeks) after second year: workplace observation, logbook and a placement report.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance",
+    "Project management"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": null,
+   "name": "Statistics for Chemical Engineers",
+   "kind": "core",
+   "slug": "statistics-for-chemical-engineers",
+   "known_codes": "TCH223",
+   "aliases": [
+    {
+     "code": "TCH223",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistics for Chemical Engineers",
+   "summary": "Data analysis, design of experiments and process statistics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Biochemical Engineering",
+   "kind": "core",
+   "slug": "biochemical-engineering",
+   "known_codes": "TCH315",
+   "aliases": [
+    {
+     "code": "TCH315",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biochemical Engineering",
+   "summary": "Enzyme and microbial kinetics, bioreactors and bioseparations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Chemical Engineering Laboratory I",
+   "kind": "core",
+   "slug": "chemical-engineering-laboratory-i",
+   "known_codes": "TCH313",
+   "aliases": [
+    {
+     "code": "TCH313",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Laboratory I",
+   "summary": "Experiments on fluid flow, heat transfer and basic unit operations.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Chemical Engineering Laboratory II",
+   "kind": "core",
+   "slug": "chemical-engineering-laboratory-ii",
+   "known_codes": "TCH323",
+   "aliases": [
+    {
+     "code": "TCH323",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Laboratory II",
+   "summary": "Experiments on mass transfer, separation and reaction operations.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Chemical Engineering Thermodynamics I",
+   "kind": "core",
+   "slug": "chemical-engineering-thermodynamics-i",
+   "known_codes": "TCH321",
+   "aliases": [
+    {
+     "code": "TCH321",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Thermodynamics I",
+   "summary": "Thermodynamic properties, equations of state, phase equilibria and solution thermodynamics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Chemical Kinetics and Catalysis",
+   "kind": "core",
+   "slug": "chemical-kinetics-and-catalysis",
+   "known_codes": "TCH314",
+   "aliases": [
+    {
+     "code": "TCH314",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Kinetics and Catalysis",
+   "summary": "Rate laws, mechanisms, catalyst behaviour and reactor data analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET301",
+   "name": "Engineering Mathematics III",
+   "kind": "core",
+   "slug": "get301",
+   "known_codes": "EMA381, GET301 (3), GET313",
+   "aliases": [
+    {
+     "code": "GET313",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET301",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "EMA381",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET301",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Applied Mathematics for Engineers III",
+   "summary": "Partial differential equations, vector analysis, complex analysis and numerical methods used in engineering analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET302",
+   "name": "Engineering Mathematics IV",
+   "kind": "core",
+   "slug": "get302",
+   "known_codes": "EMA382, GET302 (3), GET323",
+   "aliases": [
+    {
+     "code": "GET302",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET323",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET302",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "EMA382",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "GET302",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Applied Mathematics for Engineers IV",
+   "summary": "Numerical analysis, optimisation, statistics and transform methods applied to engineering problems.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET304",
+   "name": "Technical Writing and Communication",
+   "kind": "core",
+   "slug": "get304",
+   "known_codes": "CHE331, GET304 (3), GET322",
+   "aliases": [
+    {
+     "code": "GET304",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET322",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET304",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHE331",
+     "units": null,
+     "source": "eng.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Technical Writing and Professional Communication",
+   "summary": "Technical reports, proposals, documentation, presentations, correspondence and referencing.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET305",
+   "name": "Engineering Statistics and Data Analytics",
+   "kind": "core",
+   "slug": "get305",
+   "known_codes": "GET305 (3), GET311",
+   "aliases": [
+    {
+     "code": "GET311",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET305",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET305",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Statistics and Data Analytics for Engineers",
+   "summary": "Descriptive statistics, probability distributions, estimation, hypothesis tests, regression, quality control and data-analysis tools.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET306",
+   "name": "Renewable Energy Systems and Technology",
+   "kind": "core",
+   "slug": "get306",
+   "known_codes": "GET306 (3), GET324",
+   "aliases": [
+    {
+     "code": "GET324",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET306",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Renewable Energy Systems",
+   "summary": "Solar, wind, hydro, biomass and geothermal resources, conversion technologies, storage, grid integration and energy policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET307",
+   "name": "Introduction to Artificial Intelligence, Machine Learning and Convergent Technologies",
+   "kind": "core",
+   "slug": "get307",
+   "known_codes": "GET307 (3), GET312",
+   "aliases": [
+    {
+     "code": "GET307",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET307",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to AI, Machine Learning and Emerging Technologies",
+   "summary": "Concepts of AI and machine learning, data, simple models, ethics, and convergent technologies such as IoT, robotics and blockchain.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Programming",
+    "Data analysis",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET311",
+   "name": "Engineering Economics",
+   "kind": "core",
+   "slug": "get311",
+   "known_codes": "GET311 (3), GET321",
+   "aliases": [
+    {
+     "code": "GET311",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET321",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET311",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Economics and Cost Analysis",
+   "summary": "Time value of money, cash-flow analysis, project appraisal, depreciation, cost-benefit analysis and replacement decisions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GET399",
+   "name": "SIWES II (Students Industrial Work Experience Scheme)",
+   "kind": "core",
+   "slug": "get399",
+   "known_codes": "CSC399 (3), CYB399, GET329, GET399 (4)",
+   "aliases": [
+    {
+     "code": "GET329",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CSC399",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GET399",
+     "units": 4,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB399",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GET399",
+     "units": 4,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Industrial Training II (SIWES)",
+   "summary": "Supervised 12-week placement after third year with deeper hands-on work in a firm, a logbook and an assessed report.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Numerical Methods in Chemical Engineering",
+   "kind": "core",
+   "slug": "numerical-methods-in-chemical-engineering",
+   "known_codes": "TCH324",
+   "aliases": [
+    {
+     "code": "TCH324",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Numerical Methods in Chemical Engineering",
+   "summary": "Numerical solution of algebraic, differential and optimisation problems.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Process Instrumentation",
+   "kind": "core",
+   "slug": "process-instrumentation",
+   "known_codes": "TCH322",
+   "aliases": [
+    {
+     "code": "TCH322",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Process Instrumentation",
+   "summary": "Measurement of temperature, pressure, flow and level; control hardware.",
+   "psychometric": [
+    "Mechanical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Separation Processes I",
+   "kind": "core",
+   "slug": "separation-processes-i",
+   "known_codes": "TCH312",
+   "aliases": [
+    {
+     "code": "TCH312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Separation Processes I",
+   "summary": "Distillation, absorption, extraction and staged-contact operations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": null,
+   "name": "Transfer Processes I",
+   "kind": "core",
+   "slug": "transfer-processes-i",
+   "known_codes": "TCH311",
+   "aliases": [
+    {
+     "code": "TCH311",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Transfer Processes I",
+   "summary": "Momentum and fluid-flow transfer: laminar and turbulent flow, pumps and pipe networks.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Chemical Engineering Laboratory III",
+   "kind": "core",
+   "slug": "chemical-engineering-laboratory-iii",
+   "known_codes": "TCH418",
+   "aliases": [
+    {
+     "code": "TCH418",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Laboratory III",
+   "summary": "Experiments on reactors, process control and advanced unit operations.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Chemical Engineering Thermodynamics II",
+   "kind": "core",
+   "slug": "chemical-engineering-thermodynamics-ii",
+   "known_codes": "TCH411",
+   "aliases": [
+    {
+     "code": "TCH411",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Thermodynamics II",
+   "summary": "Phase and reaction equilibrium, multicomponent systems and process cycles.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Chemical Process Technology",
+   "kind": "core",
+   "slug": "chemical-process-technology",
+   "known_codes": "TCH421",
+   "aliases": [
+    {
+     "code": "TCH421",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Process Technology",
+   "summary": "Production routes for major industrial chemicals and process flow.",
+   "psychometric": [
+    "Memory and recall",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Chemical Product Design",
+   "kind": "core",
+   "slug": "chemical-product-design",
+   "known_codes": "TCH413",
+   "aliases": [
+    {
+     "code": "TCH413",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Product Design",
+   "summary": "Design of consumer and speciality chemical products from need to formulation.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Entrepreneurship"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Chemical Reaction Engineering I",
+   "kind": "core",
+   "slug": "chemical-reaction-engineering-i",
+   "known_codes": "TCH412",
+   "aliases": [
+    {
+     "code": "TCH412",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Reaction Engineering I",
+   "summary": "Ideal reactor design: batch, CSTR, PFR, conversion, selectivity and reactor sizing.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "GET402",
+   "name": "Engineering Project I",
+   "kind": "core",
+   "slug": "get402",
+   "known_codes": "GET402 (2), GET421",
+   "aliases": [
+    {
+     "code": "GET402",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET421",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET402",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET402",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Project I (Proposal and Design)",
+   "summary": "Student chooses a supervised problem, reviews literature, sets objectives and methods, and presents a proposal.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Project management",
+    "Research method",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "GET404",
+   "name": "Engineering Valuation and Costing",
+   "kind": "core",
+   "slug": "get404",
+   "known_codes": "GET404 (2), GET422",
+   "aliases": [
+    {
+     "code": "GET404",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET422",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET404",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET404",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Valuation, Estimating and Costing",
+   "summary": "Cost estimation, bills of quantities, tendering, asset valuation and depreciation for engineering works.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "GET499",
+   "name": "SIWES III (Students Industrial Work Experience Scheme)",
+   "kind": "core",
+   "slug": "get499",
+   "known_codes": "GET429, GET499 (4)",
+   "aliases": [
+    {
+     "code": "GET429",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET499",
+     "units": 4,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET499",
+     "units": 4,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Industrial Training III (SIWES)",
+   "summary": "Final 12-week placement after fourth year with project-level duties, supervisor assessment and a report.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Plant Design and Economics",
+   "kind": "core",
+   "slug": "plant-design-and-economics",
+   "known_codes": "TCH414",
+   "aliases": [
+    {
+     "code": "TCH414",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Plant Design and Economics",
+   "summary": "Process flow sheets, equipment sizing, capital and operating cost estimation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Process Control",
+   "kind": "core",
+   "slug": "process-control",
+   "known_codes": "TCH415",
+   "aliases": [
+    {
+     "code": "TCH415",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Process Control",
+   "summary": "Dynamic models, feedback control, PID tuning and stability.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Programming"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Process Modelling and Simulation",
+   "kind": "core",
+   "slug": "process-modelling-and-simulation",
+   "known_codes": "TCH416",
+   "aliases": [
+    {
+     "code": "TCH416",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Process Modelling and Simulation",
+   "summary": "Process models, flowsheet simulation software and sensitivity analysis.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Transfer Processes II",
+   "kind": "core",
+   "slug": "transfer-processes-ii",
+   "known_codes": "TCH417",
+   "aliases": [
+    {
+     "code": "TCH417",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Transfer Processes II",
+   "summary": "Heat and mass transfer: conduction, convection, radiation, heat exchangers and diffusion.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Chemical Engineering Research Project",
+   "kind": "core",
+   "slug": "chemical-engineering-research-project",
+   "known_codes": "TCH555",
+   "aliases": [
+    {
+     "code": "TCH555",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Engineering Research Project",
+   "summary": "Supervised final-year research or design project with dissertation.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Chemical Process Optimization",
+   "kind": "core",
+   "slug": "chemical-process-optimization",
+   "known_codes": "TCH513",
+   "aliases": [
+    {
+     "code": "TCH513",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Process Optimization",
+   "summary": "Linear and nonlinear optimisation of processes and cost minimisation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Chemical Reaction Engineering II (Heterogeneous Systems)",
+   "kind": "core",
+   "slug": "chemical-reaction-engineering-ii-heterogeneous-systems-",
+   "known_codes": "TCH512",
+   "aliases": [
+    {
+     "code": "TCH512",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Chemical Reaction Engineering II (Heterogeneous Systems)",
+   "summary": "Catalytic and gas-solid reactors, diffusion limits and non-ideal flow.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Coal Processing Technology",
+   "kind": "core",
+   "slug": "coal-processing-technology",
+   "known_codes": "TCH523",
+   "aliases": [
+    {
+     "code": "TCH523",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Coal Processing Technology",
+   "summary": "Coal properties, carbonisation, gasification, liquefaction and cleaning.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Environmental Pollution and Control",
+   "kind": "core",
+   "slug": "environmental-pollution-and-control",
+   "known_codes": "TCH522",
+   "aliases": [
+    {
+     "code": "TCH522",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Environmental Pollution and Control",
+   "summary": "Pollutant sources, air, water and soil treatment and regulation.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Safety and regulatory compliance",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "GET501",
+   "name": "Engineering Project Management",
+   "kind": "core",
+   "slug": "get501",
+   "known_codes": "GET501 (3), GET511",
+   "aliases": [
+    {
+     "code": "GET501",
+     "units": 3,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET511",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET501",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET501",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Project Management",
+   "summary": "Project life cycle, scheduling (CPM/PERT), resource planning, risk, quality, procurement and project control.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "GET502",
+   "name": "Engineering Law",
+   "kind": "core",
+   "slug": "get502",
+   "known_codes": "GET502 (2), GET512",
+   "aliases": [
+    {
+     "code": "GET502",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET512",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GET502",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GET502",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Engineering Law and Contracts",
+   "summary": "Law of contract, tort and negligence, professional liability, intellectual property, labour and engineering regulations in Nigeria.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Petroleum Processing and Petrochemicals",
+   "kind": "core",
+   "slug": "petroleum-processing-and-petrochemicals",
+   "known_codes": "TCH524",
+   "aliases": [
+    {
+     "code": "TCH524",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Petroleum Processing and Petrochemicals",
+   "summary": "Refining processes, cracking, reforming and petrochemical production.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Plant Design II",
+   "kind": "core",
+   "slug": "plant-design-ii",
+   "known_codes": "TCH511",
+   "aliases": [
+    {
+     "code": "TCH511",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Plant Design II",
+   "summary": "Complete design project of a chemical plant, equipment specification and costing.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Process Safety and Loss Prevention in Industries",
+   "kind": "core",
+   "slug": "process-safety-and-loss-prevention-in-industries",
+   "known_codes": "TCH521",
+   "aliases": [
+    {
+     "code": "TCH521",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Process Safety and Loss Prevention in Industries",
+   "summary": "Hazard identification, HAZOP, fire and explosion prevention, and risk assessment.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Safety and regulatory compliance",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Separation Processes II (Multicomponent Systems)",
+   "kind": "core",
+   "slug": "separation-processes-ii-multicomponent-systems-",
+   "known_codes": "TCH514",
+   "aliases": [
+    {
+     "code": "TCH514",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Separation Processes II (Multicomponent Systems)",
+   "summary": "Multicomponent distillation, membrane and adsorption separations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Bio Refinery Engineering",
+   "kind": "elective",
+   "slug": "bio-refinery-engineering",
+   "known_codes": "TCH525",
+   "aliases": [
+    {
+     "code": "TCH525",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Bio Refinery Engineering",
+   "summary": "Conversion of biomass to fuels, chemicals and materials.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Cement Technology",
+   "kind": "elective",
+   "slug": "cement-technology",
+   "known_codes": "TCH527",
+   "aliases": [
+    {
+     "code": "TCH527",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Cement Technology",
+   "summary": "Cement raw materials, kiln processes, grinding and quality control.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Fermentation Technology",
+   "kind": "elective",
+   "slug": "fermentation-technology",
+   "known_codes": "TCH526",
+   "aliases": [
+    {
+     "code": "TCH526",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Fermentation Technology",
+   "summary": "Industrial fermentation: strains, media, bioreactors and recovery.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Workshop and manufacturing"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Membrane Technology",
+   "kind": "elective",
+   "slug": "membrane-technology",
+   "known_codes": "TCH518",
+   "aliases": [
+    {
+     "code": "TCH518",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Membrane Technology",
+   "summary": "Membrane types, separation mechanisms and water, gas and food applications.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Polymer Science and Engineering",
+   "kind": "elective",
+   "slug": "polymer-science-and-engineering",
+   "known_codes": "TCH517",
+   "aliases": [
+    {
+     "code": "TCH517",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Polymer Science and Engineering",
+   "summary": "Polymerisation, structure-property relations, processing and plastics technology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Workshop and manufacturing"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Process Integration",
+   "kind": "elective",
+   "slug": "process-integration",
+   "known_codes": "TCH519",
+   "aliases": [
+    {
+     "code": "TCH519",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Process Integration",
+   "summary": "Pinch analysis, heat and mass integration and energy efficiency.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Pulp and Paper Technology",
+   "kind": "elective",
+   "slug": "pulp-and-paper-technology",
+   "known_codes": "TCH515",
+   "aliases": [
+    {
+     "code": "TCH515",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pulp and Paper Technology",
+   "summary": "Wood pulping, bleaching, papermaking and recycling processes.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Workshop and manufacturing"
+   ]
+  },
+  {
+   "year": 5,
+   "code": null,
+   "name": "Sugar Technology",
+   "kind": "elective",
+   "slug": "sugar-technology",
+   "known_codes": "TCH516",
+   "aliases": [
+    {
+     "code": "TCH516",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Sugar Technology",
+   "summary": "Sugar-cane processing: extraction, clarification, evaporation and crystallisation.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Workshop and manufacturing"
+   ]
+  }
+ ]
+}

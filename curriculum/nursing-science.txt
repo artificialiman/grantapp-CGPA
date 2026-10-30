@@ -1,0 +1,76 @@
+# dept: nursing-science
+# complete_years: 1,2,3,4,5
+# source: B.NSc Nursing Science outline compiled at studentship.com.ng/nursing-course-outline (aggregator, university not named; pre-CCMAS GSP codes replaced by the CCMAS general studies core; direct-entry-only repeats and an FHST-only course left out). Lower confidence than the NUC documents; check against the NUC Nursing CCMAS.
+# supersedes:
+@include gst
+1|BIO101|Genetics for Medical Students|c
+1|BIO151|General Biology I|c
+1|BIO152|General Biology II|c
+1|BIO154|General Biology Practical|c
+1|CHM101|Basic Principles of Chemistry I|c
+1|CHM112|Basic Principles of Chemistry II|c
+1|CHM122|Basic Principles of Organic Chemistry II|c
+1|CHM171|Basic Practical Chemistry|c
+1|PHY111|General Physics for Life Sciences I|c
+1|PHY112|General Physics for Life Sciences II|c
+1|PHY114|General Physics for Life Sciences III|c
+1|PHY191|Practical Physics|c
+1|MAT111|General Mathematics|c
+1|ZOO122|Basic Parasitology|c
+2|NSC201|Foundations of Nursing I|c
+2|NSC202|Foundations of Nursing II|c
+2|NSC204|Basic Nutrition in Nursing|c
+2|NSC212|Psychology in Nursing|c
+2|NSC262|Nursing Practicum and Clinical|c
+2|ANAT201|Gross Human Anatomy I|c
+2|ANA202|Gross Human Anatomy II|c
+2|ANAT213|General Embryology|c
+2|ANAT225|General Histology and Cytology|c
+2|BIC203|Introduction to Human Biochemistry|c
+2|BIC202|Metabolism|c
+2|PYS201|Human Physiology and Blood|c
+2|PYS203|Gastrointestinal Tract and Renal Physiology|c
+2|PYS204|Cardiovascular and Respiratory System|c
+2|COS111|Computer Sciences|c
+3|NSC311|Medical-Surgical Nursing I|c
+3|NSC312|Medical-Surgical Nursing II|c
+3|NSC313|Pharmacology for Nurses|c
+3|NSC314|Nutrition in Illness and Disease|c
+3|NSC316|Paediatric Nursing|c
+3|NSC321|Community Health Nursing I|c
+3|NSC322|Community Health Nursing II|c
+3|NSC341|Family Health Nursing I|c
+3|NSC342|Reproductive Health Nursing I|c
+3|NSC351|Mental Health and Psychiatric Nursing|c
+3|ANAT301|Head and Neck Anatomy|c
+3|ANAT303|Neuroanatomy|c
+3|PYS301|Endocrinology and Reproduction|c
+3|COM353|Sociology in Health Practice|c
+3|COM351|Biostatistics in Health Technology|c
+3|LAW151|Medical Jurisprudence I|c
+3|LAW152|Medical Jurisprudence II|c
+3|MLS334|Introduction to Medical Microbiology|c
+4|NSC412|Medical-Surgical Nursing III|c
+4|NSC422|Community Health Nursing III|c
+4|NSC432|Introduction to Nursing Education|c
+4|NSC434|Principles of Management and Administration in Nursing|c
+4|NSC436|Public Relations in Nursing|c
+4|NSC442|Reproductive Health Nursing II|c
+4|NSC461|Community Health Nursing Clinical|c
+4|NSC463|Medical-Surgical Nursing Clinical|c
+4|NSC465|Mental Health and Psychiatric Nursing Clinical|c
+4|NSC467|Maternal and Child Health Nursing Clinical|c
+4|NSC482|Research Methodology|c
+4|CED341|Introduction to Entrepreneurship|c
+4|CED342|Business Development and Management|c
+5|NSC511|Medical-Surgical Nursing 2|c
+5|NSC521|Community Health Nursing 2|c
+5|NSC523|Gerontology and Geriatric Nursing|c
+5|NSC533|Health Economics|c
+5|NSC535|Guidance and Counselling in Nursing|c
+5|NSC541|Reproductive Health Nursing III|c
+5|NSC562|Client Teaching and Counselling Practicum|c
+5|NSC564|Nursing Administration and Management Practicum|c
+5|NSC566|Reproductive Health Nursing Practicum|c
+5|NSC571|Nursing Seminar|c
+5|NSC592|Project|c

@@ -1,0 +1,2272 @@
+{
+ "department_slug": "computer-science",
+ "faculty_slug": "computing-and-mathematics",
+ "faculty_name": "Computing and Mathematics",
+ "source": "University of Ibadan CCMAS B.Sc. Computer Science (computing.ui.edu.ng), institution-only (UI-) courses left out. Status C/R -> core, E -> elective.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "COS101",
+   "name": "Introduction to Computing Sciences",
+   "kind": "core",
+   "slug": "cos101",
+   "known_codes": "COS101 (3)",
+   "aliases": [
+    {
+     "code": "COS101",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS101",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "COS101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "cybersecurity",
+    "medical-laboratory-science",
+    "microbiology"
+   ],
+   "general_name": "Introduction to Computer Science and Information Technology",
+   "summary": "History and generations of computers, hardware, software, operating systems, networks, number systems and the Internet, with productivity tools.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "COS102",
+   "name": "Problem Solving",
+   "kind": "core",
+   "slug": "cos102",
+   "known_codes": "COS102 (3)",
+   "aliases": [
+    {
+     "code": "COS102",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS102",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Computational Problem Solving and Algorithms",
+   "summary": "Problem analysis, algorithm design, flowcharts, pseudocode and basic programming constructs.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH101",
+   "name": "Elementary Mathematics I (Algebra and Trigonometry)",
+   "kind": "core",
+   "slug": "mth101",
+   "known_codes": "MTH101 (2), MTH111 (3), MTH112",
+   "aliases": [
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Pre-calculus: Algebra, Trigonometry and Coordinate Geometry",
+   "summary": "Sets, number systems, polynomials, inequalities, functions, logarithms, trigonometry, complex numbers and sequences.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH102",
+   "name": "Elementary Mathematics II (Calculus)",
+   "kind": "core",
+   "slug": "mth102",
+   "known_codes": "MTH102 (2), MTH121 (3), MTH122",
+   "aliases": [
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Calculus",
+   "summary": "Limits, continuity, differentiation, applications of derivatives, integration, areas and volumes, and basic differential equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH103",
+   "name": "Elementary Mathematics III (Vectors, Geometry and Dynamics)",
+   "kind": "core",
+   "slug": "mth103",
+   "known_codes": "MTH103 (2), MTH122 (3), MTH123",
+   "aliases": [
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH123",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH103",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Vectors, Analytic Geometry and Introductory Mechanics",
+   "summary": "Vector algebra, lines and planes in space, conic sections, kinematics, statics and particle dynamics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Spatial reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY101",
+   "name": "General Physics I (Mechanics)",
+   "kind": "core",
+   "slug": "phy101",
+   "known_codes": "PHY101 (2), PHY111",
+   "aliases": [
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Mechanics and Properties of Matter",
+   "summary": "Units and dimensions, vectors, kinematics, Newton's laws, work, energy, momentum, rotational motion, gravitation, elasticity and fluids.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY102",
+   "name": "General Physics II (Electricity and Magnetism)",
+   "kind": "core",
+   "slug": "phy102",
+   "known_codes": "PHY102 (2), PHY122",
+   "aliases": [
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Electricity, Magnetism and Waves",
+   "summary": "Electric fields, potential, capacitance, DC circuits, magnetism, induction, AC basics, then waves and optics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY107",
+   "name": "General Practical Physics I",
+   "kind": "core",
+   "slug": "phy107",
+   "known_codes": "PHY107 (1), PHY117",
+   "aliases": [
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY117",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory I",
+   "summary": "Measurement, error analysis and experiments in mechanics, heat and properties of matter, with report writing.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY108",
+   "name": "General Practical Physics II",
+   "kind": "core",
+   "slug": "phy108",
+   "known_codes": "PHY108 (1), PHY127",
+   "aliases": [
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY127",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Physics Laboratory II",
+   "summary": "Experiments in electricity, magnetism, optics and waves, with graph work and error analysis.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "STA111",
+   "name": "Descriptive Statistics",
+   "kind": "core",
+   "slug": "sta111",
+   "known_codes": "STA111 (3)",
+   "aliases": [
+    {
+     "code": "STA111",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "STA111",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Descriptive Statistics and Data Presentation",
+   "summary": "Data types, summary measures, graphs, probability basics and introduction to distributions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "STA122",
+   "name": "Statistical Computing I",
+   "kind": "core",
+   "slug": "sta122",
+   "known_codes": "STA122 (3)",
+   "aliases": [
+    {
+     "code": "STA122",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistical Computing I",
+   "summary": "Using statistical software for data summaries, simulation and basic modelling.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Programming"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "COS201",
+   "name": "Computer Programming I",
+   "kind": "core",
+   "slug": "cos201",
+   "known_codes": "COS201 (3), CSC201 (3)",
+   "aliases": [
+    {
+     "code": "COS201",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CSC201",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Introduction to Programming I",
+   "summary": "Variables, control structures, functions, arrays and structured programming in a high-level language.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Programming"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "COS202",
+   "name": "Computer Programming II",
+   "kind": "core",
+   "slug": "cos202",
+   "known_codes": "COS202 (3), CSC202 (3)",
+   "aliases": [
+    {
+     "code": "COS202",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS202",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CSC202",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Programming II: Object-Oriented Programming",
+   "summary": "Classes and objects, inheritance, polymorphism, file handling, exceptions and larger programs.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CSC203",
+   "name": "Discrete Structures",
+   "kind": "core",
+   "slug": "csc203",
+   "known_codes": "CSC203 (2)",
+   "aliases": [
+    {
+     "code": "CSC203",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Discrete Structures",
+   "summary": "Logic, sets, relations, functions, graphs, counting and proof methods.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CSC299",
+   "name": "SIWES I",
+   "kind": "core",
+   "slug": "csc299",
+   "known_codes": "CSC299 (3), CYB299, GET229, GET299 (3)",
+   "aliases": [
+    {
+     "code": "GET229",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CSC299",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GET299",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB299",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GET299",
+     "units": 3,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Industrial Training I (SIWES)",
+   "summary": "Supervised short industrial placement (about 9 weeks) after second year: workplace observation, logbook and a placement report.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance",
+    "Project management"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "CYB201",
+   "name": "Introduction to Cybersecurity and Strategy",
+   "kind": "core",
+   "slug": "cyb201",
+   "known_codes": "CYB201 (2)",
+   "aliases": [
+    {
+     "code": "CYB201",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CYB201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Introduction to Cybersecurity",
+   "summary": "Threats, attacks, vulnerabilities, CIA triad, risk, security policy and national cyber strategy.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Information security",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "IFT211",
+   "name": "Digital Logic Design",
+   "kind": "core",
+   "slug": "ift211",
+   "known_codes": "CSC213 (4), IFT211 (2)",
+   "aliases": [
+    {
+     "code": "CSC213",
+     "units": 4,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "IFT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Digital Logic Design",
+   "summary": "Number systems, Boolean algebra, logic gates, combinational and sequential circuits.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "IFT302",
+   "name": "Web Application Development",
+   "kind": "core",
+   "slug": "ift302",
+   "known_codes": "IFT302 (2)",
+   "aliases": [
+    {
+     "code": "IFT302",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Web Application Development",
+   "summary": "HTML, CSS, JavaScript, server-side scripting and database-driven sites.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "INS202",
+   "name": "Human-Computer Interface",
+   "kind": "core",
+   "slug": "ins202",
+   "known_codes": "CSC441 (2), INS202 (2)",
+   "aliases": [
+    {
+     "code": "INS202",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC441",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Human-Computer Interface",
+   "summary": "Interaction design, usability, user research and interface evaluation.",
+   "psychometric": [
+    "Critical judgement",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "INS204",
+   "name": "Systems Analysis and Design",
+   "kind": "core",
+   "slug": "ins204",
+   "known_codes": "CSC321 (3), INS204 (3)",
+   "aliases": [
+    {
+     "code": "INS204",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC321",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "INS204",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Systems Analysis and Design",
+   "summary": "Requirements gathering, modelling with UML and data-flow diagrams, system design and implementation planning.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MTH201",
+   "name": "Mathematical Methods I",
+   "kind": "core",
+   "slug": "mth201",
+   "known_codes": "MTH201 (2)",
+   "aliases": [
+    {
+     "code": "MTH201",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mathematical Methods I",
+   "summary": "Sequences and series, multivariable calculus, vector analysis and applications.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MTH202",
+   "name": "Elementary Differential Equations",
+   "kind": "core",
+   "slug": "mth202",
+   "known_codes": "MTH202 (2)",
+   "aliases": [
+    {
+     "code": "MTH202",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Elementary Differential Equations",
+   "summary": "First- and second-order ordinary differential equations and Laplace transforms.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "SEN201",
+   "name": "Introduction to Software Engineering",
+   "kind": "core",
+   "slug": "sen201",
+   "known_codes": "SEN201 (2)",
+   "aliases": [
+    {
+     "code": "SEN201",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "SEN201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Introduction to Software Engineering",
+   "summary": "Software life cycle, requirements, design, testing, maintenance, version control and agile methods.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design",
+    "Project management"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "STA202",
+   "name": "Statistics for Physical Sciences and Engineering",
+   "kind": "core",
+   "slug": "sta202",
+   "known_codes": "STA202 (3), STA205",
+   "aliases": [
+    {
+     "code": "STA205",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "STA202",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistics for Physical Sciences and Engineering",
+   "summary": "Probability, estimation, hypothesis testing and regression for scientific data.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "CSC301",
+   "name": "Data Structures",
+   "kind": "core",
+   "slug": "csc301",
+   "known_codes": "CSC201, CSC301 (3), CSC341 (4)",
+   "aliases": [
+    {
+     "code": "CSC301",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC341",
+     "units": 4,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Data Structures",
+   "summary": "Arrays, linked lists, stacks, queues, trees, graphs, hashing and their complexity.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "CSC308",
+   "name": "Operating Systems",
+   "kind": "core",
+   "slug": "csc308",
+   "known_codes": "CSC308 (3)",
+   "aliases": [
+    {
+     "code": "CSC308",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC308",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Operating Systems",
+   "summary": "Processes, scheduling, memory management, file systems, concurrency and deadlock.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "CSC309",
+   "name": "Artificial Intelligence",
+   "kind": "core",
+   "slug": "csc309",
+   "known_codes": "CSC309 (2), CSC411 (3)",
+   "aliases": [
+    {
+     "code": "CSC309",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC309",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CSC411",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Artificial Intelligence",
+   "summary": "Search, knowledge representation, logic, planning, uncertainty and introductory machine learning.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Programming",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "CSC399",
+   "name": "SIWES II",
+   "kind": "core",
+   "slug": "csc399",
+   "known_codes": "CSC399 (3), CYB399, GET329, GET399 (4)",
+   "aliases": [
+    {
+     "code": "GET329",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CSC399",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GET399",
+     "units": 4,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB399",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GET399",
+     "units": 4,
+     "source": "mme.engineering.unilorin.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ],
+   "general_name": "Industrial Training II (SIWES)",
+   "summary": "Supervised 12-week placement after third year with deeper hands-on work in a firm, a logbook and an assessed report.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "DTS304",
+   "name": "Data Management I",
+   "kind": "core",
+   "slug": "dts304",
+   "known_codes": "CSC304 (3), DTS304 (3)",
+   "aliases": [
+    {
+     "code": "DTS304",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC304",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "DTS304",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Database Systems I",
+   "summary": "Relational model, ER modelling, SQL, normalisation and database design.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ICT305",
+   "name": "Data Communication Systems and Networks",
+   "kind": "core",
+   "slug": "ict305",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Data Communications and Computer Networks",
+   "summary": "Signals, transmission media, OSI/TCP-IP models, LAN/WAN, routing, protocols and network security basics.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Information security"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "IFT212",
+   "name": "Computer Architecture and Organisation",
+   "kind": "core",
+   "slug": "ift212",
+   "known_codes": "IFT212 (2)",
+   "aliases": [
+    {
+     "code": "IFT212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Computer Architecture and Organisation",
+   "summary": "CPU structure, instruction sets, memory hierarchy, I/O and pipelining.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MTH209",
+   "name": "Introduction to Numerical Analysis",
+   "kind": "elective",
+   "slug": "mth209",
+   "known_codes": "MTH209 (2)",
+   "aliases": [
+    {
+     "code": "MTH209",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Numerical Analysis",
+   "summary": "Error analysis, root finding, interpolation, numerical integration and linear systems.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CSC322",
+   "name": "Computer Science and Entrepreneurship",
+   "kind": "core",
+   "slug": "csc322",
+   "known_codes": "CSC322 (2)",
+   "aliases": [
+    {
+     "code": "CSC322",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Computer Science and Entrepreneurship",
+   "summary": "Starting technology ventures, product development and software business models.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CSC401",
+   "name": "Algorithms and Complexity Analysis",
+   "kind": "core",
+   "slug": "csc401",
+   "known_codes": "CSC202, CSC310 (3), CSC401 (2)",
+   "aliases": [
+    {
+     "code": "CSC401",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC202",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CSC310",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Design and Analysis of Algorithms",
+   "summary": "Sorting, searching, divide and conquer, greedy and dynamic programming, graph algorithms and Big-O analysis.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "DTS404",
+   "name": "Data Management II",
+   "kind": "core",
+   "slug": "dts404",
+   "known_codes": "CSC404 (3), DTS404 (2)",
+   "aliases": [
+    {
+     "code": "DTS404",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC404",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Data Management II",
+   "summary": "Advanced SQL, transactions, indexing, distributed and NoSQL databases.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Data analysis",
+    "Programming"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CSC432",
+   "name": "Distributed Computer Systems",
+   "kind": "elective",
+   "slug": "csc432",
+   "known_codes": "CSC432 (2)",
+   "aliases": [
+    {
+     "code": "CSC432",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Distributed Computer Systems",
+   "summary": "Distributed architecture, communication, replication, consistency and fault tolerance.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design",
+    "Programming"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ICT309",
+   "name": "Mobile Communication and Networking",
+   "kind": "elective",
+   "slug": "ict309",
+   "known_codes": "ICT309 (3)",
+   "aliases": [
+    {
+     "code": "ICT309",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mobile Communication and Networking",
+   "summary": "Wireless and cellular systems, mobile protocols and mobile networking.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "INS304",
+   "name": "Web Development using Content Management System",
+   "kind": "elective",
+   "slug": "ins304",
+   "known_codes": "INS304 (2)",
+   "aliases": [
+    {
+     "code": "INS304",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Web Development using Content Management System",
+   "summary": "Building sites with a CMS: themes, plugins, content and deployment.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Programming",
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "COS409",
+   "name": "Research Methodology and Technical Report Writing",
+   "kind": "core",
+   "slug": "cos409",
+   "known_codes": "COS409 (3)",
+   "aliases": [
+    {
+     "code": "COS409",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "COS409",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "cybersecurity"
+   ],
+   "general_name": "Research Methods and Technical Report Writing",
+   "summary": "Research design, data collection and analysis, referencing, technical report and thesis writing.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CSC402",
+   "name": "Ethics and Legal Issues in Computer Science",
+   "kind": "core",
+   "slug": "csc402",
+   "known_codes": "CSC402 (2)",
+   "aliases": [
+    {
+     "code": "CSC402",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Ethics and Legal Issues in Computer Science",
+   "summary": "Professional ethics, privacy, intellectual property and computer law.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CSC597",
+   "name": "Final Year Project I",
+   "kind": "core",
+   "slug": "csc597",
+   "known_codes": "CSC597 (3), CYB497, EEE593 (3)",
+   "aliases": [
+    {
+     "code": "CSC597",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "EEE593",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB497",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering"
+   ],
+   "general_name": "Final Year Project I (Proposal and Design)",
+   "summary": "First part of the final-year project: topic selection, literature review, method and preliminary results.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CSC598",
+   "name": "Final Year Project II",
+   "kind": "core",
+   "slug": "csc598",
+   "known_codes": "ABE598 (4), CSC598 (3), CYB498, EEE594 (3)",
+   "aliases": [
+    {
+     "code": "ABE598",
+     "units": 4,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CSC598",
+     "units": 3,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "EEE594",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CYB498",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "cybersecurity",
+    "electrical-and-electronic-engineering"
+   ],
+   "general_name": "Final Year Project II (Implementation and Defence)",
+   "summary": "Second part: implementation, results, dissertation writing and oral defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "INS401",
+   "name": "Project Management",
+   "kind": "core",
+   "slug": "ins401",
+   "known_codes": "CSC422 (3), INS401 (2)",
+   "aliases": [
+    {
+     "code": "INS401",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "CSC422",
+     "units": 3,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Project Management",
+   "summary": "Project life cycle, planning, scheduling, risk and teams.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Project management",
+    "Professional communication"
+   ]
+  }
+ ]
+}

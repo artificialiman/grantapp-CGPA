@@ -1,0 +1,56 @@
+# dept: agricultural-and-bioresources-engineering
+# complete_years: 1,2,3,4,5
+# source: Unilorin B.Eng Agricultural and Biosystems Engineering CCMAS Students Handbook (abe.engineering.unilorin.edu.ng, 2024); UIL- prefix removed. Last 33,000 characters not read. The programme is titled Agricultural and Biosystems Engineering at Unilorin; the same discipline is listed here as Agricultural and Bioresources Engineering.
+# supersedes: Engineering Mathematics I; Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+1|ABE102|Introduction to Agricultural and Biosystems Engineering|c
+3|ABE301|Design of Machine and Structural Elements|c
+3|ABE302|Animal Production|c
+3|ABE303|Crop Production|c
+3|ABE304|Farm Management, Rural Sociology and Agricultural Extension|c
+3|ABE305|Soil Science|c
+3|ABE306|Land Surveying and Geographic Information System|c
+3|ABE307|Biosystems Engineering|c
+3|ABE314|Agricultural Power and Machinery|c
+3|ABE308|Rural Infrastructural Engineering|e
+4|ABE401|Instrumentation and Measurement in Agricultural and Biosystems Engineering|c
+4|ABE409|Agricultural Mechanization|c
+4|ABE413|Design of Agricultural Machinery|c
+4|ABE415|Operation and Management of Agricultural Power and Machinery Systems|c
+4|ABE417|Agricultural Structures and Environmental Control|c
+4|ABE421|Irrigation and Drainage|c
+4|ABE423|Agricultural and Biosystems Hydrology|c
+4|CEE305|Soil Mechanics I|e
+5|ABE501|Environmental and Social Impact Analysis|c
+5|ABE502|Aquaculture and Agroponics Engineering|c
+5|ABE503|Livestock Production Engineering|c
+5|ABE504|Greenhouse Technology|c
+5|ABE505|Drone and Robot Technology in Agriculture|c
+5|ABE506|Agricultural Land Clearing|c
+5|ABE507|Application of Electricity to Agricultural and Biological Systems|c
+5|ABE509|Food and Agricultural Biotechnology|c
+5|ABE511|Transportation System for Agricultural and Rural Development|c
+5|ABE528|Soil and Water Conservation|c
+5|ABE533|Engineering Properties of Agricultural and Biological Materials|c
+5|ABE534|Application of Solar Energy to Agricultural and Biological Systems|c
+5|ABE599|Final Year Project I|c
+5|ABE598|Final Year Project II|c
+5|ABE513|Automation of Agricultural and Biosystems|e
+5|ABE514|Agricultural Power|e
+5|ABE516|Agricultural Machinery|e
+5|ABE535|Handling of Agricultural and Biological Materials|e
+5|ABE522|Agricultural Land Drainage|e
+5|ABE523|Rural Water Supply and Sanitation|e
+5|ABE524|Advanced Irrigation Engineering|e
+5|ABE527|Advanced Hydraulic Engineering|e
+5|ABE536|Processing of Agricultural and Biological Materials|e
+5|ABE537|Bioprocess Engineering|e
+5|ABE538|Storage of Agricultural and Biological Materials|e
+5|ABE541|Renewable Energy Engineering|e
+5|ABE542|Waste Management Engineering|e
+5|ABE544|Bioenvironmental Engineering|e
+5|ABE552|Fundamentals of Food Engineering I|e
+5|ABE554|Fundamentals of Food Engineering II|e
+5|ABE562|Basic Aquacultural Technology|e
+5|ABE564|Aquacultural and Animal Production Engineering|e

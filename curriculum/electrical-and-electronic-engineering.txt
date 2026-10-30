@@ -1,0 +1,39 @@
+# dept: electrical-and-electronic-engineering
+# complete_years: 1,2,3,4,5
+# source: Unilorin B.Eng Electrical and Electronics Engineering CCMAS Student Handbook (eee.engineering.unilorin.edu.ng, 2024); UIL- institution prefix removed. Last 28,000 characters of the handbook were not read. 500-level option electives only partly listed.
+# supersedes: Engineering Mathematics I; Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+1|EEE102|Introduction to Electrical and Electronic Engineering|c
+2|EEE202|Applied Electricity II|c
+2|EEE204|Electrical Engineering Materials|c
+3|EEE311|Electric Circuit Theory I|c
+3|EEE321|Analogue Electronic Circuits I|c
+3|EEE331|Electrical Machines I|c
+3|EEE322|Digital Electronic Circuits|c
+3|EEE324|Electromagnetic Fields and Waves I|c
+3|EEE326|Electric Circuit Theory II|c
+3|EEE344|Principles of Power Systems|c
+4|EEE405|Engineering System Modelling and Simulation|c
+4|EEE421|Principles of Communication Engineering|c
+4|EEE443|Power Electronics and Drives|c
+4|EEE451|Control Engineering I|c
+4|EEE481|Electrical Engineering Laboratory Course III|c
+4|EEE423|Data Communications and Computer Networks|e
+4|EEE427|Digital Communication Systems|e
+4|EEE431|Electrical Machines II|e
+4|EEE445|Electrical Power Transmission Line Characteristics|e
+4|EEE455|Digital System Design and VHDL Programming|e
+4|EEE457|Assembly Language Programming|e
+5|EEE593|Final Year Project I|c
+5|EEE594|Final Year Project II|c
+5|EEE541|Power Systems Communication and Control|e
+5|EEE543|Electrical Power System Analysis|e
+5|EEE542|Power System Protection|e
+5|EEE521|Mobile and Personal Communication Systems|e
+5|EEE525|Digital Signal Processing|e
+5|EEE524|Broadcasting and Internet Technology|e
+5|EEE528|Satellite Communications|e
+5|EEE551|Control Engineering II|e
+5|EEE552|Digital Control Engineering|e
+5|EEE554|Nonlinear Control Systems|e

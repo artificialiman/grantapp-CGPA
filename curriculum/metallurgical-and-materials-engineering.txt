@@ -1,0 +1,45 @@
+# dept: metallurgical-and-materials-engineering
+# complete_years: 1,2,3,4,5
+# source: Unilorin B.Eng Materials and Metallurgical Engineering CCMAS Handbook (mme.engineering.unilorin.edu.ng, 2025); UIL- prefix removed. Last 27,000 characters not read. The handbook has two courses numbered 514; Ceramics is left without a code to avoid a clash.
+# supersedes: Engineering Mathematics I; Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+1|MME102|Introduction to Materials and Metallurgical Engineering|c
+2|MME201|Fundamentals of Engineering Safety Materials|c
+2|MME202|Introduction to Thermodynamics of Materials|c
+3|MME301|Thermodynamics of Materials|c
+3|MME302|Heat and Mass Transfer|c
+3|MME303|Mineral Processing|c
+3|MME304|Chemistry of Materials|c
+3|MME305|Engineering Materials: Structure and Properties|c
+3|MME306|Mechanical Working of Metals|c
+3|MME308|Fracture Mechanics|c
+3|MME312|Physical Metallurgy I|c
+3|MME317|Materials Laboratory I|c
+3|MME318|Materials Laboratory II|c
+4|MME401|Synthesis, Processing and Manufacturing of Materials|c
+4|MME403|Non-ferrous Extractive Metallurgy|c
+4|MME405|Corrosion Science and Engineering|c
+4|MME407|Mechanical Behaviour of Materials|c
+4|MME409|Fuels, Furnaces and Refractories|c
+4|MME411|Manufacturing Processes|c
+4|MME413|Chemical Metallurgy|c
+4|MME415|Introduction to Materials Computation and Modelling|c
+4|MME417|Materials Laboratory III|c
+4|MME421|Experimental Techniques|c
+5|MME501|Analytical Methods for Materials|c
+5|MME503|Iron and Steel Making|c
+5|MME504|Solidification and Foundry Technology|c
+5|MME505|Nanoscience and Nanotechnology|c
+5|MME509|Principles of Materials Selection|c
+5|MME510|Project|c
+5|MME511|Materials Failure Analysis|c
+5|MME513|Student Seminar|c
+5|MME514|Engineering Materials Laboratory|c
+5|MME515|Powder Metallurgy|c
+5|MME516|Introduction to Laser Technology and Additive Manufacturing|c
+5|MME518|Surface Engineering and Coatings Technologies|c
+5|MME502|Polymers|e
+5|MME507|Composite Materials|e
+5|MME512|Biomaterials|e
+5||Ceramics|e

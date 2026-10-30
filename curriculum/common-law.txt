@@ -1,0 +1,69 @@
+# dept: common-law
+# complete_years: 1,2,3,4,5
+# source: CCMAS LL.B Law, Caleb University 2025/2026 curriculum (website.caleb.university). Institution-only items (CUL-, CTC, Tech Plus, Character in Leadership) left out; titles with CUL- required-by-institution rule left out.
+# supersedes:
+@include gst
+1|PUL101|Legal Methods I|c
+1|PUL102|Legal Methods II|c
+1|LAW105|Introduction to Logic|c
+1|PHL105|Introduction to Social and Political Philosophy|c
+1|LAW104|English for Legal Writing|c
+1|PSY102|Introduction to Psychology|c
+2|PUL201|Constitutional Law I|c
+2|PUL202|Constitutional Law II|c
+2|PUL203|Nigerian Legal System I|c
+2|PUL204|Nigerian Legal System II|c
+2|PPL201|Law of Contract I|c
+2|PPL202|Law of Contract II|c
+2|PUL205|Criminology I|e
+2|PUL206|Criminology II|e
+2|PUL207|Administrative Law I|e
+2|PUL208|Administrative Law II|e
+3|PUL301|Criminal Law I|c
+3|PUL302|Criminal Law II|c
+3|PPL301|Law of Torts I|c
+3|PPL302|Law of Torts II|c
+3|PPL303|Commercial Law I|c
+3|PPL304|Commercial Law II|c
+3|GST301|Entrepreneurship Skills|c
+3|GST302|Entrepreneurship Practical|c
+3|PPL307|Law of Intellectual Property I|e
+3|PPL308|Law of Intellectual Property II|e
+3|PPL305|Family Law I|e
+3|PPL306|Family Law II|e
+3|PUL303|Health Law I|e
+3|PUL304|Health Law II|e
+4|PUL401|Law of Evidence I|c
+4|PUL402|Law of Evidence II|c
+4|PPL403|Equity and Trusts I|c
+4|PPL404|Equity and Trusts II|c
+4|PPL401|Property Law I|c
+4|PPL402|Property Law II|c
+4|CLE401|Clinical and Moot Court Practice I|c
+4|CLE402|Clinical and Moot Court Practice II|c
+4|PUL403|Industrial Law I|e
+4|PUL404|Industrial Law II|e
+4|PUL405|International Law I|e
+4|PUL406|International Law II|e
+4|PUL407|Environmental Law and Policy I|e
+4|PUL408|Environmental Law and Policy II|e
+4|PPL407|Banking and Insurance Law I|e
+4|PPL408|Banking and Insurance Law II|e
+4|PUL411|Human Rights Law I|e
+4|PUL412|Human Rights Law II|e
+5|PUL501|Jurisprudence and Legal Theory I|c
+5|PUL502|Jurisprudence and Legal Theory II|c
+5|PPL501|Company Law I|c
+5|PPL502|Company Law II|c
+5|LAW509|Long Essay|c
+5|PUL510|Nigeria Law Enforcement|c
+5|PUL505|Gender Rights Law I|e
+5|PUL506|Gender Rights Law II|e
+5|PUL507|International Humanitarian Law I|e
+5|PUL508|International Humanitarian Law II|e
+5|PPL503|Oil and Gas Law I|e
+5|PPL504|Oil and Gas Law II|e
+5|PPL507|Revenue Law I|e
+5|PPL508|Revenue Law II|e
+5|PPL505|Conveyancing I|e
+5|PPL506|Conveyancing II|e

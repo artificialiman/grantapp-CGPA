@@ -1,0 +1,44 @@
+# dept: chemical-engineering
+# complete_years: 1,2,3,4,5
+# source: MOUAU B.Eng Chemical Engineering CCMAS Students Handbook (ceet.mouau.edu.ng). Departmental TCH codes are MOUAU's own and are left blank; the engineering core (GET) is added from the CCMAS handbooks. Last 21,000 characters of the handbook were not read.
+# supersedes: Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+1||Introduction to Chemical Engineering|c
+2||Chemical Engineering Fundamentals|c
+2||Statistics for Chemical Engineers|c
+3||Transfer Processes I|c
+3||Separation Processes I|c
+3||Chemical Engineering Laboratory I|c
+3||Chemical Kinetics and Catalysis|c
+3||Biochemical Engineering|c
+3||Chemical Engineering Thermodynamics I|c
+3||Process Instrumentation|c
+3||Chemical Engineering Laboratory II|c
+3||Numerical Methods in Chemical Engineering|c
+4||Chemical Engineering Thermodynamics II|c
+4||Chemical Reaction Engineering I|c
+4||Chemical Product Design|c
+4||Plant Design and Economics|c
+4||Process Control|c
+4||Process Modelling and Simulation|c
+4||Transfer Processes II|c
+4||Chemical Engineering Laboratory III|c
+4||Chemical Process Technology|c
+5||Plant Design II|c
+5||Chemical Reaction Engineering II (Heterogeneous Systems)|c
+5||Chemical Process Optimization|c
+5||Separation Processes II (Multicomponent Systems)|c
+5||Chemical Engineering Research Project|c
+5||Process Safety and Loss Prevention in Industries|c
+5||Environmental Pollution and Control|c
+5||Coal Processing Technology|c
+5||Petroleum Processing and Petrochemicals|c
+5||Pulp and Paper Technology|e
+5||Sugar Technology|e
+5||Polymer Science and Engineering|e
+5||Membrane Technology|e
+5||Process Integration|e
+5||Bio Refinery Engineering|e
+5||Fermentation Technology|e
+5||Cement Technology|e

@@ -1,0 +1,49 @@
+# dept: biochemistry
+# complete_years: 1,2,3,4
+# source: CCMAS B.Sc. Biochemistry (khairun.edu.ng/?p=776 and ?p=885); institution prefix removed from the added courses.
+# supersedes:
+@include gst
+@include science-year1
+1|BCH101|Introductory Biochemistry I|c
+1|BCH102|Introductory Biochemistry II|c
+2|BCH201|General Biochemistry I|c
+2|BCH202|General Biochemistry II|c
+2|BCH203|General Biochemistry Practical|c
+2|STA201|Statistics for Agriculture and Biological Sciences|c
+2|ANA202|Histology of Basic Tissues|c
+2|BCH204|Biorisk Management and Biochemical Data Handling|c
+2|BIO201|Genetics I|c
+2|CHM210|Physical Chemistry I|c
+2|CHM211|Organic Chemistry I|c
+2|CHM212|Inorganic Chemistry I|c
+2|MCB221|General Microbiology|c
+2|MCB231|Basic Techniques in Microbiology|c
+2|PIO201|Introduction to Physiology and Blood|c
+3|BCH301|Enzymology|c
+3|BCH302|Metabolism of Carbohydrates|c
+3|BCH303|Metabolism of Lipids|c
+3|BCH304|Metabolism of Amino Acids and Proteins|c
+3|BCH305|Structure and Functions of Nucleic Acids|c
+3|BCH306|Analytical Methods in Biochemistry|c
+3|BCH307|Membrane Biochemistry|c
+3|BCH308|Bioenergetics|c
+3|BCH309|Inorganic Biochemistry|c
+3|BCH399|Industrial Attachment|c
+3|BCH310|Biochemistry and Molecular Biology of Microorganisms|c
+3|BCH312|Food and Nutritional Biochemistry|c
+3|CHM303|Organic Chemistry II|c
+4|BCH401|Advanced Enzymology|c
+4|BCH402|Molecular Biochemistry|c
+4|BCH403|Metabolic Regulations|c
+4|BCH404|Biochemical Reasoning|c
+4|BCH405|Plant Biochemistry|c
+4|BCH406|Research Project|c
+4|BCH407|Bioinformatics|c
+4|BCH408|Biochemical Entrepreneurship|c
+4|BCH409|Industrial Biochemistry|c
+4|BCH410|Biochemical Pharmacology and Toxicology|c
+4|BCH411|Tissue Biochemistry|c
+4|BCH412|Immunology and Immunochemistry|c
+4|BCH413|Research Methods in Biochemistry|c
+4|BCH414|Forensic Biochemistry|c
+4|BCH415|Special Topics and Seminar in Biochemistry|c

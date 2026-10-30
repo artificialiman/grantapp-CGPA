@@ -1,0 +1,115 @@
+# dept: human-medicine
+# complete_years: 1,2,3,4,5,6
+# source: MBBS curriculum, UNIBEN College of Medical Sciences (medicine.uniben.edu/?p=327). Tutorial-only lines left out; obvious typos in titles corrected. OBG posting code unreadable in source, left blank. Codes carry UNIBEN's departmental numbering.
+# supersedes:
+@include gst
+1|PBB111|Diversity of Plants|c
+1|AEB111|Introductory Zoology|c
+1|CHEM111|General Chemistry I|c
+1|CHEM113|Organic Chemistry I|c
+1|PHY109|Practical Physics|c
+1|PHY111|Mechanics, Thermal Physics and Properties of Matter|c
+1|PHY113|Vibrations, Waves and Optics|c
+1|PBB122|Plant Form and Function|c
+1|AEB122|Functional Zoology|c
+1|CHEM122|General Chemistry II|c
+1|CHEM124|Organic Chemistry II|c
+1|PHY124|Electromagnetism and Modern Physics|c
+2|ANT210|Gross Anatomy of the Lower Extremities|c
+2|ANT211|General Histology|c
+2|ANT214|General Embryology|c
+2|ANT215|Practical Histology I|c
+2|ANT216|Practical Gross Anatomy I|c
+2|PHS210|General Physiology|c
+2|PHS211|Systemic Physiology I (Cardiovascular)|c
+2|PHS213|Applied Physiology I|c
+2|PHS214|Physiology Practicals I|c
+2|BCH217|Biochemistry I|c
+2|BCH218|Biochemistry Practicals I|c
+2|COH212|Medical Sociology and Ecology|c
+2|ANT220|Gross Anatomy of the Trunk|c
+2|ANT221|Systemic Histology I|c
+2|ANT224|Systemic Embryology I|c
+2|ANT225|Practical Histology II|c
+2|ANT226|Practical Gross Anatomy II|c
+2|PHS221|Systemic Physiology II|c
+2|PHS223|Applied Physiology II|c
+2|PHS224|Physiology Practicals II|c
+2|PHS225|Endocrine Physiology|c
+2|BCH227|Biochemistry II|c
+2|BCH228|Biochemistry Practicals II|c
+2|MEH221|Psychology in Relation to Mental Health|c
+2|COH222|Demography and School Health|c
+3|ANT310|Gross Anatomy of the Head and Neck|c
+3|ANT311|Systemic Histology II|c
+3|ANT314|Systemic Embryology II|c
+3|ANT315|Neuroanatomy|c
+3|ANT316|Practical Gross Anatomy III|c
+3|ANT317|Practical Neuroanatomy|c
+3|ANT318|Practical Histology III|c
+3|PHS310|Autonomic and Neurophysiology|c
+3|PHS311|Special Senses and Systemic Physiology III|c
+3|PHS313|Applied Physiology III|c
+3|PHS314|Physiology Practicals III|c
+3|BCH317|Biochemistry III|c
+3|BCH328|Biochemistry Practicals III|c
+3|PCO320|General Pharmacology|c
+3|PCO361|Endocrine and Local Hormones Pharmacology|c
+3|MEH322|Psychiatry I|c
+3|IDH322|Environmental Health, Nutrition and Health Education|c
+3|MAN326|General Pathology|c
+3|MMB326|Introduction to Microbiology (Pathology)|c
+3|IDP320|Introduction to Clinical Medicine|c
+4|PCO421|Systemic Pharmacology|c
+4|PCO422|Nervous System Pharmacology|c
+4|PCO411|Toxicology|c
+4|PCO425|Pharmacology Practicals|c
+4|PCO441|Chemotherapy|c
+4|MMB410|Microbiology Practicals I|c
+4|MMB411|Microbiology Lectures I|c
+4|MMB420|Microbiology Practicals II|c
+4|MMB421|Microbiology Lectures II|c
+4|MAN415|Systemic Pathology Practicals I|c
+4|MAN416|Systemic Pathology Lectures I|c
+4|MAN426|Systemic Pathology Practicals II|c
+4|MED401|Junior Medical Posting|c
+4|SUG411|Junior Surgical Posting|c
+4|COH412|Epidemiology: Principles and Applied|c
+4|MEH411|Psychiatry II|c
+4|CHP425|Chemical Pathology|c
+4|CHH426|Essentials of Child Health Care|c
+4|CHH427|Clinical Postings in Child Health Care|c
+4||Junior Posting in Obstetrics and Gynaecology|c
+4|OBG429|Obstetrics and Gynaecology Lectures|c
+4|HBT427|Haematology Lectures I|c
+5|MMB511|Microbiology Lectures III|c
+5|MMB520|Microbiology Practicals III|c
+5|MMB521|Microbiology Lectures IV|c
+5|CHP513|Chemical Pathology Lectures II|c
+5|CHP514|Chemical Pathology Lectures I|c
+5|CHP523|Chemical Pathology Lectures III|c
+5|CHP524|Chemical Pathology Practicals II|c
+5|MAN516|Systemic Pathology Lectures III|c
+5|MAN525|Systemic Pathology Practicals III|c
+5|MAN526|Systemic Pathology Lectures IV and Forensic Medicine|c
+5|HBT517|Haematology Lectures II|c
+5|HBT518|Haematology Practicals I|c
+5|HBT527|Haematology Lectures III|c
+5|HBT528|Haematology Practicals II|c
+5|ANA501|Anaesthesia, Analgesia and Resuscitation|c
+5|ANA502|Intensive Care and the Treatment of Pain|c
+5|MED503|Primary Medical Care|c
+5|MED504|Dermatology and Venereology|c
+5|RAD505|Principles and Practice of Radiology|c
+5|OFT506|Diseases of Bones and Joints and Related Tissues|c
+5|OTP507|Effects and Management of Trauma|c
+5|OPH508|Disorders of the Eye and Vision|c
+5|ENT509|Diseases and Injuries of the Ear, Nose and Throat|c
+5|COH522|Urban and Rural Postings: Organisation of Health Services, Primary Health Care, Occupational Health|c
+5|DP530|Posting to the Four Sub-divisions of Pathology|c
+5|MEH521|Clinical Psychiatry Posting|c
+5|IDP550|Clinical Electives|c
+6|CHH621|Sub-specialty Paediatrics and Advanced Approach to Clinical Paediatrics|c
+6|OBG622|Obstetrics and Gynaecology: Lectures, Tutorials, Dissertation, Project and Senior Posting|c
+6|MED611|Medicine: Lectures, Tutorials and Senior Posting|c
+6|SUG612|Surgery, including Sub-specialities: Lectures, Tutorials and Senior Posting|c

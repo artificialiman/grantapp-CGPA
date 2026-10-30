@@ -1,0 +1,48 @@
+# dept: environmental-management-and-toxicology
+# complete_years: 1,3,4,5
+# source: Year 1 from UNIBEN (waeup.uniben.edu, core-flagged courses); years 3-5 from FUNAAB (funaab.edu.ng/emt-course-synopsis). Year 2 was not found in any source and is unresearched. "ERM 302" in the FUNAAB list is read as EMT302.
+# supersedes:
+@include gst
+1|BIO101|General Biology I|c
+1|BIO102|General Biology II|c
+1|BIO107|General Biology Practical I|c
+1|BIO108|General Biology Practical II|c
+1|BOT102|Introductory Botany|c
+1|CHM101|General Chemistry I|c
+1|CHM102|General Chemistry II|c
+1|CHM107|General Practical Chemistry I|c
+1|CHM108|General Practical Chemistry II|c
+1|COS101|Introduction to Computing Science|c
+1|EMT121|Elementary Environmental Science|c
+1|MTH101|Elementary Mathematics I|c
+1|MTH102|Elementary Mathematics II|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|ZOO101|The Mammalian Body|c
+1|ZOO102|Animal Diversity|c
+3|EMT300|Environment, Ecosystem and Man|c
+3|EMT301|Principles of Natural Resources Management|c
+3|EMT302|Water Quality Assessment and Pollution Control|c
+3|EMT304|Hazardous Substances Management|c
+3|EMT305|Metals and the Environment|c
+4|EMT401|Environmental Monitoring Systems and Techniques|c
+4|EMT403|Environmental Aspects of Farming Systems|c
+4|EMT405|Environmental Education and Awareness|c
+4|EMT407|Principles of Toxicology I|c
+4|EMT409|Water Analysis|c
+4|EMT411|Experimental Pesticide Chemistry and Residue Analysis|c
+5|EMT501|Environmental Law|c
+5|EMT502|Advanced Pesticide Chemistry|c
+5|EMT503|Principles of Toxicology II|c
+5|EMT504|Waste Management|c
+5|EMT505|Principles of Analysis of Toxicants|c
+5|EMT506|Human Settlement and Development|c
+5|EMT507|Seminar|c
+5|EMT508|Environmental Aspects of Pesticides and Other Toxicants Use|c
+5|EMT509|Structural Elucidation of Organic Pollutants|c
+5|EMT511|Ecological Disasters and Control|c
+5|EMT512|Petroleum and the Environment|c
+5|EMT514|Miscellaneous Advanced Techniques in Environmental Analysis|c
+5|EMT599|Project|c

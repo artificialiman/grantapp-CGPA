@@ -1,0 +1,1884 @@
+{
+ "department_slug": "insurance",
+ "faculty_slug": "banking-and-finance",
+ "faculty_name": "Banking and Finance",
+ "source": "B.Sc. Actuarial Science and Insurance, Dominion University (dominionuniversity.edu.ng/?p=706). Single-institution source; no national insurance scheme was found.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "ACC101",
+   "name": "Principles of Accounting I",
+   "kind": "core",
+   "slug": "acc101",
+   "known_codes": "ACC101 (2)",
+   "aliases": [
+    {
+     "code": "ACC101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Accounting I",
+   "summary": "Accounting concepts, double entry and basic statements.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ACC102",
+   "name": "Principles of Accounting II",
+   "kind": "core",
+   "slug": "acc102",
+   "known_codes": "ACC102 (2)",
+   "aliases": [
+    {
+     "code": "ACC102",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Accounting II",
+   "summary": "Company and partnership accounts and adjustments.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BUS101",
+   "name": "Principles of Management I",
+   "kind": "core",
+   "slug": "bus101",
+   "known_codes": "BUS101 (2)",
+   "aliases": [
+    {
+     "code": "BUS101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Management I",
+   "summary": "Management functions, planning, organising, leading and controlling.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BUS102",
+   "name": "Principles of Management II",
+   "kind": "core",
+   "slug": "bus102",
+   "known_codes": "BUS102 (2)",
+   "aliases": [
+    {
+     "code": "BUS102",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Management II",
+   "summary": "Organisational behaviour, strategy and decision-making.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Project management"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CRM105",
+   "name": "Introduction to Sociology",
+   "kind": "core",
+   "slug": "crm105",
+   "known_codes": "CRM105 (2), SOC111",
+   "aliases": [
+    {
+     "code": "CRM105",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "SOC111",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Sociology",
+   "summary": "Society, culture, institutions and social change.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CSC101",
+   "name": "Introduction to Computer",
+   "kind": "core",
+   "slug": "csc101",
+   "known_codes": "CSC101 (3), LAW114",
+   "aliases": [
+    {
+     "code": "CSC101",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "LAW114",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Computer",
+   "summary": "Computer hardware, software and applications.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO101",
+   "name": "Principles of Economics I",
+   "kind": "core",
+   "slug": "eco101",
+   "known_codes": "ECO101 (2)",
+   "aliases": [
+    {
+     "code": "ECO101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO101",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "economics"
+   ],
+   "general_name": "Principles of Microeconomics",
+   "summary": "Scarcity, demand and supply, elasticity, consumer theory, firms and market structures.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO103",
+   "name": "Business Mathematics I",
+   "kind": "core",
+   "slug": "eco103",
+   "known_codes": "ECO103 (2)",
+   "aliases": [
+    {
+     "code": "ECO103",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Mathematics I",
+   "summary": "Algebra, percentages, interest and business calculations.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO106",
+   "name": "Business Mathematics II",
+   "kind": "core",
+   "slug": "eco106",
+   "known_codes": "ECO106 (2)",
+   "aliases": [
+    {
+     "code": "ECO106",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Mathematics II",
+   "summary": "Matrices, calculus and linear programming for business.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO110",
+   "name": "Principles of Economics II",
+   "kind": "core",
+   "slug": "eco110",
+   "known_codes": "ECO102 (2), ECO110 (2)",
+   "aliases": [
+    {
+     "code": "ECO110",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO102",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "economics"
+   ],
+   "general_name": "Principles of Macroeconomics",
+   "summary": "National income, inflation, unemployment, money and banking, fiscal and monetary policy, trade and growth.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST101",
+   "name": "Communication in English I",
+   "kind": "core",
+   "slug": "gst101",
+   "known_codes": "GST101 (2), GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "pharmacy"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing I",
+   "summary": "First-semester academic English: grammar, sentence structure, comprehension, summary and essay writing.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST102",
+   "name": "Communication in English II",
+   "kind": "core",
+   "slug": "gst102",
+   "known_codes": "GST102 (2), GST122 (2)",
+   "aliases": [
+    {
+     "code": "GST102",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST122",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Academic English: Communication Skills and Writing II",
+   "summary": "Second-semester academic English: advanced writing, report and technical writing, oral presentation and library use.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST104",
+   "name": "Nigerian People and Culture",
+   "kind": "core",
+   "slug": "gst104",
+   "known_codes": "GST104 (2), GST112 (2), GST122",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST104",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nigerian People and Culture",
+   "summary": "Ethnic groups, culture and heritage of Nigeria.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST107",
+   "name": "Introduction to Entrepreneurship",
+   "kind": "core",
+   "slug": "gst107",
+   "known_codes": "CED341, GST107 (2), GST223 (2)",
+   "aliases": [
+    {
+     "code": "CED341",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "GST107",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST223",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CED341",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "nursing-science"
+   ],
+   "general_name": "Entrepreneurship Fundamentals",
+   "summary": "Entrepreneurial traits, opportunity identification, business basics and start-up planning.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST110",
+   "name": "The Citizen and the State",
+   "kind": "core",
+   "slug": "gst110",
+   "known_codes": "GST110 (2)",
+   "aliases": [
+    {
+     "code": "GST110",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "The Citizen and the State",
+   "summary": "Citizenship, rights, duties and government.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST122",
+   "name": "Use of Library, Study Skills and ICT",
+   "kind": "core",
+   "slug": "gst122",
+   "known_codes": "GST121 (2), GST122 (2)",
+   "aliases": [
+    {
+     "code": "GST122",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST121",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Use of Library, Study Skills and ICT",
+   "summary": "Library research, study methods and digital tools.",
+   "psychometric": [
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST123",
+   "name": "Logic, Philosophy and Human Existence",
+   "kind": "core",
+   "slug": "gst123",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "IRP122",
+   "name": "Introduction to Psychology",
+   "kind": "core",
+   "slug": "irp122",
+   "known_codes": "GCE103 (2), IRP122 (2), PSY102",
+   "aliases": [
+    {
+     "code": "IRP122",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GCE103",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "PSY102",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "common-law"
+   ],
+   "general_name": "Introduction to Psychology",
+   "summary": "Scientific study of behaviour: learning, memory, perception, motivation, personality, development and abnormal psychology.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MGT101",
+   "name": "Introduction to Finance I",
+   "kind": "core",
+   "slug": "mgt101",
+   "known_codes": "MGT101 (2)",
+   "aliases": [
+    {
+     "code": "MGT101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Finance I",
+   "summary": "Financial system, time value of money and instruments.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MGT102",
+   "name": "Introduction to Finance II",
+   "kind": "core",
+   "slug": "mgt102",
+   "known_codes": "MGT102 (2)",
+   "aliases": [
+    {
+     "code": "MGT102",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Finance II",
+   "summary": "Capital budgeting, risk and return, and markets.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MGT113",
+   "name": "Basic Statistical Methods",
+   "kind": "core",
+   "slug": "mgt113",
+   "known_codes": "MGT113 (2)",
+   "aliases": [
+    {
+     "code": "MGT113",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Statistical Methods",
+   "summary": "Summary statistics, probability and sampling for business.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACC201",
+   "name": "Financial Accounting I",
+   "kind": "core",
+   "slug": "acc201",
+   "known_codes": "ACC201 (3), ACC211",
+   "aliases": [
+    {
+     "code": "ACC201",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ACC201",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ACC211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Financial Accounting I",
+   "summary": "Recording, ledgers and final accounts.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACC202",
+   "name": "Financial Accounting II",
+   "kind": "core",
+   "slug": "acc202",
+   "known_codes": "ACC202 (3), ACC221",
+   "aliases": [
+    {
+     "code": "ACC202",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ACC221",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Financial Accounting II",
+   "summary": "Company accounts and statements.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACS201",
+   "name": "Introduction to Insurance",
+   "kind": "core",
+   "slug": "acs201",
+   "known_codes": "ACS201 (3)",
+   "aliases": [
+    {
+     "code": "ACS201",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Insurance",
+   "summary": "Insurance principles, risk, types and the Nigerian insurance market.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACS202",
+   "name": "Introduction to Actuarial Science",
+   "kind": "core",
+   "slug": "acs202",
+   "known_codes": "ACS202 (3)",
+   "aliases": [
+    {
+     "code": "ACS202",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Actuarial Science",
+   "summary": "Actuarial role, interest, annuities and mortality basics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACS207",
+   "name": "Advanced Mathematics I",
+   "kind": "core",
+   "slug": "acs207",
+   "known_codes": "ACS207 (3)",
+   "aliases": [
+    {
+     "code": "ACS207",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Mathematics I",
+   "summary": "Calculus and linear algebra for actuarial work.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ACS208",
+   "name": "Advanced Mathematics II",
+   "kind": "core",
+   "slug": "acs208",
+   "known_codes": "ACS208 (3)",
+   "aliases": [
+    {
+     "code": "ACS208",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Mathematics II",
+   "summary": "Probability, differential equations and series for actuarial work.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BUS203",
+   "name": "Business Communication",
+   "kind": "core",
+   "slug": "bus203",
+   "known_codes": "BUS203 (2)",
+   "aliases": [
+    {
+     "code": "BUS203",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Communication",
+   "summary": "Business writing, presentations and negotiations.",
+   "psychometric": [
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO201",
+   "name": "Micro-Economics Theory",
+   "kind": "core",
+   "slug": "eco201",
+   "known_codes": "ECO201 (3)",
+   "aliases": [
+    {
+     "code": "ECO201",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Micro-Economics Theory",
+   "summary": "Demand, supply, consumer and firm theory.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO202",
+   "name": "Macro-Economics Theory",
+   "kind": "core",
+   "slug": "eco202",
+   "known_codes": "ECO202 (3)",
+   "aliases": [
+    {
+     "code": "ECO202",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Macro-Economics Theory",
+   "summary": "National income, inflation, money and policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST210",
+   "name": "Environment and Sustainable Development",
+   "kind": "core",
+   "slug": "gst210",
+   "known_codes": "GST210 (2), GST211 (2)",
+   "aliases": [
+    {
+     "code": "GST210",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Environment and Sustainable Development",
+   "summary": "Environmental problems, sustainability and policy.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST211",
+   "name": "Entrepreneurship",
+   "kind": "core",
+   "slug": "gst211",
+   "known_codes": "GST211 (2), GST311 (2)",
+   "aliases": [
+    {
+     "code": "GST211",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST311",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Entrepreneurship",
+   "summary": "Business ideas, planning and small enterprise.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST221",
+   "name": "Peace Studies and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst221",
+   "known_codes": "GST221 (2), GST222 (2)",
+   "aliases": [
+    {
+     "code": "GST221",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST222",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Conflict causes, mediation and peace-building.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MGT211",
+   "name": "Elements of Marketing",
+   "kind": "core",
+   "slug": "mgt211",
+   "known_codes": "MGT211 (3)",
+   "aliases": [
+    {
+     "code": "MGT211",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Elements of Marketing",
+   "summary": "Marketing mix, consumer behaviour and market research.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MGT212",
+   "name": "Quantitative Analysis",
+   "kind": "core",
+   "slug": "mgt212",
+   "known_codes": "MGT212 (3)",
+   "aliases": [
+    {
+     "code": "MGT212",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Quantitative Analysis",
+   "summary": "Statistical and quantitative decision tools.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MGT214",
+   "name": "The Public and Private Sector",
+   "kind": "elective",
+   "slug": "mgt214",
+   "known_codes": "MGT214 (3)",
+   "aliases": [
+    {
+     "code": "MGT214",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "The Public and Private Sector",
+   "summary": "Government and business organisations compared.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACC212",
+   "name": "Cost and Management Accounting",
+   "kind": "core",
+   "slug": "acc212",
+   "known_codes": "ACC212 (3)",
+   "aliases": [
+    {
+     "code": "ACC212",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Cost and Management Accounting",
+   "summary": "Cost behaviour, budgeting and variance analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS303",
+   "name": "Life Contingency I",
+   "kind": "core",
+   "slug": "acs303",
+   "known_codes": "ACS303 (2)",
+   "aliases": [
+    {
+     "code": "ACS303",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Life Contingency I",
+   "summary": "Life tables, survival models and life insurance valuation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS304",
+   "name": "Theory of Interest",
+   "kind": "core",
+   "slug": "acs304",
+   "known_codes": "ACS304 (2)",
+   "aliases": [
+    {
+     "code": "ACS304",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Theory of Interest",
+   "summary": "Compound interest, annuities and yield.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS305",
+   "name": "Risk Management I",
+   "kind": "core",
+   "slug": "acs305",
+   "known_codes": "ACS305 (3)",
+   "aliases": [
+    {
+     "code": "ACS305",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Risk Management I",
+   "summary": "Risk identification, assessment and treatment methods.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS306",
+   "name": "Life and Health Insurance",
+   "kind": "core",
+   "slug": "acs306",
+   "known_codes": "ACS306 (3)",
+   "aliases": [
+    {
+     "code": "ACS306",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Life and Health Insurance",
+   "summary": "Life, annuity and health insurance products.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS307",
+   "name": "Numerical Analysis",
+   "kind": "core",
+   "slug": "acs307",
+   "known_codes": "ACS307 (3), MAT351 (4)",
+   "aliases": [
+    {
+     "code": "MAT351",
+     "units": 4,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ACS307",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Numerical Analysis",
+   "summary": "Interpolation, numerical integration and equation solving.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS308",
+   "name": "Further Numerical Analysis",
+   "kind": "core",
+   "slug": "acs308",
+   "known_codes": "ACS308 (3)",
+   "aliases": [
+    {
+     "code": "ACS308",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Further Numerical Analysis",
+   "summary": "Advanced numerical methods.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS309",
+   "name": "Actuarial Mathematics",
+   "kind": "core",
+   "slug": "acs309",
+   "known_codes": "ACS309 (3)",
+   "aliases": [
+    {
+     "code": "ACS309",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Actuarial Mathematics",
+   "summary": "Annuities, insurance benefits and premium calculation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS310",
+   "name": "Operations Research",
+   "kind": "core",
+   "slug": "acs310",
+   "known_codes": "ACS310 (3), ECO329",
+   "aliases": [
+    {
+     "code": "ACS310",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO329",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "economics"
+   ],
+   "general_name": "Operations Research and Optimisation",
+   "summary": "Linear programming, transportation, assignment, network models, queues and decision analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS316",
+   "name": "Probability Theory",
+   "kind": "core",
+   "slug": "acs316",
+   "known_codes": "ACS316 (3)",
+   "aliases": [
+    {
+     "code": "ACS316",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Probability Theory",
+   "summary": "Random variables, distributions and limit theorems.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS317",
+   "name": "Investment Theory",
+   "kind": "core",
+   "slug": "acs317",
+   "known_codes": "ACS317 (2)",
+   "aliases": [
+    {
+     "code": "ACS317",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Investment Theory",
+   "summary": "Portfolio theory, asset pricing and risk-return.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ACS325",
+   "name": "Mathematical Statistics",
+   "kind": "core",
+   "slug": "acs325",
+   "known_codes": "ACS325 (3)",
+   "aliases": [
+    {
+     "code": "ACS325",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mathematical Statistics",
+   "summary": "Estimation theory and hypothesis testing.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST222",
+   "name": "Leadership Skills",
+   "kind": "core",
+   "slug": "gst222",
+   "known_codes": "GST222 (2), GST224 (2)",
+   "aliases": [
+    {
+     "code": "GST222",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST224",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Leadership Skills",
+   "summary": "Leading teams, ethics and decision-making.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MGT302",
+   "name": "Research Methods",
+   "kind": "core",
+   "slug": "mgt302",
+   "known_codes": "MGT302 (3)",
+   "aliases": [
+    {
+     "code": "MGT302",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Research Methods",
+   "summary": "Research design and data collection and analysis.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MGT307",
+   "name": "Management Information System",
+   "kind": "core",
+   "slug": "mgt307",
+   "known_codes": "MGT307 (3)",
+   "aliases": [
+    {
+     "code": "MGT307",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Management Information System",
+   "summary": "Information systems in organisations.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MGT313",
+   "name": "Human Behaviour in Organisation",
+   "kind": "core",
+   "slug": "mgt313",
+   "known_codes": "MGT313 (2)",
+   "aliases": [
+    {
+     "code": "MGT313",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Human Behaviour in Organisation",
+   "summary": "Motivation, leadership and group behaviour.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS401",
+   "name": "Life Contingency II",
+   "kind": "core",
+   "slug": "acs401",
+   "known_codes": "ACS401 (3)",
+   "aliases": [
+    {
+     "code": "ACS401",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Life Contingency II",
+   "summary": "Multiple decrement, reserves and pension valuation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS402",
+   "name": "Pension Fund and Social Insurance",
+   "kind": "core",
+   "slug": "acs402",
+   "known_codes": "ACS402 (3)",
+   "aliases": [
+    {
+     "code": "ACS402",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pension Fund and Social Insurance",
+   "summary": "Pension schemes, social security and fund management.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS403",
+   "name": "Theory and Practice of Investment",
+   "kind": "core",
+   "slug": "acs403",
+   "known_codes": "ACS403 (3)",
+   "aliases": [
+    {
+     "code": "ACS403",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Theory and Practice of Investment",
+   "summary": "Investment analysis, portfolios, securities and valuation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS404",
+   "name": "Actuarial Statistics and Mortality Analysis",
+   "kind": "core",
+   "slug": "acs404",
+   "known_codes": "ACS404 (3)",
+   "aliases": [
+    {
+     "code": "ACS404",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Actuarial Statistics and Mortality Analysis",
+   "summary": "Mortality models, graduation and survival analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS405",
+   "name": "Risk Management II",
+   "kind": "core",
+   "slug": "acs405",
+   "known_codes": "ACS405 (3)",
+   "aliases": [
+    {
+     "code": "ACS405",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Risk Management II",
+   "summary": "Insurance risk transfer, underwriting, reinsurance and enterprise risk.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS412",
+   "name": "Research Project",
+   "kind": "core",
+   "slug": "acs412",
+   "known_codes": "ACS412 (6), BCH406 (6), MCB499, MLS504",
+   "aliases": [
+    {
+     "code": "ACS412",
+     "units": 6,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "BCH406",
+     "units": 6,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MLS504",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MCB499",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "medical-laboratory-science",
+    "microbiology"
+   ],
+   "general_name": "Undergraduate Research Project",
+   "summary": "Independent supervised research with data collection, analysis, thesis and defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS413",
+   "name": "Marine Insurance",
+   "kind": "core",
+   "slug": "acs413",
+   "known_codes": "ACS413 (3)",
+   "aliases": [
+    {
+     "code": "ACS413",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Marine Insurance",
+   "summary": "Cargo and hull insurance, marine perils and claims.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS414",
+   "name": "Motor Insurance",
+   "kind": "core",
+   "slug": "acs414",
+   "known_codes": "ACS414 (3)",
+   "aliases": [
+    {
+     "code": "ACS414",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Motor Insurance",
+   "summary": "Motor policies, compulsory third-party cover and claims handling.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS415",
+   "name": "Aviation Insurance",
+   "kind": "core",
+   "slug": "acs415",
+   "known_codes": "ACS415 (3)",
+   "aliases": [
+    {
+     "code": "ACS415",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Aviation Insurance",
+   "summary": "Aircraft hull, liability and passenger insurance.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ACS416",
+   "name": "Engineering Insurance",
+   "kind": "core",
+   "slug": "acs416",
+   "known_codes": "ACS416 (3)",
+   "aliases": [
+    {
+     "code": "ACS416",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Engineering Insurance",
+   "summary": "Contractors' all-risks, erection and machinery insurance.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "BUS411",
+   "name": "Business Decision Analysis and Ethics",
+   "kind": "core",
+   "slug": "bus411",
+   "known_codes": "BUS411 (3)",
+   "aliases": [
+    {
+     "code": "BUS411",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Decision Analysis and Ethics",
+   "summary": "Decision tools, uncertainty and business ethics.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "IRP421",
+   "name": "Production and Operations Management",
+   "kind": "core",
+   "slug": "irp421",
+   "known_codes": "IRP421 (3)",
+   "aliases": [
+    {
+     "code": "IRP421",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Production and Operations Management",
+   "summary": "Production planning, inventory, quality and supply chains.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MGT401",
+   "name": "Business Policy and Strategy",
+   "kind": "core",
+   "slug": "mgt401",
+   "known_codes": "MGT401 (3)",
+   "aliases": [
+    {
+     "code": "MGT401",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Policy and Strategy",
+   "summary": "Strategic analysis, competition and corporate policy.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Project management"
+   ]
+  }
+ ]
+}

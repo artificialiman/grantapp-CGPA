@@ -1,0 +1,46 @@
+# dept: microbiology
+# complete_years: 1,2,3,4
+# source: Year 1 from the CCMAS B.Sc. Microbiology at UNIOSUN; years 2-4 from the UNIOSUN B.Sc. Microbiology course structure (uniosun.edu.ng, April 2026), which is not labelled CCMAS. Cross-check Unilorin (microbiology.lifesciences.unilorin.edu.ng) for the alternative scheme.
+# supersedes:
+@include gst
+@include science-year1
+1|MCB101|Introduction to Microbiology|c
+2|BIO201|General Ecology|c
+2|BIO207|Introductory Genetics and Cell Biology|c
+2|CHM205|Physical Chemistry I|c
+2|CHM207|Inorganic Chemistry I|c
+2|CHM291|Experimental Physical and Inorganic Chemistry|c
+2|MCB201|General Microbiology I|c
+2|MCB203|Introductory Virology|c
+2|STA229|Statistics for Agricultural and Biological Sciences Students|c
+2|BCH201|General Biochemistry I|c
+2|BIO202|Biological Techniques|c
+2|BIO204|General Physiology|c
+2|CHM202|Organic Chemistry I|c
+2|CHM292|Experimental Physical and Organic Chemistry|c
+2|MCB202|General Microbiology II|c
+2|MCB204|Introduction to Food Science|c
+2|ZOO202|Invertebrate Zoology|c
+2|BCH202|General Biochemistry II|c
+2|MCB208|Introduction to Biotechnology|e
+3|MCB301|Bacteriology|c
+3|MCB303|Soil Microbiology|c
+3|MCB305|Microbial Genetics and Molecular Biology|c
+3|MCB307|Mycology|c
+3|MCB309|Food Microbiology|c
+3|MCB311|Microbial Ecology|c
+3|ZOO301|Parasitology I|c
+3|MCB399|SIWES (Student Industrial Work Experience Scheme)|c
+4|MCB401|Immunology and Immunochemistry|c
+4|MCB402|Virology and Tissue Culture|c
+4|MCB403|Principles of Epidemiology and Public Health|c
+4|MCB404|Industrial Microbiology|c
+4|MCB405|Pharmaceutical Microbiology|c
+4|MCB406|Petroleum Microbiology|c
+4|MCB407|Pathogenic Microbiology|c
+4|MCB408|Microbial Physiology and Metabolism|c
+4|MCB409|Environmental Microbiology|c
+4|MCB410|Biodeterioration|c
+4|MCB411|Microbiological Quality Assurance|c
+4|MCB421|Seminar Presentation|c
+4|MCB499|Research Project|c

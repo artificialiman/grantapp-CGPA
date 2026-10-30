@@ -1,0 +1,2453 @@
+{
+ "department_slug": "nursing-science",
+ "faculty_slug": "allied-medical-sciences",
+ "faculty_name": "Allied Medical Sciences",
+ "source": "B.NSc Nursing Science outline compiled at studentship.com.ng/nursing-course-outline (aggregator, university not named; pre-CCMAS GSP codes replaced by the CCMAS general studies core; direct-entry-only repeats and an FHST-only course left out). Lower confidence than the NUC documents; check against the NUC Nursing CCMAS.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "BIO101",
+   "name": "Genetics for Medical Students",
+   "kind": "core",
+   "slug": "bio101",
+   "known_codes": "BIO101",
+   "aliases": [
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Genetics for Medical Students",
+   "summary": "Medical genetics: inheritance, genetic disease and counselling.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO151",
+   "name": "General Biology I",
+   "kind": "core",
+   "slug": "bio151",
+   "known_codes": "BIO101 (2), BIO151",
+   "aliases": [
+    {
+     "code": "BIO101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO151",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology I: Cell Biology and Diversity of Life",
+   "summary": "Cell structure and function, biomolecules, genetics and heredity, evolution and the classification of living organisms.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO152",
+   "name": "General Biology II",
+   "kind": "core",
+   "slug": "bio152",
+   "known_codes": "BIO102 (2), BIO152",
+   "aliases": [
+    {
+     "code": "BIO102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO152",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Biology II: Physiology and Ecology",
+   "summary": "Plant and animal physiology, reproduction, ecology, ecosystems and environmental biology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO154",
+   "name": "General Biology Practical",
+   "kind": "core",
+   "slug": "bio154",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Introductory Biology Laboratory",
+   "summary": "Combined practical sessions in microscopy, dissection and ecological sampling.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM101",
+   "name": "Basic Principles of Chemistry I",
+   "kind": "core",
+   "slug": "chm101",
+   "known_codes": "CHM101",
+   "aliases": [
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Principles of Chemistry I",
+   "summary": "General and physical chemistry for health students.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM112",
+   "name": "Basic Principles of Chemistry II",
+   "kind": "core",
+   "slug": "chm112",
+   "known_codes": "CHM112",
+   "aliases": [
+    {
+     "code": "CHM112",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "CHM112",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Principles of Chemistry II",
+   "summary": "Organic and inorganic chemistry for health students.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM122",
+   "name": "Basic Principles of Organic Chemistry II",
+   "kind": "core",
+   "slug": "chm122",
+   "known_codes": "CHM122",
+   "aliases": [
+    {
+     "code": "CHM122",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Principles of Organic Chemistry II",
+   "summary": "Organic functional groups and reactions for health students.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM171",
+   "name": "Basic Practical Chemistry",
+   "kind": "core",
+   "slug": "chm171",
+   "known_codes": "CHM171",
+   "aliases": [
+    {
+     "code": "CHM171",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "CHM171",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Practical Chemistry",
+   "summary": "Basic chemistry laboratory.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MAT111",
+   "name": "General Mathematics",
+   "kind": "core",
+   "slug": "mat111",
+   "known_codes": "MAT111",
+   "aliases": [
+    {
+     "code": "MAT111",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Mathematics",
+   "summary": "Algebra, calculus and statistics basics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY111",
+   "name": "General Physics for Life Sciences I",
+   "kind": "core",
+   "slug": "phy111",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "General Physics for Life Sciences I",
+   "summary": "Mechanics and heat for life sciences.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY112",
+   "name": "General Physics for Life Sciences II",
+   "kind": "core",
+   "slug": "phy112",
+   "known_codes": "PHY112",
+   "aliases": [
+    {
+     "code": "PHY112",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Physics for Life Sciences II",
+   "summary": "Electricity, waves and optics for life sciences.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY114",
+   "name": "General Physics for Life Sciences III",
+   "kind": "core",
+   "slug": "phy114",
+   "known_codes": "PHY114",
+   "aliases": [
+    {
+     "code": "PHY114",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Physics for Life Sciences III",
+   "summary": "Atomic and nuclear physics for life sciences.",
+   "psychometric": [
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY191",
+   "name": "Practical Physics",
+   "kind": "core",
+   "slug": "phy191",
+   "known_codes": "PHY109, PHY191",
+   "aliases": [
+    {
+     "code": "PHY191",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "PHY109",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "human-medicine"
+   ],
+   "general_name": "Introductory Physics Laboratory",
+   "summary": "Combined first-year physics experiments covering mechanics, heat, electricity and optics.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ZOO122",
+   "name": "Basic Parasitology",
+   "kind": "core",
+   "slug": "zoo122",
+   "known_codes": "ZOO122",
+   "aliases": [
+    {
+     "code": "ZOO122",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Parasitology",
+   "summary": "Introductory medical parasitology.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANA202",
+   "name": "Gross Human Anatomy II",
+   "kind": "core",
+   "slug": "ana202",
+   "known_codes": "ANA202",
+   "aliases": [
+    {
+     "code": "ANA202",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Gross Human Anatomy II",
+   "summary": "Pelvis, head and neck.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANAT201",
+   "name": "Gross Human Anatomy I",
+   "kind": "core",
+   "slug": "anat201",
+   "known_codes": "ANAT201",
+   "aliases": [
+    {
+     "code": "ANAT201",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Gross Human Anatomy I",
+   "summary": "Limbs, thorax and abdomen.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANAT213",
+   "name": "General Embryology",
+   "kind": "core",
+   "slug": "anat213",
+   "known_codes": "ANAT213",
+   "aliases": [
+    {
+     "code": "ANAT213",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine"
+   ],
+   "general_name": "General Embryology",
+   "summary": "Gametogenesis, fertilisation, cleavage, germ layers, organogenesis and common developmental anomalies.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANAT225",
+   "name": "General Histology and Cytology",
+   "kind": "core",
+   "slug": "anat225",
+   "known_codes": "ANAT225",
+   "aliases": [
+    {
+     "code": "ANAT225",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "General Histology and Cytology",
+   "summary": "Cell and tissue structure.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIC202",
+   "name": "Metabolism",
+   "kind": "core",
+   "slug": "bic202",
+   "known_codes": "BIC202",
+   "aliases": [
+    {
+     "code": "BIC202",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Metabolism",
+   "summary": "Carbohydrate, lipid and protein metabolism.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BIC203",
+   "name": "Introduction to Human Biochemistry",
+   "kind": "core",
+   "slug": "bic203",
+   "known_codes": "BIC203",
+   "aliases": [
+    {
+     "code": "BIC203",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Human Biochemistry",
+   "summary": "Biomolecules and enzymes.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "COS111",
+   "name": "Computer Sciences",
+   "kind": "core",
+   "slug": "cos111",
+   "known_codes": "COS111",
+   "aliases": [
+    {
+     "code": "COS111",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Computer Sciences",
+   "summary": "Computer basics and applications.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "NSC201",
+   "name": "Foundations of Nursing I",
+   "kind": "core",
+   "slug": "nsc201",
+   "known_codes": "NSC201",
+   "aliases": [
+    {
+     "code": "NSC201",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Foundations of Nursing I",
+   "summary": "Nursing concepts, history, hygiene and basic procedures.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "NSC202",
+   "name": "Foundations of Nursing II",
+   "kind": "core",
+   "slug": "nsc202",
+   "known_codes": "NSC202",
+   "aliases": [
+    {
+     "code": "NSC202",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Foundations of Nursing II",
+   "summary": "Vital signs, medication, wound care and patient assessment.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "NSC204",
+   "name": "Basic Nutrition in Nursing",
+   "kind": "core",
+   "slug": "nsc204",
+   "known_codes": "NSC204",
+   "aliases": [
+    {
+     "code": "NSC204",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Nutrition in Nursing",
+   "summary": "Nutrients, diets and nutritional assessment.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "NSC212",
+   "name": "Psychology in Nursing",
+   "kind": "core",
+   "slug": "nsc212",
+   "known_codes": "NSC212",
+   "aliases": [
+    {
+     "code": "NSC212",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Psychology in Nursing",
+   "summary": "Behaviour, communication and coping in patients.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "NSC262",
+   "name": "Nursing Practicum and Clinical",
+   "kind": "core",
+   "slug": "nsc262",
+   "known_codes": "NSC262",
+   "aliases": [
+    {
+     "code": "NSC262",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nursing Practicum and Clinical",
+   "summary": "Supervised ward practice of basic nursing care.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PYS201",
+   "name": "Human Physiology and Blood",
+   "kind": "core",
+   "slug": "pys201",
+   "known_codes": "PYS201",
+   "aliases": [
+    {
+     "code": "PYS201",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Human Physiology and Blood",
+   "summary": "Body fluids, blood and homeostasis.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PYS203",
+   "name": "Gastrointestinal Tract and Renal Physiology",
+   "kind": "core",
+   "slug": "pys203",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Gastrointestinal Tract and Renal Physiology",
+   "summary": "Digestion, kidney function and fluid balance.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PYS204",
+   "name": "Cardiovascular and Respiratory System",
+   "kind": "core",
+   "slug": "pys204",
+   "known_codes": "PYS204",
+   "aliases": [
+    {
+     "code": "PYS204",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Cardiovascular and Respiratory System",
+   "summary": "Heart, circulation and respiration.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANAT301",
+   "name": "Head and Neck Anatomy",
+   "kind": "core",
+   "slug": "anat301",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Head and Neck Anatomy",
+   "summary": "Skull, face and neck structures.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANAT303",
+   "name": "Neuroanatomy",
+   "kind": "core",
+   "slug": "anat303",
+   "known_codes": "ANA202",
+   "aliases": [
+    {
+     "code": "ANA202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine",
+    "pharmacy"
+   ],
+   "general_name": "Neuroanatomy: Central and Peripheral Nervous System",
+   "summary": "Brain, spinal cord, cranial and peripheral nerves, tracts and functional localisation with clinical correlations.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "COM351",
+   "name": "Biostatistics in Health Technology",
+   "kind": "core",
+   "slug": "com351",
+   "known_codes": "COM351",
+   "aliases": [
+    {
+     "code": "COM351",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biostatistics in Health Technology",
+   "summary": "Statistics for health data.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "COM353",
+   "name": "Sociology in Health Practice",
+   "kind": "core",
+   "slug": "com353",
+   "known_codes": "COM353",
+   "aliases": [
+    {
+     "code": "COM353",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Sociology in Health Practice",
+   "summary": "Society, culture and health behaviour.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "LAW151",
+   "name": "Medical Jurisprudence I",
+   "kind": "core",
+   "slug": "law151",
+   "known_codes": "LAW151",
+   "aliases": [
+    {
+     "code": "LAW151",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical Jurisprudence I",
+   "summary": "Law and ethics in health practice.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "LAW152",
+   "name": "Medical Jurisprudence II",
+   "kind": "core",
+   "slug": "law152",
+   "known_codes": "LAW152",
+   "aliases": [
+    {
+     "code": "LAW152",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical Jurisprudence II",
+   "summary": "Negligence, consent and professional liability.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MLS334",
+   "name": "Introduction to Medical Microbiology",
+   "kind": "core",
+   "slug": "mls334",
+   "known_codes": "MLS334",
+   "aliases": [
+    {
+     "code": "MLS334",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Medical Microbiology",
+   "summary": "Pathogens, infection and infection control.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC311",
+   "name": "Medical-Surgical Nursing I",
+   "kind": "core",
+   "slug": "nsc311",
+   "known_codes": "NSC311",
+   "aliases": [
+    {
+     "code": "NSC311",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical-Surgical Nursing I",
+   "summary": "Care of adults with common medical and surgical conditions.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC312",
+   "name": "Medical-Surgical Nursing II",
+   "kind": "core",
+   "slug": "nsc312",
+   "known_codes": "NSC312, NSC511",
+   "aliases": [
+    {
+     "code": "NSC312",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "NSC511",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical-Surgical Nursing II",
+   "summary": "Nursing care in complex medical and surgical conditions.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC313",
+   "name": "Pharmacology for Nurses",
+   "kind": "core",
+   "slug": "nsc313",
+   "known_codes": "NSC313",
+   "aliases": [
+    {
+     "code": "NSC313",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacology for Nurses",
+   "summary": "Drug groups, dosing, administration and safety.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC314",
+   "name": "Nutrition in Illness and Disease",
+   "kind": "core",
+   "slug": "nsc314",
+   "known_codes": "NSC314",
+   "aliases": [
+    {
+     "code": "NSC314",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nutrition in Illness and Disease",
+   "summary": "Therapeutic diets and nutrition support.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC316",
+   "name": "Paediatric Nursing",
+   "kind": "core",
+   "slug": "nsc316",
+   "known_codes": "NSC316",
+   "aliases": [
+    {
+     "code": "NSC316",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Paediatric Nursing",
+   "summary": "Care of infants and children.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC321",
+   "name": "Community Health Nursing I",
+   "kind": "core",
+   "slug": "nsc321",
+   "known_codes": "NSC321",
+   "aliases": [
+    {
+     "code": "NSC321",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Community Health Nursing I",
+   "summary": "Primary health care and community assessment.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC322",
+   "name": "Community Health Nursing II",
+   "kind": "core",
+   "slug": "nsc322",
+   "known_codes": "NSC322, NSC521",
+   "aliases": [
+    {
+     "code": "NSC322",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "NSC521",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Community Health Nursing II",
+   "summary": "Health promotion, immunisation and home care.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC341",
+   "name": "Family Health Nursing I",
+   "kind": "core",
+   "slug": "nsc341",
+   "known_codes": "NSC341",
+   "aliases": [
+    {
+     "code": "NSC341",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Family Health Nursing I",
+   "summary": "Family-centred care and health education.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC342",
+   "name": "Reproductive Health Nursing I",
+   "kind": "core",
+   "slug": "nsc342",
+   "known_codes": "NSC342",
+   "aliases": [
+    {
+     "code": "NSC342",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Reproductive Health Nursing I",
+   "summary": "Antenatal, intrapartum and postnatal care.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "NSC351",
+   "name": "Mental Health and Psychiatric Nursing",
+   "kind": "core",
+   "slug": "nsc351",
+   "known_codes": "NSC351",
+   "aliases": [
+    {
+     "code": "NSC351",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mental Health and Psychiatric Nursing",
+   "summary": "Mental illness, therapeutic communication and care.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PYS301",
+   "name": "Endocrinology and Reproduction",
+   "kind": "core",
+   "slug": "pys301",
+   "known_codes": "PYS301",
+   "aliases": [
+    {
+     "code": "PYS301",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Endocrinology and Reproduction",
+   "summary": "Hormones and reproductive physiology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CED341",
+   "name": "Introduction to Entrepreneurship",
+   "kind": "core",
+   "slug": "ced341",
+   "known_codes": "CED341, GST107 (2), GST223 (2)",
+   "aliases": [
+    {
+     "code": "CED341",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "GST107",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST223",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CED341",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Entrepreneurship Fundamentals",
+   "summary": "Entrepreneurial traits, opportunity identification, business basics and start-up planning.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CED342",
+   "name": "Business Development and Management",
+   "kind": "core",
+   "slug": "ced342",
+   "known_codes": "CED342",
+   "aliases": [
+    {
+     "code": "CED342",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "CED342",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Business Development and Management",
+   "summary": "Business planning and management for health ventures.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC412",
+   "name": "Medical-Surgical Nursing III",
+   "kind": "core",
+   "slug": "nsc412",
+   "known_codes": "NSC412",
+   "aliases": [
+    {
+     "code": "NSC412",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical-Surgical Nursing III",
+   "summary": "Advanced and critical care nursing.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC422",
+   "name": "Community Health Nursing III",
+   "kind": "core",
+   "slug": "nsc422",
+   "known_codes": "NSC422",
+   "aliases": [
+    {
+     "code": "NSC422",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Community Health Nursing III",
+   "summary": "Epidemiology, community programmes and outreach.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC432",
+   "name": "Introduction to Nursing Education",
+   "kind": "core",
+   "slug": "nsc432",
+   "known_codes": "NSC432",
+   "aliases": [
+    {
+     "code": "NSC432",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Nursing Education",
+   "summary": "Teaching, learning and clinical instruction.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC434",
+   "name": "Principles of Management and Administration in Nursing",
+   "kind": "core",
+   "slug": "nsc434",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Principles of Management and Administration in Nursing",
+   "summary": "Ward and service management.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC436",
+   "name": "Public Relations in Nursing",
+   "kind": "core",
+   "slug": "nsc436",
+   "known_codes": "NSC436",
+   "aliases": [
+    {
+     "code": "NSC436",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Public Relations in Nursing",
+   "summary": "Communication with patients, staff and the public.",
+   "psychometric": [
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC442",
+   "name": "Reproductive Health Nursing II",
+   "kind": "core",
+   "slug": "nsc442",
+   "known_codes": "NSC442",
+   "aliases": [
+    {
+     "code": "NSC442",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Reproductive Health Nursing II",
+   "summary": "Complicated pregnancy, labour and newborn care.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC461",
+   "name": "Community Health Nursing Clinical",
+   "kind": "core",
+   "slug": "nsc461",
+   "known_codes": "NSC461",
+   "aliases": [
+    {
+     "code": "NSC461",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Community Health Nursing Clinical",
+   "summary": "Clinical practice in community settings.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC463",
+   "name": "Medical-Surgical Nursing Clinical",
+   "kind": "core",
+   "slug": "nsc463",
+   "known_codes": "NSC463",
+   "aliases": [
+    {
+     "code": "NSC463",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical-Surgical Nursing Clinical",
+   "summary": "Supervised ward practice in adult nursing.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC465",
+   "name": "Mental Health and Psychiatric Nursing Clinical",
+   "kind": "core",
+   "slug": "nsc465",
+   "known_codes": "NSC465",
+   "aliases": [
+    {
+     "code": "NSC465",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Mental Health and Psychiatric Nursing Clinical",
+   "summary": "Psychiatric ward practice.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC467",
+   "name": "Maternal and Child Health Nursing Clinical",
+   "kind": "core",
+   "slug": "nsc467",
+   "known_codes": "NSC467",
+   "aliases": [
+    {
+     "code": "NSC467",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Maternal and Child Health Nursing Clinical",
+   "summary": "Maternity and paediatric clinical practice.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "NSC482",
+   "name": "Research Methodology",
+   "kind": "core",
+   "slug": "nsc482",
+   "known_codes": "MLS406, NSC482",
+   "aliases": [
+    {
+     "code": "MLS406",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "NSC482",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "Research Methodology",
+   "summary": "Research design, literature review, sampling, data collection, analysis, ethics and report writing.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC511",
+   "name": "Medical-Surgical Nursing 2",
+   "kind": "core",
+   "slug": "nsc511",
+   "known_codes": "NSC312, NSC511",
+   "aliases": [
+    {
+     "code": "NSC312",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "NSC511",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medical-Surgical Nursing II",
+   "summary": "Nursing care in complex medical and surgical conditions.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC521",
+   "name": "Community Health Nursing 2",
+   "kind": "core",
+   "slug": "nsc521",
+   "known_codes": "NSC322, NSC521",
+   "aliases": [
+    {
+     "code": "NSC322",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "NSC521",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Community Health Nursing II",
+   "summary": "Health promotion, immunisation and home care.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC523",
+   "name": "Gerontology and Geriatric Nursing",
+   "kind": "core",
+   "slug": "nsc523",
+   "known_codes": "NSC523",
+   "aliases": [
+    {
+     "code": "NSC523",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Gerontology and Geriatric Nursing",
+   "summary": "Care of older adults and age-related conditions.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC533",
+   "name": "Health Economics",
+   "kind": "core",
+   "slug": "nsc533",
+   "known_codes": "ECO209, NSC533",
+   "aliases": [
+    {
+     "code": "NSC533",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "ECO209",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Health Economics",
+   "summary": "Health financing, costs and resource allocation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC535",
+   "name": "Guidance and Counselling in Nursing",
+   "kind": "core",
+   "slug": "nsc535",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Guidance and Counselling in Nursing",
+   "summary": "Counselling skills and patient guidance.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC541",
+   "name": "Reproductive Health Nursing III",
+   "kind": "core",
+   "slug": "nsc541",
+   "known_codes": "NSC541",
+   "aliases": [
+    {
+     "code": "NSC541",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Reproductive Health Nursing III",
+   "summary": "Gynaecological, family planning and advanced obstetric nursing.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC562",
+   "name": "Client Teaching and Counselling Practicum",
+   "kind": "core",
+   "slug": "nsc562",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Client Teaching and Counselling Practicum",
+   "summary": "Practice of health teaching and counselling.",
+   "psychometric": [
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC564",
+   "name": "Nursing Administration and Management Practicum",
+   "kind": "core",
+   "slug": "nsc564",
+   "known_codes": "NSC564",
+   "aliases": [
+    {
+     "code": "NSC564",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nursing Administration and Management Practicum",
+   "summary": "Practice of ward and unit management.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Project management"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC566",
+   "name": "Reproductive Health Nursing Practicum",
+   "kind": "core",
+   "slug": "nsc566",
+   "known_codes": "NSC566",
+   "aliases": [
+    {
+     "code": "NSC566",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Reproductive Health Nursing Practicum",
+   "summary": "Clinical practice in maternity and gynaecology.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC571",
+   "name": "Nursing Seminar",
+   "kind": "core",
+   "slug": "nsc571",
+   "known_codes": "NSC571",
+   "aliases": [
+    {
+     "code": "NSC571",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nursing Seminar",
+   "summary": "Presenting nursing research and practice topics.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Research method"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "NSC592",
+   "name": "Project",
+   "kind": "core",
+   "slug": "nsc592",
+   "known_codes": "CSC499 (6), CVE561, EMT599, LAW588, MCB499 (5), MME510 (6), NSC592, PAA502, PEE500",
+   "aliases": [
+    {
+     "code": "CVE561",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "PEE500",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "EMT599",
+     "units": null,
+     "source": "funaab.edu.ng"
+    },
+    {
+     "code": "CSC499",
+     "units": 6,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "LAW588",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "MCB499",
+     "units": 5,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MME510",
+     "units": 6,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PAA502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "NSC592",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "civil-engineering",
+    "environmental-management-and-toxicology",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Final-Year Project",
+   "summary": "Supervised independent project: problem definition, literature review, method, results, dissertation and oral defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Project management",
+    "Professional communication"
+   ]
+  }
+ ]
+}

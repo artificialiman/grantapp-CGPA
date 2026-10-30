@@ -1,0 +1,39 @@
+# dept: petroleum-engineering
+# complete_years: 1,2,3,4,5
+# source: UNIBEN B.Eng Petroleum Engineering course structure (eng.uniben.edu), petroleum and thermo-fluid courses only; the engineering core (GET) is added from the CCMAS handbooks. UNIBEN's list is not CCMAS-coded and has no 100 level. Drilling Technology appears twice as "I" at 200 and 300 level; the 300-level one is read as II.
+# supersedes: Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids; Final Year Project
+@include gst
+@include engineering-core
+2|PEE211|Basic Petroleum Engineering|c
+2|PEE212|Drilling Technology I|c
+2|PEE281|Engineering Computer Programming|c
+3|MEE351|Thermodynamics I|c
+3|MEE352|Thermodynamics II|c
+3|MEE361|Fluid Mechanics|c
+3|PEE322|Petroleum Geology|c
+3|PEE331|Well Testing and Analysis|c
+3|PEE332|Computer Applications in Petroleum Engineering|c
+3|PEE342|Drilling Technology II|c
+3|PEE343|Engineering Geology|c
+3|PEE344|Reservoir Geomechanics|c
+3|PEE355|Drilling Fluid Systems and Engineering|c
+3|PEE358|Formation Evaluation|c
+4|PEE401|Petroleum Engineering Laboratory|c
+4|PEE411|Quality, Health, Safety and Environment Studies|c
+4|PEE431|Well Test Analysis|c
+4|PEE441|Offshore Technology|c
+4|PEE451|Well Logging|c
+4|PEE461|Reservoir Engineering I|c
+4|PEE471|Oil and Gas Production Technology I|c
+5|PEE500|Project|c
+5|PEE531|Oil Field Development I|c
+5|PEE532|Oil Field Development II|c
+5|PEE561|Reservoir Engineering II|c
+5|PEE562|Reservoir Engineering III|c
+5|PEE571|Oil and Gas Production Technology II|c
+5|PEE572|Oil and Gas Production Technology III|c
+5|PEE581|Natural Gas Engineering|c
+5|PEE582|Natural Gas Processing|c
+5|PEE591|Numerical Methods|c
+5|PEE592|Elements of Reservoir Simulation|c
+5|PEE593|Oil Recovery Processes|c

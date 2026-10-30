@@ -1,0 +1,94 @@
+# dept: pharmacy
+# complete_years: 1,2,3,4,5
+# source: NUC CCMAS Pharmacy and Pharmaceutical Sciences 2023, B.Pharm global course structure (nuc.edu.ng, Pharmacy-and-Pharmaceutical-Sciences-CCMAS-2023-FINAL.pdf). Official national document. Pharm.D (6-year) tables sit beyond the first 100,000 characters of that file and were not read.
+# supersedes:
+1|GST111|Communication in English I|c
+1|GST112|Nigerian Peoples and Culture|c
+1|BIO101|General Biology I|c
+1|BIO102|General Biology II|c
+1|BIO107|General Biology Practical I|c
+1|BIO108|General Biology Practical II|c
+1|CHM101|General Chemistry I|c
+1|CHM102|General Chemistry II|c
+1|CHM107|General Chemistry Practical I|c
+1|CHM108|General Chemistry Practical II|c
+1|MTH101|Elementary Mathematics I|c
+1|MTH102|Elementary Mathematics II|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY107|General Physics Practical I|c
+1|PHY108|General Physics Practical II|c
+1|PCY101|Introduction to Pharmacy|c
+2|GST212|Philosophy, Logic, Environment and Sustainable Development|c
+2|ENT211|Entrepreneurship and Innovation|c
+2|ANA201|Basic Anatomy|c
+2|ANA202|Neuroanatomy|c
+2|ANA203|Histology|c
+2|BCH201|Biochemistry|c
+2|BCH202|Introductory Molecular Biology|c
+2|PIO201|Introductory and Blood Physiology|c
+2|PIO202|Neurophysiology and Special Senses|c
+2|ICT201|Information and Communication Technology in Pharmacy I|c
+2|PCG201|Organised Vegetable Drugs|c
+2|PCG202|Unorganised Vegetable Drugs|c
+2|PCH201|Inorganic Pharmaceutical Chemistry|c
+2|PCH202|Physical Pharmaceutical Chemistry I|c
+2|PCH203|Organic Pharmaceutical Chemistry I|c
+2|PCT201|Introductory Pharmaceutics|c
+2|PCT202|Unit Operations|c
+2|PCT203|Dispensing Practical I|c
+2|PCT204|Dispensing Practical II|c
+2|PHM201|Introductory Pharmaceutical Microbiology|c
+3|GST312|Peace and Conflict Resolution|c
+3|ENT312|Venture Creation|c
+3|PAA399|Students Industrial Work Experience Scheme (SIWES)|c
+3|CLI301|Clinical Pharmacy I|c
+3|PAT301|Pathology|c
+3|PCG301|Separation Techniques in Pharmacognosy|c
+3|PCG302|Drugs of Biological Origin|c
+3|PCH301|Physical Pharmaceutical Chemistry II|c
+3|PCH302|Organic Pharmaceutical Chemistry II|c
+3|PCT301|Drug Dosage Forms|c
+3|PCT302|Physical Pharmaceutics I|c
+3|PCT303|Dispensing Practical III|c
+3|PCT304|Dispensing Practical IV|c
+3|PHA301|Introductory Pharmacology|c
+3|PHA302|Pharmacology of the Autonomic Nervous System|c
+3|PHA304|Pharmacology of the Haemopoietic System and Gastrointestinal Tract|c
+3|PHM301|Applied Pharmaceutical Microbiology I|c
+3|PSM301|Biostatistics|c
+3|SAP301|Pharmacoeconomics|c
+4|PAA499|Students Industrial Work Experience Scheme (SIWES)|c
+4|BTG401|Biotechnology|c
+4|CLI401|Clinical Pharmacy II|c
+4|CLI402|Clinical Pharmacy Externship|c
+4|ICT401|Information and Communication Technology in Pharmacy II|c
+4|PCG401|Phytochemistry and Biosynthesis of Natural Products|c
+4|PCG402|Medicinal Plants and Traditional Medicine|c
+4|PCH401|Pharmaceutical Analysis I|c
+4|PCH402|Medicinal Chemistry I|c
+4|PCT401|Pharmaceutical Technology|c
+4|PCT402|Physical Pharmaceutics II|c
+4|PCT403|Industrial Pharmacy|c
+4|PHA401|Pharmacology of the Cardiovascular System|c
+4|PHA402|Pharmacology of the Central Nervous System|c
+4|PHM401|Applied Pharmaceutical Microbiology II|c
+4|SAP401|Pharmacy Management I|c
+4|SAP402|Forensic Pharmacy and Pharmacy Ethics|c
+5|PAA501|Veterinary Pharmacy|c
+5|PAA502|Project|c
+5|CLI501|Clinical Pharmacy III|c
+5|CLI502|Literature Evaluation and Communication Skills|c
+5|CLI503|Public Health Pharmacy|c
+5|CLI504|Clinical Pharmacy Clerkship II|c
+5|CLI505|Clinical Pharmacy Clerkship I|c
+5|PCG501|Evaluation of Phytopharmaceuticals|c
+5|PCG502|Clinical Pharmacognosy: Traditional Medicine Practice|c
+5|PCH501|Pharmaceutical Analysis II and Drug Quality Assurance|c
+5|PCH502|Medicinal Chemistry II|c
+5|PCH503|Principles of Drug Design|c
+5|PCT501|Formulation Processes and Process Validation|c
+5|PCT502|Production and Quality Control of Cosmetics|c
+5|PHA501|Chemotherapy|c
+5|PHM501|Pharmaceutical Microbiology III|c
+5|SAP502|Pharmaceutical Marketing|c

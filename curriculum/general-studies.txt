@@ -1,0 +1,5 @@
+# dept: general-studies
+# complete_years:
+# source: NUC CCMAS university-wide general studies core. The existing GST101-GST106, GST201, GST301 and GST302 rows in the database follow the older numbering and are not CCMAS; they are left untouched.
+# supersedes:
+@include gst

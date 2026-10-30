@@ -1,0 +1,1814 @@
+{
+ "faculties": [
+  {
+   "slug": "medicine-and-surgery",
+   "name": "Medicine and Surgery (MBBS)",
+   "roster_pending": [
+    "Dental Surgery (BDS)"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "human-medicine",
+     "courses": 116,
+     "by_year": {
+      "1": 14,
+      "2": 27,
+      "3": 22,
+      "4": 22,
+      "5": 27,
+      "6": 4
+     }
+    }
+   ]
+  },
+  {
+   "slug": "allied-medical-sciences",
+   "name": "Allied Medical Sciences",
+   "roster_pending": [
+    "Physiotherapy",
+    "Radiography and Radiation Science",
+    "Optometry",
+    "Public Health",
+    "Nutrition and Dietetics",
+    "Medical Rehabilitation",
+    "Dental Technology and Therapy",
+    "Anatomy",
+    "Physiology"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "medical-laboratory-science",
+     "courses": 85,
+     "by_year": {
+      "1": 16,
+      "2": 17,
+      "3": 21,
+      "4": 17,
+      "5": 14,
+      "6": 0
+     }
+    },
+    {
+     "slug": "nursing-science",
+     "courses": 77,
+     "by_year": {
+      "1": 16,
+      "2": 17,
+      "3": 20,
+      "4": 13,
+      "5": 11,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "pharmacy",
+   "name": "Pharmacy",
+   "roster_pending": [],
+   "open": [],
+   "departments": [
+    {
+     "slug": "pharmacy",
+     "courses": 90,
+     "by_year": {
+      "1": 17,
+      "2": 20,
+      "3": 19,
+      "4": 17,
+      "5": 17,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "engineering",
+   "name": "Engineering",
+   "roster_pending": [
+    "Computer Engineering",
+    "Industrial and Production Engineering",
+    "Mechatronics Engineering",
+    "Marine Engineering",
+    "Structural Engineering",
+    "Water Resources Engineering",
+    "Food Science Engineering",
+    "Polymer and Textile Engineering"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "civil-engineering",
+     "courses": 91,
+     "by_year": {
+      "1": 18,
+      "2": 18,
+      "3": 23,
+      "4": 15,
+      "5": 17,
+      "6": 0
+     }
+    },
+    {
+     "slug": "mechanical-engineering",
+     "courses": 53,
+     "by_year": {
+      "1": 19,
+      "2": 16,
+      "3": 13,
+      "4": 3,
+      "5": 2,
+      "6": 0
+     }
+    },
+    {
+     "slug": "electrical-and-electronic-engineering",
+     "courses": 80,
+     "by_year": {
+      "1": 19,
+      "2": 16,
+      "3": 17,
+      "4": 14,
+      "5": 14,
+      "6": 0
+     }
+    },
+    {
+     "slug": "chemical-engineering",
+     "courses": 85,
+     "by_year": {
+      "1": 19,
+      "2": 16,
+      "3": 19,
+      "4": 12,
+      "5": 19,
+      "6": 0
+     }
+    },
+    {
+     "slug": "petroleum-engineering",
+     "courses": 80,
+     "by_year": {
+      "1": 18,
+      "2": 17,
+      "3": 21,
+      "4": 10,
+      "5": 14,
+      "6": 0
+     }
+    },
+    {
+     "slug": "agricultural-and-bioresources-engineering",
+     "courses": 97,
+     "by_year": {
+      "1": 19,
+      "2": 14,
+      "3": 19,
+      "4": 11,
+      "5": 34,
+      "6": 0
+     }
+    },
+    {
+     "slug": "metallurgical-and-materials-engineering",
+     "courses": 86,
+     "by_year": {
+      "1": 19,
+      "2": 16,
+      "3": 20,
+      "4": 13,
+      "5": 18,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "sciences",
+   "name": "Sciences",
+   "roster_pending": [
+    "Biology",
+    "Botany",
+    "Zoology",
+    "Chemistry",
+    "Physics",
+    "Geology"
+   ],
+   "open": [
+    "biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences."
+   ],
+   "departments": [
+    {
+     "slug": "biochemistry",
+     "courses": 64,
+     "by_year": {
+      "1": 19,
+      "2": 15,
+      "3": 15,
+      "4": 15,
+      "5": 0,
+      "6": 0
+     }
+    },
+    {
+     "slug": "microbiology",
+     "courses": 61,
+     "by_year": {
+      "1": 18,
+      "2": 20,
+      "3": 10,
+      "4": 13,
+      "5": 0,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "applied-sciences",
+   "name": "Applied Sciences",
+   "roster_pending": [
+    "Industrial Chemistry",
+    "Biotechnology",
+    "Food Science and Technology",
+    "Applied Geophysics",
+    "Environmental Science"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "environmental-management-and-toxicology",
+     "courses": 49,
+     "by_year": {
+      "1": 21,
+      "2": 2,
+      "3": 7,
+      "4": 6,
+      "5": 13,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "computing-and-mathematics",
+   "name": "Computing and Mathematics",
+   "roster_pending": [
+    "Software Engineering",
+    "Information Technology",
+    "Information Systems",
+    "Data Science",
+    "Artificial Intelligence",
+    "Mathematics",
+    "Statistics"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "computer-science",
+     "courses": 49,
+     "by_year": {
+      "1": 13,
+      "2": 15,
+      "3": 10,
+      "4": 6,
+      "5": 5,
+      "6": 0
+     }
+    },
+    {
+     "slug": "cybersecurity",
+     "courses": 53,
+     "by_year": {
+      "1": 14,
+      "2": 13,
+      "3": 13,
+      "4": 13,
+      "5": 0,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "banking-and-finance",
+   "name": "Banking and Finance",
+   "roster_pending": [
+    "Banking and Finance",
+    "Accounting",
+    "Actuarial Science",
+    "Business Administration"
+   ],
+   "open": [
+    "economics: not confirmed in the NUC list read so far. Left here under the founder manifest; move only if the NUC list shows a Social Sciences faculty."
+   ],
+   "departments": [
+    {
+     "slug": "insurance",
+     "courses": 65,
+     "by_year": {
+      "1": 21,
+      "2": 15,
+      "3": 16,
+      "4": 13,
+      "5": 0,
+      "6": 0
+     }
+    },
+    {
+     "slug": "economics",
+     "courses": 75,
+     "by_year": {
+      "1": 17,
+      "2": 20,
+      "3": 16,
+      "4": 22,
+      "5": 0,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "linguistics",
+   "name": "Linguistics",
+   "roster_pending": [
+    "Linguistics",
+    "English Language",
+    "French",
+    "Yoruba",
+    "Igbo",
+    "Hausa",
+    "Mass Communication"
+   ],
+   "open": [],
+   "departments": []
+  },
+  {
+   "slug": "law",
+   "name": "Law",
+   "roster_pending": [
+    "Islamic Law (Sharia)",
+    "Civil Law"
+   ],
+   "open": [],
+   "departments": [
+    {
+     "slug": "common-law",
+     "courses": 70,
+     "by_year": {
+      "1": 8,
+      "2": 12,
+      "3": 16,
+      "4": 18,
+      "5": 16,
+      "6": 0
+     }
+    }
+   ]
+  },
+  {
+   "slug": "general-studies",
+   "name": "General Studies",
+   "roster_pending": [],
+   "open": [],
+   "departments": [
+    {
+     "slug": "general-studies",
+     "courses": 6,
+     "by_year": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 0,
+      "5": 0,
+      "6": 0
+     }
+    }
+   ]
+  }
+ ],
+ "shared_courses": [
+  {
+   "name": "Nigerian Peoples and Culture",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Philosophy, Logic and Human Existence",
+   "years": [
+    1,
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Entrepreneurship and Innovation",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Peace and Conflict Resolution",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Venture Creation",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Communication in English",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "General Physics I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Physics II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Physics I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Physics II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Chemistry I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Chemistry II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Elementary Mathematics I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Elementary Mathematics II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Chemistry I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Chemistry II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "SIWES I (Students Industrial Work Experience Scheme)",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "SIWES II (Students Industrial Work Experience Scheme)",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Elementary Mathematics III",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "General Physics III",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "General Physics IV",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Probability I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineer in Society",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Graphics and Solid Modelling I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Applied Electricity I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Materials",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Graphics and Solid Modelling II",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Students Workshop Practice",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Fundamentals of Fluid Mechanics",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Fundamentals of Thermodynamics",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Applied Mechanics",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Strength of Materials",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Mathematics I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Mathematics II",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Computing and Software Engineering",
+   "years": [
+    2
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Mathematics III",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Mathematics IV",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Technical Writing and Communication",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Statistics and Data Analytics",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Renewable Energy Systems and Technology",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Introduction to Artificial Intelligence, Machine Learning and Convergent Technologies",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Economics",
+   "years": [
+    3
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Project I",
+   "years": [
+    4
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Valuation and Costing",
+   "years": [
+    4
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "SIWES III (Students Industrial Work Experience Scheme)",
+   "years": [
+    4
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Project Management",
+   "years": [
+    5
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Engineering Law",
+   "years": [
+    5
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "General Biology I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "nursing-science",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Biology II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "nursing-science",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Project",
+   "years": [
+    5
+   ],
+   "departments": [
+    "civil-engineering",
+    "environmental-management-and-toxicology",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Biology I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Practical Biology II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Introduction to Computing Sciences",
+   "years": [
+    1
+   ],
+   "departments": [
+    "biochemistry",
+    "computer-science",
+    "cybersecurity",
+    "medical-laboratory-science",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Final Year Project I",
+   "years": [
+    4,
+    5
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering"
+   ]
+  },
+  {
+   "name": "Final Year Project II",
+   "years": [
+    4,
+    5
+   ],
+   "departments": [
+    "agricultural-and-bioresources-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering"
+   ]
+  },
+  {
+   "name": "Research Project",
+   "years": [
+    4,
+    5
+   ],
+   "departments": [
+    "biochemistry",
+    "insurance",
+    "medical-laboratory-science",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "General Biochemistry I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "medical-laboratory-science",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "General Biochemistry II",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "medical-laboratory-science",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Organic Chemistry I",
+   "years": [
+    1,
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "human-medicine",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Neuroanatomy",
+   "years": [
+    2,
+    3
+   ],
+   "departments": [
+    "human-medicine",
+    "nursing-science",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "General Biochemistry Practical",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "Histology of Basic Tissues",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "Physical Chemistry I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Inorganic Chemistry I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "biochemistry",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Organic Chemistry II",
+   "years": [
+    1,
+    3
+   ],
+   "departments": [
+    "biochemistry",
+    "human-medicine"
+   ]
+  },
+  {
+   "name": "Immunology and Immunochemistry",
+   "years": [
+    4
+   ],
+   "departments": [
+    "biochemistry",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Engineering Geology",
+   "years": [
+    3
+   ],
+   "departments": [
+    "civil-engineering",
+    "petroleum-engineering"
+   ]
+  },
+  {
+   "name": "Introduction to Psychology",
+   "years": [
+    1
+   ],
+   "departments": [
+    "common-law",
+    "insurance"
+   ]
+  },
+  {
+   "name": "Problem Solving",
+   "years": [
+    1
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Descriptive Statistics",
+   "years": [
+    1
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Computer Programming I",
+   "years": [
+    2
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Computer Programming II",
+   "years": [
+    2
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Introduction to Software Engineering",
+   "years": [
+    2
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Systems Analysis and Design",
+   "years": [
+    2
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Introduction to Cybersecurity and Strategy",
+   "years": [
+    2
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Data Management I",
+   "years": [
+    3
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Data Communication Systems and Networks",
+   "years": [
+    3
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Data Structures",
+   "years": [
+    2,
+    3
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Operating Systems",
+   "years": [
+    3
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Artificial Intelligence",
+   "years": [
+    3
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Algorithms and Complexity Analysis",
+   "years": [
+    2,
+    4
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Research Methodology and Technical Report Writing",
+   "years": [
+    4,
+    5
+   ],
+   "departments": [
+    "computer-science",
+    "cybersecurity"
+   ]
+  },
+  {
+   "name": "Principles of Economics I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "economics",
+    "insurance"
+   ]
+  },
+  {
+   "name": "Principles of Economics II",
+   "years": [
+    1
+   ],
+   "departments": [
+    "economics",
+    "insurance"
+   ]
+  },
+  {
+   "name": "Operations Research",
+   "years": [
+    3
+   ],
+   "departments": [
+    "economics",
+    "insurance"
+   ]
+  },
+  {
+   "name": "Seminar",
+   "years": [
+    5
+   ],
+   "departments": [
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "Practical Physics",
+   "years": [
+    1
+   ],
+   "departments": [
+    "human-medicine",
+    "nursing-science"
+   ]
+  },
+  {
+   "name": "General Embryology",
+   "years": [
+    2
+   ],
+   "departments": [
+    "human-medicine",
+    "nursing-science"
+   ]
+  },
+  {
+   "name": "General Physiology",
+   "years": [
+    2
+   ],
+   "departments": [
+    "human-medicine",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "General Pharmacology",
+   "years": [
+    3
+   ],
+   "departments": [
+    "human-medicine",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "General Pathology",
+   "years": [
+    3
+   ],
+   "departments": [
+    "human-medicine",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "Introduction to Microbiology (Pathology)",
+   "years": [
+    1,
+    3
+   ],
+   "departments": [
+    "human-medicine",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Systemic Pharmacology",
+   "years": [
+    3,
+    4
+   ],
+   "departments": [
+    "human-medicine",
+    "medical-laboratory-science"
+   ]
+  },
+  {
+   "name": "Chemotherapy",
+   "years": [
+    4,
+    5
+   ],
+   "departments": [
+    "human-medicine",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Communication in English I",
+   "years": [
+    1
+   ],
+   "departments": [
+    "insurance",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Introduction to Entrepreneurship",
+   "years": [
+    1,
+    4
+   ],
+   "departments": [
+    "insurance",
+    "nursing-science"
+   ]
+  },
+  {
+   "name": "Introductory Physiology and Blood",
+   "years": [
+    2
+   ],
+   "departments": [
+    "medical-laboratory-science",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Biostatistics",
+   "years": [
+    2,
+    3
+   ],
+   "departments": [
+    "medical-laboratory-science",
+    "pharmacy"
+   ]
+  },
+  {
+   "name": "Molecular Biology and Microbial Genetics",
+   "years": [
+    3
+   ],
+   "departments": [
+    "medical-laboratory-science",
+    "microbiology"
+   ]
+  },
+  {
+   "name": "Research Methodology",
+   "years": [
+    4
+   ],
+   "departments": [
+    "medical-laboratory-science",
+    "nursing-science"
+   ]
+  }
+ ]
+}

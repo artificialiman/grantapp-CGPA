@@ -1,0 +1,79 @@
+# dept: economics
+# complete_years: 1,2,3,4
+# source: Year 1 CCMAS B.Sc. Economics at UNIOSUN; year 2 and year 4 from UNN (socialscs.unn.edu.ng/economics-course-modules); year 3 from UNIBEN (waeup.uniben.edu). UNN publishes no year 3, so numbering differs between years.
+# supersedes:
+1|GST111|Communication in English|c
+1|GST112|Nigerian Peoples and Culture|c
+1|ECO101|Principles of Economics I|c
+1|ECO102|Principles of Economics II|c
+1|ECO103|Introductory Mathematics I|c
+1|ECO104|Introductory Mathematics II|c
+1|ACC101|Introduction to Financial Accounting I|c
+1|ACC102|Introduction to Financial Accounting II|c
+1|BUA101|Introduction to Business I|c
+1|BUA102|Introduction to Business II|c
+1|DSS101|Introduction to Population Studies and Demography|c
+1|POL101|Introduction to Political Science|c
+1|SOC101|Introduction to Sociology I|c
+1|SOC106|Introduction to Sociology II|c
+1|EHR102|Introduction to Employment Relations|c
+1|SSC101|Statistics for Social Sciences I|c
+1|SSC102|Statistics for Social Sciences II|c
+2|GST212|Philosophy, Logic and Human Existence|c
+2|ENT211|Entrepreneurship and Innovation|c
+2|ECO201|Microeconomic Theory I|c
+2|ECO202|Microeconomic Theory II|c
+2|ECO203|Macroeconomic Theory I|c
+2|ECO204|Macroeconomic Theory II|c
+2|ECO221|Monetary Economics and Finance|c
+2|ECO231|Intermediate Economic Statistics I|c
+2|ECO232|Intermediate Economic Statistics II|c
+2|ECO233|Intermediate Mathematical Economics I|c
+2|ECO234|Intermediate Mathematical Economics II|c
+2|ECO236|Computing Applications for Economists|c
+2|ECO281|History and Structure of the Nigerian Economy I|c
+2|ECO282|History and Structure of the Nigerian Economy II|c
+2|ECO223|Intermediate Business Accounting|e
+2|ECO271|Theories of Human Resources|e
+2|ECO273|Labour Economics|e
+2|ECO262|Urban and Regional Economics|e
+2|ECO264|Introduction to Environmental Economics|e
+2|ECO266|Introduction to Health Economics|e
+3|GST312|Peace and Conflict Resolution|c
+3|ENT312|Venture Creation|c
+3|ECO311|Economic Development I|c
+3|ECO312|Monetary Economics|c
+3|ECO313|Econometrics I|c
+3|ECO314|International Economics|c
+3|ECO315|Project Analysis and Evaluation|c
+3|ECO317|Macroeconomics I|c
+3|ECO318|Introduction to Research Methods|c
+3|ECO321|Microeconomic Theory II|c
+3|ECO323|Economic Development II|c
+3|ECO324|Introduction to Public Finance|c
+3|ECO325|Econometrics II|c
+3|ECO326|Applied Statistics|c
+3|ECO327|Financial Institutions|c
+3|ECO329|Operations Research|c
+4|ECO401|Advanced Microeconomic Theory and Policy I|c
+4|ECO402|Advanced Microeconomic Theory and Policy II|c
+4|ECO403|Advanced Macroeconomic Theory and Policy I|c
+4|ECO404|Advanced Macroeconomic Theory and Policy II|c
+4|ECO421|Advanced Public Sector Economics|c
+4|ECO423|Public Policy|c
+4|ECO431|Advanced Statistics and Econometrics I|c
+4|ECO432|Advanced Statistics and Econometrics II|c
+4|ECO452|Economics of Production|c
+4|ECO461|Advanced Development Economics|c
+4|ECO462|Economics of Planning|c
+4|ECO463|Comparative Economic Systems|c
+4|ECO475|Project Appraisal I|c
+4|ECO476|Project Appraisal II|c
+4|ECO478|Project Report|c
+4|ECO433|Advanced Mathematical Economics|e
+4|ECO451|Energy Economics|e
+4|ECO453|Advanced Demography and Population Economics|e
+4|ECO471|Industrial Relations and Personnel Management|e
+4|ECO428|Advanced Monetary Economics|e
+4|ECO464|Health Economics and Health Policy|e
+4|ECO466|Climate and Environmental Economics|e
