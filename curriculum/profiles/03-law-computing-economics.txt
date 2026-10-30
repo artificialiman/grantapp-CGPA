@@ -1,0 +1,168 @@
+Transportation Engineering III||Advanced highway, rail, airport and urban transport design and planning.|NUM SPA|DES PM
+Legal Methods I|Legal Methods (Sources and Techniques of Law)|Nature and sources of law, Nigerian legislation, case law, precedent, statutory interpretation, legal research and citation.|VER CRT MEM|LEG RES COM
+Legal Methods II|Legal Methods II (Reasoning, Research and Writing)|Judicial precedent, interpretation, legal reasoning, case briefing, law reports and legal writing.|VER CRT|LEG RES COM
+Introduction to Logic|Introduction to Formal and Informal Logic|Arguments, validity, syllogisms, fallacies and reasoning applied to legal and everyday argument.|LOG CRT|COM
+Introduction to Social and Political Philosophy||Theories of justice, state, rights, liberty and authority.|CRT VER|COM ETH
+English for Legal Writing||Grammar, drafting style, plain-language legal expression and legal vocabulary.|VER DET|COM LEG
+Constitutional Law I|Constitutional Law of Nigeria I|Constitution, rule of law, separation of powers, federalism, executive and legislative powers under the 1999 Constitution.|VER CRT MEM|LEG ETH
+Constitutional Law II|Constitutional Law of Nigeria II|Judiciary, fundamental rights, citizenship, emergency powers, local government and constitutional amendment.|VER CRT MEM|LEG ETH
+Nigerian Legal System I|Nigerian Legal System I (Sources and Courts)|Sources of Nigerian law, hierarchy and jurisdiction of courts, customary and Islamic law.|MEM VER|LEG
+Nigerian Legal System II|Nigerian Legal System II (Practice and Institutions)|Legal profession, judicial process, administration of justice and law reform.|MEM VER|LEG ETH
+Law of Contract I|Law of Contract I (Formation)|Offer, acceptance, consideration, capacity, intention and the form of contracts.|VER CRT MEM|LEG
+Law of Contract II|Law of Contract II (Terms and Remedies)|Terms, misrepresentation, mistake, duress, illegality, discharge and remedies for breach.|VER CRT MEM|LEG
+Criminology I||Theories of crime, measurement of crime and its causes.|CRT VER|RES CUS
+Criminology II||Punishment, penology, victimology and crime prevention.|CRT VER|RES CUS
+Administrative Law I||Powers of administrative bodies, delegated legislation and administrative decision-making.|VER CRT|LEG
+Administrative Law II||Judicial review, remedies and accountability of public authorities.|VER CRT|LEG
+Criminal Law I|Criminal Law I (General Principles)|Actus reus, mens rea, defences, parties to crime and inchoate offences.|VER CRT MEM|LEG
+Criminal Law II|Criminal Law II (Specific Offences)|Offences against the person, property and the state under the Criminal and Penal Codes.|VER CRT MEM|LEG
+Law of Torts I|Law of Torts I (Negligence)|Negligence, duty of care, breach, causation, damage and defences.|VER CRT MEM|LEG
+Law of Torts II|Law of Torts II (Other Torts)|Trespass, nuisance, defamation, strict liability and vicarious liability.|VER CRT MEM|LEG
+Commercial Law I|Commercial Law I (Sale of Goods)|Sale of goods, agency, hire purchase and carriage of goods.|VER MEM|LEG FIN
+Commercial Law II|Commercial Law II (Negotiable Instruments and Credit)|Bills of exchange, cheques, bailment, security and consumer protection.|VER MEM|LEG FIN
+Entrepreneurship Skills||Business ideas, start-up planning and small-business management.|CRT|ENT
+Entrepreneurship Practical||Practical business-plan project and mini-enterprise.|CRT|ENT PM
+Law of Intellectual Property I||Copyright, patents, trademarks and designs: principles.|VER MEM|LEG
+Law of Intellectual Property II||Enforcement, licensing, passing off and international IP treaties.|VER MEM|LEG
+Family Law I||Marriage, divorce and the legal regimes of statutory, customary and Islamic marriage.|VER CRT|LEG CUS
+Family Law II||Children, custody, maintenance, succession and property in families.|VER CRT|LEG CUS
+Health Law I||Medical negligence, consent, patient rights and health regulation.|VER CRT|LEG ETH
+Health Law II||Reproductive rights, public-health law and medical ethics.|VER CRT|LEG ETH
+Law of Evidence I||Admissibility, relevance, hearsay, documentary and real evidence under the Evidence Act.|VER MEM DET|LEG
+Law of Evidence II||Competence, witnesses, burden and standard of proof, presumptions and privilege.|VER MEM DET|LEG
+Equity and Trusts I||Equitable principles, maxims, remedies, injunction and specific performance.|VER CRT|LEG
+Equity and Trusts II||Express, resulting and constructive trusts, trustees' duties and breach of trust.|VER CRT|LEG FIN
+Property Law I|Land and Property Law I|Estates and interests in land, tenure, land use and the Land Use Act.|VER MEM|LEG
+Property Law II|Land and Property Law II|Leases, mortgages, easements, registration and transfer of title.|VER MEM|LEG
+Clinical and Moot Court Practice I||Legal clinic, client interviewing, counselling and mock-court advocacy.|VER CRT|LEG COM CUS
+Clinical and Moot Court Practice II||Trial advocacy, drafting pleadings, mooting and clinical legal practice.|VER CRT|LEG COM
+Industrial Law I||Employment contract, termination and labour standards.|VER CRT|LEG
+Industrial Law II||Trade unions, collective bargaining, industrial disputes and the National Industrial Court.|VER CRT|LEG
+International Law I|Public International Law I|Sources, subjects, state recognition, treaties and state responsibility.|VER CRT|LEG
+International Law II|Public International Law II|Use of force, international organisations, dispute settlement and law of the sea.|VER CRT|LEG
+Environmental Law and Policy I||Principles and institutions of environmental protection and regulation.|VER CRT|LEG HSE
+Environmental Law and Policy II||Pollution control, climate law, resource law and enforcement.|VER CRT|LEG HSE
+Banking and Insurance Law I||Banker-customer relationship, bank regulation and payment systems.|VER MEM|LEG FIN
+Banking and Insurance Law II||Insurance contract principles, types of insurance and claims.|VER MEM|LEG FIN
+Human Rights Law I||Human-rights theory, the African Charter and the Nigerian Bill of Rights.|VER CRT|LEG ETH
+Human Rights Law II||Enforcement of rights, remedies and regional and international mechanisms.|VER CRT|LEG ETH
+Jurisprudence and Legal Theory I||Natural law, positivism, realism and sociological theories of law.|CRT VER LOG|LEG
+Jurisprudence and Legal Theory II||Justice, rights, legal reasoning and modern legal theories.|CRT VER LOG|LEG ETH
+Company Law I||Incorporation, corporate personality, capital, directors and shareholders under CAMA.|VER MEM|LEG FIN
+Company Law II||Share capital, corporate governance, insolvency, winding up and mergers.|VER MEM|LEG FIN
+Long Essay||Supervised legal research essay with defence.|CRT VER DET|RES LEG COM
+Nigeria Law Enforcement||Police powers, criminal procedure, arrest, bail and prosecution.|VER CRT|LEG ETH
+Gender Rights Law I||Gender equality law, discrimination and women's rights.|VER CRT|LEG ETH
+Gender Rights Law II||Gender-based violence, family and property rights, and advocacy.|VER CRT|LEG CUS
+International Humanitarian Law I||Laws of armed conflict, Geneva Conventions and protection of civilians.|VER CRT|LEG ETH
+International Humanitarian Law II||War crimes, international criminal tribunals and enforcement.|VER CRT|LEG ETH
+Oil and Gas Law I||Petroleum ownership, licences and joint-venture arrangements in Nigeria.|VER MEM|LEG FIN
+Oil and Gas Law II||Contracts, host-community law, pollution liability and arbitration.|VER MEM|LEG HSE
+Revenue Law I||Principles of taxation, income and company taxes in Nigeria.|VER NUM|LEG FIN
+Revenue Law II||VAT, capital gains, customs and tax administration and disputes.|VER NUM|LEG FIN
+Conveyancing I||Drafting of sale, lease and mortgage documents.|VER DET|LEG
+Conveyancing II||Land transactions, searches, registration and conveyancing practice.|VER DET|LEG
+Statistical Computing I||Using statistical software for data summaries, simulation and basic modelling.|NUM LOG|DAT PRG
+Digital Logic Design||Number systems, Boolean algebra, logic gates, combinational and sequential circuits.|LOG|DES
+Mathematical Methods I||Sequences and series, multivariable calculus, vector analysis and applications.|NUM LOG|DAT
+Elementary Differential Equations||First- and second-order ordinary differential equations and Laplace transforms.|NUM LOG|DAT
+Discrete Structures||Logic, sets, relations, functions, graphs, counting and proof methods.|LOG|PRG
+Human-Computer Interface||Interaction design, usability, user research and interface evaluation.|CRT SPA|DES
+Web Application Development||HTML, CSS, JavaScript, server-side scripting and database-driven sites.|LOG|PRG DES
+Statistics for Physical Sciences and Engineering||Probability, estimation, hypothesis testing and regression for scientific data.|NUM LOG|DAT
+Computer Architecture and Organisation||CPU structure, instruction sets, memory hierarchy, I/O and pipelining.|LOG|DES
+Introduction to Numerical Analysis||Error analysis, root finding, interpolation, numerical integration and linear systems.|NUM LOG|PRG DAT
+Computer Science and Entrepreneurship||Starting technology ventures, product development and software business models.|CRT|ENT PM
+Data Management II||Advanced SQL, transactions, indexing, distributed and NoSQL databases.|LOG DET|DES DAT PRG
+Mobile Communication and Networking||Wireless and cellular systems, mobile protocols and mobile networking.|LOG|DES
+Web Development using Content Management System||Building sites with a CMS: themes, plugins, content and deployment.|LOG|PRG DES
+Distributed Computer Systems||Distributed architecture, communication, replication, consistency and fault tolerance.|LOG|DES PRG
+Project Management||Project life cycle, planning, scheduling, risk and teams.|LOG CRT|PM COM
+Ethics and Legal Issues in Computer Science||Professional ethics, privacy, intellectual property and computer law.|CRT VER|ETH LEG
+Introduction to Computer Programming||First programming course: syntax, control flow, functions and debugging.|LOG DET|PRG
+Introduction to Application Packages||Word processing, spreadsheets, presentations and office tools.|DET|COM DAT
+Introduction to Information and Communication Technology||ICT concepts, devices, networks, the Internet and digital literacy.|VER|COM
+Cybercrime, Law and Countermeasures||Types of cybercrime, Nigerian cyber law and investigation and prevention.|CRT VER|SEC LEG ETH
+Computer Architecture and Organization||CPU, memory and I/O organisation and instruction execution.|LOG|DES
+Number Theory||Divisibility, congruences, primes and applications in cryptography.|NUM LOG|DAT
+Cryptography Techniques, Algorithms and Applications||Symmetric and public-key cryptography, hashing, signatures and protocols.|NUM LOG|SEC PRG
+Biometrics Security||Fingerprint, face and iris recognition, enrolment and biometric system security.|LOG DET|SEC DES
+Cybersecurity Risk Analysis, Challenges and Mitigation||Risk assessment, controls, frameworks and incident response.|CRT LOG|SEC PM
+Information and Big Data Security||Data protection, privacy, access control and securing big-data platforms.|LOG|SEC DAT
+Digital Forensics and Investigation Methods||Evidence acquisition, disk and memory forensics and chain of custody.|DET LOG|SEC ETH LAB
+Cybersecurity Innovation and New Technologies||Security of IoT, AI, cloud and blockchain and emerging threats.|CRT LOG|SEC DES
+Systems Vulnerability Assessment and Testing||Scanning, penetration testing and vulnerability reporting.|LOG DET|SEC LAB
+Steganography: Access Methods and Data Hiding||Hiding data in media and detecting it.|LOG DET|SEC PRG
+Cyber Threat Intelligence and Cyber Conflict||Threat actors, intelligence collection and state-level cyber operations.|CRT LOG|SEC DAT
+Cloud Computing Security||Securing cloud services, identity, encryption and compliance.|LOG|SEC DES
+Ethical Hacking and Reverse Engineering||Authorised attack techniques, exploit analysis and binary reverse engineering.|LOG DET|SEC PRG ETH
+Deep and Dark Web Security||Anonymity networks, hidden services and threat monitoring.|CRT LOG|SEC ETH
+Network Security||Firewalls, VPNs, intrusion detection and secure network design.|LOG|SEC DES
+Malware Analysis||Static and dynamic analysis of malicious code and defence.|LOG DET|SEC PRG LAB
+Blockchain Technology and Application||Distributed ledgers, consensus, smart contracts and applications.|LOG|PRG DES SEC
+Open-Source Software Development and Applications||Open-source licensing, collaboration, Git and community contribution.|LOG|PRG PM
+Introductory Mathematics I||Algebra, functions and calculus basics for business and economics.|NUM LOG|FIN DAT
+Introductory Mathematics II||Matrices, optimisation and mathematics for economics.|NUM LOG|FIN DAT
+Introduction to Financial Accounting I||Accounting principles, double entry, ledgers and trial balance.|NUM DET|FIN
+Introduction to Financial Accounting II||Final accounts, adjustments, depreciation and financial statements.|NUM DET|FIN
+Introduction to Business I||Forms of business, management functions and business environment.|VER CRT|ENT COM
+Introduction to Business II||Marketing, operations, finance and organisational behaviour basics.|VER CRT|ENT COM
+Introduction to Population Studies and Demography||Population size, growth, fertility, mortality and migration.|NUM CRT|DAT RES
+Introduction to Political Science||State, government, ideologies, institutions and political systems.|VER CRT|RES COM
+Introduction to Sociology I||Society, culture, social structure and social institutions.|VER CRT|RES
+Introduction to Sociology II||Social change, deviance, stratification and social research.|VER CRT|RES
+Introduction to Employment Relations||Employer-employee relations, unions and workplace law.|VER CRT|COM LEG
+Statistics for Social Sciences I||Descriptive statistics and probability for social data.|NUM LOG|DAT
+Statistics for Social Sciences II||Inference, correlation and regression for social science.|NUM LOG|DAT
+Microeconomic Theory I||Consumer behaviour, demand, utility and production theory.|NUM LOG|FIN DAT
+Microeconomic Theory II||Market structures, general equilibrium, welfare and game theory.|NUM LOG|FIN DAT
+Macroeconomic Theory I||National income, consumption, investment and the IS-LM model.|NUM LOG|FIN DAT
+Macroeconomic Theory II||Inflation, unemployment, growth and open-economy models.|NUM LOG|FIN DAT
+Monetary Economics and Finance||Money, banking, central banking, interest rates and financial markets.|NUM CRT|FIN
+Intermediate Economic Statistics I||Probability and estimation for economists.|NUM LOG|DAT
+Intermediate Economic Statistics II||Hypothesis testing, regression and index numbers.|NUM LOG|DAT
+Intermediate Mathematical Economics I||Calculus and optimisation applied to economic models.|NUM LOG|FIN
+Intermediate Mathematical Economics II||Linear algebra, dynamic models and difference equations in economics.|NUM LOG|FIN
+Computing Applications for Economists||Spreadsheets and statistical software for economic data.|LOG DET|DAT PRG
+History and Structure of the Nigerian Economy I||Pre-colonial and colonial economy, agriculture and trade.|VER MEM|FIN RES
+History and Structure of the Nigerian Economy II||Post-independence development, oil, planning and reforms.|VER MEM|FIN RES
+Intermediate Business Accounting||Company accounts, partnership accounts and financial reporting.|NUM DET|FIN
+Theories of Human Resources||Labour supply, human capital and personnel theories.|CRT VER|FIN
+Labour Economics||Wages, employment, unemployment and labour-market policy.|NUM CRT|FIN DAT
+Urban and Regional Economics||City growth, location theory and regional policy.|NUM CRT|FIN
+Introduction to Environmental Economics||Externalities, valuation and environmental policy instruments.|NUM CRT|FIN
+Introduction to Health Economics||Health markets, financing, insurance and cost effectiveness.|NUM CRT|FIN
+Economic Development I||Growth theories, poverty, inequality and development indicators.|CRT NUM|FIN RES
+Monetary Economics||Money demand and supply, monetary policy and inflation.|NUM CRT|FIN
+Econometrics I||Simple and multiple regression, OLS and diagnostics.|NUM LOG|DAT
+International Economics||Trade theory, tariffs, exchange rates and balance of payments.|NUM CRT|FIN
+Project Analysis and Evaluation||Cost-benefit analysis, NPV, IRR and project appraisal.|NUM CRT|FIN PM
+Macroeconomics I||Aggregate demand, supply and macroeconomic policy.|NUM LOG|FIN
+Introduction to Research Methods||Research design, sampling, data collection and reporting.|CRT LOG|RES DAT
+Economic Development II||Development planning, institutions, aid and sustainable development.|CRT NUM|FIN RES
+Introduction to Public Finance||Taxation, public expenditure, budgets and fiscal federalism.|NUM CRT|FIN
+Econometrics II||Heteroskedasticity, autocorrelation, time series and simultaneous equations.|NUM LOG|DAT
+Applied Statistics||Statistical methods applied to economic data and surveys.|NUM LOG|DAT
+Financial Institutions||Banks, insurance, capital markets and regulation.|CRT NUM|FIN
+Advanced Microeconomic Theory and Policy I||Advanced consumer and firm theory with policy applications.|NUM LOG|FIN
+Advanced Microeconomic Theory and Policy II||Welfare economics, information economics and market failure.|NUM LOG|FIN
+Advanced Macroeconomic Theory and Policy I||Modern macroeconomic models and stabilisation policy.|NUM LOG|FIN
+Advanced Macroeconomic Theory and Policy II||Growth, open-economy macro and policy design.|NUM LOG|FIN
+Advanced Public Sector Economics||Public goods, taxation theory and public expenditure analysis.|NUM CRT|FIN
+Public Policy||Policy cycle, design, implementation and evaluation.|CRT VER|FIN COM
+Advanced Statistics and Econometrics I||Advanced regression, estimation and inference.|NUM LOG|DAT
+Advanced Statistics and Econometrics II||Time-series, panel data and applied econometrics.|NUM LOG|DAT
+Economics of Production||Production functions, cost, productivity and industrial organisation.|NUM LOG|FIN
+Advanced Development Economics||Development models, trade and growth strategies.|CRT NUM|FIN RES
+Economics of Planning||Planning techniques, input-output analysis and plan evaluation.|NUM CRT|FIN PM
+Comparative Economic Systems||Capitalism, socialism and mixed economies compared.|CRT VER|FIN
+Project Appraisal I||Financial and economic appraisal of projects.|NUM CRT|FIN PM
+Project Appraisal II||Risk, sensitivity analysis and social cost-benefit analysis.|NUM CRT|FIN PM
+Project Report||Supervised research report on an economic problem.|CRT NUM DET|RES DAT COM
+Advanced Mathematical Economics||Optimisation, dynamic programming and mathematical models.|NUM LOG|FIN
+Energy Economics||Energy markets, pricing, policy and demand.|NUM CRT|FIN
+Advanced Demography and Population Economics||Population dynamics and economic effects.|NUM CRT|DAT FIN
+Industrial Relations and Personnel Management||Labour relations, recruitment, pay and personnel practice.|CRT VER|COM LEG
+Advanced Monetary Economics||Monetary transmission, central banking and financial crises.|NUM LOG|FIN
+Health Economics and Health Policy||Health financing, insurance schemes and policy.|NUM CRT|FIN
+Climate and Environmental Economics||Carbon pricing, climate policy and environmental valuation.|NUM CRT|FIN

@@ -1,0 +1,104 @@
+# title | general (composite) name | summary of the course scheme | psychometric tags | industrial tags
+# Tags: see PSY and IND in scripts/build-curriculum.py
+Nigerian Peoples and Culture|Nigerian Peoples, Cultures and Heritage (African Studies)|Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.|VER MEM|COM
+Philosophy, Logic and Human Existence|Introduction to Philosophy, Formal Logic and Ethics|Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.|LOG CRT VER|COM ETH
+Entrepreneurship and Innovation|Entrepreneurship, Innovation and Small-Business Foundations|Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.|CRT NUM|ENT COM
+Peace and Conflict Resolution|Peace Studies and Conflict Resolution|Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.|CRT VER|COM CUS
+Venture Creation|Venture Creation and Start-up Practice|Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.|CRT NUM|ENT PM FIN
+Communication in English|Academic English: Communication Skills and Writing|Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.|VER DET|COM
+Communication in English I|Academic English: Communication Skills and Writing I|First-semester academic English: grammar, sentence structure, comprehension, summary and essay writing.|VER DET|COM
+Communication in English II|Academic English: Communication Skills and Writing II|Second-semester academic English: advanced writing, report and technical writing, oral presentation and library use.|VER DET|COM
+General Physics I|Introductory Mechanics and Properties of Matter|Units and dimensions, vectors, kinematics, Newton's laws, work, energy, momentum, rotational motion, gravitation, elasticity and fluids.|NUM MEC LOG|DAT LAB
+General Physics II|Introductory Electricity, Magnetism and Waves|Electric fields, potential, capacitance, DC circuits, magnetism, induction, AC basics, then waves and optics.|NUM LOG MEC|DAT LAB
+General Physics III|Introductory Heat, Thermodynamics, Waves and Optics|Temperature, heat transfer, gas laws, laws of thermodynamics, oscillations, wave motion, sound, light and optical instruments.|NUM LOG|DAT LAB
+General Physics IV|Introductory Modern Physics and Electronics|Atomic structure, quantum ideas, radioactivity, nuclear physics, relativity basics and introductory semiconductor electronics.|NUM LOG|DAT
+General Practical Physics I|Introductory Physics Laboratory I|Measurement, error analysis and experiments in mechanics, heat and properties of matter, with report writing.|DET NUM|LAB DAT COM
+General Practical Physics II|Introductory Physics Laboratory II|Experiments in electricity, magnetism, optics and waves, with graph work and error analysis.|DET NUM|LAB DAT COM
+Practical Physics|Introductory Physics Laboratory|Combined first-year physics experiments covering mechanics, heat, electricity and optics.|DET NUM|LAB DAT
+Elementary Mathematics I|Pre-calculus: Algebra, Trigonometry and Coordinate Geometry|Sets, number systems, polynomials, inequalities, functions, logarithms, trigonometry, complex numbers and sequences.|NUM LOG|DAT
+Elementary Mathematics II|Introductory Calculus|Limits, continuity, differentiation, applications of derivatives, integration, areas and volumes, and basic differential equations.|NUM LOG|DAT
+Elementary Mathematics III|Vectors, Analytic Geometry and Introductory Mechanics|Vector algebra, lines and planes in space, conic sections, kinematics, statics and particle dynamics.|NUM SPA LOG|DES
+General Chemistry I|Atomic Structure, Bonding and Physical Chemistry I|Atomic structure, periodic table, bonding, stoichiometry, states of matter, gas laws, thermochemistry and chemical equilibrium.|NUM LOG MEM|LAB
+General Chemistry II|Introductory Inorganic and Organic Chemistry|Kinetics, electrochemistry, acids and bases, periodic trends, main-group chemistry, and introduction to organic compounds and reactions.|NUM LOG MEM|LAB
+General Practical Chemistry I|Introductory Chemistry Laboratory I|Safe lab practice, volumetric analysis, titrations, qualitative tests and simple physical-chemistry experiments.|DET NUM|LAB HSE DAT
+General Practical Chemistry II|Introductory Chemistry Laboratory II|Qualitative inorganic analysis, organic functional-group tests, kinetics and electrochemistry experiments.|DET NUM|LAB HSE DAT
+SIWES I (Students Industrial Work Experience Scheme)|Industrial Training I (SIWES)|Supervised short industrial placement (about 9 weeks) after second year: workplace observation, logbook and a placement report.|DET CRT|COM HSE PM
+SIWES II (Students Industrial Work Experience Scheme)|Industrial Training II (SIWES)|Supervised 12-week placement after third year with deeper hands-on work in a firm, a logbook and an assessed report.|DET CRT|COM HSE PM
+SIWES III (Students Industrial Work Experience Scheme)|Industrial Training III (SIWES)|Final 12-week placement after fourth year with project-level duties, supervisor assessment and a report.|DET CRT|COM HSE PM
+Engineer in Society|Introduction to the Engineering Profession and Society|Engineering disciplines, history, ethics, COREN and professional bodies, safety, sustainability and the engineer's duty to society.|VER CRT|ETH COM HSE
+Engineering Graphics and Solid Modelling I|Engineering Drawing and Computer-Aided Design I|Drawing instruments, lettering, orthographic projection, sectioning, dimensioning and an introduction to 2D CAD.|SPA DET|CAD DES
+Engineering Graphics and Solid Modelling II|Engineering Drawing and Computer-Aided Design II|Isometric and auxiliary views, assembly drawings, 3D solid modelling and CAD practice.|SPA DET|CAD DES
+Probability I|Introductory Probability Theory|Sample spaces, counting, conditional probability, Bayes' rule, random variables, expectation and common distributions.|NUM LOG|DAT
+Applied Electricity I|Basic Electrical Circuits and Machines for Engineers|DC and AC circuit laws, network theorems, magnetism, transformers and introduction to electrical machines and measurements.|NUM MEC LOG|DES LAB HSE
+Applied Mechanics|Engineering Mechanics: Statics and Dynamics|Force systems, equilibrium, friction, centroids, moments of inertia, kinematics and kinetics of particles and rigid bodies.|MEC NUM SPA|DES
+Computing and Software Engineering|Programming and Software Engineering for Engineers|Algorithms, programming in a high-level language, problem solving with code, basic software life cycle and tools.|LOG DET|PRG DES
+Engineering Materials|Materials Science for Engineers|Atomic structure, crystal structures, mechanical properties, metals, polymers, ceramics, composites, corrosion and material selection.|MEM MEC|DES LAB
+Engineering Mathematics I|Advanced Calculus and Linear Algebra for Engineers|Multivariable calculus, series, matrices, determinants, eigenvalues and ordinary differential equations.|NUM LOG|DAT DES
+Engineering Mathematics II|Differential Equations and Transforms for Engineers|Higher-order differential equations, Laplace transforms, Fourier series, vector calculus and complex variables.|NUM LOG|DAT DES
+Engineering Mathematics III|Applied Mathematics for Engineers III|Partial differential equations, vector analysis, complex analysis and numerical methods used in engineering analysis.|NUM LOG|DAT DES
+Engineering Mathematics IV|Applied Mathematics for Engineers IV|Numerical analysis, optimisation, statistics and transform methods applied to engineering problems.|NUM LOG|DAT DES
+Fundamentals of Fluid Mechanics|Introductory Fluid Mechanics|Fluid properties, hydrostatics, continuity, Bernoulli's equation, momentum, pipe flow and dimensional analysis.|NUM MEC SPA|DES
+Fundamentals of Thermodynamics|Engineering Thermodynamics I|Energy, first and second laws, properties of pure substances, ideal gases, entropy and basic power and refrigeration cycles.|NUM MEC LOG|DES
+Strength of Materials|Mechanics of Materials|Stress and strain, axial, torsion and bending loads, shear and moment diagrams, deflection, buckling and combined stresses.|NUM MEC SPA|DES
+Students Workshop Practice|Engineering Workshop Technology and Practice|Hands-on use of hand tools and machines: fitting, welding, machining, carpentry and sheet metal, with workshop safety.|MEC SPA|MFG HSE
+Engineering Economics|Engineering Economics and Cost Analysis|Time value of money, cash-flow analysis, project appraisal, depreciation, cost-benefit analysis and replacement decisions.|NUM CRT|FIN PM
+Engineering Statistics and Data Analytics|Statistics and Data Analytics for Engineers|Descriptive statistics, probability distributions, estimation, hypothesis tests, regression, quality control and data-analysis tools.|NUM LOG|DAT
+Introduction to Artificial Intelligence, Machine Learning and Convergent Technologies|Introduction to AI, Machine Learning and Emerging Technologies|Concepts of AI and machine learning, data, simple models, ethics, and convergent technologies such as IoT, robotics and blockchain.|LOG CRT|PRG DAT ETH
+Renewable Energy Systems and Technology|Renewable Energy Systems|Solar, wind, hydro, biomass and geothermal resources, conversion technologies, storage, grid integration and energy policy.|NUM MEC|DES HSE
+Technical Writing and Communication|Technical Writing and Professional Communication|Technical reports, proposals, documentation, presentations, correspondence and referencing.|VER DET|COM
+Engineering Project I|Engineering Project I (Proposal and Design)|Student chooses a supervised problem, reviews literature, sets objectives and methods, and presents a proposal.|CRT LOG|PM RES DES
+Engineering Valuation and Costing|Engineering Valuation, Estimating and Costing|Cost estimation, bills of quantities, tendering, asset valuation and depreciation for engineering works.|NUM DET|FIN PM
+Engineering Law|Engineering Law and Contracts|Law of contract, tort and negligence, professional liability, intellectual property, labour and engineering regulations in Nigeria.|VER CRT|ETH LEG
+Engineering Project Management|Engineering Project Management|Project life cycle, scheduling (CPM/PERT), resource planning, risk, quality, procurement and project control.|LOG NUM CRT|PM FIN
+General Biology I|Introductory Biology I: Cell Biology and Diversity of Life|Cell structure and function, biomolecules, genetics and heredity, evolution and the classification of living organisms.|MEM LOG|LAB
+General Biology II|Introductory Biology II: Physiology and Ecology|Plant and animal physiology, reproduction, ecology, ecosystems and environmental biology.|MEM LOG|LAB FLD
+General Biology Practical I|Introductory Biology Laboratory I|Microscopy, cell and tissue observation, dissections and basic biological techniques with drawings.|DET MEM|LAB HSE
+General Biology Practical II|Introductory Biology Laboratory II|Practicals on plant and animal physiology, ecology sampling and identification.|DET MEM|LAB FLD
+General Biology Practical|Introductory Biology Laboratory|Combined practical sessions in microscopy, dissection and ecological sampling.|DET MEM|LAB FLD
+Introduction to Computing Sciences|Introduction to Computer Science and Information Technology|History and generations of computers, hardware, software, operating systems, networks, number systems and the Internet, with productivity tools.|LOG VER|PRG COM
+Project|Final-Year Project|Supervised independent project: problem definition, literature review, method, results, dissertation and oral defence.|CRT LOG DET|RES PM COM
+Final Year Project I|Final Year Project I (Proposal and Design)|First part of the final-year project: topic selection, literature review, method and preliminary results.|CRT LOG|RES PM COM
+Final Year Project II|Final Year Project II (Implementation and Defence)|Second part: implementation, results, dissertation writing and oral defence.|CRT LOG DET|RES PM COM
+Research Project|Undergraduate Research Project|Independent supervised research with data collection, analysis, thesis and defence.|CRT LOG DET|RES DAT COM
+Organic Chemistry I|Introductory Organic Chemistry: Structure, Bonding and Reactions|Hydrocarbons, alkyl halides, alcohols, stereochemistry, reaction mechanisms and functional groups.|MEM LOG SPA|LAB
+Organic Chemistry II|Intermediate Organic Chemistry: Carbonyls, Aromatics and Synthesis|Aromatic compounds, aldehydes, ketones, carboxylic acids, amines and synthetic strategy.|MEM LOG SPA|LAB
+General Biochemistry I|Introductory Biochemistry I: Biomolecules and Enzymes|Structure and function of carbohydrates, lipids, amino acids, proteins and nucleic acids, plus enzyme basics.|MEM LOG|LAB
+General Biochemistry II|Introductory Biochemistry II: Metabolism|Bioenergetics, glycolysis, TCA cycle, oxidative phosphorylation, lipid and amino-acid metabolism.|MEM LOG|LAB
+Neuroanatomy|Neuroanatomy: Central and Peripheral Nervous System|Brain, spinal cord, cranial and peripheral nerves, tracts and functional localisation with clinical correlations.|MEM SPA DET|CLN
+Descriptive Statistics|Descriptive Statistics and Data Presentation|Data types, summary measures, graphs, probability basics and introduction to distributions.|NUM LOG|DAT
+Introduction to Entrepreneurship|Entrepreneurship Fundamentals|Entrepreneurial traits, opportunity identification, business basics and start-up planning.|CRT|ENT FIN
+Introduction to Microbiology|Introduction to Microbiology|History, microbial diversity, bacteria, viruses, fungi, protozoa, sterilisation, culture and microbes in health and industry.|MEM LOG|LAB HSE
+Introduction to Psychology|Introduction to Psychology|Scientific study of behaviour: learning, memory, perception, motivation, personality, development and abnormal psychology.|VER CRT MEM|CUS RES
+Principles of Economics I|Principles of Microeconomics|Scarcity, demand and supply, elasticity, consumer theory, firms and market structures.|NUM LOG CRT|FIN DAT
+Principles of Economics II|Principles of Macroeconomics|National income, inflation, unemployment, money and banking, fiscal and monetary policy, trade and growth.|NUM LOG CRT|FIN DAT
+Problem Solving|Computational Problem Solving and Algorithms|Problem analysis, algorithm design, flowcharts, pseudocode and basic programming constructs.|LOG NUM|PRG DES
+Algorithms and Complexity Analysis|Design and Analysis of Algorithms|Sorting, searching, divide and conquer, greedy and dynamic programming, graph algorithms and Big-O analysis.|LOG NUM|PRG DES
+Biostatistics|Biostatistics|Probability, distributions, estimation, hypothesis testing, chi-square, regression and study design for health and biological data.|NUM LOG|DAT RES
+Computer Programming I|Introduction to Programming I|Variables, control structures, functions, arrays and structured programming in a high-level language.|LOG DET|PRG
+Computer Programming II|Programming II: Object-Oriented Programming|Classes and objects, inheritance, polymorphism, file handling, exceptions and larger programs.|LOG DET|PRG DES
+Data Structures|Data Structures|Arrays, linked lists, stacks, queues, trees, graphs, hashing and their complexity.|LOG|PRG DES
+General Biochemistry Practical|Biochemistry Laboratory I|Qualitative and quantitative tests for biomolecules, spectrophotometry, enzyme assays and lab reports.|DET NUM|LAB HSE DAT
+General Embryology|General Embryology|Gametogenesis, fertilisation, cleavage, germ layers, organogenesis and common developmental anomalies.|MEM SPA|CLN
+General Physiology|General Physiology|Cell physiology, membranes, body fluids, homeostasis, excitable tissues, muscle and transport.|MEM LOG|CLN LAB
+Histology of Basic Tissues|General Histology|Microscopic structure of epithelial, connective, muscle and nervous tissue and its slide identification.|MEM DET SPA|LAB CLN
+Inorganic Chemistry I|Inorganic Chemistry I: Structure and Periodicity|Atomic and molecular structure, periodic trends, bonding theories and chemistry of main-group elements.|MEM LOG|LAB
+Introduction to Cybersecurity and Strategy|Introduction to Cybersecurity|Threats, attacks, vulnerabilities, CIA triad, risk, security policy and national cyber strategy.|LOG CRT|SEC ETH
+Introduction to Software Engineering|Introduction to Software Engineering|Software life cycle, requirements, design, testing, maintenance, version control and agile methods.|LOG DET|PRG DES PM
+Introductory and Blood Physiology|Introductory Physiology and Blood|Body fluid compartments, blood composition, haemostasis, immunity and blood groups.|MEM LOG|CLN LAB
+Physical Chemistry I|Physical Chemistry I: Thermodynamics and Kinetics|Gas laws, thermodynamics, thermochemistry, chemical equilibrium and reaction rates.|NUM LOG|LAB DAT
+Systems Analysis and Design|Systems Analysis and Design|Requirements gathering, modelling with UML and data-flow diagrams, system design and implementation planning.|LOG CRT|DES PM COM
+Artificial Intelligence|Artificial Intelligence|Search, knowledge representation, logic, planning, uncertainty and introductory machine learning.|LOG CRT|PRG DAT
+Data Communication Systems and Networks|Data Communications and Computer Networks|Signals, transmission media, OSI/TCP-IP models, LAN/WAN, routing, protocols and network security basics.|LOG|DES SEC
+Data Management I|Database Systems I|Relational model, ER modelling, SQL, normalisation and database design.|LOG DET|PRG DES DAT
+Engineering Geology|Engineering Geology|Rocks, minerals, geological structures, groundwater, site investigation and geohazards for engineering works.|MEM SPA|FLD DES
+General Pathology|General Pathology|Cell injury, inflammation, repair, neoplasia, haemodynamic disorders and general disease mechanisms.|MEM LOG|CLN LAB
+General Pharmacology|General Pharmacology|Pharmacokinetics, pharmacodynamics, drug receptors, adverse effects and drug interactions.|MEM LOG|CLN
+Microbial Genetics and Molecular Biology|Microbial Genetics and Molecular Biology|Bacterial and viral genetics, gene transfer, mutation, gene regulation and recombinant DNA techniques.|MEM LOG|LAB
+Operating Systems|Operating Systems|Processes, scheduling, memory management, file systems, concurrency and deadlock.|LOG|PRG DES
+Operations Research|Operations Research and Optimisation|Linear programming, transportation, assignment, network models, queues and decision analysis.|NUM LOG|DAT PM
+Systemic Pharmacology|Systemic Pharmacology|Drugs acting on organ systems: cardiovascular, respiratory, gastrointestinal, renal and endocrine.|MEM LOG|CLN
+Chemotherapy|Chemotherapy of Infectious Diseases and Cancer|Antibacterial, antiviral, antifungal, antiparasitic and anticancer drugs, resistance and rational use.|MEM LOG|CLN
+Immunology and Immunochemistry|Immunology|Innate and adaptive immunity, antigens, antibodies, hypersensitivity, autoimmunity, vaccines and immunoassays.|MEM LOG|LAB CLN
+Research Methodology|Research Methodology|Research design, literature review, sampling, data collection, analysis, ethics and report writing.|CRT LOG|RES DAT COM
+Research Methodology and Technical Report Writing|Research Methods and Technical Report Writing|Research design, data collection and analysis, referencing, technical report and thesis writing.|CRT LOG VER|RES COM
+Seminar|Seminar Presentation|Student researches a topic, writes a paper and presents it for departmental assessment.|VER CRT|COM RES

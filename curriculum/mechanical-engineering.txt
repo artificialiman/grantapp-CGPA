@@ -1,0 +1,12 @@
+# dept: mechanical-engineering
+# complete_years: 1,2
+# source: MOUAU B.Eng Mechanical Engineering CCMAS Handbook (ceet.mouau.edu.ng), years 1-3 departmental courses only; the engineering core (GET) is added from the CCMAS handbooks. The handbook's 400 and 500 levels were not reached: years 3 to 5 beyond the three courses below are UNRESEARCHED and the database's existing placeholder rows stay until a source is found.
+# supersedes: Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+1||Introduction to Mechanical Engineering|c
+2|MEE221|Engineering Metrology|c
+2|MEE222|Electronics of Mechanical Systems|c
+3|MEE311|Fundamentals of Mechanisms and Machines|c
+3|MEE312|Mechanical Engineering Design I|c
+3|MEE313|Manufacturing Technology|c

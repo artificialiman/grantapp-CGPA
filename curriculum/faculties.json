@@ -1,0 +1,78 @@
+{
+  "_note": "Faculty classification for the UI. status: PROPOSED = placement is the researcher's reading of Nigerian university practice and awaits the founder; OPEN = real universities disagree, the founder must decide. roster_pending = departments that belong in the faculty but have not been researched yet (names only, no course lists).",
+  "faculties": [
+    {
+      "slug": "medicine-and-surgery",
+      "name": "Medicine and Surgery (MBBS)",
+      "departments": ["human-medicine"],
+      "roster_pending": ["Dental Surgery (BDS)"]
+    },
+    {
+      "slug": "allied-medical-sciences",
+      "name": "Allied Medical Sciences",
+      "departments": ["medical-laboratory-science", "nursing-science"],
+      "roster_pending": ["Physiotherapy", "Radiography and Radiation Science", "Optometry", "Public Health", "Nutrition and Dietetics", "Medical Rehabilitation", "Dental Technology and Therapy", "Anatomy", "Physiology"],
+      "open": ["nursing-science: many universities put Nursing in its own College of Health Sciences or in Medicine. Placed here because the user's list has no nursing faculty."]
+    },
+    {
+      "slug": "pharmacy",
+      "name": "Pharmacy",
+      "departments": ["pharmacy"],
+      "roster_pending": [],
+      "open": ["Pharmacy is a faculty of its own at almost every Nigerian university and is not in the user's list. Kept separate; move it into allied-medical-sciences if the founder prefers."]
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "departments": ["civil-engineering", "mechanical-engineering", "electrical-and-electronic-engineering", "chemical-engineering", "petroleum-engineering", "agricultural-and-bioresources-engineering", "metallurgical-and-materials-engineering"],
+      "roster_pending": ["Computer Engineering", "Industrial and Production Engineering", "Mechatronics Engineering", "Marine Engineering", "Structural Engineering", "Water Resources Engineering", "Food Science Engineering", "Polymer and Textile Engineering"]
+    },
+    {
+      "slug": "sciences",
+      "name": "Sciences",
+      "departments": ["biochemistry", "microbiology"],
+      "roster_pending": ["Biology", "Botany", "Zoology", "Chemistry", "Physics", "Geology"],
+      "open": ["biochemistry and microbiology: universities split between Sciences and Applied/Life Sciences."]
+    },
+    {
+      "slug": "applied-sciences",
+      "name": "Applied Sciences",
+      "departments": ["environmental-management-and-toxicology"],
+      "roster_pending": ["Industrial Chemistry", "Biotechnology", "Food Science and Technology", "Applied Geophysics", "Environmental Science"]
+    },
+    {
+      "slug": "computing-and-mathematics",
+      "name": "Computing and Mathematics",
+      "departments": ["computer-science", "cybersecurity"],
+      "roster_pending": ["Software Engineering", "Information Technology", "Information Systems", "Data Science", "Artificial Intelligence", "Mathematics", "Statistics"]
+    },
+    {
+      "slug": "banking-and-finance",
+      "name": "Banking and Finance",
+      "departments": ["insurance", "economics"],
+      "roster_pending": ["Banking and Finance", "Accounting", "Actuarial Science", "Business Administration"],
+      "open": ["economics: sits in Social Sciences or Management Sciences at most universities; placed here because the user's list has no social-sciences faculty."]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "departments": [],
+      "roster_pending": ["Linguistics", "English Language", "French", "Yoruba", "Igbo", "Hausa", "Mass Communication"]
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "departments": ["common-law"],
+      "roster_pending": ["Islamic Law (Sharia)", "Civil Law"],
+      "open": ["Law is not in the user's list. Kept as its own faculty because the app already has it and no university merges it into another."]
+    }
+  ],
+  "cross_cutting": [
+    {
+      "slug": "general-studies",
+      "name": "General Studies",
+      "departments": ["general-studies"],
+      "note": "University-wide core (GST/ENT). Shown to every student; not a faculty a student enrols in."
+    }
+  ]
+}

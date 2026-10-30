@@ -1,0 +1,84 @@
+# dept: medical-laboratory-science
+# complete_years: 1,2,3,4,5
+# source: CCMAS B.Sc. Medical Laboratory Science (khairun.edu.ng/?p=796); institution prefix removed from added courses; the two "Professional Examination" lines are examinations, not courses, and are left out.
+# supersedes:
+@include gst
+1|BIO101|General Biology I|c
+1|BIO102|General Biology II|c
+1|BIO107|General Practical Biology I|c
+1|BIO108|General Practical Biology II|c
+1|CHM101|General Chemistry I|c
+1|CHM102|General Chemistry II|c
+1|CHM107|General Practical Chemistry I|c
+1|CHM108|General Practical Chemistry II|c
+1|COS101|Introduction to Computing Sciences|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|MTH101|Mathematics for Health Sciences|c
+2|ANA203|General and Systemic Embryology|c
+2|BCH201|General Biochemistry I|c
+2|BCH202|General Biochemistry II|c
+2|BCH203|General Biochemistry Practical|c
+2|ANA202|Histology of Basic Tissues|c
+2|ANA201|Anatomy of Upper and Lower Limb|c
+2|MCB201|Introduction to General Microbiology|c
+2|MLS201|Introduction to Medical Laboratory Science|c
+2|PIO201|Introductory Physiology and Blood|c
+2|PIO203|Physiology of Excitable Tissues|c
+2|PIO214|Introduction to Cardiovascular and Respiratory Physiology|c
+2|PIO216|Gastrointestinal Physiology|c
+2|STA201|Biostatistics|c
+2|MLS202|History of Medical Laboratory Science|c
+2|MLS203|Introduction to Biology of Diseases|c
+3|MLS301|Basic Clinical Chemistry|c
+3|MLS302|Basic Haematology|c
+3|MLS303|Basic Microbiology|c
+3|MLS304|Basic Histopathology|c
+3|MLS305|Basic Immunology|c
+3|MLS306|Laboratory Posting I|c
+3|MLS307|Practical Exercise I|c
+3|MLS308|Fundamentals of Blood Group Serology|c
+3|MLS309|Basic Medical Parasitology and Entomology|c
+3|MLS310|Biomedical Engineering|c
+3|PHA301|Basic Pharmacology and Toxicology|c
+3|BCH304|Chemistry and Metabolism of Amino Acids and Proteins|c
+3|MLS311|Molecular Biology and Microbial Genetics|c
+3|MLS312|Forensic Science|c
+3|MLS313|Medical Laboratory Bio-risk Management|c
+3|MLS314|Bio-manufacturing and In-vitro Diagnostic Reagents|c
+3|MLS315|General Pharmacology|c
+3|MLS316|Systemic Pharmacology|c
+3|MLS317|General Pathology|c
+4|MLS401|Laboratory Management and Function, Laboratory Practice|c
+4|MLS402|Medical Laboratory Haematology|c
+4|MLS403|Medical Laboratory Histopathology I|c
+4|MLS404|Medical Laboratory Microbiology I|c
+4|MLS405|Laboratory Instrumentation and Techniques|c
+4|MLS406|Research Methodology|c
+4|MLS407|Practical Exercise II|c
+4|MLS408|Laboratory Posting II|c
+4|MLS410|Clinical Chemistry I|c
+4|MLS411|Blood Group Serology|c
+4|MLS412|Professional Ethics in Medical Laboratory Science|c
+4|MLS413|Medical Laboratory Supply Chain Management|c
+4|MLS414|Molecular Diagnostics and Bioinformatics|c
+4|MLS415|Immunology I|c
+4|MLS416|Tissue Slide Reading and Reporting|c
+4|MLS417|Special Topics in Clinical Chemistry|c
+4|GST401|Character Building, Professionalism and Team Work in Healthcare|c
+5|MLS502|Laboratory Posting III|c
+5|MLS503|Practical Exercises III|c
+5|MLS504|Research Project|c
+5|MLS505|Seminar|c
+5|MLS508|Clinical Chemistry II|c
+5|MLS510|Medical Laboratory Haematology II|c
+5|MLS512|Medical Laboratory Histopathology II|c
+5|MLS514|Medical Laboratory Microbiology II|c
+5|MLS515|Clinical Chemistry III|c
+5|MLS516|Modern Trends in Haematological Techniques|c
+5|MLS517|Histopathology III|c
+5|MLS518|Immunology II|c
+5|MLS519|Public Health and Field Epidemiology|c
+5|MLS520|Medical Microbiology III|c

@@ -1,0 +1,2349 @@
+{
+ "department_slug": "economics",
+ "faculty_slug": "banking-and-finance",
+ "faculty_name": "Banking and Finance",
+ "source": "Year 1 CCMAS B.Sc. Economics at UNIOSUN; year 2 and year 4 from UNN (socialscs.unn.edu.ng/economics-course-modules); year 3 from UNIBEN (waeup.uniben.edu). UNN publishes no year 3, so numbering differs between years.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "ACC101",
+   "name": "Introduction to Financial Accounting I",
+   "kind": "core",
+   "slug": "acc101",
+   "known_codes": "ACC101",
+   "aliases": [
+    {
+     "code": "ACC101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Financial Accounting I",
+   "summary": "Accounting principles, double entry, ledgers and trial balance.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ACC102",
+   "name": "Introduction to Financial Accounting II",
+   "kind": "core",
+   "slug": "acc102",
+   "known_codes": "ACC102",
+   "aliases": [
+    {
+     "code": "ACC102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Financial Accounting II",
+   "summary": "Final accounts, adjustments, depreciation and financial statements.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BUA101",
+   "name": "Introduction to Business I",
+   "kind": "core",
+   "slug": "bua101",
+   "known_codes": "BUA101",
+   "aliases": [
+    {
+     "code": "BUA101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Business I",
+   "summary": "Forms of business, management functions and business environment.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BUA102",
+   "name": "Introduction to Business II",
+   "kind": "core",
+   "slug": "bua102",
+   "known_codes": "BUA102",
+   "aliases": [
+    {
+     "code": "BUA102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Business II",
+   "summary": "Marketing, operations, finance and organisational behaviour basics.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "DSS101",
+   "name": "Introduction to Population Studies and Demography",
+   "kind": "core",
+   "slug": "dss101",
+   "known_codes": "DSS101",
+   "aliases": [
+    {
+     "code": "DSS101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Population Studies and Demography",
+   "summary": "Population size, growth, fertility, mortality and migration.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO101",
+   "name": "Principles of Economics I",
+   "kind": "core",
+   "slug": "eco101",
+   "known_codes": "ECO101 (2)",
+   "aliases": [
+    {
+     "code": "ECO101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO101",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Principles of Microeconomics",
+   "summary": "Scarcity, demand and supply, elasticity, consumer theory, firms and market structures.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO102",
+   "name": "Principles of Economics II",
+   "kind": "core",
+   "slug": "eco102",
+   "known_codes": "ECO102 (2), ECO110 (2)",
+   "aliases": [
+    {
+     "code": "ECO110",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO102",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Principles of Macroeconomics",
+   "summary": "National income, inflation, unemployment, money and banking, fiscal and monetary policy, trade and growth.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO103",
+   "name": "Introductory Mathematics I",
+   "kind": "core",
+   "slug": "eco103",
+   "known_codes": "ECO103",
+   "aliases": [
+    {
+     "code": "ECO103",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Mathematics I",
+   "summary": "Algebra, functions and calculus basics for business and economics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "ECO104",
+   "name": "Introductory Mathematics II",
+   "kind": "core",
+   "slug": "eco104",
+   "known_codes": "ECO104",
+   "aliases": [
+    {
+     "code": "ECO104",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Mathematics II",
+   "summary": "Matrices, optimisation and mathematics for economics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "EHR102",
+   "name": "Introduction to Employment Relations",
+   "kind": "core",
+   "slug": "ehr102",
+   "known_codes": "EHR102",
+   "aliases": [
+    {
+     "code": "EHR102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Employment Relations",
+   "summary": "Employer-employee relations, unions and workplace law.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "POL101",
+   "name": "Introduction to Political Science",
+   "kind": "core",
+   "slug": "pol101",
+   "known_codes": "POL101, POL111",
+   "aliases": [
+    {
+     "code": "POL111",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "POL101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Political Science",
+   "summary": "State, government, ideologies, institutions and political systems.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Research method",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "SOC101",
+   "name": "Introduction to Sociology I",
+   "kind": "core",
+   "slug": "soc101",
+   "known_codes": "SOC101 (2)",
+   "aliases": [
+    {
+     "code": "SOC101",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "SOC101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Sociology I",
+   "summary": "Society, culture, social structure and social institutions.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "SOC106",
+   "name": "Introduction to Sociology II",
+   "kind": "core",
+   "slug": "soc106",
+   "known_codes": "SOC106",
+   "aliases": [
+    {
+     "code": "SOC106",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Sociology II",
+   "summary": "Social change, deviance, stratification and social research.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "SSC101",
+   "name": "Statistics for Social Sciences I",
+   "kind": "core",
+   "slug": "ssc101",
+   "known_codes": "SSC101",
+   "aliases": [
+    {
+     "code": "SSC101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistics for Social Sciences I",
+   "summary": "Descriptive statistics and probability for social data.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "SSC102",
+   "name": "Statistics for Social Sciences II",
+   "kind": "core",
+   "slug": "ssc102",
+   "known_codes": "SSC102",
+   "aliases": [
+    {
+     "code": "SSC102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Statistics for Social Sciences II",
+   "summary": "Inference, correlation and regression for social science.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO201",
+   "name": "Microeconomic Theory I",
+   "kind": "core",
+   "slug": "eco201",
+   "known_codes": "ECO201 (2), ECO221",
+   "aliases": [
+    {
+     "code": "ECO201",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO221",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microeconomic Theory I",
+   "summary": "Consumer behaviour, demand, utility and production theory.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO202",
+   "name": "Microeconomic Theory II",
+   "kind": "core",
+   "slug": "eco202",
+   "known_codes": "ECO202 (2), ECO321",
+   "aliases": [
+    {
+     "code": "ECO202",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO321",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microeconomic Theory II",
+   "summary": "Market structures, general equilibrium, welfare and game theory.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO203",
+   "name": "Macroeconomic Theory I",
+   "kind": "core",
+   "slug": "eco203",
+   "known_codes": "ECO203 (2), ECO211",
+   "aliases": [
+    {
+     "code": "ECO203",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Macroeconomic Theory I",
+   "summary": "National income, consumption, investment and the IS-LM model.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO204",
+   "name": "Macroeconomic Theory II",
+   "kind": "core",
+   "slug": "eco204",
+   "known_codes": "ECO204 (2)",
+   "aliases": [
+    {
+     "code": "ECO204",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Macroeconomic Theory II",
+   "summary": "Inflation, unemployment, growth and open-economy models.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO221",
+   "name": "Monetary Economics and Finance",
+   "kind": "core",
+   "slug": "eco221",
+   "known_codes": "ECO221 (2)",
+   "aliases": [
+    {
+     "code": "ECO221",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Monetary Economics and Finance",
+   "summary": "Money, banking, central banking, interest rates and financial markets.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO231",
+   "name": "Intermediate Economic Statistics I",
+   "kind": "core",
+   "slug": "eco231",
+   "known_codes": "ECO231 (2)",
+   "aliases": [
+    {
+     "code": "ECO231",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Intermediate Economic Statistics I",
+   "summary": "Probability and estimation for economists.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO232",
+   "name": "Intermediate Economic Statistics II",
+   "kind": "core",
+   "slug": "eco232",
+   "known_codes": "ECO232 (2)",
+   "aliases": [
+    {
+     "code": "ECO232",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Intermediate Economic Statistics II",
+   "summary": "Hypothesis testing, regression and index numbers.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO233",
+   "name": "Intermediate Mathematical Economics I",
+   "kind": "core",
+   "slug": "eco233",
+   "known_codes": "ECO233 (2)",
+   "aliases": [
+    {
+     "code": "ECO233",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Intermediate Mathematical Economics I",
+   "summary": "Calculus and optimisation applied to economic models.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO234",
+   "name": "Intermediate Mathematical Economics II",
+   "kind": "core",
+   "slug": "eco234",
+   "known_codes": "ECO234 (2)",
+   "aliases": [
+    {
+     "code": "ECO234",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Intermediate Mathematical Economics II",
+   "summary": "Linear algebra, dynamic models and difference equations in economics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO236",
+   "name": "Computing Applications for Economists",
+   "kind": "core",
+   "slug": "eco236",
+   "known_codes": "ECO236 (2)",
+   "aliases": [
+    {
+     "code": "ECO236",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Computing Applications for Economists",
+   "summary": "Spreadsheets and statistical software for economic data.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Programming"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO281",
+   "name": "History and Structure of the Nigerian Economy I",
+   "kind": "core",
+   "slug": "eco281",
+   "known_codes": "ECO281 (2)",
+   "aliases": [
+    {
+     "code": "ECO281",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "History and Structure of the Nigerian Economy I",
+   "summary": "Pre-colonial and colonial economy, agriculture and trade.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO282",
+   "name": "History and Structure of the Nigerian Economy II",
+   "kind": "core",
+   "slug": "eco282",
+   "known_codes": "ECO282 (2)",
+   "aliases": [
+    {
+     "code": "ECO282",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "History and Structure of the Nigerian Economy II",
+   "summary": "Post-independence development, oil, planning and reforms.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO223",
+   "name": "Intermediate Business Accounting",
+   "kind": "elective",
+   "slug": "eco223",
+   "known_codes": "ECO223 (2)",
+   "aliases": [
+    {
+     "code": "ECO223",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Intermediate Business Accounting",
+   "summary": "Company accounts, partnership accounts and financial reporting.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO262",
+   "name": "Urban and Regional Economics",
+   "kind": "elective",
+   "slug": "eco262",
+   "known_codes": "ECO262 (2)",
+   "aliases": [
+    {
+     "code": "ECO262",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Urban and Regional Economics",
+   "summary": "City growth, location theory and regional policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO264",
+   "name": "Introduction to Environmental Economics",
+   "kind": "elective",
+   "slug": "eco264",
+   "known_codes": "ECO264 (2)",
+   "aliases": [
+    {
+     "code": "ECO264",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Environmental Economics",
+   "summary": "Externalities, valuation and environmental policy instruments.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO266",
+   "name": "Introduction to Health Economics",
+   "kind": "elective",
+   "slug": "eco266",
+   "known_codes": "ECO266 (2)",
+   "aliases": [
+    {
+     "code": "ECO266",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Health Economics",
+   "summary": "Health markets, financing, insurance and cost effectiveness.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO271",
+   "name": "Theories of Human Resources",
+   "kind": "elective",
+   "slug": "eco271",
+   "known_codes": "ECO271 (2)",
+   "aliases": [
+    {
+     "code": "ECO271",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Theories of Human Resources",
+   "summary": "Labour supply, human capital and personnel theories.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ECO273",
+   "name": "Labour Economics",
+   "kind": "elective",
+   "slug": "eco273",
+   "known_codes": "ECO210, ECO273 (2)",
+   "aliases": [
+    {
+     "code": "ECO273",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO210",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Labour Economics",
+   "summary": "Wages, employment, unemployment and labour-market policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO311",
+   "name": "Economic Development I",
+   "kind": "core",
+   "slug": "eco311",
+   "known_codes": "ECO311",
+   "aliases": [
+    {
+     "code": "ECO311",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Economic Development I",
+   "summary": "Growth theories, poverty, inequality and development indicators.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO312",
+   "name": "Monetary Economics",
+   "kind": "core",
+   "slug": "eco312",
+   "known_codes": "ECO312",
+   "aliases": [
+    {
+     "code": "ECO312",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Monetary Economics",
+   "summary": "Money demand and supply, monetary policy and inflation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO313",
+   "name": "Econometrics I",
+   "kind": "core",
+   "slug": "eco313",
+   "known_codes": "ECO313",
+   "aliases": [
+    {
+     "code": "ECO313",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Econometrics I",
+   "summary": "Simple and multiple regression, OLS and diagnostics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO314",
+   "name": "International Economics",
+   "kind": "core",
+   "slug": "eco314",
+   "known_codes": "ECO314",
+   "aliases": [
+    {
+     "code": "ECO314",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "International Economics",
+   "summary": "Trade theory, tariffs, exchange rates and balance of payments.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO315",
+   "name": "Project Analysis and Evaluation",
+   "kind": "core",
+   "slug": "eco315",
+   "known_codes": "ECO315",
+   "aliases": [
+    {
+     "code": "ECO315",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Project Analysis and Evaluation",
+   "summary": "Cost-benefit analysis, NPV, IRR and project appraisal.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO317",
+   "name": "Macroeconomics I",
+   "kind": "core",
+   "slug": "eco317",
+   "known_codes": "ECO317",
+   "aliases": [
+    {
+     "code": "ECO317",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Macroeconomics I",
+   "summary": "Aggregate demand, supply and macroeconomic policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO318",
+   "name": "Introduction to Research Methods",
+   "kind": "core",
+   "slug": "eco318",
+   "known_codes": "ECO318",
+   "aliases": [
+    {
+     "code": "ECO318",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Research Methods",
+   "summary": "Research design, sampling, data collection and reporting.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO321",
+   "name": "Microeconomic Theory II",
+   "kind": "core",
+   "slug": "eco321",
+   "known_codes": "ECO202 (2), ECO321",
+   "aliases": [
+    {
+     "code": "ECO202",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "ECO321",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Microeconomic Theory II",
+   "summary": "Market structures, general equilibrium, welfare and game theory.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO323",
+   "name": "Economic Development II",
+   "kind": "core",
+   "slug": "eco323",
+   "known_codes": "ECO323",
+   "aliases": [
+    {
+     "code": "ECO323",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Economic Development II",
+   "summary": "Development planning, institutions, aid and sustainable development.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO324",
+   "name": "Introduction to Public Finance",
+   "kind": "core",
+   "slug": "eco324",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Introduction to Public Finance",
+   "summary": "Taxation, public expenditure, budgets and fiscal federalism.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO325",
+   "name": "Econometrics II",
+   "kind": "core",
+   "slug": "eco325",
+   "known_codes": "ECO325",
+   "aliases": [
+    {
+     "code": "ECO325",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Econometrics II",
+   "summary": "Heteroskedasticity, autocorrelation, time series and simultaneous equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO326",
+   "name": "Applied Statistics",
+   "kind": "core",
+   "slug": "eco326",
+   "known_codes": "ECO326",
+   "aliases": [
+    {
+     "code": "ECO326",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Applied Statistics",
+   "summary": "Statistical methods applied to economic data and surveys.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO327",
+   "name": "Financial Institutions",
+   "kind": "core",
+   "slug": "eco327",
+   "known_codes": "ECO327",
+   "aliases": [
+    {
+     "code": "ECO327",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Financial Institutions",
+   "summary": "Banks, insurance, capital markets and regulation.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ECO329",
+   "name": "Operations Research",
+   "kind": "core",
+   "slug": "eco329",
+   "known_codes": "ACS310 (3), ECO329",
+   "aliases": [
+    {
+     "code": "ACS310",
+     "units": 3,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "ECO329",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Operations Research and Optimisation",
+   "summary": "Linear programming, transportation, assignment, network models, queues and decision analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO401",
+   "name": "Advanced Microeconomic Theory and Policy I",
+   "kind": "core",
+   "slug": "eco401",
+   "known_codes": "ECO401 (2)",
+   "aliases": [
+    {
+     "code": "ECO401",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Microeconomic Theory and Policy I",
+   "summary": "Advanced consumer and firm theory with policy applications.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO402",
+   "name": "Advanced Microeconomic Theory and Policy II",
+   "kind": "core",
+   "slug": "eco402",
+   "known_codes": "ECO402 (2)",
+   "aliases": [
+    {
+     "code": "ECO402",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Microeconomic Theory and Policy II",
+   "summary": "Welfare economics, information economics and market failure.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO403",
+   "name": "Advanced Macroeconomic Theory and Policy I",
+   "kind": "core",
+   "slug": "eco403",
+   "known_codes": "ECO403 (2)",
+   "aliases": [
+    {
+     "code": "ECO403",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Macroeconomic Theory and Policy I",
+   "summary": "Modern macroeconomic models and stabilisation policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO404",
+   "name": "Advanced Macroeconomic Theory and Policy II",
+   "kind": "core",
+   "slug": "eco404",
+   "known_codes": "ECO404 (2)",
+   "aliases": [
+    {
+     "code": "ECO404",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Macroeconomic Theory and Policy II",
+   "summary": "Growth, open-economy macro and policy design.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO421",
+   "name": "Advanced Public Sector Economics",
+   "kind": "core",
+   "slug": "eco421",
+   "known_codes": "ECO421 (2)",
+   "aliases": [
+    {
+     "code": "ECO421",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Public Sector Economics",
+   "summary": "Public goods, taxation theory and public expenditure analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO423",
+   "name": "Public Policy",
+   "kind": "core",
+   "slug": "eco423",
+   "known_codes": "ECO423 (2)",
+   "aliases": [
+    {
+     "code": "ECO423",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Public Policy",
+   "summary": "Policy cycle, design, implementation and evaluation.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO431",
+   "name": "Advanced Statistics and Econometrics I",
+   "kind": "core",
+   "slug": "eco431",
+   "known_codes": "ECO431 (2)",
+   "aliases": [
+    {
+     "code": "ECO431",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Statistics and Econometrics I",
+   "summary": "Advanced regression, estimation and inference.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO432",
+   "name": "Advanced Statistics and Econometrics II",
+   "kind": "core",
+   "slug": "eco432",
+   "known_codes": "ECO432 (2)",
+   "aliases": [
+    {
+     "code": "ECO432",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Statistics and Econometrics II",
+   "summary": "Time-series, panel data and applied econometrics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO452",
+   "name": "Economics of Production",
+   "kind": "core",
+   "slug": "eco452",
+   "known_codes": "ECO452 (2)",
+   "aliases": [
+    {
+     "code": "ECO452",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Economics of Production",
+   "summary": "Production functions, cost, productivity and industrial organisation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO461",
+   "name": "Advanced Development Economics",
+   "kind": "core",
+   "slug": "eco461",
+   "known_codes": "ECO461 (2)",
+   "aliases": [
+    {
+     "code": "ECO461",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Development Economics",
+   "summary": "Development models, trade and growth strategies.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO462",
+   "name": "Economics of Planning",
+   "kind": "core",
+   "slug": "eco462",
+   "known_codes": "ECO462 (2)",
+   "aliases": [
+    {
+     "code": "ECO462",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Economics of Planning",
+   "summary": "Planning techniques, input-output analysis and plan evaluation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO463",
+   "name": "Comparative Economic Systems",
+   "kind": "core",
+   "slug": "eco463",
+   "known_codes": "ECO463 (2)",
+   "aliases": [
+    {
+     "code": "ECO463",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Comparative Economic Systems",
+   "summary": "Capitalism, socialism and mixed economies compared.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO475",
+   "name": "Project Appraisal I",
+   "kind": "core",
+   "slug": "eco475",
+   "known_codes": "ECO475 (2)",
+   "aliases": [
+    {
+     "code": "ECO475",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Project Appraisal I",
+   "summary": "Financial and economic appraisal of projects.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO476",
+   "name": "Project Appraisal II",
+   "kind": "core",
+   "slug": "eco476",
+   "known_codes": "ECO476 (2)",
+   "aliases": [
+    {
+     "code": "ECO476",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Project Appraisal II",
+   "summary": "Risk, sensitivity analysis and social cost-benefit analysis.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis",
+    "Project management"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO478",
+   "name": "Project Report",
+   "kind": "core",
+   "slug": "eco478",
+   "known_codes": "ECO478 (6)",
+   "aliases": [
+    {
+     "code": "ECO478",
+     "units": 6,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Project Report",
+   "summary": "Supervised research report on an economic problem.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO428",
+   "name": "Advanced Monetary Economics",
+   "kind": "elective",
+   "slug": "eco428",
+   "known_codes": "ECO428 (2)",
+   "aliases": [
+    {
+     "code": "ECO428",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Monetary Economics",
+   "summary": "Monetary transmission, central banking and financial crises.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO433",
+   "name": "Advanced Mathematical Economics",
+   "kind": "elective",
+   "slug": "eco433",
+   "known_codes": "ECO433 (2)",
+   "aliases": [
+    {
+     "code": "ECO433",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Mathematical Economics",
+   "summary": "Optimisation, dynamic programming and mathematical models.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO451",
+   "name": "Energy Economics",
+   "kind": "elective",
+   "slug": "eco451",
+   "known_codes": "ECO451 (2)",
+   "aliases": [
+    {
+     "code": "ECO451",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Energy Economics",
+   "summary": "Energy markets, pricing, policy and demand.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO453",
+   "name": "Advanced Demography and Population Economics",
+   "kind": "elective",
+   "slug": "eco453",
+   "known_codes": "ECO453 (2)",
+   "aliases": [
+    {
+     "code": "ECO453",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Advanced Demography and Population Economics",
+   "summary": "Population dynamics and economic effects.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO464",
+   "name": "Health Economics and Health Policy",
+   "kind": "elective",
+   "slug": "eco464",
+   "known_codes": "ECO464 (2)",
+   "aliases": [
+    {
+     "code": "ECO464",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Health Economics and Health Policy",
+   "summary": "Health financing, insurance schemes and policy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO466",
+   "name": "Climate and Environmental Economics",
+   "kind": "elective",
+   "slug": "eco466",
+   "known_codes": "ECO466 (2)",
+   "aliases": [
+    {
+     "code": "ECO466",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Climate and Environmental Economics",
+   "summary": "Carbon pricing, climate policy and environmental valuation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ECO471",
+   "name": "Industrial Relations and Personnel Management",
+   "kind": "elective",
+   "slug": "eco471",
+   "known_codes": "ECO471 (2)",
+   "aliases": [
+    {
+     "code": "ECO471",
+     "units": 2,
+     "source": "socialscs.unn.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Industrial Relations and Personnel Management",
+   "summary": "Labour relations, recruitment, pay and personnel practice.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Legal drafting and advocacy"
+   ]
+  }
+ ]
+}

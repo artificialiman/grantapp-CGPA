@@ -1,0 +1,7 @@
+# NUC CCMAS university-wide general studies and entrepreneurship core. Taken by every undergraduate.
+1|GST111|Communication in English|c
+1|GST112|Nigerian Peoples and Culture|c
+2|GST212|Philosophy, Logic and Human Existence|c
+2|ENT211|Entrepreneurship and Innovation|c
+3|GST312|Peace and Conflict Resolution|c
+3|ENT312|Venture Creation|c

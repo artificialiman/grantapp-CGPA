@@ -1,0 +1,50 @@
+# dept: civil-engineering
+# complete_years: 1,2,3,4,5
+# source: UNN B.Eng Civil Engineering course modules (civil.unn.edu.ng/course-modules), departmental (CVE/ENGR) courses only; the engineering core (GET) is added from the CCMAS handbooks. UNN's own numbering predates CCMAS, so no national Civil CCMAS table has been read yet.
+# supersedes: Engineering Mathematics II; Engineering Drawing; Introduction to Engineering; Thermodynamics; Mechanics of Solids
+@include gst
+@include engineering-core
+2|CVE211|Strength of Materials I|c
+2|CVE212|Strength of Materials Laboratory I|c
+2|CVE221|Fluid Mechanics I|c
+2|CVE222|Fluid Mechanics Laboratory|c
+3|CVE311|Strength of Materials II|c
+3|CVE312|Theory of Structures I|c
+3|CVE321|Fluid Mechanics II|c
+3|CVE322|Water Resources and Environmental Engineering Laboratory|c
+3|CVE323|Hydrology|c
+3|CVE331|Civil Engineering Materials|c
+3|CVE332|Materials Testing|c
+3|CVE335|Civil Engineering Drawing|c
+3|CVE341|Engineering Geology|c
+3|CVE342|Soil Mechanics|c
+3|CVE351|Engineering Survey I|c
+3|CVE352|Engineering Surveys Practice I|c
+3|ENG301|Engineering Analysis|c
+4|CVE411|Theory of Structures II|c
+4|CVE412|Reinforced Concrete Design|c
+4|CVE413|Steel and Timber Design|c
+4|CVE414|Structural Design Studio I|c
+4|CVE421|Hydraulics|c
+4|CVE431|Civil Engineering Practice I|c
+4|CVE441|Foundation Engineering I|c
+4|CVE442|Soil Mechanics Laboratory|c
+4|CVE451|Engineering Surveys II|c
+4|CVE452|Transportation Engineering I|c
+4|CVE453|Engineering Surveys Practice II|c
+4|ENG401|Computational Methods|c
+5|CVE511|Structural Analysis I|c
+5|CVE512|Structural Design|c
+5|CVE513|Structural Design Studio|c
+5|CVE521|Water Resources and Environmental Engineering I|c
+5|CVE531|Civil Engineering Practice II|c
+5|CVE541|Foundation Engineering II|c
+5|CVE542|Foundation Design Studio|c
+5|CVE551|Transportation Engineering II|c
+5|CVE561|Project|c
+5|CVE514|Structural Analysis II|e
+5|CVE522|Water Resources and Environmental Engineering II|e
+5|CVE532|Properties and Behaviour of Concrete|e
+5|CVE533|Building Engineering|e
+5|CVE543|Geotechnical Engineering|e
+5|CVE553|Transportation Engineering III|e

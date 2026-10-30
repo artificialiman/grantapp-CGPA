@@ -1,0 +1,43 @@
+# NUC CCMAS Engineering and Technology shared core (GET = General Engineering and Technology). Taken by every engineering department.
+# Source: Unilorin CCMAS handbooks (EEE, MME, ABE); same GET codes in each.
+1|CHM101|General Chemistry I|c
+1|CHM102|General Chemistry II|c
+1|CHM107|General Practical Chemistry I|c
+1|CHM108|General Practical Chemistry II|c
+1|MTH101|Elementary Mathematics I|c
+1|MTH102|Elementary Mathematics II|c
+1|MTH103|Elementary Mathematics III|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY103|General Physics III|c
+1|PHY104|General Physics IV|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|STA112|Probability I|c
+1|GET101|Engineer in Society|c
+1|GET102|Engineering Graphics and Solid Modelling I|c
+2|GET201|Applied Electricity I|c
+2|GET202|Engineering Materials|c
+2|GET203|Engineering Graphics and Solid Modelling II|c
+2|GET204|Students Workshop Practice|c
+2|GET205|Fundamentals of Fluid Mechanics|c
+2|GET206|Fundamentals of Thermodynamics|c
+2|GET207|Applied Mechanics|c
+2|GET208|Strength of Materials|c
+2|GET209|Engineering Mathematics I|c
+2|GET210|Engineering Mathematics II|c
+2|GET211|Computing and Software Engineering|c
+2|GET299|SIWES I (Students Industrial Work Experience Scheme)|c
+3|GET301|Engineering Mathematics III|c
+3|GET302|Engineering Mathematics IV|c
+3|GET304|Technical Writing and Communication|c
+3|GET305|Engineering Statistics and Data Analytics|c
+3|GET306|Renewable Energy Systems and Technology|c
+3|GET307|Introduction to Artificial Intelligence, Machine Learning and Convergent Technologies|c
+3|GET311|Engineering Economics|c
+3|GET399|SIWES II (Students Industrial Work Experience Scheme)|c
+4|GET402|Engineering Project I|c
+4|GET404|Engineering Valuation and Costing|c
+4|GET499|SIWES III (Students Industrial Work Experience Scheme)|c
+5|GET501|Engineering Project Management|c
+5|GET502|Engineering Law|c

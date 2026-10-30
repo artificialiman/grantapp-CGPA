@@ -1,0 +1,200 @@
+Introduction to Electrical and Electronic Engineering||Branches of electrical engineering, basic quantities, components, measurement and the profession.|VER CRT|DES COM
+Applied Electricity II||AC circuits, three-phase systems, transformers and introductory machines.|NUM MEC|DES LAB
+Electrical Engineering Materials||Conductors, insulators, semiconductors, magnetic and dielectric materials.|MEM NUM|DES
+Electric Circuit Theory I||Network laws and theorems, transients and sinusoidal steady state.|NUM LOG|DES
+Analogue Electronic Circuits I||Diodes, BJTs, FETs, biasing and amplifier design.|NUM LOG|DES LAB
+Electrical Machines I||Transformers and DC machines: principles, performance and testing.|NUM MEC|DES LAB
+Digital Electronic Circuits||Logic families, combinational and sequential circuits, memories.|LOG|DES LAB
+Electromagnetic Fields and Waves I||Static electric and magnetic fields, Maxwell's equations and wave basics.|NUM SPA LOG|DES
+Electric Circuit Theory II||Two-port networks, frequency response, filters and Laplace analysis.|NUM LOG|DES
+Principles of Power Systems||Generation, transmission, distribution, per-unit analysis and network components.|NUM MEC|DES
+Engineering System Modelling and Simulation||Mathematical modelling and simulation of dynamic engineering systems.|NUM LOG|PRG DES
+Principles of Communication Engineering||Signals, modulation, noise and analogue communication systems.|NUM LOG|DES
+Power Electronics and Drives||Rectifiers, converters, inverters and motor drives.|NUM MEC|DES
+Control Engineering I||Transfer functions, feedback, time response, stability and root locus.|NUM LOG|DES
+Electrical Engineering Laboratory Course III||Experiments in machines, power, control and communication.|DET NUM|LAB HSE DAT
+Data Communications and Computer Networks||Network layers, protocols, switching, routing and LAN design.|LOG|DES
+Digital Communication Systems||Sampling, coding, digital modulation and error control.|NUM LOG|DES
+Electrical Machines II||Induction and synchronous machines, control and performance.|NUM MEC|DES LAB
+Electrical Power Transmission Line Characteristics||Line parameters, performance models and voltage regulation.|NUM MEC|DES
+Digital System Design and VHDL Programming||Hardware description languages, FPGA design and digital system synthesis.|LOG|PRG DES
+Assembly Language Programming||Instruction sets, registers and low-level programming of processors.|LOG DET|PRG
+Power Systems Communication and Control||SCADA, protection signalling, load-frequency control and grid automation.|LOG NUM|DES
+Electrical Power System Analysis||Load flow, fault analysis and stability.|NUM LOG|DES
+Power System Protection||Relays, circuit breakers, protection schemes and coordination.|NUM LOG|DES HSE
+Mobile and Personal Communication Systems||Cellular systems, mobile propagation and wireless standards.|NUM LOG|DES
+Digital Signal Processing||Discrete signals, z-transform, FFT and filter design.|NUM LOG|PRG DES
+Broadcasting and Internet Technology||Broadcast systems, streaming and Internet architecture.|LOG|DES
+Satellite Communications||Orbits, link budgets and satellite systems.|NUM SPA|DES
+Control Engineering II||State-space methods, compensator design and advanced control.|NUM LOG|DES
+Digital Control Engineering||Sampled-data systems, z-domain design and digital controllers.|NUM LOG|DES PRG
+Nonlinear Control Systems||Phase plane, Lyapunov stability and nonlinear control methods.|NUM LOG|DES
+Introductory Botany||Plant cells, structure, reproduction and the plant kingdom.|MEM|LAB FLD
+Introduction to Computing Science||Computer basics, hardware, software, number systems and the Internet.|LOG VER|COM PRG
+Elementary Environmental Science||Ecosystems, natural resources, pollution and environmental problems.|MEM CRT|FLD HSE
+The Mammalian Body||Organ systems of mammals: structure and function overview.|MEM|LAB
+Animal Diversity||Classification and biology of major animal groups.|MEM|LAB FLD
+Environment, Ecosystem and Man||Human interactions with ecosystems and environmental change.|CRT MEM|FLD HSE
+Principles of Natural Resources Management||Management of land, water, forest and mineral resources.|CRT|FLD PM
+Water Quality Assessment and Pollution Control||Water standards, sampling, analysis and treatment.|DET NUM|LAB HSE
+Hazardous Substances Management||Classification, handling, storage and disposal of hazardous substances.|DET CRT|HSE LEG
+Metals and the Environment||Sources, fate and toxicity of metals in the environment.|MEM LOG|LAB HSE
+Environmental Monitoring Systems and Techniques||Air, water and soil monitoring methods and instrumentation.|DET NUM|FLD LAB
+Environmental Aspects of Farming Systems||Environmental effects of crop and livestock production and agrochemicals.|CRT MEM|FLD HSE
+Environmental Education and Awareness||Teaching and communicating environmental issues.|VER CRT|COM
+Principles of Toxicology I||Toxicant classes, dose-response, absorption, distribution and excretion.|MEM LOG NUM|LAB HSE
+Water Analysis||Physical, chemical and biological analysis of water samples.|DET NUM|LAB DAT
+Experimental Pesticide Chemistry and Residue Analysis||Pesticide classes, extraction, chromatography and residue detection.|DET NUM|LAB DAT
+Environmental Law||Environmental statutes, impact assessment and enforcement in Nigeria.|VER CRT|LEG HSE
+Advanced Pesticide Chemistry||Pesticide structure, mode of action, metabolism and resistance.|MEM LOG|LAB
+Principles of Toxicology II||Organ toxicity, mutagenesis, carcinogenesis and risk assessment.|MEM LOG|LAB HSE
+Waste Management||Waste classification, treatment, recycling and disposal.|CRT|HSE DES
+Principles of Analysis of Toxicants||Sampling and instrumental analysis of toxic substances.|DET NUM|LAB DAT
+Human Settlement and Development||Urban growth, housing, planning and environmental health.|CRT|FLD
+Environmental Aspects of Pesticides and Other Toxicants Use||Fate and ecological impact of pesticides and toxicants.|CRT MEM|HSE
+Structural Elucidation of Organic Pollutants||Spectroscopic identification of organic pollutants.|LOG DET|LAB DAT
+Ecological Disasters and Control||Causes, impacts and management of environmental disasters.|CRT|HSE PM
+Petroleum and the Environment||Oil pollution, spill response and remediation.|CRT|HSE FLD
+Miscellaneous Advanced Techniques in Environmental Analysis||Advanced instruments and methods in environmental analysis.|DET NUM|LAB DAT
+Diversity of Plants||Classification and biology of algae, fungi, bryophytes and vascular plants.|MEM|LAB FLD
+Introductory Zoology||Animal cells, tissues, classification and invertebrate biology.|MEM|LAB
+Mechanics, Thermal Physics and Properties of Matter||Mechanics, heat, thermodynamics and properties of matter for life-science students.|NUM MEC|LAB
+Vibrations, Waves and Optics||Oscillations, wave motion, sound and geometric and wave optics.|NUM LOG|LAB
+Plant Form and Function||Plant anatomy, physiology, water relations and photosynthesis.|MEM|LAB
+Functional Zoology||Animal physiology, reproduction, development and ecology.|MEM|LAB
+Electromagnetism and Modern Physics||Electric and magnetic fields, atomic and nuclear physics.|NUM LOG|LAB
+Gross Anatomy of the Lower Extremities||Bones, muscles, vessels and nerves of the lower limb, with dissection.|MEM SPA DET|CLN
+General Histology||Cell and tissue structure, microscopy and tissue identification.|MEM DET SPA|LAB CLN
+Practical Histology I||Slide study of basic tissues.|DET SPA|LAB
+Practical Gross Anatomy I||Dissection of the limbs.|SPA DET|CLN
+Systemic Physiology I (Cardiovascular)||Cardiac and circulatory physiology, blood pressure and regulation.|NUM LOG MEM|CLN LAB
+Applied Physiology I||Clinical correlation of physiology: case-based tutorials.|CRT LOG|CLN
+Physiology Practicals I||Experiments on blood, circulation and excitable tissue.|DET NUM|LAB CLN
+Biochemistry I||Medical biochemistry: biomolecules, enzymes and bioenergetics.|MEM LOG|LAB CLN
+Biochemistry Practicals I||Lab tests for biomolecules and enzyme assays.|DET NUM|LAB
+Medical Sociology and Ecology||Social determinants of health, culture and community ecology.|CRT VER|CUS RES
+Gross Anatomy of the Trunk||Thorax, abdomen and pelvis: structure and dissection.|MEM SPA DET|CLN
+Systemic Histology I||Microscopic anatomy of organ systems I.|MEM SPA|LAB CLN
+Systemic Embryology I||Development of organ systems: cardiovascular, gut and urogenital.|MEM SPA|CLN
+Practical Histology II||Slide study of organ systems.|DET SPA|LAB
+Practical Gross Anatomy II||Dissection of the trunk.|SPA DET|CLN
+Systemic Physiology II||Respiratory, renal and gastrointestinal physiology.|MEM LOG NUM|CLN LAB
+Applied Physiology II||Clinical correlation tutorials for systemic physiology.|CRT LOG|CLN
+Physiology Practicals II||Experiments on respiration, renal and GI function.|DET NUM|LAB CLN
+Endocrine Physiology||Hormones, glands and feedback regulation.|MEM LOG|CLN
+Biochemistry II||Medical biochemistry: metabolism, nutrition and molecular biology.|MEM LOG|LAB CLN
+Biochemistry Practicals II||Clinical chemistry laboratory work.|DET NUM|LAB CLN
+Psychology in Relation to Mental Health||Psychological development, stress, behaviour and mental health.|CRT VER|CUS CLN
+Demography and School Health||Population statistics and child and school health services.|NUM CRT|DAT CUS
+Gross Anatomy of the Head and Neck||Skull, face, neck, cranial nerves and vessels.|MEM SPA DET|CLN
+Systemic Histology II||Histology of endocrine, nervous and special-sense organs.|MEM SPA|LAB CLN
+Systemic Embryology II||Development of the head, neck and nervous system.|MEM SPA|CLN
+Practical Gross Anatomy III||Head and neck dissection.|SPA DET|CLN
+Practical Neuroanatomy||Brain sections, tracts and nuclei.|SPA DET MEM|CLN
+Practical Histology III||Slides of endocrine and nervous tissue.|DET SPA|LAB
+Autonomic and Neurophysiology||Nervous system function, reflexes and autonomic control.|MEM LOG|CLN
+Special Senses and Systemic Physiology III||Vision, hearing, taste, smell, and the CNS.|MEM LOG|CLN
+Applied Physiology III||Case-based neural and sensory physiology.|CRT LOG|CLN
+Physiology Practicals III||Experiments on nerve, senses and CNS.|DET NUM|LAB CLN
+Biochemistry III||Clinical biochemistry, hormones and disease biochemistry.|MEM LOG|LAB CLN
+Biochemistry Practicals III||Clinical chemistry tests.|DET NUM|LAB CLN
+Endocrine and Local Hormones Pharmacology||Drugs acting on endocrine glands, insulin, steroids and autacoids.|MEM LOG|CLN
+Psychiatry I||Introduction to psychiatry, classification and common mental disorders.|CRT VER|CLN CUS
+Environmental Health, Nutrition and Health Education||Environmental sanitation, nutrition and health education strategies.|CRT MEM|CUS COM
+Introduction to Clinical Medicine||History taking, physical examination and communication with patients.|DET VER CRT|CLN CUS
+Nervous System Pharmacology||Drugs acting on CNS: anaesthetics, sedatives, anticonvulsants, antipsychotics.|MEM LOG|CLN
+Toxicology||Poisons, drug overdose, antidotes and forensic toxicology.|MEM LOG|CLN HSE
+Pharmacology Practicals||Experimental pharmacology and prescription writing.|DET NUM|LAB CLN
+Microbiology Practicals I||Staining, culture and identification of bacteria.|DET|LAB HSE
+Microbiology Lectures I||Medical bacteriology.|MEM LOG|LAB CLN
+Microbiology Practicals II||Culture, sensitivity testing and identification.|DET|LAB HSE
+Microbiology Lectures II||Virology, mycology and parasitology.|MEM LOG|LAB CLN
+Systemic Pathology Practicals I||Gross and microscopic pathology specimens I.|DET SPA MEM|LAB CLN
+Systemic Pathology Lectures I||Pathology of cardiovascular, respiratory and gastrointestinal systems.|MEM LOG|CLN
+Systemic Pathology Practicals II||Pathology specimens and slides II.|DET SPA|LAB CLN
+Junior Medical Posting||Supervised clinical attachment on medical wards with history and examination skills.|DET CRT VER|CLN CUS
+Junior Surgical Posting||Supervised attachment on surgical wards and theatre.|DET CRT|CLN HSE
+Epidemiology: Principles and Applied||Disease measurement, study designs, outbreaks and screening.|NUM CRT|DAT RES
+Psychiatry II||Psychotic, mood and substance disorders and management.|CRT VER|CLN CUS
+Chemical Pathology||Biochemical investigation of disease and interpretation of results.|NUM LOG MEM|LAB CLN
+Essentials of Child Health Care||Growth, development, immunisation and common paediatric illness.|MEM CRT|CLN CUS
+Clinical Postings in Child Health Care||Paediatric ward and clinic attachment.|DET CRT|CLN CUS
+Junior Posting in Obstetrics and Gynaecology||Antenatal clinic, labour ward and gynaecology attachment.|DET CRT|CLN CUS
+Obstetrics and Gynaecology Lectures||Pregnancy, labour, puerperium and gynaecological disease.|MEM CRT|CLN
+Haematology Lectures I||Red cells, anaemias and blood disorders.|MEM LOG|CLN LAB
+Microbiology Lectures III||Systemic infections and public health microbiology.|MEM LOG|CLN
+Microbiology Practicals III||Clinical specimens and laboratory diagnosis.|DET|LAB
+Microbiology Lectures IV||Antimicrobial therapy, infection control and immunology.|MEM LOG|CLN HSE
+Chemical Pathology Lectures II||Disorders of metabolism, endocrine and renal chemistry.|MEM LOG NUM|CLN LAB
+Chemical Pathology Lectures I||Clinical biochemistry principles, enzymes and electrolytes.|MEM NUM|CLN LAB
+Chemical Pathology Lectures III||Advanced diagnostic biochemistry and case interpretation.|LOG NUM|CLN LAB
+Chemical Pathology Practicals II||Analysis of blood and urine samples.|DET NUM|LAB CLN
+Systemic Pathology Lectures III||Pathology of nervous, endocrine and musculoskeletal systems.|MEM LOG|CLN
+Systemic Pathology Practicals III||Specimens and slides III.|DET SPA|LAB CLN
+Systemic Pathology Lectures IV and Forensic Medicine||Pathology of reproductive and urinary systems; forensic medicine.|MEM LOG|CLN LEG
+Haematology Lectures II||Leukaemias, lymphomas and coagulation disorders.|MEM LOG|CLN LAB
+Haematology Practicals I||Blood counts, film examination and grouping.|DET|LAB CLN
+Haematology Lectures III||Transfusion medicine and haemoglobinopathies.|MEM LOG|CLN LAB
+Haematology Practicals II||Coagulation tests, cross-matching and bone-marrow slides.|DET|LAB CLN
+Anaesthesia, Analgesia and Resuscitation||Anaesthetic agents, airway management, pain relief and resuscitation.|MEM CRT|CLN HSE
+Intensive Care and the Treatment of Pain||Critical care principles and pain management.|CRT MEM|CLN
+Primary Medical Care||Community-based care, common conditions and referral.|CRT VER|CLN CUS
+Dermatology and Venereology||Skin diseases and sexually transmitted infections.|MEM DET|CLN
+Principles and Practice of Radiology||Imaging modalities, indications, interpretation and radiation safety.|SPA MEM DET|CLN HSE
+Diseases of Bones and Joints and Related Tissues||Orthopaedic and rheumatological disease.|MEM SPA|CLN
+Effects and Management of Trauma||Trauma assessment, fractures, burns and emergency care.|CRT DET|CLN
+Disorders of the Eye and Vision||Ophthalmology: eye anatomy, common diseases and examination.|MEM DET|CLN
+Diseases and Injuries of the Ear, Nose and Throat||ENT diseases, examination and management.|MEM DET|CLN
+Urban and Rural Postings: Organisation of Health Services, Primary Health Care, Occupational Health||Community posting: health systems, primary care and occupational health.|CRT VER|CUS PM
+Posting to the Four Sub-divisions of Pathology||Rotation through chemical pathology, haematology, microbiology and histopathology.|MEM DET|CLN LAB
+Clinical Psychiatry Posting||Psychiatric ward and clinic attachment.|CRT VER|CLN CUS
+Clinical Electives||Student-chosen clinical attachment.|CRT|CLN
+Sub-specialty Paediatrics and Advanced Approach to Clinical Paediatrics||Advanced paediatrics and its sub-specialities.|CRT MEM|CLN
+Obstetrics and Gynaecology: Lectures, Tutorials, Dissertation, Project and Senior Posting||Final-year obstetrics and gynaecology, with dissertation and senior posting.|CRT MEM|CLN RES
+Medicine: Lectures, Tutorials and Senior Posting||Final-year internal medicine and bedside clinical practice.|CRT MEM|CLN
+Surgery, including Sub-specialities: Lectures, Tutorials and Senior Posting||Final-year surgery and its sub-specialities.|CRT MEM|CLN
+Principles of Accounting I||Accounting concepts, double entry and basic statements.|NUM DET|FIN
+Principles of Management I||Management functions, planning, organising, leading and controlling.|CRT VER|PM COM
+Introduction to Sociology||Society, culture, institutions and social change.|VER CRT|RES
+Introduction to Computer||Computer hardware, software and applications.|LOG|COM
+Introduction to Finance I||Financial system, time value of money and instruments.|NUM|FIN
+Business Mathematics I||Algebra, percentages, interest and business calculations.|NUM|FIN
+Basic Statistical Methods||Summary statistics, probability and sampling for business.|NUM LOG|DAT
+Business Mathematics II||Matrices, calculus and linear programming for business.|NUM LOG|FIN
+Principles of Accounting II||Company and partnership accounts and adjustments.|NUM DET|FIN
+Principles of Management II||Organisational behaviour, strategy and decision-making.|CRT VER|PM
+Introduction to Finance II||Capital budgeting, risk and return, and markets.|NUM|FIN
+Use of Library, Study Skills and ICT||Library research, study methods and digital tools.|VER|COM
+The Citizen and the State||Citizenship, rights, duties and government.|VER CRT|ETH
+Nigerian People and Culture||Ethnic groups, culture and heritage of Nigeria.|VER MEM|COM
+Introduction to Insurance||Insurance principles, risk, types and the Nigerian insurance market.|VER CRT|FIN
+Advanced Mathematics I||Calculus and linear algebra for actuarial work.|NUM LOG|DAT
+Business Communication||Business writing, presentations and negotiations.|VER|COM
+Micro-Economics Theory||Demand, supply, consumer and firm theory.|NUM LOG|FIN
+Elements of Marketing||Marketing mix, consumer behaviour and market research.|CRT VER|COM
+Financial Accounting I||Recording, ledgers and final accounts.|NUM DET|FIN
+Entrepreneurship||Business ideas, planning and small enterprise.|CRT|ENT
+Peace Studies and Conflict Resolution||Conflict causes, mediation and peace-building.|CRT VER|COM
+Introduction to Actuarial Science||Actuarial role, interest, annuities and mortality basics.|NUM LOG|FIN
+Advanced Mathematics II||Probability, differential equations and series for actuarial work.|NUM LOG|DAT
+Macro-Economics Theory||National income, inflation, money and policy.|NUM LOG|FIN
+Quantitative Analysis||Statistical and quantitative decision tools.|NUM LOG|DAT
+Financial Accounting II||Company accounts and statements.|NUM DET|FIN
+Environment and Sustainable Development||Environmental problems, sustainability and policy.|CRT VER|ETH
+The Public and Private Sector||Government and business organisations compared.|VER CRT|COM
+Life Contingency I||Life tables, survival models and life insurance valuation.|NUM LOG|FIN
+Risk Management I||Risk identification, assessment and treatment methods.|CRT NUM|FIN HSE
+Numerical Analysis||Interpolation, numerical integration and equation solving.|NUM LOG|DAT
+Actuarial Mathematics||Annuities, insurance benefits and premium calculation.|NUM LOG|FIN
+Management Information System||Information systems in organisations.|LOG|DES
+Human Behaviour in Organisation||Motivation, leadership and group behaviour.|CRT VER|COM CUS
+Investment Theory||Portfolio theory, asset pricing and risk-return.|NUM LOG|FIN
+Mathematical Statistics||Estimation theory and hypothesis testing.|NUM LOG|DAT
+Theory of Interest||Compound interest, annuities and yield.|NUM|FIN
+Cost and Management Accounting||Cost behaviour, budgeting and variance analysis.|NUM DET|FIN
+Life and Health Insurance||Life, annuity and health insurance products.|VER NUM|FIN
+Further Numerical Analysis||Advanced numerical methods.|NUM LOG|DAT
+Probability Theory||Random variables, distributions and limit theorems.|NUM LOG|DAT
+Leadership Skills||Leading teams, ethics and decision-making.|CRT VER|COM PM
+Research Methods||Research design and data collection and analysis.|CRT LOG|RES DAT
+Life Contingency II||Multiple decrement, reserves and pension valuation.|NUM LOG|FIN

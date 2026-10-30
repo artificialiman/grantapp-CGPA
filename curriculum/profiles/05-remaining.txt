@@ -1,0 +1,294 @@
+Theory and Practice of Investment||Investment analysis, portfolios, securities and valuation.|NUM CRT|FIN
+Risk Management II||Insurance risk transfer, underwriting, reinsurance and enterprise risk.|CRT NUM|FIN
+Business Decision Analysis and Ethics||Decision tools, uncertainty and business ethics.|CRT NUM|ETH PM
+Production and Operations Management||Production planning, inventory, quality and supply chains.|NUM LOG|PM
+Business Policy and Strategy||Strategic analysis, competition and corporate policy.|CRT VER|PM
+Marine Insurance||Cargo and hull insurance, marine perils and claims.|VER MEM|FIN LEG
+Aviation Insurance||Aircraft hull, liability and passenger insurance.|VER MEM|FIN LEG
+Pension Fund and Social Insurance||Pension schemes, social security and fund management.|NUM VER|FIN LEG
+Actuarial Statistics and Mortality Analysis||Mortality models, graduation and survival analysis.|NUM LOG|DAT FIN
+Motor Insurance||Motor policies, compulsory third-party cover and claims handling.|VER MEM|FIN CUS
+Engineering Insurance||Contractors' all-risks, erection and machinery insurance.|VER MEM|FIN
+Introduction to Mechanical Engineering||Mechanical engineering fields, machine elements, energy and the profession.|MEC VER|DES COM
+Engineering Metrology||Measurement, tolerances, gauges and inspection of manufactured parts.|DET NUM MEC|MFG LAB
+Electronics of Mechanical Systems||Sensors, actuators and electronics for mechatronic systems.|LOG MEC|DES
+Fundamentals of Mechanisms and Machines||Kinematics of linkages, cams, gears and machine dynamics.|MEC SPA NUM|DES CAD
+Mechanical Engineering Design I||Design of machine elements: shafts, springs, bearings and joints.|MEC NUM SPA|DES CAD
+Manufacturing Technology||Casting, forming, machining, welding and joining processes.|MEC SPA|MFG HSE
+Mathematics for Health Sciences||Algebra, calculus and dosage calculations for health students.|NUM LOG|DAT
+General and Systemic Embryology||Embryo development: gametes to organ systems.|MEM SPA|CLN
+Anatomy of Upper and Lower Limb||Bones, muscles, nerves and vessels of the limbs.|MEM SPA DET|CLN
+Introduction to General Microbiology||Types of microbes, growth, control and diagnostic use.|MEM LOG|LAB HSE
+Introduction to Medical Laboratory Science||Laboratory disciplines, safety and professional ethics.|VER DET|LAB HSE ETH
+Physiology of Excitable Tissues||Nerve and muscle excitation and contraction.|MEM LOG|CLN LAB
+Introduction to Cardiovascular and Respiratory Physiology||Heart, circulation, breathing and gas exchange.|MEM LOG NUM|CLN
+Gastrointestinal Physiology||Digestion, absorption and gut motility.|MEM LOG|CLN
+History of Medical Laboratory Science||Evolution, regulation and ethics of the profession.|VER MEM|ETH
+Introduction to Biology of Diseases||Causes, mechanisms and classes of disease.|MEM LOG|CLN LAB
+Basic Clinical Chemistry||Analytical principles, specimen handling and common tests.|DET NUM|LAB DAT
+Basic Haematology||Blood cells, counts, film examination and anaemias.|DET MEM|LAB
+Basic Microbiology||Culture, staining and identification of clinical isolates.|DET MEM|LAB HSE
+Basic Histopathology||Tissue fixation, processing, sectioning and staining.|DET SPA|LAB
+Basic Immunology||Immune response, antigens, antibodies and serology.|MEM LOG|LAB
+Laboratory Posting I||Supervised clinical laboratory rotation.|DET|LAB HSE COM
+Practical Exercise I||Hands-on practicals across lab disciplines.|DET|LAB
+Fundamentals of Blood Group Serology||ABO and Rh systems and grouping techniques.|DET MEM|LAB
+Basic Medical Parasitology and Entomology||Parasites, vectors and laboratory diagnosis.|MEM DET|LAB
+Biomedical Engineering||Medical devices, instrumentation and laboratory equipment.|MEC LOG|LAB DES
+Basic Pharmacology and Toxicology||Drug action, toxicity and laboratory monitoring.|MEM LOG|LAB
+Chemistry and Metabolism of Amino Acids and Proteins||Amino-acid and protein structure and metabolism.|MEM LOG|LAB
+Forensic Science||Forensic evidence, analysis and expert testimony.|DET LOG|LAB ETH LEG
+Medical Laboratory Bio-risk Management||Biosafety, waste handling and laboratory risk.|DET CRT|HSE
+Bio-manufacturing and In-vitro Diagnostic Reagents||Production and quality control of diagnostic reagents.|DET LOG|MFG LAB
+Laboratory Management and Function, Laboratory Practice||Laboratory organisation, quality management and accreditation.|CRT DET|PM HSE
+Medical Laboratory Haematology||Haemostasis, transfusion and haematological malignancies.|MEM DET|LAB
+Medical Laboratory Histopathology I||Histological technique and special stains.|DET SPA|LAB
+Medical Laboratory Microbiology I||Bacteriology and diagnostic methods.|DET MEM|LAB
+Laboratory Instrumentation and Techniques||Spectrophotometry, chromatography and analysers.|DET NUM|LAB
+Practical Exercise II||Advanced laboratory practicals.|DET|LAB
+Laboratory Posting II||Clinical lab rotation, specialised sections.|DET|LAB COM
+Clinical Chemistry I||Carbohydrate, lipid, protein and enzyme tests.|NUM MEM|LAB DAT
+Blood Group Serology||Transfusion immunology and cross-matching.|DET MEM|LAB
+Professional Ethics in Medical Laboratory Science||Professional conduct, confidentiality and regulation.|CRT VER|ETH
+Medical Laboratory Supply Chain Management||Procurement, stock control and cold chain.|NUM CRT|PM
+Molecular Diagnostics and Bioinformatics||PCR, sequencing and bioinformatics tools.|LOG DET|LAB DAT
+Immunology I||Immunological methods and immunopathology.|MEM LOG|LAB
+Tissue Slide Reading and Reporting||Interpreting histology slides and reporting.|SPA DET MEM|LAB CLN
+Special Topics in Clinical Chemistry||Advanced topics: endocrine, toxicology and tumour markers.|NUM MEM|LAB
+Character Building, Professionalism and Team Work in Healthcare||Ethics, professionalism and teamwork in clinical settings.|CRT VER|ETH COM CUS
+Laboratory Posting III||Final clinical laboratory rotation.|DET|LAB COM
+Practical Exercises III||Final practical exercises.|DET|LAB
+Clinical Chemistry II||Endocrine, renal and liver function.|NUM MEM|LAB
+Medical Laboratory Haematology II||Leukaemias and bone-marrow disease.|MEM DET|LAB
+Medical Laboratory Histopathology II||Advanced histopathology and cytology.|DET SPA|LAB
+Medical Laboratory Microbiology II||Virology, mycology and parasitology diagnosis.|DET MEM|LAB
+Clinical Chemistry III||Toxicology, therapeutic drug monitoring and special assays.|NUM MEM|LAB
+Modern Trends in Haematological Techniques||Flow cytometry, automation and molecular haematology.|DET LOG|LAB
+Histopathology III||Immunohistochemistry and diagnostic histopathology.|DET SPA|LAB
+Immunology II||Transplant, tumour and clinical immunology.|MEM LOG|LAB
+Public Health and Field Epidemiology||Outbreak investigation, surveillance and public health practice.|CRT NUM|FLD DAT
+Medical Microbiology III||Advanced clinical microbiology and infection control.|MEM LOG|LAB HSE
+Introduction to Materials and Metallurgical Engineering||Materials classes, metallurgy, processing and the profession.|MEM CRT|DES
+Fundamentals of Engineering Safety Materials||Hazardous materials, fire, safety standards and material safety.|DET CRT|HSE
+Introduction to Thermodynamics of Materials||Laws of thermodynamics applied to materials.|NUM LOG|DES
+Thermodynamics of Materials||Phase equilibria, free energy and phase diagrams.|NUM LOG|DES
+Heat and Mass Transfer||Conduction, convection, radiation and diffusion.|NUM MEC|DES
+Mineral Processing||Comminution, separation, flotation and beneficiation.|MEC NUM|MFG DES
+Chemistry of Materials||Chemical bonding and reactions in materials.|MEM LOG|LAB
+Engineering Materials: Structure and Properties||Crystal structure, defects and property relationships.|MEM SPA|LAB DES
+Mechanical Working of Metals||Rolling, forging, extrusion and drawing.|MEC NUM|MFG DES
+Fracture Mechanics||Crack behaviour, toughness and fatigue.|NUM MEC|DES
+Physical Metallurgy I||Phase transformations, heat treatment and microstructure.|MEM SPA|LAB DES
+Materials Laboratory I||Mechanical tests and microstructure.|DET NUM|LAB DAT HSE
+Materials Laboratory II||Heat treatment and metallography.|DET|LAB DAT
+Synthesis, Processing and Manufacturing of Materials||Production routes for metals, ceramics and polymers.|MEM MEC|MFG DES
+Non-ferrous Extractive Metallurgy||Extraction of aluminium, copper, zinc and others.|MEM NUM|MFG DES
+Corrosion Science and Engineering||Corrosion mechanisms, prevention and testing.|MEM NUM|HSE DES
+Mechanical Behaviour of Materials||Elasticity, plasticity, creep and fatigue.|NUM MEC|DES LAB
+Fuels, Furnaces and Refractories||Fuels, combustion, furnace design and refractories.|NUM MEC|DES
+Manufacturing Processes||Casting, machining, welding and forming.|MEC SPA|MFG
+Chemical Metallurgy||Pyro-, hydro- and electro-metallurgy of metals.|NUM LOG|DES
+Introduction to Materials Computation and Modelling||Computational methods for materials simulation.|LOG NUM|PRG DAT
+Materials Laboratory III||Advanced characterisation and testing.|DET NUM|LAB DAT
+Experimental Techniques||XRD, microscopy and spectroscopy methods.|DET NUM|LAB DAT
+Analytical Methods for Materials||Analytical techniques for composition and structure.|DET NUM|LAB DAT
+Iron and Steel Making||Blast furnace, converter and steelmaking processes.|MEM NUM|MFG DES
+Solidification and Foundry Technology||Solidification, casting design and foundry practice.|MEC SPA|MFG DES
+Nanoscience and Nanotechnology||Nanomaterials, synthesis and applications.|MEM LOG|LAB DES
+Principles of Materials Selection||Property charts, constraints and design-driven selection.|CRT LOG|DES
+Materials Failure Analysis||Investigating fracture, wear and corrosion failures.|DET CRT|DES HSE
+Student Seminar||Researching and presenting a technical topic.|VER CRT|COM RES
+Engineering Materials Laboratory||Combined laboratory on materials behaviour.|DET NUM|LAB DAT
+Powder Metallurgy||Powder production, compaction and sintering.|MEC NUM|MFG DES
+Introduction to Laser Technology and Additive Manufacturing||Laser processing and 3D printing of materials.|SPA LOG|MFG DES
+Surface Engineering and Coatings Technologies||Coatings, plating and surface treatments.|MEM|MFG DES
+Polymers||Polymer structure, synthesis and processing.|MEM LOG|MFG
+Composite Materials||Fibre-matrix composites, mechanics and manufacture.|MEC NUM|DES MFG
+Biomaterials||Materials for implants and tissue engineering.|MEM LOG|DES
+Ceramics||Ceramic structure, processing and applications.|MEM|MFG
+General Ecology||Ecosystems, populations, communities and energy flow.|MEM LOG|FLD
+Introductory Genetics and Cell Biology||Cell structure, division, inheritance and genetics.|MEM LOG|LAB
+Experimental Physical and Inorganic Chemistry||Lab work: thermochemistry, kinetics and inorganic analysis.|DET NUM|LAB
+General Microbiology I||Microbial diversity, bacterial structure and growth.|MEM LOG|LAB
+Introductory Virology||Virus structure, replication and diseases.|MEM LOG|LAB
+Statistics for Agricultural and Biological Sciences Students||Statistical analysis for biological experiments.|NUM LOG|DAT RES
+Biological Techniques||Microscopy, staining, sampling and lab techniques.|DET|LAB
+Experimental Physical and Organic Chemistry||Lab work: organic synthesis and physical measurements.|DET NUM|LAB HSE
+General Microbiology II||Microbial metabolism, genetics and control.|MEM LOG|LAB
+Introduction to Food Science||Food composition, processing and preservation.|MEM|LAB
+Invertebrate Zoology||Classification and biology of invertebrates.|MEM|LAB
+Introduction to Biotechnology||Principles and applications of biotechnology.|MEM LOG|LAB
+Bacteriology||Bacterial structure, genetics and pathogenic species.|MEM DET|LAB
+Soil Microbiology||Soil microbes, nutrient cycles and biofertilisers.|MEM|LAB FLD
+Mycology||Fungal biology, classification and mycoses.|MEM|LAB
+Food Microbiology||Spoilage, food-borne disease and preservation.|MEM|LAB HSE
+Microbial Ecology||Microbes in habitats and interactions.|MEM LOG|FLD LAB
+Parasitology I||Protozoan and helminth parasites.|MEM|LAB
+SIWES (Student Industrial Work Experience Scheme)||Supervised industrial placement with logbook and report.|DET|COM HSE
+Virology and Tissue Culture||Virology methods and cell culture.|DET LOG|LAB
+Principles of Epidemiology and Public Health||Disease patterns, outbreak methods and public-health basics.|NUM CRT|DAT
+Industrial Microbiology||Fermentation, industrial strains and production.|MEM LOG|LAB MFG
+Pharmaceutical Microbiology||Sterility, antibiotics and pharmaceutical quality.|DET MEM|LAB HSE
+Petroleum Microbiology||Hydrocarbon-degrading microbes and bioremediation.|MEM|LAB FLD
+Pathogenic Microbiology||Medically important pathogens and diagnosis.|MEM DET|LAB
+Microbial Physiology and Metabolism||Microbial growth, energy and metabolic pathways.|MEM LOG|LAB
+Environmental Microbiology||Microbes in water, soil and waste.|MEM|LAB FLD
+Biodeterioration||Microbial damage to materials.|MEM|LAB
+Microbiological Quality Assurance||Quality systems, standards and testing.|DET CRT|HSE LAB
+Seminar Presentation||Researching and presenting a microbiology topic.|VER CRT|COM RES
+Genetics for Medical Students||Medical genetics: inheritance, genetic disease and counselling.|MEM LOG|CLN
+Basic Principles of Chemistry I||General and physical chemistry for health students.|NUM MEM|LAB
+Basic Principles of Chemistry II||Organic and inorganic chemistry for health students.|MEM LOG|LAB
+Basic Principles of Organic Chemistry II||Organic functional groups and reactions for health students.|MEM LOG|LAB
+Basic Practical Chemistry||Basic chemistry laboratory.|DET|LAB HSE
+General Physics for Life Sciences I||Mechanics and heat for life sciences.|NUM|LAB
+General Physics for Life Sciences II||Electricity, waves and optics for life sciences.|NUM|LAB
+General Physics for Life Sciences III||Atomic and nuclear physics for life sciences.|NUM|LAB
+General Mathematics||Algebra, calculus and statistics basics.|NUM LOG|DAT
+Basic Parasitology||Introductory medical parasitology.|MEM|LAB
+Foundations of Nursing I||Nursing concepts, history, hygiene and basic procedures.|DET MEM|CLN CUS
+Foundations of Nursing II||Vital signs, medication, wound care and patient assessment.|DET MEM|CLN HSE
+Basic Nutrition in Nursing||Nutrients, diets and nutritional assessment.|MEM|CLN CUS
+Psychology in Nursing||Behaviour, communication and coping in patients.|CRT VER|CUS
+Nursing Practicum and Clinical||Supervised ward practice of basic nursing care.|DET|CLN HSE
+Gross Human Anatomy I||Limbs, thorax and abdomen.|MEM SPA|CLN
+Gross Human Anatomy II||Pelvis, head and neck.|MEM SPA|CLN
+General Histology and Cytology||Cell and tissue structure.|MEM SPA|LAB
+Introduction to Human Biochemistry||Biomolecules and enzymes.|MEM LOG|LAB
+Metabolism||Carbohydrate, lipid and protein metabolism.|MEM LOG|LAB
+Human Physiology and Blood||Body fluids, blood and homeostasis.|MEM LOG|CLN
+Gastrointestinal Tract and Renal Physiology||Digestion, kidney function and fluid balance.|MEM LOG|CLN
+Cardiovascular and Respiratory System||Heart, circulation and respiration.|MEM LOG|CLN
+Computer Sciences||Computer basics and applications.|LOG|COM
+Medical-Surgical Nursing I||Care of adults with common medical and surgical conditions.|CRT DET|CLN
+Medical-Surgical Nursing II||Nursing care in complex medical and surgical conditions.|CRT DET|CLN
+Pharmacology for Nurses||Drug groups, dosing, administration and safety.|MEM NUM DET|CLN HSE
+Nutrition in Illness and Disease||Therapeutic diets and nutrition support.|MEM|CLN
+Paediatric Nursing||Care of infants and children.|CRT DET|CLN CUS
+Community Health Nursing I||Primary health care and community assessment.|CRT|CUS FLD
+Community Health Nursing II||Health promotion, immunisation and home care.|CRT|CUS FLD
+Family Health Nursing I||Family-centred care and health education.|CRT|CUS
+Reproductive Health Nursing I||Antenatal, intrapartum and postnatal care.|DET CRT|CLN CUS
+Mental Health and Psychiatric Nursing||Mental illness, therapeutic communication and care.|CRT VER|CLN CUS
+Head and Neck Anatomy||Skull, face and neck structures.|MEM SPA|CLN
+Endocrinology and Reproduction||Hormones and reproductive physiology.|MEM LOG|CLN
+Sociology in Health Practice||Society, culture and health behaviour.|CRT VER|CUS
+Biostatistics in Health Technology||Statistics for health data.|NUM LOG|DAT
+Medical Jurisprudence I||Law and ethics in health practice.|VER CRT|ETH LEG
+Medical Jurisprudence II||Negligence, consent and professional liability.|VER CRT|ETH LEG
+Introduction to Medical Microbiology||Pathogens, infection and infection control.|MEM|LAB HSE
+Medical-Surgical Nursing III||Advanced and critical care nursing.|CRT DET|CLN
+Community Health Nursing III||Epidemiology, community programmes and outreach.|CRT NUM|CUS DAT
+Introduction to Nursing Education||Teaching, learning and clinical instruction.|VER CRT|COM
+Principles of Management and Administration in Nursing||Ward and service management.|CRT|PM COM
+Public Relations in Nursing||Communication with patients, staff and the public.|VER|COM CUS
+Reproductive Health Nursing II||Complicated pregnancy, labour and newborn care.|DET CRT|CLN
+Community Health Nursing Clinical||Clinical practice in community settings.|DET|CLN CUS
+Medical-Surgical Nursing Clinical||Supervised ward practice in adult nursing.|DET|CLN
+Mental Health and Psychiatric Nursing Clinical||Psychiatric ward practice.|DET CRT|CLN CUS
+Maternal and Child Health Nursing Clinical||Maternity and paediatric clinical practice.|DET|CLN CUS
+Business Development and Management||Business planning and management for health ventures.|CRT|ENT PM
+Gerontology and Geriatric Nursing||Care of older adults and age-related conditions.|CRT|CLN CUS
+Health Economics||Health financing, costs and resource allocation.|NUM CRT|FIN
+Guidance and Counselling in Nursing||Counselling skills and patient guidance.|VER CRT|CUS
+Reproductive Health Nursing III||Gynaecological, family planning and advanced obstetric nursing.|DET CRT|CLN
+Client Teaching and Counselling Practicum||Practice of health teaching and counselling.|VER|CUS COM
+Nursing Administration and Management Practicum||Practice of ward and unit management.|CRT|PM
+Reproductive Health Nursing Practicum||Clinical practice in maternity and gynaecology.|DET|CLN
+Nursing Seminar||Presenting nursing research and practice topics.|VER CRT|COM RES
+Basic Petroleum Engineering||Oil and gas origin, exploration, drilling, production and surface facilities.|MEM CRT|DES
+Drilling Technology I||Rig components, drilling methods and wellbore basics.|MEC SPA|DES HSE
+Engineering Computer Programming||Programming for engineering calculations.|LOG|PRG
+Thermodynamics I||Laws of thermodynamics and properties of substances.|NUM LOG|DES
+Thermodynamics II||Cycles, mixtures, combustion and refrigeration.|NUM LOG|DES
+Fluid Mechanics||Fluid statics, flow, pipe systems and machinery.|NUM MEC|DES
+Petroleum Geology||Origin, migration and trapping of hydrocarbons.|MEM SPA|FLD
+Well Testing and Analysis||Pressure transient tests and reservoir parameters.|NUM LOG|DAT DES
+Computer Applications in Petroleum Engineering||Software for reservoir, drilling and production analysis.|LOG|PRG DAT
+Drilling Technology II||Directional drilling, casing and cementing.|MEC SPA|DES HSE
+Reservoir Geomechanics||Rock stress, deformation and wellbore stability.|NUM MEC|DES
+Drilling Fluid Systems and Engineering||Mud properties, hydraulics and solids control.|NUM MEC|DES HSE
+Formation Evaluation||Log and core analysis to determine reservoir properties.|NUM LOG|DAT
+Petroleum Engineering Laboratory||Lab tests on rocks, fluids and drilling muds.|DET NUM|LAB DAT
+Quality, Health, Safety and Environment Studies||QHSE standards, risk and environmental compliance.|DET CRT|HSE ETH
+Well Test Analysis||Advanced pressure-test interpretation.|NUM LOG|DAT
+Offshore Technology||Platforms, subsea systems and marine operations.|MEC SPA|DES HSE
+Well Logging||Logging tools and log interpretation.|NUM SPA|DAT
+Reservoir Engineering I||Fluid properties, reservoir drive and material balance.|NUM LOG|DES DAT
+Oil and Gas Production Technology I||Well completion, artificial lift and flow performance.|NUM MEC|DES
+Oil Field Development I||Field appraisal, development planning and economics.|CRT NUM|PM FIN
+Oil Field Development II||Facilities design, recovery plans and decision analysis.|CRT NUM|PM FIN
+Reservoir Engineering II||Water influx, decline analysis and recovery.|NUM LOG|DES
+Reservoir Engineering III||Enhanced recovery and reserve estimation.|NUM LOG|DES
+Oil and Gas Production Technology II||Surface facilities and separation.|NUM MEC|DES
+Oil and Gas Production Technology III||Production optimisation and well stimulation.|NUM MEC|DES
+Natural Gas Engineering||Gas properties, flow, measurement and transport.|NUM MEC|DES
+Natural Gas Processing||Dehydration, sweetening, NGL recovery and LNG.|NUM MEC|DES
+Numerical Methods||Numerical methods for engineering and reservoir problems.|NUM LOG|PRG DAT
+Elements of Reservoir Simulation||Reservoir models and simulators.|NUM LOG|PRG DAT
+Oil Recovery Processes||Primary, secondary and enhanced oil recovery methods.|NUM CRT|DES
+Introduction to Pharmacy||History, branches and practice of pharmacy.|VER MEM|ETH COM
+Philosophy, Logic, Environment and Sustainable Development||Philosophy, logic and sustainability.|LOG CRT|ETH
+Basic Anatomy||Gross anatomy overview.|MEM SPA|CLN
+Histology||Microscopic structure of tissues.|MEM SPA|LAB
+Biochemistry||Biomolecules, enzymes and metabolism for pharmacists.|MEM LOG|LAB
+Introductory Molecular Biology||DNA, RNA, protein synthesis and genetic techniques.|MEM LOG|LAB
+Neurophysiology and Special Senses||Nervous system function and the senses.|MEM LOG|CLN
+Information and Communication Technology in Pharmacy I||Pharmacy software, records and digital tools.|LOG|COM DAT
+Organised Vegetable Drugs||Crude drugs of plant organs: identification and use.|MEM DET|LAB
+Unorganised Vegetable Drugs||Gums, resins, oils and extracts.|MEM|LAB
+Inorganic Pharmaceutical Chemistry||Inorganic drugs and pharmaceutical ingredients.|MEM LOG|LAB
+Physical Pharmaceutical Chemistry I||Solutions, solubility, kinetics and stability.|NUM LOG|LAB
+Organic Pharmaceutical Chemistry I||Organic drug structure and reactions.|MEM LOG SPA|LAB
+Introductory Pharmaceutics||Dosage form basics, weights and measures.|NUM DET|LAB
+Unit Operations||Mixing, filtration, size reduction and drying.|NUM MEC|MFG LAB
+Dispensing Practical I||Compounding of simple formulations.|DET NUM|LAB HSE
+Dispensing Practical II||Compounding of solutions, emulsions and suspensions.|DET NUM|LAB HSE
+Introductory Pharmaceutical Microbiology||Microbes, sterilisation and aseptic technique.|MEM DET|LAB HSE
+Students Industrial Work Experience Scheme (SIWES)||Supervised placement with report.|DET|COM HSE
+Clinical Pharmacy I||Patient care, prescription review and pharmaceutical care.|CRT DET|CLN CUS
+Pathology||Disease mechanisms for pharmacy.|MEM LOG|CLN
+Separation Techniques in Pharmacognosy||Extraction and chromatography of natural products.|DET|LAB
+Drugs of Biological Origin||Vaccines, sera, hormones and biologicals.|MEM|LAB
+Physical Pharmaceutical Chemistry II||Colloids, rheology and surface phenomena.|NUM LOG|LAB
+Organic Pharmaceutical Chemistry II||Drug synthesis and heterocyclic chemistry.|MEM LOG|LAB
+Drug Dosage Forms||Tablets, capsules, creams and injections.|MEM NUM|LAB
+Physical Pharmaceutics I||Dissolution, diffusion and stability.|NUM LOG|LAB
+Dispensing Practical III||Dispensing of semi-solid and sterile forms.|DET NUM|LAB HSE
+Dispensing Practical IV||Prescription dispensing and labelling.|DET|LAB CUS
+Introductory Pharmacology||Principles of drug action.|MEM LOG|CLN
+Pharmacology of the Autonomic Nervous System||Cholinergic and adrenergic drugs.|MEM LOG|CLN
+Pharmacology of the Haemopoietic System and Gastrointestinal Tract||Blood and GI drugs.|MEM LOG|CLN
+Applied Pharmaceutical Microbiology I||Antimicrobials, sterility and preservation.|DET MEM|LAB HSE
+Pharmacoeconomics||Cost-effectiveness analysis of drug therapy.|NUM CRT|FIN
+Biotechnology||Recombinant drugs and biotech production.|MEM LOG|LAB
+Clinical Pharmacy II||Therapeutics and monitoring of disease states.|CRT MEM|CLN
+Clinical Pharmacy Externship||Placement in hospital or community pharmacy.|DET|CLN CUS
+Information and Communication Technology in Pharmacy II||Pharmacy information systems and data.|LOG|DAT COM
+Phytochemistry and Biosynthesis of Natural Products||Plant metabolites and their biosynthesis.|MEM LOG|LAB
+Medicinal Plants and Traditional Medicine||Herbal medicines, evidence and regulation.|MEM|LAB ETH
+Pharmaceutical Analysis I||Titrations and spectroscopy of drugs.|DET NUM|LAB DAT
+Medicinal Chemistry I||Structure-activity relationships of drugs.|LOG SPA|LAB
+Pharmaceutical Technology||Manufacturing of tablets, capsules and liquids.|NUM MEC|MFG
+Physical Pharmaceutics II||Rheology, micromeritics and formulation science.|NUM LOG|LAB
+Industrial Pharmacy||Large-scale production, GMP and quality assurance.|DET CRT|MFG HSE
+Pharmacology of the Cardiovascular System||Heart and vascular drugs.|MEM LOG|CLN
+Pharmacology of the Central Nervous System||CNS drugs.|MEM LOG|CLN
+Applied Pharmaceutical Microbiology II||Sterile product manufacture and microbial testing.|DET|LAB HSE
+Pharmacy Management I||Pharmacy business, stock and finance.|NUM CRT|PM FIN
+Forensic Pharmacy and Pharmacy Ethics||Pharmacy law, regulation and ethics.|VER CRT|ETH LEG
+Veterinary Pharmacy||Animal drugs and veterinary dispensing.|MEM|CLN
+Clinical Pharmacy III||Advanced therapeutics and special populations.|CRT MEM|CLN
+Literature Evaluation and Communication Skills||Appraising drug literature and communicating information.|CRT VER|RES COM
+Public Health Pharmacy||Pharmacy role in public health and drug policy.|CRT|CUS RES
+Clinical Pharmacy Clerkship II||Advanced hospital clerkship.|DET CRT|CLN CUS
+Clinical Pharmacy Clerkship I||Hospital clerkship in patient care.|DET CRT|CLN CUS
+Evaluation of Phytopharmaceuticals||Standardisation and quality control of herbal products.|DET|LAB HSE
+Clinical Pharmacognosy: Traditional Medicine Practice||Clinical use and safety of herbal medicine.|MEM CRT|CLN ETH
+Pharmaceutical Analysis II and Drug Quality Assurance||Instrumental drug analysis and quality assurance.|DET NUM|LAB HSE
+Medicinal Chemistry II||Drug classes and design strategy.|LOG SPA|LAB
+Principles of Drug Design||Rational drug design and molecular modelling.|LOG SPA|DES
+Formulation Processes and Process Validation||Formulation development and validation.|DET NUM|MFG HSE
+Production and Quality Control of Cosmetics||Cosmetic formulation, production and testing.|DET|MFG LAB
+Pharmaceutical Microbiology III||Microbial quality, sterilisation and biologicals.|DET|LAB HSE
+Pharmaceutical Marketing||Marketing and sales of pharmaceutical products.|CRT VER|COM FIN

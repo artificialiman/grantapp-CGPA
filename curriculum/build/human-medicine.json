@@ -1,0 +1,2927 @@
+{
+ "department_slug": "human-medicine",
+ "faculty_slug": "medicine-and-surgery",
+ "faculty_name": "Medicine and Surgery (MBBS)",
+ "source": "MBBS curriculum, UNIBEN College of Medical Sciences (medicine.uniben.edu/?p=327). Tutorial-only lines left out; obvious typos in titles corrected. OBG posting code unreadable in source, left blank. Codes carry UNIBEN's departmental numbering.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "AEB111",
+   "name": "Introductory Zoology",
+   "kind": "core",
+   "slug": "aeb111",
+   "known_codes": "AEB111",
+   "aliases": [
+    {
+     "code": "AEB111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Zoology",
+   "summary": "Animal cells, tissues, classification and invertebrate biology.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "AEB122",
+   "name": "Functional Zoology",
+   "kind": "core",
+   "slug": "aeb122",
+   "known_codes": "AEB122",
+   "aliases": [
+    {
+     "code": "AEB122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Functional Zoology",
+   "summary": "Animal physiology, reproduction, development and ecology.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHEM111",
+   "name": "General Chemistry I",
+   "kind": "core",
+   "slug": "chem111",
+   "known_codes": "CHM101 (2/3), CHM111, CHM113",
+   "aliases": [
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Atomic Structure, Bonding and Physical Chemistry I",
+   "summary": "Atomic structure, periodic table, bonding, stoichiometry, states of matter, gas laws, thermochemistry and chemical equilibrium.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHEM113",
+   "name": "Organic Chemistry I",
+   "kind": "core",
+   "slug": "chem113",
+   "known_codes": "CHE176, CHM113, CHM202, CHM211 (2)",
+   "aliases": [
+    {
+     "code": "CHM211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHE176",
+     "units": null,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "CHM202",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "microbiology"
+   ],
+   "general_name": "Introductory Organic Chemistry: Structure, Bonding and Reactions",
+   "summary": "Hydrocarbons, alkyl halides, alcohols, stereochemistry, reaction mechanisms and functional groups.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHEM122",
+   "name": "General Chemistry II",
+   "kind": "core",
+   "slug": "chem122",
+   "known_codes": "CHM102 (2/3), CHM121, CHM122",
+   "aliases": [
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM121",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Introductory Inorganic and Organic Chemistry",
+   "summary": "Kinetics, electrochemistry, acids and bases, periodic trends, main-group chemistry, and introduction to organic compounds and reactions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHEM124",
+   "name": "Organic Chemistry II",
+   "kind": "core",
+   "slug": "chem124",
+   "known_codes": "CHM124, CHM303 (2)",
+   "aliases": [
+    {
+     "code": "CHM303",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM124",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry"
+   ],
+   "general_name": "Intermediate Organic Chemistry: Carbonyls, Aromatics and Synthesis",
+   "summary": "Aromatic compounds, aldehydes, ketones, carboxylic acids, amines and synthetic strategy.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PBB111",
+   "name": "Diversity of Plants",
+   "kind": "core",
+   "slug": "pbb111",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Diversity of Plants",
+   "summary": "Classification and biology of algae, fungi, bryophytes and vascular plants.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PBB122",
+   "name": "Plant Form and Function",
+   "kind": "core",
+   "slug": "pbb122",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Plant Form and Function",
+   "summary": "Plant anatomy, physiology, water relations and photosynthesis.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY109",
+   "name": "Practical Physics",
+   "kind": "core",
+   "slug": "phy109",
+   "known_codes": "PHY109, PHY191",
+   "aliases": [
+    {
+     "code": "PHY191",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "PHY109",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "nursing-science"
+   ],
+   "general_name": "Introductory Physics Laboratory",
+   "summary": "Combined first-year physics experiments covering mechanics, heat, electricity and optics.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY111",
+   "name": "Mechanics, Thermal Physics and Properties of Matter",
+   "kind": "core",
+   "slug": "phy111",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Mechanics, Thermal Physics and Properties of Matter",
+   "summary": "Mechanics, heat, thermodynamics and properties of matter for life-science students.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY113",
+   "name": "Vibrations, Waves and Optics",
+   "kind": "core",
+   "slug": "phy113",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Vibrations, Waves and Optics",
+   "summary": "Oscillations, wave motion, sound and geometric and wave optics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY124",
+   "name": "Electromagnetism and Modern Physics",
+   "kind": "core",
+   "slug": "phy124",
+   "known_codes": "PHY124",
+   "aliases": [
+    {
+     "code": "PHY124",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Electromagnetism and Modern Physics",
+   "summary": "Electric and magnetic fields, atomic and nuclear physics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT210",
+   "name": "Gross Anatomy of the Lower Extremities",
+   "kind": "core",
+   "slug": "ant210",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Gross Anatomy of the Lower Extremities",
+   "summary": "Bones, muscles, vessels and nerves of the lower limb, with dissection.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT211",
+   "name": "General Histology",
+   "kind": "core",
+   "slug": "ant211",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "General Histology",
+   "summary": "Cell and tissue structure, microscopy and tissue identification.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT214",
+   "name": "General Embryology",
+   "kind": "core",
+   "slug": "ant214",
+   "known_codes": "ANAT213",
+   "aliases": [
+    {
+     "code": "ANAT213",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "nursing-science"
+   ],
+   "general_name": "General Embryology",
+   "summary": "Gametogenesis, fertilisation, cleavage, germ layers, organogenesis and common developmental anomalies.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT215",
+   "name": "Practical Histology I",
+   "kind": "core",
+   "slug": "ant215",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Histology I",
+   "summary": "Slide study of basic tissues.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT216",
+   "name": "Practical Gross Anatomy I",
+   "kind": "core",
+   "slug": "ant216",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Gross Anatomy I",
+   "summary": "Dissection of the limbs.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT220",
+   "name": "Gross Anatomy of the Trunk",
+   "kind": "core",
+   "slug": "ant220",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Gross Anatomy of the Trunk",
+   "summary": "Thorax, abdomen and pelvis: structure and dissection.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT221",
+   "name": "Systemic Histology I",
+   "kind": "core",
+   "slug": "ant221",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Histology I",
+   "summary": "Microscopic anatomy of organ systems I.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT224",
+   "name": "Systemic Embryology I",
+   "kind": "core",
+   "slug": "ant224",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Embryology I",
+   "summary": "Development of organ systems: cardiovascular, gut and urogenital.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT225",
+   "name": "Practical Histology II",
+   "kind": "core",
+   "slug": "ant225",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Histology II",
+   "summary": "Slide study of organ systems.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANT226",
+   "name": "Practical Gross Anatomy II",
+   "kind": "core",
+   "slug": "ant226",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Gross Anatomy II",
+   "summary": "Dissection of the trunk.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH217",
+   "name": "Biochemistry I",
+   "kind": "core",
+   "slug": "bch217",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry I",
+   "summary": "Medical biochemistry: biomolecules, enzymes and bioenergetics.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH218",
+   "name": "Biochemistry Practicals I",
+   "kind": "core",
+   "slug": "bch218",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry Practicals I",
+   "summary": "Lab tests for biomolecules and enzyme assays.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH227",
+   "name": "Biochemistry II",
+   "kind": "core",
+   "slug": "bch227",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry II",
+   "summary": "Medical biochemistry: metabolism, nutrition and molecular biology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH228",
+   "name": "Biochemistry Practicals II",
+   "kind": "core",
+   "slug": "bch228",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry Practicals II",
+   "summary": "Clinical chemistry laboratory work.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "COH212",
+   "name": "Medical Sociology and Ecology",
+   "kind": "core",
+   "slug": "coh212",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Medical Sociology and Ecology",
+   "summary": "Social determinants of health, culture and community ecology.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Research method"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "COH222",
+   "name": "Demography and School Health",
+   "kind": "core",
+   "slug": "coh222",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Demography and School Health",
+   "summary": "Population statistics and child and school health services.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "MEH221",
+   "name": "Psychology in Relation to Mental Health",
+   "kind": "core",
+   "slug": "meh221",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Psychology in Relation to Mental Health",
+   "summary": "Psychological development, stress, behaviour and mental health.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS210",
+   "name": "General Physiology",
+   "kind": "core",
+   "slug": "phs210",
+   "known_codes": "BIO204",
+   "aliases": [
+    {
+     "code": "BIO204",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "microbiology"
+   ],
+   "general_name": "General Physiology",
+   "summary": "Cell physiology, membranes, body fluids, homeostasis, excitable tissues, muscle and transport.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS211",
+   "name": "Systemic Physiology I (Cardiovascular)",
+   "kind": "core",
+   "slug": "phs211",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Physiology I (Cardiovascular)",
+   "summary": "Cardiac and circulatory physiology, blood pressure and regulation.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS213",
+   "name": "Applied Physiology I",
+   "kind": "core",
+   "slug": "phs213",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Applied Physiology I",
+   "summary": "Clinical correlation of physiology: case-based tutorials.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS214",
+   "name": "Physiology Practicals I",
+   "kind": "core",
+   "slug": "phs214",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Physiology Practicals I",
+   "summary": "Experiments on blood, circulation and excitable tissue.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS221",
+   "name": "Systemic Physiology II",
+   "kind": "core",
+   "slug": "phs221",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Physiology II",
+   "summary": "Respiratory, renal and gastrointestinal physiology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS223",
+   "name": "Applied Physiology II",
+   "kind": "core",
+   "slug": "phs223",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Applied Physiology II",
+   "summary": "Clinical correlation tutorials for systemic physiology.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS224",
+   "name": "Physiology Practicals II",
+   "kind": "core",
+   "slug": "phs224",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Physiology Practicals II",
+   "summary": "Experiments on respiration, renal and GI function.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHS225",
+   "name": "Endocrine Physiology",
+   "kind": "core",
+   "slug": "phs225",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Endocrine Physiology",
+   "summary": "Hormones, glands and feedback regulation.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT310",
+   "name": "Gross Anatomy of the Head and Neck",
+   "kind": "core",
+   "slug": "ant310",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Gross Anatomy of the Head and Neck",
+   "summary": "Skull, face, neck, cranial nerves and vessels.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT311",
+   "name": "Systemic Histology II",
+   "kind": "core",
+   "slug": "ant311",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Histology II",
+   "summary": "Histology of endocrine, nervous and special-sense organs.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT314",
+   "name": "Systemic Embryology II",
+   "kind": "core",
+   "slug": "ant314",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Embryology II",
+   "summary": "Development of the head, neck and nervous system.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT315",
+   "name": "Neuroanatomy",
+   "kind": "core",
+   "slug": "ant315",
+   "known_codes": "ANA202",
+   "aliases": [
+    {
+     "code": "ANA202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "nursing-science",
+    "pharmacy"
+   ],
+   "general_name": "Neuroanatomy: Central and Peripheral Nervous System",
+   "summary": "Brain, spinal cord, cranial and peripheral nerves, tracts and functional localisation with clinical correlations.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT316",
+   "name": "Practical Gross Anatomy III",
+   "kind": "core",
+   "slug": "ant316",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Gross Anatomy III",
+   "summary": "Head and neck dissection.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT317",
+   "name": "Practical Neuroanatomy",
+   "kind": "core",
+   "slug": "ant317",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Neuroanatomy",
+   "summary": "Brain sections, tracts and nuclei.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ANT318",
+   "name": "Practical Histology III",
+   "kind": "core",
+   "slug": "ant318",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Practical Histology III",
+   "summary": "Slides of endocrine and nervous tissue.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "BCH317",
+   "name": "Biochemistry III",
+   "kind": "core",
+   "slug": "bch317",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry III",
+   "summary": "Clinical biochemistry, hormones and disease biochemistry.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "BCH328",
+   "name": "Biochemistry Practicals III",
+   "kind": "core",
+   "slug": "bch328",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Biochemistry Practicals III",
+   "summary": "Clinical chemistry tests.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "IDH322",
+   "name": "Environmental Health, Nutrition and Health Education",
+   "kind": "core",
+   "slug": "idh322",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Environmental Health, Nutrition and Health Education",
+   "summary": "Environmental sanitation, nutrition and health education strategies.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "IDP320",
+   "name": "Introduction to Clinical Medicine",
+   "kind": "core",
+   "slug": "idp320",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Introduction to Clinical Medicine",
+   "summary": "History taking, physical examination and communication with patients.",
+   "psychometric": [
+    "Attention to detail",
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MAN326",
+   "name": "General Pathology",
+   "kind": "core",
+   "slug": "man326",
+   "known_codes": "MLS307",
+   "aliases": [
+    {
+     "code": "MLS307",
+     "units": null,
+     "source": "khairun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "General Pathology",
+   "summary": "Cell injury, inflammation, repair, neoplasia, haemodynamic disorders and general disease mechanisms.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MEH322",
+   "name": "Psychiatry I",
+   "kind": "core",
+   "slug": "meh322",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Psychiatry I",
+   "summary": "Introduction to psychiatry, classification and common mental disorders.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "MMB326",
+   "name": "Introduction to Microbiology (Pathology)",
+   "kind": "core",
+   "slug": "mmb326",
+   "known_codes": "MCB101",
+   "aliases": [
+    {
+     "code": "MCB101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "microbiology"
+   ],
+   "general_name": "Introduction to Microbiology",
+   "summary": "History, microbial diversity, bacteria, viruses, fungi, protozoa, sterilisation, culture and microbes in health and industry.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCO320",
+   "name": "General Pharmacology",
+   "kind": "core",
+   "slug": "pco320",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "General Pharmacology",
+   "summary": "Pharmacokinetics, pharmacodynamics, drug receptors, adverse effects and drug interactions.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCO361",
+   "name": "Endocrine and Local Hormones Pharmacology",
+   "kind": "core",
+   "slug": "pco361",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Endocrine and Local Hormones Pharmacology",
+   "summary": "Drugs acting on endocrine glands, insulin, steroids and autacoids.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHS310",
+   "name": "Autonomic and Neurophysiology",
+   "kind": "core",
+   "slug": "phs310",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Autonomic and Neurophysiology",
+   "summary": "Nervous system function, reflexes and autonomic control.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHS311",
+   "name": "Special Senses and Systemic Physiology III",
+   "kind": "core",
+   "slug": "phs311",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Special Senses and Systemic Physiology III",
+   "summary": "Vision, hearing, taste, smell, and the CNS.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHS313",
+   "name": "Applied Physiology III",
+   "kind": "core",
+   "slug": "phs313",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Applied Physiology III",
+   "summary": "Case-based neural and sensory physiology.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHS314",
+   "name": "Physiology Practicals III",
+   "kind": "core",
+   "slug": "phs314",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Physiology Practicals III",
+   "summary": "Experiments on nerve, senses and CNS.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CHH426",
+   "name": "Essentials of Child Health Care",
+   "kind": "core",
+   "slug": "chh426",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Essentials of Child Health Care",
+   "summary": "Growth, development, immunisation and common paediatric illness.",
+   "psychometric": [
+    "Memory and recall",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CHH427",
+   "name": "Clinical Postings in Child Health Care",
+   "kind": "core",
+   "slug": "chh427",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Clinical Postings in Child Health Care",
+   "summary": "Paediatric ward and clinic attachment.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CHP425",
+   "name": "Chemical Pathology",
+   "kind": "core",
+   "slug": "chp425",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Chemical Pathology",
+   "summary": "Biochemical investigation of disease and interpretation of results.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "COH412",
+   "name": "Epidemiology: Principles and Applied",
+   "kind": "core",
+   "slug": "coh412",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Epidemiology: Principles and Applied",
+   "summary": "Disease measurement, study designs, outbreaks and screening.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "HBT427",
+   "name": "Haematology Lectures I",
+   "kind": "core",
+   "slug": "hbt427",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Haematology Lectures I",
+   "summary": "Red cells, anaemias and blood disorders.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": null,
+   "name": "Junior Posting in Obstetrics and Gynaecology",
+   "kind": "core",
+   "slug": "junior-posting-in-obstetrics-and-gynaecology",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Junior Posting in Obstetrics and Gynaecology",
+   "summary": "Antenatal clinic, labour ward and gynaecology attachment.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MAN415",
+   "name": "Systemic Pathology Practicals I",
+   "kind": "core",
+   "slug": "man415",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Practicals I",
+   "summary": "Gross and microscopic pathology specimens I.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MAN416",
+   "name": "Systemic Pathology Lectures I",
+   "kind": "core",
+   "slug": "man416",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Lectures I",
+   "summary": "Pathology of cardiovascular, respiratory and gastrointestinal systems.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MAN426",
+   "name": "Systemic Pathology Practicals II",
+   "kind": "core",
+   "slug": "man426",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Practicals II",
+   "summary": "Pathology specimens and slides II.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MED401",
+   "name": "Junior Medical Posting",
+   "kind": "core",
+   "slug": "med401",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Junior Medical Posting",
+   "summary": "Supervised clinical attachment on medical wards with history and examination skills.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MEH411",
+   "name": "Psychiatry II",
+   "kind": "core",
+   "slug": "meh411",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Psychiatry II",
+   "summary": "Psychotic, mood and substance disorders and management.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MMB410",
+   "name": "Microbiology Practicals I",
+   "kind": "core",
+   "slug": "mmb410",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Practicals I",
+   "summary": "Staining, culture and identification of bacteria.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MMB411",
+   "name": "Microbiology Lectures I",
+   "kind": "core",
+   "slug": "mmb411",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Lectures I",
+   "summary": "Medical bacteriology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MMB420",
+   "name": "Microbiology Practicals II",
+   "kind": "core",
+   "slug": "mmb420",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Practicals II",
+   "summary": "Culture, sensitivity testing and identification.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "MMB421",
+   "name": "Microbiology Lectures II",
+   "kind": "core",
+   "slug": "mmb421",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Lectures II",
+   "summary": "Virology, mycology and parasitology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "OBG429",
+   "name": "Obstetrics and Gynaecology Lectures",
+   "kind": "core",
+   "slug": "obg429",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Obstetrics and Gynaecology Lectures",
+   "summary": "Pregnancy, labour, puerperium and gynaecological disease.",
+   "psychometric": [
+    "Memory and recall",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCO411",
+   "name": "Toxicology",
+   "kind": "core",
+   "slug": "pco411",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Toxicology",
+   "summary": "Poisons, drug overdose, antidotes and forensic toxicology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCO421",
+   "name": "Systemic Pharmacology",
+   "kind": "core",
+   "slug": "pco421",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "Systemic Pharmacology",
+   "summary": "Drugs acting on organ systems: cardiovascular, respiratory, gastrointestinal, renal and endocrine.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCO422",
+   "name": "Nervous System Pharmacology",
+   "kind": "core",
+   "slug": "pco422",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Nervous System Pharmacology",
+   "summary": "Drugs acting on CNS: anaesthetics, sedatives, anticonvulsants, antipsychotics.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCO425",
+   "name": "Pharmacology Practicals",
+   "kind": "core",
+   "slug": "pco425",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Pharmacology Practicals",
+   "summary": "Experimental pharmacology and prescription writing.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCO441",
+   "name": "Chemotherapy",
+   "kind": "core",
+   "slug": "pco441",
+   "known_codes": "PHA501",
+   "aliases": [
+    {
+     "code": "PHA501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "pharmacy"
+   ],
+   "general_name": "Chemotherapy of Infectious Diseases and Cancer",
+   "summary": "Antibacterial, antiviral, antifungal, antiparasitic and anticancer drugs, resistance and rational use.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "SUG411",
+   "name": "Junior Surgical Posting",
+   "kind": "core",
+   "slug": "sug411",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Junior Surgical Posting",
+   "summary": "Supervised attachment on surgical wards and theatre.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "ANA501",
+   "name": "Anaesthesia, Analgesia and Resuscitation",
+   "kind": "core",
+   "slug": "ana501",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Anaesthesia, Analgesia and Resuscitation",
+   "summary": "Anaesthetic agents, airway management, pain relief and resuscitation.",
+   "psychometric": [
+    "Memory and recall",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "ANA502",
+   "name": "Intensive Care and the Treatment of Pain",
+   "kind": "core",
+   "slug": "ana502",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Intensive Care and the Treatment of Pain",
+   "summary": "Critical care principles and pain management.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CHP513",
+   "name": "Chemical Pathology Lectures II",
+   "kind": "core",
+   "slug": "chp513",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Chemical Pathology Lectures II",
+   "summary": "Disorders of metabolism, endocrine and renal chemistry.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CHP514",
+   "name": "Chemical Pathology Lectures I",
+   "kind": "core",
+   "slug": "chp514",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Chemical Pathology Lectures I",
+   "summary": "Clinical biochemistry principles, enzymes and electrolytes.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CHP523",
+   "name": "Chemical Pathology Lectures III",
+   "kind": "core",
+   "slug": "chp523",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Chemical Pathology Lectures III",
+   "summary": "Advanced diagnostic biochemistry and case interpretation.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CHP524",
+   "name": "Chemical Pathology Practicals II",
+   "kind": "core",
+   "slug": "chp524",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Chemical Pathology Practicals II",
+   "summary": "Analysis of blood and urine samples.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "COH522",
+   "name": "Urban and Rural Postings: Organisation of Health Services, Primary Health Care, Occupational Health",
+   "kind": "core",
+   "slug": "coh522",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Urban and Rural Postings: Organisation of Health Services, Primary Health Care, Occupational Health",
+   "summary": "Community posting: health systems, primary care and occupational health.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Project management"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "DP530",
+   "name": "Posting to the Four Sub-divisions of Pathology",
+   "kind": "core",
+   "slug": "dp530",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Posting to the Four Sub-divisions of Pathology",
+   "summary": "Rotation through chemical pathology, haematology, microbiology and histopathology.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "ENT509",
+   "name": "Diseases and Injuries of the Ear, Nose and Throat",
+   "kind": "core",
+   "slug": "ent509",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Diseases and Injuries of the Ear, Nose and Throat",
+   "summary": "ENT diseases, examination and management.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "HBT517",
+   "name": "Haematology Lectures II",
+   "kind": "core",
+   "slug": "hbt517",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Haematology Lectures II",
+   "summary": "Leukaemias, lymphomas and coagulation disorders.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "HBT518",
+   "name": "Haematology Practicals I",
+   "kind": "core",
+   "slug": "hbt518",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Haematology Practicals I",
+   "summary": "Blood counts, film examination and grouping.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "HBT527",
+   "name": "Haematology Lectures III",
+   "kind": "core",
+   "slug": "hbt527",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Haematology Lectures III",
+   "summary": "Transfusion medicine and haemoglobinopathies.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "HBT528",
+   "name": "Haematology Practicals II",
+   "kind": "core",
+   "slug": "hbt528",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Haematology Practicals II",
+   "summary": "Coagulation tests, cross-matching and bone-marrow slides.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "IDP550",
+   "name": "Clinical Electives",
+   "kind": "core",
+   "slug": "idp550",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Clinical Electives",
+   "summary": "Student-chosen clinical attachment.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MAN516",
+   "name": "Systemic Pathology Lectures III",
+   "kind": "core",
+   "slug": "man516",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Lectures III",
+   "summary": "Pathology of nervous, endocrine and musculoskeletal systems.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MAN525",
+   "name": "Systemic Pathology Practicals III",
+   "kind": "core",
+   "slug": "man525",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Practicals III",
+   "summary": "Specimens and slides III.",
+   "psychometric": [
+    "Attention to detail",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MAN526",
+   "name": "Systemic Pathology Lectures IV and Forensic Medicine",
+   "kind": "core",
+   "slug": "man526",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Systemic Pathology Lectures IV and Forensic Medicine",
+   "summary": "Pathology of reproductive and urinary systems; forensic medicine.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MED503",
+   "name": "Primary Medical Care",
+   "kind": "core",
+   "slug": "med503",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Primary Medical Care",
+   "summary": "Community-based care, common conditions and referral.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MED504",
+   "name": "Dermatology and Venereology",
+   "kind": "core",
+   "slug": "med504",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Dermatology and Venereology",
+   "summary": "Skin diseases and sexually transmitted infections.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MEH521",
+   "name": "Clinical Psychiatry Posting",
+   "kind": "core",
+   "slug": "meh521",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Clinical Psychiatry Posting",
+   "summary": "Psychiatric ward and clinic attachment.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MMB511",
+   "name": "Microbiology Lectures III",
+   "kind": "core",
+   "slug": "mmb511",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Lectures III",
+   "summary": "Systemic infections and public health microbiology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MMB520",
+   "name": "Microbiology Practicals III",
+   "kind": "core",
+   "slug": "mmb520",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Practicals III",
+   "summary": "Clinical specimens and laboratory diagnosis.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "MMB521",
+   "name": "Microbiology Lectures IV",
+   "kind": "core",
+   "slug": "mmb521",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Microbiology Lectures IV",
+   "summary": "Antimicrobial therapy, infection control and immunology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "OFT506",
+   "name": "Diseases of Bones and Joints and Related Tissues",
+   "kind": "core",
+   "slug": "oft506",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Diseases of Bones and Joints and Related Tissues",
+   "summary": "Orthopaedic and rheumatological disease.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "OPH508",
+   "name": "Disorders of the Eye and Vision",
+   "kind": "core",
+   "slug": "oph508",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Disorders of the Eye and Vision",
+   "summary": "Ophthalmology: eye anatomy, common diseases and examination.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "OTP507",
+   "name": "Effects and Management of Trauma",
+   "kind": "core",
+   "slug": "otp507",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Effects and Management of Trauma",
+   "summary": "Trauma assessment, fractures, burns and emergency care.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "RAD505",
+   "name": "Principles and Practice of Radiology",
+   "kind": "core",
+   "slug": "rad505",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Principles and Practice of Radiology",
+   "summary": "Imaging modalities, indications, interpretation and radiation safety.",
+   "psychometric": [
+    "Spatial reasoning",
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 6,
+   "code": "CHH621",
+   "name": "Sub-specialty Paediatrics and Advanced Approach to Clinical Paediatrics",
+   "kind": "core",
+   "slug": "chh621",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Sub-specialty Paediatrics and Advanced Approach to Clinical Paediatrics",
+   "summary": "Advanced paediatrics and its sub-specialities.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 6,
+   "code": "MED611",
+   "name": "Medicine: Lectures, Tutorials and Senior Posting",
+   "kind": "core",
+   "slug": "med611",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Medicine: Lectures, Tutorials and Senior Posting",
+   "summary": "Final-year internal medicine and bedside clinical practice.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 6,
+   "code": "OBG622",
+   "name": "Obstetrics and Gynaecology: Lectures, Tutorials, Dissertation, Project and Senior Posting",
+   "kind": "core",
+   "slug": "obg622",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Obstetrics and Gynaecology: Lectures, Tutorials, Dissertation, Project and Senior Posting",
+   "summary": "Final-year obstetrics and gynaecology, with dissertation and senior posting.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Research method"
+   ]
+  },
+  {
+   "year": 6,
+   "code": "SUG612",
+   "name": "Surgery, including Sub-specialities: Lectures, Tutorials and Senior Posting",
+   "kind": "core",
+   "slug": "sug612",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Surgery, including Sub-specialities: Lectures, Tutorials and Senior Posting",
+   "summary": "Final-year surgery and its sub-specialities.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3237 @@
+{
+ "department_slug": "pharmacy",
+ "faculty_slug": "pharmacy",
+ "faculty_name": "Pharmacy",
+ "source": "NUC CCMAS Pharmacy and Pharmaceutical Sciences 2023, B.Pharm global course structure (nuc.edu.ng, Pharmacy-and-Pharmaceutical-Sciences-CCMAS-2023-FINAL.pdf). Official national document. Pharm.D (6-year) tables sit beyond the first 100,000 characters of that file and were not read.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "BIO101",
+   "name": "General Biology I",
+   "kind": "core",
+   "slug": "bio101",
+   "known_codes": "BIO101 (2), BIO151",
+   "aliases": [
+    {
+     "code": "BIO101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO151",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "nursing-science"
+   ],
+   "general_name": "Introductory Biology I: Cell Biology and Diversity of Life",
+   "summary": "Cell structure and function, biomolecules, genetics and heredity, evolution and the classification of living organisms.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO102",
+   "name": "General Biology II",
+   "kind": "core",
+   "slug": "bio102",
+   "known_codes": "BIO102 (2), BIO152",
+   "aliases": [
+    {
+     "code": "BIO102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO152",
+     "units": null,
+     "source": "studentship.com.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology",
+    "nursing-science"
+   ],
+   "general_name": "Introductory Biology II: Physiology and Ecology",
+   "summary": "Plant and animal physiology, reproduction, ecology, ecosystems and environmental biology.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO107",
+   "name": "General Biology Practical I",
+   "kind": "core",
+   "slug": "bio107",
+   "known_codes": "BIO107 (1)",
+   "aliases": [
+    {
+     "code": "BIO107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology"
+   ],
+   "general_name": "Introductory Biology Laboratory I",
+   "summary": "Microscopy, cell and tissue observation, dissections and basic biological techniques with drawings.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "BIO108",
+   "name": "General Biology Practical II",
+   "kind": "core",
+   "slug": "bio108",
+   "known_codes": "BIO108 (1)",
+   "aliases": [
+    {
+     "code": "BIO108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "BIO108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "biochemistry",
+    "environmental-management-and-toxicology",
+    "medical-laboratory-science",
+    "microbiology"
+   ],
+   "general_name": "Introductory Biology Laboratory II",
+   "summary": "Practicals on plant and animal physiology, ecology sampling and identification.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Fieldwork and survey"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM101",
+   "name": "General Chemistry I",
+   "kind": "core",
+   "slug": "chm101",
+   "known_codes": "CHM101 (2/3), CHM111, CHM113",
+   "aliases": [
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM113",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Atomic Structure, Bonding and Physical Chemistry I",
+   "summary": "Atomic structure, periodic table, bonding, stoichiometry, states of matter, gas laws, thermochemistry and chemical equilibrium.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM102",
+   "name": "General Chemistry II",
+   "kind": "core",
+   "slug": "chm102",
+   "known_codes": "CHM102 (2/3), CHM121, CHM122",
+   "aliases": [
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM121",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 3,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "CHM122",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Inorganic and Organic Chemistry",
+   "summary": "Kinetics, electrochemistry, acids and bases, periodic trends, main-group chemistry, and introduction to organic compounds and reactions.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM107",
+   "name": "General Chemistry Practical I",
+   "kind": "core",
+   "slug": "chm107",
+   "known_codes": "CHM107 (1), CHM114",
+   "aliases": [
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM114",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Chemistry Laboratory I",
+   "summary": "Safe lab practice, volumetric analysis, titrations, qualitative tests and simple physical-chemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "CHM108",
+   "name": "General Chemistry Practical II",
+   "kind": "core",
+   "slug": "chm108",
+   "known_codes": "CHM108 (1), CHM116 (1), CHM124",
+   "aliases": [
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM124",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "CHM116",
+     "units": 1,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "CHM108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Chemistry Laboratory II",
+   "summary": "Qualitative inorganic analysis, organic functional-group tests, kinetics and electrochemistry experiments.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English I",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST101 (2), GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST101",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing I",
+   "summary": "First-semester academic English: grammar, sentence structure, comprehension, summary and essay writing.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH101",
+   "name": "Elementary Mathematics I",
+   "kind": "core",
+   "slug": "mth101",
+   "known_codes": "MTH101 (2), MTH111 (3), MTH112",
+   "aliases": [
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH111",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Pre-calculus: Algebra, Trigonometry and Coordinate Geometry",
+   "summary": "Sets, number systems, polynomials, inequalities, functions, logarithms, trigonometry, complex numbers and sequences.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "MTH102",
+   "name": "Elementary Mathematics II",
+   "kind": "core",
+   "slug": "mth102",
+   "known_codes": "MTH102 (2), MTH121 (3), MTH122",
+   "aliases": [
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "MTH121",
+     "units": 3,
+     "source": "socialscs.unn.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "MTH102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Calculus",
+   "summary": "Limits, continuity, differentiation, applications of derivatives, integration, areas and volumes, and basic differential equations.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PCY101",
+   "name": "Introduction to Pharmacy",
+   "kind": "core",
+   "slug": "pcy101",
+   "known_codes": "PCY101",
+   "aliases": [
+    {
+     "code": "PCY101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PCY101",
+     "units": null,
+     "source": "ui.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Pharmacy",
+   "summary": "History, branches and practice of pharmacy.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY101",
+   "name": "General Physics I",
+   "kind": "core",
+   "slug": "phy101",
+   "known_codes": "PHY101 (2), PHY111",
+   "aliases": [
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY101",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Mechanics and Properties of Matter",
+   "summary": "Units and dimensions, vectors, kinematics, Newton's laws, work, energy, momentum, rotational motion, gravitation, elasticity and fluids.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY102",
+   "name": "General Physics II",
+   "kind": "core",
+   "slug": "phy102",
+   "known_codes": "PHY102 (2), PHY122",
+   "aliases": [
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY122",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY102",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Electricity, Magnetism and Waves",
+   "summary": "Electric fields, potential, capacitance, DC circuits, magnetism, induction, AC basics, then waves and optics.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY107",
+   "name": "General Physics Practical I",
+   "kind": "core",
+   "slug": "phy107",
+   "known_codes": "PHY107 (1), PHY117",
+   "aliases": [
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY117",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY107",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Physics Laboratory I",
+   "summary": "Measurement, error analysis and experiments in mechanics, heat and properties of matter, with report writing.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHY108",
+   "name": "General Physics Practical II",
+   "kind": "core",
+   "slug": "phy108",
+   "known_codes": "PHY108 (1), PHY127",
+   "aliases": [
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY127",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": 1,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "PHY108",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introductory Physics Laboratory II",
+   "summary": "Experiments in electricity, magnetism, optics and waves, with graph work and error analysis.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANA201",
+   "name": "Basic Anatomy",
+   "kind": "core",
+   "slug": "ana201",
+   "known_codes": "ANA201",
+   "aliases": [
+    {
+     "code": "ANA201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Basic Anatomy",
+   "summary": "Gross anatomy overview.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANA202",
+   "name": "Neuroanatomy",
+   "kind": "core",
+   "slug": "ana202",
+   "known_codes": "ANA202",
+   "aliases": [
+    {
+     "code": "ANA202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine",
+    "nursing-science"
+   ],
+   "general_name": "Neuroanatomy: Central and Peripheral Nervous System",
+   "summary": "Brain, spinal cord, cranial and peripheral nerves, tracts and functional localisation with clinical correlations.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ANA203",
+   "name": "Histology",
+   "kind": "core",
+   "slug": "ana203",
+   "known_codes": "ANA203",
+   "aliases": [
+    {
+     "code": "ANA203",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Histology",
+   "summary": "Microscopic structure of tissues.",
+   "psychometric": [
+    "Memory and recall",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH201",
+   "name": "Biochemistry",
+   "kind": "core",
+   "slug": "bch201",
+   "known_codes": "BCH201",
+   "aliases": [
+    {
+     "code": "BCH201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biochemistry",
+   "summary": "Biomolecules, enzymes and metabolism for pharmacists.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "BCH202",
+   "name": "Introductory Molecular Biology",
+   "kind": "core",
+   "slug": "bch202",
+   "known_codes": "BCH202",
+   "aliases": [
+    {
+     "code": "BCH202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Molecular Biology",
+   "summary": "DNA, RNA, protein synthesis and genetic techniques.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic, Environment and Sustainable Development",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST212",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Philosophy, Logic, Environment and Sustainable Development",
+   "summary": "Philosophy, logic and sustainability.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ICT201",
+   "name": "Information and Communication Technology in Pharmacy I",
+   "kind": "core",
+   "slug": "ict201",
+   "known_codes": "ICT201",
+   "aliases": [
+    {
+     "code": "ICT201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Information and Communication Technology in Pharmacy I",
+   "summary": "Pharmacy software, records and digital tools.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCG201",
+   "name": "Organised Vegetable Drugs",
+   "kind": "core",
+   "slug": "pcg201",
+   "known_codes": "PCG201",
+   "aliases": [
+    {
+     "code": "PCG201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Organised Vegetable Drugs",
+   "summary": "Crude drugs of plant organs: identification and use.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCG202",
+   "name": "Unorganised Vegetable Drugs",
+   "kind": "core",
+   "slug": "pcg202",
+   "known_codes": "PCG202",
+   "aliases": [
+    {
+     "code": "PCG202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Unorganised Vegetable Drugs",
+   "summary": "Gums, resins, oils and extracts.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCH201",
+   "name": "Inorganic Pharmaceutical Chemistry",
+   "kind": "core",
+   "slug": "pch201",
+   "known_codes": "PCH201",
+   "aliases": [
+    {
+     "code": "PCH201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Inorganic Pharmaceutical Chemistry",
+   "summary": "Inorganic drugs and pharmaceutical ingredients.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCH202",
+   "name": "Physical Pharmaceutical Chemistry I",
+   "kind": "core",
+   "slug": "pch202",
+   "known_codes": "PCH202",
+   "aliases": [
+    {
+     "code": "PCH202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Physical Pharmaceutical Chemistry I",
+   "summary": "Solutions, solubility, kinetics and stability.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCH203",
+   "name": "Organic Pharmaceutical Chemistry I",
+   "kind": "core",
+   "slug": "pch203",
+   "known_codes": "PCH203",
+   "aliases": [
+    {
+     "code": "PCH203",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Organic Pharmaceutical Chemistry I",
+   "summary": "Organic drug structure and reactions.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCT201",
+   "name": "Introductory Pharmaceutics",
+   "kind": "core",
+   "slug": "pct201",
+   "known_codes": "PCT201",
+   "aliases": [
+    {
+     "code": "PCT201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Pharmaceutics",
+   "summary": "Dosage form basics, weights and measures.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCT202",
+   "name": "Unit Operations",
+   "kind": "core",
+   "slug": "pct202",
+   "known_codes": "PCT202",
+   "aliases": [
+    {
+     "code": "PCT202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Unit Operations",
+   "summary": "Mixing, filtration, size reduction and drying.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCT203",
+   "name": "Dispensing Practical I",
+   "kind": "core",
+   "slug": "pct203",
+   "known_codes": "PCT203",
+   "aliases": [
+    {
+     "code": "PCT203",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Dispensing Practical I",
+   "summary": "Compounding of simple formulations.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PCT204",
+   "name": "Dispensing Practical II",
+   "kind": "core",
+   "slug": "pct204",
+   "known_codes": "PCT204",
+   "aliases": [
+    {
+     "code": "PCT204",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Dispensing Practical II",
+   "summary": "Compounding of solutions, emulsions and suspensions.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PHM201",
+   "name": "Introductory Pharmaceutical Microbiology",
+   "kind": "core",
+   "slug": "phm201",
+   "known_codes": "PHM201",
+   "aliases": [
+    {
+     "code": "PHM201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Pharmaceutical Microbiology",
+   "summary": "Microbes, sterilisation and aseptic technique.",
+   "psychometric": [
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PIO201",
+   "name": "Introductory and Blood Physiology",
+   "kind": "core",
+   "slug": "pio201",
+   "known_codes": "PIO201",
+   "aliases": [
+    {
+     "code": "PIO201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PIO201",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "Introductory Physiology and Blood",
+   "summary": "Body fluid compartments, blood composition, haemostasis, immunity and blood groups.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PIO202",
+   "name": "Neurophysiology and Special Senses",
+   "kind": "core",
+   "slug": "pio202",
+   "known_codes": "PIO202",
+   "aliases": [
+    {
+     "code": "PIO202",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Neurophysiology and Special Senses",
+   "summary": "Nervous system function and the senses.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "CLI301",
+   "name": "Clinical Pharmacy I",
+   "kind": "core",
+   "slug": "cli301",
+   "known_codes": "CLI301",
+   "aliases": [
+    {
+     "code": "CLI301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy I",
+   "summary": "Patient care, prescription review and pharmaceutical care.",
+   "psychometric": [
+    "Critical judgement",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "common-law",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PAA399",
+   "name": "Students Industrial Work Experience Scheme (SIWES)",
+   "kind": "core",
+   "slug": "paa399",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Students Industrial Work Experience Scheme (SIWES)",
+   "summary": "Supervised placement with report.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PAT301",
+   "name": "Pathology",
+   "kind": "core",
+   "slug": "pat301",
+   "known_codes": "PAT301",
+   "aliases": [
+    {
+     "code": "PAT301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pathology",
+   "summary": "Disease mechanisms for pharmacy.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCG301",
+   "name": "Separation Techniques in Pharmacognosy",
+   "kind": "core",
+   "slug": "pcg301",
+   "known_codes": "PCG301",
+   "aliases": [
+    {
+     "code": "PCG301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Separation Techniques in Pharmacognosy",
+   "summary": "Extraction and chromatography of natural products.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCG302",
+   "name": "Drugs of Biological Origin",
+   "kind": "core",
+   "slug": "pcg302",
+   "known_codes": "PCG302",
+   "aliases": [
+    {
+     "code": "PCG302",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Drugs of Biological Origin",
+   "summary": "Vaccines, sera, hormones and biologicals.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCH301",
+   "name": "Physical Pharmaceutical Chemistry II",
+   "kind": "core",
+   "slug": "pch301",
+   "known_codes": "PCH301",
+   "aliases": [
+    {
+     "code": "PCH301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Physical Pharmaceutical Chemistry II",
+   "summary": "Colloids, rheology and surface phenomena.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCH302",
+   "name": "Organic Pharmaceutical Chemistry II",
+   "kind": "core",
+   "slug": "pch302",
+   "known_codes": "PCH302",
+   "aliases": [
+    {
+     "code": "PCH302",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Organic Pharmaceutical Chemistry II",
+   "summary": "Drug synthesis and heterocyclic chemistry.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCT301",
+   "name": "Drug Dosage Forms",
+   "kind": "core",
+   "slug": "pct301",
+   "known_codes": "PCT301",
+   "aliases": [
+    {
+     "code": "PCT301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Drug Dosage Forms",
+   "summary": "Tablets, capsules, creams and injections.",
+   "psychometric": [
+    "Memory and recall",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCT302",
+   "name": "Physical Pharmaceutics I",
+   "kind": "core",
+   "slug": "pct302",
+   "known_codes": "PCT302",
+   "aliases": [
+    {
+     "code": "PCT302",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Physical Pharmaceutics I",
+   "summary": "Dissolution, diffusion and stability.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCT303",
+   "name": "Dispensing Practical III",
+   "kind": "core",
+   "slug": "pct303",
+   "known_codes": "PCT303",
+   "aliases": [
+    {
+     "code": "PCT303",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Dispensing Practical III",
+   "summary": "Dispensing of semi-solid and sterile forms.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PCT304",
+   "name": "Dispensing Practical IV",
+   "kind": "core",
+   "slug": "pct304",
+   "known_codes": "PCT304",
+   "aliases": [
+    {
+     "code": "PCT304",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Dispensing Practical IV",
+   "summary": "Prescription dispensing and labelling.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHA301",
+   "name": "Introductory Pharmacology",
+   "kind": "core",
+   "slug": "pha301",
+   "known_codes": "PHA301",
+   "aliases": [
+    {
+     "code": "PHA301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introductory Pharmacology",
+   "summary": "Principles of drug action.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHA302",
+   "name": "Pharmacology of the Autonomic Nervous System",
+   "kind": "core",
+   "slug": "pha302",
+   "known_codes": "PHA302",
+   "aliases": [
+    {
+     "code": "PHA302",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacology of the Autonomic Nervous System",
+   "summary": "Cholinergic and adrenergic drugs.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHA304",
+   "name": "Pharmacology of the Haemopoietic System and Gastrointestinal Tract",
+   "kind": "core",
+   "slug": "pha304",
+   "known_codes": "PHA304",
+   "aliases": [
+    {
+     "code": "PHA304",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacology of the Haemopoietic System and Gastrointestinal Tract",
+   "summary": "Blood and GI drugs.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PHM301",
+   "name": "Applied Pharmaceutical Microbiology I",
+   "kind": "core",
+   "slug": "phm301",
+   "known_codes": "PHM301",
+   "aliases": [
+    {
+     "code": "PHM301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Applied Pharmaceutical Microbiology I",
+   "summary": "Antimicrobials, sterility and preservation.",
+   "psychometric": [
+    "Attention to detail",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PSM301",
+   "name": "Biostatistics",
+   "kind": "core",
+   "slug": "psm301",
+   "known_codes": "PSM301, STA201",
+   "aliases": [
+    {
+     "code": "STA201",
+     "units": null,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "PSM301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "medical-laboratory-science"
+   ],
+   "general_name": "Biostatistics",
+   "summary": "Probability, distributions, estimation, hypothesis testing, chi-square, regression and study design for health and biological data.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Research method"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "SAP301",
+   "name": "Pharmacoeconomics",
+   "kind": "core",
+   "slug": "sap301",
+   "known_codes": "SAP301",
+   "aliases": [
+    {
+     "code": "SAP301",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacoeconomics",
+   "summary": "Cost-effectiveness analysis of drug therapy.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "BTG401",
+   "name": "Biotechnology",
+   "kind": "core",
+   "slug": "btg401",
+   "known_codes": "BTG401",
+   "aliases": [
+    {
+     "code": "BTG401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Biotechnology",
+   "summary": "Recombinant drugs and biotech production.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CLI401",
+   "name": "Clinical Pharmacy II",
+   "kind": "core",
+   "slug": "cli401",
+   "known_codes": "CLI401",
+   "aliases": [
+    {
+     "code": "CLI401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy II",
+   "summary": "Therapeutics and monitoring of disease states.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CLI402",
+   "name": "Clinical Pharmacy Externship",
+   "kind": "core",
+   "slug": "cli402",
+   "known_codes": "CLI402",
+   "aliases": [
+    {
+     "code": "CLI402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy Externship",
+   "summary": "Placement in hospital or community pharmacy.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "ICT401",
+   "name": "Information and Communication Technology in Pharmacy II",
+   "kind": "core",
+   "slug": "ict401",
+   "known_codes": "ICT401",
+   "aliases": [
+    {
+     "code": "ICT401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Information and Communication Technology in Pharmacy II",
+   "summary": "Pharmacy information systems and data.",
+   "psychometric": [
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Data analysis",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PAA499",
+   "name": "Students Industrial Work Experience Scheme (SIWES)",
+   "kind": "core",
+   "slug": "paa499",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Students Industrial Work Experience Scheme (SIWES)",
+   "summary": "Supervised placement with report.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCG401",
+   "name": "Phytochemistry and Biosynthesis of Natural Products",
+   "kind": "core",
+   "slug": "pcg401",
+   "known_codes": "PCG401",
+   "aliases": [
+    {
+     "code": "PCG401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Phytochemistry and Biosynthesis of Natural Products",
+   "summary": "Plant metabolites and their biosynthesis.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCG402",
+   "name": "Medicinal Plants and Traditional Medicine",
+   "kind": "core",
+   "slug": "pcg402",
+   "known_codes": "PCG402",
+   "aliases": [
+    {
+     "code": "PCG402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medicinal Plants and Traditional Medicine",
+   "summary": "Herbal medicines, evidence and regulation.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCH401",
+   "name": "Pharmaceutical Analysis I",
+   "kind": "core",
+   "slug": "pch401",
+   "known_codes": "PCH401",
+   "aliases": [
+    {
+     "code": "PCH401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Analysis I",
+   "summary": "Titrations and spectroscopy of drugs.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Data analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCH402",
+   "name": "Medicinal Chemistry I",
+   "kind": "core",
+   "slug": "pch402",
+   "known_codes": "PCH402",
+   "aliases": [
+    {
+     "code": "PCH402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medicinal Chemistry I",
+   "summary": "Structure-activity relationships of drugs.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCT401",
+   "name": "Pharmaceutical Technology",
+   "kind": "core",
+   "slug": "pct401",
+   "known_codes": "PCT401",
+   "aliases": [
+    {
+     "code": "PCT401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Technology",
+   "summary": "Manufacturing of tablets, capsules and liquids.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Mechanical reasoning"
+   ],
+   "industrial": [
+    "Workshop and manufacturing"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCT402",
+   "name": "Physical Pharmaceutics II",
+   "kind": "core",
+   "slug": "pct402",
+   "known_codes": "PCT402",
+   "aliases": [
+    {
+     "code": "PCT402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Physical Pharmaceutics II",
+   "summary": "Rheology, micromeritics and formulation science.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PCT403",
+   "name": "Industrial Pharmacy",
+   "kind": "core",
+   "slug": "pct403",
+   "known_codes": "PCT403",
+   "aliases": [
+    {
+     "code": "PCT403",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Industrial Pharmacy",
+   "summary": "Large-scale production, GMP and quality assurance.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PHA401",
+   "name": "Pharmacology of the Cardiovascular System",
+   "kind": "core",
+   "slug": "pha401",
+   "known_codes": "PHA401",
+   "aliases": [
+    {
+     "code": "PHA401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacology of the Cardiovascular System",
+   "summary": "Heart and vascular drugs.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PHA402",
+   "name": "Pharmacology of the Central Nervous System",
+   "kind": "core",
+   "slug": "pha402",
+   "known_codes": "PHA402",
+   "aliases": [
+    {
+     "code": "PHA402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacology of the Central Nervous System",
+   "summary": "CNS drugs.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PHM401",
+   "name": "Applied Pharmaceutical Microbiology II",
+   "kind": "core",
+   "slug": "phm401",
+   "known_codes": "PHM401",
+   "aliases": [
+    {
+     "code": "PHM401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Applied Pharmaceutical Microbiology II",
+   "summary": "Sterile product manufacture and microbial testing.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "SAP401",
+   "name": "Pharmacy Management I",
+   "kind": "core",
+   "slug": "sap401",
+   "known_codes": "SAP401",
+   "aliases": [
+    {
+     "code": "SAP401",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmacy Management I",
+   "summary": "Pharmacy business, stock and finance.",
+   "psychometric": [
+    "Numerical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "SAP402",
+   "name": "Forensic Pharmacy and Pharmacy Ethics",
+   "kind": "core",
+   "slug": "sap402",
+   "known_codes": "SAP402",
+   "aliases": [
+    {
+     "code": "SAP402",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Forensic Pharmacy and Pharmacy Ethics",
+   "summary": "Pharmacy law, regulation and ethics.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional ethics and law",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CLI501",
+   "name": "Clinical Pharmacy III",
+   "kind": "core",
+   "slug": "cli501",
+   "known_codes": "CLI501",
+   "aliases": [
+    {
+     "code": "CLI501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy III",
+   "summary": "Advanced therapeutics and special populations.",
+   "psychometric": [
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CLI502",
+   "name": "Literature Evaluation and Communication Skills",
+   "kind": "core",
+   "slug": "cli502",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Literature Evaluation and Communication Skills",
+   "summary": "Appraising drug literature and communicating information.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CLI503",
+   "name": "Public Health Pharmacy",
+   "kind": "core",
+   "slug": "cli503",
+   "known_codes": "CLI503",
+   "aliases": [
+    {
+     "code": "CLI503",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Public Health Pharmacy",
+   "summary": "Pharmacy role in public health and drug policy.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Research method"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CLI504",
+   "name": "Clinical Pharmacy Clerkship II",
+   "kind": "core",
+   "slug": "cli504",
+   "known_codes": "CLI504",
+   "aliases": [
+    {
+     "code": "CLI504",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy Clerkship II",
+   "summary": "Advanced hospital clerkship.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "CLI505",
+   "name": "Clinical Pharmacy Clerkship I",
+   "kind": "core",
+   "slug": "cli505",
+   "known_codes": "CLI505",
+   "aliases": [
+    {
+     "code": "CLI505",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacy Clerkship I",
+   "summary": "Hospital clerkship in patient care.",
+   "psychometric": [
+    "Attention to detail",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PAA501",
+   "name": "Veterinary Pharmacy",
+   "kind": "core",
+   "slug": "paa501",
+   "known_codes": "PAA501",
+   "aliases": [
+    {
+     "code": "PAA501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Veterinary Pharmacy",
+   "summary": "Animal drugs and veterinary dispensing.",
+   "psychometric": [
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PAA502",
+   "name": "Project",
+   "kind": "core",
+   "slug": "paa502",
+   "known_codes": "CSC499 (6), CVE561, EMT599, LAW588, MCB499 (5), MME510 (6), NSC592, PAA502, PEE500",
+   "aliases": [
+    {
+     "code": "CVE561",
+     "units": null,
+     "source": "civil.unn.edu.ng"
+    },
+    {
+     "code": "PEE500",
+     "units": null,
+     "source": "eng.uniben.edu"
+    },
+    {
+     "code": "EMT599",
+     "units": null,
+     "source": "funaab.edu.ng"
+    },
+    {
+     "code": "CSC499",
+     "units": 6,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "LAW588",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "MCB499",
+     "units": 5,
+     "source": "microbiology.lifesciences.unilorin.edu.ng"
+    },
+    {
+     "code": "MME510",
+     "units": 6,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "PAA502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "NSC592",
+     "units": null,
+     "source": "studentship.com.ng"
+    }
+   ],
+   "shared_with": [
+    "civil-engineering",
+    "environmental-management-and-toxicology",
+    "metallurgical-and-materials-engineering",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Final-Year Project",
+   "summary": "Supervised independent project: problem definition, literature review, method, results, dissertation and oral defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Abstract and logical reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Project management",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCG501",
+   "name": "Evaluation of Phytopharmaceuticals",
+   "kind": "core",
+   "slug": "pcg501",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Evaluation of Phytopharmaceuticals",
+   "summary": "Standardisation and quality control of herbal products.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCG502",
+   "name": "Clinical Pharmacognosy: Traditional Medicine Practice",
+   "kind": "core",
+   "slug": "pcg502",
+   "known_codes": "PCG502",
+   "aliases": [
+    {
+     "code": "PCG502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Clinical Pharmacognosy: Traditional Medicine Practice",
+   "summary": "Clinical use and safety of herbal medicine.",
+   "psychometric": [
+    "Memory and recall",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Clinical practice",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCH501",
+   "name": "Pharmaceutical Analysis II and Drug Quality Assurance",
+   "kind": "core",
+   "slug": "pch501",
+   "known_codes": "PCH501",
+   "aliases": [
+    {
+     "code": "PCH501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Analysis II and Drug Quality Assurance",
+   "summary": "Instrumental drug analysis and quality assurance.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCH502",
+   "name": "Medicinal Chemistry II",
+   "kind": "core",
+   "slug": "pch502",
+   "known_codes": "PCH502",
+   "aliases": [
+    {
+     "code": "PCH502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Medicinal Chemistry II",
+   "summary": "Drug classes and design strategy.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCH503",
+   "name": "Principles of Drug Design",
+   "kind": "core",
+   "slug": "pch503",
+   "known_codes": "PCH503",
+   "aliases": [
+    {
+     "code": "PCH503",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Principles of Drug Design",
+   "summary": "Rational drug design and molecular modelling.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Spatial reasoning"
+   ],
+   "industrial": [
+    "Engineering and systems design"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCT501",
+   "name": "Formulation Processes and Process Validation",
+   "kind": "core",
+   "slug": "pct501",
+   "known_codes": "PCT501",
+   "aliases": [
+    {
+     "code": "PCT501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Formulation Processes and Process Validation",
+   "summary": "Formulation development and validation.",
+   "psychometric": [
+    "Attention to detail",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PCT502",
+   "name": "Production and Quality Control of Cosmetics",
+   "kind": "core",
+   "slug": "pct502",
+   "known_codes": "PCT502",
+   "aliases": [
+    {
+     "code": "PCT502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Production and Quality Control of Cosmetics",
+   "summary": "Cosmetic formulation, production and testing.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Workshop and manufacturing",
+    "Laboratory technique"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PHA501",
+   "name": "Chemotherapy",
+   "kind": "core",
+   "slug": "pha501",
+   "known_codes": "PHA501",
+   "aliases": [
+    {
+     "code": "PHA501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "human-medicine"
+   ],
+   "general_name": "Chemotherapy of Infectious Diseases and Cancer",
+   "summary": "Antibacterial, antiviral, antifungal, antiparasitic and anticancer drugs, resistance and rational use.",
+   "psychometric": [
+    "Memory and recall",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Clinical practice"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PHM501",
+   "name": "Pharmaceutical Microbiology III",
+   "kind": "core",
+   "slug": "phm501",
+   "known_codes": "PHM501",
+   "aliases": [
+    {
+     "code": "PHM501",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Microbiology III",
+   "summary": "Microbial quality, sterilisation and biologicals.",
+   "psychometric": [
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Laboratory technique",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "SAP502",
+   "name": "Pharmaceutical Marketing",
+   "kind": "core",
+   "slug": "sap502",
+   "known_codes": "SAP502",
+   "aliases": [
+    {
+     "code": "SAP502",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Pharmaceutical Marketing",
+   "summary": "Marketing and sales of pharmaceutical products.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Financial and economic analysis"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2369 @@
+{
+ "department_slug": "common-law",
+ "faculty_slug": "law",
+ "faculty_name": "Law",
+ "source": "CCMAS LL.B Law, Caleb University 2025/2026 curriculum (website.caleb.university). Institution-only items (CUL-, CTC, Tech Plus, Character in Leadership) left out; titles with CUL- required-by-institution rule left out.",
+ "complete_years": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "supersedes_placeholders": [],
+ "courses": [
+  {
+   "year": 1,
+   "code": "GST111",
+   "name": "Communication in English",
+   "kind": "core",
+   "slug": "gst111",
+   "known_codes": "GST111 (2)",
+   "aliases": [
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "eksu.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST111",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Academic English: Communication Skills and Writing",
+   "summary": "Listening, speaking, reading comprehension, grammar and usage, paragraph and essay writing, summary writing, and formal letters and reports.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "GST112",
+   "name": "Nigerian Peoples and Culture",
+   "kind": "core",
+   "slug": "gst112",
+   "known_codes": "GST112 (2), GST113 (2)",
+   "aliases": [
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST113",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "uniosun.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "GST112",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Nigerian Peoples, Cultures and Heritage (African Studies)",
+   "summary": "Survey of Nigeria's major ethnic groups, pre-colonial states, colonial rule, religion, family, arts and the cultural values behind national identity and unity.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "LAW104",
+   "name": "English for Legal Writing",
+   "kind": "core",
+   "slug": "law104",
+   "known_codes": "LAW104",
+   "aliases": [
+    {
+     "code": "LAW104",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "English for Legal Writing",
+   "summary": "Grammar, drafting style, plain-language legal expression and legal vocabulary.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "LAW105",
+   "name": "Introduction to Logic",
+   "kind": "core",
+   "slug": "law105",
+   "known_codes": "LAW105",
+   "aliases": [
+    {
+     "code": "LAW105",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Formal and Informal Logic",
+   "summary": "Arguments, validity, syllogisms, fallacies and reasoning applied to legal and everyday argument.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PHL105",
+   "name": "Introduction to Social and Political Philosophy",
+   "kind": "core",
+   "slug": "phl105",
+   "known_codes": "PHL105",
+   "aliases": [
+    {
+     "code": "PHL105",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Introduction to Social and Political Philosophy",
+   "summary": "Theories of justice, state, rights, liberty and authority.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PSY102",
+   "name": "Introduction to Psychology",
+   "kind": "core",
+   "slug": "psy102",
+   "known_codes": "GCE103 (2), IRP122 (2), PSY102",
+   "aliases": [
+    {
+     "code": "IRP122",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GCE103",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "PSY102",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "insurance"
+   ],
+   "general_name": "Introduction to Psychology",
+   "summary": "Scientific study of behaviour: learning, memory, perception, motivation, personality, development and abnormal psychology.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Client care and counselling",
+    "Research method"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PUL101",
+   "name": "Legal Methods I",
+   "kind": "core",
+   "slug": "pul101",
+   "known_codes": "JIL110, LAW101, PUL101",
+   "aliases": [
+    {
+     "code": "LAW101",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "JIL110",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL101",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Legal Methods (Sources and Techniques of Law)",
+   "summary": "Nature and sources of law, Nigerian legislation, case law, precedent, statutory interpretation, legal research and citation.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Research method",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 1,
+   "code": "PUL102",
+   "name": "Legal Methods II",
+   "kind": "core",
+   "slug": "pul102",
+   "known_codes": "JIL120, PUL102",
+   "aliases": [
+    {
+     "code": "JIL120",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL102",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Legal Methods II (Reasoning, Research and Writing)",
+   "summary": "Judicial precedent, interpretation, legal reasoning, case briefing, law reports and legal writing.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Research method",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "ENT211",
+   "name": "Entrepreneurship and Innovation",
+   "kind": "core",
+   "slug": "ent211",
+   "known_codes": "ENT211 (2)",
+   "aliases": [
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "waeup.uniben.edu"
+    },
+    {
+     "code": "ENT211",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Entrepreneurship, Innovation and Small-Business Foundations",
+   "summary": "Types of enterprise, opportunity spotting, business ideas, innovation, simple business plans, startup financing and the Nigerian small-business environment.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "GST212",
+   "name": "Philosophy, Logic and Human Existence",
+   "kind": "core",
+   "slug": "gst212",
+   "known_codes": "GST112 (2), GST123 (2), GST212 (2), GST217",
+   "aliases": [
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST217",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST123",
+     "units": 2,
+     "source": "dominionuniversity.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST112",
+     "units": 2,
+     "source": "ui.edu.ng"
+    },
+    {
+     "code": "GST212",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "insurance",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering"
+   ],
+   "general_name": "Introduction to Philosophy, Formal Logic and Ethics",
+   "summary": "Branches of philosophy, the nature of knowledge and existence, deductive and inductive reasoning, fallacies and argument analysis, and basic moral theory.",
+   "psychometric": [
+    "Abstract and logical reasoning",
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PPL201",
+   "name": "Law of Contract I",
+   "kind": "core",
+   "slug": "ppl201",
+   "known_codes": "CIL211, PPL201",
+   "aliases": [
+    {
+     "code": "CIL211",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL201",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Contract I (Formation)",
+   "summary": "Offer, acceptance, consideration, capacity, intention and the form of contracts.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PPL202",
+   "name": "Law of Contract II",
+   "kind": "core",
+   "slug": "ppl202",
+   "known_codes": "CIL221, PPL202",
+   "aliases": [
+    {
+     "code": "CIL221",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL202",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Contract II (Terms and Remedies)",
+   "summary": "Terms, misrepresentation, mistake, duress, illegality, discharge and remedies for breach.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL201",
+   "name": "Constitutional Law I",
+   "kind": "core",
+   "slug": "pul201",
+   "known_codes": "LPI201, PUL201, PUL211",
+   "aliases": [
+    {
+     "code": "LPI201",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL211",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL201",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Constitutional Law of Nigeria I",
+   "summary": "Constitution, rule of law, separation of powers, federalism, executive and legislative powers under the 1999 Constitution.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL202",
+   "name": "Constitutional Law II",
+   "kind": "core",
+   "slug": "pul202",
+   "known_codes": "PUL202, PUL221",
+   "aliases": [
+    {
+     "code": "PUL221",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL202",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Constitutional Law of Nigeria II",
+   "summary": "Judiciary, fundamental rights, citizenship, emergency powers, local government and constitutional amendment.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL203",
+   "name": "Nigerian Legal System I",
+   "kind": "core",
+   "slug": "pul203",
+   "known_codes": "LPI203, PUL203",
+   "aliases": [
+    {
+     "code": "LPI203",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL203",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nigerian Legal System I (Sources and Courts)",
+   "summary": "Sources of Nigerian law, hierarchy and jurisdiction of courts, customary and Islamic law.",
+   "psychometric": [
+    "Memory and recall",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL204",
+   "name": "Nigerian Legal System II",
+   "kind": "core",
+   "slug": "pul204",
+   "known_codes": "JIL221, PUL204",
+   "aliases": [
+    {
+     "code": "JIL221",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL204",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nigerian Legal System II (Practice and Institutions)",
+   "summary": "Legal profession, judicial process, administration of justice and law reform.",
+   "psychometric": [
+    "Memory and recall",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL205",
+   "name": "Criminology I",
+   "kind": "elective",
+   "slug": "pul205",
+   "known_codes": "LPI209, PUL205, PUL512",
+   "aliases": [
+    {
+     "code": "LPI209",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL512",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL205",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Criminology I",
+   "summary": "Theories of crime, measurement of crime and its causes.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL206",
+   "name": "Criminology II",
+   "kind": "elective",
+   "slug": "pul206",
+   "known_codes": "PUL206, PUL522",
+   "aliases": [
+    {
+     "code": "PUL522",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL206",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Criminology II",
+   "summary": "Punishment, penology, victimology and crime prevention.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Research method",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL207",
+   "name": "Administrative Law I",
+   "kind": "elective",
+   "slug": "pul207",
+   "known_codes": "LPI204, PUL207, PUL212",
+   "aliases": [
+    {
+     "code": "LPI204",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL212",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL207",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Administrative Law I",
+   "summary": "Powers of administrative bodies, delegated legislation and administrative decision-making.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 2,
+   "code": "PUL208",
+   "name": "Administrative Law II",
+   "kind": "elective",
+   "slug": "pul208",
+   "known_codes": "PUL208, PUL222",
+   "aliases": [
+    {
+     "code": "PUL222",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL208",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Administrative Law II",
+   "summary": "Judicial review, remedies and accountability of public authorities.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "ENT312",
+   "name": "Venture Creation",
+   "kind": "core",
+   "slug": "ent312",
+   "known_codes": "ENT312 (2)",
+   "aliases": [
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "ENT312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Venture Creation and Start-up Practice",
+   "summary": "Turning an idea into a registered business: market research, business model, financing, legal registration, marketing and a start-up plan.",
+   "psychometric": [
+    "Critical judgement",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST301",
+   "name": "Entrepreneurship Skills",
+   "kind": "core",
+   "slug": "gst301",
+   "known_codes": "GST301",
+   "aliases": [
+    {
+     "code": "GST301",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Entrepreneurship Skills",
+   "summary": "Business ideas, start-up planning and small-business management.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST302",
+   "name": "Entrepreneurship Practical",
+   "kind": "core",
+   "slug": "gst302",
+   "known_codes": "GST302",
+   "aliases": [
+    {
+     "code": "GST302",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Entrepreneurship Practical",
+   "summary": "Practical business-plan project and mini-enterprise.",
+   "psychometric": [
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Entrepreneurship",
+    "Project management"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "GST312",
+   "name": "Peace and Conflict Resolution",
+   "kind": "core",
+   "slug": "gst312",
+   "known_codes": "GST312 (2), LAW312",
+   "aliases": [
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "abe.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "ceet.mouau.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "computing.ui.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "eee.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "khairun.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": 2,
+     "source": "mme.engineering.unilorin.edu.ng"
+    },
+    {
+     "code": "GST312",
+     "units": null,
+     "source": "nuc.edu.ng"
+    },
+    {
+     "code": "LAW312",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [
+    "agricultural-and-bioresources-engineering",
+    "biochemistry",
+    "chemical-engineering",
+    "civil-engineering",
+    "computer-science",
+    "cybersecurity",
+    "economics",
+    "electrical-and-electronic-engineering",
+    "environmental-management-and-toxicology",
+    "general-studies",
+    "human-medicine",
+    "mechanical-engineering",
+    "medical-laboratory-science",
+    "metallurgical-and-materials-engineering",
+    "microbiology",
+    "nursing-science",
+    "petroleum-engineering",
+    "pharmacy"
+   ],
+   "general_name": "Peace Studies and Conflict Resolution",
+   "summary": "Causes and types of conflict, Nigerian conflict case studies, negotiation, mediation, arbitration, and peace-building institutions.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning"
+   ],
+   "industrial": [
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL301",
+   "name": "Law of Torts I",
+   "kind": "core",
+   "slug": "ppl301",
+   "known_codes": "PPL301, PPL311",
+   "aliases": [
+    {
+     "code": "PPL311",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL301",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Torts I (Negligence)",
+   "summary": "Negligence, duty of care, breach, causation, damage and defences.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL302",
+   "name": "Law of Torts II",
+   "kind": "core",
+   "slug": "ppl302",
+   "known_codes": "PPL302, PPL321",
+   "aliases": [
+    {
+     "code": "PPL321",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL302",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Torts II (Other Torts)",
+   "summary": "Trespass, nuisance, defamation, strict liability and vicarious liability.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL303",
+   "name": "Commercial Law I",
+   "kind": "core",
+   "slug": "ppl303",
+   "known_codes": "PPL303",
+   "aliases": [
+    {
+     "code": "PPL303",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Commercial Law I (Sale of Goods)",
+   "summary": "Sale of goods, agency, hire purchase and carriage of goods.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL304",
+   "name": "Commercial Law II",
+   "kind": "core",
+   "slug": "ppl304",
+   "known_codes": "PPL304",
+   "aliases": [
+    {
+     "code": "PPL304",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Commercial Law II (Negotiable Instruments and Credit)",
+   "summary": "Bills of exchange, cheques, bailment, security and consumer protection.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PUL301",
+   "name": "Criminal Law I",
+   "kind": "core",
+   "slug": "pul301",
+   "known_codes": "LPI301, PUL301, PUL311",
+   "aliases": [
+    {
+     "code": "LPI301",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL311",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL301",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Criminal Law I (General Principles)",
+   "summary": "Actus reus, mens rea, defences, parties to crime and inchoate offences.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PUL302",
+   "name": "Criminal Law II",
+   "kind": "core",
+   "slug": "pul302",
+   "known_codes": "PUL302, PUL321",
+   "aliases": [
+    {
+     "code": "PUL321",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL302",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Criminal Law II (Specific Offences)",
+   "summary": "Offences against the person, property and the state under the Criminal and Penal Codes.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL305",
+   "name": "Family Law I",
+   "kind": "elective",
+   "slug": "ppl305",
+   "known_codes": "PPL305, PPL313",
+   "aliases": [
+    {
+     "code": "PPL313",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL305",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Family Law I",
+   "summary": "Marriage, divorce and the legal regimes of statutory, customary and Islamic marriage.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL306",
+   "name": "Family Law II",
+   "kind": "elective",
+   "slug": "ppl306",
+   "known_codes": "PPL306, PPL323",
+   "aliases": [
+    {
+     "code": "PPL323",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL306",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Family Law II",
+   "summary": "Children, custody, maintenance, succession and property in families.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL307",
+   "name": "Law of Intellectual Property I",
+   "kind": "elective",
+   "slug": "ppl307",
+   "known_codes": "PPL307",
+   "aliases": [
+    {
+     "code": "PPL307",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Intellectual Property I",
+   "summary": "Copyright, patents, trademarks and designs: principles.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PPL308",
+   "name": "Law of Intellectual Property II",
+   "kind": "elective",
+   "slug": "ppl308",
+   "known_codes": "CIL322, PPL308",
+   "aliases": [
+    {
+     "code": "CIL322",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL308",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Intellectual Property II",
+   "summary": "Enforcement, licensing, passing off and international IP treaties.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PUL303",
+   "name": "Health Law I",
+   "kind": "elective",
+   "slug": "pul303",
+   "known_codes": "PUL303, PUL411",
+   "aliases": [
+    {
+     "code": "PUL411",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL303",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Health Law I",
+   "summary": "Medical negligence, consent, patient rights and health regulation.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 3,
+   "code": "PUL304",
+   "name": "Health Law II",
+   "kind": "elective",
+   "slug": "pul304",
+   "known_codes": "PUL304, PUL421",
+   "aliases": [
+    {
+     "code": "PUL421",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL304",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Health Law II",
+   "summary": "Reproductive rights, public-health law and medical ethics.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CLE401",
+   "name": "Clinical and Moot Court Practice I",
+   "kind": "core",
+   "slug": "cle401",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Clinical and Moot Court Practice I",
+   "summary": "Legal clinic, client interviewing, counselling and mock-court advocacy.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional communication",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "CLE402",
+   "name": "Clinical and Moot Court Practice II",
+   "kind": "core",
+   "slug": "cle402",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Clinical and Moot Court Practice II",
+   "summary": "Trial advocacy, drafting pleadings, mooting and clinical legal practice.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL401",
+   "name": "Property Law I",
+   "kind": "core",
+   "slug": "ppl401",
+   "known_codes": "PPL401",
+   "aliases": [
+    {
+     "code": "PPL401",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Land and Property Law I",
+   "summary": "Estates and interests in land, tenure, land use and the Land Use Act.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL402",
+   "name": "Property Law II",
+   "kind": "core",
+   "slug": "ppl402",
+   "known_codes": "PPL402",
+   "aliases": [
+    {
+     "code": "PPL402",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Land and Property Law II",
+   "summary": "Leases, mortgages, easements, registration and transfer of title.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL403",
+   "name": "Equity and Trusts I",
+   "kind": "core",
+   "slug": "ppl403",
+   "known_codes": "PPL403",
+   "aliases": [
+    {
+     "code": "PPL403",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Equity and Trusts I",
+   "summary": "Equitable principles, maxims, remedies, injunction and specific performance.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL404",
+   "name": "Equity and Trusts II",
+   "kind": "core",
+   "slug": "ppl404",
+   "known_codes": "PPL404",
+   "aliases": [
+    {
+     "code": "PPL404",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Equity and Trusts II",
+   "summary": "Express, resulting and constructive trusts, trustees' duties and breach of trust.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL401",
+   "name": "Law of Evidence I",
+   "kind": "core",
+   "slug": "pul401",
+   "known_codes": "LPI401, PUL401, PUL511",
+   "aliases": [
+    {
+     "code": "LPI401",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL511",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL401",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Evidence I",
+   "summary": "Admissibility, relevance, hearsay, documentary and real evidence under the Evidence Act.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL402",
+   "name": "Law of Evidence II",
+   "kind": "core",
+   "slug": "pul402",
+   "known_codes": "PUL402, PUL521",
+   "aliases": [
+    {
+     "code": "PUL521",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL402",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Law of Evidence II",
+   "summary": "Competence, witnesses, burden and standard of proof, presumptions and privilege.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL407",
+   "name": "Banking and Insurance Law I",
+   "kind": "elective",
+   "slug": "ppl407",
+   "known_codes": "PPL407, PPL408",
+   "aliases": [
+    {
+     "code": "PPL407",
+     "units": null,
+     "source": "website.caleb.university"
+    },
+    {
+     "code": "PPL408",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Banking and Insurance Law I",
+   "summary": "Banker-customer relationship, bank regulation and payment systems.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PPL408",
+   "name": "Banking and Insurance Law II",
+   "kind": "elective",
+   "slug": "ppl408",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Banking and Insurance Law II",
+   "summary": "Insurance contract principles, types of insurance and claims.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL403",
+   "name": "Industrial Law I",
+   "kind": "elective",
+   "slug": "pul403",
+   "known_codes": "CIL512, PUL403",
+   "aliases": [
+    {
+     "code": "CIL512",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL403",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Industrial Law I",
+   "summary": "Employment contract, termination and labour standards.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL404",
+   "name": "Industrial Law II",
+   "kind": "elective",
+   "slug": "pul404",
+   "known_codes": "CIL522, PUL404",
+   "aliases": [
+    {
+     "code": "CIL522",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL404",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Industrial Law II",
+   "summary": "Trade unions, collective bargaining, industrial disputes and the National Industrial Court.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL405",
+   "name": "International Law I",
+   "kind": "elective",
+   "slug": "pul405",
+   "known_codes": "PUL405",
+   "aliases": [
+    {
+     "code": "PUL405",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Public International Law I",
+   "summary": "Sources, subjects, state recognition, treaties and state responsibility.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL406",
+   "name": "International Law II",
+   "kind": "elective",
+   "slug": "pul406",
+   "known_codes": "PUL406",
+   "aliases": [
+    {
+     "code": "PUL406",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Public International Law II",
+   "summary": "Use of force, international organisations, dispute settlement and law of the sea.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL407",
+   "name": "Environmental Law and Policy I",
+   "kind": "elective",
+   "slug": "pul407",
+   "known_codes": "PUL407",
+   "aliases": [
+    {
+     "code": "PUL407",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Environmental Law and Policy I",
+   "summary": "Principles and institutions of environmental protection and regulation.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL408",
+   "name": "Environmental Law and Policy II",
+   "kind": "elective",
+   "slug": "pul408",
+   "known_codes": "PUL408",
+   "aliases": [
+    {
+     "code": "PUL408",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Environmental Law and Policy II",
+   "summary": "Pollution control, climate law, resource law and enforcement.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL411",
+   "name": "Human Rights Law I",
+   "kind": "elective",
+   "slug": "pul411",
+   "known_codes": "LPI207, PUL411",
+   "aliases": [
+    {
+     "code": "LPI207",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PUL411",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Human Rights Law I",
+   "summary": "Human-rights theory, the African Charter and the Nigerian Bill of Rights.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 4,
+   "code": "PUL412",
+   "name": "Human Rights Law II",
+   "kind": "elective",
+   "slug": "pul412",
+   "known_codes": "",
+   "aliases": [],
+   "shared_with": [],
+   "general_name": "Human Rights Law II",
+   "summary": "Enforcement of rights, remedies and regional and international mechanisms.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "LAW509",
+   "name": "Long Essay",
+   "kind": "core",
+   "slug": "law509",
+   "known_codes": "LAW509",
+   "aliases": [
+    {
+     "code": "LAW509",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Long Essay",
+   "summary": "Supervised legal research essay with defence.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Research method",
+    "Legal drafting and advocacy",
+    "Professional communication"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL501",
+   "name": "Company Law I",
+   "kind": "core",
+   "slug": "ppl501",
+   "known_codes": "CIL511, PPL501",
+   "aliases": [
+    {
+     "code": "CIL511",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL501",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Company Law I",
+   "summary": "Incorporation, corporate personality, capital, directors and shareholders under CAMA.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL502",
+   "name": "Company Law II",
+   "kind": "core",
+   "slug": "ppl502",
+   "known_codes": "PPL502",
+   "aliases": [
+    {
+     "code": "PPL502",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Company Law II",
+   "summary": "Share capital, corporate governance, insolvency, winding up and mergers.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL501",
+   "name": "Jurisprudence and Legal Theory I",
+   "kind": "core",
+   "slug": "pul501",
+   "known_codes": "JIL511, LPI501, PUL501",
+   "aliases": [
+    {
+     "code": "LPI501",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "JIL511",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL501",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Jurisprudence and Legal Theory I",
+   "summary": "Natural law, positivism, realism and sociological theories of law.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL502",
+   "name": "Jurisprudence and Legal Theory II",
+   "kind": "core",
+   "slug": "pul502",
+   "known_codes": "JIL521, PUL502",
+   "aliases": [
+    {
+     "code": "JIL521",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PUL502",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Jurisprudence and Legal Theory II",
+   "summary": "Justice, rights, legal reasoning and modern legal theories.",
+   "psychometric": [
+    "Critical judgement",
+    "Verbal reasoning",
+    "Abstract and logical reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL510",
+   "name": "Nigeria Law Enforcement",
+   "kind": "core",
+   "slug": "pul510",
+   "known_codes": "PUL510",
+   "aliases": [
+    {
+     "code": "PUL510",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Nigeria Law Enforcement",
+   "summary": "Police powers, criminal procedure, arrest, bail and prosecution.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL503",
+   "name": "Oil and Gas Law I",
+   "kind": "elective",
+   "slug": "ppl503",
+   "known_codes": "LPI503, PPL503",
+   "aliases": [
+    {
+     "code": "LPI503",
+     "units": null,
+     "source": "law.ui.edu.ng"
+    },
+    {
+     "code": "PPL503",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Oil and Gas Law I",
+   "summary": "Petroleum ownership, licences and joint-venture arrangements in Nigeria.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL504",
+   "name": "Oil and Gas Law II",
+   "kind": "elective",
+   "slug": "ppl504",
+   "known_codes": "PPL504",
+   "aliases": [
+    {
+     "code": "PPL504",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Oil and Gas Law II",
+   "summary": "Contracts, host-community law, pollution liability and arbitration.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Memory and recall"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Safety and regulatory compliance"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL505",
+   "name": "Conveyancing I",
+   "kind": "elective",
+   "slug": "ppl505",
+   "known_codes": "PPL505, PPL512",
+   "aliases": [
+    {
+     "code": "PPL512",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    },
+    {
+     "code": "PPL505",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Conveyancing I",
+   "summary": "Drafting of sale, lease and mortgage documents.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL506",
+   "name": "Conveyancing II",
+   "kind": "elective",
+   "slug": "ppl506",
+   "known_codes": "PPL522",
+   "aliases": [
+    {
+     "code": "PPL522",
+     "units": null,
+     "source": "law.unilag.edu.ng"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Conveyancing II",
+   "summary": "Land transactions, searches, registration and conveyancing practice.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Attention to detail"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL507",
+   "name": "Revenue Law I",
+   "kind": "elective",
+   "slug": "ppl507",
+   "known_codes": "PPL507",
+   "aliases": [
+    {
+     "code": "PPL507",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Revenue Law I",
+   "summary": "Principles of taxation, income and company taxes in Nigeria.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PPL508",
+   "name": "Revenue Law II",
+   "kind": "elective",
+   "slug": "ppl508",
+   "known_codes": "PPL508",
+   "aliases": [
+    {
+     "code": "PPL508",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Revenue Law II",
+   "summary": "VAT, capital gains, customs and tax administration and disputes.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Numerical reasoning"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Financial and economic analysis"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL505",
+   "name": "Gender Rights Law I",
+   "kind": "elective",
+   "slug": "pul505",
+   "known_codes": "PUL505",
+   "aliases": [
+    {
+     "code": "PUL505",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Gender Rights Law I",
+   "summary": "Gender equality law, discrimination and women's rights.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL506",
+   "name": "Gender Rights Law II",
+   "kind": "elective",
+   "slug": "pul506",
+   "known_codes": "PUL506",
+   "aliases": [
+    {
+     "code": "PUL506",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "Gender Rights Law II",
+   "summary": "Gender-based violence, family and property rights, and advocacy.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Client care and counselling"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL507",
+   "name": "International Humanitarian Law I",
+   "kind": "elective",
+   "slug": "pul507",
+   "known_codes": "PUL507",
+   "aliases": [
+    {
+     "code": "PUL507",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "International Humanitarian Law I",
+   "summary": "Laws of armed conflict, Geneva Conventions and protection of civilians.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  },
+  {
+   "year": 5,
+   "code": "PUL508",
+   "name": "International Humanitarian Law II",
+   "kind": "elective",
+   "slug": "pul508",
+   "known_codes": "PUL508",
+   "aliases": [
+    {
+     "code": "PUL508",
+     "units": null,
+     "source": "website.caleb.university"
+    }
+   ],
+   "shared_with": [],
+   "general_name": "International Humanitarian Law II",
+   "summary": "War crimes, international criminal tribunals and enforcement.",
+   "psychometric": [
+    "Verbal reasoning",
+    "Critical judgement"
+   ],
+   "industrial": [
+    "Legal drafting and advocacy",
+    "Professional ethics and law"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# NUC CCMAS 100-level science core (Biochemistry, Microbiology, Medical Laboratory Science, Environmental Management and Toxicology).
+1|MTH101|Elementary Mathematics I|c
+1|MTH102|Elementary Mathematics II|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|CHM101|General Chemistry I|c
+1|CHM102|General Chemistry II|c
+1|CHM107|General Practical Chemistry I|c
+1|CHM108|General Practical Chemistry II|c
+1|BIO101|General Biology I|c
+1|BIO102|General Biology II|c
+1|BIO107|General Practical Biology I|c
+1|BIO108|General Practical Biology II|c
+1|COS101|Introduction to Computing Sciences|c

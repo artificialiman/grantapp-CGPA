@@ -6,3 +6,7 @@ build/
 .env.local
 .env.*.local
 *.log
+
+# curriculum research output is committed on purpose
+!curriculum/build/
+__pycache__/

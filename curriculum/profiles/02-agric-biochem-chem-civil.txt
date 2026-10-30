@@ -1,0 +1,160 @@
+Introduction to Agricultural and Biosystems Engineering||Overview of agricultural engineering fields: farm power, soil and water, structures, processing and the role of engineers in food systems.|VER CRT|COM DES
+Design of Machine and Structural Elements||Design of shafts, fasteners, gears, beams and frames for farm machines and structures using stress and safety factors.|NUM MEC|DES CAD
+Animal Production||Livestock breeds, feeding, housing, breeding, health and farm-animal production systems for engineers.|MEM|FLD
+Crop Production||Crop physiology, planting, fertility, pest control, harvesting and cropping systems.|MEM|FLD
+Farm Management, Rural Sociology and Agricultural Extension||Farm planning and budgeting, rural social structure, and extension methods for technology adoption.|NUM CRT|FIN COM
+Soil Science||Soil formation, physical and chemical properties, fertility, classification and soil-water relations.|MEM LOG|LAB FLD
+Land Surveying and Geographic Information System||Levelling, chain and theodolite surveys, mapping, GPS and GIS data capture and analysis.|SPA NUM DET|FLD DAT
+Biosystems Engineering||Engineering applied to biological systems: bioprocesses, bioenergy, environmental control and biological materials.|LOG MEC|DES
+Agricultural Power and Machinery||Tractors, engines, power transmission, tillage, planting and harvesting machines, and their selection.|MEC|DES MFG
+Rural Infrastructural Engineering||Rural roads, water supply, storage structures, housing and electrification for rural communities.|MEC SPA|DES PM
+Instrumentation and Measurement in Agricultural and Biosystems Engineering||Sensors, transducers and measurement of moisture, temperature, flow and force on farms and in processing.|NUM MEC DET|LAB DAT
+Agricultural Mechanization||Mechanisation levels, machinery economics, farm power planning and policy in Nigeria.|NUM CRT|FIN PM
+Design of Agricultural Machinery||Design of tillage, planting, harvesting and processing machines, with drawings and testing.|MEC SPA|DES CAD MFG
+Operation and Management of Agricultural Power and Machinery Systems||Machinery costs, maintenance, selection, scheduling and field capacity.|NUM CRT|FIN PM
+Agricultural Structures and Environmental Control||Design of farm buildings, silos, greenhouses and ventilation, heating and cooling for crops and livestock.|SPA MEC NUM|DES HSE
+Irrigation and Drainage||Crop water requirement, irrigation methods, system design, drainage design and water management.|NUM MEC|DES FLD
+Agricultural and Biosystems Hydrology||Rainfall, runoff, infiltration, evapotranspiration, streamflow and flood estimation for farm catchments.|NUM LOG|DAT FLD
+Soil Mechanics I||Soil classification, compaction, permeability, shear strength and consolidation.|NUM MEC|LAB DES
+Environmental and Social Impact Analysis||Environmental impact assessment methods, social effects, mitigation and regulation for agricultural projects.|CRT VER|HSE ETH
+Aquaculture and Agroponics Engineering||Pond, tank and recirculating fish systems, hydroponics and aquaponics design.|MEC LOG|DES
+Livestock Production Engineering||Housing, feeding systems, waste handling and climate control for livestock units.|MEC SPA|DES
+Greenhouse Technology||Greenhouse structure, covering, climate control, irrigation and automation.|MEC NUM|DES
+Drone and Robot Technology in Agriculture||UAV and robot platforms, sensors, mapping, precision spraying and farm automation.|LOG SPA|PRG DAT
+Agricultural Land Clearing||Land-clearing methods, equipment, costs and environmental effects.|MEC|FLD
+Application of Electricity to Agricultural and Biological Systems||Rural electrification, motors, farm wiring, lighting and electric processing.|NUM MEC|DES HSE
+Food and Agricultural Biotechnology||Fermentation, enzymes, tissue culture, genetic modification and biotechnology in food and farming.|MEM LOG|LAB
+Transportation System for Agricultural and Rural Development||Rural roads, haulage, farm-to-market logistics and agro-transport planning.|CRT NUM|PM DES
+Soil and Water Conservation||Erosion processes, terracing, contour farming, watershed management and conservation structures.|NUM SPA|FLD DES
+Engineering Properties of Agricultural and Biological Materials||Physical, mechanical, thermal and rheological properties of crops and food materials.|NUM MEC|LAB DAT
+Application of Solar Energy to Agricultural and Biological Systems||Solar dryers, water heaters, pumping and PV systems for farms.|NUM MEC|DES
+Automation of Agricultural and Biosystems||Control, sensors, PLCs and robotics for farm and processing automation.|LOG MEC|DES PRG
+Agricultural Power||Prime movers, engines, hydraulics, electric power and their use on farms.|MEC NUM|DES
+Agricultural Machinery||Principles and operation of tillage, seeding, spraying and harvesting machinery.|MEC|DES MFG
+Handling of Agricultural and Biological Materials||Conveying, elevating, sorting and handling equipment for grain, fruits and tubers.|MEC|DES
+Agricultural Land Drainage||Surface and sub-surface drainage design, drain spacing and water-table control.|NUM SPA|DES FLD
+Rural Water Supply and Sanitation||Sources, treatment, storage, distribution and sanitation systems for rural areas.|NUM MEC|DES HSE
+Advanced Irrigation Engineering||Advanced irrigation scheduling, pressurised systems, system performance and water-use efficiency.|NUM MEC|DES
+Advanced Hydraulic Engineering||Open-channel flow, hydraulic structures, pumps and pipe networks.|NUM MEC SPA|DES
+Processing of Agricultural and Biological Materials||Unit operations for cleaning, milling, drying and extraction of crops and tubers.|MEC NUM|DES MFG
+Bioprocess Engineering||Bioreactor design, kinetics, fermentation and product recovery.|NUM LOG|DES LAB
+Storage of Agricultural and Biological Materials||Storage structures, spoilage, pest control, controlled atmosphere and cold storage.|MEM MEC|DES HSE
+Renewable Energy Engineering||Biogas, biomass, solar, wind and small hydro systems for rural energy.|NUM MEC|DES
+Waste Management Engineering||Agricultural and municipal waste collection, treatment, composting and disposal engineering.|CRT MEC|DES HSE
+Bioenvironmental Engineering||Control of air, water and waste impacts of biological production systems.|CRT MEC|HSE DES
+Fundamentals of Food Engineering I||Heat and mass transfer, psychrometrics, refrigeration and drying in food processing.|NUM MEC|DES
+Fundamentals of Food Engineering II||Evaporation, extrusion, packaging, sterilisation and food-plant design.|NUM MEC|DES HSE
+Basic Aquacultural Technology||Fish biology, pond construction, water quality and hatchery management.|MEM|FLD
+Aquacultural and Animal Production Engineering||Engineering design of fish and animal production facilities and their utilities.|MEC NUM|DES
+Introductory Biochemistry I||Introduction to the chemistry of life: water, biomolecules and the scope of biochemistry.|MEM LOG|LAB
+Introductory Biochemistry II||Introductory enzymes, metabolism overview and the biochemical basis of nutrition and disease.|MEM LOG|LAB
+Statistics for Agriculture and Biological Sciences||Experimental design, ANOVA, regression and non-parametric tests for biological data.|NUM LOG|DAT RES
+Biorisk Management and Biochemical Data Handling||Laboratory biosafety levels, hazard control, waste handling, data recording and integrity.|DET CRT|HSE DAT ETH
+Genetics I||Mendelian inheritance, chromosomes, linkage, mutation and population genetics.|LOG MEM|LAB
+General Microbiology||Microbial structure, growth, metabolism, control of microbes and their roles in health and industry.|MEM LOG|LAB HSE
+Basic Techniques in Microbiology||Aseptic technique, staining, culture media, isolation, enumeration and microscopy.|DET|LAB HSE
+Introduction to Physiology and Blood||Body fluids, blood composition, haemostasis and homeostasis.|MEM LOG|CLN LAB
+Enzymology||Enzyme kinetics, mechanisms, inhibition, regulation and assay.|NUM LOG|LAB DAT
+Metabolism of Carbohydrates||Glycolysis, gluconeogenesis, glycogen metabolism, pentose phosphate pathway and regulation.|MEM LOG|LAB
+Metabolism of Lipids||Fatty-acid oxidation and synthesis, ketone bodies, cholesterol and lipoprotein metabolism.|MEM LOG|LAB
+Metabolism of Amino Acids and Proteins||Amino-acid catabolism, urea cycle, protein turnover and synthesis of derived compounds.|MEM LOG|LAB
+Structure and Functions of Nucleic Acids||DNA and RNA structure, replication, transcription, translation and gene expression.|MEM LOG|LAB
+Analytical Methods in Biochemistry||Spectrophotometry, chromatography, electrophoresis, centrifugation and radio-isotope techniques.|DET NUM|LAB DAT
+Membrane Biochemistry||Membrane composition, transport, signalling and receptors.|MEM LOG|LAB
+Bioenergetics||Thermodynamics of living systems, ATP, redox reactions and the electron-transport chain.|NUM LOG|LAB
+Inorganic Biochemistry||Roles of metals and trace elements in enzymes, transport and disease.|MEM|LAB
+Industrial Attachment||Supervised industrial training placement with logbook and report.|DET CRT|COM HSE
+Biochemistry and Molecular Biology of Microorganisms||Microbial metabolism, genetics and molecular techniques.|MEM LOG|LAB
+Food and Nutritional Biochemistry||Nutrients, energy balance, vitamins, minerals and food-component chemistry.|MEM|LAB
+Advanced Enzymology||Enzyme mechanisms, allostery, immobilisation and industrial enzymes.|LOG NUM|LAB
+Molecular Biochemistry||Gene structure, regulation, recombinant DNA and molecular tools.|LOG MEM|LAB
+Metabolic Regulations||Hormonal and allosteric control of metabolism and integration between organs.|LOG MEM|LAB CLN
+Biochemical Reasoning||Problem-based interpretation of biochemical data and clinical cases.|CRT LOG|DAT CLN
+Plant Biochemistry||Photosynthesis, plant metabolism, secondary metabolites and plant hormones.|MEM|LAB
+Bioinformatics||Biological databases, sequence alignment, genomics and tools for sequence analysis.|LOG|PRG DAT
+Biochemical Entrepreneurship||Starting biotechnology and laboratory-service businesses.|CRT|ENT FIN
+Industrial Biochemistry||Fermentation, enzyme technology and industrial biochemical processes.|LOG NUM|LAB MFG
+Biochemical Pharmacology and Toxicology||Drug action and metabolism, toxic mechanisms and detoxification.|MEM LOG|LAB CLN
+Tissue Biochemistry||Biochemistry of liver, muscle, brain, blood, kidney and connective tissue.|MEM|LAB CLN
+Research Methods in Biochemistry||Experimental design, data analysis, reporting and ethics in biochemical research.|CRT LOG|RES DAT
+Forensic Biochemistry||Biochemical evidence analysis: DNA profiling, toxicology and body fluids.|DET LOG|LAB ETH
+Special Topics and Seminar in Biochemistry||Current topics researched and presented by students.|CRT VER|RES COM
+Introduction to Chemical Engineering||Chemical industry overview, unit operations, material and energy balances and the profession.|NUM CRT|DES COM
+Chemical Engineering Fundamentals||Material and energy balances on processes with reaction and recycle.|NUM LOG|DES DAT
+Statistics for Chemical Engineers||Data analysis, design of experiments and process statistics.|NUM LOG|DAT
+Transfer Processes I||Momentum and fluid-flow transfer: laminar and turbulent flow, pumps and pipe networks.|NUM MEC|DES
+Separation Processes I||Distillation, absorption, extraction and staged-contact operations.|NUM LOG|DES
+Chemical Engineering Laboratory I||Experiments on fluid flow, heat transfer and basic unit operations.|DET NUM|LAB DAT HSE
+Chemical Kinetics and Catalysis||Rate laws, mechanisms, catalyst behaviour and reactor data analysis.|NUM LOG|LAB DES
+Biochemical Engineering||Enzyme and microbial kinetics, bioreactors and bioseparations.|NUM LOG|DES LAB
+Chemical Engineering Thermodynamics I||Thermodynamic properties, equations of state, phase equilibria and solution thermodynamics.|NUM LOG|DES
+Process Instrumentation||Measurement of temperature, pressure, flow and level; control hardware.|MEC DET|DES LAB
+Chemical Engineering Laboratory II||Experiments on mass transfer, separation and reaction operations.|DET NUM|LAB DAT HSE
+Numerical Methods in Chemical Engineering||Numerical solution of algebraic, differential and optimisation problems.|NUM LOG|PRG DAT
+Chemical Engineering Thermodynamics II||Phase and reaction equilibrium, multicomponent systems and process cycles.|NUM LOG|DES
+Chemical Reaction Engineering I||Ideal reactor design: batch, CSTR, PFR, conversion, selectivity and reactor sizing.|NUM LOG|DES
+Chemical Product Design||Design of consumer and speciality chemical products from need to formulation.|CRT LOG|DES ENT
+Plant Design and Economics||Process flow sheets, equipment sizing, capital and operating cost estimation.|NUM CRT|DES FIN
+Process Control||Dynamic models, feedback control, PID tuning and stability.|NUM LOG|DES PRG
+Process Modelling and Simulation||Process models, flowsheet simulation software and sensitivity analysis.|LOG NUM|PRG DES
+Transfer Processes II||Heat and mass transfer: conduction, convection, radiation, heat exchangers and diffusion.|NUM MEC|DES
+Chemical Engineering Laboratory III||Experiments on reactors, process control and advanced unit operations.|DET NUM|LAB DAT HSE
+Chemical Process Technology||Production routes for major industrial chemicals and process flow.|MEM CRT|DES
+Plant Design II||Complete design project of a chemical plant, equipment specification and costing.|CRT NUM|DES PM FIN
+Chemical Reaction Engineering II (Heterogeneous Systems)||Catalytic and gas-solid reactors, diffusion limits and non-ideal flow.|NUM LOG|DES
+Chemical Process Optimization||Linear and nonlinear optimisation of processes and cost minimisation.|NUM LOG|DES DAT
+Separation Processes II (Multicomponent Systems)||Multicomponent distillation, membrane and adsorption separations.|NUM LOG|DES
+Chemical Engineering Research Project||Supervised final-year research or design project with dissertation.|CRT LOG DET|RES PM COM
+Process Safety and Loss Prevention in Industries||Hazard identification, HAZOP, fire and explosion prevention, and risk assessment.|CRT DET|HSE ETH
+Environmental Pollution and Control||Pollutant sources, air, water and soil treatment and regulation.|CRT NUM|HSE DES
+Coal Processing Technology||Coal properties, carbonisation, gasification, liquefaction and cleaning.|MEM NUM|DES
+Petroleum Processing and Petrochemicals||Refining processes, cracking, reforming and petrochemical production.|MEM NUM|DES
+Pulp and Paper Technology||Wood pulping, bleaching, papermaking and recycling processes.|MEM|DES MFG
+Sugar Technology||Sugar-cane processing: extraction, clarification, evaporation and crystallisation.|MEM NUM|DES MFG
+Polymer Science and Engineering||Polymerisation, structure-property relations, processing and plastics technology.|MEM LOG|DES MFG
+Membrane Technology||Membrane types, separation mechanisms and water, gas and food applications.|NUM LOG|DES
+Process Integration||Pinch analysis, heat and mass integration and energy efficiency.|NUM LOG|DES
+Bio Refinery Engineering||Conversion of biomass to fuels, chemicals and materials.|NUM LOG|DES
+Fermentation Technology||Industrial fermentation: strains, media, bioreactors and recovery.|MEM LOG|LAB MFG
+Cement Technology||Cement raw materials, kiln processes, grinding and quality control.|MEM|MFG DES
+Strength of Materials I||Axial, shear, torsion and bending stresses in structural members.|NUM MEC SPA|DES
+Strength of Materials Laboratory I||Tension, bending, torsion and hardness tests on materials.|DET NUM|LAB DAT HSE
+Fluid Mechanics I||Fluid statics, kinematics, continuity, energy and momentum equations.|NUM MEC|DES
+Fluid Mechanics Laboratory||Experiments on flow measurement, pipe friction and fluid properties.|DET NUM|LAB DAT
+Strength of Materials II||Deflection, column buckling, energy methods and combined loading.|NUM MEC SPA|DES
+Theory of Structures I||Analysis of determinate beams, frames and trusses.|NUM SPA LOG|DES
+Fluid Mechanics II||Pipe flow, boundary layers, pumps and open-channel flow.|NUM MEC|DES
+Water Resources and Environmental Engineering Laboratory||Water-quality tests and hydraulic experiments.|DET NUM|LAB HSE DAT
+Hydrology||Rainfall, runoff, hydrographs, flood frequency and water balance.|NUM LOG|DAT FLD
+Civil Engineering Materials||Cement, concrete, aggregates, steel, timber and bituminous materials.|MEM MEC|LAB DES
+Materials Testing||Standard tests on concrete, soil, steel and aggregates.|DET NUM|LAB HSE
+Civil Engineering Drawing||Building and structural drawings, plans, sections and CAD.|SPA DET|CAD DES
+Soil Mechanics||Soil classification, compaction, stress, permeability, consolidation and shear strength.|NUM MEC|LAB DES
+Engineering Survey I||Chain, compass, levelling and theodolite surveying.|SPA NUM DET|FLD
+Engineering Surveys Practice I||Field practice in levelling and traversing with computations.|SPA DET|FLD DAT
+Engineering Analysis||Mathematical and numerical methods for civil engineering problems.|NUM LOG|DAT PRG
+Theory of Structures II||Indeterminate structures: moment distribution, slope-deflection and influence lines.|NUM SPA LOG|DES
+Reinforced Concrete Design||Limit-state design of beams, slabs, columns and foundations to codes.|NUM SPA|DES CAD
+Steel and Timber Design||Design of steel members, connections and timber elements to codes.|NUM SPA|DES CAD
+Structural Design Studio I||Studio design project of a complete building structure.|SPA CRT|DES CAD PM
+Hydraulics||Open-channel flow, hydraulic structures, pumps and turbines.|NUM MEC|DES
+Civil Engineering Practice I||Construction methods, site management, safety and contracts.|CRT|PM HSE
+Foundation Engineering I||Bearing capacity, settlement and shallow foundation design.|NUM MEC|DES
+Soil Mechanics Laboratory||Tests on classification, compaction, shear strength and consolidation.|DET NUM|LAB HSE
+Engineering Surveys II||Curves, tacheometry, setting out and control surveys.|SPA NUM|FLD
+Transportation Engineering I||Highway geometric design, traffic, pavements and transport planning basics.|NUM SPA|DES
+Engineering Surveys Practice II||Field practice: setting out, curves and topographic surveys.|SPA DET|FLD
+Computational Methods||Numerical analysis and programming for engineering computation.|NUM LOG|PRG DAT
+Structural Analysis I||Matrix and energy methods for structural analysis.|NUM LOG SPA|DES PRG
+Structural Design||Integrated design of reinforced-concrete and steel structures.|NUM SPA|DES CAD
+Structural Design Studio||Advanced studio design of tall or complex structures.|SPA CRT|DES CAD PM
+Water Resources and Environmental Engineering I||Water supply, treatment, sewerage and water-resources planning.|NUM CRT|DES HSE
+Civil Engineering Practice II||Contracts, estimating, tendering, construction planning and professional practice.|CRT NUM|PM FIN ETH
+Foundation Engineering II||Deep foundations, retaining structures and slope stability.|NUM MEC|DES
+Foundation Design Studio||Design project of foundations and earth-retaining works.|NUM SPA|DES CAD
+Transportation Engineering II||Pavement design, traffic engineering and highway construction.|NUM SPA|DES
+Structural Analysis II||Plastic analysis, stability and finite-element introduction.|NUM LOG|DES PRG
+Water Resources and Environmental Engineering II||Wastewater treatment, drainage, flood control and environmental design.|NUM CRT|DES HSE
+Properties and Behaviour of Concrete||Concrete mix design, durability, creep, shrinkage and admixtures.|NUM MEM|LAB DES
+Building Engineering||Building systems, services, structure and construction technology.|SPA CRT|DES PM
+Geotechnical Engineering||Site investigation, ground improvement and geotechnical design.|NUM MEC|FLD DES

@@ -1,0 +1,69 @@
+# dept: insurance
+# complete_years: 1,2,3,4
+# source: B.Sc. Actuarial Science and Insurance, Dominion University (dominionuniversity.edu.ng/?p=706). Single-institution source; no national insurance scheme was found.
+# supersedes:
+1|ACC101|Principles of Accounting I|c
+1|BUS101|Principles of Management I|c
+1|CRM105|Introduction to Sociology|c
+1|CSC101|Introduction to Computer|c
+1|ECO101|Principles of Economics I|c
+1|GST101|Communication in English I|c
+1|GST107|Introduction to Entrepreneurship|c
+1|GST123|Logic, Philosophy and Human Existence|c
+1|MGT101|Introduction to Finance I|c
+1|ECO103|Business Mathematics I|c
+1|MGT113|Basic Statistical Methods|c
+1|ECO106|Business Mathematics II|c
+1|ACC102|Principles of Accounting II|c
+1|BUS102|Principles of Management II|c
+1|MGT102|Introduction to Finance II|c
+1|GST122|Use of Library, Study Skills and ICT|c
+1|IRP122|Introduction to Psychology|c
+1|GST110|The Citizen and the State|c
+1|ECO110|Principles of Economics II|c
+1|GST104|Nigerian People and Culture|c
+1|GST102|Communication in English II|c
+2|ACS201|Introduction to Insurance|c
+2|ACS207|Advanced Mathematics I|c
+2|BUS203|Business Communication|c
+2|ECO201|Micro-Economics Theory|c
+2|MGT211|Elements of Marketing|c
+2|ACC201|Financial Accounting I|c
+2|GST211|Entrepreneurship|c
+2|GST221|Peace Studies and Conflict Resolution|c
+2|ACS202|Introduction to Actuarial Science|c
+2|ACS208|Advanced Mathematics II|c
+2|ECO202|Macro-Economics Theory|c
+2|MGT212|Quantitative Analysis|c
+2|ACC202|Financial Accounting II|c
+2|GST210|Environment and Sustainable Development|c
+2|MGT214|The Public and Private Sector|e
+3|ACS303|Life Contingency I|c
+3|ACS305|Risk Management I|c
+3|ACS307|Numerical Analysis|c
+3|ACS309|Actuarial Mathematics|c
+3|MGT307|Management Information System|c
+3|MGT313|Human Behaviour in Organisation|c
+3|ACS317|Investment Theory|c
+3|ACS325|Mathematical Statistics|c
+3|ACS304|Theory of Interest|c
+3|ACC212|Cost and Management Accounting|c
+3|ACS306|Life and Health Insurance|c
+3|ACS308|Further Numerical Analysis|c
+3|ACS316|Probability Theory|c
+3|GST222|Leadership Skills|c
+3|MGT302|Research Methods|c
+3|ACS310|Operations Research|c
+4|ACS401|Life Contingency II|c
+4|ACS403|Theory and Practice of Investment|c
+4|ACS405|Risk Management II|c
+4|BUS411|Business Decision Analysis and Ethics|c
+4|IRP421|Production and Operations Management|c
+4|MGT401|Business Policy and Strategy|c
+4|ACS413|Marine Insurance|c
+4|ACS415|Aviation Insurance|c
+4|ACS402|Pension Fund and Social Insurance|c
+4|ACS404|Actuarial Statistics and Mortality Analysis|c
+4|ACS412|Research Project|c
+4|ACS414|Motor Insurance|c
+4|ACS416|Engineering Insurance|c

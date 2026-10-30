@@ -1,0 +1,52 @@
+# dept: cybersecurity
+# complete_years: 1,2,3,4
+# source: CCMAS B.Sc. Cybersecurity (khairun.edu.ng/?p=840); institution prefix removed from added courses.
+# supersedes:
+@include gst
+1|MTH101|Elementary Mathematics I|c
+1|MTH102|Elementary Mathematics II|c
+1|PHY101|General Physics I|c
+1|PHY102|General Physics II|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|STA111|Descriptive Statistics|c
+1|COS101|Introduction to Computing Sciences|c
+1|COS102|Problem Solving|c
+1|COS103|Introduction to Computer Programming|c
+1|COS104|Introduction to Application Packages|c
+1|ICT102|Introduction to Information and Communication Technology|c
+2|COS201|Computer Programming I|c
+2|COS202|Computer Programming II|c
+2|CYB201|Introduction to Cybersecurity and Strategy|c
+2|CYB203|Cybercrime, Law and Countermeasures|c
+2|CYB299|SIWES I|c
+2|INS204|Systems Analysis and Design|c
+2|SEN201|Introduction to Software Engineering|c
+2|CSC201|Data Structures|c
+2|CSC202|Algorithms and Complexity Analysis|c
+2|IFT212|Computer Architecture and Organization|c
+2|MTH223|Number Theory|c
+3|CYB301|Cryptography Techniques, Algorithms and Applications|c
+3|CYB302|Biometrics Security|c
+3|CYB303|Cybersecurity Risk Analysis, Challenges and Mitigation|c
+3|CYB304|Information and Big Data Security|c
+3|CYB305|Digital Forensics and Investigation Methods|c
+3|CYB322|Cybersecurity Innovation and New Technologies|c
+3|CYB399|SIWES II|c
+3|CSC309|Artificial Intelligence|c
+3|DTS304|Data Management I|c
+3|ICT305|Data Communication Systems and Networks|c
+3|CSC308|Operating Systems|c
+4|COS409|Research Methodology and Technical Report Writing|c
+4|CYB401|Systems Vulnerability Assessment and Testing|c
+4|CYB402|Steganography: Access Methods and Data Hiding|c
+4|CYB403|Cyber Threat Intelligence and Cyber Conflict|c
+4|CYB404|Cloud Computing Security|c
+4|CYB405|Ethical Hacking and Reverse Engineering|c
+4|CYB406|Deep and Dark Web Security|c
+4|CYB407|Network Security|c
+4|CYB408|Malware Analysis|c
+4|IFT434|Blockchain Technology and Application|c
+4|SEN403|Open-Source Software Development and Applications|e
+4|CYB497|Final Year Project I|c
+4|CYB498|Final Year Project II|c

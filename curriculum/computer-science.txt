@@ -1,0 +1,48 @@
+# dept: computer-science
+# complete_years: 1,2,3,4,5
+# source: University of Ibadan CCMAS B.Sc. Computer Science (computing.ui.edu.ng), institution-only (UI-) courses left out. Status C/R -> core, E -> elective.
+# supersedes:
+@include gst
+1|COS101|Introduction to Computing Sciences|c
+1|COS102|Problem Solving|c
+1|MTH101|Elementary Mathematics I (Algebra and Trigonometry)|c
+1|MTH102|Elementary Mathematics II (Calculus)|c
+1|STA111|Descriptive Statistics|c
+1|PHY101|General Physics I (Mechanics)|c
+1|PHY102|General Physics II (Electricity and Magnetism)|c
+1|PHY107|General Practical Physics I|c
+1|PHY108|General Practical Physics II|c
+1|MTH103|Elementary Mathematics III (Vectors, Geometry and Dynamics)|c
+1|STA122|Statistical Computing I|c
+2|IFT211|Digital Logic Design|c
+2|COS201|Computer Programming I|c
+2|COS202|Computer Programming II|c
+2|MTH201|Mathematical Methods I|c
+2|MTH202|Elementary Differential Equations|c
+2|CSC203|Discrete Structures|c
+2|SEN201|Introduction to Software Engineering|c
+2|CSC299|SIWES I|c
+2|INS202|Human-Computer Interface|c
+2|INS204|Systems Analysis and Design|c
+2|CYB201|Introduction to Cybersecurity and Strategy|c
+2|IFT302|Web Application Development|c
+2|STA202|Statistics for Physical Sciences and Engineering|c
+3|DTS304|Data Management I|c
+3|IFT212|Computer Architecture and Organisation|c
+3|ICT305|Data Communication Systems and Networks|c
+3|CSC301|Data Structures|c
+3|CSC308|Operating Systems|c
+3|CSC309|Artificial Intelligence|c
+3|CSC399|SIWES II|c
+3|MTH209|Introduction to Numerical Analysis|e
+4|CSC322|Computer Science and Entrepreneurship|c
+4|CSC401|Algorithms and Complexity Analysis|c
+4|DTS404|Data Management II|c
+4|ICT309|Mobile Communication and Networking|e
+4|INS304|Web Development using Content Management System|e
+4|CSC432|Distributed Computer Systems|e
+5|COS409|Research Methodology and Technical Report Writing|c
+5|INS401|Project Management|c
+5|CSC402|Ethics and Legal Issues in Computer Science|c
+5|CSC597|Final Year Project I|c
+5|CSC598|Final Year Project II|c
