@@ -80,3 +80,62 @@ Migration filename collision resolved (sloww's two migrations renamed
 0003->0005, 0004->0006). EXPERIENCE_CONTEXT.md and glow-shimmer-
 motion.css from the beforemerge_12-09/ upload are now live at their
 real paths and wired into the app. Full build verified clean post-merge.
+
+## 2026-10-30 — Final-lap answers (offline-first, ownership, money, compliance)
+**Source:** the founder's answers to the intake doc ("GrantApp CGPA —
+Context, Standards and Invariants") and his closing notes. Recorded as
+stated. Items that conflict with an earlier invariant, with the law as
+read, or with another answer are listed under **Unresolved** and are
+NOT silently resolved.
+
+**Decided**
+- **Offline first.** The whole app installs on the phone with at least
+  500 questions across all tracks. Online is for updates, feedback and
+  progress only. A weekly update never exceeds 50 MB and the app always
+  asks before downloading in the background.
+- **Answers ship with the questions (fork F-1 = yes).** Correct answer and
+  explanation live on the device so a test works end to end offline.
+  This SUPERSEDES the CGPA default that answer keys stay on the server.
+  Auth and device-binding files remain founder-only.
+- **Ownership.** manchi (agent 001) vets questions, gates merges and
+  applies migrations; obase writes content; sloww owns screens and
+  navigation with full creative latitude; the iman agent owns audit
+  files, export, permissions, API and "govtech". Student data requests
+  reach the founder on WhatsApp, who routes them. Compliance decisions are
+  never made by an agent alone.
+- **Questions.** One bank serves every department that carries the same
+  course (F-2 = yes). Build the entire platform whatever the December
+  course list (F-3). Tag `Computation (skill)` is kept (F-4).
+- **Onboarding and session.** Biodata, programme and target scores are
+  taken at onboarding; a remember-me session is kept on the device.
+- **Navigation.** Years are never blocked: a student states their year and
+  may take any year's tests. After a skippable tour, a student does not see
+  other faculties' pathways. Analytics gets shimmer animation. The navigation
+  between pages, analytics and settings is to be redesigned.
+- **Money.** Budget stays zero. Features unlock after payment via a
+  WhatsApp link (profile to be supplied). Donations fund the other
+  programmes. Traffic is to be spread over several Supabase accounts for
+  the same project.
+- **Working setup.** manchi runs in the desktop app and the VS Code
+  extension; the other agents run on the web and commit on GitHub web.
+  Market is scholars and researchers only; an API for outside developers
+  comes later.
+- **Deletion and age.** Deletion is initiated by the client. The founder
+  states there is no age limit.
+
+**Unresolved (named, not guessed)**
+1. Feedback timing: after each question, or after the whole test.
+2. Deletion on request versus INVARIANTS #4 (profile never deleted).
+3. No age limit versus a customer of 16 and the Data Protection Act,
+   section 31, which requires a guardian's consent for a child.
+4. Paid unlock versus Vercel Hobby (non-commercial only).
+5. Whether the unlock belongs to the account or the device, and which
+   features it covers.
+6. Several Supabase accounts versus the 2-device cap and cross-device sync.
+7. Who files the regulator registration ("myself" in one answer, "team"
+   in another).
+8. "Sticky widget, keyboard or network pop-up" needs a native Android app;
+   the app is a web app.
+9. Who sets `approved` on a question: manchi, or "an agent".
+10. Fork F-5 (export location) answered "keep"; D-7 left blank, so its
+    default applies: a push runs check and build automatically.

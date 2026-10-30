@@ -119,3 +119,29 @@ awaiting confirmation.
     (observed as ~400 days, silently refreshed), which is effectively
     permanent login until explicit sign-out. Nobody has deliberately
     chosen this number; flagged as a real gap, not a confirmed decision.
+
+## Offline-first and delivery (added 2026-10-30, see DECISIONS.md)
+
+23. `[CONFIRMED]` The whole app installs on the phone with at least 500
+    questions across all tracks and runs offline. Online is for updates,
+    feedback and progress sync only.
+24. `[CONFIRMED]` Answers and explanations ship on the device with the
+    questions, so a test finishes with the network off. This supersedes
+    the earlier default that answer keys stay on the server.
+25. `[OPEN]` Feedback timing: after each question, or after the whole test.
+26. `[CONFIRMED]` The app never fails to run end to end. No exam path needs
+    a live call. A student is never locked out of a test by the network, a
+    session expiry or a paused database.
+27. `[CONFIRMED]` Background downloads always ask first. A weekly update
+    never exceeds 50 MB.
+28. `[CONFIRMED]` Years are never blocked. A student states their current
+    year and may take any year's tests.
+29. `[CONFIRMED]` After a skippable tour, a student does not see other
+    faculties' pathways. `[OPEN]` General and shared courses stay visible.
+30. `[CONFIRMED]` Biodata and programme are taken at onboarding and a
+    remember-me session is kept on the device.
+31. `[OPEN]` Deletion on the client's request versus #4 (profile never
+    deleted). `[OPEN]` Guardian consent for under-18s versus the stated "no
+    age limit" (Data Protection Act s.31). `[OPEN]` Which features sit
+    behind the paid unlock and whether it belongs to the account or the
+    device.

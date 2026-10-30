@@ -11,8 +11,8 @@ Open any other file only when the card names it.
 
 ## Rules that apply to every commit
 1. **One concern per commit.** The message states the why, the alternative rejected, and the invariant honored (6.1, 6.6).
-2. **Push each piece when green.** Plain `git push`, never force. If rejected: fetch, merge, rerun the checks, push again (6.2, 6.3).
-3. **Green means:** `npm run check && npm run build` for code, `python3 scripts/check-content.py` for content (6.4).
+2. **One branch per card, one pull request per card.** Never commit to `main`. If the check fails, fix on the same branch (6.2, 6.3).
+3. **Green means:** CI passes on your branch: `npm run check`, `npm run build`, and `python3 scripts/check-content.py`. You work on GitHub web and cannot run them yourself, so open a pull request and wait for the check mark; manchi merges only green (6.4).
 4. **Migrations are new files only.** Never edit or renumber a shipped one. Every new table ships with RLS and a policy in the same file. Use your own number range from `LANES.md` (6.5, 7.2).
 5. **Soft-delete, never hard-delete.** A correction is appended, not written over the old value (2.6).
 6. **Cold data lives in git, warm data lives in the database** (2.2). Questions, packs and transcripts are cold. Progress and enrolments are warm.
@@ -20,7 +20,7 @@ Open any other file only when the card names it.
 8. **Undecided is written down, not guessed.** Put `[OPEN]` in `handoff/pausa.md` and stop that card. Identifiers, permissions and irreversible operations are never guessed (16).
 9. **Secrets never reach the repo or a log line.** `.env` stays ignored. A type-check that fails only on a missing environment variable inside a sandbox is expected (11).
 10. **End-user wording is Iman's.** You build mechanism and structure. Leave wording as a placeholder string marked `COPY: IMAN` (15).
-11. **Antitheft belongs to Iman.** Do not read, change or work around: `src/lib/auth/**`, `src/hooks.server.ts`, any `api/*device*` route, `api/check-mastery-answer`, `api/quick-test-session`. Answer keys never leave the server unless a card says so.
+11. **Antitheft belongs to Iman.** Do not read, change or work around: `src/lib/auth/**`, `src/hooks.server.ts`, any `api/*device*` route, `api/check-mastery-answer`, `api/quick-test-session`. Answers and explanations ship in the offline packs by decision (DECISIONS 2026-10-30, INVARIANTS #24); the auth and device files stay off limits.
 12. **Dependencies are pinned and npm is the only package manager.** No new dependency unless a card names it (11).
 
 ## Vocabulary
