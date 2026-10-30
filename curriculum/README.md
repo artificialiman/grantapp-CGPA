@@ -80,12 +80,15 @@ Several handbook fetches were cut at 100,000 characters; the unread tail is note
 | Law | common-law | none |
 | Cross-cutting | general-studies | n/a |
 
-Open decisions for the founder (also in `faculties.json`):
-1. Nursing Science sits under Allied Medical Sciences because the requested list has no nursing faculty. Many universities place it under Medicine or a College of Health Sciences.
-2. Pharmacy is a faculty of its own at most Nigerian universities and is not in the requested list. It is kept separate.
-3. Economics sits under Banking and Finance. Some universities place it under Social Sciences.
-4. Law is not in the requested list but exists in the app.
-5. Linguistics has no department in the app yet.
+Rule set by the founder (2026-10-30): the app manifest keeps every faculty and department the founder asked for, and any faculty the NUC lists as a faculty also becomes a faculty.
+
+Applied:
+1. Nursing Science stays in Allied Medical Sciences. The NUC places Nursing Sciences under Allied Health Sciences.
+2. Pharmacy is its own faculty (NUC discipline).
+3. Law is its own faculty (NUC discipline, already in the app).
+4. Insurance stays in Banking and Finance and Linguistics stays its own faculty, because the founder manifest names them. The NUC groups them under Administration and Management and Arts and Humanities.
+5. Economics stays in Banking and Finance. Not confirmed in the NUC list read so far (a news summary of it, not the NUC document). Each faculty entry carries `authority` (founder-manifest or nuc).
+6. Linguistics has no department in the app yet.
 
 ## Year 1 and year 2 sharing
 
