@@ -29,8 +29,8 @@ Owner: manchi (head). v2, 2026-10-30, after the founder's final-lap answers (`DE
 | --- | --- | --- | --- | --- | --- |
 | E1 | Question depot and validator | manchi | Nov 3 | **Done Oct 30** | Validator exits 0 on all 56 |
 | E2 | Pack builder and manifest | manchi | Nov 7 | **v1 done Oct 30** | `build-packs.py --check` passes in CI |
-| E3 | Offline engine: IndexedDB store, pack download with hash check, local test and grading, attempt queue | manchi | Nov 8 | Next | Airplane-mode run: open a course, sit a test, see answers |
-| E4 | Offline Quick Test screens, feedback, sync on reconnect | manchi, sloww | Nov 14 | Waits for E3 and open item 1 | Queued answers reach `submit-quick-test` once, with no duplicate rows |
+| E3 | Offline engine: IndexedDB store, pack download with hash check, local test and grading, attempt queue | manchi | Nov 8 | **Library done Oct 30** (`src/lib/offline/`, 13 tests in CI). Pages not wired yet | `npm test` green |
+| E4 | Offline Quick Test screens, feedback, sync on reconnect | manchi, sloww | Nov 14 | Needs open item 1, migration 0021 and `/api/submit-offline-attempt` (below) | Airplane-mode run: open a course, sit a test, see answers; queued attempt reaches the server once |
 | E5 | Update channel: manifest check on launch and on `online`, ask first, 50 MB ceiling | manchi | Nov 18 | Waits for E3 | A new release reaches a phone by downloading only the changed pack |
 | E6 | Content to 500 and beyond | obase writes, manchi vets | Cumulative approved: 150 by Nov 6, 300 by Nov 13, 450 by Nov 20, 520 by Nov 27 | Not started | Validator green, then vetted |
 | E7 | Navigation redesign, year switching, faculty lock and tour, analytics shimmer, touch targets, skeleton | sloww | Nov 14 and Nov 21 | Not started | Pages work on a small screen; checks green |
@@ -45,6 +45,8 @@ Owner: manchi (head). v2, 2026-10-30, after the founder's final-lap answers (`DE
 - **Tests.** Questions are drawn from stored packs, graded on the phone, and shown with answer and explanation. Timing of feedback (after each question or after the test) is open item 1.
 - **Grading of record.** Each attempt is stored with a UUID. On reconnect it is sent to the existing submit endpoint, which grades again on the server. A retry cannot create a second row.
 - **Updates.** The manifest is fetched network-first and is never cached long. Only packs whose hash is missing are downloaded, and only after the student agrees.
+- **Server side of the sync.** Depot ids (`q001`) are not database ids, and the existing `submit-quick-test` takes database ids. A new endpoint, `/api/submit-offline-attempt`, takes `{attempt_id, course_key, answers}`, looks questions up by natural key and ignores a repeated `attempt_id`. It needs migration 0021: `depot_key` and `depot_qid` columns on `keystone_questions` (filled for the 56 existing rows by matching prompt text) and an `offline_attempts` table with its policy in the same file. manchi drafts it; the founder applies it, because the only Supabase project this session can see belongs to another business.
+- **Service worker.** `/packs/*` is excluded from the shell precache so a release never re-downloads every pack.
 - **What this gives up.** Answer keys now sit on every phone. A determined person can copy the bank. Any lock held on the phone can be bypassed. Only features that need the server can be enforced.
 
 | If this fails | The student still can |

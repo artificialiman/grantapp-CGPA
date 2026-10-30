@@ -31,7 +31,10 @@ const SHELL_CACHE = `shell-${version}`;
 const RUNTIME_CACHE = 'runtime-v1';
 const OFFLINE_URL = '/offline';
 
-const SHELL_ASSETS = [...build, ...files, OFFLINE_URL];
+// Question packs live in IndexedDB and are fetched by the app on its own schedule
+// (src/lib/offline). Precaching them here would download every pack again on each
+// release, at the student's data cost, and one failed pack would fail the whole install.
+const SHELL_ASSETS = [...build, ...files.filter((f) => !f.startsWith('/packs/')), OFFLINE_URL];
 
 sw.addEventListener('install', (event) => {
 	event.waitUntil(
