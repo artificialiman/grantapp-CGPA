@@ -1283,6 +1283,86 @@
       ],
       "difficulty": 3,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "____ dose is the sum over all tissues of the equivalent dose multiplied by the tissue weighting factor.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ dose is the sum over all tissues of the equivalent dose multiplied by the ____ weighting factor.",
+        "answers": [
+          "Effective",
+          "tissue"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Effective"
+        },
+        {
+          "id": "b",
+          "text": "Absorbed"
+        },
+        {
+          "id": "c",
+          "text": "Equivalent"
+        },
+        {
+          "id": "d",
+          "text": "Collective"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It estimates whole-body detriment from partial exposure. The unit is the sievert.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "____ time of a counter is the interval after each pulse during which it cannot register another event.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "____ time of a counter is the interval after each pulse during which it cannot ____ another event.",
+        "answers": [
+          "Dead",
+          "register"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Dead"
+        },
+        {
+          "id": "b",
+          "text": "Count"
+        },
+        {
+          "id": "c",
+          "text": "Decay"
+        },
+        {
+          "id": "d",
+          "text": "Rise"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "At high count rates the observed rate is lower than the true rate.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
