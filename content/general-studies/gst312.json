@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "gst312",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Conflict is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a disagreement or clash between parties with incompatible interests, goals or values"
+        },
+        {
+          "id": "b",
+          "text": "the absence of war between states"
+        },
+        {
+          "id": "c",
+          "text": "a violent act that must involve weapons"
+        },
+        {
+          "id": "d",
+          "text": "a decision made by a court"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Conflict need not be violent. Defining it as war or weapons use confuses one extreme form with the whole concept.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "In Galtung's terms, 'negative peace' means",
+      "options": [
+        {
+          "id": "a",
+          "text": "the presence of justice and equity"
+        },
+        {
+          "id": "b",
+          "text": "a permanent agreement among all groups"
+        },
+        {
+          "id": "c",
+          "text": "the dominance of one group over others"
+        },
+        {
+          "id": "d",
+          "text": "the absence of direct violence"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Negative peace is simply no direct violence. Positive peace adds justice and removing causes of violence, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A neutral third party who helps disputants reach their OWN agreement, without imposing a decision, is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbitrator"
+        },
+        {
+          "id": "b",
+          "text": "judge"
+        },
+        {
+          "id": "c",
+          "text": "mediator"
+        },
+        {
+          "id": "d",
+          "text": "prosecutor"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A mediator facilitates talks, and the parties decide the outcome. An arbitrator hears the case and gives a binding decision, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which method of settlement produces a binding decision made by a neutral third party chosen by the parties?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negotiation"
+        },
+        {
+          "id": "b",
+          "text": "Arbitration"
+        },
+        {
+          "id": "c",
+          "text": "Mediation"
+        },
+        {
+          "id": "d",
+          "text": "Avoidance"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "In arbitration the arbitrator decides and the decision binds. Negotiation and mediation leave the outcome to the parties.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A conflict approach in which both parties give up part of what they want to reach a deal is",
+      "options": [
+        {
+          "id": "a",
+          "text": "competition"
+        },
+        {
+          "id": "b",
+          "text": "compromise"
+        },
+        {
+          "id": "c",
+          "text": "accommodation"
+        },
+        {
+          "id": "d",
+          "text": "avoidance"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "In compromise each side concedes something. In accommodation only one side yields, so it is the nearest wrong answer.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "The 'zero-sum' view of conflict assumes that",
+      "options": [
+        {
+          "id": "a",
+          "text": "one party's gain is the other party's loss"
+        },
+        {
+          "id": "b",
+          "text": "both parties can win together"
+        },
+        {
+          "id": "c",
+          "text": "no party can lose anything"
+        },
+        {
+          "id": "d",
+          "text": "outside help is never needed"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Zero-sum means the total is fixed, so a gain for one side equals a loss for the other. A win-win approach rejects that assumption. 'Both parties can win together' describes a positive-sum outcome, which is the opposite assumption.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The 2009 amnesty programme in Nigeria was a response to unrest in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lake Chad basin"
+        },
+        {
+          "id": "b",
+          "text": "Jos Plateau"
+        },
+        {
+          "id": "c",
+          "text": "Cross River highlands"
+        },
+        {
+          "id": "d",
+          "text": "Niger Delta"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The federal government's 2009 amnesty offered militants in the Niger Delta disarmament and rehabilitation. The Lake Chad basin and Jos Plateau have different conflicts with different responses.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which regional body has played a major peacekeeping role in West Africa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "OPEC"
+        },
+        {
+          "id": "b",
+          "text": "CARICOM"
+        },
+        {
+          "id": "c",
+          "text": "ECOWAS"
+        },
+        {
+          "id": "d",
+          "text": "NATO"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "ECOWAS, through its monitoring group ECOMOG, intervened in conflicts in Liberia and Sierra Leone. OPEC is an oil producers' organisation. CARICOM is a Caribbean trade community and NATO is a North Atlantic military alliance, so neither is a West African body.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Active listening during a dispute means",
+      "options": [
+        {
+          "id": "a",
+          "text": "preparing your reply while the other person speaks"
+        },
+        {
+          "id": "b",
+          "text": "interrupting to correct errors"
+        },
+        {
+          "id": "c",
+          "text": "paying full attention and restating what the other person said to confirm understanding"
+        },
+        {
+          "id": "d",
+          "text": "agreeing with everything said"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It shows the speaker was understood and lowers tension. Preparing a reply while someone speaks is the nearest wrong answer, since it feels like listening but is not.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Which of these is a CAUSE of communal conflict that peace education tries to reduce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shared markets between neighbours"
+        },
+        {
+          "id": "b",
+          "text": "Unequal access to land and resources between groups"
+        },
+        {
+          "id": "c",
+          "text": "Joint festivals"
+        },
+        {
+          "id": "d",
+          "text": "Inter-group marriages"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Competition over land and resources is a common driver of communal conflict. Shared markets, festivals and marriages tend to build ties across groups.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

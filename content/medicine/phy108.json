@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "phy108",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In an Ohm's law experiment, a graph of potential difference (y-axis) against current (x-axis) is a straight line through the origin with slope 5 V/A. The resistance of the conductor is",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 ohms"
+        },
+        {
+          "id": "b",
+          "text": "0.2 ohms"
+        },
+        {
+          "id": "c",
+          "text": "25 ohms"
+        },
+        {
+          "id": "d",
+          "text": "1 ohm"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Slope = V / I = R, so R = 5 ohms. The value 0.2 ohms is the reciprocal and would be the slope if the axes were reversed.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "In a metre bridge, a 10 ohm resistor is in the left gap and an unknown resistance X is in the right gap. The balance point is 40.0 cm from the left end. The value of X is",
+      "options": [
+        {
+          "id": "a",
+          "text": "6.7 ohms"
+        },
+        {
+          "id": "b",
+          "text": "10 ohms"
+        },
+        {
+          "id": "c",
+          "text": "25 ohms"
+        },
+        {
+          "id": "d",
+          "text": "15 ohms"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "R / X = l / (100 - l), so X = 10 x 60 / 40 = 15 ohms. Swapping the lengths gives 6.7 ohms. The value 10 ohms would be correct only if the balance point were at 50 cm, and 25 ohms adds 10 and 15.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A graph of terminal voltage V against current I for a cell is a straight line with an intercept of 1.5 V on the V axis and a slope of -0.5 V/A. The internal resistance of the cell is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 ohms"
+        },
+        {
+          "id": "b",
+          "text": "3.0 ohms"
+        },
+        {
+          "id": "c",
+          "text": "0.5 ohms"
+        },
+        {
+          "id": "d",
+          "text": "0.33 ohms"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "V = E - I r, so the slope is -r and the intercept is E. The internal resistance is 0.5 ohms, and the 1.5 V intercept is the emf. The slope gives the internal resistance, so 1.5 ohms mistakes the intercept for it.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A potentiometer wire is used to compare potential differences because, for a uniform wire carrying a steady current,",
+      "options": [
+        {
+          "id": "a",
+          "text": "the potential drop is proportional to the square of the length"
+        },
+        {
+          "id": "b",
+          "text": "the potential drop is proportional to the length of the wire"
+        },
+        {
+          "id": "c",
+          "text": "the current changes along the wire"
+        },
+        {
+          "id": "d",
+          "text": "the resistance changes along the wire"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A uniform wire has a uniform resistance per unit length, so the potential difference between two points is proportional to the length between them.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The focal length of a converging lens can be estimated quickly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "holding the lens close to the object"
+        },
+        {
+          "id": "b",
+          "text": "focusing a distant object on a screen and measuring the lens-to-screen distance"
+        },
+        {
+          "id": "c",
+          "text": "measuring the thickness of the lens"
+        },
+        {
+          "id": "d",
+          "text": "viewing a nearby candle through the lens"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Rays from a distant object are almost parallel, so the image forms at the focal plane. Holding the lens close to the object or viewing a nearby candle does not form a sharp image at the focal plane, and the thickness of the lens does not give its focal length.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "In a lens experiment, an object distance of 20 cm gives an image distance of 20 cm. The focal length is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 cm"
+        },
+        {
+          "id": "b",
+          "text": "20 cm"
+        },
+        {
+          "id": "c",
+          "text": "40 cm"
+        },
+        {
+          "id": "d",
+          "text": "5 cm"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "1/f = 1/u + 1/v = 1/20 + 1/20 = 1/10, so f = 10 cm. Taking the object distance as f would assume the object is at infinity.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A pin appears to be 9 cm below the surface of water in a beaker that is actually 12 cm deep. The refractive index of water is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.75"
+        },
+        {
+          "id": "b",
+          "text": "3.0"
+        },
+        {
+          "id": "c",
+          "text": "1.5"
+        },
+        {
+          "id": "d",
+          "text": "1.33"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "n = real depth / apparent depth = 12 / 9 = 1.33. The figure 0.75 inverts the ratio and would be below 1, which is impossible for water.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "In a pin experiment on a glass block, the angle of incidence is 60 degrees and the angle of refraction is 35 degrees. The refractive index of the glass is about (sin 60 = 0.866, sin 35 = 0.574)",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.66"
+        },
+        {
+          "id": "b",
+          "text": "1.7"
+        },
+        {
+          "id": "c",
+          "text": "1.5"
+        },
+        {
+          "id": "d",
+          "text": "2.1"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "n = sin i / sin r = 0.866 / 0.574 = 1.51. The value 0.66 inverts the ratio. The value 1.7 divides the angles themselves instead of their sines.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A 0.2 kg metal at 100 degrees C is dropped into 0.1 kg of water at 20 degrees C and the final temperature is 30 degrees C. Ignoring the calorimeter, the specific heat capacity of the metal (water = 4200 J/kg C) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "600 J/kg C"
+        },
+        {
+          "id": "b",
+          "text": "4200 J/kg C"
+        },
+        {
+          "id": "c",
+          "text": "300 J/kg C"
+        },
+        {
+          "id": "d",
+          "text": "30 J/kg C"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Heat gained by water = 0.1 x 4200 x 10 = 4200 J. The metal loses 0.2 x c x 70 = 14c, so c = 300. Using the temperature change of water for the metal would give a different value.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 5,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "In a calorimetry experiment, heat loss to the surroundings is reduced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "using a larger open container"
+        },
+        {
+          "id": "b",
+          "text": "lagging the calorimeter and covering it with a lid"
+        },
+        {
+          "id": "c",
+          "text": "heating the water to a much higher temperature"
+        },
+        {
+          "id": "d",
+          "text": "leaving the water uncovered"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Lagging and a lid reduce conduction, convection and evaporation, so more of the heat transfer stays in the system. A larger open container, much hotter water and leaving the water uncovered all increase the heat lost.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "In a resonance tube experiment with a tuning fork of frequency 480 Hz, the first and second resonant lengths are 17.0 cm and 52.0 cm. The speed of sound is",
+      "options": [
+        {
+          "id": "a",
+          "text": "336 m/s"
+        },
+        {
+          "id": "b",
+          "text": "168 m/s"
+        },
+        {
+          "id": "c",
+          "text": "252 m/s"
+        },
+        {
+          "id": "d",
+          "text": "456 m/s"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The difference between successive resonances is half a wavelength: 35 cm, so lambda = 0.70 m and v = f lambda = 480 x 0.70 = 336 m/s. The 168 m/s figure uses half the wavelength.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 5,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "In a sonometer experiment with the tension kept constant, shortening the vibrating length of the wire to half its value",
+      "options": [
+        {
+          "id": "a",
+          "text": "halves the frequency"
+        },
+        {
+          "id": "b",
+          "text": "leaves the frequency unchanged"
+        },
+        {
+          "id": "c",
+          "text": "quadruples the frequency"
+        },
+        {
+          "id": "d",
+          "text": "doubles the frequency"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Frequency is inversely proportional to the vibrating length, so half the length gives twice the frequency. Frequency rises as length falls, so halving the length cannot halve the frequency, and quadrupling it would need a quarter of the length.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A voltmeter should have a very high resistance because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it must carry the full circuit current"
+        },
+        {
+          "id": "b",
+          "text": "it must be heated by the current"
+        },
+        {
+          "id": "c",
+          "text": "it is placed in series"
+        },
+        {
+          "id": "d",
+          "text": "it must draw almost no current from the circuit it measures"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A voltmeter is in parallel with a component, so a low resistance would divert current and change the voltage being measured.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "In an electrical experiment, the circuit should be switched off between readings because",
+      "options": [
+        {
+          "id": "a",
+          "text": "the ammeter cannot read continuously"
+        },
+        {
+          "id": "b",
+          "text": "the battery gains charge when idle"
+        },
+        {
+          "id": "c",
+          "text": "current heats the resistor and changes its resistance"
+        },
+        {
+          "id": "d",
+          "text": "the connecting wires become magnetic"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Heating changes the resistance of most conductors, so readings taken with the current left on would not give a constant resistance.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "A rheostat is connected in series in a circuit in order to",
+      "options": [
+        {
+          "id": "a",
+          "text": "measure the voltage across the cell"
+        },
+        {
+          "id": "b",
+          "text": "vary the current by changing the resistance"
+        },
+        {
+          "id": "c",
+          "text": "store charge"
+        },
+        {
+          "id": "d",
+          "text": "reduce the emf of the cell"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A rheostat is a variable resistor, so it controls the current without changing the emf of the cell. Measuring voltage needs a voltmeter and storing charge needs a capacitor.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "A resistor has colour bands brown, black, red and gold. Its value is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1000 ohms with a 5% tolerance"
+        },
+        {
+          "id": "b",
+          "text": "10 ohms with a 5% tolerance"
+        },
+        {
+          "id": "c",
+          "text": "100 ohms with a 10% tolerance"
+        },
+        {
+          "id": "d",
+          "text": "1200 ohms with a 5% tolerance"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Brown = 1, black = 0, red = multiplier 10^2, so 10 x 100 = 1000 ohms. Gold means 5% tolerance. Reading red as a plain '2' gives 102, which is wrong.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "A silicon diode in forward bias begins to conduct appreciably at about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.7 V"
+        },
+        {
+          "id": "b",
+          "text": "0.07 V"
+        },
+        {
+          "id": "c",
+          "text": "7 V"
+        },
+        {
+          "id": "d",
+          "text": "70 V"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Silicon junction diodes turn on at around 0.6 to 0.7 V. Germanium diodes turn on at a lower value, around 0.3 V. The value 0.07 V is far too low for silicon, and 7 V and 70 V are far above its turn-on voltage.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A 10 kilohm resistor is in series with a 100 microfarad capacitor. The time constant of the circuit is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 s"
+        },
+        {
+          "id": "b",
+          "text": "0.1 s"
+        },
+        {
+          "id": "c",
+          "text": "1000 s"
+        },
+        {
+          "id": "d",
+          "text": "1 s"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Time constant = R C = 10,000 x 100 x 10^-6 = 1 s. Forgetting that micro means 10^-6 gives the wrong power.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "In a Young's double-slit experiment, light of wavelength 600 nm falls on slits 1.0 mm apart and the screen is 2.0 m away. The fringe spacing is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.3 mm"
+        },
+        {
+          "id": "b",
+          "text": "3.0 mm"
+        },
+        {
+          "id": "c",
+          "text": "1.2 mm"
+        },
+        {
+          "id": "d",
+          "text": "1.2 cm"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Spacing = lambda D / d = 600 x 10^-9 x 2.0 / 1.0 x 10^-3 = 1.2 x 10^-3 m = 1.2 mm. Mixing up the units shifts the answer by factors of ten. The value 1.2 cm is ten times too large, and 0.3 mm and 3.0 mm do not follow from the formula.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 5,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "During the cooling of molten naphthalene, the temperature remains constant for a time at about 80 degrees C because",
+      "options": [
+        {
+          "id": "a",
+          "text": "it is absorbing heat from the surroundings"
+        },
+        {
+          "id": "b",
+          "text": "latent heat is released as it solidifies"
+        },
+        {
+          "id": "c",
+          "text": "its specific heat capacity becomes zero"
+        },
+        {
+          "id": "d",
+          "text": "the thermometer has stopped working"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The liquid gives out latent heat as it freezes, which balances the heat lost to the surroundings and keeps the temperature fixed.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

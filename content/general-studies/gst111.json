@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "gst111",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Choose the sentence in which the verb agrees correctly with its subject.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neither the lecturer nor the students were present at the hall."
+        },
+        {
+          "id": "b",
+          "text": "Neither the lecturer nor the students was present at the hall."
+        },
+        {
+          "id": "c",
+          "text": "Neither the lecturer nor the students is present at the hall."
+        },
+        {
+          "id": "d",
+          "text": "Neither the lecturer nor the students has been present at the hall."
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "With 'neither...nor', the verb agrees with the subject nearest to it. 'Students' is plural, so 'were' is correct; 'was' would only fit if the nearer subject were singular.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "In the sentence 'The wind whispered through the trees', the figure of speech used is",
+      "options": [
+        {
+          "id": "a",
+          "text": "metaphor"
+        },
+        {
+          "id": "b",
+          "text": "simile"
+        },
+        {
+          "id": "c",
+          "text": "hyperbole"
+        },
+        {
+          "id": "d",
+          "text": "personification"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "A human action (whispering) is given to the wind, which is personification. It is not a metaphor because nothing is declared to BE something else, and not a simile because there is no 'like' or 'as'.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The word 'ephemeral' is closest in meaning to",
+      "options": [
+        {
+          "id": "a",
+          "text": "everlasting"
+        },
+        {
+          "id": "b",
+          "text": "fragile"
+        },
+        {
+          "id": "c",
+          "text": "short-lived"
+        },
+        {
+          "id": "d",
+          "text": "mysterious"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Ephemeral describes something that lasts for a very short time. 'Everlasting' is its antonym, and the nearest wrong choice because a careless reader may match it to the wrong pole of the meaning.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "In a well-constructed paragraph, the topic sentence",
+      "options": [
+        {
+          "id": "a",
+          "text": "gives the final example in the paragraph"
+        },
+        {
+          "id": "b",
+          "text": "states the main idea that the other sentences develop"
+        },
+        {
+          "id": "c",
+          "text": "summarises the whole essay in one line"
+        },
+        {
+          "id": "d",
+          "text": "introduces a new and unrelated point"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The topic sentence carries the controlling idea of its paragraph. A summary of the whole essay belongs in the conclusion, not in every paragraph.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Which of the following sentences is a comma splice (a punctuation error)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lecture ended early, so the students went home."
+        },
+        {
+          "id": "b",
+          "text": "The lecture ended early, the students went home."
+        },
+        {
+          "id": "c",
+          "text": "Because the lecture ended early, the students went home."
+        },
+        {
+          "id": "d",
+          "text": "The lecture ended early; therefore the students went home."
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A comma splice joins two complete sentences with a comma alone. Adding a coordinating conjunction ('so') or a subordinating word ('because') fixes it, and a semicolon with a linking word is also correct.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Which of these sentences has NO dangling modifier?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Walking to school, Ada was caught in the rain."
+        },
+        {
+          "id": "b",
+          "text": "Walking to school, the rain began to fall."
+        },
+        {
+          "id": "c",
+          "text": "Having finished the exam, the bell rang."
+        },
+        {
+          "id": "d",
+          "text": "Reading the notice, the gate was locked."
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The opening phrase must describe the subject that follows it. Ada is the one walking. In the others, the rain, the bell and the gate cannot walk, finish an exam or read. In each wrong sentence the opening phrase is attached to the wrong noun, so the sentence says something impossible.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Which opening is most suitable for a formal letter of application?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hey, I wanna apply for the lab job you posted."
+        },
+        {
+          "id": "b",
+          "text": "Good day to you! I am just checking if there is any job."
+        },
+        {
+          "id": "c",
+          "text": "To whom it may concern: please give me a job now."
+        },
+        {
+          "id": "d",
+          "text": "I write to apply for the position of laboratory assistant advertised in your office."
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Formal writing uses complete, polite, precise sentences. The slang version is wrong for the register, and the 'just checking' version is vague about what is being applied for.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Running your eyes quickly over a passage to find one fact, such as a date, is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "skimming"
+        },
+        {
+          "id": "b",
+          "text": "intensive reading"
+        },
+        {
+          "id": "c",
+          "text": "scanning"
+        },
+        {
+          "id": "d",
+          "text": "critical reading"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Scanning looks for a specific detail. Skimming is the nearest wrong choice: it gives the general gist and does not hunt for one particular item.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Which of these expressions is redundant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "return home"
+        },
+        {
+          "id": "b",
+          "text": "go back"
+        },
+        {
+          "id": "c",
+          "text": "return back"
+        },
+        {
+          "id": "d",
+          "text": "come in"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "'Return' already means 'go back', so 'return back' repeats the idea. 'Go back' is fine because 'go' carries no sense of returning. 'Return home' is sound because 'home' adds a destination, and 'come in' repeats nothing.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "'Yours faithfully' should close a formal letter that begins with",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dear Mr Bello"
+        },
+        {
+          "id": "b",
+          "text": "Dear Sir or Madam"
+        },
+        {
+          "id": "c",
+          "text": "Dear Aunty"
+        },
+        {
+          "id": "d",
+          "text": "Dear Dr Okeke"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "By convention, 'Dear Sir/Madam' pairs with 'Yours faithfully', and a salutation using a name pairs with 'Yours sincerely'. 'Yours sincerely' is the nearest wrong close, and it belongs with the named salutations.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

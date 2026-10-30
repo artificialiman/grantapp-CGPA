@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "gst112",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The Northern and Southern Protectorates of Nigeria were amalgamated in",
+      "options": [
+        {
+          "id": "a",
+          "text": "1914"
+        },
+        {
+          "id": "b",
+          "text": "1900"
+        },
+        {
+          "id": "c",
+          "text": "1922"
+        },
+        {
+          "id": "d",
+          "text": "1960"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Lord Lugard oversaw the amalgamation of 1 January 1914. 1960 is the year of independence, the nearest confusion, but that is a different event.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Which three ethnic groups are the largest in Nigeria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hausa-Fulani, Ijaw and Kanuri"
+        },
+        {
+          "id": "b",
+          "text": "Yoruba, Tiv and Efik"
+        },
+        {
+          "id": "c",
+          "text": "Igbo, Edo and Nupe"
+        },
+        {
+          "id": "d",
+          "text": "Hausa-Fulani, Yoruba and Igbo"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Hausa-Fulani, Yoruba and Igbo together make up the largest shares of the population. Ijaw and Kanuri are major groups but smaller, which is why the first wrong option is tempting.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The Sokoto Caliphate was founded after a jihad led by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rabih Fadlallah"
+        },
+        {
+          "id": "b",
+          "text": "Mai Idris Alooma"
+        },
+        {
+          "id": "c",
+          "text": "Usman dan Fodio"
+        },
+        {
+          "id": "d",
+          "text": "Shehu Garba of Bornu"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Usman dan Fodio began the Fulani jihad in 1804 and founded the Sokoto Caliphate. Mai Idris Alooma was a ruler of Kanem-Bornu centuries earlier, so he is the nearest wrong name.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The Nok culture of central Nigeria is best known for",
+      "options": [
+        {
+          "id": "a",
+          "text": "bronze plaques of royal courts"
+        },
+        {
+          "id": "b",
+          "text": "terracotta sculptures and early iron smelting"
+        },
+        {
+          "id": "c",
+          "text": "stone-walled cities of the savannah"
+        },
+        {
+          "id": "d",
+          "text": "rock paintings of the Sahara"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Nok produced terracotta figures and is linked to early iron working in West Africa. Bronze plaques belong to Benin, which is why they are the nearest wrong answer.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The traditional ruler of the Benin Kingdom is called the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ooni"
+        },
+        {
+          "id": "b",
+          "text": "Oba"
+        },
+        {
+          "id": "c",
+          "text": "Emir"
+        },
+        {
+          "id": "d",
+          "text": "Obi"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The ruler of Benin is the Oba. The Ooni rules Ife, and he is the nearest wrong choice because both are Southern titles that are easy to confuse.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Nigeria attained independence from Britain on",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 October 1960"
+        },
+        {
+          "id": "b",
+          "text": "15 January 1966"
+        },
+        {
+          "id": "c",
+          "text": "1 October 1963"
+        },
+        {
+          "id": "d",
+          "text": "27 May 1967"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Independence was on 1 October 1960. 1 October 1963 is when Nigeria became a republic, the nearest wrong date, and that event changed the head of state rather than ending colonial rule.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Nigeria's capital was officially moved from Lagos to Abuja in",
+      "options": [
+        {
+          "id": "a",
+          "text": "1960"
+        },
+        {
+          "id": "b",
+          "text": "1976"
+        },
+        {
+          "id": "c",
+          "text": "2003"
+        },
+        {
+          "id": "d",
+          "text": "1991"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The move became official on 12 December 1991. The decision to create a new capital was announced in 1976, which is why 1976 is the nearest wrong choice: it marks the decision, not the move.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Which statement about languages in Nigeria is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nigeria has fewer than ten languages and Hausa is the official language"
+        },
+        {
+          "id": "b",
+          "text": "Yoruba is the only language taught in all schools"
+        },
+        {
+          "id": "c",
+          "text": "Nigeria has several hundred languages, and English is the official language"
+        },
+        {
+          "id": "d",
+          "text": "English was replaced as the official language in 1960"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Linguists count about five hundred languages in Nigeria, and English is the official language used in government and education. Hausa, Yoruba and Igbo are major national languages, but none is the official language.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Which of these is a reason Nigeria's cultural diversity is considered a national asset?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It guarantees that all citizens speak one language"
+        },
+        {
+          "id": "b",
+          "text": "It removes the need for a central government"
+        },
+        {
+          "id": "c",
+          "text": "It supplies a wide range of arts, food, music and trade networks"
+        },
+        {
+          "id": "d",
+          "text": "It prevents any group from migrating"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Diversity enriches the arts, cuisine, festivals and commerce. Saying it guarantees one language contradicts the meaning of diversity.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Traditional marriage among most Nigerian peoples is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a purely private contract with no family role"
+        },
+        {
+          "id": "b",
+          "text": "a union between two families as well as two individuals"
+        },
+        {
+          "id": "c",
+          "text": "a legal act that only a court can perform"
+        },
+        {
+          "id": "d",
+          "text": "a ceremony restricted to one ethnic group"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Across Nigerian cultures, marriage joins families and involves rites such as bride price or introductions. Treating it as a private contract misses the role of the extended family.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    }
+  ]
+}

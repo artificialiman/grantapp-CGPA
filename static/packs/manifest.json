@@ -1,5 +1,5 @@
 {
-  "content_hash": "3101bd91f10422a08735e81deebd6aa2e0e7ea30bfbd153010d0a1ada83985e1",
+  "content_hash": "4f5f438db043f0a61ba2504b5c3eb339c67eccdb6544327bf79e13fb31571d6d",
   "format": 1,
   "packs": [
     {
@@ -18,6 +18,36 @@
       "starter": true
     },
     {
+      "bytes": 5984,
+      "count": 10,
+      "course": "ent211",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 2017,
+      "key": "general-studies/ent211",
+      "path": "packs/general-studies/ent211.2623e642.json",
+      "released_on": "2026-10-30",
+      "sha256": "2623e64260d0574745873dcc08d341c91877b0006c489461b9e6fce6feeacdae",
+      "starter": true
+    },
+    {
+      "bytes": 6153,
+      "count": 10,
+      "course": "ent312",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 2103,
+      "key": "general-studies/ent312",
+      "path": "packs/general-studies/ent312.28d314c1.json",
+      "released_on": "2026-10-30",
+      "sha256": "28d314c12177af394386de6a45eb4f37d248a97890ad9b359bd0afe11fee7c4e",
+      "starter": true
+    },
+    {
       "bytes": 3691,
       "count": 8,
       "course": "gst101",
@@ -30,6 +60,66 @@
       "path": "packs/general-studies/gst101.27b0c895.json",
       "released_on": "2026-10-30",
       "sha256": "27b0c895898becc00f3d9e7b5914e108a9b09c774954dd3c58ad64722341abca",
+      "starter": true
+    },
+    {
+      "bytes": 6585,
+      "count": 10,
+      "course": "gst111",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 2150,
+      "key": "general-studies/gst111",
+      "path": "packs/general-studies/gst111.3b1480f2.json",
+      "released_on": "2026-10-30",
+      "sha256": "3b1480f2d461d6b07ef2eba4011edb95a7d05f107f4c9767da754ac37fd711b4",
+      "starter": true
+    },
+    {
+      "bytes": 6152,
+      "count": 10,
+      "course": "gst112",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 2018,
+      "key": "general-studies/gst112",
+      "path": "packs/general-studies/gst112.cb1ee720.json",
+      "released_on": "2026-10-30",
+      "sha256": "cb1ee720664d8029051fa5510f5836eebcf0ddf9d36fd1ac3c5570081f3ae1c3",
+      "starter": true
+    },
+    {
+      "bytes": 6063,
+      "count": 10,
+      "course": "gst212",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 1942,
+      "key": "general-studies/gst212",
+      "path": "packs/general-studies/gst212.0c988f3e.json",
+      "released_on": "2026-10-30",
+      "sha256": "0c988f3e5d1ac54031441d19f36b953d9a16253683651cd1a0322a61eba61fb3",
+      "starter": true
+    },
+    {
+      "bytes": 6057,
+      "count": 10,
+      "course": "gst312",
+      "departments": [
+        "general-studies"
+      ],
+      "faculty": "general-studies",
+      "gz_bytes": 2009,
+      "key": "general-studies/gst312",
+      "path": "packs/general-studies/gst312.0b2dd5f2.json",
+      "released_on": "2026-10-30",
+      "sha256": "0b2dd5f2956082084f7ff254f737aee388099e5e81b6bba8e5abbad37faff037",
       "starter": true
     },
     {
@@ -61,6 +151,347 @@
       "released_on": "2026-10-30",
       "sha256": "1b5cf6fb8ca385f86f1c638753c86a66aefb8ab82fcdf21aaa4b66c199b72e34",
       "starter": true
+    },
+    {
+      "bytes": 11560,
+      "count": 20,
+      "course": "ant214",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3248,
+      "key": "medicine/ant214",
+      "path": "packs/medicine/ant214.3c8e8ec2.json",
+      "released_on": "2026-10-30",
+      "sha256": "3c8e8ec211ad958a05ac04abdd946a0b133d9983791c46f52c7aa12a692597b2",
+      "starter": true
+    },
+    {
+      "bytes": 12486,
+      "count": 20,
+      "course": "ant315",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3404,
+      "key": "medicine/ant315",
+      "path": "packs/medicine/ant315.c88dcc36.json",
+      "released_on": "2026-10-30",
+      "sha256": "c88dcc363ffca4f6bc818d8f8ceebf930cf23e82d27dcc603a4b4dd3448f9629",
+      "starter": true
+    },
+    {
+      "bytes": 11302,
+      "count": 20,
+      "course": "bio101",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3340,
+      "key": "medicine/bio101",
+      "path": "packs/medicine/bio101.faf1db86.json",
+      "released_on": "2026-10-30",
+      "sha256": "faf1db861274f56d693f886bc253fdaccab38c69facb63889dffa22b6e285c84",
+      "starter": true
+    },
+    {
+      "bytes": 11906,
+      "count": 20,
+      "course": "bio102",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3668,
+      "key": "medicine/bio102",
+      "path": "packs/medicine/bio102.c3e428b5.json",
+      "released_on": "2026-10-30",
+      "sha256": "c3e428b5395952188090822f07ed60f75abef02fed7df7a6d01f978d9dd8ee62",
+      "starter": true
+    },
+    {
+      "bytes": 11926,
+      "count": 20,
+      "course": "bio107",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3481,
+      "key": "medicine/bio107",
+      "path": "packs/medicine/bio107.cbcde909.json",
+      "released_on": "2026-10-30",
+      "sha256": "cbcde909d52eeef2d830d75ec659f7ab6b26ae680ec6c7b0161c37ee03eb0efc",
+      "starter": true
+    },
+    {
+      "bytes": 11852,
+      "count": 20,
+      "course": "bio108",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3648,
+      "key": "medicine/bio108",
+      "path": "packs/medicine/bio108.229a17ea.json",
+      "released_on": "2026-10-30",
+      "sha256": "229a17ea7168f93e4c3972de2e316c677639f4f7b497979afd9a0e4ca6f9ce49",
+      "starter": true
+    },
+    {
+      "bytes": 11545,
+      "count": 20,
+      "course": "chem111",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3243,
+      "key": "medicine/chem111",
+      "path": "packs/medicine/chem111.a4cffcf4.json",
+      "released_on": "2026-10-30",
+      "sha256": "a4cffcf4bd603f615db673a062f53f629551ca41161bd3cc975453d1b5421cdc",
+      "starter": true
+    },
+    {
+      "bytes": 11456,
+      "count": 20,
+      "course": "chem122",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3306,
+      "key": "medicine/chem122",
+      "path": "packs/medicine/chem122.c4b2d476.json",
+      "released_on": "2026-10-30",
+      "sha256": "c4b2d476e17b43ee92c88f739ff775a7bea9a0f5bd6108a71632c7444d16ad1b",
+      "starter": true
+    },
+    {
+      "bytes": 11719,
+      "count": 20,
+      "course": "chm107",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3314,
+      "key": "medicine/chm107",
+      "path": "packs/medicine/chm107.2189394e.json",
+      "released_on": "2026-10-30",
+      "sha256": "2189394e4656d7b4c96e76df04e6e659bbfdce8f1cc81e83f1f9d71c853d0b84",
+      "starter": true
+    },
+    {
+      "bytes": 11683,
+      "count": 20,
+      "course": "chm108",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 2934,
+      "key": "medicine/chm108",
+      "path": "packs/medicine/chm108.361ee2fb.json",
+      "released_on": "2026-10-30",
+      "sha256": "361ee2fb38b685735450d8c7f767bf37321ec4d499df25682b83d3a72c1be9dd",
+      "starter": true
+    },
+    {
+      "bytes": 11996,
+      "count": 20,
+      "course": "man326",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3622,
+      "key": "medicine/man326",
+      "path": "packs/medicine/man326.77ae1cc0.json",
+      "released_on": "2026-10-30",
+      "sha256": "77ae1cc089fe5786c3236c65392ff3dd8c5ee8f87f73283f939c1da3d7105d9f",
+      "starter": true
+    },
+    {
+      "bytes": 12854,
+      "count": 20,
+      "course": "mls406",
+      "departments": [
+        "medical-laboratory-science"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3860,
+      "key": "medicine/mls406",
+      "path": "packs/medicine/mls406.a3419cf8.json",
+      "released_on": "2026-10-30",
+      "sha256": "a3419cf845478b6d9cfae6a2535e7c7b9a249cc6ec8a196dcec0f7e6eff6d22a",
+      "starter": true
+    },
+    {
+      "bytes": 12197,
+      "count": 20,
+      "course": "pco320",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3593,
+      "key": "medicine/pco320",
+      "path": "packs/medicine/pco320.565d8fec.json",
+      "released_on": "2026-10-30",
+      "sha256": "565d8fec01ad3eab7bbdfc31ab0ed7d66185ace089cfbd9cf5d63bd7ceb2450d",
+      "starter": true
+    },
+    {
+      "bytes": 12195,
+      "count": 20,
+      "course": "pco421",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3378,
+      "key": "medicine/pco421",
+      "path": "packs/medicine/pco421.c783a93b.json",
+      "released_on": "2026-10-30",
+      "sha256": "c783a93bd9844114bded6439ce692234cf9ab5e3ff85fa9a5fbe791da5468854",
+      "starter": true
+    },
+    {
+      "bytes": 12608,
+      "count": 20,
+      "course": "pco441",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3587,
+      "key": "medicine/pco441",
+      "path": "packs/medicine/pco441.5c0a270b.json",
+      "released_on": "2026-10-30",
+      "sha256": "5c0a270bf1d39c178685405d277d97867c78cb5bdd55b01ac0c57a8d0a76b04d",
+      "starter": true
+    },
+    {
+      "bytes": 11289,
+      "count": 20,
+      "course": "phy101",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3257,
+      "key": "medicine/phy101",
+      "path": "packs/medicine/phy101.b66904a8.json",
+      "released_on": "2026-10-30",
+      "sha256": "b66904a864313b4f53388870cabca96c51cf0300f07927f415db337929d35571",
+      "starter": true
+    },
+    {
+      "bytes": 11775,
+      "count": 20,
+      "course": "phy102",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3370,
+      "key": "medicine/phy102",
+      "path": "packs/medicine/phy102.1e0f75e4.json",
+      "released_on": "2026-10-30",
+      "sha256": "1e0f75e41e0149f7e056df65e9efae29e560f01699f5b4d694c5cfb911891ebc",
+      "starter": true
+    },
+    {
+      "bytes": 12236,
+      "count": 20,
+      "course": "phy107",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3730,
+      "key": "medicine/phy107",
+      "path": "packs/medicine/phy107.7bfc24fc.json",
+      "released_on": "2026-10-30",
+      "sha256": "7bfc24fc7a5c0446957e97360e45dd9239ea5b6e423ac9458bed4f6f89835e6c",
+      "starter": true
+    },
+    {
+      "bytes": 12797,
+      "count": 20,
+      "course": "phy108",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3762,
+      "key": "medicine/phy108",
+      "path": "packs/medicine/phy108.91c7dfa2.json",
+      "released_on": "2026-10-30",
+      "sha256": "91c7dfa265bd17ab38a221b15006df2375d0420e477de136deb96395e2e1e471",
+      "starter": true
+    },
+    {
+      "bytes": 12418,
+      "count": 20,
+      "course": "phy109",
+      "departments": [
+        "human-medicine"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3552,
+      "key": "medicine/phy109",
+      "path": "packs/medicine/phy109.829e45d0.json",
+      "released_on": "2026-10-30",
+      "sha256": "829e45d0a811e74d9f23c75e0d277fb4f59bd0a14468a5938fe0e32c9621916c",
+      "starter": true
+    },
+    {
+      "bytes": 11871,
+      "count": 20,
+      "course": "pio201",
+      "departments": [
+        "medical-laboratory-science",
+        "pharmacy"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3471,
+      "key": "medicine/pio201",
+      "path": "packs/medicine/pio201.57fc5ce6.json",
+      "released_on": "2026-10-30",
+      "sha256": "57fc5ce648902d2c6e13cb2ab9d549b0099414a0adc1e6442565731e739205a5",
+      "starter": false
+    },
+    {
+      "bytes": 11711,
+      "count": 20,
+      "course": "sta201",
+      "departments": [
+        "medical-laboratory-science"
+      ],
+      "faculty": "medicine",
+      "gz_bytes": 3134,
+      "key": "medicine/sta201",
+      "path": "packs/medicine/sta201.a54a523f.json",
+      "released_on": "2026-10-30",
+      "sha256": "a54a523faf9c04ea19b5b6679fe04b4fd5753a2d903e77c60041d2379f4e871d",
+      "starter": false
     },
     {
       "bytes": 3484,
@@ -110,10 +541,10 @@
   ],
   "release": "2026-10-30",
   "totals": {
-    "packs": 7,
-    "questions": 56,
-    "starter_gz_bytes": 8118,
-    "starter_packs": 7,
-    "starter_questions": 56
+    "packs": 35,
+    "questions": 556,
+    "starter_gz_bytes": 89654,
+    "starter_packs": 33,
+    "starter_questions": 516
   }
 }

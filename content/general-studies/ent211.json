@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "ent211",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "An entrepreneur is best defined as a person who",
+      "options": [
+        {
+          "id": "a",
+          "text": "identifies an opportunity and organises resources to create a business, bearing the risk"
+        },
+        {
+          "id": "b",
+          "text": "works for a salary in a large firm"
+        },
+        {
+          "id": "c",
+          "text": "inherits a business and runs it unchanged"
+        },
+        {
+          "id": "d",
+          "text": "lends money to businesses at a fixed interest"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The core of entrepreneurship is spotting an opportunity, pooling resources and accepting risk. A lender earns interest without carrying the business risk.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "An employee who develops new ideas inside an existing company is called an",
+      "options": [
+        {
+          "id": "a",
+          "text": "entrepreneur"
+        },
+        {
+          "id": "b",
+          "text": "stakeholder"
+        },
+        {
+          "id": "c",
+          "text": "franchisee"
+        },
+        {
+          "id": "d",
+          "text": "intrapreneur"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "'Intra' means within: an intrapreneur innovates inside a firm. An entrepreneur starts a new venture of their own, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "In a SWOT analysis, which pair describes factors that originate OUTSIDE the business?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Strengths and weaknesses"
+        },
+        {
+          "id": "b",
+          "text": "Strengths and opportunities"
+        },
+        {
+          "id": "c",
+          "text": "Opportunities and threats"
+        },
+        {
+          "id": "d",
+          "text": "Weaknesses and threats"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Strengths and weaknesses are internal. Opportunities and threats are external, such as new competitors or changes in regulation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A business owned and run by one person, who bears unlimited liability, is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "limited liability company"
+        },
+        {
+          "id": "b",
+          "text": "sole proprietorship"
+        },
+        {
+          "id": "c",
+          "text": "cooperative society"
+        },
+        {
+          "id": "d",
+          "text": "public corporation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A sole proprietor has no legal separation from the business, so personal assets can be used to pay debts. A limited liability company limits that exposure.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A product that sells for N500 has a variable cost of N300 per unit and fixed costs of N100,000. How many units give break-even?",
+      "options": [
+        {
+          "id": "a",
+          "text": "200"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "333"
+        },
+        {
+          "id": "d",
+          "text": "1000"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Break-even units = fixed costs / (price - variable cost) = 100,000 / 200 = 500. Dividing by the price alone gives 200, which ignores variable cost. Dividing by the variable cost gives 333, and 1,000 would need a margin of only N100 per unit.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Innovation that makes a significant improvement to an existing product or process is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "incremental innovation"
+        },
+        {
+          "id": "b",
+          "text": "radical innovation"
+        },
+        {
+          "id": "c",
+          "text": "imitation"
+        },
+        {
+          "id": "d",
+          "text": "liquidation"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Incremental innovation improves what already exists. Radical innovation creates something new to the market, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Which of these is a CHARACTERISTIC commonly linked to successful entrepreneurs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoiding every uncertain decision"
+        },
+        {
+          "id": "b",
+          "text": "Waiting for others to start first"
+        },
+        {
+          "id": "c",
+          "text": "Refusing to learn from failure"
+        },
+        {
+          "id": "d",
+          "text": "Willingness to take calculated risks"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Entrepreneurs accept risk after weighing it. 'Avoiding every uncertain decision' is the opposite, because no new venture is free of uncertainty.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "Registering a business name or company in Nigeria is done with the",
+      "options": [
+        {
+          "id": "a",
+          "text": "Central Bank of Nigeria"
+        },
+        {
+          "id": "b",
+          "text": "Nigerian Customs Service"
+        },
+        {
+          "id": "c",
+          "text": "Corporate Affairs Commission (CAC)"
+        },
+        {
+          "id": "d",
+          "text": "National Population Commission"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The CAC registers businesses and companies in Nigeria. The Central Bank regulates banking and monetary policy, so it is the nearest wrong choice for a finance-minded student.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "In the product life cycle, the stage with rapid sales growth is",
+      "options": [
+        {
+          "id": "a",
+          "text": "introduction"
+        },
+        {
+          "id": "b",
+          "text": "maturity"
+        },
+        {
+          "id": "c",
+          "text": "growth"
+        },
+        {
+          "id": "d",
+          "text": "decline"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Sales rise quickly during growth. Introduction has slow sales while the product is being known, and maturity is when growth levels off.",
+      "cognitive_patterns": [
+        "Statistical / Predictive"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "A business idea is best tested before launch by",
+      "options": [
+        {
+          "id": "a",
+          "text": "borrowing money first"
+        },
+        {
+          "id": "b",
+          "text": "talking to potential customers and checking demand"
+        },
+        {
+          "id": "c",
+          "text": "printing many leaflets"
+        },
+        {
+          "id": "d",
+          "text": "hiring many staff"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Customer feedback shows whether people will pay. Borrowing or hiring before testing demand raises risk without confirming the idea.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

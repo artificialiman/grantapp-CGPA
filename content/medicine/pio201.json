@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "pio201",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "In a 70 kg adult man, total body water is about 60% of body weight. The approximate volume of intracellular fluid (two-thirds of the total) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "28 L"
+        },
+        {
+          "id": "b",
+          "text": "14 L"
+        },
+        {
+          "id": "c",
+          "text": "42 L"
+        },
+        {
+          "id": "d",
+          "text": "3 L"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Total body water = 0.6 x 70 = 42 L, and two-thirds of that is 28 L. The figure 14 L is the extracellular fluid, and 42 L is the total. The value 3 L is roughly the plasma volume.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Homeostasis in the body is mainly maintained by",
+      "options": [
+        {
+          "id": "a",
+          "text": "positive feedback mechanisms only"
+        },
+        {
+          "id": "b",
+          "text": "voluntary control only"
+        },
+        {
+          "id": "c",
+          "text": "random chemical changes"
+        },
+        {
+          "id": "d",
+          "text": "negative feedback mechanisms"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Negative feedback opposes a change and restores the set point, as in the regulation of body temperature. Positive feedback amplifies a change, as in childbirth and blood clotting.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "The Na+/K+ ATPase pump moves",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 sodium ions out and 3 potassium ions in"
+        },
+        {
+          "id": "b",
+          "text": "3 sodium ions in and 2 potassium ions out"
+        },
+        {
+          "id": "c",
+          "text": "3 sodium ions out of the cell and 2 potassium ions into the cell"
+        },
+        {
+          "id": "d",
+          "text": "equal numbers of both ions in the same direction"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The unequal exchange makes the inside of the cell negative and helps to maintain the resting membrane potential, about -70 mV in neurones. The reversed or equal exchanges would not leave the inside of the cell negative.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A solution that is isotonic to red blood cells is",
+      "options": [
+        {
+          "id": "a",
+          "text": "5% sodium chloride"
+        },
+        {
+          "id": "b",
+          "text": "0.9% sodium chloride (normal saline)"
+        },
+        {
+          "id": "c",
+          "text": "pure distilled water"
+        },
+        {
+          "id": "d",
+          "text": "0.09% sodium chloride"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Red cells neither swell nor shrink in 0.9% saline. In distilled water they swell and burst, and in 5% saline they shrink.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Red blood cells have a lifespan of about",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 days"
+        },
+        {
+          "id": "b",
+          "text": "120 days"
+        },
+        {
+          "id": "c",
+          "text": "30 days"
+        },
+        {
+          "id": "d",
+          "text": "1 year"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "They are removed by the spleen and other macrophages. The lack of a nucleus limits repair, so the cells age after about four months. The values 10 days and 30 days are far too short for red cells, and platelets are the cells that last about 10 days.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Erythropoietin, which stimulates red blood cell production, is secreted mainly by the",
+      "options": [
+        {
+          "id": "a",
+          "text": "kidney"
+        },
+        {
+          "id": "b",
+          "text": "liver"
+        },
+        {
+          "id": "c",
+          "text": "spleen"
+        },
+        {
+          "id": "d",
+          "text": "pancreas"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The kidney releases it in response to hypoxia. The liver is the main source before birth, which is why it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Adult haemoglobin (HbA) is composed of",
+      "options": [
+        {
+          "id": "a",
+          "text": "four alpha chains"
+        },
+        {
+          "id": "b",
+          "text": "two alpha and two gamma chains"
+        },
+        {
+          "id": "c",
+          "text": "one globin chain and four haem groups"
+        },
+        {
+          "id": "d",
+          "text": "two alpha and two beta globin chains, each with a haem group"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Four globin chains carry four haem groups, so one molecule can bind four oxygen molecules. Two alpha and two gamma chains make up fetal haemoglobin.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "In sickle cell disease, the molecular defect is the substitution of",
+      "options": [
+        {
+          "id": "a",
+          "text": "glutamic acid for valine at position 6 of the alpha chain"
+        },
+        {
+          "id": "b",
+          "text": "lysine for leucine in the gamma chain"
+        },
+        {
+          "id": "c",
+          "text": "valine for glutamic acid at position 6 of the beta globin chain"
+        },
+        {
+          "id": "d",
+          "text": "deletion of the whole beta gene"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The change makes HbS polymerise when deoxygenated, so cells sickle. The substitution is in the beta chain, not the alpha chain.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "A person with blood group A has",
+      "options": [
+        {
+          "id": "a",
+          "text": "B antigens on the red cells and anti-B antibodies in the plasma"
+        },
+        {
+          "id": "b",
+          "text": "no antigens and both antibodies in the plasma"
+        },
+        {
+          "id": "c",
+          "text": "A antigens on the red cells and anti-B antibodies in the plasma"
+        },
+        {
+          "id": "d",
+          "text": "A and B antigens and no antibodies"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A person does not carry antibodies against their own antigens. Having A antigens, they have anti-B antibodies, and so they cannot receive group B blood.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "In an emergency, when the recipient's blood group is not known, which red cells are normally issued?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Group AB, Rh-positive"
+        },
+        {
+          "id": "b",
+          "text": "Group O, preferably Rh-negative"
+        },
+        {
+          "id": "c",
+          "text": "Group A, Rh-negative"
+        },
+        {
+          "id": "d",
+          "text": "Group B, Rh-positive"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Group O cells lack A, B and D antigens, so they are unlikely to be attacked by the recipient's antibodies. Rh-negative is preferred, especially for women of child-bearing age.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Haemolytic disease of the newborn may occur when the mother is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rh-negative and the fetus is Rh-positive, in a second or later pregnancy"
+        },
+        {
+          "id": "b",
+          "text": "Rh-positive and the fetus is Rh-negative"
+        },
+        {
+          "id": "c",
+          "text": "group O and the father is group O"
+        },
+        {
+          "id": "d",
+          "text": "Rh-negative and the fetus is Rh-negative"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The first Rh-positive pregnancy sensitises the mother, and her IgG antibodies cross the placenta in later pregnancies. Anti-D immunoglobulin prevents this. An Rh-positive mother has nothing to be sensitised against, two Rh-negative parents give no mismatch, and two group O parents give group O children.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "The vitamin K-dependent clotting factors are",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, V, VIII and XI"
+        },
+        {
+          "id": "b",
+          "text": "III, IV, VI and XII"
+        },
+        {
+          "id": "c",
+          "text": "VIII, IX, XI and XIII"
+        },
+        {
+          "id": "d",
+          "text": "II, VII, IX and X"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Vitamin K is needed to carboxylate these factors in the liver. Factor VIII is not vitamin K-dependent, so haemophilia A is not corrected by vitamin K.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "Haemophilia A is caused by deficiency of",
+      "options": [
+        {
+          "id": "a",
+          "text": "clotting factor IX"
+        },
+        {
+          "id": "b",
+          "text": "vitamin K"
+        },
+        {
+          "id": "c",
+          "text": "platelets"
+        },
+        {
+          "id": "d",
+          "text": "clotting factor VIII"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "It is X-linked recessive and affects mainly males. Factor IX deficiency causes haemophilia B, the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Platelets are formed in the bone marrow from",
+      "options": [
+        {
+          "id": "a",
+          "text": "erythroblasts"
+        },
+        {
+          "id": "b",
+          "text": "lymphocytes"
+        },
+        {
+          "id": "c",
+          "text": "megakaryocytes"
+        },
+        {
+          "id": "d",
+          "text": "monocytes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Fragments of the cytoplasm of megakaryocytes are released as platelets. The normal count is about 150 to 400 x 10^9 per litre. Erythroblasts give rise to red cells, lymphocytes are white cells, and monocytes become macrophages.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "An increase in the number of which white cell is characteristic of helminth (worm) infestation and allergy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "Eosinophils"
+        },
+        {
+          "id": "c",
+          "text": "Basophils"
+        },
+        {
+          "id": "d",
+          "text": "Monocytes"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Eosinophils attack parasites and are raised in allergic states. Neutrophils rise mainly in bacterial infection.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Iron deficiency anaemia typically produces red cells that are",
+      "options": [
+        {
+          "id": "a",
+          "text": "microcytic and hypochromic"
+        },
+        {
+          "id": "b",
+          "text": "macrocytic and normochromic"
+        },
+        {
+          "id": "c",
+          "text": "normocytic and hyperchromic"
+        },
+        {
+          "id": "d",
+          "text": "sickle-shaped"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Little iron limits haemoglobin synthesis, so the cells are small and pale. Vitamin B12 or folate deficiency causes macrocytic (megaloblastic) anaemia.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "A man's packed cell volume (haematocrit) is 45% and his blood volume is 5 L. The volume occupied by red cells is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.25 L"
+        },
+        {
+          "id": "b",
+          "text": "0.45 L"
+        },
+        {
+          "id": "c",
+          "text": "4.5 L"
+        },
+        {
+          "id": "d",
+          "text": "22.5 L"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Red cell volume = 0.45 x 5 = 2.25 L. Treating 45% as 0.045 or 4.5 gives the wrong order of magnitude.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "A patient has a PCV of 45% and a red cell count of 5.0 x 10^12 per litre. The mean corpuscular volume (MCV) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "9 fL"
+        },
+        {
+          "id": "b",
+          "text": "225 fL"
+        },
+        {
+          "id": "c",
+          "text": "900 fL"
+        },
+        {
+          "id": "d",
+          "text": "90 fL"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "MCV = PCV (%) x 10 / red cell count (in 10^12/L) = 45 x 10 / 5.0 = 90 fL, which is normal. Multiplying the two numbers gives 225. The values 9 fL and 900 fL are slips of a power of ten.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The plasma protein mainly responsible for the colloid oncotic pressure is",
+      "options": [
+        {
+          "id": "a",
+          "text": "fibrinogen"
+        },
+        {
+          "id": "b",
+          "text": "gamma globulin"
+        },
+        {
+          "id": "c",
+          "text": "albumin"
+        },
+        {
+          "id": "d",
+          "text": "haemoglobin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Albumin is the most abundant plasma protein, and it keeps water in the circulation. Low albumin causes oedema, as in the nephrotic syndrome. Fibrinogen is a clotting protein, gamma globulins are antibodies, and haemoglobin sits inside red cells, not in plasma.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Antibodies are produced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "T lymphocytes"
+        },
+        {
+          "id": "b",
+          "text": "plasma cells derived from B lymphocytes"
+        },
+        {
+          "id": "c",
+          "text": "neutrophils"
+        },
+        {
+          "id": "d",
+          "text": "platelets"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "B cells differentiate into plasma cells, which secrete antibody. T lymphocytes provide cell-mediated immunity and help B cells, but do not secrete antibody themselves.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

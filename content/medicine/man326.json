@@ -1,0 +1,649 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "man326",
+  "department_slugs": [
+    "human-medicine"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Which feature indicates IRREVERSIBLE cell injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nuclear changes such as pyknosis and karyolysis"
+        },
+        {
+          "id": "b",
+          "text": "Cellular swelling"
+        },
+        {
+          "id": "c",
+          "text": "Fatty change"
+        },
+        {
+          "id": "d",
+          "text": "Mild mitochondrial swelling"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Nuclear shrinkage and dissolution show that the cell cannot recover. Cellular swelling (hydropic change) is the earliest, reversible change.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "Coagulative necrosis is the typical pattern after an infarct in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "brain"
+        },
+        {
+          "id": "b",
+          "text": "bone marrow"
+        },
+        {
+          "id": "c",
+          "text": "skin only"
+        },
+        {
+          "id": "d",
+          "text": "heart and kidney"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Protein denaturation preserves the tissue outline for some days. The brain, a nearest wrong choice, shows liquefactive necrosis instead.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Liquefactive necrosis is characteristic of",
+      "options": [
+        {
+          "id": "a",
+          "text": "a myocardial infarct"
+        },
+        {
+          "id": "b",
+          "text": "tuberculosis"
+        },
+        {
+          "id": "c",
+          "text": "a brain infarct and abscesses"
+        },
+        {
+          "id": "d",
+          "text": "acute pancreatitis only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hydrolytic enzymes digest the dead tissue into liquid. The central nervous system lacks much structural protein, so infarcts there liquefy. Myocardial infarcts show coagulative necrosis, tuberculosis shows caseous necrosis, and acute pancreatitis shows fat necrosis.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Caseous necrosis, with a cheese-like appearance, is characteristic of",
+      "options": [
+        {
+          "id": "a",
+          "text": "acute appendicitis"
+        },
+        {
+          "id": "b",
+          "text": "tuberculosis"
+        },
+        {
+          "id": "c",
+          "text": "myocardial infarction"
+        },
+        {
+          "id": "d",
+          "text": "gangrene of the foot"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The dead tissue appears soft and white within a granuloma. It is a hallmark of tuberculosis and some fungal infections. Appendicitis produces pus-forming inflammation, myocardial infarction gives coagulative necrosis, and foot gangrene is a dry or wet necrosis of a limb.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Compared with necrosis, apoptosis is",
+      "options": [
+        {
+          "id": "a",
+          "text": "always accidental and inflammatory"
+        },
+        {
+          "id": "b",
+          "text": "programmed, energy-dependent and does not provoke inflammation"
+        },
+        {
+          "id": "c",
+          "text": "restricted to cancer cells"
+        },
+        {
+          "id": "d",
+          "text": "caused only by toxins"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Apoptosis is controlled by caspases and clears cells tidily in membrane-bound fragments. Necrosis leaks contents and triggers inflammation.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Redness (rubor) in acute inflammation is caused mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "vasodilation and increased blood flow to the area"
+        },
+        {
+          "id": "b",
+          "text": "increased numbers of lymphocytes"
+        },
+        {
+          "id": "c",
+          "text": "destruction of red cells"
+        },
+        {
+          "id": "d",
+          "text": "bacterial pigments"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Mediators such as histamine dilate arterioles, so more blood reaches the area and the tissue looks red and warm. Lymphocytes do not redden tissue, and destroying red cells would lead to anaemia, not a red appearance.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "The first white blood cells to arrive at a site of acute inflammation are",
+      "options": [
+        {
+          "id": "a",
+          "text": "lymphocytes"
+        },
+        {
+          "id": "b",
+          "text": "plasma cells"
+        },
+        {
+          "id": "c",
+          "text": "eosinophils"
+        },
+        {
+          "id": "d",
+          "text": "neutrophils"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Neutrophils dominate in the first 6 to 24 hours, and macrophages follow after one to two days. Lymphocytes and plasma cells are typical of chronic inflammation.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A granuloma is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a collection of neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "a fluid-filled cyst"
+        },
+        {
+          "id": "c",
+          "text": "a collection of activated macrophages (epithelioid cells), often with giant cells"
+        },
+        {
+          "id": "d",
+          "text": "a type of benign tumour"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Granulomas form in chronic inflammation, such as tuberculosis, when macrophages fail to clear an agent. They are not neoplasms.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "Which mediator causes early vasodilation and increased vascular permeability in acute inflammation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interferon"
+        },
+        {
+          "id": "b",
+          "text": "Collagen"
+        },
+        {
+          "id": "c",
+          "text": "Histamine"
+        },
+        {
+          "id": "d",
+          "text": "Insulin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Histamine from mast cells acts within minutes, whereas prostaglandins and cytokines act later.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "An exudate differs from a transudate in that an exudate",
+      "options": [
+        {
+          "id": "a",
+          "text": "is clear and low in protein and is caused by heart failure"
+        },
+        {
+          "id": "b",
+          "text": "has a high protein content and is caused by increased vascular permeability"
+        },
+        {
+          "id": "c",
+          "text": "contains no cells"
+        },
+        {
+          "id": "d",
+          "text": "is caused only by low serum albumin"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Inflammation makes vessels leaky, so protein and cells escape. A transudate forms through pressure or oncotic imbalance and contains little protein.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "Granulation tissue consists mainly of",
+      "options": [
+        {
+          "id": "a",
+          "text": "new capillaries and proliferating fibroblasts"
+        },
+        {
+          "id": "b",
+          "text": "mature scar collagen"
+        },
+        {
+          "id": "c",
+          "text": "fat cells"
+        },
+        {
+          "id": "d",
+          "text": "neurones"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "It is the red, bumpy tissue that fills a wound before it matures into scar. Mature collagen is the end product, not the granulation tissue itself.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Virchow's triad of factors predisposing to thrombosis includes",
+      "options": [
+        {
+          "id": "a",
+          "text": "fever, rigor and sweating"
+        },
+        {
+          "id": "b",
+          "text": "hypertension, obesity and smoking"
+        },
+        {
+          "id": "c",
+          "text": "anaemia, hypoxia and acidosis"
+        },
+        {
+          "id": "d",
+          "text": "endothelial injury, abnormal blood flow and hypercoagulability"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Damage to the vessel wall, stasis or turbulence, and a hypercoagulable state together raise thrombosis risk. The other lists are risk factors but not the triad.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "The most common source of pulmonary emboli is",
+      "options": [
+        {
+          "id": "a",
+          "text": "the left atrium"
+        },
+        {
+          "id": "b",
+          "text": "the portal vein"
+        },
+        {
+          "id": "c",
+          "text": "the carotid artery"
+        },
+        {
+          "id": "d",
+          "text": "deep veins of the legs"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Thrombi that break off from deep leg veins travel through the right heart to the lungs. Left heart emboli enter the systemic arteries instead.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Pale (white) infarcts typically occur in",
+      "options": [
+        {
+          "id": "a",
+          "text": "the lung and intestine"
+        },
+        {
+          "id": "b",
+          "text": "the liver only"
+        },
+        {
+          "id": "c",
+          "text": "solid organs with end-arterial circulation, such as the heart, spleen and kidney"
+        },
+        {
+          "id": "d",
+          "text": "the brain only"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "When there is no alternative blood supply, tissue dies and stays pale. Red infarcts occur in loose tissues with dual supply, such as the lung. The lung and intestine have a dual or collateral supply, so their infarcts are red. The brain, which liquefies, is not the only pale site.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "Generalised oedema in nephrotic syndrome is caused mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "blockage of lymphatics"
+        },
+        {
+          "id": "b",
+          "text": "low plasma albumin reducing the oncotic pressure"
+        },
+        {
+          "id": "c",
+          "text": "raised venous pressure from heart failure"
+        },
+        {
+          "id": "d",
+          "text": "raised plasma albumin"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Protein lost in the urine lowers plasma oncotic pressure, so fluid moves into the tissues. Heart failure oedema is driven by hydrostatic pressure.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "Replacement of the squamous lining of the lower oesophagus by columnar epithelium (Barrett's oesophagus) is an example of",
+      "options": [
+        {
+          "id": "a",
+          "text": "metaplasia"
+        },
+        {
+          "id": "b",
+          "text": "hyperplasia"
+        },
+        {
+          "id": "c",
+          "text": "atrophy"
+        },
+        {
+          "id": "d",
+          "text": "hypertrophy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Metaplasia is the replacement of one mature cell type by another, usually in response to chronic irritation, such as acid reflux. Hyperplasia is an increase in cell number, atrophy is shrinkage and hypertrophy is an increase in cell size. None changes the type of cell.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "Carcinoma in situ differs from invasive carcinoma because the former",
+      "options": [
+        {
+          "id": "a",
+          "text": "has not breached the basement membrane"
+        },
+        {
+          "id": "b",
+          "text": "always spreads to lymph nodes"
+        },
+        {
+          "id": "c",
+          "text": "is a benign tumour"
+        },
+        {
+          "id": "d",
+          "text": "contains no abnormal cells"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "In situ lesions are confined to the epithelium, so there is no invasion and no metastasis. Carcinoma in situ is not benign, but it has not invaded, so it has not spread. Its cells are abnormal.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "The malignant tumour of bone is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "osteoma"
+        },
+        {
+          "id": "b",
+          "text": "osteocarcinoma"
+        },
+        {
+          "id": "c",
+          "text": "chondroma"
+        },
+        {
+          "id": "d",
+          "text": "osteosarcoma"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Malignant tumours of connective tissue end in -sarcoma. The terms osteoma and chondroma are benign, and a carcinoma arises from epithelium.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "The TP53 gene, often mutated in cancer, is a",
+      "options": [
+        {
+          "id": "a",
+          "text": "proto-oncogene"
+        },
+        {
+          "id": "b",
+          "text": "housekeeping gene for metabolism only"
+        },
+        {
+          "id": "c",
+          "text": "tumour suppressor gene"
+        },
+        {
+          "id": "d",
+          "text": "gene for blood group antigens"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "p53 halts the cell cycle or triggers apoptosis after DNA damage. Its loss allows damaged cells to keep dividing. A proto-oncogene promotes growth and becomes an oncogene when mutated, which is the opposite behaviour to p53.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Amyloid deposits in tissue are demonstrated by Congo red staining, which shows under polarised light",
+      "options": [
+        {
+          "id": "a",
+          "text": "a blue-black colour"
+        },
+        {
+          "id": "b",
+          "text": "apple-green birefringence"
+        },
+        {
+          "id": "c",
+          "text": "a brick-red colour"
+        },
+        {
+          "id": "d",
+          "text": "no change in colour"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Congo red binds the beta-pleated sheet structure of amyloid, and the stained deposits show apple-green birefringence. A blue-black reaction describes iodine with starch instead.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    }
+  ]
+}

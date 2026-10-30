@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "bio101",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Which statement is part of the cell theory?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All cells arise from pre-existing cells"
+        },
+        {
+          "id": "b",
+          "text": "All organisms are made of a single cell"
+        },
+        {
+          "id": "c",
+          "text": "Cells are visible to the naked eye"
+        },
+        {
+          "id": "d",
+          "text": "Viruses are the basic units of life"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Cell theory says living things are made of cells, the cell is the basic unit of life, and cells come from pre-existing cells. It does not say that every organism is unicellular, since many are multicellular.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A key difference between prokaryotic and eukaryotic cells is that prokaryotes",
+      "options": [
+        {
+          "id": "a",
+          "text": "have no genetic material"
+        },
+        {
+          "id": "b",
+          "text": "have no cell membrane"
+        },
+        {
+          "id": "c",
+          "text": "are always larger than eukaryotes"
+        },
+        {
+          "id": "d",
+          "text": "have no membrane-bound nucleus"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Prokaryotic DNA lies free in the cytoplasm, in a nucleoid. They do have genetic material and a cell membrane, and they are generally smaller than eukaryotic cells.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Which organelle is the main site of ATP production in animal cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chloroplast"
+        },
+        {
+          "id": "b",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "c",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "d",
+          "text": "Lysosome"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mitochondria carry out aerobic respiration. Chloroplasts also make ATP, but only in plant cells and as part of photosynthesis, so animal cells do not have them.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "Which organelle modifies, packages and sorts proteins for secretion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rough endoplasmic reticulum"
+        },
+        {
+          "id": "b",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Nucleolus"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Golgi apparatus processes and dispatches proteins in vesicles. Rough ER makes and folds proteins first, so it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "Which process moves substances across a membrane against a concentration gradient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Facilitated diffusion"
+        },
+        {
+          "id": "b",
+          "text": "Active transport"
+        },
+        {
+          "id": "c",
+          "text": "Osmosis"
+        },
+        {
+          "id": "d",
+          "text": "Simple diffusion"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Active transport uses ATP to pump substances against the gradient. Facilitated diffusion uses carrier proteins but moves substances down the gradient, with no energy.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A red blood cell is placed in distilled water. It will",
+      "options": [
+        {
+          "id": "a",
+          "text": "swell and may burst"
+        },
+        {
+          "id": "b",
+          "text": "shrink and become crenated"
+        },
+        {
+          "id": "c",
+          "text": "remain unchanged"
+        },
+        {
+          "id": "d",
+          "text": "divide"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Water enters the cell by osmosis because the inside is more concentrated than the surroundings. A cell shrinks only in a solution more concentrated than its contents.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Extreme heat denatures an enzyme because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "adds extra amino acids to the enzyme"
+        },
+        {
+          "id": "b",
+          "text": "supplies more substrate"
+        },
+        {
+          "id": "c",
+          "text": "removes the enzyme's bonds to ATP"
+        },
+        {
+          "id": "d",
+          "text": "changes the three-dimensional shape of the active site"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Heat breaks the weak bonds that hold the tertiary structure, so the active site no longer fits the substrate. The enzyme is not used up, but it loses its shape.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "In photosynthesis, the light-independent reactions (Calvin cycle) take place in the",
+      "options": [
+        {
+          "id": "a",
+          "text": "thylakoid membranes"
+        },
+        {
+          "id": "b",
+          "text": "cytoplasm"
+        },
+        {
+          "id": "c",
+          "text": "stroma of the chloroplast"
+        },
+        {
+          "id": "d",
+          "text": "mitochondrial matrix"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Calvin cycle occurs in the stroma. The light-dependent reactions take place in the thylakoid membranes, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "How many net ATP molecules are produced by glycolysis from one molecule of glucose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "38"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Glycolysis makes 4 ATP but uses 2, so the net gain is 2. The figures 36 and 38 are for the complete aerobic breakdown of glucose.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "In yeast, anaerobic respiration produces",
+      "options": [
+        {
+          "id": "a",
+          "text": "lactic acid"
+        },
+        {
+          "id": "b",
+          "text": "ethanol and carbon dioxide"
+        },
+        {
+          "id": "c",
+          "text": "water and carbon dioxide"
+        },
+        {
+          "id": "d",
+          "text": "glucose and oxygen"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Yeast ferments pyruvate to ethanol and CO2. Lactic acid is the product in human muscle cells during anaerobic respiration.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "During which phase of mitosis do sister chromatids separate and move to opposite poles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anaphase"
+        },
+        {
+          "id": "b",
+          "text": "Prophase"
+        },
+        {
+          "id": "c",
+          "text": "Metaphase"
+        },
+        {
+          "id": "d",
+          "text": "Telophase"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Anaphase is when the centromeres divide and chromatids are pulled apart. In metaphase they line up at the equator, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "Crossing over between homologous chromosomes occurs during",
+      "options": [
+        {
+          "id": "a",
+          "text": "metaphase of mitosis"
+        },
+        {
+          "id": "b",
+          "text": "anaphase II of meiosis"
+        },
+        {
+          "id": "c",
+          "text": "interphase"
+        },
+        {
+          "id": "d",
+          "text": "prophase I of meiosis"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Homologous chromosomes pair and exchange segments in prophase I, which creates genetic variation. Mitosis has no pairing of homologues.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A DNA sample contains 30% adenine. The percentage of cytosine in the sample is",
+      "options": [
+        {
+          "id": "a",
+          "text": "30%"
+        },
+        {
+          "id": "b",
+          "text": "40%"
+        },
+        {
+          "id": "c",
+          "text": "70%"
+        },
+        {
+          "id": "d",
+          "text": "20%"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Adenine pairs with thymine, so T is also 30%, leaving 40% for G + C, shared equally. Cytosine is 20%. The value 40% is the combined G + C. The value 70% is simply everything that is not adenine, and it includes thymine as well as the two other bases.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "Two heterozygous tall pea plants (Tt) are crossed. The expected ratio of tall to short offspring is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 : 1"
+        },
+        {
+          "id": "b",
+          "text": "1 : 3"
+        },
+        {
+          "id": "c",
+          "text": "3 : 1"
+        },
+        {
+          "id": "d",
+          "text": "2 : 1"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Tt x Tt gives TT, Tt, Tt and tt, so three show the dominant trait and one shows the recessive. A 1 : 1 ratio comes from a test cross. A 1 : 3 ratio is the reverse of the true result, and 2 : 1 appears only when one homozygous genotype is lethal.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Abstract / Visual"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "In binomial nomenclature, the scientific name of a species consists of",
+      "options": [
+        {
+          "id": "a",
+          "text": "the family name followed by the genus name"
+        },
+        {
+          "id": "b",
+          "text": "the genus name followed by the species name"
+        },
+        {
+          "id": "c",
+          "text": "the kingdom name followed by the class name"
+        },
+        {
+          "id": "d",
+          "text": "the species name followed by the phylum name"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A binomial such as Homo sapiens gives the genus (capital initial) then the species (lower case), both italicised. The family is a broader rank and does not form part of the two-part name.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "The cell wall of fungi is made mainly of",
+      "options": [
+        {
+          "id": "a",
+          "text": "chitin"
+        },
+        {
+          "id": "b",
+          "text": "cellulose"
+        },
+        {
+          "id": "c",
+          "text": "peptidoglycan"
+        },
+        {
+          "id": "d",
+          "text": "lignin"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Fungal walls contain chitin. Plant walls are made of cellulose, which is the nearest wrong choice, and bacterial walls contain peptidoglycan.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "A microscope has a 10x eyepiece and a 40x objective lens. The total magnification is",
+      "options": [
+        {
+          "id": "a",
+          "text": "400x"
+        },
+        {
+          "id": "b",
+          "text": "50x"
+        },
+        {
+          "id": "c",
+          "text": "40x"
+        },
+        {
+          "id": "d",
+          "text": "4000x"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Total magnification = eyepiece x objective = 10 x 40 = 400x. Adding the numbers gives 50, which confuses the method.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Which plant tissue transports sucrose from the leaves to other parts of the plant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xylem"
+        },
+        {
+          "id": "b",
+          "text": "Cortex"
+        },
+        {
+          "id": "c",
+          "text": "Epidermis"
+        },
+        {
+          "id": "d",
+          "text": "Phloem"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Phloem carries sugars (translocation). Xylem carries water and minerals upward, and it is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "Which change would INCREASE the rate of diffusion across a membrane?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A thicker membrane"
+        },
+        {
+          "id": "b",
+          "text": "A smaller surface area"
+        },
+        {
+          "id": "c",
+          "text": "A steeper concentration gradient"
+        },
+        {
+          "id": "d",
+          "text": "A lower temperature"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A bigger difference in concentration drives faster net movement. A thicker membrane and smaller area slow it, and a lower temperature reduces particle movement.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "Which feature is characteristic of viruses?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They have a cell membrane and ribosomes"
+        },
+        {
+          "id": "b",
+          "text": "They can reproduce only inside a host cell"
+        },
+        {
+          "id": "c",
+          "text": "They respire using mitochondria"
+        },
+        {
+          "id": "d",
+          "text": "They are larger than bacteria"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Viruses lack cellular machinery and use the host's. They have no membrane-bound organelles, and they are far smaller than bacteria.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}

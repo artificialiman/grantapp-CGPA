@@ -1,0 +1,329 @@
+{
+  "faculty_slug": "general-studies",
+  "course_slug": "gst212",
+  "department_slugs": [
+    "general-studies"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Which branch of philosophy studies the nature of knowledge and how we know things?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Epistemology"
+        },
+        {
+          "id": "b",
+          "text": "Metaphysics"
+        },
+        {
+          "id": "c",
+          "text": "Ethics"
+        },
+        {
+          "id": "d",
+          "text": "Aesthetics"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Epistemology asks what knowledge is and how it is justified. Metaphysics asks about the nature of reality, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "A syllogism: 'All students are learners. Ada is a student. Therefore Ada is a learner.' This argument is",
+      "options": [
+        {
+          "id": "a",
+          "text": "invalid, because the premises are false"
+        },
+        {
+          "id": "b",
+          "text": "inductive, because it reasons from many examples"
+        },
+        {
+          "id": "c",
+          "text": "a fallacy of equivocation"
+        },
+        {
+          "id": "d",
+          "text": "valid, because the conclusion follows from the premises"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "In a valid deductive argument the conclusion must follow if the premises are true, and it does here. It is deductive, not inductive, because it does not generalise from examples.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "Which statement is an example of an ad hominem fallacy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "'Taxes are high, so the economy must be doing badly.'"
+        },
+        {
+          "id": "b",
+          "text": "'If we allow one exception, soon there will be no rule.'"
+        },
+        {
+          "id": "c",
+          "text": "'Do not trust his argument about taxes; he is a failed businessman.'"
+        },
+        {
+          "id": "d",
+          "text": "'Everyone believes it, so it must be true.'"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "An ad hominem attacks the person instead of the argument. 'Everyone believes it' is an appeal to popularity, which is the nearest wrong option.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "The statement 'I think, therefore I am' is associated with",
+      "options": [
+        {
+          "id": "a",
+          "text": "David Hume"
+        },
+        {
+          "id": "b",
+          "text": "Rene Descartes"
+        },
+        {
+          "id": "c",
+          "text": "John Locke"
+        },
+        {
+          "id": "d",
+          "text": "Plato"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Descartes used the cogito as an unshakeable starting point. Hume and Locke were empiricists who stressed experience over such a rationalist starting point.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "The law of non-contradiction states that",
+      "options": [
+        {
+          "id": "a",
+          "text": "every statement is either true or false"
+        },
+        {
+          "id": "b",
+          "text": "a statement cannot be both true and false in the same sense at the same time"
+        },
+        {
+          "id": "c",
+          "text": "every effect has a cause"
+        },
+        {
+          "id": "d",
+          "text": "all knowledge comes from the senses"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Non-contradiction forbids a statement and its denial from both being true together. 'Every statement is either true or false' is the law of excluded middle, the nearest wrong answer.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "Reasoning from a general principle to a specific conclusion is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "deduction"
+        },
+        {
+          "id": "b",
+          "text": "induction"
+        },
+        {
+          "id": "c",
+          "text": "abduction"
+        },
+        {
+          "id": "d",
+          "text": "intuition"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Deduction moves from general to specific. Induction does the reverse, moving from observed cases to a general claim.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "Socrates is best known for the method of",
+      "options": [
+        {
+          "id": "a",
+          "text": "lecturing from written notes"
+        },
+        {
+          "id": "b",
+          "text": "writing laws for the city"
+        },
+        {
+          "id": "c",
+          "text": "measuring objects by experiment"
+        },
+        {
+          "id": "d",
+          "text": "questioning to expose assumptions and reach clearer ideas"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The Socratic method is a disciplined series of questions. Socrates wrote nothing himself, so a method based on lecturing from notes does not fit him.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "The branch of philosophy that studies right and wrong conduct is",
+      "options": [
+        {
+          "id": "a",
+          "text": "logic"
+        },
+        {
+          "id": "b",
+          "text": "metaphysics"
+        },
+        {
+          "id": "c",
+          "text": "ethics"
+        },
+        {
+          "id": "d",
+          "text": "epistemology"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Ethics concerns moral conduct. Logic studies the structure of correct reasoning, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "An argument is SOUND when it is",
+      "options": [
+        {
+          "id": "a",
+          "text": "valid even if the premises are false"
+        },
+        {
+          "id": "b",
+          "text": "persuasive to most listeners"
+        },
+        {
+          "id": "c",
+          "text": "valid and all of its premises are true"
+        },
+        {
+          "id": "d",
+          "text": "short and simple"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Soundness needs both validity and true premises. A valid argument with a false premise is valid but not sound.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "Which is a major concern of existentialist thought?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proving that numbers exist independently"
+        },
+        {
+          "id": "b",
+          "text": "The individual's freedom and responsibility to create meaning"
+        },
+        {
+          "id": "c",
+          "text": "Recording the history of kings"
+        },
+        {
+          "id": "d",
+          "text": "Classifying animals by their traits"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Existentialism centres on individual freedom, choice and meaning, as in the work of Sartre. Mathematical realism is a separate topic in the philosophy of mathematics. Recording the history of kings belongs to political history, and classifying animals by their traits is taxonomy in biology.",
+      "cognitive_patterns": [
+        "Canon / Administrative"
+      ],
+      "information_types": [
+        "Contextual / rhetoric"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    }
+  ]
+}

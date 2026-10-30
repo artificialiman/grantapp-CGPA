@@ -1,0 +1,650 @@
+{
+  "faculty_slug": "medicine",
+  "course_slug": "phy101",
+  "department_slugs": [
+    "medical-laboratory-science",
+    "pharmacy"
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "The SI unit of force, the newton, is equivalent to",
+      "options": [
+        {
+          "id": "a",
+          "text": "kg m s^-2"
+        },
+        {
+          "id": "b",
+          "text": "kg m^2 s^-2"
+        },
+        {
+          "id": "c",
+          "text": "kg m s^-1"
+        },
+        {
+          "id": "d",
+          "text": "kg s^-2"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "F = ma gives kg x m/s^2. The unit kg m^2 s^-2 is the joule, the unit of energy, which is the nearest wrong choice.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q002",
+      "prompt": "The dimensions of work (or energy) are",
+      "options": [
+        {
+          "id": "a",
+          "text": "MLT^-2"
+        },
+        {
+          "id": "b",
+          "text": "ML^2T^-3"
+        },
+        {
+          "id": "c",
+          "text": "MLT^-1"
+        },
+        {
+          "id": "d",
+          "text": "ML^2T^-2"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Work = force x distance = (MLT^-2)(L) = ML^2T^-2. The dimensions MLT^-2 belong to force, while ML^2T^-3 are those of power.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q003",
+      "prompt": "A car starts from rest and accelerates uniformly at 4 m/s^2 over a distance of 50 m. Its final speed is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 m/s"
+        },
+        {
+          "id": "b",
+          "text": "40 m/s"
+        },
+        {
+          "id": "c",
+          "text": "20 m/s"
+        },
+        {
+          "id": "d",
+          "text": "200 m/s"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "v^2 = u^2 + 2as = 0 + 2(4)(50) = 400, so v = 20 m/s. The value 400 is v squared, not v.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q004",
+      "prompt": "A ball is thrown at 20 m/s at 30 degrees above the horizontal on level ground. Taking g = 10 m/s^2, its range is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "40.0 m"
+        },
+        {
+          "id": "b",
+          "text": "34.6 m"
+        },
+        {
+          "id": "c",
+          "text": "20.0 m"
+        },
+        {
+          "id": "d",
+          "text": "17.3 m"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "R = u^2 sin(2 theta) / g = 400 x sin 60 / 10 = 34.6 m. The 40 m figure is the range at 45 degrees, the maximum for this speed. The value 20.0 m uses sin 30 in place of sin 60, and 17.3 m leaves out the factor of 2 in the double-angle formula.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q005",
+      "prompt": "A stone is thrown vertically upwards at 20 m/s. Taking g = 10 m/s^2 and ignoring air resistance, it returns to the thrower after",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 s"
+        },
+        {
+          "id": "b",
+          "text": "4 s"
+        },
+        {
+          "id": "c",
+          "text": "8 s"
+        },
+        {
+          "id": "d",
+          "text": "20 s"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Time to the top is u/g = 2 s, and the return takes the same time, so the total is 4 s. The 2 s figure is only the upward half.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q006",
+      "prompt": "A net force of 20 N acts on a 5 kg mass. The acceleration is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 m/s^2"
+        },
+        {
+          "id": "b",
+          "text": "100 m/s^2"
+        },
+        {
+          "id": "c",
+          "text": "0.25 m/s^2"
+        },
+        {
+          "id": "d",
+          "text": "25 m/s^2"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "a = F / m = 20 / 5 = 4 m/s^2. Multiplying force and mass gives 100, which confuses the formula.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q007",
+      "prompt": "A 2 kg trolley moving at 6 m/s collides with a stationary 4 kg trolley and they stick together. Their common speed is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 m/s"
+        },
+        {
+          "id": "b",
+          "text": "6 m/s"
+        },
+        {
+          "id": "c",
+          "text": "1.5 m/s"
+        },
+        {
+          "id": "d",
+          "text": "2 m/s"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Momentum is conserved: 2 x 6 = (2 + 4) v, so v = 2 m/s. Taking the average of the speeds, 3 m/s, ignores the unequal masses. A common speed of 6 m/s would mean the added mass had no effect, and the speed must fall because the moving mass increases.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q008",
+      "prompt": "A force of 10 N moves an object 5 m, with the force at 60 degrees to the displacement. The work done is",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 J"
+        },
+        {
+          "id": "b",
+          "text": "43.3 J"
+        },
+        {
+          "id": "c",
+          "text": "25 J"
+        },
+        {
+          "id": "d",
+          "text": "5 J"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Work = F d cos(theta) = 10 x 5 x 0.5 = 25 J. Using sin 60 gives 43.3 J, which resolves the force in the wrong direction.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q009",
+      "prompt": "When the speed of a car doubles, its kinetic energy",
+      "options": [
+        {
+          "id": "a",
+          "text": "doubles"
+        },
+        {
+          "id": "b",
+          "text": "becomes eight times as great"
+        },
+        {
+          "id": "c",
+          "text": "becomes four times as great"
+        },
+        {
+          "id": "d",
+          "text": "stays the same"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "KE = 1/2 m v^2, so it depends on the square of the speed. Doubling v gives 2 squared = 4 times the energy. Eight times would be a cube law, and 'stays the same' ignores speed altogether.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q010",
+      "prompt": "A 50 kg load is lifted through 4 m in 10 s. Taking g = 10 m/s^2, the average power is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2000 W"
+        },
+        {
+          "id": "b",
+          "text": "200 W"
+        },
+        {
+          "id": "c",
+          "text": "20 W"
+        },
+        {
+          "id": "d",
+          "text": "500 W"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Work = mgh = 50 x 10 x 4 = 2000 J, and power = 2000 / 10 = 200 W. The figure 2000 is the work in joules, not the power.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q011",
+      "prompt": "A body moves in a circle of radius 5 m at a constant speed of 10 m/s. Its centripetal acceleration is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 m/s^2"
+        },
+        {
+          "id": "b",
+          "text": "2 m/s^2"
+        },
+        {
+          "id": "c",
+          "text": "50 m/s^2"
+        },
+        {
+          "id": "d",
+          "text": "500 m/s^2"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "a = v^2 / r = 100 / 5 = 20 m/s^2, directed towards the centre. Dividing speed by radius gives 2, which leaves out the squaring. The value 2 m/s^2 is v / r, 50 m/s^2 is v x r, and 500 m/s^2 is v^2 x r.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q012",
+      "prompt": "A 60 kg person is on a planet where g = 5 m/s^2. Their mass and weight there are",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 kg and 300 N"
+        },
+        {
+          "id": "b",
+          "text": "60 kg and 600 N"
+        },
+        {
+          "id": "c",
+          "text": "300 kg and 60 N"
+        },
+        {
+          "id": "d",
+          "text": "60 kg and 300 N"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Mass does not depend on location, so it remains 60 kg. Weight = mg = 60 x 5 = 300 N.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q013",
+      "prompt": "A 10 kg block on a horizontal surface just begins to slide when a horizontal force of 30 N is applied. Taking g = 10 m/s^2, the coefficient of limiting friction is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3.0"
+        },
+        {
+          "id": "b",
+          "text": "0.03"
+        },
+        {
+          "id": "c",
+          "text": "0.1"
+        },
+        {
+          "id": "d",
+          "text": "0.3"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Normal reaction = mg = 100 N, and mu = F / R = 30 / 100 = 0.3. Dividing the other way gives 3.3, which makes friction larger than the normal force. The value 0.03 is a slip of a power of ten, and 0.1 does not follow from 30 / 100.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q014",
+      "prompt": "A mass on a spring oscillates with period T. If the mass is increased to four times its value, the new period is",
+      "options": [
+        {
+          "id": "a",
+          "text": "4T"
+        },
+        {
+          "id": "b",
+          "text": "T/2"
+        },
+        {
+          "id": "c",
+          "text": "2T"
+        },
+        {
+          "id": "d",
+          "text": "T/4"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "T = 2 pi sqrt(m/k), so quadrupling m multiplies T by the square root of 4, which is 2. 4T would hold if the period were proportional to the mass, and T/2 or T/4 would mean a heavier mass oscillates faster, which is wrong.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q015",
+      "prompt": "A spring extends by 0.05 m when a force of 10 N is applied. Its spring constant is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5 N/m"
+        },
+        {
+          "id": "b",
+          "text": "200 N/m"
+        },
+        {
+          "id": "c",
+          "text": "2 N/m"
+        },
+        {
+          "id": "d",
+          "text": "0.005 N/m"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "k = F / x = 10 / 0.05 = 200 N/m. Multiplying the two numbers gives 0.5, which inverts the relationship. The value 0.005 divides in the wrong order, and 2 does not follow from the numbers given.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q016",
+      "prompt": "An object weighs 8 N in air and 5 N when fully immersed in water. The upthrust on the object is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 N"
+        },
+        {
+          "id": "b",
+          "text": "13 N"
+        },
+        {
+          "id": "c",
+          "text": "5 N"
+        },
+        {
+          "id": "d",
+          "text": "8 N"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Upthrust = weight in air - apparent weight in water = 8 - 5 = 3 N. The apparent weight is not the upthrust.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q017",
+      "prompt": "The gauge pressure at a depth of 10 m in water (density 1000 kg/m^3, g = 10 m/s^2) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 x 10^5 Pa"
+        },
+        {
+          "id": "b",
+          "text": "1 x 10^3 Pa"
+        },
+        {
+          "id": "c",
+          "text": "1 x 10^4 Pa"
+        },
+        {
+          "id": "d",
+          "text": "1 x 10^6 Pa"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "P = h rho g = 10 x 1000 x 10 = 1 x 10^5 Pa. This is about one atmosphere on top of the surface pressure. The value 1 x 10^4 Pa leaves out g, and the others are slips of a power of ten.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q018",
+      "prompt": "Water flows steadily through a pipe that narrows to half its cross-sectional area. The speed of the water in the narrow section is",
+      "options": [
+        {
+          "id": "a",
+          "text": "half that in the wide section"
+        },
+        {
+          "id": "b",
+          "text": "the same as in the wide section"
+        },
+        {
+          "id": "c",
+          "text": "four times that in the wide section"
+        },
+        {
+          "id": "d",
+          "text": "twice that in the wide section"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The continuity equation gives A1 v1 = A2 v2, so halving the area doubles the speed. Slower flow in the narrow section would contradict conservation of mass.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q019",
+      "prompt": "A uniform metre rule is pivoted at its 50 cm mark. A 2 N weight hangs at the 20 cm mark. Where must a 3 N weight hang to balance it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At the 80 cm mark"
+        },
+        {
+          "id": "b",
+          "text": "At the 75 cm mark"
+        },
+        {
+          "id": "c",
+          "text": "At the 70 cm mark"
+        },
+        {
+          "id": "d",
+          "text": "At the 60 cm mark"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Clockwise and anticlockwise moments must match: 2 x 30 = 3 x d, so d = 20 cm from the pivot, which is the 70 cm mark. The 80 cm mark is 30 cm from the pivot, so it would over-balance.",
+      "cognitive_patterns": [
+        "Pure Mathematical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q020",
+      "prompt": "If the distance between two masses is doubled, the gravitational force between them becomes",
+      "options": [
+        {
+          "id": "a",
+          "text": "half of its original value"
+        },
+        {
+          "id": "b",
+          "text": "one quarter of its original value"
+        },
+        {
+          "id": "c",
+          "text": "twice its original value"
+        },
+        {
+          "id": "d",
+          "text": "four times its original value"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Newton's law gives a force proportional to 1 / r^2, so doubling r divides the force by 4. A half would apply to an inverse (not inverse-square) law.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Mathematical Proofs"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    }
+  ]
+}
