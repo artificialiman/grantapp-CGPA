@@ -1284,6 +1284,205 @@
       ],
       "difficulty": 4,
       "status": "approved"
+    },
+    {
+      "id": "q041",
+      "prompt": "A boy who swims in a river has terminal haematuria. Urine microscopy shows eggs with a terminal spine. The organism is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schistosoma mansoni"
+        },
+        {
+          "id": "b",
+          "text": "Wuchereria"
+        },
+        {
+          "id": "c",
+          "text": "Trichuris"
+        },
+        {
+          "id": "d",
+          "text": "Schistosoma haematobium"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Terminal haematuria with terminal-spined eggs is characteristic.",
+      "cognitive_patterns": [
+        "Pragmatic"
+      ],
+      "information_types": [
+        "Procedural / supply chain"
+      ],
+      "difficulty": 4,
+      "status": "approved"
+    },
+    {
+      "id": "q042",
+      "prompt": "Only the female Anopheles mosquito transmits malaria.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Only females take blood meals.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q043",
+      "prompt": "Ascaris lumbricoides is acquired by skin penetration of larvae.",
+      "kind": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "It is acquired by swallowing eggs. Hookworm larvae penetrate skin.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 1,
+      "status": "approved"
+    },
+    {
+      "id": "q044",
+      "prompt": "Assertion: Barefoot walking increases the risk of hookworm infection. Reason: Infective larvae penetrate the skin from contaminated soil.",
+      "kind": "assertion_reason",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both the assertion and the reason are true, and the reason is the correct explanation of the assertion"
+        },
+        {
+          "id": "b",
+          "text": "Both the assertion and the reason are true, but the reason is not the correct explanation of the assertion"
+        },
+        {
+          "id": "c",
+          "text": "The assertion is true but the reason is false"
+        },
+        {
+          "id": "d",
+          "text": "The assertion is false but the reason is true"
+        },
+        {
+          "id": "e",
+          "text": "Both the assertion and the reason are false"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Both are true and the reason explains the assertion.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 2,
+      "status": "approved"
+    },
+    {
+      "id": "q045",
+      "prompt": "A ____ host is the host in which a parasite reaches sexual maturity.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ host is the host in which a parasite reaches ____ maturity.",
+        "answers": [
+          "definitive",
+          "sexual"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "intermediate"
+        },
+        {
+          "id": "b",
+          "text": "paratenic"
+        },
+        {
+          "id": "c",
+          "text": "definitive"
+        },
+        {
+          "id": "d",
+          "text": "reservoir"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The intermediate host carries larval or asexual stages.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
+    },
+    {
+      "id": "q046",
+      "prompt": "A ____ is an organism, such as the female Anopheles, that transmits a parasite from one host to another.",
+      "kind": "cloze",
+      "cloze": {
+        "text": "A ____ is an organism, such as the female Anopheles, that ____ a parasite from one host to another.",
+        "answers": [
+          "vector",
+          "transmits"
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "vector"
+        },
+        {
+          "id": "b",
+          "text": "carrier"
+        },
+        {
+          "id": "c",
+          "text": "reservoir"
+        },
+        {
+          "id": "d",
+          "text": "predator"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A biological vector supports development of the parasite.",
+      "cognitive_patterns": [
+        "Logical"
+      ],
+      "information_types": [
+        "Essential / definitive"
+      ],
+      "difficulty": 3,
+      "status": "approved"
     }
   ]
 }
